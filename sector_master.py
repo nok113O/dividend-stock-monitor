@@ -1,4 +1,4 @@
-"""東証業種からセクターと景気区分を決める簡易マスター。"""
+"""業種からセクターと景気区分を決める簡易マスター。"""
 
 SECTOR_MAP = {
     "水産・農林業": ("食品・農林水産", "ディフェンシブ"),
@@ -36,17 +36,33 @@ SECTOR_MAP = {
     "サービス業": ("サービス", "景気敏感"),
 }
 
+ENGLISH_RULES = {
+    "oil & gas": ("資源・エネルギー", "景気敏感"),
+    "energy": ("資源・エネルギー", "景気敏感"),
+    "banks": ("銀行", "景気敏感"),
+    "insurance": ("保険", "景気敏感"),
+    "real estate": ("不動産", "景気敏感"),
+    "chemicals": ("化学", "景気敏感"),
+    "automotive": ("自動車・輸送機器", "景気敏感"),
+    "industrials": ("機械・工業", "景気敏感"),
+    "pharmaceutical": ("医薬品", "ディフェンシブ"),
+    "healthcare": ("ヘルスケア", "ディフェンシブ"),
+    "food": ("食品", "ディフェンシブ"),
+    "beverage": ("食品", "ディフェンシブ"),
+    "telecom": ("情報通信", "ディフェンシブ"),
+    "utilities": ("電力・ガス", "ディフェンシブ"),
+    "consumer defensive": ("生活必需品", "ディフェンシブ"),
+}
+
+
 def classify(industry: str | None) -> tuple[str, str]:
     industry = (industry or "").strip()
     if industry in SECTOR_MAP:
         return SECTOR_MAP[industry]
 
-    # Yahoo側が英語業種を返す場合の簡易対応
     lower = industry.lower()
-    defensive_words = (
-        "pharmaceutical", "drug", "food", "beverage", "utility",
-        "telecom", "consumer defensive", "healthcare"
-    )
-    if any(word in lower for word in defensive_words):
-        return industry or "未分類", "ディフェンシブ"
+    for keyword, result in ENGLISH_RULES.items():
+        if keyword in lower:
+            return result
+
     return industry or "未分類", "景気敏感"

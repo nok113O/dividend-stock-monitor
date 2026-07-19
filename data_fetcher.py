@@ -1,18 +1,28 @@
 from __future__ import annotations
+
+import json
 import re
 import time
-from typing import Any
+from dataclasses import dataclass
+from typing import Any, Iterable
+
 import requests
 from bs4 import BeautifulSoup
 import yfinance as yf
+
 
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) "
         "AppleWebKit/605.1.15 Version/18.0 Mobile/15E148 Safari/604.1"
     ),
-    "Accept-Language": "ja,en-US;q=0.8,en;q=0.6",
+    "Accept-Language": "ja-JP,ja;q=0.9,en-US;q=0.7,en;q=0.6",
+    "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
 }
+
+REQUEST_TIMEOUT = 30
+REQUEST_INTERVAL_SECONDS = 0.8
+
 
 def _float(value: Any, percent: bool = False) -> float | None:
     if value is None:
@@ -25,34 +35,77 @@ def _float(value: Any, percent: bool = False) -> float | None:
     except (TypeError, ValueError):
         return None
 
+
+def _clean_code(code: str) -> str:
+    code = re.sub(r"\D", "", str(code))
+    if len(code) != 4:
+        raise ValueError("銘柄コードは4桁で入力してください。")
+    return code
+
+
+def _session() -> requests.Session:
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    return session
+
+
+def _get(session: requests.Session, url: str, accept_json: bool = False) -> requests.Response:
+    headers = {"Accept": "application/json,text/plain,*/*"} if accept_json else None
+    response = session.get(
+        url,
+        headers=headers,
+        timeout=REQUEST_TIMEOUT,
+        allow_redirects=True,
+    )
+    response.raise_for_status()
+    return response
+
+
 def fetch_yahoo(code: str) -> dict[str, Any]:
-    """yfinance経由でYahoo Finance由来の現在情報を取得。"""
+    """Yahoo Finance由来の現在値をyfinance経由で取得する。"""
     symbol = f"{code}.T"
     ticker = yf.Ticker(symbol)
+    errors: list[str] = []
 
-    # fast_infoは価格取得が比較的軽い。infoは財務指標用。
-    fast = {}
-    info = {}
     try:
         fast = dict(ticker.fast_info)
-    except Exception:
+    except Exception as exc:
         fast = {}
+        errors.append(f"fast_info: {exc}")
+
     try:
         info = ticker.info or {}
-    except Exception:
+    except Exception as exc:
         info = {}
+        errors.append(f"info: {exc}")
 
     price = (
         _float(fast.get("last_price"))
         or _float(info.get("currentPrice"))
         or _float(info.get("regularMarketPrice"))
+        or _float(info.get("previousClose"))
     )
     dividend_rate = _float(info.get("dividendRate"))
     dividend_yield = _float(info.get("dividendYield"), percent=True)
-
-    # dividendYieldが欠ける場合は予想配当÷株価
     if dividend_yield is None and price and dividend_rate is not None:
         dividend_yield = dividend_rate / price * 100
+
+    equity_ratio = None
+    try:
+        bs = ticker.quarterly_balance_sheet
+        if not bs.empty and len(bs.columns):
+            col = bs.columns[0]
+            assets = _float(bs.loc["Total Assets", col]) if "Total Assets" in bs.index else None
+            equity = None
+            for key in ("Stockholders Equity", "Total Equity Gross Minority Interest"):
+                if key in bs.index:
+                    equity = _float(bs.loc[key, col])
+                    if equity is not None:
+                        break
+            if assets and equity is not None:
+                equity_ratio = equity / assets * 100
+    except Exception as exc:
+        errors.append(f"balance_sheet: {exc}")
 
     return {
         "code": code,
@@ -66,148 +119,350 @@ def fetch_yahoo(code: str) -> dict[str, Any]:
         "pbr": _float(info.get("priceToBook")),
         "roe": _float(info.get("returnOnEquity"), percent=True),
         "roa": _float(info.get("returnOnAssets"), percent=True),
-        "equity_ratio": None,  # IR BANKで補完
+        "equity_ratio": equity_ratio,
         "market_cap": _float(fast.get("market_cap")) or _float(info.get("marketCap")),
         "yahoo_url": f"https://finance.yahoo.co.jp/quote/{symbol}",
+        "yahoo_status": "取得成功" if (price is not None or bool(info)) else "取得失敗",
+        "yahoo_error": " / ".join(errors) if errors else None,
     }
 
-def _get(url: str) -> requests.Response:
-    response = requests.get(url, headers=HEADERS, timeout=25, allow_redirects=True)
-    response.raise_for_status()
-    return response
 
-def resolve_irbank_company(code: str) -> tuple[str, str]:
-    """
-    https://irbank.net/8058 にアクセスし、リダイレクト後のEDINET企業IDを取得。
-    戻り値: (企業IDまたはコード, 最終URL)
-    """
-    response = _get(f"https://irbank.net/{code}")
+def resolve_irbank_company(session: requests.Session, code: str) -> tuple[str, str]:
+    response = _get(session, f"https://irbank.net/{code}")
     match = re.search(r"irbank\.net/(E\d+)", response.url)
     company_id = match.group(1) if match else code
     return company_id, response.url
 
-def _parse_number(text: str) -> float | None:
-    text = text.replace(",", "").replace("−", "-").replace("▲", "-")
-    m = re.search(r"(-?\d+(?:\.\d+)?)\s*円", text)
-    if not m:
-        m = re.search(r"(-?\d+(?:\.\d+)?)", text)
-    return float(m.group(1)) if m else None
 
-def _extract_series_from_text(text: str, heading: str) -> list[float]:
-    """
-    IR BANK結果ページのテキストから、指定見出し直後の年次値を抽出。
-    次の主要見出しまでを対象にする。ページ変更時は要修正。
-    """
-    normalized = "\n".join(line.strip() for line in text.splitlines() if line.strip())
-    start = normalized.find(f"\n{heading}\n")
-    if start < 0 and normalized.startswith(f"{heading}\n"):
-        start = 0
-    if start < 0:
-        return []
-
-    section = normalized[start + len(heading) + 1:]
-    stop_headings = [
-        "売上高", "営業利益", "経常利益", "純利益", "包括利益",
-        "ROE", "ROA", "BPS", "EPS", "配当", "配当性向",
-        "自己資本比率", "営業CF", "投資CF", "財務CF"
-    ]
-    stops = []
-    for h in stop_headings:
-        if h == heading:
-            continue
-        pos = section.find(f"\n{h}\n")
-        if 0 <= pos < 12000:
-            stops.append(pos)
-    if stops:
-        section = section[:min(stops)]
-
-    lines = section.splitlines()
-    values: list[float] = []
-    # 年度行の直後数行にある「xx円」を拾う
-    for i, line in enumerate(lines):
-        if re.search(r"20\d{2}/\d{2}", line) or re.search(r"20\d{2}年\d{1,2}月", line):
-            window = " ".join(lines[i:i+4])
-            value = _parse_number(window)
-            if value is not None:
-                values.append(value)
-
-    # 重複を軽く除去（順序維持）
-    cleaned = []
-    for v in values:
-        if not cleaned or v != cleaned[-1]:
-            cleaned.append(v)
-    return cleaned
-
-def _find_percent(text: str, labels: list[str]) -> float | None:
-    for label in labels:
-        patterns = [
-            rf"{re.escape(label)}[^\d\-]{{0,40}}(-?\d+(?:\.\d+)?)\s*%",
-            rf"{re.escape(label)}.*?\n.*?(-?\d+(?:\.\d+)?)\s*%",
-        ]
-        for pattern in patterns:
-            m = re.search(pattern, text, re.S)
-            if m:
-                return float(m.group(1))
+def _parse_market_cap_yen(text: str) -> float | None:
+    text = text.replace(",", "")
+    cho = re.search(r"時価総額.*?(\d+(?:\.\d+)?)兆(?:円|)(\d+(?:\.\d+)?)?億?", text, re.S)
+    if cho:
+        trillion = float(cho.group(1))
+        oku = float(cho.group(2) or 0)
+        return trillion * 1_000_000_000_000 + oku * 100_000_000
+    oku = re.search(r"時価総額.*?(\d+(?:\.\d+)?)億(?:円|)", text, re.S)
+    if oku:
+        return float(oku.group(1)) * 100_000_000
     return None
 
-def fetch_irbank(code: str) -> dict[str, Any]:
-    company_id, company_url = resolve_irbank_company(code)
-    results_url = f"https://irbank.net/{company_id}/results"
-    response = _get(results_url)
+
+def _first_number_after(text: str, labels: Iterable[str], suffix: str) -> float | None:
+    for label in labels:
+        pattern = rf"{re.escape(label)}[^\d\-]{{0,80}}(-?\d+(?:\.\d+)?)\s*{re.escape(suffix)}"
+        match = re.search(pattern, text, re.S)
+        if match:
+            return float(match.group(1))
+    return None
+
+
+def fetch_irbank_quote(session: requests.Session, code: str) -> dict[str, Any]:
+    """
+    IR BANK企業ページからStep1補完値を取得。
+    yfinanceで欠けた場合の補完に使用する。
+    """
+    response = _get(session, f"https://irbank.net/{code}")
     soup = BeautifulSoup(response.text, "lxml")
     text = soup.get_text("\n", strip=True)
-
-    eps = _extract_series_from_text(text, "EPS")
-    bps = _extract_series_from_text(text, "BPS")
-
-    # 配当見出しは企業により「1株配当」「配当」等の差がある
-    dividends = _extract_series_from_text(text, "1株配当")
-    if not dividends:
-        dividends = _extract_series_from_text(text, "配当")
-
-    equity_ratio = _find_percent(text, ["自己資本比率", "株主資本比率"])
-    roa = _find_percent(text, ["ROA"])
-
     return {
-        "company_id": company_id,
-        "company_url": company_url,
-        "results_url": results_url,
-        "eps": eps,
-        "bps": bps,
-        "dividends": dividends,
-        "equity_ratio": equity_ratio,
-        "roa": roa,
+        "per": _first_number_after(text, ["PER（連）予", "PER 予", "PER（連）"], "倍"),
+        "pbr": _first_number_after(text, ["PBR（連）", "PBR"], "倍"),
+        "dividend_yield": _first_number_after(text, ["配当利回り 予", "配当 予"], "%"),
+        "roe": _first_number_after(text, ["ROE（連）予", "ROE 予", "ROE（連）"], "%"),
+        "roa": _first_number_after(text, ["ROA（連）予", "ROA 予", "ROA（連）"], "%"),
+        "equity_ratio": _first_number_after(
+            text, ["株主資本比率（連）", "自己資本比率", "株主資本比率"], "%"
+        ),
+        "market_cap": _parse_market_cap_yen(text),
+        "irbank_quote_url": response.url,
     }
 
+
+def _year_token(line: str) -> str | None:
+    match = re.search(r"(20\d{2}/\d{2}|20\d{2}年\d{1,2}月|20\d{2}/\d{1,2})", line)
+    return match.group(1) if match else None
+
+
+def _yen_value(line: str) -> float | None:
+    cleaned = (
+        line.replace(",", "")
+        .replace("−", "-")
+        .replace("▲", "-")
+        .replace("△", "-")
+        .replace("*", "")
+    )
+    match = re.search(r"(-?\d+(?:\.\d+)?)\s*円", cleaned)
+    return float(match.group(1)) if match else None
+
+
+def parse_irbank_series_from_text(text: str, heading_names: list[str]) -> list[dict[str, Any]]:
+    """
+    IR BANKの決算まとめページ本文を、見出し単位で解析する。
+    h2構造が変わっても、プレーンテキストの「見出し→年度→円」の並びを利用して復旧する。
+    """
+    lines = [re.sub(r"\s+", " ", line).strip() for line in text.splitlines() if line.strip()]
+    start = None
+    for i, line in enumerate(lines):
+        normalized = re.sub(r"#\d+", "", line).strip()
+        if normalized in heading_names:
+            start = i + 1
+            break
+    if start is None:
+        return []
+
+    rows: list[dict[str, Any]] = []
+    pending_year: str | None = None
+
+    for line in lines[start:]:
+        normalized = re.sub(r"#\d+", "", line).strip()
+
+        # 次のセクション見出し
+        if normalized.startswith("## ") or normalized.startswith("# "):
+            break
+        # HTML get_textでは#は付かないので、既知の見出し風行も停止条件にする
+        if (
+            normalized in {
+                "ROE（自己資本利益率）", "ROA（総資産利益率）", "営業利益",
+                "経常利益", "売上高", "配当金の支払額", "純資産配当率",
+                "自社株買い", "総還元額", "総還元性向", "キャッシュ・フローの推移"
+            }
+            and normalized not in heading_names
+        ):
+            break
+
+        year = _year_token(normalized)
+        value = _yen_value(normalized)
+
+        if year:
+            pending_year = year
+            # 同一行に値がある表形式にも対応
+            tail = normalized[normalized.find(year) + len(year):]
+            same_line_value = _yen_value(tail)
+            if same_line_value is not None:
+                rows.append({"year": pending_year, "value": same_line_value})
+                pending_year = None
+            continue
+
+        if pending_year is not None and value is not None:
+            rows.append({"year": pending_year, "value": value})
+            pending_year = None
+
+    # 同じ年度が重複した場合は後勝ち
+    dedup: dict[str, float] = {}
+    for row in rows:
+        dedup[row["year"]] = row["value"]
+    return [{"year": year, "value": value} for year, value in dedup.items()]
+
+
+def parse_irbank_series_from_html(html: str) -> dict[str, list[dict[str, Any]]]:
+    soup = BeautifulSoup(html, "lxml")
+    text = soup.get_text("\n", strip=True)
+    return {
+        "eps": parse_irbank_series_from_text(text, ["EPS"]),
+        "bps": parse_irbank_series_from_text(text, ["BPS"]),
+        "dividends": parse_irbank_series_from_text(text, ["一株配当", "1株配当"]),
+    }
+
+
+def _flatten_json(obj: Any, path: str = "") -> list[tuple[str, Any]]:
+    flattened: list[tuple[str, Any]] = []
+    if isinstance(obj, dict):
+        for key, value in obj.items():
+            next_path = f"{path}.{key}" if path else str(key)
+            flattened.extend(_flatten_json(value, next_path))
+    elif isinstance(obj, list):
+        for index, value in enumerate(obj):
+            flattened.extend(_flatten_json(value, f"{path}[{index}]"))
+    else:
+        flattened.append((path, obj))
+    return flattened
+
+
+def _extract_rows_from_json(payload: Any, aliases: list[str]) -> list[dict[str, Any]]:
+    """
+    IR BANK JSONの構造差を吸収する汎用抽出。
+    年度キーと対象項目名が含まれる値を探索する。
+    """
+    aliases_lower = [alias.lower() for alias in aliases]
+    rows: dict[str, float] = {}
+
+    def walk(obj: Any, inherited_year: str | None = None, inherited_key: str = "") -> None:
+        if isinstance(obj, dict):
+            year = inherited_year
+            for key, value in obj.items():
+                if isinstance(value, str):
+                    found = _year_token(value)
+                    if found:
+                        year = found
+                found_key_year = _year_token(str(key))
+                if found_key_year:
+                    year = found_key_year
+
+            for key, value in obj.items():
+                key_text = str(key).lower()
+                target = any(alias in key_text for alias in aliases_lower)
+                if target:
+                    numeric = None
+                    if isinstance(value, (int, float)):
+                        numeric = float(value)
+                    elif isinstance(value, str):
+                        numeric = _yen_value(value)
+                        if numeric is None:
+                            try:
+                                numeric = float(value.replace(",", "").replace("*", ""))
+                            except Exception:
+                                pass
+                    elif isinstance(value, dict):
+                        for candidate in ("value", "amount", "val", "current"):
+                            if candidate in value:
+                                try:
+                                    numeric = float(str(value[candidate]).replace(",", "").replace("*", ""))
+                                    break
+                                except Exception:
+                                    continue
+                    if year and numeric is not None:
+                        rows[year] = numeric
+                walk(value, year, key_text)
+
+        elif isinstance(obj, list):
+            for item in obj:
+                walk(item, inherited_year, inherited_key)
+
+    walk(payload)
+    return [{"year": year, "value": value} for year, value in rows.items()]
+
+
+def fetch_irbank_json(session: requests.Session, code: str) -> dict[str, list[dict[str, Any]]]:
+    urls = {
+        "all": f"https://f.irbank.net/files/{code}/fy-data-all.json",
+        "pl": f"https://f.irbank.net/files/{code}/fy-profit-and-loss.json",
+        "dividend": f"https://f.irbank.net/files/{code}/fy-stock-dividend.json",
+        "balance": f"https://f.irbank.net/files/{code}/fy-balance-sheet.json",
+    }
+    payloads: dict[str, Any] = {}
+    for key, url in urls.items():
+        try:
+            time.sleep(REQUEST_INTERVAL_SECONDS)
+            response = _get(session, url, accept_json=True)
+            content_type = response.headers.get("content-type", "")
+            if "json" not in content_type.lower() and not response.text.lstrip().startswith(("{", "[")):
+                continue
+            payloads[key] = response.json()
+        except Exception:
+            continue
+
+    eps = []
+    bps = []
+    dividends = []
+
+    for payload in payloads.values():
+        if not eps:
+            eps = _extract_rows_from_json(payload, ["eps", "earningspershare", "一株利益"])
+        if not bps:
+            bps = _extract_rows_from_json(payload, ["bps", "bookvaluepershare", "一株純資産"])
+        if not dividends:
+            dividends = _extract_rows_from_json(
+                payload, ["dividendpershare", "annualdividendpershare", "一株配当", "配当"]
+            )
+    return {"eps": eps, "bps": bps, "dividends": dividends}
+
+
+def _sort_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    def key(row: dict[str, Any]) -> tuple[int, int]:
+        match = re.search(r"(20\d{2})[/年](\d{1,2})", str(row.get("year", "")))
+        if not match:
+            return (0, 0)
+        return int(match.group(1)), int(match.group(2))
+    return sorted(rows, key=key)
+
+
+def _merge_rows(primary: list[dict[str, Any]], fallback: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    merged: dict[str, float] = {}
+    for row in fallback:
+        merged[str(row["year"])] = float(row["value"])
+    for row in primary:
+        merged[str(row["year"])] = float(row["value"])
+    return _sort_rows([{"year": year, "value": value} for year, value in merged.items()])
+
+
+def fetch_irbank_history(session: requests.Session, code: str, company_id: str) -> dict[str, Any]:
+    json_data = fetch_irbank_json(session, code)
+
+    results_url = f"https://irbank.net/{company_id}/results"
+    html_error = None
+    html_data = {"eps": [], "bps": [], "dividends": []}
+    try:
+        response = _get(session, results_url)
+        html_data = parse_irbank_series_from_html(response.text)
+    except Exception as exc:
+        html_error = str(exc)
+
+    eps_rows = _merge_rows(json_data.get("eps", []), html_data.get("eps", []))
+    bps_rows = _merge_rows(json_data.get("bps", []), html_data.get("bps", []))
+    dividend_rows = _merge_rows(json_data.get("dividends", []), html_data.get("dividends", []))
+
+    status_parts = []
+    if json_data.get("eps") or json_data.get("bps") or json_data.get("dividends"):
+        status_parts.append("JSON")
+    if html_data.get("eps") or html_data.get("bps") or html_data.get("dividends"):
+        status_parts.append("HTML")
+    source = "＋".join(status_parts) if status_parts else "取得失敗"
+
+    minimum = min(len(eps_rows), len(bps_rows), len(dividend_rows))
+    status = f"{source}／最少{minimum}期"
+    return {
+        "eps_rows": eps_rows,
+        "bps_rows": bps_rows,
+        "dividend_rows": dividend_rows,
+        "eps": [row["value"] for row in eps_rows],
+        "bps": [row["value"] for row in bps_rows],
+        "dividends": [row["value"] for row in dividend_rows],
+        "results_url": results_url,
+        "irbank_status": status,
+        "irbank_error": html_error if source == "取得失敗" else None,
+    }
+
+
 def fetch_all(code: str) -> dict[str, Any]:
-    code = re.sub(r"\D", "", code)
-    if len(code) != 4:
-        raise ValueError("銘柄コードは4桁で入力してください。")
+    code = _clean_code(code)
+    session = _session()
 
     yahoo = fetch_yahoo(code)
+
+    company_id = code
+    company_url = f"https://irbank.net/{code}"
     irbank_error = None
     try:
-        irbank = fetch_irbank(code)
+        company_id, company_url = resolve_irbank_company(session, code)
     except Exception as exc:
-        irbank = {
-            "eps": [], "bps": [], "dividends": [],
-            "equity_ratio": None, "roa": None,
-            "company_url": f"https://irbank.net/{code}",
-            "results_url": f"https://irbank.net/{code}",
-        }
-        irbank_error = str(exc)
+        irbank_error = f"企業ページ: {exc}"
 
-    if yahoo.get("equity_ratio") is None:
-        yahoo["equity_ratio"] = irbank.get("equity_ratio")
-    if yahoo.get("roa") is None:
-        yahoo["roa"] = irbank.get("roa")
+    quote = {}
+    try:
+        quote = fetch_irbank_quote(session, code)
+    except Exception as exc:
+        irbank_error = f"{irbank_error or ''} 指標: {exc}".strip()
+
+    history = {
+        "eps_rows": [], "bps_rows": [], "dividend_rows": [],
+        "eps": [], "bps": [], "dividends": [],
+        "results_url": f"https://irbank.net/{company_id}/results",
+        "irbank_status": "取得失敗", "irbank_error": None,
+    }
+    try:
+        history = fetch_irbank_history(session, code, company_id)
+    except Exception as exc:
+        history["irbank_error"] = str(exc)
+
+    # IR BANKを補完元として利用。Yahoo値がある場合はYahooを優先。
+    for key in ("per", "pbr", "roe", "roa", "equity_ratio", "market_cap", "dividend_yield"):
+        if yahoo.get(key) is None and quote.get(key) is not None:
+            yahoo[key] = quote[key]
 
     return {
         **yahoo,
-        "eps": irbank.get("eps", []),
-        "bps": irbank.get("bps", []),
-        "dividends": irbank.get("dividends", []),
-        "irbank_url": irbank.get("company_url"),
-        "irbank_results_url": irbank.get("results_url"),
-        "irbank_error": irbank_error,
+        **history,
+        "irbank_url": company_url,
+        "irbank_results_url": history.get("results_url"),
+        "irbank_error": history.get("irbank_error") or irbank_error,
     }
