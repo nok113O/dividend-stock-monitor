@@ -1,8 +1,6 @@
 from __future__ import annotations
 
 from datetime import datetime
-from io import BytesIO
-import hashlib
 import time
 import pandas as pd
 import streamlit as st
@@ -136,19 +134,12 @@ uploaded = st.file_uploader(
     type=["xlsx"],
     help="前回ダウンロードしたExcel、または初期テンプレートを選択します。",
 )
-if "loaded_excel_hash" not in st.session_state:
-    st.session_state.loaded_excel_hash = None
-
 if uploaded is not None:
     try:
-        uploaded_bytes = uploaded.getvalue()
-        uploaded_hash = hashlib.sha256(uploaded_bytes).hexdigest()
-        if uploaded_hash != st.session_state.loaded_excel_hash:
-            watchlist, history = read_workbook(BytesIO(uploaded_bytes))
-            st.session_state.watchlist = watchlist
-            st.session_state.history = history
-            st.session_state.loaded_excel_hash = uploaded_hash
-            st.success(f"読込完了：監視銘柄 {len(watchlist)}件／履歴 {len(history)}行")
+        watchlist, history = read_workbook(uploaded)
+        st.session_state.watchlist = watchlist
+        st.session_state.history = history
+        st.success(f"読込完了：監視銘柄 {len(watchlist)}件／履歴 {len(history)}行")
     except Exception as exc:
         st.error(str(exc))
 
