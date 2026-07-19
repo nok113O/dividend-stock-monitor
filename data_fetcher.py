@@ -3,11 +3,13 @@ from __future__ import annotations
 import json
 import re
 import time
+from io import StringIO
 from dataclasses import dataclass
 from typing import Any, Iterable
 
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
 import yfinance as yf
 
 
@@ -385,43 +387,145 @@ def _merge_rows(primary: list[dict[str, Any]], fallback: list[dict[str, Any]]) -
     return _sort_rows([{"year": year, "value": value} for year, value in merged.items()])
 
 
-def fetch_irbank_history(session: requests.Session, code: str, company_id: str) -> dict[str, Any]:
-    json_data = fetch_irbank_json(session, code)
 
+def _flatten_columns(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+    if isinstance(df.columns, pd.MultiIndex):
+        df.columns = [
+            " ".join(str(part) for part in col if str(part) != "nan").strip()
+            for col in df.columns
+        ]
+    else:
+        df.columns = [str(col).strip() for col in df.columns]
+    return df
+
+
+def _clean_numeric(value: Any) -> float | None:
+    if value is None:
+        return None
+    raw = str(value).replace(",", "").replace("円", "").replace("*", "").strip()
+    raw = raw.replace("−", "-").replace("▲", "-").replace("△", "-")
+    if raw in {"", "-", "—", "nan", "None"}:
+        return None
+    match = re.search(r"-?\d+(?:\.\d+)?", raw)
+    return float(match.group(0)) if match else None
+
+
+def _normalize_year(value: Any) -> str | None:
+    raw = str(value).strip()
+    match = re.search(r"(20\d{2})[年/](\d{1,2})", raw)
+    if not match:
+        return None
+    return f"{match.group(1)}/{int(match.group(2)):02d}"
+
+
+def fetch_valuation_history(session: requests.Session, company_id: str) -> dict[str, list[dict[str, Any]]]:
+    url = f"https://irbank.net/{company_id}/valuation"
+    response = _get(session, url)
+    tables = pd.read_html(StringIO(response.text))
+    eps_rows, bps_rows = [], []
+    for raw_df in tables:
+        df = _flatten_columns(raw_df)
+        joined = " ".join(df.columns)
+        if "EPS" not in joined or "BPS" not in joined:
+            continue
+        year_col = next((c for c in df.columns if "年度" in c), df.columns[0])
+        eps_col = next((c for c in df.columns if "EPS" in c), None)
+        bps_col = next((c for c in df.columns if "BPS" in c), None)
+        if eps_col is None or bps_col is None:
+            continue
+        for _, row in df.iterrows():
+            year = _normalize_year(row.get(year_col))
+            if not year:
+                continue
+            eps = _clean_numeric(row.get(eps_col))
+            bps = _clean_numeric(row.get(bps_col))
+            if eps is not None:
+                eps_rows.append({"year": year, "value": eps})
+            if bps is not None:
+                bps_rows.append({"year": year, "value": bps})
+        if eps_rows or bps_rows:
+            break
+    return {"eps": _sort_rows(eps_rows), "bps": _sort_rows(bps_rows), "url": url}
+
+
+def fetch_dividend_history(session: requests.Session, company_id: str) -> dict[str, Any]:
+    url = f"https://irbank.net/{company_id}/dividend"
+    response = _get(session, url)
+    tables = pd.read_html(StringIO(response.text))
+    candidates = {}
+    priority = {"実績": 3, "修正": 2, "予想": 1}
+    for raw_df in tables:
+        df = _flatten_columns(raw_df)
+        cols = list(df.columns)
+        joined = " ".join(cols)
+        if "年度" not in joined or "区分" not in joined:
+            continue
+        year_col = next((c for c in cols if "年度" in c), cols[0])
+        type_col = next((c for c in cols if "区分" in c), None)
+        adjusted_col = next((c for c in cols if "調整" in c and "配当" in c), None)
+        total_col = next((c for c in cols if "合計" in c and "利回り" not in c), None)
+        value_col = adjusted_col or total_col
+        if type_col is None or value_col is None:
+            continue
+        for _, row in df.iterrows():
+            year = _normalize_year(row.get(year_col))
+            kind = str(row.get(type_col, '')).strip()
+            value = _clean_numeric(row.get(value_col))
+            if not year or value is None:
+                continue
+            rank = priority.get(kind, 0)
+            if year not in candidates or rank > candidates[year][0]:
+                candidates[year] = (rank, value)
+        if candidates:
+            break
+    rows = [{"year": y, "value": rv[1]} for y, rv in candidates.items()]
+    return {"dividends": _sort_rows(rows), "url": url}
+
+
+def fetch_irbank_history(session: requests.Session, code: str, company_id: str) -> dict[str, Any]:
+    valuation_error = dividend_error = None
+    valuation = {"eps": [], "bps": [], "url": f"https://irbank.net/{company_id}/valuation"}
+    dividend = {"dividends": [], "url": f"https://irbank.net/{company_id}/dividend"}
+    try:
+        valuation = fetch_valuation_history(session, company_id)
+    except Exception as exc:
+        valuation_error = str(exc)
+    try:
+        time.sleep(REQUEST_INTERVAL_SECONDS)
+        dividend = fetch_dividend_history(session, company_id)
+    except Exception as exc:
+        dividend_error = str(exc)
+    json_data = {"eps": [], "bps": [], "dividends": []}
+    try:
+        json_data = fetch_irbank_json(session, code)
+    except Exception:
+        pass
     results_url = f"https://irbank.net/{company_id}/results"
-    html_error = None
     html_data = {"eps": [], "bps": [], "dividends": []}
     try:
         response = _get(session, results_url)
         html_data = parse_irbank_series_from_html(response.text)
-    except Exception as exc:
-        html_error = str(exc)
-
-    eps_rows = _merge_rows(json_data.get("eps", []), html_data.get("eps", []))
-    bps_rows = _merge_rows(json_data.get("bps", []), html_data.get("bps", []))
-    dividend_rows = _merge_rows(json_data.get("dividends", []), html_data.get("dividends", []))
-
-    status_parts = []
-    if json_data.get("eps") or json_data.get("bps") or json_data.get("dividends"):
-        status_parts.append("JSON")
-    if html_data.get("eps") or html_data.get("bps") or html_data.get("dividends"):
-        status_parts.append("HTML")
-    source = "＋".join(status_parts) if status_parts else "取得失敗"
-
+    except Exception:
+        pass
+    eps_rows = _merge_rows(valuation.get("eps", []), _merge_rows(json_data.get("eps", []), html_data.get("eps", [])))
+    bps_rows = _merge_rows(valuation.get("bps", []), _merge_rows(json_data.get("bps", []), html_data.get("bps", [])))
+    dividend_rows = _merge_rows(dividend.get("dividends", []), _merge_rows(json_data.get("dividends", []), html_data.get("dividends", [])))
     minimum = min(len(eps_rows), len(bps_rows), len(dividend_rows))
-    status = f"{source}／最少{minimum}期"
+    errors = [x for x in (valuation_error, dividend_error) if x]
     return {
         "eps_rows": eps_rows,
         "bps_rows": bps_rows,
         "dividend_rows": dividend_rows,
-        "eps": [row["value"] for row in eps_rows],
-        "bps": [row["value"] for row in bps_rows],
-        "dividends": [row["value"] for row in dividend_rows],
+        "eps": [r["value"] for r in eps_rows],
+        "bps": [r["value"] for r in bps_rows],
+        "dividends": [r["value"] for r in dividend_rows],
         "results_url": results_url,
-        "irbank_status": status,
-        "irbank_error": html_error if source == "取得失敗" else None,
+        "valuation_url": valuation.get("url"),
+        "dividend_url": dividend.get("url"),
+        "irbank_status": f"valuation:{len(eps_rows)}期／dividend:{len(dividend_rows)}期／最少{minimum}期",
+        "irbank_error": " / ".join(errors) if errors else None,
     }
-
 
 def fetch_all(code: str) -> dict[str, Any]:
     code = _clean_code(code)

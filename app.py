@@ -27,7 +27,7 @@ from storage import (
 
 
 st.set_page_config(
-    page_title="高配当株監視ツール Ver.3.0",
+    page_title="高配当株監視ツール Ver.3.1",
     page_icon="📈",
     layout="wide",
 )
@@ -212,7 +212,7 @@ def build_watchlist_row(data: dict, result: dict, lines: dict) -> dict:
     }
 
 
-st.title("高配当株監視ツール Ver.3.0")
+st.title("高配当株監視ツール Ver.3.1")
 st.caption(
     "銘柄コード入力、Step1～3判定、3段階買いライン、監視リスト更新までを一画面で行います。"
 )
