@@ -1,25 +1,43 @@
-# 高配当株監視ツール Ver.3.2
+# 高配当株監視ツール Ver.4.0
 
-Ver.3.1でもIR BANKの過去10期が0件になる問題に対する修正版です。
+## 採用方式
 
-## 修正内容
+- 初回の過去10期：Excelに確定保存
+- 以後の新しい決算：J-Quants API V2 Freeで追加
+- 常に銘柄ごとの最新10期を維持
+- IR BANKへの自動アクセスは完全削除
 
-- `pandas.read_html`への依存を廃止
-- `/valuation`本文から年度・EPS・BPSを正規表現で直接抽出
-- `/dividend`本文を年度ブロックごとに解析
-- 配当は「実績 > 修正 > 予想」の順で採用
-- データ取得状態にHTTP状態と直接一致件数を表示
+## API
 
-## 更新するファイル
+- 上場銘柄一覧: `/v2/equities/master`
+- 株価四本値: `/v2/equities/bars/daily`
+- 財務情報: `/v2/fins/summary`
+- 認証: `x-api-key`
 
-- `data_fetcher.py`
-- `app.py`
-- `README.md`
+Streamlit Secrets:
+```toml
+JQUANTS_API_KEY = "..."
+```
 
-## 正常時の表示例
+## GitHubへ上書きするファイル
 
-- `EPS:17期／BPS:16期／配当:17期／最少16期`
-- `valuation HTTP=200, 直接一致=17／dividend HTTP=200, 直接一致=17`
+- app.py
+- analyzer.py
+- jquants_client.py
+- workbook_io.py
+- sector_master.py
+- requirements.txt
+- README.md
 
-HTTPが403や429の場合は、IR BANKがStreamlit Cloudからの接続を制限しています。
-その場合はコード解析では解決できず、別のデータ取得方式へ変更する必要があります。
+旧`data_fetcher.py`と`storage.py`は使用しません。残っていても動作には影響しません。
+
+## 運用
+
+1. 初期テンプレートExcelの「10期履歴」に過去10期を登録
+2. アプリへExcelをアップロード
+3. 銘柄コードを分析・更新
+4. 監視リストへ保存
+5. 更新済みExcelをダウンロード
+6. 次回はそのExcelをアップロード
+
+Excelが正本です。
