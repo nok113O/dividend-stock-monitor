@@ -7,19 +7,20 @@ import streamlit as st
 
 from analyzer import (
     analyze_step1, analyze_step2, buy_zone, calculate_step3,
-    latest_close, latest_summary, make_comment, merge_new_fy,
-    overall_rating, select_forecast_dividend, step1_metrics,
+    latest_summary, make_comment, merge_new_fy,
+    overall_rating, step1_metrics,
 )
 from jquants_client import JQuantsClient, JQuantsError
+from market_data import current_market_data
 from sector_master import classify
 from workbook_io import (
     empty_history, empty_watchlist, normalize_watchlist,
     read_workbook, to_excel_bytes,
 )
 
-st.set_page_config(page_title="高配当株監視ツール Ver.4.0", page_icon="📈", layout="wide")
-st.title("高配当株監視ツール Ver.4.0")
-st.caption("初期10期Excel＋J-Quants Freeで、最新10期を維持します。IR BANKへの自動接続は行いません。")
+st.set_page_config(page_title="高配当株監視ツール Ver.4.1", page_icon="📈", layout="wide")
+st.title("高配当株監視ツール Ver.4.1")
+st.caption("現在株価はYahoo! Finance、財務更新はJ-Quants Free。初期Excelを正本として最新10期を維持します。")
 
 def api_key() -> str:
     try:
@@ -42,12 +43,34 @@ def get_old(code: str) -> dict:
 def update_one(code: str) -> tuple[dict, dict]:
     client = JQuantsClient(api_key(), min_interval_seconds=1.2)
     master = client.master(code)
-    bars = client.daily_bars(code)
+    # Freeプランは直近約12週間の株価を取得できないため、現在株価はYahoo! Financeを使用
+    market = current_market_data(code)
     summaries = client.financial_summary(code)
 
-    price, price_date = latest_close(bars)
+    price = market.get("price")
+    price_date = market.get("price_date")
     latest = latest_summary(summaries)
     metrics = step1_metrics(price, latest)
+
+    # J-Quants財務で欠ける現在指標をYahoo! Financeで補完
+    if metrics.get("PER") is None:
+        metrics["PER"] = market.get("trailing_pe")
+    if metrics.get("PBR") is None:
+        metrics["PBR"] = market.get("price_to_book")
+    if metrics.get("ROE") is None and market.get("roe") is not None:
+        metrics["ROE"] = float(market["roe"]) * 100
+    if metrics.get("ROA") is None and market.get("roa") is not None:
+        metrics["ROA"] = float(market["roa"]) * 100
+    if metrics.get("時価総額（億円）") is None and market.get("market_cap") is not None:
+        metrics["時価総額（億円）"] = float(market["market_cap"]) / 100_000_000
+    if metrics.get("予想年間配当") is None and market.get("dividend_rate") is not None:
+        metrics["予想年間配当"] = float(market["dividend_rate"])
+    if metrics.get("配当利回り") is None:
+        if metrics.get("予想年間配当") is not None and price:
+            metrics["配当利回り"] = metrics["予想年間配当"] / price * 100
+        elif market.get("dividend_yield") is not None:
+            y = float(market["dividend_yield"])
+            metrics["配当利回り"] = y * 100 if abs(y) <= 1 else y
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     st.session_state.history = merge_new_fy(

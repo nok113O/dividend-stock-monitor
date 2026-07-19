@@ -54,7 +54,11 @@ class JQuantsClient:
             try:
                 response.raise_for_status()
             except requests.HTTPError as exc:
-                raise JQuantsError(f"J-Quants取得エラー: HTTP {response.status_code}") from exc
+                detail = response.text[:500].strip()
+                raise JQuantsError(
+                    f"J-Quants取得エラー: HTTP {response.status_code} / "
+                    f"{path} / {detail or '詳細なし'}"
+                ) from exc
 
             payload = response.json()
             rows = payload.get("data", [])
