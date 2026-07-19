@@ -1,67 +1,37 @@
-# 高配当株監視ツール Ver.1.0
+# 高配当株監視ツール Ver.2.0
 
-銘柄コードを入力すると、Yahoo!ファイナンス由来の現在情報とIR BANKの長期情報を取得し、
-Step1～3を判定するStreamlitアプリです。
+## Ver.2.0の主な改善
 
-## できること
+- Step1の実績値・基準・○×を一覧表示
+- Step2の過去10期EPS・BPS・1株配当を表示
+- Step3「過去10期EPS合計＋最新BPS」を自動計算
+- Yahoo!ファイナンス系／IR BANKの取得状態を表示
+- ×項目だけ簡潔な所感を生成
+- 監視リストにStep1の各指標も保存
+- 3段階の目標利回り・目標株価を更新時も維持
+- Excelバックアップのアップロード復元に対応
+- 現在のGitHub配置に合わせ、ルートのwatchlist.csvも使用可能
 
-- 銘柄コード（4桁）の入力
-- 基本情報、セクター、景気敏感／ディフェンシブ分類
-- Step1の各項目を○×判定
-- Step2の過去10期推移を○×判定
-- Step3目標株価の計算
-- ×項目の簡易所感
-- 3段階の目標利回り・目標株価の手入力
-- 監視リストへの追加・更新
-- Excelダウンロード
+## Ver.1.0からの更新
 
-## GitHubへアップロードするファイル
-
-ZIPを解凍し、フォルダの「中身」をすべてGitHubへアップロードしてください。
+GitHubの既存リポジトリで、次のファイルをVer.2.0のものへ置き換えます。
 
 - app.py
 - analyzer.py
 - data_fetcher.py
-- sector_master.py
 - storage.py
 - requirements.txt
 - README.md
-- data/watchlist.csv
 
-GitHubの空のリポジトリ画面で
-`uploading an existing file` → ファイル選択 → `Commit changes`
-の順に操作します。
+`sector_master.py`は同梱版で上書きして構いません。
+現在の監視データを残したい場合、`watchlist.csv`は上書きしないでください。
 
-## Streamlit Community Cloud
+GitHubへコミットすると、Streamlit Community Cloudへ通常は自動反映されます。
+反映しない場合はアプリの `Manage app` から再起動してください。
 
-1. Streamlit Community CloudへGitHubでログイン
-2. `Create app` または `New app`
-3. Repository：作成したGitHubリポジトリ
-4. Branch：`main`
-5. Main file path：`app.py`
-6. `Deploy`
+## 注意
 
-## 重要な注意
-
-### 1. データ取得
-Yahoo!ファイナンスの現在情報は `yfinance` を利用します。
-IR BANKは公開ページを読み取ります。サイトの仕様変更で取得できなくなる場合があります。
-
-### 2. 10期データ
-取得できた年次データのうち、新しい方から10期を使用します。
-予想値が含まれる場合があります。画面のリンクから元サイトで照合してください。
-
-### 3. 保存
-Streamlit Community Cloudのローカルファイル保存は永続性が保証されません。
-監視リスト更新後は必ずExcelをダウンロードしてください。
-永続保存は次版でGoogle SheetsまたはSupabase連携を追加できます。
-
-### 4. 投資判断
-本ツールは判定補助です。会社IR、決算短信、有価証券報告書も確認してください。
-
-## ローカル実行（任意）
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+- yfinanceはYahoo Finance由来のデータを利用します。
+- IR BANKは公開ページの構造を読み取るため、ページ変更で取得不能になる場合があります。
+- Streamlit Community Cloudのローカル保存は永続性が保証されません。
+- 監視リスト更新後はExcelをダウンロードしてください。
