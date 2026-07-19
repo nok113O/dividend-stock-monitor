@@ -4,7 +4,7 @@ from io import BytesIO
 import pandas as pd
 
 WATCHLIST_COLUMNS = [
-    "コード", "銘柄名", "業種", "セクター", "景気区分",
+    "コード", "銘柄名", "業種", "セクター", "景気区分", "景気敏感判定理由",
     "現在株価", "株価日", "予想年間配当", "現在利回り",
     "PER", "PBR", "ROE", "ROA", "自己資本比率", "時価総額（億円）",
     "Step1", "Step2", "過去10期EPS合計", "最新BPS", "Step3目標株価",

@@ -12,15 +12,16 @@ from analyzer import (
 )
 from jquants_client import JQuantsClient, JQuantsError
 from market_data import current_market_data
+from target_yield_engine import calculate_targets, purchase_price, status as purchase_status
 from sector_master import classify
 from workbook_io import (
     empty_history, empty_watchlist, normalize_watchlist,
     read_workbook, to_excel_bytes,
 )
 
-st.set_page_config(page_title="高配当株監視ツール Ver.4.1", page_icon="📈", layout="wide")
-st.title("高配当株監視ツール Ver.4.1")
-st.caption("現在株価はYahoo! Finance、財務更新はJ-Quants Free。初期Excelを正本として最新10期を維持します。")
+st.set_page_config(page_title="高配当株監視ツール Ver.5.0", page_icon="📈", layout="wide")
+st.title("高配当株監視ツール Ver.5.0")
+st.caption("銘柄追加時に目標利回りを一度だけ自動算定し、通常更新では予想配当・株価・買付株価だけを更新します。")
 
 def api_key() -> str:
     try:
@@ -39,6 +40,19 @@ def get_old(code: str) -> dict:
         return {}
     hit = df[df["コード"].astype(str).str.zfill(4) == code]
     return hit.iloc[0].to_dict() if not hit.empty else {}
+
+
+def history_arrays(code: str) -> tuple[list[float], list[float]]:
+    df = st.session_state.history.copy()
+    if df.empty:
+        return [], []
+    df["コード"] = df["コード"].astype(str).str.replace(r"\.0$", "", regex=True).str.zfill(4)
+    hit = df[df["コード"] == code].copy()
+    hit["決算期"] = pd.to_datetime(hit["決算期"], errors="coerce")
+    hit = hit.sort_values("決算期").tail(10)
+    eps = pd.to_numeric(hit["EPS"], errors="coerce").dropna().tolist()
+    divs = pd.to_numeric(hit["1株配当"], errors="coerce").dropna().tolist()
+    return eps, divs
 
 def update_one(code: str) -> tuple[dict, dict]:
     client = JQuantsClient(api_key(), min_interval_seconds=1.2)
@@ -204,16 +218,53 @@ with tab1:
         st.write(result["comment"])
 
         old = get_old(data["code"])
+        forecast_dividend = metrics.get("予想年間配当")
+
+        # 目標利回りは銘柄追加時のみ自動算定。保存済みなら再計算しない。
+        has_saved_targets = all(
+            old.get(k) not in (None, "", 0, 0.0)
+            for k in ("第1目標利回り", "第2目標利回り", "第3目標利回り")
+        )
+        auto_reason = old.get("景気敏感判定理由") or ""
+        if not has_saved_targets:
+            try:
+                eps_hist, div_hist = history_arrays(data["code"])
+                targets = calculate_targets(
+                    data["code"],
+                    master.get("S33Nm"),
+                    eps_history=eps_hist,
+                    dividend_history=div_hist,
+                )
+                auto_y1, auto_y2, auto_y3 = targets.target1, targets.target2, targets.target3
+                auto_reason = targets.reason
+                st.success(
+                    f"目標利回りを初回算定しました："
+                    f"{auto_y1:.2f}%／{auto_y2:.2f}%／{auto_y3:.2f}% "
+                    f"（{targets.cycle_class}、日次{targets.sample_daily}件＋年次{targets.sample_annual}件）"
+                )
+            except Exception as exc:
+                auto_y1 = auto_y2 = auto_y3 = 0.0
+                st.warning(f"目標利回りの自動算定に失敗しました：{exc}")
+        else:
+            auto_y1 = float(old.get("第1目標利回り") or 0)
+            auto_y2 = float(old.get("第2目標利回り") or 0)
+            auto_y3 = float(old.get("第3目標利回り") or 0)
+            st.info("保存済みの目標利回りを使用します。通常更新では再計算しません。")
+
+        auto_p1 = purchase_price(forecast_dividend, auto_y1) or 0.0
+        auto_p2 = purchase_price(forecast_dividend, auto_y2) or 0.0
+        auto_p3 = purchase_price(forecast_dividend, auto_y3) or 0.0
+
         with st.form(f"save_{data['code']}"):
             x1, x2 = st.columns(2)
-            y1 = x1.number_input("第1目標利回り（%）", min_value=0.0, step=0.01, value=float(old.get("第1目標利回り") or 0))
-            p1 = x2.number_input("第1目標株価（円）", min_value=0.0, step=1.0, value=float(old.get("第1目標株価") or 0))
+            y1 = x1.number_input("第1目標利回り（%）", min_value=0.0, step=0.01, value=float(auto_y1))
+            p1 = x2.number_input("第1目標株価（円）", min_value=0.0, step=1.0, value=float(auto_p1))
             x3, x4 = st.columns(2)
-            y2 = x3.number_input("第2目標利回り（%）", min_value=0.0, step=0.01, value=float(old.get("第2目標利回り") or 0))
-            p2 = x4.number_input("第2目標株価（円）", min_value=0.0, step=1.0, value=float(old.get("第2目標株価") or 0))
+            y2 = x3.number_input("第2目標利回り（%）", min_value=0.0, step=0.01, value=float(auto_y2))
+            p2 = x4.number_input("第2目標株価（円）", min_value=0.0, step=1.0, value=float(auto_p2))
             x5, x6 = st.columns(2)
-            y3 = x5.number_input("第3目標利回り（%）", min_value=0.0, step=0.01, value=float(old.get("第3目標利回り") or 0))
-            p3 = x6.number_input("第3目標株価（円）", min_value=0.0, step=1.0, value=float(old.get("第3目標株価") or 0))
+            y3 = x5.number_input("第3目標利回り（%）", min_value=0.0, step=0.01, value=float(auto_y3))
+            p3 = x6.number_input("第3目標株価（円）", min_value=0.0, step=1.0, value=float(auto_p3))
             save = st.form_submit_button("監視リストへ保存", type="primary")
 
         if save:
@@ -224,6 +275,7 @@ with tab1:
                 "業種": master.get("S33Nm"),
                 "セクター": data["sector"],
                 "景気区分": data["cycle"],
+                "景気敏感判定理由": auto_reason,
                 "現在株価": data["price"],
                 "株価日": data["price_date"],
                 "予想年間配当": metrics["予想年間配当"],
@@ -240,7 +292,7 @@ with tab1:
                 "最新BPS": result["step3"]["latest_bps"],
                 "Step3目標株価": result["step3"]["target_price"],
                 "総合判定": result["rating"],
-                "買い場判定": buy_zone(data["price"], targets),
+                "買い場判定": purchase_status(data["price"], p1 or None, p2 or None, p3 or None),
                 "第1目標利回り": y1 or None, "第1目標株価": p1 or None,
                 "第2目標利回り": y2 or None, "第2目標株価": p2 or None,
                 "第3目標利回り": y3 or None, "第3目標株価": p3 or None,
@@ -278,12 +330,14 @@ with tab3:
                 try:
                     data, result = update_one(current_code)
                     old = get_old(current_code)
-                    targets = [
-                        old.get("第1目標株価"),
-                        old.get("第2目標株価"),
-                        old.get("第3目標株価"),
-                    ]
                     metrics = data["metrics"]
+                    saved_y1 = old.get("第1目標利回り")
+                    saved_y2 = old.get("第2目標利回り")
+                    saved_y3 = old.get("第3目標利回り")
+                    latest_dividend = metrics.get("予想年間配当")
+                    recalculated_p1 = purchase_price(latest_dividend, saved_y1)
+                    recalculated_p2 = purchase_price(latest_dividend, saved_y2)
+                    recalculated_p3 = purchase_price(latest_dividend, saved_y3)
                     row = {
                         **old,
                         "コード": current_code,
@@ -305,7 +359,12 @@ with tab3:
                         "最新BPS": result["step3"]["latest_bps"],
                         "Step3目標株価": result["step3"]["target_price"],
                         "総合判定": result["rating"],
-                        "買い場判定": buy_zone(data["price"], targets),
+                        "第1目標株価": recalculated_p1,
+                        "第2目標株価": recalculated_p2,
+                        "第3目標株価": recalculated_p3,
+                        "買い場判定": purchase_status(
+                            data["price"], recalculated_p1, recalculated_p2, recalculated_p3
+                        ),
                         "所感": result["comment"],
                         "最終更新": datetime.now().strftime("%Y-%m-%d %H:%M"),
                     }
