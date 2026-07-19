@@ -27,7 +27,7 @@ from storage import (
 
 
 st.set_page_config(
-    page_title="高配当株監視ツール Ver.3.1",
+    page_title="高配当株監視ツール Ver.3.2",
     page_icon="📈",
     layout="wide",
 )
@@ -114,6 +114,8 @@ def display_analysis(data: dict, result: dict) -> None:
             hide_index=True,
             use_container_width=True,
         )
+        if data.get("irbank_debug"):
+            st.caption(f"IR BANK診断：{data['irbank_debug']}")
         if data.get("irbank_error"):
             st.caption(f"IR BANK取得メモ：{data['irbank_error']}")
 
@@ -212,7 +214,7 @@ def build_watchlist_row(data: dict, result: dict, lines: dict) -> dict:
     }
 
 
-st.title("高配当株監視ツール Ver.3.1")
+st.title("高配当株監視ツール Ver.3.2")
 st.caption(
     "銘柄コード入力、Step1～3判定、3段階買いライン、監視リスト更新までを一画面で行います。"
 )

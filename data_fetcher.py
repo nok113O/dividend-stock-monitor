@@ -419,70 +419,119 @@ def _normalize_year(value: Any) -> str | None:
     return f"{match.group(1)}/{int(match.group(2)):02d}"
 
 
-def fetch_valuation_history(session: requests.Session, company_id: str) -> dict[str, list[dict[str, Any]]]:
+def fetch_valuation_history(
+    session: requests.Session,
+    company_id: str,
+) -> dict[str, list[dict[str, Any]]]:
+    """
+    IR BANK /valuation の本文から「年度 EPS BPS」の3項目を直接抽出する。
+    pandas.read_htmlやHTMLの列構造には依存しない。
+    """
     url = f"https://irbank.net/{company_id}/valuation"
     response = _get(session, url)
-    tables = pd.read_html(StringIO(response.text))
-    eps_rows, bps_rows = [], []
-    for raw_df in tables:
-        df = _flatten_columns(raw_df)
-        joined = " ".join(df.columns)
-        if "EPS" not in joined or "BPS" not in joined:
-            continue
-        year_col = next((c for c in df.columns if "年度" in c), df.columns[0])
-        eps_col = next((c for c in df.columns if "EPS" in c), None)
-        bps_col = next((c for c in df.columns if "BPS" in c), None)
-        if eps_col is None or bps_col is None:
-            continue
-        for _, row in df.iterrows():
-            year = _normalize_year(row.get(year_col))
-            if not year:
-                continue
-            eps = _clean_numeric(row.get(eps_col))
-            bps = _clean_numeric(row.get(bps_col))
-            if eps is not None:
-                eps_rows.append({"year": year, "value": eps})
-            if bps is not None:
-                bps_rows.append({"year": year, "value": bps})
-        if eps_rows or bps_rows:
-            break
-    return {"eps": _sort_rows(eps_rows), "bps": _sort_rows(bps_rows), "url": url}
+    soup = BeautifulSoup(response.text, "lxml")
+    plain = re.sub(r"\s+", " ", soup.get_text(" ", strip=True))
+
+    # 例: 2024/12 345.31 円 4026.22 円
+    pattern = re.compile(
+        r"(20\d{2}/\d{1,2})\s*"
+        r"(-?\d+(?:\.\d+)?)\s*円\s*"
+        r"(-?\d+(?:\.\d+)?)\s*円"
+    )
+
+    eps_rows: list[dict[str, Any]] = []
+    bps_rows: list[dict[str, Any]] = []
+    for year, eps, bps in pattern.findall(plain):
+        normalized_year = _normalize_year(year)
+        if normalized_year:
+            eps_rows.append({"year": normalized_year, "value": float(eps)})
+            bps_rows.append({"year": normalized_year, "value": float(bps)})
+
+    # テーブル末尾の予想EPSはBPSが「-」のため別に拾う。
+    forecast_pattern = re.compile(
+        r"(20\d{2}/\d{1,2})\s*"
+        r"(-?\d+(?:\.\d+)?)\s*円\s*-\s*(?=EPS|##|開示資料|$)"
+    )
+    for year, eps in forecast_pattern.findall(plain):
+        normalized_year = _normalize_year(year)
+        if normalized_year and not any(row["year"] == normalized_year for row in eps_rows):
+            eps_rows.append({"year": normalized_year, "value": float(eps)})
+
+    return {
+        "eps": _sort_rows(eps_rows),
+        "bps": _sort_rows(bps_rows),
+        "url": url,
+        "http_status": response.status_code,
+        "matched_rows": len(eps_rows),
+    }
 
 
-def fetch_dividend_history(session: requests.Session, company_id: str) -> dict[str, Any]:
+def _last_number_before_percent(row_text: str) -> float | None:
+    """
+    配当表の1行から「分割調整配当」を取得。
+    IR BANKでは利回り（%）の直前に分割調整後の年間配当が置かれる。
+    """
+    cleaned = row_text.replace(",", "").replace("#", " ")
+    percent_match = re.search(r"\d+(?:\.\d+)?\s*%", cleaned)
+    before_percent = cleaned[:percent_match.start()] if percent_match else cleaned
+    numbers = re.findall(r"-?\d+(?:\.\d+)?", before_percent)
+    return float(numbers[-1]) if numbers else None
+
+
+def fetch_dividend_history(
+    session: requests.Session,
+    company_id: str,
+) -> dict[str, Any]:
+    """
+    IR BANK /dividend の本文を年度ブロック単位で解析する。
+    実績 > 修正 > 予想の順で採用し、利回り直前の分割調整配当を使う。
+    """
     url = f"https://irbank.net/{company_id}/dividend"
     response = _get(session, url)
-    tables = pd.read_html(StringIO(response.text))
-    candidates = {}
+    soup = BeautifulSoup(response.text, "lxml")
+    plain = re.sub(r"\s+", " ", soup.get_text(" ", strip=True))
+
+    table_start = plain.find("配当金の状況")
+    table_end = plain.find("配当利回り", table_start + 1)
+    table_text = plain[table_start:table_end] if table_start >= 0 and table_end > table_start else plain
+
+    year_matches = list(re.finditer(r"(20\d{2})年", table_text))
+    candidates: dict[str, tuple[int, float]] = {}
     priority = {"実績": 3, "修正": 2, "予想": 1}
-    for raw_df in tables:
-        df = _flatten_columns(raw_df)
-        cols = list(df.columns)
-        joined = " ".join(cols)
-        if "年度" not in joined or "区分" not in joined:
+
+    for index, match in enumerate(year_matches):
+        year = match.group(1)
+        block_end = year_matches[index + 1].start() if index + 1 < len(year_matches) else len(table_text)
+        block = table_text[match.end():block_end]
+
+        month_match = re.search(r"(\d{1,2})月", block)
+        if not month_match:
             continue
-        year_col = next((c for c in cols if "年度" in c), cols[0])
-        type_col = next((c for c in cols if "区分" in c), None)
-        adjusted_col = next((c for c in cols if "調整" in c and "配当" in c), None)
-        total_col = next((c for c in cols if "合計" in c and "利回り" not in c), None)
-        value_col = adjusted_col or total_col
-        if type_col is None or value_col is None:
-            continue
-        for _, row in df.iterrows():
-            year = _normalize_year(row.get(year_col))
-            kind = str(row.get(type_col, '')).strip()
-            value = _clean_numeric(row.get(value_col))
-            if not year or value is None:
+        month = int(month_match.group(1))
+        fiscal_year = f"{year}/{month:02d}"
+
+        row_matches = list(re.finditer(r"(実績|修正|予想)", block))
+        for row_index, row_match in enumerate(row_matches):
+            kind = row_match.group(1)
+            row_end = row_matches[row_index + 1].start() if row_index + 1 < len(row_matches) else len(block)
+            row_text = block[row_match.end():row_end]
+            value = _last_number_before_percent(row_text)
+            if value is None:
                 continue
-            rank = priority.get(kind, 0)
-            if year not in candidates or rank > candidates[year][0]:
-                candidates[year] = (rank, value)
-        if candidates:
-            break
-    rows = [{"year": y, "value": rv[1]} for y, rv in candidates.items()]
-    return {"dividends": _sort_rows(rows), "url": url}
+            rank = priority[kind]
+            if fiscal_year not in candidates or rank > candidates[fiscal_year][0]:
+                candidates[fiscal_year] = (rank, value)
 
-
+    rows = [
+        {"year": year, "value": rank_value[1]}
+        for year, rank_value in candidates.items()
+    ]
+    return {
+        "dividends": _sort_rows(rows),
+        "url": url,
+        "http_status": response.status_code,
+        "matched_rows": len(rows),
+    }
 def fetch_irbank_history(session: requests.Session, code: str, company_id: str) -> dict[str, Any]:
     valuation_error = dividend_error = None
     valuation = {"eps": [], "bps": [], "url": f"https://irbank.net/{company_id}/valuation"}
@@ -523,7 +572,16 @@ def fetch_irbank_history(session: requests.Session, code: str, company_id: str) 
         "results_url": results_url,
         "valuation_url": valuation.get("url"),
         "dividend_url": dividend.get("url"),
-        "irbank_status": f"valuation:{len(eps_rows)}期／dividend:{len(dividend_rows)}期／最少{minimum}期",
+        "irbank_status": (
+            f"EPS:{len(eps_rows)}期／BPS:{len(bps_rows)}期／"
+            f"配当:{len(dividend_rows)}期／最少{minimum}期"
+        ),
+        "irbank_debug": (
+            f"valuation HTTP={valuation.get('http_status', '-')}, "
+            f"直接一致={valuation.get('matched_rows', 0)}／"
+            f"dividend HTTP={dividend.get('http_status', '-')}, "
+            f"直接一致={dividend.get('matched_rows', 0)}"
+        ),
         "irbank_error": " / ".join(errors) if errors else None,
     }
 
