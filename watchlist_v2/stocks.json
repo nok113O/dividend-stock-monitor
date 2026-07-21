@@ -1,0 +1,32 @@
+{
+  "artifact_url": "https://claude.ai/code/artifact/d3ec115c-ba5a-4dd4-a568-8e62b2022116",
+  "last_updated": "2026-07-21",
+  "stocks": [
+    {
+      "code": "8306",
+      "name": "三菱UFJフィナンシャル・グループ",
+      "price": 3580.0,
+      "price_change": 107.0,
+      "price_change_pct": 3.08,
+      "price_as_of": "2026-07-21 15:30 JST",
+      "forecast_dividend": 74.0,
+      "forecast_dividend_fy": "2026年3月期",
+      "dividend_yield_pct": 2.07,
+      "consecutive_dividend_increases": 5,
+      "note": "2026年3月期は前期比+10円の年間74円を予想。10年で5回増配、直近増配率34.4%。"
+    },
+    {
+      "code": "9433",
+      "name": "KDDI",
+      "price": 2852.5,
+      "price_change": 17.5,
+      "price_change_pct": 0.62,
+      "price_as_of": "2026-07-15 JST",
+      "forecast_dividend": 84.0,
+      "forecast_dividend_fy": "2027年3月期",
+      "dividend_yield_pct": 2.94,
+      "consecutive_dividend_increases": 25,
+      "note": "2027年3月期は前期比+4円の年間84円（中間42円・期末42円）を予想。配当性向43.6%。"
+    }
+  ]
+}
