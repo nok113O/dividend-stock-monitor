@@ -154,22 +154,40 @@ CSS = """
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     font-variant-numeric: tabular-nums; color: var(--ink-dim);
   }
-  .target-grid {
-    margin-top: 10px; display: grid; grid-template-columns: repeat(3, 1fr);
-    border-top: 1px dashed var(--rule); padding-top: 10px;
+  .tabs { margin-top: 10px; border-top: 1px dashed var(--rule); padding-top: 10px; }
+  .tab-radio { position: absolute; opacity: 0; pointer-events: none; }
+  .tab-labels { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+  .tab-btn {
+    text-align: center; font-size: 0.72rem; padding: 6px 4px; border-radius: 8px;
+    background: var(--paper-sunken); color: var(--ink-dim); cursor: pointer;
+    border: 1.5px solid transparent; transition: border-color 0.15s ease;
   }
-  .target-col { text-align: center; padding: 0 4px; border-left: 1px dashed var(--rule); }
-  .target-col:first-child { border-left: none; }
-  .target-label { font-size: 0.68rem; color: var(--ink-dim); }
-  .target-crit { display: block; font-size: 0.62rem; }
+  .tab-btn.reached { background: var(--green-soft); color: var(--green); font-weight: 600; }
+  .tab-panel { display: none; text-align: center; padding-top: 12px; }
+  .target-crit { display: block; font-size: 0.68rem; color: var(--ink-dim); }
   .target-yield {
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-variant-numeric: tabular-nums; font-size: 1rem; font-weight: 600;
-    color: var(--indigo); margin-top: 3px;
+    font-variant-numeric: tabular-nums; font-size: 1.3rem; font-weight: 600;
+    color: var(--indigo); margin-top: 4px;
   }
   .target-price {
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-variant-numeric: tabular-nums; font-size: 0.76rem; color: var(--ink-dim); margin-top: 1px;
+    font-variant-numeric: tabular-nums; font-size: 0.8rem; color: var(--ink-dim); margin-top: 2px;
+  }
+  .target-status {
+    display: inline-block; margin-top: 6px; font-size: 0.68rem; font-weight: 600;
+    padding: 1px 9px; border-radius: 999px; background: var(--paper-sunken); color: var(--ink-dim);
+  }
+  .target-status.reached { background: var(--green-soft); color: var(--green); }
+  .card .tabs input.tab-radio:nth-of-type(1):checked ~ .tab-labels label:nth-of-type(1),
+  .card .tabs input.tab-radio:nth-of-type(2):checked ~ .tab-labels label:nth-of-type(2),
+  .card .tabs input.tab-radio:nth-of-type(3):checked ~ .tab-labels label:nth-of-type(3) {
+    border-color: var(--indigo);
+  }
+  .card .tabs input.tab-radio:nth-of-type(1):checked ~ .panel-1,
+  .card .tabs input.tab-radio:nth-of-type(2):checked ~ .panel-2,
+  .card .tabs input.tab-radio:nth-of-type(3):checked ~ .panel-3 {
+    display: block;
   }
   .comment { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--rule); font-size: 0.78rem; line-height: 1.6; }
   .comment .label { display: inline-block; font-size: 0.66rem; color: var(--ink-dim); letter-spacing: 0.03em; margin-bottom: 3px; }
@@ -285,7 +303,7 @@ def render_step3(step3: dict) -> str:
     )
 
 
-def render_target_yield(ty: dict) -> str:
+def render_target_yield(code: str, current_price, ty: dict) -> str:
     if ty.get("error") or ty.get("target1_pct") is None:
         return (
             '<div class="step">'
@@ -296,18 +314,48 @@ def render_target_yield(ty: dict) -> str:
         )
     status = ty.get("buy_status", "要確認")
     status_cls = "pass" if "買い" in status and status != "監視" else "pending"
-    cols = [
+    tiers = [
         ("①第1買い", "85%/75%", ty["target1_pct"], ty["buy1_price"]),
         ("②第2買い", "92.5%/85%", ty["target2_pct"], ty["buy2_price"]),
         ("③第3買い", "97.5%/95%", ty["target3_pct"], ty["buy3_price"]),
     ]
-    col_html = "".join(
-        '<div class="target-col">'
-        f'<div class="target-label">{label}<span class="target-crit">{crit}</span></div>'
-        f'<div class="target-yield">{fmt_num(pct, 2)}%</div>'
-        f'<div class="target-price">{fmt_num(price, 0) if price is not None else "―"}円</div>'
-        "</div>"
-        for label, crit, pct, price in cols
+    reached = [
+        current_price is not None and buy_price is not None and current_price <= buy_price
+        for _, _, _, buy_price in tiers
+    ]
+    # デフォルトで開くタブ：到達している中で最も深い段階（未到達なら①）
+    default_open = 1
+    for i, r in enumerate(reached, start=1):
+        if r:
+            default_open = i
+
+    group = f"ty-{code}"
+    radios = "".join(
+        f'<input type="radio" class="tab-radio" name="{group}" id="{group}-{i}"'
+        f'{" checked" if i == default_open else ""}>'
+        for i in range(1, 4)
+    )
+    tab_labels = "".join(
+        f'<label for="{group}-{i}" class="tab-btn{" reached" if reached[i-1] else ""}">{tiers[i-1][0]}</label>'
+        for i in range(1, 4)
+    )
+    def render_panel(i: int, label: str, crit: str, pct, buy_price) -> str:
+        is_reached = reached[i - 1]
+        price_text = fmt_num(buy_price, 0) if buy_price is not None else "―"
+        status_text = "到達済み" if is_reached else "未到達"
+        status_cls2 = "reached" if is_reached else ""
+        return (
+            f'<div class="tab-panel panel-{i}">'
+            f'<div class="target-crit">正規分布 {crit}</div>'
+            f'<div class="target-yield">{fmt_num(pct, 2)}%</div>'
+            f"<div class=\"target-price\">買付株価 {price_text}円</div>"
+            f'<div class="target-status {status_cls2}">{status_text}</div>'
+            "</div>"
+        )
+
+    panels = "".join(
+        render_panel(i, label, crit, pct, buy_price)
+        for i, (label, crit, pct, buy_price) in enumerate(tiers, start=1)
     )
     return (
         '<div class="step">'
@@ -315,7 +363,7 @@ def render_target_yield(ty: dict) -> str:
         '<div class="step-name">目標配当利回り（正規分布モデル）</div>'
         f'<div class="step-sub">{esc(ty.get("cycle_class"))}／{esc(ty.get("reason"))}</div>'
         f'</div><span class="chip {status_cls} lg">{status}</span></div>'
-        f'<div class="target-grid">{col_html}</div>'
+        f'<div class="tabs">{radios}<div class="tab-labels">{tab_labels}</div>{panels}</div>'
         f'<div class="step-sub" style="margin-top:8px;">サンプル：日次{ty.get("sample_daily", 0)}件／年次{ty.get("sample_annual", 0)}件（3年TTM＋10年年次）</div>'
         "</div>"
     )
@@ -364,7 +412,7 @@ def render_card(stock: dict) -> str:
         f'{render_step1(stock["step1"])}'
         f'{render_step2(stock["step2"])}'
         f'{render_step3(stock["step3"])}'
-        f'{render_target_yield(stock.get("target_yield", {}))}'
+        f'{render_target_yield(stock["code"], price, stock.get("target_yield", {}))}'
         f'<div class="comment"><span class="label">所感</span><br>{stock["comment"]}</div>'
         f'<div class="asof">株価取得：{esc(stock.get("price_date"))} JST／財務：J-Quants API</div>'
         "</div>"
