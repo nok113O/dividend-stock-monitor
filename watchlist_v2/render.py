@@ -189,6 +189,33 @@ CSS = """
   .card .tabs input.tab-radio:nth-of-type(3):checked ~ .panel-3 {
     display: block;
   }
+
+  .section-tabs { margin-top: 14px; }
+  .section-tab-bar {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
+  }
+  .section-tab-btn {
+    text-align: center; font-size: 0.7rem; font-weight: 600; padding: 8px 3px;
+    border-radius: 9px; cursor: pointer; border: 1.5px solid transparent;
+    background: var(--paper-sunken); color: var(--ink-dim);
+    transition: border-color 0.15s ease;
+  }
+  .section-tab-btn.pass { background: var(--green-soft); color: var(--green); }
+  .section-tab-btn.fail { background: var(--hanko-soft); color: var(--hanko); }
+  .section-panel { display: none; }
+  .section-panel .step:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+  .card .section-tabs input.tab-radio:nth-of-type(1):checked ~ .section-tab-bar label:nth-of-type(1),
+  .card .section-tabs input.tab-radio:nth-of-type(2):checked ~ .section-tab-bar label:nth-of-type(2),
+  .card .section-tabs input.tab-radio:nth-of-type(3):checked ~ .section-tab-bar label:nth-of-type(3),
+  .card .section-tabs input.tab-radio:nth-of-type(4):checked ~ .section-tab-bar label:nth-of-type(4) {
+    border-color: var(--indigo);
+  }
+  .card .section-tabs input.tab-radio:nth-of-type(1):checked ~ .sp-1,
+  .card .section-tabs input.tab-radio:nth-of-type(2):checked ~ .sp-2,
+  .card .section-tabs input.tab-radio:nth-of-type(3):checked ~ .sp-3,
+  .card .section-tabs input.tab-radio:nth-of-type(4):checked ~ .sp-4 {
+    display: block;
+  }
   .comment { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--rule); font-size: 0.78rem; line-height: 1.6; }
   .comment .label { display: inline-block; font-size: 0.66rem; color: var(--ink-dim); letter-spacing: 0.03em; margin-bottom: 3px; }
   .asof { margin-top: 12px; font-size: 0.68rem; color: var(--ink-dim); font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
@@ -369,6 +396,40 @@ def render_target_yield(code: str, current_price, ty: dict) -> str:
     )
 
 
+def judge_class(judge: str) -> str:
+    return {"○": "pass", "×": "fail"}.get(judge, "pending")
+
+
+def render_section_tabs(code: str, stock: dict, price) -> str:
+    step1, step2, step3 = stock["step1"], stock["step2"], stock["step3"]
+    ty = stock.get("target_yield", {})
+    buy_status = ty.get("buy_status", "要確認")
+    ty_cls = "pass" if "買い" in buy_status and buy_status != "監視" else "pending"
+
+    sections = [
+        ("第1段階", judge_class(step1["overall"]), render_step1(step1)),
+        ("第2段階", judge_class(step2["overall"]), render_step2(step2)),
+        ("第3段階", "pass" if step3.get("target_price") is not None else "pending", render_step3(step3)),
+        ("目標利回り", ty_cls, render_target_yield(code, price, ty)),
+    ]
+
+    group = f"sec-{code}"
+    radios = "".join(
+        f'<input type="radio" class="tab-radio" name="{group}" id="{group}-{i}"'
+        f'{" checked" if i == 1 else ""}>'
+        for i in range(1, len(sections) + 1)
+    )
+    tab_bar = "".join(
+        f'<label for="{group}-{i}" class="section-tab-btn {cls}">{label}</label>'
+        for i, (label, cls, _) in enumerate(sections, start=1)
+    )
+    panels = "".join(
+        f'<div class="section-panel sp-{i}">{html}</div>'
+        for i, (_, _, html) in enumerate(sections, start=1)
+    )
+    return f'<div class="section-tabs">{radios}<div class="section-tab-bar">{tab_bar}</div>{panels}</div>'
+
+
 def render_card(stock: dict) -> str:
     price = stock.get("price")
     price_text = fmt_num(price, 1) if price is not None else "取得不可"
@@ -409,10 +470,7 @@ def render_card(stock: dict) -> str:
         f'<div class="stat"><div class="label">総合判定</div><div class="value">{stock["rating"]}</div></div>'
         "</div>"
         f"{override_html}"
-        f'{render_step1(stock["step1"])}'
-        f'{render_step2(stock["step2"])}'
-        f'{render_step3(stock["step3"])}'
-        f'{render_target_yield(stock["code"], price, stock.get("target_yield", {}))}'
+        f'{render_section_tabs(stock["code"], stock, price)}'
         f'<div class="comment"><span class="label">所感</span><br>{stock["comment"]}</div>'
         f'<div class="asof">株価取得：{esc(stock.get("price_date"))} JST／財務：J-Quants API</div>'
         "</div>"
