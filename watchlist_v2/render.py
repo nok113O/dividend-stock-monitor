@@ -99,6 +99,16 @@ CSS = """
     font-family: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
     font-size: 1.15rem; font-weight: 600; margin: 6px 0 0; text-wrap: balance;
   }
+  .meta-line { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
+  .sector-pill {
+    font-size: 0.68rem; color: var(--ink-dim); background: var(--paper-sunken);
+    padding: 2px 8px; border-radius: 999px;
+  }
+  .cycle-pill {
+    font-size: 0.68rem; font-weight: 600; padding: 2px 8px; border-radius: 999px;
+  }
+  .cycle-pill.cyclical { color: var(--hanko); background: var(--hanko-soft); }
+  .cycle-pill.defensive { color: var(--green); background: var(--green-soft); }
   .price-block { text-align: right; }
   .price {
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
@@ -454,11 +464,25 @@ def render_card(stock: dict) -> str:
         else ""
     )
 
+    sector = stock.get("sector")
+    cycle = stock.get("cycle")
+    cycle_cls = "cyclical" if cycle == "景気敏感" else "defensive"
+    meta_html = (
+        '<div class="meta-line">'
+        f'<span class="sector-pill">{esc(sector)}</span>'
+        f'<span class="cycle-pill {cycle_cls}">{esc(cycle)}</span>'
+        "</div>"
+        if sector or cycle
+        else ""
+    )
+
     return (
         '<div class="card">'
         '<div class="card-top"><div>'
         f'<span class="code">{stock["code"]}</span>'
-        f'<div class="name">{stock["name"]}</div></div>'
+        f'<div class="name">{stock["name"]}</div>'
+        f"{meta_html}"
+        "</div>"
         '<div class="price-block">'
         f'<div class="price">{price_text}<span style="font-size:0.75rem;font-weight:500;"> 円</span></div>'
         f"{delta_html}</div></div>"
