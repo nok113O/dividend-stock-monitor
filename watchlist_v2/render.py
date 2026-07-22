@@ -154,6 +154,23 @@ CSS = """
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     font-variant-numeric: tabular-nums; color: var(--ink-dim);
   }
+  .target-grid {
+    margin-top: 10px; display: grid; grid-template-columns: repeat(3, 1fr);
+    border-top: 1px dashed var(--rule); padding-top: 10px;
+  }
+  .target-col { text-align: center; padding: 0 4px; border-left: 1px dashed var(--rule); }
+  .target-col:first-child { border-left: none; }
+  .target-label { font-size: 0.68rem; color: var(--ink-dim); }
+  .target-crit { display: block; font-size: 0.62rem; }
+  .target-yield {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-variant-numeric: tabular-nums; font-size: 1rem; font-weight: 600;
+    color: var(--indigo); margin-top: 3px;
+  }
+  .target-price {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-variant-numeric: tabular-nums; font-size: 0.76rem; color: var(--ink-dim); margin-top: 1px;
+  }
   .comment { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--rule); font-size: 0.78rem; line-height: 1.6; }
   .comment .label { display: inline-block; font-size: 0.66rem; color: var(--ink-dim); letter-spacing: 0.03em; margin-bottom: 3px; }
   .asof { margin-top: 12px; font-size: 0.68rem; color: var(--ink-dim); font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
@@ -268,6 +285,42 @@ def render_step3(step3: dict) -> str:
     )
 
 
+def render_target_yield(ty: dict) -> str:
+    if ty.get("error") or ty.get("target1_pct") is None:
+        return (
+            '<div class="step">'
+            '<div class="step-head"><div class="step-name">目標配当利回り（正規分布モデル）</div>'
+            f'{chip("要確認", "lg")}</div>'
+            f'<div class="data-gap"><strong>算定不可：</strong>{esc(ty.get("error")) or "データ不足"}</div>'
+            "</div>"
+        )
+    status = ty.get("buy_status", "要確認")
+    status_cls = "pass" if "買い" in status and status != "監視" else "pending"
+    cols = [
+        ("①第1買い", "85%/75%", ty["target1_pct"], ty["buy1_price"]),
+        ("②第2買い", "92.5%/85%", ty["target2_pct"], ty["buy2_price"]),
+        ("③第3買い", "97.5%/95%", ty["target3_pct"], ty["buy3_price"]),
+    ]
+    col_html = "".join(
+        '<div class="target-col">'
+        f'<div class="target-label">{label}<span class="target-crit">{crit}</span></div>'
+        f'<div class="target-yield">{fmt_num(pct, 2)}%</div>'
+        f'<div class="target-price">{fmt_num(price, 0) if price is not None else "―"}円</div>'
+        "</div>"
+        for label, crit, pct, price in cols
+    )
+    return (
+        '<div class="step">'
+        '<div class="step-head"><div>'
+        '<div class="step-name">目標配当利回り（正規分布モデル）</div>'
+        f'<div class="step-sub">{esc(ty.get("cycle_class"))}／{esc(ty.get("reason"))}</div>'
+        f'</div><span class="chip {status_cls} lg">{status}</span></div>'
+        f'<div class="target-grid">{col_html}</div>'
+        f'<div class="step-sub" style="margin-top:8px;">サンプル：日次{ty.get("sample_daily", 0)}件／年次{ty.get("sample_annual", 0)}件（3年TTM＋10年年次）</div>'
+        "</div>"
+    )
+
+
 def render_card(stock: dict) -> str:
     price = stock.get("price")
     price_text = fmt_num(price, 1) if price is not None else "取得不可"
@@ -311,6 +364,7 @@ def render_card(stock: dict) -> str:
         f'{render_step1(stock["step1"])}'
         f'{render_step2(stock["step2"])}'
         f'{render_step3(stock["step3"])}'
+        f'{render_target_yield(stock.get("target_yield", {}))}'
         f'<div class="comment"><span class="label">所感</span><br>{stock["comment"]}</div>'
         f'<div class="asof">株価取得：{esc(stock.get("price_date"))} JST／財務：J-Quants API</div>'
         "</div>"

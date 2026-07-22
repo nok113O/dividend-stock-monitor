@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22 04:03",
+  "generated_at": "2026-07-22 04:28",
   "stocks": [
     {
       "code": "8306",
@@ -7,20 +7,20 @@
       "industry": "銀行業",
       "sector": "銀行",
       "cycle": "景気敏感",
-      "price": 3675.0,
-      "price_date": "2026-07-22 12:48",
-      "price_change": 95.0,
-      "price_change_pct": 0.026528902,
+      "price": 3681.0,
+      "price_date": "2026-07-22 13:13",
+      "price_change": 101.0,
+      "price_change_pct": 0.02821229,
       "step1": {
         "overall": "×",
         "rows": {
           "PER": {
-            "value": 23.129208886651146,
+            "value": 23.166970860343636,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.1193247,
+            "value": 2.1227849,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -35,7 +35,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.612244897959184,
+            "value": 2.6079869600651997,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -45,7 +45,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 416561.2020045,
+            "value": 417241.30192614,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -83,11 +83,25 @@
         "target_price": 2961.52
       },
       "forecast_dividend": 96.0,
-      "dividend_yield_pct": 2.612244897959184,
+      "dividend_yield_pct": 2.6079869600651997,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想74円のまま。2026年3月期は実績86円で確定済み、2027年3月期の会社予想は96円(2026-07提供資料)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：銀行業・配当変動大",
+        "target1_pct": 3.18,
+        "target2_pct": 3.26,
+        "target3_pct": 3.73,
+        "buy1_price": 3019,
+        "buy2_price": 2945,
+        "buy3_price": 2574,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 04:03"
+      "updated_at": "2026-07-22 04:28"
     },
     {
       "code": "9433",
@@ -95,20 +109,20 @@
       "industry": "情報･通信業",
       "sector": "情報･通信業",
       "cycle": "景気敏感",
-      "price": 2833.0,
-      "price_date": "2026-07-22 12:48",
-      "price_change": -48.5,
-      "price_change_pct": -0.016828591,
+      "price": 2837.0,
+      "price_date": "2026-07-22 13:13",
+      "price_change": -44.5,
+      "price_change_pct": -0.015440667,
       "step1": {
         "overall": "×",
         "rows": {
           "PER": {
-            "value": 15.632069745627104,
+            "value": 15.654141146609282,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.1244845,
+            "value": 2.127484,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -123,7 +137,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.9650547123190965,
+            "value": 2.960874162848079,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -133,7 +147,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 107854.53197856,
+            "value": 108006.81511584,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -171,11 +185,25 @@
         "target_price": 2757.93
       },
       "forecast_dividend": 84.0,
-      "dividend_yield_pct": 2.9650547123190965,
+      "dividend_yield_pct": 2.960874162848079,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想80円のまま。2026年3月期は実績80円で確定済み、2027年3月期の会社予想は84円(2026-07提供資料)。",
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：情報･通信業・利益比較的安定・減配なし・増配基調",
+        "target1_pct": 3.1,
+        "target2_pct": 3.17,
+        "target3_pct": 3.27,
+        "buy1_price": 2710,
+        "buy2_price": 2650,
+        "buy3_price": 2569,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 04:03"
+      "updated_at": "2026-07-22 04:28"
     }
   ],
   "errors": []

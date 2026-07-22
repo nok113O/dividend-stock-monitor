@@ -33,6 +33,8 @@ from analyzer import (  # noqa: E402
 from jquants_client import JQuantsClient, JQuantsError  # noqa: E402
 from market_data import current_market_data  # noqa: E402
 from sector_master import classify  # noqa: E402
+from target_yield_engine import calculate_targets, purchase_price  # noqa: E402
+from target_yield_engine import status as purchase_status  # noqa: E402
 from workbook_io import empty_history  # noqa: E402
 
 CODES_FILE = Path(__file__).resolve().parent / "codes.json"
@@ -114,6 +116,37 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
     comment = make_comment(step1, step2)
     rating = overall_rating(step1, step2)
 
+    eps_hist = pd.to_numeric(history["EPS"], errors="coerce").dropna().tolist()
+    div_hist = pd.to_numeric(history["1株配当"], errors="coerce").dropna().tolist()
+    forecast_dividend = metrics.get("予想年間配当")
+    try:
+        targets = calculate_targets(code, master.get("S33Nm"), eps_hist, div_hist)
+        buy1 = purchase_price(forecast_dividend, targets.target1)
+        buy2 = purchase_price(forecast_dividend, targets.target2)
+        buy3 = purchase_price(forecast_dividend, targets.target3)
+        target_yield = {
+            "cycle_class": targets.cycle_class,
+            "reason": targets.reason,
+            "target1_pct": targets.target1,
+            "target2_pct": targets.target2,
+            "target3_pct": targets.target3,
+            "buy1_price": buy1,
+            "buy2_price": buy2,
+            "buy3_price": buy3,
+            "buy_status": purchase_status(price, buy1, buy2, buy3),
+            "sample_daily": targets.sample_daily,
+            "sample_annual": targets.sample_annual,
+            "error": None,
+        }
+    except Exception as exc:  # noqa: BLE001
+        target_yield = {
+            "cycle_class": None, "reason": None,
+            "target1_pct": None, "target2_pct": None, "target3_pct": None,
+            "buy1_price": None, "buy2_price": None, "buy3_price": None,
+            "buy_status": "要確認", "sample_daily": 0, "sample_annual": 0,
+            "error": str(exc),
+        }
+
     def clean(value):
         if value is None:
             return None
@@ -154,6 +187,7 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
         "forecast_dividend": clean(metrics.get("予想年間配当")),
         "dividend_yield_pct": clean(metrics.get("配当利回り")),
         "dividend_override_note": override_note,
+        "target_yield": target_yield,
         "rating": rating,
         "comment": comment,
         "updated_at": now,

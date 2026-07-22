@@ -5,7 +5,47 @@ from datetime import timedelta
 from typing import Any
 import numpy as np
 import pandas as pd
-import yfinance as yf
+import requests
+
+_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+)
+
+
+def _fetch_price_dividend_history(code: str) -> tuple[pd.DataFrame, pd.Series]:
+    """Yahoo!ファイナンスのchart APIから10年分の日足終値と配当実績を取得する。
+
+    yfinanceパッケージ(curl_cffiでブラウザTLSを偽装する)はTLSを再終端する
+    プロキシ環境下で接続が切れることがあるため、素のrequestsで直接呼び出す。
+    """
+    resp = requests.get(
+        f"https://query1.finance.yahoo.com/v8/finance/chart/{code}.T",
+        params={"range": "10y", "interval": "1d", "events": "div"},
+        headers={"User-Agent": _UA},
+        timeout=20,
+    )
+    resp.raise_for_status()
+    result = (resp.json().get("chart", {}).get("result") or [None])[0]
+    if not result:
+        return pd.DataFrame(columns=["Close"]), pd.Series(dtype=float)
+
+    timestamps = result.get("timestamp") or []
+    closes = (
+        result.get("indicators", {}).get("quote", [{}])[0].get("close") or []
+    )
+    index = pd.to_datetime(timestamps, unit="s")
+    history = pd.DataFrame({"Close": closes}, index=index)
+
+    div_events = result.get("events", {}).get("dividends", {}) or {}
+    if div_events:
+        div_index = pd.to_datetime([v["date"] for v in div_events.values()], unit="s")
+        div_values = [v["amount"] for v in div_events.values()]
+        dividends = pd.Series(div_values, index=div_index).sort_index()
+    else:
+        dividends = pd.Series(dtype=float)
+
+    return history, dividends
 
 @dataclass
 class YieldTargets:
@@ -162,10 +202,9 @@ def calculate_targets(
     eps_history: list[float] | None = None,
     dividend_history: list[float] | None = None,
 ) -> YieldTargets:
-    ticker = yf.Ticker(f"{code}.T")
-    history = ticker.history(period="10y", auto_adjust=False, actions=False)
+    history, raw_dividends = _fetch_price_dividend_history(code)
     close = _normalize_close(history)
-    dividends = _normalize_dividends(ticker.dividends)
+    dividends = _normalize_dividends(raw_dividends)
 
     daily = build_daily_yields(close, dividends, years=3)
     annual = build_annual_yields(close, dividends, years=10)
