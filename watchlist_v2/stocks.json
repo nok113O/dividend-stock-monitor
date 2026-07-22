@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22 05:33",
+  "generated_at": "2026-07-22 05:55",
   "stocks": [
     {
       "code": "8306",
@@ -7,20 +7,20 @@
       "industry": "銀行業",
       "sector": "銀行",
       "cycle": "景気敏感",
-      "price": 3668.0,
-      "price_date": "2026-07-22 14:16",
-      "price_change": 88.0,
-      "price_change_pct": 0.024581006,
+      "price": 3674.0,
+      "price_date": "2026-07-22 14:19",
+      "price_change": 94.0,
+      "price_change_pct": 0.026256984,
       "step1": {
         "overall": "×",
         "rows": {
           "PER": {
-            "value": 23.08515325067657,
+            "value": 23.122915224369063,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.1152878,
+            "value": 2.118748,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -35,7 +35,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.6172300981461287,
+            "value": 2.6129559063690797,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -45,7 +45,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 415767.75209592,
+            "value": 416447.85201756,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -83,7 +83,7 @@
         "target_price": 2961.52
       },
       "forecast_dividend": 96.0,
-      "dividend_yield_pct": 2.6172300981461287,
+      "dividend_yield_pct": 2.6129559063690797,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想74円のまま。2026年3月期は実績86円で確定済み、2027年3月期の会社予想は96円(2026-07提供資料)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -101,7 +101,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 05:31"
+      "updated_at": "2026-07-22 05:34"
     },
     {
       "code": "9433",
@@ -109,20 +109,20 @@
       "industry": "情報･通信業",
       "sector": "情報･通信業",
       "cycle": "景気敏感",
-      "price": 2861.5,
-      "price_date": "2026-07-22 14:16",
-      "price_change": -20.0,
-      "price_change_pct": -0.006940829,
+      "price": 2865.0,
+      "price_date": "2026-07-22 14:19",
+      "price_change": -16.5,
+      "price_change_pct": -0.005726184,
       "step1": {
         "overall": "×",
         "rows": {
           "PER": {
-            "value": 15.789328477625117,
+            "value": 15.808640953484524,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.1458569,
+            "value": 2.1484814,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -137,7 +137,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.9355233269264374,
+            "value": 2.931937172774869,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -147,7 +147,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 108939.54933168,
+            "value": 109072.7970768,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -185,7 +185,7 @@
         "target_price": 2757.93
       },
       "forecast_dividend": 84.0,
-      "dividend_yield_pct": 2.9355233269264374,
+      "dividend_yield_pct": 2.931937172774869,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想80円のまま。2026年3月期は実績80円で確定済み、2027年3月期の会社予想は84円(2026-07提供資料)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -203,7 +203,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 05:31"
+      "updated_at": "2026-07-22 05:35"
     },
     {
       "code": "1414",
@@ -211,20 +211,20 @@
       "industry": "建設業",
       "sector": "建設・住宅",
       "cycle": "景気敏感",
-      "price": 1274.5,
-      "price_date": "2026-07-22 14:16",
-      "price_change": -1.5,
-      "price_change_pct": -0.0011760094,
+      "price": 1275.0,
+      "price_date": "2026-07-22 14:19",
+      "price_change": -1.0,
+      "price_change_pct": -0.0007836991,
       "step1": {
         "overall": "×",
         "rows": {
           "PER": {
-            "value": 16.842870358134004,
+            "value": 16.849477996564026,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.4674602,
+            "value": 2.4684284,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -239,7 +239,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.5700274617497056,
+            "value": 3.568627450980392,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -249,7 +249,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 2588.3662462,
+            "value": 2589.38169,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -287,7 +287,7 @@
         "target_price": null
       },
       "forecast_dividend": 45.5,
-      "dividend_yield_pct": 3.5700274617497056,
+      "dividend_yield_pct": 3.568627450980392,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -305,7 +305,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 05:31"
+      "updated_at": "2026-07-22 05:35"
     },
     {
       "code": "1802",
@@ -313,20 +313,20 @@
       "industry": "建設業",
       "sector": "建設・住宅",
       "cycle": "景気敏感",
-      "price": 3260.0,
-      "price_date": "2026-07-22 14:16",
-      "price_change": 18.0,
-      "price_change_pct": 0.0055521284,
+      "price": 3265.0,
+      "price_date": "2026-07-22 14:20",
+      "price_change": 23.0,
+      "price_change_pct": 0.007094386,
       "step1": {
         "overall": "要確認",
         "rows": {
           "PER": {
-            "value": 13.359013236077532,
+            "value": 13.379502520181944,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.7809887,
+            "value": 1.7837203,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -341,7 +341,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.6687116564417175,
+            "value": 2.664624808575804,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -351,7 +351,7 @@
             "judge": "要確認"
           },
           "時価総額": {
-            "value": 22409.94082816,
+            "value": 22444.31314944,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -389,7 +389,7 @@
         "target_price": null
       },
       "forecast_dividend": 87.0,
-      "dividend_yield_pct": 2.6687116564417175,
+      "dividend_yield_pct": 2.664624808575804,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -407,7 +407,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 05:31"
+      "updated_at": "2026-07-22 05:35"
     },
     {
       "code": "8725",
@@ -415,20 +415,20 @@
       "industry": "保険業",
       "sector": "保険",
       "cycle": "景気敏感",
-      "price": 4794.0,
-      "price_date": "2026-07-22 14:16",
-      "price_change": 54.0,
-      "price_change_pct": 0.011392405,
+      "price": 4796.0,
+      "price_date": "2026-07-22 14:20",
+      "price_change": 56.0,
+      "price_change_pct": 0.011814347,
       "step1": {
         "overall": "×",
         "rows": {
           "PER": {
-            "value": 12.100865789938663,
+            "value": 12.10591412777343,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.0834873,
+            "value": 1.0839393,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -443,7 +443,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 3.2332081768877767,
+            "value": 3.23185988323603,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -453,7 +453,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 70807.59438768,
+            "value": 70837.13447712,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -491,7 +491,7 @@
         "target_price": null
       },
       "forecast_dividend": 155.0,
-      "dividend_yield_pct": 3.2332081768877767,
+      "dividend_yield_pct": 3.23185988323603,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -509,229 +509,5618 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 05:31"
-    }
-  ],
-  "errors": [
+      "updated_at": "2026-07-22 05:35"
+    },
     {
       "code": "1926",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "ライト工業",
+      "industry": "建設業",
+      "sector": "建設・住宅",
+      "cycle": "景気敏感",
+      "price": 3850.0,
+      "price_date": "2026-07-22 14:20",
+      "price_change": -45.0,
+      "price_change_pct": -0.011553274,
+      "step1": {
+        "overall": "要確認",
+        "rows": {
+          "PER": {
+            "value": 16.682554814108673,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.7981361,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 13.916,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 8.666000499999999,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.0649350649350646,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": null,
+            "criterion": "35%以上",
+            "judge": "要確認"
+          },
+          "時価総額": {
+            "value": 1580.82547712,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 118.0,
+      "dividend_yield_pct": 3.0649350649350646,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：建設業",
+        "target1_pct": 3.98,
+        "target2_pct": 4.51,
+        "target3_pct": 4.62,
+        "buy1_price": 2965,
+        "buy2_price": 2616,
+        "buy3_price": 2554,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:36"
     },
     {
       "code": "2733",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "あらた",
+      "industry": "卸売業",
+      "sector": "卸売・商社",
+      "cycle": "景気敏感",
+      "price": 2593.0,
+      "price_date": "2026-07-22 14:21",
+      "price_change": 0.0,
+      "price_change_pct": 0.0,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 8.76487290427258,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.7104031736638503,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 6.348790784435645,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 2.112277339837115,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 4.319321249517933,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 33.300000000000004,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 868.06125486,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 112.0,
+      "dividend_yield_pct": 4.319321249517933,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：卸売業",
+        "target1_pct": 3.57,
+        "target2_pct": 4.03,
+        "target3_pct": 4.49,
+        "buy1_price": 3137,
+        "buy2_price": 2779,
+        "buy3_price": 2494,
+        "buy_status": "第2買い（追加買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:36"
     },
     {
       "code": "8439",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "東京センチュリー",
+      "industry": "その他金融業",
+      "sector": "その他金融",
+      "cycle": "景気敏感",
+      "price": 2677.0,
+      "price_date": "2026-07-22 14:21",
+      "price_change": 5.0,
+      "price_change_pct": 0.0018705573,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 13.078313547315453,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.165857,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 9.618838174273858,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 1.6426994427064154,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.6895778856929398,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 15.0,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 13084.15718734,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 72.0,
+      "dividend_yield_pct": 2.6895778856929398,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：その他金融業",
+        "target1_pct": 3.78,
+        "target2_pct": 3.92,
+        "target3_pct": 4.18,
+        "buy1_price": 1905,
+        "buy2_price": 1837,
+        "buy3_price": 1722,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:36"
     },
     {
       "code": "6785",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "鈴木",
+      "industry": "電気機器",
+      "sector": "電気機器",
+      "cycle": "景気敏感",
+      "price": 3070.0,
+      "price_date": "2026-07-22 14:20",
+      "price_change": -40.0,
+      "price_change_pct": -0.012861736,
+      "step1": {
+        "overall": "要確認",
+        "rows": {
+          "PER": {
+            "value": 11.81587252713417,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 1.4079152,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 14.161000000000001,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 8.0369994,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.420195439739414,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": null,
+            "criterion": "35%以上",
+            "judge": "要確認"
+          },
+          "時価総額": {
+            "value": 440.82999296,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 105.0,
+      "dividend_yield_pct": 3.420195439739414,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：電気機器",
+        "target1_pct": 4.83,
+        "target2_pct": 5.04,
+        "target3_pct": 5.38,
+        "buy1_price": 2174,
+        "buy2_price": 2083,
+        "buy3_price": 1952,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PBRは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:37"
     },
     {
       "code": "2597",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "ユニカフェ",
+      "industry": "食料品",
+      "sector": "食品",
+      "cycle": "ディフェンシブ",
+      "price": 1132.0,
+      "price_date": "2026-07-22 14:14",
+      "price_change": -7.0,
+      "price_change_pct": -0.006145742,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 29.130211013896037,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.1339164530236765,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 9.494294971122693,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 4.346424195524602,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 0.88339222614841,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 45.800000000000004,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 151.49610336,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 10.0,
+      "dividend_yield_pct": 0.88339222614841,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：食料品",
+        "target1_pct": 0.89,
+        "target2_pct": 0.91,
+        "target3_pct": 0.95,
+        "buy1_price": 1124,
+        "buy2_price": 1099,
+        "buy3_price": 1053,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 9,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:37"
     },
     {
       "code": "6282",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "オイレス工業",
+      "industry": "機械",
+      "sector": "機械",
+      "cycle": "景気敏感",
+      "price": 2836.0,
+      "price_date": "2026-07-22 14:22",
+      "price_change": 17.0,
+      "price_change_pct": 0.006030507,
+      "step1": {
+        "overall": "要確認",
+        "rows": {
+          "PER": {
+            "value": 17.59851070431275,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.0340941,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 6.4079999999999995,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 4.5120000000000005,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.349788434414669,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": null,
+            "criterion": "35%以上",
+            "judge": "要確認"
+          },
+          "時価総額": {
+            "value": 820.80915456,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 95.0,
+      "dividend_yield_pct": 3.349788434414669,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：機械",
+        "target1_pct": 3.97,
+        "target2_pct": 4.09,
+        "target3_pct": 4.18,
+        "buy1_price": 2393,
+        "buy2_price": 2323,
+        "buy3_price": 2273,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:37"
     },
     {
       "code": "8892",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "エスコン",
+      "industry": "不動産業",
+      "sector": "不動産",
+      "cycle": "景気敏感",
+      "price": 1116.0,
+      "price_date": "2026-07-22 14:22",
+      "price_change": 2.0,
+      "price_change_pct": 0.0017953322,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 7.370228503500199,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 1.2337899240489536,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 14.155500336731613,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 2.391456589501602,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 4.749103942652329,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 17.0,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 1070.12272428,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 53.0,
+      "dividend_yield_pct": 4.749103942652329,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：不動産業",
+        "target1_pct": 4.83,
+        "target2_pct": 4.91,
+        "target3_pct": 4.98,
+        "buy1_price": 1097,
+        "buy2_price": 1079,
+        "buy3_price": 1064,
+        "buy_status": "監視",
+        "sample_daily": 675,
+        "sample_annual": 9,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "ROAは基準未達。 自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:38"
     },
     {
       "code": "1605",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "ＩＮＰＥＸ",
+      "industry": "鉱業",
+      "sector": "資源・エネルギー",
+      "cycle": "景気敏感",
+      "price": 3619.0,
+      "price_date": "2026-07-22 14:23",
+      "price_change": 39.0,
+      "price_change_pct": 0.010890813,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 12.780308648515026,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 0.8884382733021721,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.840804411313537,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.091479235567079,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 2.9842497927604312,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 61.4,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 42175.59796681,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 108.0,
+      "dividend_yield_pct": 2.9842497927604312,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：鉱業",
+        "target1_pct": 4.36,
+        "target2_pct": 4.54,
+        "target3_pct": 4.72,
+        "buy1_price": 2477,
+        "buy2_price": 2379,
+        "buy3_price": 2288,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:38"
     },
     {
       "code": "6294",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "オカダアイヨン",
+      "industry": "機械",
+      "sector": "機械",
+      "cycle": "景気敏感",
+      "price": 2021.0,
+      "price_date": "2026-07-22 14:20",
+      "price_change": 2.0,
+      "price_change_pct": 0.0009905894,
+      "step1": {
+        "overall": "○",
+        "rows": {
+          "PER": {
+            "value": 9.566863905325445,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.9018456375838926,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.7860228153726885,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 3.6107758288605254,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.7110341415141015,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 46.300000000000004,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 162.7600224,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 75.0,
+      "dividend_yield_pct": 3.7110341415141015,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：機械",
+        "target1_pct": 3.81,
+        "target2_pct": 3.95,
+        "target3_pct": 4.03,
+        "buy1_price": 1969,
+        "buy2_price": 1899,
+        "buy3_price": 1861,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。 10期で無配なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:39"
     },
     {
       "code": "3277",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "サンセイランディック",
+      "industry": "不動産業",
+      "sector": "不動産",
+      "cycle": "景気敏感",
+      "price": 656.0,
+      "price_date": "2026-07-22 13:33",
+      "price_change": 1.0,
+      "price_change_pct": 0.0015267176,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 4.0114963615238795,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.39281437125748503,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 9.549110766733083,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 3.1810806824327647,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 7.774390243902439,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 33.300000000000004,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 53.23193344,
+            "criterion": "100億円以上",
+            "judge": "×"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 51.0,
+      "dividend_yield_pct": 7.774390243902439,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：不動産業",
+        "target1_pct": 4.9,
+        "target2_pct": 5.1,
+        "target3_pct": 5.2,
+        "buy1_price": 1041,
+        "buy2_price": 1000,
+        "buy3_price": 981,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "自己資本比率は基準未達。 時価総額は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:39"
     },
     {
       "code": "4272",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "日本化薬",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "price": 1988.0,
+      "price_date": "2026-07-22 14:23",
+      "price_change": 9.5,
+      "price_change_pct": 0.004802831,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 14.886925265837952,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.0580878,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 6.320255977116755,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 4.2669904945354045,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.0181086519114686,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 67.2,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 2985.03659048,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 60.0,
+      "dividend_yield_pct": 3.0181086519114686,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学",
+        "target1_pct": 4.42,
+        "target2_pct": 4.64,
+        "target3_pct": 4.81,
+        "buy1_price": 1357,
+        "buy2_price": 1293,
+        "buy3_price": 1247,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:39"
     },
     {
       "code": "3003",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "ヒューリック",
+      "industry": "不動産業",
+      "sector": "不動産",
+      "cycle": "景気敏感",
+      "price": 1811.0,
+      "price_date": "2026-07-22 14:25",
+      "price_change": -14.5,
+      "price_change_pct": -0.0079430295,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 11.360642368734709,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 1.5129111216928566,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 1.9270215349250743,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 0.5105918035112369,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 3.699613473219216,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 25.5,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 13744.57785363,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 67.0,
+      "dividend_yield_pct": 3.699613473219216,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：不動産業",
+        "target1_pct": 3.82,
+        "target2_pct": 3.91,
+        "target3_pct": 3.97,
+        "buy1_price": 1754,
+        "buy2_price": 1714,
+        "buy3_price": 1688,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:40"
     },
     {
       "code": "3252",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "地主",
+      "industry": "不動産業",
+      "sector": "不動産",
+      "cycle": "景気敏感",
+      "price": 2926.0,
+      "price_date": "2026-07-22 14:25",
+      "price_change": -1.0,
+      "price_change_pct": -0.00034164675,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 7.56385068762279,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 1.1657881421098137,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 14.196817323623472,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.035051997212238,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.442925495557074,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 34.1,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 605.11382932,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 130.0,
+      "dividend_yield_pct": 4.442925495557074,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：不動産業",
+        "target1_pct": 4.37,
+        "target2_pct": 4.62,
+        "target3_pct": 4.85,
+        "buy1_price": 2975,
+        "buy2_price": 2814,
+        "buy3_price": 2680,
+        "buy_status": "第1買い（打診買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:40"
     },
     {
       "code": "5184",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "ニチリン",
+      "industry": "ゴム製品",
+      "sector": "素材・自動車関連",
+      "cycle": "景気敏感",
+      "price": 4075.0,
+      "price_date": "2026-07-22 14:22",
+      "price_change": 5.0,
+      "price_change_pct": 0.0012285012,
+      "step1": {
+        "overall": "○",
+        "rows": {
+          "PER": {
+            "value": 9.601112079730461,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.8907824239337389,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 8.094657878125046,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 6.257731373772911,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.662576687116564,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 68.5,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 537.6658505,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 190.0,
+      "dividend_yield_pct": 4.662576687116564,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：ゴム製品",
+        "target1_pct": 5.09,
+        "target2_pct": 5.18,
+        "target3_pct": 5.29,
+        "buy1_price": 3733,
+        "buy2_price": 3668,
+        "buy3_price": 3592,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。 10期で無配なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:40"
     },
     {
       "code": "4568",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "第一三共",
+      "industry": "医薬品",
+      "sector": "医薬品",
+      "cycle": "ディフェンシブ",
+      "price": 2778.5,
+      "price_date": "2026-07-22 14:25",
+      "price_change": -36.5,
+      "price_change_pct": -0.012966253,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 17.857831480172248,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 3.006741767576751,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 12.712059110846868,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.689606314911962,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 2.8072701097714594,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 44.800000000000004,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 51431.643390295,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "1期分"
+          }
+        },
+        "periods_available": 1
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 78.0,
+      "dividend_yield_pct": 2.8072701097714594,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：医薬品",
+        "target1_pct": 1.87,
+        "target2_pct": 2.32,
+        "target3_pct": 2.94,
+        "buy1_price": 4171,
+        "buy2_price": 3362,
+        "buy3_price": 2653,
+        "buy_status": "第2買い（追加買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:40"
     },
     {
       "code": "4540",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "ツムラ",
+      "industry": "医薬品",
+      "sector": "医薬品",
+      "cycle": "ディフェンシブ",
+      "price": 3866.0,
+      "price_date": "2026-07-22 14:26",
+      "price_change": -14.0,
+      "price_change_pct": -0.0036082473,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 12.078230442389403,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 0.89576524,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 6.83640293760686,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 4.211692536075272,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.724780134505949,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 55.50000000000001,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 2881.90629792,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 144.0,
+      "dividend_yield_pct": 3.724780134505949,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：医薬品",
+        "target1_pct": 3.66,
+        "target2_pct": 3.84,
+        "target3_pct": 3.97,
+        "buy1_price": 3934,
+        "buy2_price": 3750,
+        "buy3_price": 3627,
+        "buy_status": "第1買い（打診買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:42"
     },
     {
       "code": "8058",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "三菱商事",
+      "industry": "卸売業",
+      "sector": "卸売・商社",
+      "cycle": "景気敏感",
+      "price": 4943.0,
+      "price_date": "2026-07-22 14:27",
+      "price_change": 279.0,
+      "price_change_pct": 0.0598199,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 26.469958230695084,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.9171294,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 6.166014808626982,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 2.539171472002966,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.2253692089823995,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 38.0,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 183187.92161073,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 110.0,
+      "dividend_yield_pct": 2.2253692089823995,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：卸売業",
+        "target1_pct": 3.4,
+        "target2_pct": 3.49,
+        "target3_pct": 3.81,
+        "buy1_price": 3235,
+        "buy2_price": 3152,
+        "buy3_price": 2887,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
+      "updated_at": "2026-07-22 05:42"
     },
     {
       "code": "4206",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "アイカ工業",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "price": 3668.0,
+      "price_date": "2026-07-22 14:25",
+      "price_change": -13.0,
+      "price_change_pct": -0.003531649,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 12.581032412965186,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.2183598,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.897923786651888,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.103895156423062,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.76226826608506,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 59.3,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 2296.4249434,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 138.0,
+      "dividend_yield_pct": 3.76226826608506,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学",
+        "target1_pct": 3.83,
+        "target2_pct": 3.92,
+        "target3_pct": 4.01,
+        "buy1_price": 3603,
+        "buy2_price": 3520,
+        "buy3_price": 3441,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:42"
     },
     {
       "code": "7203",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "トヨタ自動車",
+      "industry": "輸送用機器",
+      "sector": "自動車・輸送機器",
+      "cycle": "景気敏感",
+      "price": 2946.0,
+      "price_date": "2026-07-22 14:27",
+      "price_change": 1.5,
+      "price_change_pct": 0.00050942437,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 10.755357599211418,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.96185994,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.578641106032302,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 2.961456715463803,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 3.2247114731839783,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 38.1,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 383963.57297742,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 95.0,
+      "dividend_yield_pct": 3.2247114731839783,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：輸送用機器",
+        "target1_pct": 3.33,
+        "target2_pct": 3.43,
+        "target3_pct": 3.61,
+        "buy1_price": 2853,
+        "buy2_price": 2770,
+        "buy3_price": 2632,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "ROAは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:42"
     },
     {
       "code": "8593",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "三菱ＨＣキャピタル",
+      "industry": "その他金融業",
+      "sector": "その他金融",
+      "cycle": "景気敏感",
+      "price": 1440.5,
+      "price_date": "2026-07-22 14:27",
+      "price_change": 0.5,
+      "price_change_pct": 0.00034722223,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 12.926238334529792,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.0796570280763291,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 6.985163023536603,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 1.0781449822708207,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 3.123915307185005,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 15.299999999999999,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 20682.75898242,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 45.0,
+      "dividend_yield_pct": 3.123915307185005,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：その他金融業",
+        "target1_pct": 3.83,
+        "target2_pct": 3.87,
+        "target3_pct": 4.03,
+        "buy1_price": 1175,
+        "buy2_price": 1163,
+        "buy3_price": 1117,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:42"
     },
     {
       "code": "7191",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "イントラスト",
+      "industry": "その他金融業",
+      "sector": "その他金融",
+      "cycle": "景気敏感",
+      "price": 1108.0,
+      "price_date": "2026-07-22 14:19",
+      "price_change": 8.0,
+      "price_change_pct": 0.0072727273,
+      "step1": {
+        "overall": "要確認",
+        "rows": {
+          "PER": {
+            "value": 14.24714,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 3.047615,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 23.096001,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 14.343001,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.429602888086643,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": null,
+            "criterion": "35%以上",
+            "judge": "要確認"
+          },
+          "時価総額": {
+            "value": 247.89311488,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "1期分"
+          }
+        },
+        "periods_available": 1
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 38.0,
+      "dividend_yield_pct": 3.429602888086643,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：その他金融業",
+        "target1_pct": 2.91,
+        "target2_pct": 3.45,
+        "target3_pct": 3.54,
+        "buy1_price": 1306,
+        "buy2_price": 1101,
+        "buy3_price": 1073,
+        "buy_status": "第1買い（打診買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:43"
     },
     {
       "code": "9432",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "ＮＴＴ",
+      "industry": "情報･通信業",
+      "sector": "情報･通信業",
+      "cycle": "景気敏感",
+      "price": 152.1,
+      "price_date": "2026-07-22 14:28",
+      "price_change": 0.40000916,
+      "price_change_pct": 0.0026368436,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 13.0,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.3070378963650424,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 9.272142890684613,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 1.9772907708715943,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 3.4845496383957926,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 20.3,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 124296.871909392,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "1期分"
+          }
+        },
+        "periods_available": 1
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 5.3,
+      "dividend_yield_pct": 3.4845496383957926,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：情報･通信業",
+        "target1_pct": 3.51,
+        "target2_pct": 3.55,
+        "target3_pct": 3.63,
+        "buy1_price": 151,
+        "buy2_price": 149,
+        "buy3_price": 146,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:43"
     },
     {
       "code": "8766",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "東京海上ホールディングス",
+      "industry": "保険業",
+      "sector": "保険",
+      "cycle": "景気敏感",
+      "price": 7950.0,
+      "price_date": "2026-07-22 14:28",
+      "price_change": 76.0,
+      "price_change_pct": 0.009650794,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 14.870653373487215,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.8772013,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 16.8044155897061,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 2.8230890226825767,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.6540880503144653,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 16.7,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 151313.542818,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 211.0,
+      "dividend_yield_pct": 2.6540880503144653,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：保険業",
+        "target1_pct": 3.26,
+        "target2_pct": 3.37,
+        "target3_pct": 3.53,
+        "buy1_price": 6472,
+        "buy2_price": 6261,
+        "buy3_price": 5977,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
+      "updated_at": "2026-07-22 05:43"
     },
     {
       "code": "4613",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "関西ペイント",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "price": 2677.0,
+      "price_date": "2026-07-22 14:29",
+      "price_change": -3.5,
+      "price_change_pct": -0.0013052396,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 13.86759220886863,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.5706214,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 8.222942618769439,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 3.812946621036447,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.109077325364214,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 36.4,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 4713.31715041,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 110.0,
+      "dividend_yield_pct": 4.109077325364214,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学",
+        "target1_pct": 3.44,
+        "target2_pct": 4.21,
+        "target3_pct": 4.64,
+        "buy1_price": 3198,
+        "buy2_price": 2613,
+        "buy3_price": 2371,
+        "buy_status": "第1買い（打診買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:44"
     },
     {
       "code": "8252",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "丸井グループ",
+      "industry": "小売業",
+      "sector": "小売",
+      "cycle": "ディフェンシブ",
+      "price": 2961.0,
+      "price_date": "2026-07-22 14:29",
+      "price_change": -31.5,
+      "price_change_pct": -0.010528075,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 19.10322580645161,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.2335033038650693,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 8.977908639971895,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 1.7737358847278248,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 4.424181019925701,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 19.7,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 5328.32841261,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 131.0,
+      "dividend_yield_pct": 4.424181019925701,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：小売業",
+        "target1_pct": 4.23,
+        "target2_pct": 4.35,
+        "target3_pct": 4.53,
+        "buy1_price": 3097,
+        "buy2_price": 3011,
+        "buy3_price": 2892,
+        "buy_status": "第2買い（追加買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:44"
     },
     {
       "code": "7981",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "タカラスタンダード",
+      "industry": "その他製品",
+      "sector": "その他製造",
+      "cycle": "景気敏感",
+      "price": 3105.0,
+      "price_date": "2026-07-22 14:27",
+      "price_change": 20.0,
+      "price_change_pct": 0.006482982,
+      "step1": {
+        "overall": "要確認",
+        "rows": {
+          "PER": {
+            "value": 16.060621734857495,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.000039,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.713,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 4.244,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.993558776167472,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": null,
+            "criterion": "35%以上",
+            "judge": "要確認"
+          },
+          "時価総額": {
+            "value": 1963.32650496,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "1期分"
+          }
+        },
+        "periods_available": 1
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 124.0,
+      "dividend_yield_pct": 3.993558776167472,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：その他製品",
+        "target1_pct": 3.85,
+        "target2_pct": 4.01,
+        "target3_pct": 4.36,
+        "buy1_price": 3221,
+        "buy2_price": 3092,
+        "buy3_price": 2844,
+        "buy_status": "第1買い（打診買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:45"
     },
     {
       "code": "7990",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "グローブライド",
+      "industry": "その他製品",
+      "sector": "その他製造",
+      "cycle": "景気敏感",
+      "price": 2477.0,
+      "price_date": "2026-07-22 14:29",
+      "price_change": 2.0,
+      "price_change_pct": 0.00080775446,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 13.24882327770646,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 0.83492064,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 8.071153160742636,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 4.2492217152117355,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.633427533306419,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 52.400000000000006,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 539.97705803,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 90.0,
+      "dividend_yield_pct": 3.633427533306419,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：その他製品",
+        "target1_pct": 3.99,
+        "target2_pct": 4.16,
+        "target3_pct": 4.32,
+        "buy1_price": 2256,
+        "buy2_price": 2163,
+        "buy3_price": 2083,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:45"
     },
     {
       "code": "1928",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "積水ハウス",
+      "industry": "建設業",
+      "sector": "建設・住宅",
+      "cycle": "景気敏感",
+      "price": 3525.0,
+      "price_date": "2026-07-22 14:29",
+      "price_change": -24.0,
+      "price_change_pct": -0.0067624683,
+      "step1": {
+        "overall": "○",
+        "rows": {
+          "PER": {
+            "value": 10.48171275646744,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 1.0679973459129786,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 10.60648366698854,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 4.635746510082517,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.113475177304964,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 42.699999999999996,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 22850.3692665,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 145.0,
+      "dividend_yield_pct": 4.113475177304964,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：建設業",
+        "target1_pct": 4.26,
+        "target2_pct": 4.34,
+        "target3_pct": 4.44,
+        "buy1_price": 3404,
+        "buy2_price": 3341,
+        "buy3_price": 3266,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。 10期で無配なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:45"
     },
     {
       "code": "1925",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "大和ハウス工業",
+      "industry": "建設業",
+      "sector": "建設・住宅",
+      "cycle": "景気敏感",
+      "price": 4600.0,
+      "price_date": "2026-07-22 14:31",
+      "price_change": -39.0,
+      "price_change_pct": -0.008406985,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 9.816474605206999,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.98351735,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.986422557153586,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 2.8604858799716992,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 3.804347826086957,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 34.599999999999994,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 28490.005838,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 175.0,
+      "dividend_yield_pct": 3.804347826086957,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：建設業",
+        "target1_pct": 3.46,
+        "target2_pct": 3.67,
+        "target3_pct": 4.01,
+        "buy1_price": 5058,
+        "buy2_price": 4768,
+        "buy3_price": 4364,
+        "buy_status": "第2買い（追加買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "ROAは基準未達。 自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:46"
     },
     {
       "code": "7856",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "萩原工業",
+      "industry": "その他製品",
+      "sector": "その他製造",
+      "cycle": "景気敏感",
+      "price": 1792.0,
+      "price_date": "2026-07-22 14:25",
+      "price_change": -1.0,
+      "price_change_pct": -0.0005577245,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 16.685288640595903,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 0.795911,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 0.7405737836880575,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 0.5374836418022061,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 4.185267857142857,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 72.39999999999999,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 252.03988992,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 75.0,
+      "dividend_yield_pct": 4.185267857142857,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：その他製品",
+        "target1_pct": 4.18,
+        "target2_pct": 4.29,
+        "target3_pct": 4.42,
+        "buy1_price": 1794,
+        "buy2_price": 1748,
+        "buy3_price": 1697,
+        "buy_status": "第1買い（打診買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:46"
     },
     {
       "code": "7164",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "全国保証",
+      "industry": "その他金融業",
+      "sector": "その他金融",
+      "cycle": "景気敏感",
+      "price": 3077.0,
+      "price_date": "2026-07-22 14:31",
+      "price_change": -41.0,
+      "price_change_pct": -0.013149454,
+      "step1": {
+        "overall": "要確認",
+        "rows": {
+          "PER": {
+            "value": 12.8944390898043,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.6676269,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 13.444999999999999,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.208,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.899902502437439,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": null,
+            "criterion": "35%以上",
+            "judge": "要確認"
+          },
+          "時価総額": {
+            "value": 4088.15501312,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 120.0,
+      "dividend_yield_pct": 3.899902502437439,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：その他金融業",
+        "target1_pct": 4.7,
+        "target2_pct": 4.8,
+        "target3_pct": 4.88,
+        "buy1_price": 2553,
+        "buy2_price": 2500,
+        "buy3_price": 2459,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:46"
     },
     {
       "code": "5911",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "横河ブリッジホールディングス",
+      "industry": "金属製品",
+      "sector": "金属製品",
+      "cycle": "景気敏感",
+      "price": 2929.0,
+      "price_date": "2026-07-22 14:25",
+      "price_change": 9.0,
+      "price_change_pct": 0.0030821916,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 14.378282853075449,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 0.8738562150002536,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 4.459133433668878,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 2.859262779634057,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 4.096961420279959,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 64.1,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 1155.44428038,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 120.0,
+      "dividend_yield_pct": 4.096961420279959,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：金属製品",
+        "target1_pct": 4.19,
+        "target2_pct": 4.29,
+        "target3_pct": 4.38,
+        "buy1_price": 2864,
+        "buy2_price": 2797,
+        "buy3_price": 2740,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:47"
     },
     {
       "code": "8424",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "芙蓉総合リース",
+      "industry": "その他金融業",
+      "sector": "その他金融",
+      "cycle": "景気敏感",
+      "price": 4437.0,
+      "price_date": "2026-07-22 14:31",
+      "price_change": 12.0,
+      "price_change_pct": 0.0027124775,
+      "step1": {
+        "overall": "要確認",
+        "rows": {
+          "PER": {
+            "value": 23.535964353914704,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 0.7956534,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 4.52,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 0.703,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 3.876493125986027,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": null,
+            "criterion": "35%以上",
+            "judge": "要確認"
+          },
+          "時価総額": {
+            "value": 4002.23961088,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 172.0,
+      "dividend_yield_pct": 3.876493125986027,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：その他金融業",
+        "target1_pct": 4.06,
+        "target2_pct": 4.2,
+        "target3_pct": 4.27,
+        "buy1_price": 4236,
+        "buy2_price": 4095,
+        "buy3_price": 4028,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:47"
     },
     {
       "code": "5965",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "フジマック",
+      "industry": "金属製品",
+      "sector": "金属製品",
+      "cycle": "景気敏感",
+      "price": 1168.0,
+      "price_date": "2026-07-22 13:53",
+      "price_change": 13.0,
+      "price_change_pct": 0.0112554105,
+      "step1": {
+        "overall": "要確認",
+        "rows": {
+          "PER": {
+            "value": 3.6447606565562007,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.8276914,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 1.836,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 1.217,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 5.136986301369863,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": null,
+            "criterion": "35%以上",
+            "judge": "要確認"
+          },
+          "時価総額": {
+            "value": 153.080832,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 60.0,
+      "dividend_yield_pct": 5.136986301369863,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：金属製品",
+        "target1_pct": 4.26,
+        "target2_pct": 4.41,
+        "target3_pct": 4.59,
+        "buy1_price": 1408,
+        "buy2_price": 1361,
+        "buy3_price": 1307,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "ROEは基準未達。 ROAは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:47"
     },
     {
       "code": "3231",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "野村不動産ホールディングス",
+      "industry": "不動産業",
+      "sector": "不動産",
+      "cycle": "景気敏感",
+      "price": 959.1,
+      "price_date": "2026-07-22 14:32",
+      "price_change": -5.6000366,
+      "price_change_pct": -0.0058049513,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 9.52622169249106,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 1.0224074705782022,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 10.324779595604493,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 2.947379950632808,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 4.58763424043374,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 28.499999999999996,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 8192.649530937,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 44.0,
+      "dividend_yield_pct": 4.58763424043374,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：不動産業",
+        "target1_pct": 4.09,
+        "target2_pct": 4.21,
+        "target3_pct": 4.34,
+        "buy1_price": 1076,
+        "buy2_price": 1045,
+        "buy3_price": 1014,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "ROAは基準未達。 自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:48"
     },
     {
       "code": "9364",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "上組",
+      "industry": "倉庫･運輸関連業",
+      "sector": "倉庫･運輸関連業",
+      "cycle": "景気敏感",
+      "price": 5131.0,
+      "price_date": "2026-07-22 14:32",
+      "price_change": -47.0,
+      "price_change_pct": -0.0090768635,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 17.504776200873362,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.2806801,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 5.80271534862315,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 4.325188625487644,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.6055349834340285,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 74.1,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 5117.83098064,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 185.0,
+      "dividend_yield_pct": 3.6055349834340285,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：倉庫･運輸関連業",
+        "target1_pct": 3.72,
+        "target2_pct": 3.9,
+        "target3_pct": 4.31,
+        "buy1_price": 4973,
+        "buy2_price": 4744,
+        "buy3_price": 4292,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:48"
     },
     {
       "code": "4118",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "カネカ",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "price": 5787.0,
+      "price_date": "2026-07-22 14:33",
+      "price_change": 122.0,
+      "price_change_pct": 0.021539547,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 11.30715123094959,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.6978502,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 3.6530838248025375,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 1.9339661723726012,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.764817694833247,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 50.6,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 3523.40233434,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 160.0,
+      "dividend_yield_pct": 2.764817694833247,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学",
+        "target1_pct": 3.37,
+        "target2_pct": 3.52,
+        "target3_pct": 3.71,
+        "buy1_price": 4748,
+        "buy2_price": 4545,
+        "buy3_price": 4313,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:49"
     },
     {
       "code": "8411",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "みずほフィナンシャルグループ",
+      "industry": "銀行業",
+      "sector": "銀行",
+      "cycle": "景気敏感",
+      "price": 8546.0,
+      "price_date": "2026-07-22 14:34",
+      "price_change": 244.0,
+      "price_change_pct": 0.029390508,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 18.807632210215896,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.8415207,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 9.058644886625048,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 0.3427393299720824,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 1.6967002106248537,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 3.6999999999999997,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 211100.92424524,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 145.0,
+      "dividend_yield_pct": 1.6967002106248537,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：銀行業",
+        "target1_pct": 3.7,
+        "target2_pct": 3.87,
+        "target3_pct": 4.14,
+        "buy1_price": 3919,
+        "buy2_price": 3747,
+        "buy3_price": 3502,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
+      "updated_at": "2026-07-22 05:49"
     },
     {
       "code": "4063",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "信越化学工業",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "price": 7144.0,
+      "price_date": "2026-07-22 14:34",
+      "price_change": -61.0,
+      "price_change_pct": -0.008466342,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 28.271795480628438,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.976183036923167,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 10.218126865184662,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 8.379844458766279,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 1.4837625979843225,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 78.7,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 132643.53214144,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 106.0,
+      "dividend_yield_pct": 1.4837625979843225,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学",
+        "target1_pct": 2.32,
+        "target2_pct": 2.4,
+        "target3_pct": 2.54,
+        "buy1_price": 4569,
+        "buy2_price": 4417,
+        "buy3_price": 4173,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:49"
     },
     {
       "code": "8015",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "豊田通商",
+      "industry": "卸売業",
+      "sector": "卸売・商社",
+      "cycle": "景気敏感",
+      "price": 6491.0,
+      "price_date": "2026-07-22 14:35",
+      "price_change": -13.0,
+      "price_change_pct": -0.00199877,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 19.035190615835777,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.1703885,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 9.113387473149217,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 3.5407792971817758,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 1.7870898166692344,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 37.2,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 68530.48649802,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "1期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "1期分"
+          }
+        },
+        "periods_available": 1
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 116.0,
+      "dividend_yield_pct": 1.7870898166692344,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：卸売業",
+        "target1_pct": 3.8,
+        "target2_pct": 3.94,
+        "target3_pct": 4.2,
+        "buy1_price": 3053,
+        "buy2_price": 2944,
+        "buy3_price": 2762,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:50"
     },
     {
       "code": "7716",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "ナカニシ",
+      "industry": "精密機器",
+      "sector": "精密機器",
+      "cycle": "景気敏感",
+      "price": 3055.0,
+      "price_date": "2026-07-22 14:34",
+      "price_change": -20.0,
+      "price_change_pct": -0.006504065,
+      "step1": {
+        "overall": "要確認",
+        "rows": {
+          "PER": {
+            "value": 22.805315019408777,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.179532,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 0.987,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 6.062,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 1.9639934533551555,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": null,
+            "criterion": "35%以上",
+            "judge": "要確認"
+          },
+          "時価総額": {
+            "value": 2537.22263552,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 60.0,
+      "dividend_yield_pct": 1.9639934533551555,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：精密機器",
+        "target1_pct": 2.63,
+        "target2_pct": 2.73,
+        "target3_pct": 2.81,
+        "buy1_price": 2281,
+        "buy2_price": 2198,
+        "buy3_price": 2135,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 配当利回りは基準未達。 自己資本比率は取得できず要確認。",
+      "updated_at": "2026-07-22 05:50"
     },
     {
       "code": "5393",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "ニチアス",
+      "industry": "ガラス･土石製品",
+      "sector": "ガラス･土石製品",
+      "cycle": "景気敏感",
+      "price": 3325.0,
+      "price_date": "2026-07-22 14:35",
+      "price_change": 47.0,
+      "price_change_pct": 0.014338011,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 8.231624291337608,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 2.6359894,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 9.379990003405918,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 7.26516516722282,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.932330827067669,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 77.10000000000001,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 2105.3080055,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 164.0,
+      "dividend_yield_pct": 4.932330827067669,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：ガラス･土石製品",
+        "target1_pct": 2.83,
+        "target2_pct": 3.09,
+        "target3_pct": 3.16,
+        "buy1_price": 5795,
+        "buy2_price": 5307,
+        "buy3_price": 5190,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PBRは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:50"
     },
     {
       "code": "8002",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "丸紅",
+      "industry": "卸売業",
+      "sector": "卸売・商社",
+      "cycle": "景気敏感",
+      "price": 5265.0,
+      "price_date": "2026-07-22 14:35",
+      "price_change": 71.0,
+      "price_change_pct": 0.013669618,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 16.047915142648137,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.089252551546801,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 10.08376741811094,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 4.318038320654774,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 2.0417853751187085,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 41.3,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 86470.41674115,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 107.5,
+      "dividend_yield_pct": 2.0417853751187085,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：卸売業",
+        "target1_pct": 3.74,
+        "target2_pct": 3.87,
+        "target3_pct": 4.15,
+        "buy1_price": 2874,
+        "buy2_price": 2778,
+        "buy3_price": 2590,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:50"
     },
     {
       "code": "8001",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "伊藤忠商事",
+      "industry": "卸売業",
+      "sector": "卸売・商社",
+      "cycle": "景気敏感",
+      "price": 1970.5,
+      "price_date": "2026-07-22 14:36",
+      "price_change": 24.0,
+      "price_change_pct": 0.012329822,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 15.39934354485777,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.184710904152115,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 10.228729756912545,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 4.260930771753721,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 2.232935803095661,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 38.1,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 137922.27825495,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 44.0,
+      "dividend_yield_pct": 2.232935803095661,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：卸売業",
+        "target1_pct": 2.66,
+        "target2_pct": 2.79,
+        "target3_pct": 2.97,
+        "buy1_price": 1654,
+        "buy2_price": 1577,
+        "buy3_price": 1481,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:52"
     },
     {
       "code": "3407",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "旭化成",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "price": 1866.5,
+      "price_date": "2026-07-22 14:37",
+      "price_change": 4.5,
+      "price_change_pct": 0.0024167562,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 17.471683983899656,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.2629662960882893,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 5.793285846517578,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 2.8959376626769395,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.143048486472006,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 48.1,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 25318.00848301,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 40.0,
+      "dividend_yield_pct": 2.143048486472006,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学",
+        "target1_pct": 3.75,
+        "target2_pct": 3.87,
+        "target3_pct": 3.96,
+        "buy1_price": 1067,
+        "buy2_price": 1034,
+        "buy3_price": 1010,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:52"
     },
     {
       "code": "2914",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "日本たばこ産業",
+      "industry": "食料品",
+      "sector": "食品",
+      "cycle": "ディフェンシブ",
+      "price": 6435.0,
+      "price_date": "2026-07-22 14:37",
+      "price_change": 10.0,
+      "price_change_pct": 0.0015564202,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 20.042982620071015,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.795407451813431,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 12.396762493168932,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 6.059632460887205,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.7606837606837606,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 48.5,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 114246.2392929,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 242.0,
+      "dividend_yield_pct": 3.7606837606837606,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：食料品",
+        "target1_pct": 4.97,
+        "target2_pct": 5.44,
+        "target3_pct": 6.39,
+        "buy1_price": 4869,
+        "buy2_price": 4449,
+        "buy3_price": 3787,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:52"
     },
     {
       "code": "1721",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "コムシスホールディングス",
+      "industry": "建設業",
+      "sector": "建設・住宅",
+      "cycle": "景気敏感",
+      "price": 5237.0,
+      "price_date": "2026-07-22 14:36",
+      "price_change": 40.0,
+      "price_change_pct": 0.0076967482,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 19.88306313831201,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.5113155,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 5.785671220311558,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 4.083997024529444,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 2.2913881993507736,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 69.19999999999999,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 6068.79946573,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 120.0,
+      "dividend_yield_pct": 2.2913881993507736,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：建設業",
+        "target1_pct": 3.47,
+        "target2_pct": 3.52,
+        "target3_pct": 3.67,
+        "buy1_price": 3458,
+        "buy2_price": 3409,
+        "buy3_price": 3270,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:52"
     },
     {
       "code": "4182",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "三菱瓦斯化学",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "price": 4549.0,
+      "price_date": "2026-07-22 14:37",
+      "price_change": 96.0,
+      "price_change_pct": 0.02155366,
+      "step1": {
+        "overall": "要確認",
+        "rows": {
+          "PER": {
+            "value": null,
+            "criterion": "12倍以下",
+            "judge": "要確認"
+          },
+          "PBR": {
+            "value": 1.3704454,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": -4.9590003000000005,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 2.536,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.4181138711804793,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": null,
+            "criterion": "35%以上",
+            "judge": "要確認"
+          },
+          "時価総額": {
+            "value": 8870.00006656,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 110.0,
+      "dividend_yield_pct": 2.4181138711804793,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学",
+        "target1_pct": 3.97,
+        "target2_pct": 4.28,
+        "target3_pct": 4.44,
+        "buy1_price": 2771,
+        "buy2_price": 2570,
+        "buy3_price": 2477,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは取得できず要確認。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
+      "updated_at": "2026-07-22 05:52"
     },
     {
       "code": "8309",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "三井住友トラストグループ",
+      "industry": "銀行業",
+      "sector": "銀行",
+      "cycle": "景気敏感",
+      "price": 6855.0,
+      "price_date": "2026-07-22 14:38",
+      "price_change": 121.0,
+      "price_change_pct": 0.01796585,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 16.337376963226006,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.3427663,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 7.933364887542761,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 0.3258309922525258,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.4799416484318018,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 4.1000000000000005,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 47830.19195835,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 170.0,
+      "dividend_yield_pct": 2.4799416484318018,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：銀行業",
+        "target1_pct": 4.0,
+        "target2_pct": 4.1,
+        "target3_pct": 4.53,
+        "buy1_price": 4250,
+        "buy2_price": 4146,
+        "buy3_price": 3753,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
+      "updated_at": "2026-07-22 05:53"
     },
     {
       "code": "1417",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "ミライト・ワン",
+      "industry": "建設業",
+      "sector": "建設・住宅",
+      "cycle": "景気敏感",
+      "price": 3674.0,
+      "price_date": "2026-07-22 14:37",
+      "price_change": 7.0,
+      "price_change_pct": 0.0019089174,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 15.519790478604317,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.1657571,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 4.081475081346398,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 2.055550411998889,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.3135547087642894,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 48.699999999999996,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 3257.5857171,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 85.0,
+      "dividend_yield_pct": 2.3135547087642894,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：建設業",
+        "target1_pct": 3.3,
+        "target2_pct": 3.4,
+        "target3_pct": 3.52,
+        "buy1_price": 2576,
+        "buy2_price": 2500,
+        "buy3_price": 2415,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:53"
     },
     {
       "code": "8316",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "三井住友フィナンシャルグループ",
+      "industry": "銀行業",
+      "sector": "銀行",
+      "cycle": "景気敏感",
+      "price": 7100.0,
+      "price_date": "2026-07-22 14:38",
+      "price_change": 149.0,
+      "price_change_pct": 0.021435764,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 18.197662497436948,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.7090198,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 8.83508045758,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 0.4403624964878012,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.211267605633803,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 4.9,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 271797.70428,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 157.0,
+      "dividend_yield_pct": 2.211267605633803,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：銀行業",
+        "target1_pct": 3.56,
+        "target2_pct": 3.7,
+        "target3_pct": 3.85,
+        "buy1_price": 4410,
+        "buy2_price": 4243,
+        "buy3_price": 4078,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
+      "updated_at": "2026-07-22 05:53"
     },
     {
       "code": "8591",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "オリックス",
+      "industry": "その他金融業",
+      "sector": "その他金融",
+      "cycle": "景気敏感",
+      "price": 6587.0,
+      "price_date": "2026-07-22 14:39",
+      "price_change": 85.0,
+      "price_change_pct": 0.013070891,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 18.975053292619695,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.6143651,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 8.338363705655066,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 2.1498587992271045,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 1.8219219675117657,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 25.3,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 73129.88589494,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 120.01,
+      "dividend_yield_pct": 1.8219219675117657,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：その他金融業",
+        "target1_pct": 3.81,
+        "target2_pct": 4.0,
+        "target3_pct": 4.22,
+        "buy1_price": 3150,
+        "buy2_price": 3000,
+        "buy3_price": 2844,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
+      "updated_at": "2026-07-22 05:54"
     },
     {
       "code": "8117",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "中央自動車工業",
+      "industry": "卸売業",
+      "sector": "卸売・商社",
+      "cycle": "景気敏感",
+      "price": 2108.0,
+      "price_date": "2026-07-22 14:35",
+      "price_change": -2.0,
+      "price_change_pct": -0.00094786735,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 12.459365210709853,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.9283192154997346,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 11.940940841526798,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 10.4885141029369,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 2.7039848197343455,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 87.8,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 1164.98373364,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 57.0,
+      "dividend_yield_pct": 2.7039848197343455,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：卸売業",
+        "target1_pct": 3.17,
+        "target2_pct": 3.26,
+        "target3_pct": 3.43,
+        "buy1_price": 1798,
+        "buy2_price": 1748,
+        "buy3_price": 1662,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:55"
     },
     {
       "code": "4658",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "日本空調サービス",
+      "industry": "サービス業",
+      "sector": "サービス",
+      "cycle": "景気敏感",
+      "price": 1612.0,
+      "price_date": "2026-07-22 14:40",
+      "price_change": -3.0,
+      "price_change_pct": -0.0018575852,
+      "step1": {
+        "overall": "要確認",
+        "rows": {
+          "PER": {
+            "value": 15.731433590319117,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.8178723,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 12.948,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.8480002,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.225806451612903,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": null,
+            "criterion": "35%以上",
+            "judge": "要確認"
+          },
+          "時価総額": {
+            "value": 558.7232768,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 52.0,
+      "dividend_yield_pct": 3.225806451612903,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：サービス業",
+        "target1_pct": 4.31,
+        "target2_pct": 4.39,
+        "target3_pct": 4.52,
+        "buy1_price": 1206,
+        "buy2_price": 1185,
+        "buy3_price": 1150,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:55"
     },
     {
       "code": "2602",
-      "error": "レート上限に達しました。1分ほど待って再実行してください。"
+      "name": "日清オイリオグループ",
+      "industry": "食料品",
+      "sector": "食品",
+      "cycle": "ディフェンシブ",
+      "price": 1969.0,
+      "price_date": "2026-07-22 14:39",
+      "price_change": 9.0,
+      "price_change_pct": 0.0045941807,
+      "step1": {
+        "overall": "○",
+        "rows": {
+          "PER": {
+            "value": 2.579960429250907,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.85674775,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 10.394080509488488,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.079116663631069,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 9.14169629253428,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 46.2,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 606.29123115,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 180.0,
+      "dividend_yield_pct": 9.14169629253428,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：食料品",
+        "target1_pct": 3.64,
+        "target2_pct": 3.84,
+        "target3_pct": 4.06,
+        "buy1_price": 4945,
+        "buy2_price": 4688,
+        "buy3_price": 4433,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。 10期で無配なしは初期10期データの補完が必要。",
+      "updated_at": "2026-07-22 05:55"
     }
-  ]
+  ],
+  "errors": []
 }
