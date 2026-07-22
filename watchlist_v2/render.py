@@ -88,6 +88,20 @@ CSS = """
     font-family: "Shippori Mincho", "Hiragino Mincho ProN", serif;
     font-size: 1.1rem; font-weight: 700; transform: rotate(-4deg);
   }
+  .search-bar { position: relative; margin-bottom: 16px; }
+  .search-input {
+    width: 100%; box-sizing: border-box; font-size: 0.9rem;
+    padding: 10px 14px; border-radius: 10px; border: 1.5px solid var(--rule);
+    background: var(--paper-raised); color: var(--ink); font-family: inherit;
+  }
+  .search-input:focus { outline: none; border-color: var(--indigo); }
+  .search-input::placeholder { color: var(--ink-dim); }
+  .search-count {
+    position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+    font-size: 0.7rem; color: var(--ink-dim); pointer-events: none;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  .no-results { text-align: center; color: var(--ink-dim); font-size: 0.85rem; padding: 24px 0; }
   .cards { display: flex; flex-direction: column; gap: 14px; }
   .card { background: var(--paper-raised); border: 1px solid var(--rule); border-radius: 14px; padding: 18px 18px 16px; }
   .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
@@ -240,6 +254,14 @@ CSS = """
   }
   @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
 """
+
+
+def normalize_search(text: str) -> str:
+    """全角英数字を半角に変換して検索しやすくする。"""
+    return "".join(
+        chr(ord(ch) - 0xFEE0) if "！" <= ch <= "～" else ch
+        for ch in text
+    )
 
 
 def esc(value) -> str:
@@ -476,8 +498,9 @@ def render_card(stock: dict) -> str:
         else ""
     )
 
+    search_key = normalize_search(f'{stock["code"]} {stock["name"]}').lower()
     return (
-        '<div class="card">'
+        f'<div class="card" data-search="{esc(search_key)}">'
         '<div class="card-top"><div>'
         f'<span class="code">{stock["code"]}</span>'
         f'<div class="name">{stock["name"]}</div>'
@@ -517,13 +540,44 @@ def render(payload: dict) -> str:
     </div>
     <div class="seal">高</div>
   </header>
-  <div class="cards">{cards}</div>
+  <div class="search-bar">
+    <input type="text" id="search" class="search-input" placeholder="銘柄コードまたは銘柄名で検索" autocomplete="off">
+    <div id="search-count" class="search-count"></div>
+  </div>
+  <div class="cards" id="cards">{cards}</div>
+  <p id="no-results" class="no-results" hidden>該当する銘柄がありません。</p>
   <footer>
     <strong>最終更新：{payload["generated_at"]}</strong><br>
     株価はYahoo!ファイナンス、財務データはJ-Quants APIから取得しています。第2・第3段階は10期分のデータが揃い次第、自動で判定されます。<br>
     平日16:00 JST（東証終了後）に自動更新されます。売買判断は各証券会社の最新情報でご確認ください。{errors_note}
   </footer>
 </div>
+<script>
+(function() {{
+  var input = document.getElementById('search');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#cards .card'));
+  var countEl = document.getElementById('search-count');
+  var noResults = document.getElementById('no-results');
+  function normalize(s) {{
+    return s.replace(/[！-～]/g, function(c) {{
+      return String.fromCharCode(c.charCodeAt(0) - 0xFEE0);
+    }});
+  }}
+  function apply() {{
+    var q = normalize(input.value.trim()).toLowerCase();
+    var shown = 0;
+    cards.forEach(function(card) {{
+      var match = !q || (card.getAttribute('data-search') || '').indexOf(q) !== -1;
+      card.hidden = !match;
+      if (match) shown++;
+    }});
+    countEl.textContent = q ? shown + ' / ' + cards.length + '件' : '';
+    noResults.hidden = shown !== 0;
+  }}
+  input.addEventListener('input', apply);
+  apply();
+}})();
+</script>
 """
 
 
