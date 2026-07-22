@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22 15:32",
+  "generated_at": "2026-07-22 16:00",
   "stocks": [
     {
       "code": "8306",
@@ -101,7 +101,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 15:10"
+      "updated_at": "2026-07-22 15:39"
     },
     {
       "code": "9433",
@@ -203,7 +203,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 15:12"
+      "updated_at": "2026-07-22 15:39"
     },
     {
       "code": "1414",
@@ -305,7 +305,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。",
-      "updated_at": "2026-07-22 15:12"
+      "updated_at": "2026-07-22 15:40"
     },
     {
       "code": "1802",
@@ -407,7 +407,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 自己資本比率は取得できず要確認。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:12"
+      "updated_at": "2026-07-22 15:40"
     },
     {
       "code": "8725",
@@ -509,7 +509,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-22 15:12"
+      "updated_at": "2026-07-22 15:40"
     },
     {
       "code": "1926",
@@ -611,7 +611,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 自己資本比率は取得できず要確認。",
-      "updated_at": "2026-07-22 15:12"
+      "updated_at": "2026-07-22 15:41"
     },
     {
       "code": "2733",
@@ -713,7 +713,7 @@
       },
       "rating": "条件付き監視",
       "comment": "ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:13"
+      "updated_at": "2026-07-22 15:41"
     },
     {
       "code": "8439",
@@ -749,9 +749,9 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.68857356235997,
+            "value": 3.3607169529499625,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "自己資本比率": {
             "value": 15.0,
@@ -766,56 +766,56 @@
         }
       },
       "step2": {
-        "overall": "要確認",
+        "overall": "○",
         "rows": {
           "EPS10期赤字なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "赤字 0期"
           },
           "今期EPSが9期前の2倍以上": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "2.20倍"
           },
           "BPS10期連続増加": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減少・欠損 0回"
           },
           "10期で減配2回未満": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減配 0回"
           },
           "10期で無配なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "無配・欠損 0期"
           }
         },
-        "periods_available": 2
+        "periods_available": 10
       },
       "step3": {
-        "eps_sum": null,
-        "latest_bps": null,
-        "target_price": null
+        "eps_sum": 1242.79,
+        "latest_bps": 2292.53,
+        "target_price": 3535.32
       },
-      "forecast_dividend": 72.0,
-      "dividend_yield_pct": 2.68857356235997,
-      "dividend_override_note": null,
+      "forecast_dividend": 90.0,
+      "dividend_yield_pct": 3.3607169529499625,
+      "dividend_override_note": "2023年3月期にEPSが一時的に急落(9.74円、黒字は維持、大型損失計上等の影響とみられる)し、2024年3月期に急回復。実データであり誤記ではない。2027年3月期の会社予想は90円(2026-07提供資料、四半期内訳2Q45円+4Q45円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
-        "reason": "業種：その他金融業",
+        "reason": "業種：その他金融業・減配なし・増配基調",
         "target1_pct": 3.78,
         "target2_pct": 3.92,
         "target3_pct": 4.18,
-        "buy1_price": 1905,
-        "buy2_price": 1837,
-        "buy3_price": 1722,
+        "buy1_price": 2381,
+        "buy2_price": 2296,
+        "buy3_price": 2153,
         "buy_status": "監視",
         "sample_daily": 732,
         "sample_annual": 10,
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。 EPS10期赤字なしは初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 15:13"
+      "comment": "PERは基準未達。 ROAは基準未達。 自己資本比率は基準未達。",
+      "updated_at": "2026-07-22 15:41"
     },
     {
       "code": "6785",
@@ -868,42 +868,42 @@
         }
       },
       "step2": {
-        "overall": "要確認",
+        "overall": "○",
         "rows": {
           "EPS10期赤字なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "赤字 0期"
           },
           "今期EPSが9期前の2倍以上": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "14.39倍"
           },
           "BPS10期連続増加": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減少・欠損 0回"
           },
           "10期で減配2回未満": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減配 1回"
           },
           "10期で無配なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "無配・欠損 0期"
           }
         },
-        "periods_available": 2
+        "periods_available": 10
       },
       "step3": {
-        "eps_sum": null,
-        "latest_bps": null,
-        "target_price": null
+        "eps_sum": 1102.41,
+        "latest_bps": 1875.64,
+        "target_price": 2978.05
       },
       "forecast_dividend": 105.0,
       "dividend_yield_pct": 3.420195439739414,
-      "dividend_override_note": null,
+      "dividend_override_note": "決算期は6月。2019年6月期に一株配当が13円→11円へ減配(1回のみ、直近10期内)。2026年6月期の会社予想は105円(2026-07提供資料、四半期内訳2Q45円+4Q60円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
-        "reason": "業種：電気機器",
+        "reason": "業種：電気機器・配当変動大",
         "target1_pct": 4.83,
         "target2_pct": 5.04,
         "target3_pct": 5.38,
@@ -916,8 +916,8 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PBRは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 15:13"
+      "comment": "PBRは基準未達。 自己資本比率は取得できず要確認。",
+      "updated_at": "2026-07-22 15:42"
     },
     {
       "code": "6282",
@@ -1019,7 +1019,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 自己資本比率は取得できず要確認。",
-      "updated_at": "2026-07-22 15:14"
+      "updated_at": "2026-07-22 15:42"
     },
     {
       "code": "8892",
@@ -1121,7 +1121,7 @@
       },
       "rating": "条件付き監視",
       "comment": "ROAは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 15:14"
+      "updated_at": "2026-07-22 15:42"
     },
     {
       "code": "1605",
@@ -1223,7 +1223,7 @@
       },
       "rating": "除外候補",
       "comment": "PERは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-22 15:15"
+      "updated_at": "2026-07-22 15:43"
     },
     {
       "code": "6294",
@@ -1325,7 +1325,7 @@
       },
       "rating": "条件付き監視",
       "comment": "今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:15"
+      "updated_at": "2026-07-22 15:43"
     },
     {
       "code": "3277",
@@ -1427,7 +1427,7 @@
       },
       "rating": "条件付き監視",
       "comment": "自己資本比率は基準未達。 時価総額は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:15"
+      "updated_at": "2026-07-22 15:44"
     },
     {
       "code": "4272",
@@ -1529,7 +1529,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-22 15:16"
+      "updated_at": "2026-07-22 15:44"
     },
     {
       "code": "3003",
@@ -1631,7 +1631,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 15:16"
+      "updated_at": "2026-07-22 15:44"
     },
     {
       "code": "3252",
@@ -1733,7 +1733,7 @@
       },
       "rating": "条件付き監視",
       "comment": "自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:16"
+      "updated_at": "2026-07-22 15:44"
     },
     {
       "code": "5184",
@@ -1835,7 +1835,7 @@
       },
       "rating": "条件付き監視",
       "comment": "今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:17"
+      "updated_at": "2026-07-22 15:45"
     },
     {
       "code": "4568",
@@ -1937,7 +1937,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-22 15:17"
+      "updated_at": "2026-07-22 15:45"
     },
     {
       "code": "4540",
@@ -2039,7 +2039,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。",
-      "updated_at": "2026-07-22 15:17"
+      "updated_at": "2026-07-22 15:45"
     },
     {
       "code": "8058",
@@ -2141,7 +2141,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-22 15:18"
+      "updated_at": "2026-07-22 15:45"
     },
     {
       "code": "4206",
@@ -2243,7 +2243,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:18"
+      "updated_at": "2026-07-22 15:46"
     },
     {
       "code": "7203",
@@ -2345,7 +2345,7 @@
       },
       "rating": "条件付き監視",
       "comment": "ROAは基準未達。",
-      "updated_at": "2026-07-22 15:19"
+      "updated_at": "2026-07-22 15:47"
     },
     {
       "code": "8593",
@@ -2447,7 +2447,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:19"
+      "updated_at": "2026-07-22 15:47"
     },
     {
       "code": "7191",
@@ -2549,7 +2549,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 自己資本比率は取得できず要確認。",
-      "updated_at": "2026-07-22 15:19"
+      "updated_at": "2026-07-22 15:47"
     },
     {
       "code": "9432",
@@ -2651,7 +2651,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:20"
+      "updated_at": "2026-07-22 15:48"
     },
     {
       "code": "8766",
@@ -2753,7 +2753,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-22 15:20"
+      "updated_at": "2026-07-22 15:48"
     },
     {
       "code": "4613",
@@ -2855,7 +2855,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 15:20"
+      "updated_at": "2026-07-22 15:48"
     },
     {
       "code": "8252",
@@ -2957,7 +2957,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:20"
+      "updated_at": "2026-07-22 15:48"
     },
     {
       "code": "7981",
@@ -3059,7 +3059,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:21"
+      "updated_at": "2026-07-22 15:50"
     },
     {
       "code": "7990",
@@ -3161,7 +3161,7 @@
       },
       "rating": "条件付き監視",
       "comment": "自己資本比率は取得できず要確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-22 15:22"
+      "updated_at": "2026-07-22 15:50"
     },
     {
       "code": "1928",
@@ -3263,7 +3263,7 @@
       },
       "rating": "条件付き監視",
       "comment": "EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。 10期で無配なしは初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 15:22"
+      "updated_at": "2026-07-22 15:50"
     },
     {
       "code": "1925",
@@ -3365,7 +3365,7 @@
       },
       "rating": "条件付き監視",
       "comment": "ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:22"
+      "updated_at": "2026-07-22 15:50"
     },
     {
       "code": "7856",
@@ -3467,7 +3467,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:23"
+      "updated_at": "2026-07-22 15:50"
     },
     {
       "code": "7164",
@@ -3569,7 +3569,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 自己資本比率は取得できず要確認。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:23"
+      "updated_at": "2026-07-22 15:51"
     },
     {
       "code": "5911",
@@ -3671,7 +3671,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。",
-      "updated_at": "2026-07-22 15:23"
+      "updated_at": "2026-07-22 15:51"
     },
     {
       "code": "8424",
@@ -3773,7 +3773,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 自己資本比率は取得できず要確認。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:23"
+      "updated_at": "2026-07-22 15:51"
     },
     {
       "code": "5965",
@@ -3875,7 +3875,7 @@
       },
       "rating": "条件付き監視",
       "comment": "ROEは基準未達。 ROAは基準未達。 自己資本比率は取得できず要確認。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-22 15:24"
+      "updated_at": "2026-07-22 15:52"
     },
     {
       "code": "3231",
@@ -3977,7 +3977,7 @@
       },
       "rating": "条件付き監視",
       "comment": "ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:25"
+      "updated_at": "2026-07-22 15:53"
     },
     {
       "code": "9364",
@@ -4079,7 +4079,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。",
-      "updated_at": "2026-07-22 15:25"
+      "updated_at": "2026-07-22 15:53"
     },
     {
       "code": "4118",
@@ -4181,7 +4181,7 @@
       },
       "rating": "条件付き監視",
       "comment": "ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-22 15:25"
+      "updated_at": "2026-07-22 15:53"
     },
     {
       "code": "8411",
@@ -4283,7 +4283,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 15:25"
+      "updated_at": "2026-07-22 15:53"
     },
     {
       "code": "4063",
@@ -4385,7 +4385,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 15:26"
+      "updated_at": "2026-07-22 15:54"
     },
     {
       "code": "8015",
@@ -4487,7 +4487,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 15:26"
+      "updated_at": "2026-07-22 15:54"
     },
     {
       "code": "7716",
@@ -4589,7 +4589,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 配当利回りは基準未達。 自己資本比率は取得できず要確認。",
-      "updated_at": "2026-07-22 15:26"
+      "updated_at": "2026-07-22 15:54"
     },
     {
       "code": "5393",
@@ -4691,7 +4691,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PBRは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-22 15:27"
+      "updated_at": "2026-07-22 15:55"
     },
     {
       "code": "8002",
@@ -4793,7 +4793,7 @@
       },
       "rating": "除外候補",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-22 15:27"
+      "updated_at": "2026-07-22 15:55"
     },
     {
       "code": "8001",
@@ -4895,7 +4895,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-22 15:28"
+      "updated_at": "2026-07-22 15:55"
     },
     {
       "code": "3407",
@@ -4997,7 +4997,7 @@
       },
       "rating": "除外候補",
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。",
-      "updated_at": "2026-07-22 15:28"
+      "updated_at": "2026-07-22 15:56"
     },
     {
       "code": "2914",
@@ -5099,7 +5099,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-22 15:28"
+      "updated_at": "2026-07-22 15:56"
     },
     {
       "code": "1721",
@@ -5135,7 +5135,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.2948938611589216,
+            "value": 2.5817555938037864,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -5152,56 +5152,56 @@
         }
       },
       "step2": {
-        "overall": "要確認",
+        "overall": "○",
         "rows": {
           "EPS10期赤字なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "赤字 0期"
           },
           "今期EPSが9期前の2倍以上": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "2.40倍"
           },
           "BPS10期連続増加": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減少・欠損 0回"
           },
           "10期で減配2回未満": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減配 0回"
           },
           "10期で無配なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "無配・欠損 0期"
           }
         },
-        "periods_available": 2
+        "periods_available": 10
       },
       "step3": {
-        "eps_sum": null,
-        "latest_bps": null,
-        "target_price": null
+        "eps_sum": 2162.28,
+        "latest_bps": 3456.23,
+        "target_price": 5618.51
       },
-      "forecast_dividend": 120.0,
-      "dividend_yield_pct": 2.2948938611589216,
-      "dividend_override_note": null,
+      "forecast_dividend": 135.0,
+      "dividend_yield_pct": 2.5817555938037864,
+      "dividend_override_note": "2023年3月期にEPSが一時的に落ち込み(158.82円、黒字は維持)。2027年3月期の会社予想は135円(2026-07提供資料、四半期内訳2Q65円+4Q70円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
-        "reason": "業種：建設業",
+        "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 3.47,
         "target2_pct": 3.52,
         "target3_pct": 3.67,
-        "buy1_price": 3458,
-        "buy2_price": 3409,
-        "buy3_price": 3270,
+        "buy1_price": 3890,
+        "buy2_price": 3835,
+        "buy3_price": 3678,
         "buy_status": "監視",
         "sample_daily": 732,
         "sample_annual": 10,
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 15:29"
+      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 配当利回りは基準未達。",
+      "updated_at": "2026-07-22 15:57"
     },
     {
       "code": "4182",
@@ -5303,7 +5303,7 @@
       },
       "rating": "除外候補",
       "comment": "PERは取得できず要確認。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-22 15:29"
+      "updated_at": "2026-07-22 15:57"
     },
     {
       "code": "8309",
@@ -5405,7 +5405,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は取得できず要確認。",
-      "updated_at": "2026-07-22 15:29"
+      "updated_at": "2026-07-22 15:57"
     },
     {
       "code": "1417",
@@ -5441,7 +5441,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.317339149400218,
+            "value": 2.589967284623773,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -5458,56 +5458,56 @@
         }
       },
       "step2": {
-        "overall": "要確認",
+        "overall": "○",
         "rows": {
           "EPS10期赤字なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "赤字 0期"
           },
           "今期EPSが9期前の2倍以上": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "3.28倍"
           },
           "BPS10期連続増加": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減少・欠損 0回"
           },
           "10期で減配2回未満": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減配 0回"
           },
           "10期で無配なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "無配・欠損 0期"
           }
         },
-        "periods_available": 2
+        "periods_available": 10
       },
       "step3": {
-        "eps_sum": null,
-        "latest_bps": null,
-        "target_price": null
+        "eps_sum": 1886.53,
+        "latest_bps": 3151.6,
+        "target_price": 5038.13
       },
-      "forecast_dividend": 85.0,
-      "dividend_yield_pct": 2.317339149400218,
-      "dividend_override_note": null,
+      "forecast_dividend": 95.0,
+      "dividend_yield_pct": 2.589967284623773,
+      "dividend_override_note": "2019年3月期は経営統合(三井情報等)に伴う一時的なEPS急伸(295.33円)。2027年3月期の会社予想は95円(2026-07提供資料、四半期内訳2Q45円+4Q50円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
-        "reason": "業種：建設業",
+        "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 3.3,
         "target2_pct": 3.4,
         "target3_pct": 3.52,
-        "buy1_price": 2576,
-        "buy2_price": 2500,
-        "buy3_price": 2415,
+        "buy1_price": 2879,
+        "buy2_price": 2794,
+        "buy3_price": 2699,
         "buy_status": "監視",
         "sample_daily": 732,
         "sample_annual": 10,
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 15:30"
+      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
+      "updated_at": "2026-07-22 15:58"
     },
     {
       "code": "8316",
@@ -5543,7 +5543,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.2200226244343892,
+            "value": 1.2726244343891402,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -5560,48 +5560,48 @@
         }
       },
       "step2": {
-        "overall": "要確認",
+        "overall": "○",
         "rows": {
           "EPS10期赤字なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "赤字 0期"
           },
           "今期EPSが9期前の2倍以上": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "2.40倍"
           },
           "BPS10期連続増加": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減少・欠損 0回"
           },
           "10期で減配2回未満": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減配 0回"
           },
           "10期で無配なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "無配・欠損 0期"
           }
         },
-        "periods_available": 2
+        "periods_available": 10
       },
       "step3": {
-        "eps_sum": null,
-        "latest_bps": null,
-        "target_price": null
+        "eps_sum": 2137.95,
+        "latest_bps": 4135.71,
+        "target_price": 6273.66
       },
-      "forecast_dividend": 157.0,
-      "dividend_yield_pct": 2.2200226244343892,
-      "dividend_override_note": null,
+      "forecast_dividend": 90.0,
+      "dividend_yield_pct": 1.2726244343891402,
+      "dividend_override_note": "2026年10月1日予定の株式分割を適用済みの配当系列(資料注記)。2027年3月期の会社予想はEPS445.39円、配当90円(2026-07提供資料、四半期内訳2Q45円+4Q45円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
-        "reason": "業種：銀行業",
+        "reason": "業種：銀行業・減配なし・増配基調",
         "target1_pct": 3.56,
         "target2_pct": 3.7,
         "target3_pct": 3.85,
-        "buy1_price": 4410,
-        "buy2_price": 4243,
-        "buy3_price": 4078,
+        "buy1_price": 2528,
+        "buy2_price": 2432,
+        "buy3_price": 2338,
         "buy_status": "監視",
         "sample_daily": 732,
         "sample_annual": 10,
@@ -5609,7 +5609,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 15:30"
+      "updated_at": "2026-07-22 15:58"
     },
     {
       "code": "8591",
@@ -5662,42 +5662,42 @@
         }
       },
       "step2": {
-        "overall": "要確認",
+        "overall": "×",
         "rows": {
           "EPS10期赤字なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "赤字 0期"
           },
           "今期EPSが9期前の2倍以上": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "×",
+            "detail": "1.92倍"
           },
           "BPS10期連続増加": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減少・欠損 0回"
           },
           "10期で減配2回未満": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減配 0回"
           },
           "10期で無配なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "無配・欠損 0期"
           }
         },
-        "periods_available": 2
+        "periods_available": 10
       },
       "step3": {
-        "eps_sum": null,
-        "latest_bps": null,
-        "target_price": null
+        "eps_sum": 2615.5,
+        "latest_bps": 4069.0,
+        "target_price": 6684.5
       },
       "forecast_dividend": 120.01,
       "dividend_yield_pct": 1.8233059860224856,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
-        "reason": "業種：その他金融業",
+        "reason": "業種：その他金融業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 3.81,
         "target2_pct": 4.0,
         "target3_pct": 4.22,
@@ -5711,7 +5711,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 15:30"
+      "updated_at": "2026-07-22 15:58"
     },
     {
       "code": "8117",
@@ -5813,7 +5813,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 15:31"
+      "updated_at": "2026-07-22 15:58"
     },
     {
       "code": "4658",
@@ -5915,7 +5915,7 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 自己資本比率は取得できず要確認。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 15:31"
+      "updated_at": "2026-07-22 15:59"
     },
     {
       "code": "2602",
@@ -5951,7 +5951,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 9.155645981688707,
+            "value": 3.0518819938962363,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -5968,56 +5968,158 @@
         }
       },
       "step2": {
-        "overall": "要確認",
+        "overall": "○",
         "rows": {
           "EPS10期赤字なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "赤字 0期"
           },
           "今期EPSが9期前の2倍以上": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "3.35倍"
           },
           "BPS10期連続増加": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減少・欠損 0回"
           },
           "10期で減配2回未満": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減配 0回"
           },
           "10期で無配なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "無配・欠損 0期"
           }
         },
-        "periods_available": 2
+        "periods_available": 10
       },
       "step3": {
-        "eps_sum": null,
-        "latest_bps": null,
-        "target_price": null
+        "eps_sum": 1152.03,
+        "latest_bps": 2298.23,
+        "target_price": 3450.26
       },
-      "forecast_dividend": 180.0,
-      "dividend_yield_pct": 9.155645981688707,
-      "dividend_override_note": null,
+      "forecast_dividend": 60.0,
+      "dividend_yield_pct": 3.0518819938962363,
+      "dividend_override_note": "2026年3月期はEPSが一時的に急伸(254.41円、一時的要因の可能性、2027年3月期予想は131.19円に反落見込み)。一株配当は株式数調整済み。2027年3月期の会社予想は配当60円で前期と同額(2026-07提供資料、四半期内訳2Q30円+4Q30円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
-        "reason": "業種：食料品",
+        "reason": "業種：食料品・減配なし・増配基調",
         "target1_pct": 3.64,
         "target2_pct": 3.84,
         "target3_pct": 4.06,
-        "buy1_price": 4945,
-        "buy2_price": 4688,
-        "buy3_price": 4433,
-        "buy_status": "第3買い（本格購入）",
+        "buy1_price": 1648,
+        "buy2_price": 1563,
+        "buy3_price": 1478,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "監視継続",
+      "comment": "全項目で基準を満たしています。",
+      "updated_at": "2026-07-22 16:00"
+    },
+    {
+      "code": "3150",
+      "name": "グリムス",
+      "industry": "電気･ガス業",
+      "sector": "電気･ガス業",
+      "cycle": "景気敏感",
+      "price": 2589.0,
+      "price_date": "2026-07-22 15:30",
+      "price_change": -30.0,
+      "price_change_pct": -0.011454754,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 12.293447293447294,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 3.0612607,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 21.55064155064155,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 14.317843798744875,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.5921205098493627,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 66.10000000000001,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 598.11096123,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "○",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "9.67倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 976.87,
+        "latest_bps": 842.74,
+        "target_price": 1819.61
+      },
+      "forecast_dividend": 93.0,
+      "dividend_yield_pct": 3.5921205098493627,
+      "dividend_override_note": "急成長企業で配当・EPS・BPSとも大幅増加基調。一株配当は株式数調整済み(資料注記)。2027年3月期の会社予想は93円(2026-07提供資料、四半期内訳2Q28円+4Q65円)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：電気･ガス業・配当変動大",
+        "target1_pct": 3.41,
+        "target2_pct": 3.53,
+        "target3_pct": 3.61,
+        "buy1_price": 2727,
+        "buy2_price": 2635,
+        "buy3_price": 2576,
+        "buy_status": "第2買い（追加買い）",
         "sample_daily": 732,
         "sample_annual": 10,
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。 10期で無配なしは初期10期データの補完が必要。",
-      "updated_at": "2026-07-22 15:32"
+      "comment": "PERは基準未達。 PBRは基準未達。",
+      "updated_at": "2026-07-22 16:00"
     }
   ],
   "errors": []
