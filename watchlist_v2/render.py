@@ -285,6 +285,12 @@ def render_card(stock: dict) -> str:
 
     forecast_dividend = stock.get("forecast_dividend")
     dividend_yield = stock.get("dividend_yield_pct")
+    override_note = stock.get("dividend_override_note")
+    override_html = (
+        f'<div class="data-gap"><strong>予想配当を手動補正：</strong>{override_note}</div>'
+        if override_note
+        else ""
+    )
 
     return (
         '<div class="card">'
@@ -301,6 +307,7 @@ def render_card(stock: dict) -> str:
         f'{fmt_num(dividend_yield, 2) if dividend_yield is not None else "取得不可"}%</div></div>'
         f'<div class="stat"><div class="label">総合判定</div><div class="value">{stock["rating"]}</div></div>'
         "</div>"
+        f"{override_html}"
         f'{render_step1(stock["step1"])}'
         f'{render_step2(stock["step2"])}'
         f'{render_step3(stock["step3"])}'

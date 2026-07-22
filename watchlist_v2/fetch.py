@@ -37,6 +37,33 @@ from workbook_io import empty_history  # noqa: E402
 
 CODES_FILE = Path(__file__).resolve().parent / "codes.json"
 OUTPUT_FILE = Path(__file__).resolve().parent / "stocks.json"
+SEED_FILE = Path(__file__).resolve().parent / "history_seed.json"
+
+
+def load_seed(code: str) -> dict:
+    if not SEED_FILE.exists():
+        return {}
+    data = json.loads(SEED_FILE.read_text(encoding="utf-8"))
+    return data.get(code, {})
+
+
+def seed_history_df(code: str, seed: dict) -> pd.DataFrame:
+    """J-Quants Freeが保持していない古い決算期を補うための手入力データを読み込む。"""
+    rows = seed.get("history", [])
+    if not rows:
+        return empty_history()
+    return pd.DataFrame([
+        {
+            "コード": str(code).zfill(4),
+            "決算期": row["period"],
+            "EPS": row["eps"],
+            "BPS": row["bps"],
+            "1株配当": row["dividend"],
+            "データ元": "手入力",
+            "更新日": "seed",
+        }
+        for row in rows
+    ])
 
 
 def fetch_one(client: JQuantsClient, code: str) -> dict:
@@ -68,8 +95,17 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
             y = float(market["dividend_yield"])
             metrics["配当利回り"] = y * 100 if abs(y) <= 1 else y
 
+    seed = load_seed(code)
+    override_note = None
+    override_dividend = seed.get("current_dividend_forecast")
+    if override_dividend is not None:
+        override_note = seed.get("note")
+        metrics["予想年間配当"] = float(override_dividend)
+        if price:
+            metrics["配当利回り"] = metrics["予想年間配当"] / price * 100
+
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
-    history = merge_new_fy(empty_history(), code, summaries, now)
+    history = merge_new_fy(seed_history_df(code, seed), code, summaries, now)
 
     step1 = analyze_step1(metrics)
     step2 = analyze_step2(history, code)
@@ -117,6 +153,7 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
         },
         "forecast_dividend": clean(metrics.get("予想年間配当")),
         "dividend_yield_pct": clean(metrics.get("配当利回り")),
+        "dividend_override_note": override_note,
         "rating": rating,
         "comment": comment,
         "updated_at": now,

@@ -1,0 +1,19 @@
+{
+  "_comment": "J-Quants Free版が保持していない古い決算期・最新の会社予想を補うための手入力データ。ユーザー提供の資料から検証のうえ入力。fetch.pyがJ-Quantsの直近データとマージし、最新10期を維持する。current_dividend_forecastは、J-Quants Freeの遅延で会社の最新予想が反映されない場合の上書き用。",
+  "8306": {
+    "history": [
+      {"period": "2017-03-31", "eps": 68.28, "bps": 1137.78, "dividend": 18},
+      {"period": "2018-03-31", "eps": 74.55, "bps": 1217.41, "dividend": 19},
+      {"period": "2019-03-31", "eps": 66.91, "bps": 1252.03, "dividend": 22},
+      {"period": "2020-03-31", "eps": 40.95, "bps": 1245.33, "dividend": 25},
+      {"period": "2021-03-31", "eps": 60.5,  "bps": 1308.12, "dividend": 25},
+      {"period": "2022-03-31", "eps": 88.45, "bps": 1349.52, "dividend": 28},
+      {"period": "2023-03-31", "eps": 90.73, "bps": 1433.12, "dividend": 32},
+      {"period": "2024-03-31", "eps": 124.65, "bps": 1670.45, "dividend": 41},
+      {"period": "2025-03-31", "eps": 160.02, "bps": 1783.37, "dividend": 64},
+      {"period": "2026-03-31", "eps": 213.17, "bps": 1973.31, "dividend": 86}
+    ],
+    "current_dividend_forecast": 96,
+    "note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想74円のまま。2026年3月期は実績86円で確定済み、2027年3月期の会社予想は96円(2026-07提供資料)。"
+  }
+}
