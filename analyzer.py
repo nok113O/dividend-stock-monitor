@@ -37,7 +37,12 @@ def latest_close(bars: list[dict]) -> tuple[float | None, str | None]:
 def latest_summary(rows: list[dict]) -> dict:
     if not rows:
         return {}
-    return sorted(rows, key=lambda r: (r.get("DiscDate", ""), r.get("DiscNo", "")))[-1]
+    # 決算訂正等で古い会計期間がDiscNoの大きい値で再提出されることがあるため、
+    # 対象期間(CurPerEn)を優先し、同一期間内の最新提出をDiscDate/DiscNoで選ぶ。
+    return sorted(
+        rows,
+        key=lambda r: (r.get("CurPerEn", ""), r.get("DiscDate", ""), r.get("DiscNo", "")),
+    )[-1]
 
 def latest_fy_summaries(rows: list[dict]) -> list[dict]:
     fy = [r for r in rows if str(r.get("CurPerType", "")).upper() == "FY"]

@@ -1,32 +1,180 @@
 {
-  "artifact_url": "https://claude.ai/code/artifact/d3ec115c-ba5a-4dd4-a568-8e62b2022116",
-  "last_updated": "2026-07-21",
+  "generated_at": "2026-07-22 00:10",
   "stocks": [
     {
       "code": "8306",
-      "name": "三菱UFJフィナンシャル・グループ",
+      "name": "三菱ＵＦＪフィナンシャル・グループ",
+      "industry": "銀行業",
+      "sector": "銀行",
+      "cycle": "景気敏感",
       "price": 3580.0,
+      "price_date": "2026-07-21 15:30",
       "price_change": 107.0,
-      "price_change_pct": 3.08,
-      "price_as_of": "2026-07-21 15:30 JST",
+      "price_change_pct": 0.030809099,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 22.531310969853358,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.0645394,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 7.950569639251783,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 0.4337416634520456,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.067039106145251,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 5.1,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 405792.9532452,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
       "forecast_dividend": 74.0,
-      "forecast_dividend_fy": "2026年3月期",
-      "dividend_yield_pct": 2.07,
-      "consecutive_dividend_increases": 5,
-      "note": "2026年3月期は前期比+10円の年間74円を予想。10年で5回増配、直近増配率34.4%。"
+      "dividend_yield_pct": 2.067039106145251,
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
+      "updated_at": "2026-07-22 00:10"
     },
     {
       "code": "9433",
-      "name": "KDDI",
-      "price": 2852.5,
-      "price_change": 17.5,
-      "price_change_pct": 0.62,
-      "price_as_of": "2026-07-15 JST",
-      "forecast_dividend": 84.0,
-      "forecast_dividend_fy": "2027年3月期",
-      "dividend_yield_pct": 2.94,
-      "consecutive_dividend_increases": 25,
-      "note": "2027年3月期は前期比+4円の年間84円（中間42円・期末42円）を予想。配当性向43.6%。"
+      "name": "ＫＤＤＩ",
+      "industry": "情報･通信業",
+      "sector": "情報･通信業",
+      "cycle": "景気敏感",
+      "price": 2881.5,
+      "price_date": "2026-07-21 15:30",
+      "price_change": 13.5,
+      "price_change_pct": 0.004707113,
+      "step1": {
+        "overall": "×",
+        "rows": {
+          "PER": {
+            "value": 15.899685482536006,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.1608548,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 10.028576076796023,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 2.970597541836946,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.7763317716467117,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 26.8,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 109700.96501808,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 80.0,
+      "dividend_yield_pct": 2.7763317716467117,
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
+      "updated_at": "2026-07-22 00:10"
     }
-  ]
+  ],
+  "errors": []
 }

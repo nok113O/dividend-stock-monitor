@@ -93,6 +93,8 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
         "cycle": cycle,
         "price": clean(price),
         "price_date": price_date,
+        "price_change": clean(market.get("change")),
+        "price_change_pct": clean(market.get("change_pct")),
         "step1": {
             "overall": step1["overall"],
             "rows": {
