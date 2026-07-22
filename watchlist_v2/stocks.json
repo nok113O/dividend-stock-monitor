@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22 00:21",
+  "generated_at": "2026-07-22 04:03",
   "stocks": [
     {
       "code": "8306",
@@ -7,20 +7,20 @@
       "industry": "銀行業",
       "sector": "銀行",
       "cycle": "景気敏感",
-      "price": 3595.0,
-      "price_date": "2026-07-22 09:06",
-      "price_change": 15.0,
-      "price_change_pct": 0.0041899444,
+      "price": 3675.0,
+      "price_date": "2026-07-22 12:48",
+      "price_change": 95.0,
+      "price_change_pct": 0.026528902,
       "step1": {
         "overall": "×",
         "rows": {
           "PER": {
-            "value": 22.62571590408459,
+            "value": 23.129208886651146,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.0731897,
+            "value": 2.1193247,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -35,7 +35,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.670375521557719,
+            "value": 2.612244897959184,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -45,7 +45,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 407493.2030493,
+            "value": 416561.2020045,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -83,11 +83,11 @@
         "target_price": 2961.52
       },
       "forecast_dividend": 96.0,
-      "dividend_yield_pct": 2.670375521557719,
+      "dividend_yield_pct": 2.612244897959184,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想74円のまま。2026年3月期は実績86円で確定済み、2027年3月期の会社予想は96円(2026-07提供資料)。",
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 00:21"
+      "updated_at": "2026-07-22 04:03"
     },
     {
       "code": "9433",
@@ -95,20 +95,20 @@
       "industry": "情報･通信業",
       "sector": "情報･通信業",
       "cycle": "景気敏感",
-      "price": 2862.0,
-      "price_date": "2026-07-22 09:06",
-      "price_change": -19.5,
-      "price_change_pct": -0.0067661344,
+      "price": 2833.0,
+      "price_date": "2026-07-22 12:48",
+      "price_change": -48.5,
+      "price_change_pct": -0.016828591,
       "step1": {
         "overall": "×",
         "rows": {
           "PER": {
-            "value": 15.79208740274789,
+            "value": 15.632069745627104,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.1462317,
+            "value": 2.1244845,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -123,7 +123,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.795248078266946,
+            "value": 2.9650547123190965,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -133,49 +133,49 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 108958.58472384,
+            "value": 107854.53197856,
             "criterion": "100億円以上",
             "judge": "○"
           }
         }
       },
       "step2": {
-        "overall": "要確認",
+        "overall": "×",
         "rows": {
           "EPS10期赤字なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "赤字 0期"
           },
           "今期EPSが9期前の2倍以上": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "×",
+            "detail": "1.66倍"
           },
           "BPS10期連続増加": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減少・欠損 0回"
           },
           "10期で減配2回未満": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "減配 0回"
           },
           "10期で無配なし": {
-            "judge": "要確認",
-            "detail": "2期分"
+            "judge": "○",
+            "detail": "無配・欠損 0期"
           }
         },
-        "periods_available": 2
+        "periods_available": 10
       },
       "step3": {
-        "eps_sum": null,
-        "latest_bps": null,
-        "target_price": null
+        "eps_sum": 1424.43,
+        "latest_bps": 1333.5,
+        "target_price": 2757.93
       },
-      "forecast_dividend": 80.0,
-      "dividend_yield_pct": 2.795248078266946,
-      "dividend_override_note": null,
+      "forecast_dividend": 84.0,
+      "dividend_yield_pct": 2.9650547123190965,
+      "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想80円のまま。2026年3月期は実績80円で確定済み、2027年3月期の会社予想は84円(2026-07提供資料)。",
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-22 00:21"
+      "updated_at": "2026-07-22 04:03"
     }
   ],
   "errors": []
