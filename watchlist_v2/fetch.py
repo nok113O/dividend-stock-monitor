@@ -194,10 +194,21 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
     }
 
 
+def load_previous_stocks() -> dict[str, dict]:
+    if not OUTPUT_FILE.exists():
+        return {}
+    try:
+        payload = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return {}
+    return {s["code"]: s for s in payload.get("stocks", [])}
+
+
 def main() -> None:
     api_key = os.environ.get("JQUANTS_API_KEY", "")
     codes = json.loads(CODES_FILE.read_text(encoding="utf-8"))
-    client = JQuantsClient(api_key, min_interval_seconds=1.2)
+    client = JQuantsClient(api_key, min_interval_seconds=1.5)
+    previous = load_previous_stocks()
 
     results = []
     errors = []
@@ -208,8 +219,12 @@ def main() -> None:
             results.append(fetch_one(client, code))
         except JQuantsError as exc:
             errors.append({"code": code, "error": str(exc)})
+            if code in previous:
+                results.append(previous[code])
         except Exception as exc:  # noqa: BLE001
             errors.append({"code": code, "error": f"{type(exc).__name__}: {exc}"})
+            if code in previous:
+                results.append(previous[code])
 
     payload = {
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -220,7 +235,8 @@ def main() -> None:
     print(f"取得完了: {len(results)}件 / エラー {len(errors)}件 -> {OUTPUT_FILE}")
     if errors:
         for e in errors:
-            print(f"  - {e['code']}: {e['error']}")
+            kept = "（前回値を保持）" if e["code"] in previous else "（データなし）"
+            print(f"  - {e['code']}: {e['error']} {kept}")
 
 
 if __name__ == "__main__":

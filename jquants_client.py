@@ -28,7 +28,9 @@ class JQuantsClient:
         if elapsed < self.min_interval_seconds:
             time.sleep(self.min_interval_seconds - elapsed)
 
-    def _get(self, path: str, params: dict[str, Any]) -> list[dict[str, Any]]:
+    def _get(
+        self, path: str, params: dict[str, Any], max_rate_limit_retries: int = 5
+    ) -> list[dict[str, Any]]:
         all_rows: list[dict[str, Any]] = []
         pagination_key = None
 
@@ -37,20 +39,26 @@ class JQuantsClient:
             if pagination_key:
                 query["pagination_key"] = pagination_key
 
-            self._wait()
-            response = self.session.get(
-                f"{BASE_URL}{path}",
-                params=query,
-                timeout=30,
-            )
-            self._last_request_at = time.monotonic()
+            rate_limit_retries = 0
+            while True:
+                self._wait()
+                response = self.session.get(
+                    f"{BASE_URL}{path}",
+                    params=query,
+                    timeout=30,
+                )
+                self._last_request_at = time.monotonic()
+                if response.status_code != 429:
+                    break
+                rate_limit_retries += 1
+                if rate_limit_retries > max_rate_limit_retries:
+                    raise JQuantsError("レート上限に達しました。1分ほど待って再実行してください。")
+                time.sleep(65)
 
             if response.status_code == 401:
                 raise JQuantsError("APIキーが無効、またはSecretsへの登録が反映されていません。")
             if response.status_code == 403:
                 raise JQuantsError("契約プランでは利用できないデータ、または取得期間です。")
-            if response.status_code == 429:
-                raise JQuantsError("レート上限に達しました。1分ほど待って再実行してください。")
             try:
                 response.raise_for_status()
             except requests.HTTPError as exc:
