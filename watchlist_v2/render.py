@@ -79,6 +79,18 @@ CSS = """
     font-family: "Shippori Mincho", "Hiragino Mincho ProN", serif;
     font-size: 1.1rem; font-weight: 700; transform: rotate(-4deg);
   }
+  .filter-bar {
+    display: flex; gap: 6px; margin-bottom: 12px; overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .filter-btn {
+    flex: none; font-size: 0.76rem; font-weight: 600; padding: 7px 12px;
+    border-radius: 999px; border: 1.5px solid var(--rule); background: var(--paper-raised);
+    color: var(--ink-dim); cursor: pointer; white-space: nowrap;
+  }
+  .filter-btn.active {
+    border-color: var(--indigo); color: var(--indigo); background: var(--indigo-soft);
+  }
   .search-bar { position: relative; margin-bottom: 16px; }
   .search-input {
     width: 100%; box-sizing: border-box; font-size: 0.9rem;
@@ -498,7 +510,7 @@ def render_card(stock: dict) -> str:
 
     search_key = normalize_search(f'{stock["code"]} {stock["name"]}').lower()
     return (
-        f'<div class="card" data-search="{esc(search_key)}">'
+        f'<div class="card" data-search="{esc(search_key)}" data-rating="{esc(stock["rating"])}">'
         '<div class="card-top"><div>'
         f'<span class="code">{stock["code"]}</span>'
         f'<div class="name">{stock["name"]}</div>'
@@ -536,11 +548,26 @@ def sort_stocks(stocks: list[dict]) -> list[dict]:
 
 
 def render(payload: dict) -> str:
-    cards = "".join(render_card(s) for s in sort_stocks(payload["stocks"]))
+    sorted_stocks = sort_stocks(payload["stocks"])
+    cards = "".join(render_card(s) for s in sorted_stocks)
     errors_note = ""
     if payload.get("errors"):
         codes = "、".join(e["code"] for e in payload["errors"])
         errors_note = f"<br>取得失敗：{codes}（前回値を保持）"
+
+    rating_counts: dict[str, int] = {}
+    for s in sorted_stocks:
+        rating_counts[s["rating"]] = rating_counts.get(s["rating"], 0) + 1
+    filter_defs = [("all", "全て", len(sorted_stocks))]
+    for rating in ("監視継続", "条件付き監視", "除外候補"):
+        if rating_counts.get(rating):
+            filter_defs.append((rating, rating, rating_counts[rating]))
+    filter_buttons = "".join(
+        f'<button type="button" class="filter-btn{" active" if key == "all" else ""}" '
+        f'data-filter="{esc(key)}">{esc(label)}（{count}）</button>'
+        for key, label, count in filter_defs
+    )
+
     return f"""<title>高配当株ウォッチリスト</title>
 <style>{CSS}</style>
 <div class="sheet">
@@ -551,6 +578,7 @@ def render(payload: dict) -> str:
     </div>
     <div class="seal">高</div>
   </header>
+  <div class="filter-bar" id="filter-bar">{filter_buttons}</div>
   <div class="search-bar">
     <input type="text" id="search" class="search-input" placeholder="銘柄コードまたは銘柄名で検索" autocomplete="off">
     <div id="search-count" class="search-count"></div>
@@ -569,6 +597,15 @@ def render(payload: dict) -> str:
   var cards = Array.prototype.slice.call(document.querySelectorAll('#cards .card'));
   var countEl = document.getElementById('search-count');
   var noResults = document.getElementById('no-results');
+  var filterBtns = Array.prototype.slice.call(document.querySelectorAll('#filter-bar .filter-btn'));
+  var activeFilter = 'all';
+  filterBtns.forEach(function(btn) {{
+    btn.addEventListener('click', function() {{
+      activeFilter = btn.getAttribute('data-filter');
+      filterBtns.forEach(function(b) {{ b.classList.toggle('active', b === btn); }});
+      apply();
+    }});
+  }});
   function normalize(s) {{
     return s.replace(/[！-～]/g, function(c) {{
       return String.fromCharCode(c.charCodeAt(0) - 0xFEE0);
@@ -578,11 +615,13 @@ def render(payload: dict) -> str:
     var q = normalize(input.value.trim()).toLowerCase();
     var shown = 0;
     cards.forEach(function(card) {{
-      var match = !q || (card.getAttribute('data-search') || '').indexOf(q) !== -1;
+      var textMatch = !q || (card.getAttribute('data-search') || '').indexOf(q) !== -1;
+      var ratingMatch = activeFilter === 'all' || card.getAttribute('data-rating') === activeFilter;
+      var match = textMatch && ratingMatch;
       card.hidden = !match;
       if (match) shown++;
     }});
-    countEl.textContent = q ? shown + ' / ' + cards.length + '件' : '';
+    countEl.textContent = (q || activeFilter !== 'all') ? shown + ' / ' + cards.length + '件' : '';
     noResults.hidden = shown !== 0;
   }}
   input.addEventListener('input', apply);
