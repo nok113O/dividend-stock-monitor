@@ -39,10 +39,27 @@ def latest_summary(rows: list[dict]) -> dict:
         return {}
     # 決算訂正等で古い会計期間がDiscNoの大きい値で再提出されることがあるため、
     # 対象期間(CurPerEn)を優先し、同一期間内の最新提出をDiscDate/DiscNoで選ぶ。
-    return sorted(
+    latest = sorted(
         rows,
         key=lambda r: (r.get("CurPerEn", ""), r.get("DiscDate", ""), r.get("DiscNo", "")),
     )[-1]
+    # 業績予想の修正等、貸借対照表項目(自己資本比率・純資産・総資産)を含まない開示が
+    # 最新になっている場合、それらの項目だけ直近の実績開示から補う。
+    balance_sheet_fields = ("EqAR", "Eq", "TA", "NP")
+    if all(not str(latest.get(f, "")).strip() for f in balance_sheet_fields):
+        with_financials = [
+            r for r in rows if str(r.get("EqAR", "")).strip()
+        ]
+        if with_financials:
+            fallback = sorted(
+                with_financials,
+                key=lambda r: (r.get("DiscDate", ""), r.get("DiscNo", "")),
+            )[-1]
+            latest = dict(latest)
+            for f in balance_sheet_fields:
+                if not str(latest.get(f, "")).strip():
+                    latest[f] = fallback.get(f)
+    return latest
 
 def latest_fy_summaries(rows: list[dict]) -> list[dict]:
     fy = [r for r in rows if str(r.get("CurPerType", "")).upper() == "FY"]
