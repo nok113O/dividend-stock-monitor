@@ -39,3 +39,17 @@ SECTOR_MAP = {
 def classify(industry: str | None) -> tuple[str, str]:
     industry = (industry or "").strip()
     return SECTOR_MAP.get(industry, (industry or "未分類", "景気敏感"))
+
+# 業種特性により標準基準(自己資本比率35%以上・ROA3%以上)が構造的に届かない業種の上書き基準。
+# 銀行は預金を負債計上するため自己資本比率・ROAとも一般事業会社よりかなり低いのが正常。
+# 保険・証券・その他金融も同様にレバレッジの高い業態のため緩和する。
+STEP1_THRESHOLD_OVERRIDES: dict[str, dict[str, float]] = {
+    "銀行": {"自己資本比率": 4.0, "ROA": 0.3},
+    "証券": {"自己資本比率": 10.0, "ROA": 1.0},
+    "保険": {"自己資本比率": 10.0, "ROA": 1.0},
+    "その他金融": {"自己資本比率": 10.0, "ROA": 1.0},
+}
+
+def step1_thresholds(sector: str | None) -> dict[str, float]:
+    """指定セクターのStep1しきい値(自己資本比率・ROA)。標準基準は呼び出し側のデフォルトを使う。"""
+    return STEP1_THRESHOLD_OVERRIDES.get(sector or "", {})

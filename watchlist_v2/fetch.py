@@ -109,10 +109,10 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     history = merge_new_fy(seed_history_df(code, seed), code, summaries, now)
 
-    step1 = analyze_step1(metrics)
+    sector, cycle = classify(master.get("S33Nm"))
+    step1 = analyze_step1(metrics, sector)
     step2 = analyze_step2(history, code)
     step3 = calculate_step3(history, code)
-    sector, cycle = classify(master.get("S33Nm"))
     comment = make_comment(step1, step2)
     rating = overall_rating(step1, step2)
 
@@ -166,6 +166,7 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
         "price_change_pct": clean(market.get("change_pct")),
         "step1": {
             "overall": step1["overall"],
+            "sector_adjusted": step1["sector_adjusted"],
             "rows": {
                 name: {"value": clean(row["value"]), "criterion": row["criterion"], "judge": row["judge"]}
                 for name, row in step1["rows"].items()

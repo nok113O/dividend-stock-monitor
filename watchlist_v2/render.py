@@ -301,7 +301,14 @@ def render_step1(step1: dict) -> str:
             f'{chip(row.get("judge", "要確認"))}'
             "</div>"
         )
-    parts.append("</div></div>")
+    parts.append("</div>")
+    if step1.get("sector_adjusted"):
+        parts.append(
+            '<div class="data-gap"><strong>業種別基準を適用：</strong>'
+            "銀行・保険等は業態上、自己資本比率とROAが構造的に低くなるため、"
+            "自己資本比率・ROAの基準を業種別に緩和して判定しています。</div>"
+        )
+    parts.append("</div>")
     return "".join(parts)
 
 

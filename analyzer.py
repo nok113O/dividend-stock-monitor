@@ -100,19 +100,24 @@ def step1_metrics(price: float | None, latest: dict) -> dict[str, float | None]:
         "最新BPS": bps,
     }
 
-def analyze_step1(metrics: dict) -> dict:
+def analyze_step1(metrics: dict, sector: str | None = None) -> dict:
+    from sector_master import step1_thresholds
+    overrides = step1_thresholds(sector)
+    roa_limit = overrides.get("ROA", 3)
+    eq_ratio_limit = overrides.get("自己資本比率", 35)
+
     rows = {
         "PER": {"value": metrics.get("PER"), "criterion": "12倍以下", "judge": judge_le(metrics.get("PER"), 12)},
         "PBR": {"value": metrics.get("PBR"), "criterion": "1.3倍以下", "judge": judge_le(metrics.get("PBR"), 1.3)},
         "ROE": {"value": metrics.get("ROE"), "criterion": "7%以上", "judge": judge_ge(metrics.get("ROE"), 7)},
-        "ROA": {"value": metrics.get("ROA"), "criterion": "3%以上", "judge": judge_ge(metrics.get("ROA"), 3)},
+        "ROA": {"value": metrics.get("ROA"), "criterion": f"{roa_limit:g}%以上", "judge": judge_ge(metrics.get("ROA"), roa_limit)},
         "配当利回り": {"value": metrics.get("配当利回り"), "criterion": "3%以上", "judge": judge_ge(metrics.get("配当利回り"), 3)},
-        "自己資本比率": {"value": metrics.get("自己資本比率"), "criterion": "35%以上", "judge": judge_ge(metrics.get("自己資本比率"), 35)},
+        "自己資本比率": {"value": metrics.get("自己資本比率"), "criterion": f"{eq_ratio_limit:g}%以上", "judge": judge_ge(metrics.get("自己資本比率"), eq_ratio_limit)},
         "時価総額": {"value": metrics.get("時価総額（億円）"), "criterion": "100億円以上", "judge": judge_ge(metrics.get("時価総額（億円）"), 100)},
     }
     judges = [r["judge"] for r in rows.values()]
     overall = "○" if all(j == "○" for j in judges) else ("要確認" if "要確認" in judges else "×")
-    return {"rows": rows, "overall": overall}
+    return {"rows": rows, "overall": overall, "sector_adjusted": bool(overrides)}
 
 def normalize_history(history: pd.DataFrame, code: str) -> pd.DataFrame:
     cols = ["コード", "決算期", "EPS", "BPS", "1株配当", "データ元", "更新日"]
