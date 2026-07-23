@@ -522,8 +522,21 @@ def render_card(stock: dict) -> str:
     )
 
 
+RATING_ORDER = {"監視継続": 0, "条件付き監視": 1, "除外候補": 2}
+
+
+def sort_stocks(stocks: list[dict]) -> list[dict]:
+    def key(s: dict):
+        rating_rank = RATING_ORDER.get(s.get("rating"), 1)
+        yield_pct = s.get("dividend_yield_pct")
+        yield_rank = -yield_pct if yield_pct is not None else 0
+        yield_missing = yield_pct is None
+        return (rating_rank, yield_missing, yield_rank)
+    return sorted(stocks, key=key)
+
+
 def render(payload: dict) -> str:
-    cards = "".join(render_card(s) for s in payload["stocks"])
+    cards = "".join(render_card(s) for s in sort_stocks(payload["stocks"]))
     errors_note = ""
     if payload.get("errors"):
         codes = "、".join(e["code"] for e in payload["errors"])
