@@ -55,15 +55,6 @@ CSS = """
     --hanko: #d97567; --hanko-soft: rgba(217, 117, 103, 0.14);
     --green: #7ec49a; --green-soft: rgba(126, 196, 154, 0.14);
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --paper: #12151c; --paper-raised: #191d26; --paper-sunken: #0e1015;
-      --ink: #e8e6df; --ink-dim: #9aa2b1; --rule: rgba(232, 230, 223, 0.14);
-      --indigo: #8ea0d6; --indigo-soft: rgba(142, 160, 214, 0.14);
-      --hanko: #d97567; --hanko-soft: rgba(217, 117, 103, 0.14);
-      --green: #7ec49a; --green-soft: rgba(126, 196, 154, 0.14);
-    }
-  }
   * { box-sizing: border-box; }
   html, body { margin: 0; background: var(--paper); color: var(--ink); }
   body {
