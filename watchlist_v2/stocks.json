@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24 12:42",
+  "generated_at": "2026-07-24 14:19",
   "stocks": [
     {
       "code": "8306",
@@ -102,7 +102,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:16"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 18.98,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:54"
     },
     {
       "code": "9433",
@@ -205,7 +219,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-24 12:16"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 7.28,
+        "growth_detail": [
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:54"
     },
     {
       "code": "1414",
@@ -308,7 +337,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。",
-      "updated_at": "2026-07-24 12:16"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 16.76,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:54"
     },
     {
       "code": "1802",
@@ -411,7 +455,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:16"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 13.57,
+        "growth_detail": [
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:54"
     },
     {
       "code": "8725",
@@ -514,7 +573,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:16"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 16.65,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:54"
     },
     {
       "code": "1926",
@@ -617,7 +691,23 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。",
-      "updated_at": "2026-07-24 12:18"
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 3,
+        "total_score": 6,
+        "dividend_cagr_pct": 21.57,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:55"
     },
     {
       "code": "2733",
@@ -720,7 +810,21 @@
       },
       "rating": "条件付き監視",
       "comment": "ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:18"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 14.74,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:55"
     },
     {
       "code": "8439",
@@ -823,7 +927,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。",
-      "updated_at": "2026-07-24 12:18"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 13.8,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:55"
     },
     {
       "code": "6785",
@@ -926,7 +1045,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PBRは基準未達。 ROEは基準未達。",
-      "updated_at": "2026-07-24 12:18"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 2,
+        "total_score": 4,
+        "dividend_cagr_pct": 25.51,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:56"
     },
     {
       "code": "6282",
@@ -1029,7 +1162,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。",
-      "updated_at": "2026-07-24 12:18"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 2,
+        "total_score": 4,
+        "dividend_cagr_pct": 6.07,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:57"
     },
     {
       "code": "8892",
@@ -1132,7 +1279,24 @@
       },
       "rating": "条件付き監視",
       "comment": "ROAは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-24 12:19"
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 4,
+        "total_score": 7,
+        "dividend_cagr_pct": 13.8,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:57"
     },
     {
       "code": "1605",
@@ -1235,7 +1399,21 @@
       },
       "rating": "除外候補",
       "comment": "PERは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:19"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 20.99,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:57"
     },
     {
       "code": "6294",
@@ -1338,7 +1516,21 @@
       },
       "rating": "条件付き監視",
       "comment": "今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:19"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 14.03,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:57"
     },
     {
       "code": "3277",
@@ -1441,7 +1633,22 @@
       },
       "rating": "条件付き監視",
       "comment": "自己資本比率は基準未達。 時価総額は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:20"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 4,
+        "total_score": 5,
+        "dividend_cagr_pct": 16.1,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:58"
     },
     {
       "code": "4272",
@@ -1544,7 +1751,19 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:20"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 3,
+        "total_score": 3,
+        "dividend_cagr_pct": 9.16,
+        "growth_detail": [],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:58"
     },
     {
       "code": "3003",
@@ -1647,7 +1866,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-24 12:21"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 15.46,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:58"
     },
     {
       "code": "3252",
@@ -1750,7 +1984,22 @@
       },
       "rating": "条件付き監視",
       "comment": "自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:21"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 8.01,
+        "growth_detail": [
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:59"
     },
     {
       "code": "5184",
@@ -1853,7 +2102,21 @@
       },
       "rating": "条件付き監視",
       "comment": "今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:21"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 23.6,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:59"
     },
     {
       "code": "4568",
@@ -1956,7 +2219,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:22"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 14.35,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 13:59"
     },
     {
       "code": "4540",
@@ -2059,7 +2337,22 @@
       },
       "rating": "条件付き監視",
       "comment": "ROEは基準未達。",
-      "updated_at": "2026-07-24 12:22"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 9.68,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:00"
     },
     {
       "code": "8058",
@@ -2162,7 +2455,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:22"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 17.05,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:00"
     },
     {
       "code": "4206",
@@ -2265,7 +2572,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:23"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 4,
+        "total_score": 5,
+        "dividend_cagr_pct": 5.53,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:01"
     },
     {
       "code": "7203",
@@ -2368,7 +2690,22 @@
       },
       "rating": "条件付き監視",
       "comment": "ROAは基準未達。",
-      "updated_at": "2026-07-24 12:23"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 9.49,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:01"
     },
     {
       "code": "8593",
@@ -2471,7 +2808,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:23"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 15.07,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:01"
     },
     {
       "code": "7191",
@@ -2574,7 +2925,23 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。",
-      "updated_at": "2026-07-24 12:23"
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 3,
+        "total_score": 6,
+        "dividend_cagr_pct": 28.42,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:02"
     },
     {
       "code": "9432",
@@ -2677,7 +3044,19 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:25"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 3,
+        "total_score": 3,
+        "dividend_cagr_pct": 9.2,
+        "growth_detail": [],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:02"
     },
     {
       "code": "8766",
@@ -2780,7 +3159,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:25"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 2,
+        "total_score": 4,
+        "dividend_cagr_pct": 18.68,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:02"
     },
     {
       "code": "4613",
@@ -2883,7 +3276,19 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:25"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 3,
+        "total_score": 3,
+        "dividend_cagr_pct": 19.58,
+        "growth_detail": [],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:02"
     },
     {
       "code": "8252",
@@ -2986,7 +3391,19 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:25"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 3,
+        "total_score": 3,
+        "dividend_cagr_pct": 16.55,
+        "growth_detail": [],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:04"
     },
     {
       "code": "7981",
@@ -3089,7 +3506,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:25"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 4,
+        "total_score": 5,
+        "dividend_cagr_pct": 16.21,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:04"
     },
     {
       "code": "7990",
@@ -3177,22 +3609,36 @@
       "dividend_yield_pct": 4.0733197556008145,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想90円のまま。2026年3月期は実績90円で確定済み、2027年3月期の会社予想は100円(2026-07提供資料、四半期内訳2Q50円+4Q50円)。",
       "target_yield": {
-        "cycle_class": "景気敏感株",
-        "reason": "業種：その他製品・配当変動大",
-        "target1_pct": 3.99,
-        "target2_pct": 4.16,
-        "target3_pct": 4.32,
-        "buy1_price": 2506,
-        "buy2_price": 2404,
-        "buy3_price": 2315,
-        "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
-        "sample_annual": 10,
-        "error": null
+        "cycle_class": null,
+        "reason": null,
+        "target1_pct": null,
+        "target2_pct": null,
+        "target3_pct": null,
+        "buy1_price": null,
+        "buy2_price": null,
+        "buy3_price": null,
+        "buy_status": "要確認",
+        "sample_daily": 0,
+        "sample_annual": 0,
+        "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
       },
       "rating": "条件付き監視",
       "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:26"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 15.3,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:04"
     },
     {
       "code": "1928",
@@ -3295,7 +3741,23 @@
       },
       "rating": "条件付き監視",
       "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:26"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 4,
+        "total_score": 6,
+        "dividend_cagr_pct": 9.43,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:04"
     },
     {
       "code": "1925",
@@ -3398,7 +3860,21 @@
       },
       "rating": "条件付き監視",
       "comment": "ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:26"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 7.41,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:04"
     },
     {
       "code": "7856",
@@ -3501,7 +3977,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:27"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 8.97,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:05"
     },
     {
       "code": "7164",
@@ -3604,7 +4094,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:28"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 16.23,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:05"
     },
     {
       "code": "5911",
@@ -3707,7 +4211,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。",
-      "updated_at": "2026-07-24 12:28"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 25.09,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:05"
     },
     {
       "code": "8424",
@@ -3810,7 +4329,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:28"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 15.46,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:05"
     },
     {
       "code": "5965",
@@ -3913,7 +4446,20 @@
       },
       "rating": "条件付き監視",
       "comment": "今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:28"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 4,
+        "total_score": 4,
+        "dividend_cagr_pct": 13.8,
+        "growth_detail": [],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:06"
     },
     {
       "code": "3231",
@@ -4016,7 +4562,23 @@
       },
       "rating": "条件付き監視",
       "comment": "ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:29"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 4,
+        "total_score": 6,
+        "dividend_cagr_pct": 13.3,
+        "growth_detail": [
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:07"
     },
     {
       "code": "9364",
@@ -4119,7 +4681,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。",
-      "updated_at": "2026-07-24 12:29"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 23.8,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:07"
     },
     {
       "code": "4118",
@@ -4222,7 +4799,19 @@
       },
       "rating": "条件付き監視",
       "comment": "ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:29"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 3,
+        "total_score": 3,
+        "dividend_cagr_pct": 6.6,
+        "growth_detail": [],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:07"
     },
     {
       "code": "8411",
@@ -4325,7 +4914,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:30"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 7.6,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:08"
     },
     {
       "code": "4063",
@@ -4428,7 +5031,24 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-24 12:30"
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 4,
+        "total_score": 7,
+        "dividend_cagr_pct": 17.94,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:08"
     },
     {
       "code": "8015",
@@ -4531,7 +5151,24 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-24 12:30"
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 4,
+        "total_score": 7,
+        "dividend_cagr_pct": 19.96,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:08"
     },
     {
       "code": "7716",
@@ -4634,7 +5271,18 @@
       },
       "rating": "除外候補",
       "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-24 12:31"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 2,
+        "total_score": 2,
+        "dividend_cagr_pct": 11.67,
+        "growth_detail": [],
+        "income_detail": [
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:08"
     },
     {
       "code": "5393",
@@ -4737,7 +5385,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PBRは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-24 12:31"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 13.62,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:10"
     },
     {
       "code": "8002",
@@ -4840,7 +5503,22 @@
       },
       "rating": "除外候補",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:32"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 18.69,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:10"
     },
     {
       "code": "8001",
@@ -4943,7 +5621,24 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-24 12:32"
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 4,
+        "total_score": 7,
+        "dividend_cagr_pct": 16.05,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:10"
     },
     {
       "code": "3407",
@@ -5046,7 +5741,19 @@
       },
       "rating": "除外候補",
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:32"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 3,
+        "total_score": 3,
+        "dividend_cagr_pct": 6.42,
+        "growth_detail": [],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:10"
     },
     {
       "code": "2914",
@@ -5149,7 +5856,20 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:33"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 2,
+        "total_score": 3,
+        "dividend_cagr_pct": 6.75,
+        "growth_detail": [
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:10"
     },
     {
       "code": "1721",
@@ -5252,7 +5972,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-24 12:33"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 13.99,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:11"
     },
     {
       "code": "4182",
@@ -5355,7 +6090,19 @@
       },
       "rating": "除外候補",
       "comment": "PERは取得できず要確認。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-24 12:33"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 3,
+        "total_score": 3,
+        "dividend_cagr_pct": 11.35,
+        "growth_detail": [],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:11"
     },
     {
       "code": "8309",
@@ -5458,7 +6205,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:33"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 12.32,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:11"
     },
     {
       "code": "1417",
@@ -5561,7 +6322,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-24 12:35"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 12.27,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:12"
     },
     {
       "code": "8316",
@@ -5664,7 +6440,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
-      "updated_at": "2026-07-24 12:35"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 13.56,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:12"
     },
     {
       "code": "8591",
@@ -5767,7 +6558,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:35"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 12.93,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:13"
     },
     {
       "code": "8117",
@@ -5870,7 +6675,23 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。",
-      "updated_at": "2026-07-24 12:35"
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 3,
+        "total_score": 6,
+        "dividend_cagr_pct": 20.82,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:13"
     },
     {
       "code": "4658",
@@ -5973,7 +6794,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。",
-      "updated_at": "2026-07-24 12:35"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 2,
+        "total_score": 4,
+        "dividend_cagr_pct": 10.49,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:13"
     },
     {
       "code": "2602",
@@ -6076,7 +6911,23 @@
       },
       "rating": "監視継続",
       "comment": "全項目で基準を満たしています。",
-      "updated_at": "2026-07-24 12:36"
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 3,
+        "total_score": 6,
+        "dividend_cagr_pct": 15.29,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:14"
     },
     {
       "code": "3150",
@@ -6179,7 +7030,23 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。",
-      "updated_at": "2026-07-24 12:36"
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 3,
+        "total_score": 6,
+        "dividend_cagr_pct": 39.79,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:14"
     },
     {
       "code": "9101",
@@ -6282,7 +7149,15 @@
       },
       "rating": "除外候補",
       "comment": "ROEは基準未達。 ROAは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:36"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 0,
+        "total_score": 0,
+        "dividend_cagr_pct": null,
+        "growth_detail": [],
+        "income_detail": []
+      },
+      "updated_at": "2026-07-24 14:14"
     },
     {
       "code": "4205",
@@ -6385,7 +7260,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:37"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 18.9,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:15"
     },
     {
       "code": "8130",
@@ -6488,7 +7377,21 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:37"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "dividend_cagr_pct": 12.78,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:15"
     },
     {
       "code": "8601",
@@ -6591,7 +7494,21 @@
       },
       "rating": "除外候補",
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
-      "updated_at": "2026-07-24 12:38"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 2,
+        "total_score": 4,
+        "dividend_cagr_pct": 10.53,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:15"
     },
     {
       "code": "2117",
@@ -6694,7 +7611,18 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:38"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 2,
+        "total_score": 2,
+        "dividend_cagr_pct": 6.07,
+        "growth_detail": [],
+        "income_detail": [
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:15"
     },
     {
       "code": "9513",
@@ -6797,7 +7725,20 @@
       },
       "rating": "条件付き監視",
       "comment": "ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
-      "updated_at": "2026-07-24 12:38"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 2,
+        "total_score": 3,
+        "dividend_cagr_pct": 4.04,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期"
+        ]
+      },
+      "updated_at": "2026-07-24 14:16"
     },
     {
       "code": "2503",
@@ -6900,7 +7841,20 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:39"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 4,
+        "total_score": 4,
+        "dividend_cagr_pct": 7.38,
+        "growth_detail": [],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:17"
     },
     {
       "code": "5845",
@@ -7003,7 +7957,15 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。",
-      "updated_at": "2026-07-24 12:39"
+      "priority_score": {
+        "growth_score": null,
+        "income_score": null,
+        "total_score": null,
+        "dividend_cagr_pct": null,
+        "growth_detail": [],
+        "income_detail": []
+      },
+      "updated_at": "2026-07-24 14:17"
     },
     {
       "code": "5108",
@@ -7106,7 +8068,19 @@
       },
       "rating": "除外候補",
       "comment": "PERは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:40"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 3,
+        "total_score": 3,
+        "dividend_cagr_pct": 5.67,
+        "growth_detail": [],
+        "income_detail": [
+          "配当性向50%以下",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:17"
     },
     {
       "code": "4208",
@@ -7209,7 +8183,19 @@
       },
       "rating": "除外候補",
       "comment": "ROEは基準未達。 ROAは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:40"
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 3,
+        "total_score": 3,
+        "dividend_cagr_pct": 6.97,
+        "growth_detail": [],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:18"
     },
     {
       "code": "9658",
@@ -7312,7 +8298,22 @@
       },
       "rating": "条件付き監視",
       "comment": "ROEは基準未達。",
-      "updated_at": "2026-07-24 12:40"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 27.65,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:18"
     },
     {
       "code": "2918",
@@ -7415,7 +8416,22 @@
       },
       "rating": "条件付き監視",
       "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:40"
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 4,
+        "total_score": 5,
+        "dividend_cagr_pct": 12.98,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:18"
     },
     {
       "code": "8111",
@@ -7518,7 +8534,23 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。",
-      "updated_at": "2026-07-24 12:42"
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 3,
+        "total_score": 6,
+        "dividend_cagr_pct": 30.13,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:18"
     },
     {
       "code": "8771",
@@ -7621,7 +8653,22 @@
       },
       "rating": "条件付き監視",
       "comment": "PERは基準未達。 PBRは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
-      "updated_at": "2026-07-24 12:42"
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "dividend_cagr_pct": 16.65,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-24 14:19"
     }
   ],
   "errors": []

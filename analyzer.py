@@ -45,7 +45,7 @@ def latest_summary(rows: list[dict]) -> dict:
     )[-1]
     # 業績予想の修正等、貸借対照表項目(自己資本比率・純資産・総資産)を含まない開示が
     # 最新になっている場合、それらの項目だけ直近の実績開示から補う。
-    balance_sheet_fields = ("EqAR", "Eq", "TA", "NP")
+    balance_sheet_fields = ("EqAR", "Eq", "TA", "NP", "PayoutRatioAnn")
     if all(not str(latest.get(f, "")).strip() for f in balance_sheet_fields):
         with_financials = [
             r for r in rows if str(r.get("EqAR", "")).strip()
@@ -97,6 +97,7 @@ def step1_metrics(price: float | None, latest: dict) -> dict[str, float | None]:
     equity = num(latest.get("Eq"))
     assets = num(latest.get("TA"))
     eq_ratio = pct(latest.get("EqAR"))
+    payout_ratio = pct(latest.get("PayoutRatioAnn"))
     shares = num(latest.get("ShOutFY"))
     treasury = num(latest.get("TrShFY"))
 
@@ -111,6 +112,7 @@ def step1_metrics(price: float | None, latest: dict) -> dict[str, float | None]:
         "ROA": np_value / assets * 100 if np_value is not None and assets and assets > 0 else None,
         "配当利回り": dividend / price * 100 if price and dividend is not None else None,
         "自己資本比率": eq_ratio,
+        "配当性向": payout_ratio,
         "時価総額（億円）": market_cap / 100_000_000 if market_cap is not None else None,
         "予想年間配当": dividend,
         "予想EPS": eps_forecast,
@@ -263,6 +265,71 @@ def calculate_step3(history: pd.DataFrame, code: str) -> dict:
         "eps_sum": round(eps_sum, 2),
         "latest_bps": round(latest_bps, 2),
         "target_price": round(eps_sum + latest_bps, 2),
+    }
+
+def calculate_priority_score(metrics: dict, df: pd.DataFrame | None) -> dict:
+    """成長余力・増配余力のスコア(各0〜3〜4点)を10期データから算出する。"""
+    empty = {
+        "growth_score": None, "income_score": None, "total_score": None,
+        "dividend_cagr_pct": None, "growth_detail": [], "income_detail": [],
+    }
+    if df is None or len(df) < 10:
+        return empty
+
+    eps = df["EPS"].tolist()
+    bps = df["BPS"].tolist()
+    divs = df["1株配当"].tolist()
+
+    growth_score = 0
+    growth_detail = []
+    if pd.notna(eps[0]) and eps[0] > 0 and pd.notna(eps[-1]) and eps[-1] / eps[0] >= 2:
+        growth_score += 1
+        growth_detail.append("EPSが9期前の2倍以上")
+    roe = metrics.get("ROE")
+    if roe is not None and roe >= 10:
+        growth_score += 1
+        growth_detail.append("ROE10%以上")
+    bps_ok = all(
+        pd.notna(bps[i]) and pd.notna(bps[i - 1]) and bps[i] > bps[i - 1]
+        for i in range(1, 10)
+    )
+    if bps_ok:
+        growth_score += 1
+        growth_detail.append("BPS10期連続増加")
+
+    income_score = 0
+    income_detail = []
+    payout = metrics.get("配当性向")
+    if payout is not None and payout <= 50:
+        income_score += 1
+        income_detail.append("配当性向50%以下")
+    decreases = sum(
+        pd.notna(divs[i]) and pd.notna(divs[i - 1]) and divs[i] < divs[i - 1]
+        for i in range(1, 10)
+    )
+    if decreases == 0:
+        income_score += 1
+        income_detail.append("減配0回")
+    zero_count = sum(pd.isna(x) or x <= 0 for x in divs)
+    if zero_count == 0:
+        income_score += 1
+        income_detail.append("無配0期")
+
+    dividend_cagr = None
+    first, last = divs[0], divs[-1]
+    if pd.notna(first) and pd.notna(last) and first > 0 and last > 0:
+        dividend_cagr = (last / first) ** (1 / 9) - 1
+        if dividend_cagr * 100 >= 5:
+            income_score += 1
+            income_detail.append("配当CAGR5%以上")
+
+    return {
+        "growth_score": growth_score,
+        "income_score": income_score,
+        "total_score": growth_score + income_score,
+        "dividend_cagr_pct": round(dividend_cagr * 100, 2) if dividend_cagr is not None else None,
+        "growth_detail": growth_detail,
+        "income_detail": income_detail,
     }
 
 def make_comment(step1: dict, step2: dict) -> str:

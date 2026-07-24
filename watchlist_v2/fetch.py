@@ -26,7 +26,7 @@ sys.path.insert(0, str(ROOT))
 import pandas as pd  # noqa: E402
 
 from analyzer import (  # noqa: E402
-    analyze_step1, analyze_step2, calculate_step3,
+    analyze_step1, analyze_step2, calculate_priority_score, calculate_step3,
     latest_summary, make_comment, merge_new_fy,
     overall_rating, step1_metrics,
 )
@@ -113,6 +113,7 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
     step1 = analyze_step1(metrics, sector)
     step2 = analyze_step2(history, code)
     step3 = calculate_step3(history, code)
+    priority = calculate_priority_score(metrics, step2.get("history"))
     comment = make_comment(step1, step2)
     rating = overall_rating(step1, step2)
 
@@ -191,6 +192,14 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
         "target_yield": target_yield,
         "rating": rating,
         "comment": comment,
+        "priority_score": {
+            "growth_score": priority["growth_score"],
+            "income_score": priority["income_score"],
+            "total_score": priority["total_score"],
+            "dividend_cagr_pct": priority["dividend_cagr_pct"],
+            "growth_detail": priority["growth_detail"],
+            "income_detail": priority["income_detail"],
+        },
         "updated_at": now,
     }
 

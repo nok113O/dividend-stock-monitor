@@ -25,6 +25,24 @@ UNITS = {
     "時価総額": "億円",
 }
 
+GLOSSARY = [
+    ("PER（株価収益率）", "株価が1株あたり利益の何倍かを示す指標。低いほど利益に対して株価が割安。"),
+    ("PBR（株価純資産倍率）", "株価が1株あたり純資産の何倍かを示す指標。1倍未満は資産価値より株価が低い状態。"),
+    ("ROE（自己資本利益率）", "自己資本に対してどれだけ利益を生んでいるかを示す、収益性を見る指標。"),
+    ("ROA（総資産利益率）", "総資産に対してどれだけ利益を生んでいるかを示す、資産活用の効率性を見る指標。"),
+    ("配当利回り", "株価に対する年間配当金の割合。買値に対してどれだけ配当を受け取れるかの目安。"),
+    ("自己資本比率", "総資産のうち返済不要の自己資本が占める割合。財務の安全性を見る指標。"),
+    ("時価総額", "株価×発行済株式数。企業の規模を示す。"),
+    ("EPS（1株あたり利益）", "当期純利益を発行済株式数で割った値。稼ぐ力の大きさを示す。"),
+    ("BPS（1株あたり純資産）", "純資産を発行済株式数で割った値。会社の解散価値に近い指標。"),
+    ("配当性向", "当期純利益のうち配当に回した割合。低いほど利益に対して配当の余力が大きい。"),
+    ("配当CAGR", "過去9年間の配当金の年平均成長率。増配ペースの目安。"),
+    ("成長余力スコア（0〜3点）", "EPSの10年成長・ROE水準・純資産の増加傾向から算出。業績が今後も伸びる余地を見る。"),
+    ("増配余力スコア（0〜4点）", "配当性向・減配実績・無配実績・配当CAGRから算出。今後の増配余地を見る。"),
+    ("目標利回り①②③", "過去の配当利回りの分布から統計的に算出した買い時の目安。①が最も届きやすく、③が最も割安な水準。"),
+    ("総合判定", "監視継続＝第1・第2段階とも合格。条件付き監視＝一部条件が未達。除外候補＝赤字や減配など重大な懸念あり。"),
+]
+
 STEP2_LABELS = [
     "EPS10期赤字なし",
     "今期EPSが9期前の2倍以上",
@@ -150,6 +168,16 @@ CSS = """
     font-variant-numeric: tabular-nums; font-size: 1rem; font-weight: 600; margin-top: 3px;
   }
   .yield-value { color: var(--indigo); }
+  .score-line {
+    margin-top: 10px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    font-size: 0.72rem;
+  }
+  .score-badge {
+    flex: none; font-weight: 700; color: var(--indigo); background: var(--indigo-soft);
+    padding: 2px 9px; border-radius: 999px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  .score-sub { color: var(--ink-dim); }
   .step { margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--rule); }
   .step-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
   .step-name { font-size: 0.82rem; font-weight: 600; }
@@ -246,6 +274,23 @@ CSS = """
   .comment { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--rule); font-size: 0.78rem; line-height: 1.6; }
   .comment .label { display: inline-block; font-size: 0.66rem; color: var(--ink-dim); letter-spacing: 0.03em; margin-bottom: 3px; }
   .asof { margin-top: 12px; font-size: 0.68rem; color: var(--ink-dim); font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .glossary {
+    margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--rule);
+  }
+  .glossary summary {
+    cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--indigo);
+    list-style: none;
+  }
+  .glossary summary::-webkit-details-marker { display: none; }
+  .glossary summary::before { content: "▸ "; }
+  .glossary[open] summary::before { content: "▾ "; }
+  .glossary-list { margin-top: 12px; display: flex; flex-direction: column; gap: 10px; }
+  .glossary-item { font-size: 0.76rem; line-height: 1.6; }
+  .glossary-term {
+    font-weight: 700; color: var(--ink);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  .glossary-desc { color: var(--ink-dim); }
   footer {
     margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--rule);
     font-size: 0.72rem; color: var(--ink-dim); line-height: 1.7;
@@ -509,6 +554,20 @@ def render_card(stock: dict) -> str:
     )
 
     search_key = normalize_search(f'{stock["code"]} {stock["name"]}').lower()
+    priority = stock.get("priority_score") or {}
+    total_score = priority.get("total_score")
+    score_html = ""
+    if total_score is not None:
+        growth_score = priority.get("growth_score")
+        income_score = priority.get("income_score")
+        cagr = priority.get("dividend_cagr_pct")
+        cagr_text = f"（配当CAGR {fmt_num(cagr, 1)}%）" if cagr is not None else ""
+        score_html = (
+            '<div class="score-line">'
+            f'<span class="score-badge">優先度スコア {total_score}/7</span>'
+            f'<span class="score-sub">成長余力{growth_score}/3・増配余力{income_score}/4{cagr_text}</span>'
+            "</div>"
+        )
     return (
         f'<div class="card" data-search="{esc(search_key)}" data-rating="{esc(stock["rating"])}">'
         '<div class="card-top"><div>'
@@ -526,6 +585,7 @@ def render_card(stock: dict) -> str:
         f'{fmt_num(dividend_yield, 2) if dividend_yield is not None else "取得不可"}%</div></div>'
         f'<div class="stat"><div class="label">総合判定</div><div class="value">{stock["rating"]}</div></div>'
         "</div>"
+        f"{score_html}"
         f"{override_html}"
         f'{render_section_tabs(stock["code"], stock, price)}'
         f'<div class="comment"><span class="label">所感</span><br>{stock["comment"]}</div>'
@@ -540,10 +600,13 @@ RATING_ORDER = {"監視継続": 0, "条件付き監視": 1, "除外候補": 2}
 def sort_stocks(stocks: list[dict]) -> list[dict]:
     def key(s: dict):
         rating_rank = RATING_ORDER.get(s.get("rating"), 1)
+        total_score = (s.get("priority_score") or {}).get("total_score")
+        score_missing = total_score is None
+        score_rank = -total_score if total_score is not None else 0
         yield_pct = s.get("dividend_yield_pct")
         yield_rank = -yield_pct if yield_pct is not None else 0
         yield_missing = yield_pct is None
-        return (rating_rank, yield_missing, yield_rank)
+        return (rating_rank, score_missing, score_rank, yield_missing, yield_rank)
     return sorted(stocks, key=key)
 
 
@@ -568,6 +631,16 @@ def render(payload: dict) -> str:
         for key, label, count in filter_defs
     )
 
+    glossary_items = "".join(
+        f'<div class="glossary-item"><span class="glossary-term">{esc(term)}</span>'
+        f'<span class="glossary-desc">　{esc(desc)}</span></div>'
+        for term, desc in GLOSSARY
+    )
+    glossary_html = (
+        '<details class="glossary"><summary>用語解説</summary>'
+        f'<div class="glossary-list">{glossary_items}</div></details>'
+    )
+
     return f"""<title>高配当株ウォッチリスト</title>
 <style>{CSS}</style>
 <div class="sheet">
@@ -585,6 +658,7 @@ def render(payload: dict) -> str:
   </div>
   <div class="cards" id="cards">{cards}</div>
   <p id="no-results" class="no-results" hidden>該当する銘柄がありません。</p>
+  {glossary_html}
   <footer>
     <strong>最終更新：{payload["generated_at"]}</strong><br>
     株価はYahoo!ファイナンス、財務データはJ-Quants APIから取得しています。第2・第3段階は10期分のデータが揃い次第、自動で判定されます。<br>
