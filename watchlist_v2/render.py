@@ -544,12 +544,15 @@ def render_card(stock: dict) -> str:
     sector = stock.get("sector")
     cycle = stock.get("cycle")
     cycle_cls = "cyclical" if cycle == "景気敏感" else "defensive"
+    fy_month = stock.get("fiscal_year_end_month")
+    fy_pill = f'<span class="sector-pill">決算{fy_month}月</span>' if fy_month else ""
     meta_html = (
         '<div class="meta-line">'
         f'<span class="sector-pill">{esc(sector)}</span>'
         f'<span class="cycle-pill {cycle_cls}">{esc(cycle)}</span>'
+        f"{fy_pill}"
         "</div>"
-        if sector or cycle
+        if sector or cycle or fy_month
         else ""
     )
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24 14:19",
+  "generated_at": "2026-07-24 15:45",
   "stocks": [
     {
       "code": "8306",
@@ -7,6 +7,7 @@
       "industry": "銀行業",
       "sector": "銀行",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 3754.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 4.0,
@@ -96,7 +97,7 @@
         "buy2_price": 2945,
         "buy3_price": 2574,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -116,7 +117,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:54"
+      "updated_at": "2026-07-24 15:19"
     },
     {
       "code": "9433",
@@ -124,6 +125,7 @@
       "industry": "情報･通信業",
       "sector": "情報･通信業",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2922.5,
       "price_date": "2026-07-24 15:30",
       "price_change": 52.0,
@@ -213,7 +215,7 @@
         "buy2_price": 2650,
         "buy3_price": 2569,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -234,7 +236,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:54"
+      "updated_at": "2026-07-24 15:19"
     },
     {
       "code": "1414",
@@ -242,6 +244,7 @@
       "industry": "建設業",
       "sector": "建設・住宅",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 6,
       "price": 1281.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 6.0,
@@ -331,7 +334,7 @@
         "buy2_price": 1243,
         "buy3_price": 1191,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -352,7 +355,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:54"
+      "updated_at": "2026-07-24 15:20"
     },
     {
       "code": "1802",
@@ -360,6 +363,7 @@
       "industry": "建設業",
       "sector": "建設・住宅",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 3284.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 12.0,
@@ -449,7 +453,7 @@
         "buy2_price": 2030,
         "buy3_price": 1876,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -470,7 +474,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:54"
+      "updated_at": "2026-07-24 15:20"
     },
     {
       "code": "8725",
@@ -478,6 +482,7 @@
       "industry": "保険業",
       "sector": "保険",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 4898.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 25.0,
@@ -561,13 +566,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：保険業・配当変動大",
         "target1_pct": 4.41,
-        "target2_pct": 4.56,
+        "target2_pct": 4.57,
         "target3_pct": 4.72,
         "buy1_price": 3855,
-        "buy2_price": 3728,
+        "buy2_price": 3720,
         "buy3_price": 3602,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -588,7 +593,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:54"
+      "updated_at": "2026-07-24 15:20"
     },
     {
       "code": "1926",
@@ -596,6 +601,7 @@
       "industry": "建設業",
       "sector": "建設・住宅",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 3860.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 20.0,
@@ -678,14 +684,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・配当変動大",
-        "target1_pct": 3.97,
+        "target1_pct": 3.98,
         "target2_pct": 4.51,
         "target3_pct": 4.62,
-        "buy1_price": 3678,
+        "buy1_price": 3668,
         "buy2_price": 3237,
         "buy3_price": 3160,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -707,7 +713,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:55"
+      "updated_at": "2026-07-24 15:21"
     },
     {
       "code": "2733",
@@ -715,6 +721,7 @@
       "industry": "卸売業",
       "sector": "卸売・商社",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2574.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -6.0,
@@ -804,7 +811,7 @@
         "buy2_price": 2772,
         "buy3_price": 2494,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -824,7 +831,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:55"
+      "updated_at": "2026-07-24 15:21"
     },
     {
       "code": "8439",
@@ -832,6 +839,7 @@
       "industry": "その他金融業",
       "sector": "その他金融",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2669.5,
       "price_date": "2026-07-24 15:30",
       "price_change": -15.5,
@@ -921,7 +929,7 @@
         "buy2_price": 2296,
         "buy3_price": 2153,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -942,7 +950,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:55"
+      "updated_at": "2026-07-24 15:22"
     },
     {
       "code": "6785",
@@ -950,6 +958,7 @@
       "industry": "電気機器",
       "sector": "電気機器",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 6,
       "price": 2980.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -45.0,
@@ -1039,7 +1048,7 @@
         "buy2_price": 2083,
         "buy3_price": 1952,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1059,7 +1068,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:56"
+      "updated_at": "2026-07-24 15:22"
     },
     {
       "code": "6282",
@@ -1067,6 +1076,7 @@
       "industry": "機械",
       "sector": "機械",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2783.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -6.0,
@@ -1156,7 +1166,7 @@
         "buy2_price": 2323,
         "buy3_price": 2273,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1176,7 +1186,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:57"
+      "updated_at": "2026-07-24 15:22"
     },
     {
       "code": "8892",
@@ -1184,6 +1194,7 @@
       "industry": "不動産業",
       "sector": "不動産",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 1097.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -5.0,
@@ -1273,7 +1284,7 @@
         "buy2_price": 1079,
         "buy3_price": 1064,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 677,
+        "sample_daily": 676,
         "sample_annual": 9,
         "error": null
       },
@@ -1296,7 +1307,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:57"
+      "updated_at": "2026-07-24 15:23"
     },
     {
       "code": "1605",
@@ -1304,6 +1315,7 @@
       "industry": "鉱業",
       "sector": "資源・エネルギー",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
       "price": 3761.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 64.0,
@@ -1393,7 +1405,7 @@
         "buy2_price": 2379,
         "buy3_price": 2288,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1413,7 +1425,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:57"
+      "updated_at": "2026-07-24 15:23"
     },
     {
       "code": "6294",
@@ -1421,6 +1433,7 @@
       "industry": "機械",
       "sector": "機械",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2005.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -14.0,
@@ -1510,7 +1523,7 @@
         "buy2_price": 1924,
         "buy3_price": 1886,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1530,7 +1543,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:57"
+      "updated_at": "2026-07-24 15:23"
     },
     {
       "code": "3277",
@@ -1538,6 +1551,7 @@
       "industry": "不動産業",
       "sector": "不動産",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
       "price": 647.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -5.0,
@@ -1627,7 +1641,7 @@
         "buy2_price": 500,
         "buy3_price": 490,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1648,7 +1662,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:58"
+      "updated_at": "2026-07-24 15:23"
     },
     {
       "code": "4272",
@@ -1656,6 +1670,7 @@
       "industry": "化学",
       "sector": "化学",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 1982.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -6.0,
@@ -1745,7 +1760,7 @@
         "buy2_price": 1422,
         "buy3_price": 1372,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1763,7 +1778,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:58"
+      "updated_at": "2026-07-24 15:25"
     },
     {
       "code": "3003",
@@ -1771,6 +1786,7 @@
       "industry": "不動産業",
       "sector": "不動産",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
       "price": 1769.5,
       "price_date": "2026-07-24 15:30",
       "price_change": -8.0,
@@ -1860,7 +1876,7 @@
         "buy2_price": 1714,
         "buy3_price": 1688,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1881,7 +1897,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:58"
+      "updated_at": "2026-07-24 15:25"
     },
     {
       "code": "3252",
@@ -1889,6 +1905,7 @@
       "industry": "不動産業",
       "sector": "不動産",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
       "price": 2908.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -20.0,
@@ -1978,7 +1995,7 @@
         "buy2_price": 2814,
         "buy3_price": 2680,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1999,7 +2016,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:59"
+      "updated_at": "2026-07-24 15:25"
     },
     {
       "code": "5184",
@@ -2007,6 +2024,7 @@
       "industry": "ゴム製品",
       "sector": "素材・自動車関連",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
       "price": 4085.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -15.0,
@@ -2096,7 +2114,7 @@
         "buy2_price": 3668,
         "buy3_price": 3592,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2116,7 +2134,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:59"
+      "updated_at": "2026-07-24 15:25"
     },
     {
       "code": "4568",
@@ -2124,6 +2142,7 @@
       "industry": "医薬品",
       "sector": "医薬品",
       "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 3,
       "price": 2799.5,
       "price_date": "2026-07-24 15:30",
       "price_change": 44.5,
@@ -2213,7 +2232,7 @@
         "buy2_price": 4292,
         "buy3_price": 3401,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2234,7 +2253,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 13:59"
+      "updated_at": "2026-07-24 15:25"
     },
     {
       "code": "4540",
@@ -2242,6 +2261,7 @@
       "industry": "医薬品",
       "sector": "医薬品",
       "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 3,
       "price": 3799.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -23.0,
@@ -2331,7 +2351,7 @@
         "buy2_price": 4115,
         "buy3_price": 3980,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2352,7 +2372,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:00"
+      "updated_at": "2026-07-24 15:26"
     },
     {
       "code": "8058",
@@ -2360,6 +2380,7 @@
       "industry": "卸売業",
       "sector": "卸売・商社",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 4918.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 2.0,
@@ -2449,7 +2470,7 @@
         "buy2_price": 3582,
         "buy3_price": 3281,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2469,7 +2490,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:00"
+      "updated_at": "2026-07-24 15:26"
     },
     {
       "code": "4206",
@@ -2477,6 +2498,7 @@
       "industry": "化学",
       "sector": "化学",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 3631.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -24.0,
@@ -2566,7 +2588,7 @@
         "buy2_price": 3571,
         "buy3_price": 3491,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2587,7 +2609,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:01"
+      "updated_at": "2026-07-24 15:26"
     },
     {
       "code": "7203",
@@ -2595,6 +2617,7 @@
       "industry": "輸送用機器",
       "sector": "自動車・輸送機器",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2897.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -53.0,
@@ -2684,7 +2707,7 @@
         "buy2_price": 2915,
         "buy3_price": 2770,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2705,7 +2728,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:01"
+      "updated_at": "2026-07-24 15:26"
     },
     {
       "code": "8593",
@@ -2713,6 +2736,7 @@
       "industry": "その他金融業",
       "sector": "その他金融",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 1439.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -0.5,
@@ -2802,7 +2826,7 @@
         "buy2_price": 1318,
         "buy3_price": 1266,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2822,7 +2846,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:01"
+      "updated_at": "2026-07-24 15:28"
     },
     {
       "code": "7191",
@@ -2830,6 +2854,7 @@
       "industry": "その他金融業",
       "sector": "その他金融",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 1107.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -9.0,
@@ -2919,7 +2944,7 @@
         "buy2_price": 1435,
         "buy3_price": 1398,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2941,7 +2966,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:02"
+      "updated_at": "2026-07-24 15:28"
     },
     {
       "code": "9432",
@@ -2949,6 +2974,7 @@
       "industry": "情報･通信業",
       "sector": "情報･通信業",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 151.3,
       "price_date": "2026-07-24 15:30",
       "price_change": 1.6000061,
@@ -3038,7 +3064,7 @@
         "buy2_price": 154,
         "buy3_price": 151,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3056,7 +3082,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:02"
+      "updated_at": "2026-07-24 15:28"
     },
     {
       "code": "8766",
@@ -3064,6 +3090,7 @@
       "industry": "保険業",
       "sector": "保険",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 8116.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 158.0,
@@ -3153,7 +3180,7 @@
         "buy2_price": 7270,
         "buy3_price": 6941,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3173,7 +3200,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:02"
+      "updated_at": "2026-07-24 15:28"
     },
     {
       "code": "4613",
@@ -3181,6 +3208,7 @@
       "industry": "化学",
       "sector": "化学",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2661.5,
       "price_date": "2026-07-24 15:30",
       "price_change": -39.5,
@@ -3270,7 +3298,7 @@
         "buy2_price": 2613,
         "buy3_price": 2371,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3288,7 +3316,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:02"
+      "updated_at": "2026-07-24 15:28"
     },
     {
       "code": "8252",
@@ -3296,6 +3324,7 @@
       "industry": "小売業",
       "sector": "小売",
       "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 3,
       "price": 2921.5,
       "price_date": "2026-07-24 15:30",
       "price_change": -5.0,
@@ -3385,7 +3414,7 @@
         "buy2_price": 3080,
         "buy3_price": 2958,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3403,7 +3432,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:04"
+      "updated_at": "2026-07-24 15:29"
     },
     {
       "code": "7981",
@@ -3411,6 +3440,7 @@
       "industry": "その他製品",
       "sector": "その他製造",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 3135.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 50.0,
@@ -3500,7 +3530,7 @@
         "buy2_price": 3092,
         "buy3_price": 2851,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3521,7 +3551,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:04"
+      "updated_at": "2026-07-24 15:29"
     },
     {
       "code": "7990",
@@ -3529,6 +3559,7 @@
       "industry": "その他製品",
       "sector": "その他製造",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2455.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -14.0,
@@ -3609,18 +3640,18 @@
       "dividend_yield_pct": 4.0733197556008145,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想90円のまま。2026年3月期は実績90円で確定済み、2027年3月期の会社予想は100円(2026-07提供資料、四半期内訳2Q50円+4Q50円)。",
       "target_yield": {
-        "cycle_class": null,
-        "reason": null,
-        "target1_pct": null,
-        "target2_pct": null,
-        "target3_pct": null,
-        "buy1_price": null,
-        "buy2_price": null,
-        "buy3_price": null,
-        "buy_status": "要確認",
-        "sample_daily": 0,
-        "sample_annual": 0,
-        "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+        "cycle_class": "景気敏感株",
+        "reason": "業種：その他製品・配当変動大",
+        "target1_pct": 3.99,
+        "target2_pct": 4.16,
+        "target3_pct": 4.32,
+        "buy1_price": 2506,
+        "buy2_price": 2404,
+        "buy3_price": 2315,
+        "buy_status": "第1買い（打診買い）",
+        "sample_daily": 733,
+        "sample_annual": 10,
+        "error": null
       },
       "rating": "条件付き監視",
       "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
@@ -3638,7 +3669,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:04"
+      "updated_at": "2026-07-24 15:29"
     },
     {
       "code": "1928",
@@ -3646,6 +3677,7 @@
       "industry": "建設業",
       "sector": "建設・住宅",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 1,
       "price": 3536.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 22.0,
@@ -3735,7 +3767,7 @@
         "buy2_price": 3341,
         "buy3_price": 3266,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3757,7 +3789,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:04"
+      "updated_at": "2026-07-24 15:29"
     },
     {
       "code": "1925",
@@ -3765,6 +3797,7 @@
       "industry": "建設業",
       "sector": "建設・住宅",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 4579.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 13.0,
@@ -3854,7 +3887,7 @@
         "buy2_price": 2398,
         "buy3_price": 2195,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3874,7 +3907,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:04"
+      "updated_at": "2026-07-24 15:31"
     },
     {
       "code": "7856",
@@ -3882,6 +3915,7 @@
       "industry": "その他製品",
       "sector": "その他製造",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 10,
       "price": 1778.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -14.0,
@@ -3971,7 +4005,7 @@
         "buy2_price": 1794,
         "buy3_price": 1720,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3991,7 +4025,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:05"
+      "updated_at": "2026-07-24 15:31"
     },
     {
       "code": "7164",
@@ -3999,6 +4033,7 @@
       "industry": "その他金融業",
       "sector": "その他金融",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 3064.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 19.0,
@@ -4088,7 +4123,7 @@
         "buy2_price": 2562,
         "buy3_price": 2520,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4108,7 +4143,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:05"
+      "updated_at": "2026-07-24 15:31"
     },
     {
       "code": "5911",
@@ -4116,6 +4151,7 @@
       "industry": "金属製品",
       "sector": "金属製品",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2936.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 10.0,
@@ -4205,7 +4241,7 @@
         "buy2_price": 3030,
         "buy3_price": 2968,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4226,7 +4262,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:05"
+      "updated_at": "2026-07-24 15:31"
     },
     {
       "code": "8424",
@@ -4234,6 +4270,7 @@
       "industry": "その他金融業",
       "sector": "その他金融",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 4432.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 10.0,
@@ -4323,7 +4360,7 @@
         "buy2_price": 4095,
         "buy3_price": 4028,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4343,7 +4380,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:05"
+      "updated_at": "2026-07-24 15:31"
     },
     {
       "code": "5965",
@@ -4351,6 +4388,7 @@
       "industry": "金属製品",
       "sector": "金属製品",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
       "price": 1163.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -15.0,
@@ -4440,7 +4478,7 @@
         "buy2_price": 1408,
         "buy3_price": 1333,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4459,7 +4497,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:06"
+      "updated_at": "2026-07-24 15:32"
     },
     {
       "code": "3231",
@@ -4467,6 +4505,7 @@
       "industry": "不動産業",
       "sector": "不動産",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 946.5,
       "price_date": "2026-07-24 15:30",
       "price_change": -3.9000244,
@@ -4550,13 +4589,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：不動産業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 4.09,
-        "target2_pct": 4.22,
+        "target2_pct": 4.21,
         "target3_pct": 4.34,
         "buy1_price": 1076,
-        "buy2_price": 1043,
+        "buy2_price": 1045,
         "buy3_price": 1014,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4578,7 +4617,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:07"
+      "updated_at": "2026-07-24 15:32"
     },
     {
       "code": "9364",
@@ -4586,6 +4625,7 @@
       "industry": "倉庫･運輸関連業",
       "sector": "倉庫･運輸関連業",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 5153.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 34.0,
@@ -4669,13 +4709,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：倉庫･運輸関連業・利益比較的安定・配当変動大",
         "target1_pct": 3.72,
-        "target2_pct": 3.91,
+        "target2_pct": 3.9,
         "target3_pct": 4.31,
         "buy1_price": 5511,
-        "buy2_price": 5243,
+        "buy2_price": 5256,
         "buy3_price": 4756,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4696,7 +4736,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:07"
+      "updated_at": "2026-07-24 15:32"
     },
     {
       "code": "4118",
@@ -4704,6 +4744,7 @@
       "industry": "化学",
       "sector": "化学",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 5841.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 9.0,
@@ -4793,7 +4834,7 @@
         "buy2_price": 5966,
         "buy3_price": 5660,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4811,7 +4852,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:07"
+      "updated_at": "2026-07-24 15:32"
     },
     {
       "code": "8411",
@@ -4819,6 +4860,7 @@
       "industry": "銀行業",
       "sector": "銀行",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 8652.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -114.0,
@@ -4908,7 +4950,7 @@
         "buy2_price": 3876,
         "buy3_price": 3623,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4928,7 +4970,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:08"
+      "updated_at": "2026-07-24 15:34"
     },
     {
       "code": "4063",
@@ -4936,6 +4978,7 @@
       "industry": "化学",
       "sector": "化学",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 6702.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -268.0,
@@ -5025,7 +5068,7 @@
         "buy2_price": 4417,
         "buy3_price": 4173,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5048,7 +5091,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:08"
+      "updated_at": "2026-07-24 15:34"
     },
     {
       "code": "8015",
@@ -5056,6 +5099,7 @@
       "industry": "卸売業",
       "sector": "卸売・商社",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 6425.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -169.0,
@@ -5145,7 +5189,7 @@
         "buy2_price": 3173,
         "buy3_price": 2976,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5168,7 +5212,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:08"
+      "updated_at": "2026-07-24 15:34"
     },
     {
       "code": "7716",
@@ -5176,6 +5220,7 @@
       "industry": "精密機器",
       "sector": "精密機器",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
       "price": 3060.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 10.0,
@@ -5265,7 +5310,7 @@
         "buy2_price": 2198,
         "buy3_price": 2135,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5282,7 +5327,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:08"
+      "updated_at": "2026-07-24 15:34"
     },
     {
       "code": "5393",
@@ -5290,6 +5335,7 @@
       "industry": "ガラス･土石製品",
       "sector": "ガラス･土石製品",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 3366.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -43.0,
@@ -5379,7 +5425,7 @@
         "buy2_price": 2305,
         "buy3_price": 2090,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5400,7 +5446,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:10"
+      "updated_at": "2026-07-24 15:34"
     },
     {
       "code": "8002",
@@ -5408,6 +5454,7 @@
       "industry": "卸売業",
       "sector": "卸売・商社",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 5370.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -14.0,
@@ -5497,7 +5544,7 @@
         "buy2_price": 2972,
         "buy3_price": 2771,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5518,7 +5565,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:10"
+      "updated_at": "2026-07-24 15:35"
     },
     {
       "code": "8001",
@@ -5526,6 +5573,7 @@
       "industry": "卸売業",
       "sector": "卸売・商社",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 1957.5,
       "price_date": "2026-07-24 15:30",
       "price_change": -13.5,
@@ -5615,7 +5663,7 @@
         "buy2_price": 1577,
         "buy3_price": 1481,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5638,7 +5686,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:10"
+      "updated_at": "2026-07-24 15:35"
     },
     {
       "code": "3407",
@@ -5646,6 +5694,7 @@
       "industry": "化学",
       "sector": "化学",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 1845.5,
       "price_date": "2026-07-24 15:30",
       "price_change": -21.0,
@@ -5735,7 +5784,7 @@
         "buy2_price": 1137,
         "buy3_price": 1111,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5753,7 +5802,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:10"
+      "updated_at": "2026-07-24 15:35"
     },
     {
       "code": "2914",
@@ -5761,6 +5810,7 @@
       "industry": "食料品",
       "sector": "食品",
       "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 12,
       "price": 6461.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 92.0,
@@ -5850,7 +5900,7 @@
         "buy2_price": 4457,
         "buy3_price": 3787,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5869,7 +5919,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:10"
+      "updated_at": "2026-07-24 15:36"
     },
     {
       "code": "1721",
@@ -5877,6 +5927,7 @@
       "industry": "建設業",
       "sector": "建設・住宅",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 5269.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 76.0,
@@ -5966,7 +6017,7 @@
         "buy2_price": 3835,
         "buy3_price": 3678,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5987,7 +6038,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:11"
+      "updated_at": "2026-07-24 15:37"
     },
     {
       "code": "4182",
@@ -5995,6 +6046,7 @@
       "industry": "化学",
       "sector": "化学",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 4383.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -188.0,
@@ -6084,7 +6136,7 @@
         "buy2_price": 2570,
         "buy3_price": 2477,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6102,7 +6154,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:11"
+      "updated_at": "2026-07-24 15:37"
     },
     {
       "code": "8309",
@@ -6110,6 +6162,7 @@
       "industry": "銀行業",
       "sector": "銀行",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 6812.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -33.0,
@@ -6199,7 +6252,7 @@
         "buy2_price": 1159,
         "buy3_price": 1049,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6219,7 +6272,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:11"
+      "updated_at": "2026-07-24 15:37"
     },
     {
       "code": "1417",
@@ -6227,6 +6280,7 @@
       "industry": "建設業",
       "sector": "建設・住宅",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 3639.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 8.0,
@@ -6316,7 +6370,7 @@
         "buy2_price": 2794,
         "buy3_price": 2699,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6337,7 +6391,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:12"
+      "updated_at": "2026-07-24 15:37"
     },
     {
       "code": "8316",
@@ -6345,6 +6399,7 @@
       "industry": "銀行業",
       "sector": "銀行",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 7161.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -6.0,
@@ -6434,7 +6489,7 @@
         "buy2_price": 2432,
         "buy3_price": 2338,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6455,7 +6510,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:12"
+      "updated_at": "2026-07-24 15:38"
     },
     {
       "code": "8591",
@@ -6463,6 +6518,7 @@
       "industry": "その他金融業",
       "sector": "その他金融",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 6535.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -82.0,
@@ -6545,14 +6601,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他金融業・利益比較的安定・減配なし・増配基調",
-        "target1_pct": 3.8,
+        "target1_pct": 3.81,
         "target2_pct": 4.0,
         "target3_pct": 4.22,
-        "buy1_price": 3158,
+        "buy1_price": 3150,
         "buy2_price": 3000,
         "buy3_price": 2844,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6572,7 +6628,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:13"
+      "updated_at": "2026-07-24 15:38"
     },
     {
       "code": "8117",
@@ -6580,6 +6636,7 @@
       "industry": "卸売業",
       "sector": "卸売・商社",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2090.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 5.0,
@@ -6669,7 +6726,7 @@
         "buy2_price": 1933,
         "buy3_price": 1837,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6691,7 +6748,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:13"
+      "updated_at": "2026-07-24 15:38"
     },
     {
       "code": "4658",
@@ -6699,6 +6756,7 @@
       "industry": "サービス業",
       "sector": "サービス",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 1601.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -2.0,
@@ -6788,7 +6846,7 @@
         "buy2_price": 1323,
         "buy3_price": 1287,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6808,7 +6866,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:13"
+      "updated_at": "2026-07-24 15:39"
     },
     {
       "code": "2602",
@@ -6816,6 +6874,7 @@
       "industry": "食料品",
       "sector": "食品",
       "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 3,
       "price": 1950.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 20.0,
@@ -6905,7 +6964,7 @@
         "buy2_price": 1563,
         "buy3_price": 1478,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6927,7 +6986,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:14"
+      "updated_at": "2026-07-24 15:39"
     },
     {
       "code": "3150",
@@ -6935,6 +6994,7 @@
       "industry": "電気･ガス業",
       "sector": "電気･ガス業",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2578.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -8.0,
@@ -7024,7 +7084,7 @@
         "buy2_price": 2635,
         "buy3_price": 2576,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7046,7 +7106,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:14"
+      "updated_at": "2026-07-24 15:40"
     },
     {
       "code": "9101",
@@ -7054,6 +7114,7 @@
       "industry": "海運業",
       "sector": "海運",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 5946.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 129.0,
@@ -7143,7 +7204,7 @@
         "buy2_price": 2782,
         "buy3_price": 1473,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 9,
         "error": null
       },
@@ -7157,7 +7218,7 @@
         "growth_detail": [],
         "income_detail": []
       },
-      "updated_at": "2026-07-24 14:14"
+      "updated_at": "2026-07-24 15:40"
     },
     {
       "code": "4205",
@@ -7165,6 +7226,7 @@
       "industry": "化学",
       "sector": "化学",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2215.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -41.0,
@@ -7254,7 +7316,7 @@
         "buy2_price": 1639,
         "buy3_price": 1577,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7274,7 +7336,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:15"
+      "updated_at": "2026-07-24 15:40"
     },
     {
       "code": "8130",
@@ -7282,6 +7344,7 @@
       "industry": "卸売業",
       "sector": "卸売・商社",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 3020.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 15.0,
@@ -7371,7 +7434,7 @@
         "buy2_price": 2914,
         "buy3_price": 2870,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7391,7 +7454,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:15"
+      "updated_at": "2026-07-24 15:41"
     },
     {
       "code": "8601",
@@ -7399,6 +7462,7 @@
       "industry": "証券･商品先物取引業",
       "sector": "証券･商品先物取引業",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 1857.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -10.5,
@@ -7488,7 +7552,7 @@
         "buy2_price": 780,
         "buy3_price": 732,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7508,7 +7572,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:15"
+      "updated_at": "2026-07-24 15:41"
     },
     {
       "code": "2117",
@@ -7516,6 +7580,7 @@
       "industry": "食料品",
       "sector": "食品",
       "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 3,
       "price": 2713.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -9.0,
@@ -7605,7 +7670,7 @@
         "buy2_price": 2576,
         "buy3_price": 2521,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7622,7 +7687,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:15"
+      "updated_at": "2026-07-24 15:41"
     },
     {
       "code": "9513",
@@ -7630,6 +7695,7 @@
       "industry": "電気･ガス業",
       "sector": "電気･ガス業",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 3834.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 10.0,
@@ -7719,7 +7785,7 @@
         "buy2_price": 2512,
         "buy3_price": 2453,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7738,7 +7804,7 @@
           "無配0期"
         ]
       },
-      "updated_at": "2026-07-24 14:16"
+      "updated_at": "2026-07-24 15:42"
     },
     {
       "code": "2503",
@@ -7746,6 +7812,7 @@
       "industry": "食料品",
       "sector": "食品",
       "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 12,
       "price": 2908.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 14.0,
@@ -7835,7 +7902,7 @@
         "buy2_price": 2190,
         "buy3_price": 2094,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7854,7 +7921,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:17"
+      "updated_at": "2026-07-24 15:42"
     },
     {
       "code": "5845",
@@ -7862,6 +7929,7 @@
       "industry": "その他金融業",
       "sector": "その他金融",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 1011.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -3.0,
@@ -7951,7 +8019,7 @@
         "buy2_price": 1084,
         "buy3_price": 1060,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 568,
+        "sample_daily": 567,
         "sample_annual": 3,
         "error": null
       },
@@ -7965,7 +8033,7 @@
         "growth_detail": [],
         "income_detail": []
       },
-      "updated_at": "2026-07-24 14:17"
+      "updated_at": "2026-07-24 15:42"
     },
     {
       "code": "5108",
@@ -7973,6 +8041,7 @@
       "industry": "ゴム製品",
       "sector": "素材・自動車関連",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
       "price": 3716.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -31.0,
@@ -8062,7 +8131,7 @@
         "buy2_price": 3272,
         "buy3_price": 3189,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8080,7 +8149,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:17"
+      "updated_at": "2026-07-24 15:42"
     },
     {
       "code": "4208",
@@ -8088,6 +8157,7 @@
       "industry": "化学",
       "sector": "化学",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 3274.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -1.0,
@@ -8177,7 +8247,7 @@
         "buy2_price": 3245,
         "buy3_price": 3019,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8195,7 +8265,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:18"
+      "updated_at": "2026-07-24 15:43"
     },
     {
       "code": "9658",
@@ -8203,6 +8273,7 @@
       "industry": "情報･通信業",
       "sector": "情報･通信業",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 1032.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 7.0,
@@ -8292,7 +8363,7 @@
         "buy2_price": 1056,
         "buy3_price": 985,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8313,7 +8384,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:18"
+      "updated_at": "2026-07-24 15:44"
     },
     {
       "code": "2918",
@@ -8321,6 +8392,7 @@
       "industry": "食料品",
       "sector": "食品",
       "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 2,
       "price": 2781.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 15.0,
@@ -8410,7 +8482,7 @@
         "buy2_price": 2721,
         "buy3_price": 2620,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8431,7 +8503,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:18"
+      "updated_at": "2026-07-24 15:44"
     },
     {
       "code": "8111",
@@ -8439,6 +8511,7 @@
       "industry": "繊維製品",
       "sector": "素材",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 2301.0,
       "price_date": "2026-07-24 15:30",
       "price_change": 19.0,
@@ -8528,7 +8601,7 @@
         "buy2_price": 2536,
         "buy3_price": 2422,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8550,7 +8623,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:18"
+      "updated_at": "2026-07-24 15:44"
     },
     {
       "code": "8771",
@@ -8558,6 +8631,7 @@
       "industry": "その他金融業",
       "sector": "その他金融",
       "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
       "price": 1830.0,
       "price_date": "2026-07-24 15:30",
       "price_change": -18.0,
@@ -8647,7 +8721,7 @@
         "buy2_price": 3347,
         "buy3_price": 3231,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8668,7 +8742,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-24 14:19"
+      "updated_at": "2026-07-24 15:45"
     }
   ],
   "errors": []

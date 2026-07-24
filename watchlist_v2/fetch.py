@@ -117,6 +117,12 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
     comment = make_comment(step1, step2)
     rating = overall_rating(step1, step2)
 
+    fiscal_year_end_month = None
+    if not history.empty:
+        latest_period = history.sort_values("決算期")["決算期"].iloc[-1]
+        if pd.notna(latest_period):
+            fiscal_year_end_month = int(latest_period.month)
+
     eps_hist = pd.to_numeric(history["EPS"], errors="coerce").dropna().tolist()
     div_hist = pd.to_numeric(history["1株配当"], errors="coerce").dropna().tolist()
     forecast_dividend = metrics.get("予想年間配当")
@@ -161,6 +167,7 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
         "industry": master.get("S33Nm"),
         "sector": sector,
         "cycle": cycle,
+        "fiscal_year_end_month": fiscal_year_end_month,
         "price": clean(price),
         "price_date": price_date,
         "price_change": clean(market.get("change")),
