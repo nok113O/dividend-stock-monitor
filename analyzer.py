@@ -45,7 +45,7 @@ def latest_summary(rows: list[dict]) -> dict:
     )[-1]
     # 業績予想の修正等、貸借対照表項目(自己資本比率・純資産・総資産)を含まない開示が
     # 最新になっている場合、それらの項目だけ直近の実績開示から補う。
-    balance_sheet_fields = ("EqAR", "Eq", "TA", "NP", "PayoutRatioAnn")
+    balance_sheet_fields = ("EqAR", "Eq", "TA", "NP")
     if all(not str(latest.get(f, "")).strip() for f in balance_sheet_fields):
         with_financials = [
             r for r in rows if str(r.get("EqAR", "")).strip()
@@ -59,6 +59,21 @@ def latest_summary(rows: list[dict]) -> dict:
             for f in balance_sheet_fields:
                 if not str(latest.get(f, "")).strip():
                     latest[f] = fallback.get(f)
+    # 配当性向(PayoutRatioAnn)は本決算(FY)開示にしか記載されないため、
+    # 最新開示が四半期報告(1Q/2Q/3Q)や業績予想の修正で空欄の場合は
+    # 直近の本決算開示から独立して補う。
+    if not str(latest.get("PayoutRatioAnn", "")).strip():
+        fy_with_payout = [
+            r for r in rows
+            if str(r.get("CurPerType", "")).upper() == "FY" and str(r.get("PayoutRatioAnn", "")).strip()
+        ]
+        if fy_with_payout:
+            fy_fallback = sorted(
+                fy_with_payout,
+                key=lambda r: (r.get("DiscDate", ""), r.get("DiscNo", "")),
+            )[-1]
+            latest = dict(latest)
+            latest["PayoutRatioAnn"] = fy_fallback.get("PayoutRatioAnn")
     return latest
 
 def latest_fy_summaries(rows: list[dict]) -> list[dict]:
