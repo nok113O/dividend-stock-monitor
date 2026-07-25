@@ -563,12 +563,18 @@ def render_card(stock: dict) -> str:
     if total_score is not None:
         growth_score = priority.get("growth_score")
         income_score = priority.get("income_score")
+        payout = priority.get("payout_ratio_pct")
         cagr = priority.get("dividend_cagr_pct")
-        cagr_text = f"（配当CAGR {fmt_num(cagr, 1)}%）" if cagr is not None else ""
+        detail_bits = []
+        if payout is not None:
+            detail_bits.append(f"配当性向{fmt_num(payout, 1)}%")
+        if cagr is not None:
+            detail_bits.append(f"配当CAGR{fmt_num(cagr, 1)}%")
+        detail_text = f"（{'・'.join(detail_bits)}）" if detail_bits else ""
         score_html = (
             '<div class="score-line">'
             f'<span class="score-badge">優先度スコア {total_score}/7</span>'
-            f'<span class="score-sub">成長余力{growth_score}/3・増配余力{income_score}/4{cagr_text}</span>'
+            f'<span class="score-sub">成長余力{growth_score}/3・増配余力{income_score}/4{detail_text}</span>'
             "</div>"
         )
     return (
