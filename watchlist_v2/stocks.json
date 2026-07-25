@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25 05:40",
+  "generated_at": "2026-07-25 06:24",
   "stocks": [
     {
       "code": "8306",
@@ -109,6 +109,7 @@
         "total_score": 5,
         "payout_ratio_pct": 40.0,
         "dividend_cagr_pct": 18.98,
+        "dividend_years_to_double": 4.0,
         "growth_detail": [
           "EPSが9期前の2倍以上"
         ],
@@ -119,7 +120,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:14"
+      "updated_at": "2026-07-25 05:59"
     },
     {
       "code": "9433",
@@ -229,6 +230,7 @@
         "total_score": 6,
         "payout_ratio_pct": 44.800000000000004,
         "dividend_cagr_pct": 7.28,
+        "dividend_years_to_double": 9.9,
         "growth_detail": [
           "ROE10%以上",
           "BPS10期連続増加"
@@ -240,7 +242,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:14"
+      "updated_at": "2026-07-25 05:59"
     },
     {
       "code": "1414",
@@ -350,6 +352,7 @@
         "total_score": 5,
         "payout_ratio_pct": 60.099999999999994,
         "dividend_cagr_pct": 16.76,
+        "dividend_years_to_double": 4.5,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -360,7 +363,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:14"
+      "updated_at": "2026-07-25 05:59"
     },
     {
       "code": "1802",
@@ -470,6 +473,7 @@
         "total_score": 6,
         "payout_ratio_pct": 39.7,
         "dividend_cagr_pct": 13.57,
+        "dividend_years_to_double": 5.4,
         "growth_detail": [
           "ROE10%以上",
           "BPS10期連続増加"
@@ -481,7 +485,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:14"
+      "updated_at": "2026-07-25 05:59"
     },
     {
       "code": "8725",
@@ -591,6 +595,7 @@
         "total_score": 6,
         "payout_ratio_pct": 32.5,
         "dividend_cagr_pct": 16.65,
+        "dividend_years_to_double": 4.5,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上"
@@ -602,7 +607,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:14"
+      "updated_at": "2026-07-25 05:59"
     },
     {
       "code": "1926",
@@ -712,6 +717,7 @@
         "total_score": 7,
         "payout_ratio_pct": 46.7,
         "dividend_cagr_pct": 21.57,
+        "dividend_years_to_double": 3.5,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上",
@@ -724,7 +730,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:15"
+      "updated_at": "2026-07-25 06:00"
     },
     {
       "code": "2733",
@@ -834,6 +840,7 @@
         "total_score": 5,
         "payout_ratio_pct": 33.0,
         "dividend_cagr_pct": 14.74,
+        "dividend_years_to_double": 5.0,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -844,7 +851,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:15"
+      "updated_at": "2026-07-25 06:00"
     },
     {
       "code": "8439",
@@ -954,6 +961,7 @@
         "total_score": 6,
         "payout_ratio_pct": 35.5,
         "dividend_cagr_pct": 13.8,
+        "dividend_years_to_double": 5.4,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -965,7 +973,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:16"
+      "updated_at": "2026-07-25 06:00"
     },
     {
       "code": "6785",
@@ -1075,6 +1083,7 @@
         "total_score": 5,
         "payout_ratio_pct": 44.2,
         "dividend_cagr_pct": 25.51,
+        "dividend_years_to_double": 3.1,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -1085,7 +1094,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:16"
+      "updated_at": "2026-07-25 06:00"
     },
     {
       "code": "6282",
@@ -1195,6 +1204,7 @@
         "total_score": 5,
         "payout_ratio_pct": 40.8,
         "dividend_cagr_pct": 6.07,
+        "dividend_years_to_double": 11.8,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -1205,7 +1215,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:16"
+      "updated_at": "2026-07-25 06:02"
     },
     {
       "code": "8892",
@@ -1315,6 +1325,7 @@
         "total_score": 7,
         "payout_ratio_pct": 37.7,
         "dividend_cagr_pct": 13.8,
+        "dividend_years_to_double": 5.4,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上",
@@ -1327,7 +1338,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:17"
+      "updated_at": "2026-07-25 06:02"
     },
     {
       "code": "1605",
@@ -1437,6 +1448,7 @@
         "total_score": 4,
         "payout_ratio_pct": 30.2,
         "dividend_cagr_pct": 20.99,
+        "dividend_years_to_double": 3.6,
         "growth_detail": [
           "EPSが9期前の2倍以上"
         ],
@@ -1446,7 +1458,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:17"
+      "updated_at": "2026-07-25 06:02"
     },
     {
       "code": "6294",
@@ -1556,6 +1568,7 @@
         "total_score": 5,
         "payout_ratio_pct": 40.300000000000004,
         "dividend_cagr_pct": 14.03,
+        "dividend_years_to_double": 5.3,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -1566,7 +1579,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:17"
+      "updated_at": "2026-07-25 06:02"
     },
     {
       "code": "3277",
@@ -1676,6 +1689,7 @@
         "total_score": 5,
         "payout_ratio_pct": 28.9,
         "dividend_cagr_pct": 16.1,
+        "dividend_years_to_double": 4.6,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -1686,7 +1700,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:18"
+      "updated_at": "2026-07-25 06:02"
     },
     {
       "code": "4272",
@@ -1796,6 +1810,7 @@
         "total_score": 3,
         "payout_ratio_pct": 56.00000000000001,
         "dividend_cagr_pct": 9.16,
+        "dividend_years_to_double": 7.9,
         "growth_detail": [],
         "income_detail": [
           "減配0回",
@@ -1803,7 +1818,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:18"
+      "updated_at": "2026-07-25 06:03"
     },
     {
       "code": "3003",
@@ -1913,6 +1928,7 @@
         "total_score": 6,
         "payout_ratio_pct": 41.099999999999994,
         "dividend_cagr_pct": 15.46,
+        "dividend_years_to_double": 4.8,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -1924,7 +1940,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:18"
+      "updated_at": "2026-07-25 06:03"
     },
     {
       "code": "3252",
@@ -2034,6 +2050,7 @@
         "total_score": 5,
         "payout_ratio_pct": 30.8,
         "dividend_cagr_pct": 8.01,
+        "dividend_years_to_double": 9.0,
         "growth_detail": [
           "ROE10%以上",
           "BPS10期連続増加"
@@ -2044,7 +2061,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:18"
+      "updated_at": "2026-07-25 06:03"
     },
     {
       "code": "5184",
@@ -2154,6 +2171,7 @@
         "total_score": 4,
         "payout_ratio_pct": 42.1,
         "dividend_cagr_pct": 23.6,
+        "dividend_years_to_double": 3.3,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -2163,7 +2181,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:19"
+      "updated_at": "2026-07-25 06:04"
     },
     {
       "code": "4568",
@@ -2273,6 +2291,7 @@
         "total_score": 6,
         "payout_ratio_pct": 38.5,
         "dividend_cagr_pct": 14.35,
+        "dividend_years_to_double": 5.2,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上"
@@ -2284,7 +2303,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:20"
+      "updated_at": "2026-07-25 06:05"
     },
     {
       "code": "4540",
@@ -2394,6 +2413,7 @@
         "total_score": 6,
         "payout_ratio_pct": 31.8,
         "dividend_cagr_pct": 9.68,
+        "dividend_years_to_double": 7.5,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -2405,7 +2425,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:20"
+      "updated_at": "2026-07-25 06:05"
     },
     {
       "code": "8058",
@@ -2515,6 +2535,7 @@
         "total_score": 4,
         "payout_ratio_pct": 52.2,
         "dividend_cagr_pct": 17.05,
+        "dividend_years_to_double": 4.4,
         "growth_detail": [
           "EPSが9期前の2倍以上"
         ],
@@ -2524,7 +2545,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:20"
+      "updated_at": "2026-07-25 06:05"
     },
     {
       "code": "4206",
@@ -2634,6 +2655,7 @@
         "total_score": 5,
         "payout_ratio_pct": 46.5,
         "dividend_cagr_pct": 5.53,
+        "dividend_years_to_double": 12.9,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -2644,7 +2666,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:21"
+      "updated_at": "2026-07-25 06:05"
     },
     {
       "code": "7203",
@@ -2754,6 +2776,7 @@
         "total_score": 6,
         "payout_ratio_pct": 25.0,
         "dividend_cagr_pct": 9.49,
+        "dividend_years_to_double": 7.6,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -2765,7 +2788,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:21"
+      "updated_at": "2026-07-25 06:06"
     },
     {
       "code": "8593",
@@ -2875,6 +2898,7 @@
         "total_score": 5,
         "payout_ratio_pct": 42.5,
         "dividend_cagr_pct": 15.07,
+        "dividend_years_to_double": 4.9,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -2885,7 +2909,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:21"
+      "updated_at": "2026-07-25 06:06"
     },
     {
       "code": "7191",
@@ -2995,6 +3019,7 @@
         "total_score": 7,
         "payout_ratio_pct": 41.099999999999994,
         "dividend_cagr_pct": 28.42,
+        "dividend_years_to_double": 2.8,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上",
@@ -3007,7 +3032,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:21"
+      "updated_at": "2026-07-25 06:06"
     },
     {
       "code": "9432",
@@ -3117,6 +3142,7 @@
         "total_score": 4,
         "payout_ratio_pct": 43.5,
         "dividend_cagr_pct": 9.2,
+        "dividend_years_to_double": 7.9,
         "growth_detail": [],
         "income_detail": [
           "配当性向50%以下",
@@ -3125,7 +3151,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:22"
+      "updated_at": "2026-07-25 06:07"
     },
     {
       "code": "8766",
@@ -3235,6 +3261,7 @@
         "total_score": 5,
         "payout_ratio_pct": 31.7,
         "dividend_cagr_pct": 18.68,
+        "dividend_years_to_double": 4.0,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上"
@@ -3245,7 +3272,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:23"
+      "updated_at": "2026-07-25 06:07"
     },
     {
       "code": "4613",
@@ -3355,6 +3382,7 @@
         "total_score": 4,
         "payout_ratio_pct": 24.8,
         "dividend_cagr_pct": 19.58,
+        "dividend_years_to_double": 3.9,
         "growth_detail": [],
         "income_detail": [
           "配当性向50%以下",
@@ -3363,7 +3391,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:23"
+      "updated_at": "2026-07-25 06:07"
     },
     {
       "code": "8252",
@@ -3473,6 +3501,7 @@
         "total_score": 3,
         "payout_ratio_pct": 74.0,
         "dividend_cagr_pct": 16.55,
+        "dividend_years_to_double": 4.5,
         "growth_detail": [],
         "income_detail": [
           "減配0回",
@@ -3480,7 +3509,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:23"
+      "updated_at": "2026-07-25 06:08"
     },
     {
       "code": "7981",
@@ -3590,6 +3619,7 @@
         "total_score": 5,
         "payout_ratio_pct": 50.0,
         "dividend_cagr_pct": 16.21,
+        "dividend_years_to_double": 4.6,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -3600,7 +3630,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:23"
+      "updated_at": "2026-07-25 06:08"
     },
     {
       "code": "7990",
@@ -3710,6 +3740,7 @@
         "total_score": 5,
         "payout_ratio_pct": 38.4,
         "dividend_cagr_pct": 15.3,
+        "dividend_years_to_double": 4.9,
         "growth_detail": [
           "EPSが9期前の2倍以上"
         ],
@@ -3720,7 +3751,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:24"
+      "updated_at": "2026-07-25 06:09"
     },
     {
       "code": "1928",
@@ -3830,6 +3861,7 @@
         "total_score": 6,
         "payout_ratio_pct": 40.2,
         "dividend_cagr_pct": 9.43,
+        "dividend_years_to_double": 7.7,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上"
@@ -3841,7 +3873,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:24"
+      "updated_at": "2026-07-25 06:09"
     },
     {
       "code": "1925",
@@ -3951,6 +3983,7 @@
         "total_score": 5,
         "payout_ratio_pct": 29.2,
         "dividend_cagr_pct": 7.41,
+        "dividend_years_to_double": 9.7,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -3961,7 +3994,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:24"
+      "updated_at": "2026-07-25 06:09"
     },
     {
       "code": "7856",
@@ -4071,6 +4104,7 @@
         "total_score": 4,
         "payout_ratio_pct": 50.6,
         "dividend_cagr_pct": 8.97,
+        "dividend_years_to_double": 8.1,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -4080,7 +4114,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:25"
+      "updated_at": "2026-07-25 06:10"
     },
     {
       "code": "7164",
@@ -4190,6 +4224,7 @@
         "total_score": 5,
         "payout_ratio_pct": 44.800000000000004,
         "dividend_cagr_pct": 16.23,
+        "dividend_years_to_double": 4.6,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -4200,7 +4235,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:25"
+      "updated_at": "2026-07-25 06:10"
     },
     {
       "code": "5911",
@@ -4310,6 +4345,7 @@
         "total_score": 6,
         "payout_ratio_pct": 34.699999999999996,
         "dividend_cagr_pct": 25.09,
+        "dividend_years_to_double": 3.1,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -4321,7 +4357,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:25"
+      "updated_at": "2026-07-25 06:10"
     },
     {
       "code": "8424",
@@ -4431,6 +4467,7 @@
         "total_score": 5,
         "payout_ratio_pct": 30.2,
         "dividend_cagr_pct": 15.46,
+        "dividend_years_to_double": 4.8,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -4441,7 +4478,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:26"
+      "updated_at": "2026-07-25 06:10"
     },
     {
       "code": "5965",
@@ -4551,6 +4588,7 @@
         "total_score": 4,
         "payout_ratio_pct": 22.400000000000002,
         "dividend_cagr_pct": 13.8,
+        "dividend_years_to_double": 5.4,
         "growth_detail": [],
         "income_detail": [
           "配当性向50%以下",
@@ -4559,7 +4597,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:26"
+      "updated_at": "2026-07-25 06:12"
     },
     {
       "code": "3231",
@@ -4669,6 +4707,7 @@
         "total_score": 6,
         "payout_ratio_pct": 41.4,
         "dividend_cagr_pct": 13.3,
+        "dividend_years_to_double": 5.6,
         "growth_detail": [
           "ROE10%以上",
           "BPS10期連続増加"
@@ -4680,7 +4719,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:27"
+      "updated_at": "2026-07-25 06:12"
     },
     {
       "code": "9364",
@@ -4790,6 +4829,7 @@
         "total_score": 5,
         "payout_ratio_pct": 50.4,
         "dividend_cagr_pct": 23.8,
+        "dividend_years_to_double": 3.2,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -4800,7 +4840,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:27"
+      "updated_at": "2026-07-25 06:12"
     },
     {
       "code": "4118",
@@ -4910,6 +4950,7 @@
         "total_score": 4,
         "payout_ratio_pct": 32.4,
         "dividend_cagr_pct": 6.6,
+        "dividend_years_to_double": 10.8,
         "growth_detail": [],
         "income_detail": [
           "配当性向50%以下",
@@ -4918,7 +4959,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:27"
+      "updated_at": "2026-07-25 06:12"
     },
     {
       "code": "8411",
@@ -5028,6 +5069,7 @@
         "total_score": 5,
         "payout_ratio_pct": 39.900000000000006,
         "dividend_cagr_pct": 7.6,
+        "dividend_years_to_double": 9.5,
         "growth_detail": [
           "EPSが9期前の2倍以上"
         ],
@@ -5038,7 +5080,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:28"
+      "updated_at": "2026-07-25 06:12"
     },
     {
       "code": "4063",
@@ -5148,6 +5190,7 @@
         "total_score": 7,
         "payout_ratio_pct": 41.9,
         "dividend_cagr_pct": 17.94,
+        "dividend_years_to_double": 4.2,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上",
@@ -5160,7 +5203,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:28"
+      "updated_at": "2026-07-25 06:13"
     },
     {
       "code": "8015",
@@ -5270,6 +5313,7 @@
         "total_score": 7,
         "payout_ratio_pct": 34.2,
         "dividend_cagr_pct": 19.96,
+        "dividend_years_to_double": 3.8,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上",
@@ -5282,7 +5326,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:28"
+      "updated_at": "2026-07-25 06:13"
     },
     {
       "code": "7716",
@@ -5392,13 +5436,14 @@
         "total_score": 2,
         "payout_ratio_pct": 51.300000000000004,
         "dividend_cagr_pct": 11.67,
+        "dividend_years_to_double": 6.3,
         "growth_detail": [],
         "income_detail": [
           "無配0期",
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:28"
+      "updated_at": "2026-07-25 06:13"
     },
     {
       "code": "5393",
@@ -5508,6 +5553,7 @@
         "total_score": 6,
         "payout_ratio_pct": 22.0,
         "dividend_cagr_pct": 13.62,
+        "dividend_years_to_double": 5.4,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -5519,7 +5565,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:30"
+      "updated_at": "2026-07-25 06:14"
     },
     {
       "code": "8002",
@@ -5629,6 +5675,7 @@
         "total_score": 5,
         "payout_ratio_pct": 32.5,
         "dividend_cagr_pct": 18.69,
+        "dividend_years_to_double": 4.0,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上"
@@ -5639,7 +5686,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:30"
+      "updated_at": "2026-07-25 06:14"
     },
     {
       "code": "8001",
@@ -5749,6 +5796,7 @@
         "total_score": 7,
         "payout_ratio_pct": 32.800000000000004,
         "dividend_cagr_pct": 16.05,
+        "dividend_years_to_double": 4.7,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上",
@@ -5761,7 +5809,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:30"
+      "updated_at": "2026-07-25 06:15"
     },
     {
       "code": "3407",
@@ -5871,6 +5919,7 @@
         "total_score": 4,
         "payout_ratio_pct": 38.800000000000004,
         "dividend_cagr_pct": 6.42,
+        "dividend_years_to_double": 11.1,
         "growth_detail": [],
         "income_detail": [
           "配当性向50%以下",
@@ -5879,7 +5928,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:30"
+      "updated_at": "2026-07-25 06:15"
     },
     {
       "code": "2914",
@@ -5989,6 +6038,7 @@
         "total_score": 3,
         "payout_ratio_pct": 81.39999999999999,
         "dividend_cagr_pct": 6.75,
+        "dividend_years_to_double": 10.6,
         "growth_detail": [
           "ROE10%以上"
         ],
@@ -5997,7 +6047,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:30"
+      "updated_at": "2026-07-25 06:15"
     },
     {
       "code": "1721",
@@ -6107,6 +6157,7 @@
         "total_score": 6,
         "payout_ratio_pct": 45.4,
         "dividend_cagr_pct": 13.99,
+        "dividend_years_to_double": 5.3,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -6118,7 +6169,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:31"
+      "updated_at": "2026-07-25 06:16"
     },
     {
       "code": "4182",
@@ -6228,6 +6279,7 @@
         "total_score": 4,
         "payout_ratio_pct": 41.5,
         "dividend_cagr_pct": 11.35,
+        "dividend_years_to_double": 6.4,
         "growth_detail": [],
         "income_detail": [
           "配当性向50%以下",
@@ -6236,7 +6288,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:31"
+      "updated_at": "2026-07-25 06:16"
     },
     {
       "code": "8309",
@@ -6346,6 +6398,7 @@
         "total_score": 5,
         "payout_ratio_pct": 43.1,
         "dividend_cagr_pct": 12.32,
+        "dividend_years_to_double": 6.0,
         "growth_detail": [
           "EPSが9期前の2倍以上"
         ],
@@ -6356,7 +6409,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:31"
+      "updated_at": "2026-07-25 06:16"
     },
     {
       "code": "1417",
@@ -6466,6 +6519,7 @@
         "total_score": 6,
         "payout_ratio_pct": 39.6,
         "dividend_cagr_pct": 12.27,
+        "dividend_years_to_double": 6.0,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -6477,7 +6531,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:32"
+      "updated_at": "2026-07-25 06:17"
     },
     {
       "code": "8316",
@@ -6587,6 +6641,7 @@
         "total_score": 6,
         "payout_ratio_pct": 40.300000000000004,
         "dividend_cagr_pct": 13.56,
+        "dividend_years_to_double": 5.5,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -6598,7 +6653,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:33"
+      "updated_at": "2026-07-25 06:17"
     },
     {
       "code": "8591",
@@ -6708,6 +6763,7 @@
         "total_score": 5,
         "payout_ratio_pct": 39.0,
         "dividend_cagr_pct": 12.93,
+        "dividend_years_to_double": 5.7,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -6718,7 +6774,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:33"
+      "updated_at": "2026-07-25 06:17"
     },
     {
       "code": "8117",
@@ -6828,6 +6884,7 @@
         "total_score": 7,
         "payout_ratio_pct": 33.7,
         "dividend_cagr_pct": 20.82,
+        "dividend_years_to_double": 3.7,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上",
@@ -6840,7 +6897,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:33"
+      "updated_at": "2026-07-25 06:17"
     },
     {
       "code": "4658",
@@ -6950,6 +7007,7 @@
         "total_score": 5,
         "payout_ratio_pct": 50.0,
         "dividend_cagr_pct": 10.49,
+        "dividend_years_to_double": 6.9,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -6960,7 +7018,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:33"
+      "updated_at": "2026-07-25 06:19"
     },
     {
       "code": "2602",
@@ -7070,6 +7128,7 @@
         "total_score": 7,
         "payout_ratio_pct": 45.4,
         "dividend_cagr_pct": 15.29,
+        "dividend_years_to_double": 4.9,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上",
@@ -7082,7 +7141,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:34"
+      "updated_at": "2026-07-25 06:19"
     },
     {
       "code": "3150",
@@ -7192,6 +7251,7 @@
         "total_score": 7,
         "payout_ratio_pct": 40.0,
         "dividend_cagr_pct": 39.79,
+        "dividend_years_to_double": 2.1,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上",
@@ -7204,7 +7264,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:34"
+      "updated_at": "2026-07-25 06:19"
     },
     {
       "code": "9101",
@@ -7314,12 +7374,13 @@
         "total_score": 1,
         "payout_ratio_pct": 30.4,
         "dividend_cagr_pct": null,
+        "dividend_years_to_double": null,
         "growth_detail": [],
         "income_detail": [
           "配当性向50%以下"
         ]
       },
-      "updated_at": "2026-07-25 05:34"
+      "updated_at": "2026-07-25 06:19"
     },
     {
       "code": "4205",
@@ -7429,6 +7490,7 @@
         "total_score": 4,
         "payout_ratio_pct": 54.900000000000006,
         "dividend_cagr_pct": 18.9,
+        "dividend_years_to_double": 4.0,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -7438,7 +7500,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:35"
+      "updated_at": "2026-07-25 06:19"
     },
     {
       "code": "8130",
@@ -7548,6 +7610,7 @@
         "total_score": 4,
         "payout_ratio_pct": 70.1,
         "dividend_cagr_pct": 12.78,
+        "dividend_years_to_double": 5.8,
         "growth_detail": [
           "EPSが9期前の2倍以上"
         ],
@@ -7557,7 +7620,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:35"
+      "updated_at": "2026-07-25 06:20"
     },
     {
       "code": "8601",
@@ -7667,6 +7730,7 @@
         "total_score": 4,
         "payout_ratio_pct": 50.8,
         "dividend_cagr_pct": 10.53,
+        "dividend_years_to_double": 6.9,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -7676,7 +7740,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:35"
+      "updated_at": "2026-07-25 06:20"
     },
     {
       "code": "2117",
@@ -7786,13 +7850,14 @@
         "total_score": 2,
         "payout_ratio_pct": 60.0,
         "dividend_cagr_pct": 6.07,
+        "dividend_years_to_double": 11.8,
         "growth_detail": [],
         "income_detail": [
           "無配0期",
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:36"
+      "updated_at": "2026-07-25 06:20"
     },
     {
       "code": "9513",
@@ -7902,6 +7967,7 @@
         "total_score": 4,
         "payout_ratio_pct": 19.8,
         "dividend_cagr_pct": 4.04,
+        "dividend_years_to_double": 17.5,
         "growth_detail": [
           "BPS10期連続増加"
         ],
@@ -7911,7 +7977,7 @@
           "無配0期"
         ]
       },
-      "updated_at": "2026-07-25 05:36"
+      "updated_at": "2026-07-25 06:21"
     },
     {
       "code": "2503",
@@ -8021,6 +8087,7 @@
         "total_score": 4,
         "payout_ratio_pct": 40.6,
         "dividend_cagr_pct": 7.38,
+        "dividend_years_to_double": 9.7,
         "growth_detail": [],
         "income_detail": [
           "配当性向50%以下",
@@ -8029,7 +8096,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:37"
+      "updated_at": "2026-07-25 06:22"
     },
     {
       "code": "5845",
@@ -8047,7 +8114,7 @@
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 15.362408,
+            "value": 15.360073,
             "criterion": "12倍以下",
             "judge": "×"
           },
@@ -8139,10 +8206,11 @@
         "total_score": null,
         "payout_ratio_pct": 52.300000000000004,
         "dividend_cagr_pct": null,
+        "dividend_years_to_double": null,
         "growth_detail": [],
         "income_detail": []
       },
-      "updated_at": "2026-07-25 05:37"
+      "updated_at": "2026-07-25 06:22"
     },
     {
       "code": "5108",
@@ -8252,6 +8320,7 @@
         "total_score": 3,
         "payout_ratio_pct": 46.7,
         "dividend_cagr_pct": 5.67,
+        "dividend_years_to_double": 12.6,
         "growth_detail": [],
         "income_detail": [
           "配当性向50%以下",
@@ -8259,7 +8328,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:37"
+      "updated_at": "2026-07-25 06:22"
     },
     {
       "code": "4208",
@@ -8369,6 +8438,7 @@
         "total_score": 4,
         "payout_ratio_pct": 35.199999999999996,
         "dividend_cagr_pct": 6.97,
+        "dividend_years_to_double": 10.3,
         "growth_detail": [],
         "income_detail": [
           "配当性向50%以下",
@@ -8377,7 +8447,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:38"
+      "updated_at": "2026-07-25 06:22"
     },
     {
       "code": "9658",
@@ -8487,6 +8557,7 @@
         "total_score": 6,
         "payout_ratio_pct": 36.4,
         "dividend_cagr_pct": 27.65,
+        "dividend_years_to_double": 2.8,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "BPS10期連続増加"
@@ -8498,7 +8569,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:38"
+      "updated_at": "2026-07-25 06:23"
     },
     {
       "code": "2918",
@@ -8608,6 +8679,7 @@
         "total_score": 5,
         "payout_ratio_pct": 39.0,
         "dividend_cagr_pct": 12.98,
+        "dividend_years_to_double": 5.7,
         "growth_detail": [
           "EPSが9期前の2倍以上"
         ],
@@ -8618,7 +8690,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:38"
+      "updated_at": "2026-07-25 06:23"
     },
     {
       "code": "8111",
@@ -8728,6 +8800,7 @@
         "total_score": 7,
         "payout_ratio_pct": 29.9,
         "dividend_cagr_pct": 30.13,
+        "dividend_years_to_double": 2.6,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上",
@@ -8740,7 +8813,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:38"
+      "updated_at": "2026-07-25 06:23"
     },
     {
       "code": "8771",
@@ -8850,6 +8923,7 @@
         "total_score": 5,
         "payout_ratio_pct": 50.6,
         "dividend_cagr_pct": 16.65,
+        "dividend_years_to_double": 4.5,
         "growth_detail": [
           "EPSが9期前の2倍以上",
           "ROE10%以上"
@@ -8860,7 +8934,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-25 05:40"
+      "updated_at": "2026-07-25 06:24"
     }
   ],
   "errors": []

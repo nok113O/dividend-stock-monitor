@@ -205,6 +205,7 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
             "total_score": priority["total_score"],
             "payout_ratio_pct": clean(metrics.get("配当性向")),
             "dividend_cagr_pct": priority["dividend_cagr_pct"],
+            "dividend_years_to_double": priority["dividend_years_to_double"],
             "growth_detail": priority["growth_detail"],
             "income_detail": priority["income_detail"],
         },

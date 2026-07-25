@@ -37,6 +37,7 @@ GLOSSARY = [
     ("BPS（1株あたり純資産）", "純資産を発行済株式数で割った値。会社の解散価値に近い指標。"),
     ("配当性向", "当期純利益のうち配当に回した割合。低いほど利益に対して配当の余力が大きい。"),
     ("配当CAGR", "過去9年間の配当金の年平均成長率。増配ペースの目安。"),
+    ("配当倍増まで約N年", "配当CAGRがこのまま続いた場合、配当額が2倍になるまでの年数（72の法則の考え方：年数＝log(2)÷log(1+増配率)）。"),
     ("成長余力スコア（0〜3点）", "EPSの10年成長・ROE水準・純資産の増加傾向から算出。業績が今後も伸びる余地を見る。"),
     ("増配余力スコア（0〜4点）", "配当性向・減配実績・無配実績・配当CAGRから算出。今後の増配余地を見る。"),
     ("目標利回り①②③", "過去の配当利回りの分布から統計的に算出した買い時の目安。①が最も届きやすく、③が最も割安な水準。"),
@@ -565,11 +566,14 @@ def render_card(stock: dict) -> str:
         income_score = priority.get("income_score")
         payout = priority.get("payout_ratio_pct")
         cagr = priority.get("dividend_cagr_pct")
+        years_to_double = priority.get("dividend_years_to_double")
         detail_bits = []
         if payout is not None:
             detail_bits.append(f"配当性向{fmt_num(payout, 1)}%")
         if cagr is not None:
             detail_bits.append(f"配当CAGR{fmt_num(cagr, 1)}%")
+        if years_to_double is not None:
+            detail_bits.append(f"配当倍増まで約{fmt_num(years_to_double, 1)}年")
         detail_text = f"（{'・'.join(detail_bits)}）" if detail_bits else ""
         score_html = (
             '<div class="score-line">'

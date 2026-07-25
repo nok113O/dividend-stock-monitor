@@ -286,7 +286,8 @@ def calculate_priority_score(metrics: dict, df: pd.DataFrame | None) -> dict:
     """成長余力・増配余力のスコア(各0〜3〜4点)を10期データから算出する。"""
     empty = {
         "growth_score": None, "income_score": None, "total_score": None,
-        "dividend_cagr_pct": None, "growth_detail": [], "income_detail": [],
+        "dividend_cagr_pct": None, "dividend_years_to_double": None,
+        "growth_detail": [], "income_detail": [],
     }
     if df is None or len(df) < 10:
         return empty
@@ -331,18 +332,22 @@ def calculate_priority_score(metrics: dict, df: pd.DataFrame | None) -> dict:
         income_detail.append("無配0期")
 
     dividend_cagr = None
+    years_to_double = None
     first, last = divs[0], divs[-1]
     if pd.notna(first) and pd.notna(last) and first > 0 and last > 0:
         dividend_cagr = (last / first) ** (1 / 9) - 1
         if dividend_cagr * 100 >= 5:
             income_score += 1
             income_detail.append("配当CAGR5%以上")
+        if dividend_cagr > 0:
+            years_to_double = math.log(2) / math.log(1 + dividend_cagr)
 
     return {
         "growth_score": growth_score,
         "income_score": income_score,
         "total_score": growth_score + income_score,
         "dividend_cagr_pct": round(dividend_cagr * 100, 2) if dividend_cagr is not None else None,
+        "dividend_years_to_double": round(years_to_double, 1) if years_to_double is not None else None,
         "growth_detail": growth_detail,
         "income_detail": income_detail,
     }
