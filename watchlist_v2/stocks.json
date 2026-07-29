@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29 07:38",
+  "generated_at": "2026-07-29 16:04",
   "stocks": [
     {
       "code": "8306",
@@ -120,7 +120,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:11"
+      "updated_at": "2026-07-29 15:35"
     },
     {
       "code": "9433",
@@ -242,7 +242,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:11"
+      "updated_at": "2026-07-29 15:35"
     },
     {
       "code": "1414",
@@ -363,7 +363,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:11"
+      "updated_at": "2026-07-29 15:35"
     },
     {
       "code": "1802",
@@ -485,7 +485,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:11"
+      "updated_at": "2026-07-29 15:35"
     },
     {
       "code": "8725",
@@ -607,7 +607,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:11"
+      "updated_at": "2026-07-29 15:35"
     },
     {
       "code": "1926",
@@ -730,7 +730,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:13"
+      "updated_at": "2026-07-29 15:36"
     },
     {
       "code": "2733",
@@ -851,7 +851,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:13"
+      "updated_at": "2026-07-29 15:36"
     },
     {
       "code": "8439",
@@ -973,7 +973,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:13"
+      "updated_at": "2026-07-29 15:37"
     },
     {
       "code": "6785",
@@ -1094,7 +1094,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:13"
+      "updated_at": "2026-07-29 15:37"
     },
     {
       "code": "6282",
@@ -1215,7 +1215,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:13"
+      "updated_at": "2026-07-29 15:37"
     },
     {
       "code": "8892",
@@ -1338,7 +1338,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:14"
+      "updated_at": "2026-07-29 15:38"
     },
     {
       "code": "1605",
@@ -1458,7 +1458,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:14"
+      "updated_at": "2026-07-29 15:38"
     },
     {
       "code": "6294",
@@ -1579,7 +1579,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:14"
+      "updated_at": "2026-07-29 15:38"
     },
     {
       "code": "3277",
@@ -1700,7 +1700,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:15"
+      "updated_at": "2026-07-29 15:39"
     },
     {
       "code": "4272",
@@ -1818,7 +1818,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:15"
+      "updated_at": "2026-07-29 15:39"
     },
     {
       "code": "3003",
@@ -1940,7 +1940,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:16"
+      "updated_at": "2026-07-29 15:39"
     },
     {
       "code": "3252",
@@ -2061,7 +2061,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:16"
+      "updated_at": "2026-07-29 15:40"
     },
     {
       "code": "5184",
@@ -2181,7 +2181,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:16"
+      "updated_at": "2026-07-29 15:40"
     },
     {
       "code": "4568",
@@ -2272,11 +2272,11 @@
       "target_yield": {
         "cycle_class": "非景気敏感株",
         "reason": "業種：医薬品・配当変動大",
-        "target1_pct": 1.89,
-        "target2_pct": 2.35,
+        "target1_pct": 1.88,
+        "target2_pct": 2.34,
         "target3_pct": 2.94,
-        "buy1_price": 5291,
-        "buy2_price": 4255,
+        "buy1_price": 5319,
+        "buy2_price": 4274,
         "buy3_price": 3401,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 732,
@@ -2303,7 +2303,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:17"
+      "updated_at": "2026-07-29 15:41"
     },
     {
       "code": "4540",
@@ -2425,7 +2425,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:17"
+      "updated_at": "2026-07-29 15:41"
     },
     {
       "code": "8058",
@@ -2545,7 +2545,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:17"
+      "updated_at": "2026-07-29 15:41"
     },
     {
       "code": "4206",
@@ -2666,7 +2666,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:18"
+      "updated_at": "2026-07-29 15:41"
     },
     {
       "code": "7203",
@@ -2788,7 +2788,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:18"
+      "updated_at": "2026-07-29 15:42"
     },
     {
       "code": "8593",
@@ -2909,7 +2909,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:19"
+      "updated_at": "2026-07-29 15:42"
     },
     {
       "code": "7191",
@@ -3000,10 +3000,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他金融業・配当変動大",
-        "target1_pct": 2.94,
+        "target1_pct": 2.93,
         "target2_pct": 3.45,
         "target3_pct": 3.54,
-        "buy1_price": 1684,
+        "buy1_price": 1689,
         "buy2_price": 1435,
         "buy3_price": 1398,
         "buy_status": "第3買い（本格購入）",
@@ -3032,7 +3032,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:19"
+      "updated_at": "2026-07-29 15:42"
     },
     {
       "code": "9432",
@@ -3151,7 +3151,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:19"
+      "updated_at": "2026-07-29 15:42"
     },
     {
       "code": "8766",
@@ -3272,7 +3272,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:19"
+      "updated_at": "2026-07-29 15:43"
     },
     {
       "code": "4613",
@@ -3391,7 +3391,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:20"
+      "updated_at": "2026-07-29 15:44"
     },
     {
       "code": "8252",
@@ -3509,7 +3509,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:20"
+      "updated_at": "2026-07-29 15:44"
     },
     {
       "code": "7981",
@@ -3630,7 +3630,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:20"
+      "updated_at": "2026-07-29 15:44"
     },
     {
       "code": "7990",
@@ -3751,7 +3751,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:21"
+      "updated_at": "2026-07-29 15:45"
     },
     {
       "code": "1928",
@@ -3873,7 +3873,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:21"
+      "updated_at": "2026-07-29 15:45"
     },
     {
       "code": "1925",
@@ -3964,10 +3964,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
-        "target1_pct": 3.48,
+        "target1_pct": 3.47,
         "target2_pct": 3.68,
         "target3_pct": 4.01,
-        "buy1_price": 2529,
+        "buy1_price": 2536,
         "buy2_price": 2391,
         "buy3_price": 2195,
         "buy_status": "監視",
@@ -3994,7 +3994,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:22"
+      "updated_at": "2026-07-29 15:45"
     },
     {
       "code": "7856",
@@ -4114,7 +4114,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:22"
+      "updated_at": "2026-07-29 15:45"
     },
     {
       "code": "7164",
@@ -4235,7 +4235,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:22"
+      "updated_at": "2026-07-29 15:46"
     },
     {
       "code": "5911",
@@ -4357,7 +4357,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:23"
+      "updated_at": "2026-07-29 15:47"
     },
     {
       "code": "8424",
@@ -4478,7 +4478,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:23"
+      "updated_at": "2026-07-29 15:47"
     },
     {
       "code": "5965",
@@ -4597,7 +4597,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:23"
+      "updated_at": "2026-07-29 15:47"
     },
     {
       "code": "3231",
@@ -4719,7 +4719,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:24"
+      "updated_at": "2026-07-29 15:47"
     },
     {
       "code": "9364",
@@ -4810,10 +4810,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：倉庫･運輸関連業・利益比較的安定・配当変動大",
-        "target1_pct": 3.73,
+        "target1_pct": 3.72,
         "target2_pct": 3.91,
         "target3_pct": 4.31,
-        "buy1_price": 5496,
+        "buy1_price": 5511,
         "buy2_price": 5243,
         "buy3_price": 4756,
         "buy_status": "第1買い（打診買い）",
@@ -4840,7 +4840,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:24"
+      "updated_at": "2026-07-29 15:48"
     },
     {
       "code": "4118",
@@ -4959,7 +4959,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:25"
+      "updated_at": "2026-07-29 15:48"
     },
     {
       "code": "8411",
@@ -5080,7 +5080,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:25"
+      "updated_at": "2026-07-29 15:48"
     },
     {
       "code": "4063",
@@ -5203,7 +5203,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:25"
+      "updated_at": "2026-07-29 15:49"
     },
     {
       "code": "8015",
@@ -5326,7 +5326,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:26"
+      "updated_at": "2026-07-29 15:49"
     },
     {
       "code": "7716",
@@ -5443,7 +5443,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:26"
+      "updated_at": "2026-07-29 15:50"
     },
     {
       "code": "5393",
@@ -5565,7 +5565,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:26"
+      "updated_at": "2026-07-29 15:50"
     },
     {
       "code": "8002",
@@ -5686,7 +5686,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:26"
+      "updated_at": "2026-07-29 15:50"
     },
     {
       "code": "8001",
@@ -5809,7 +5809,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:28"
+      "updated_at": "2026-07-29 15:51"
     },
     {
       "code": "3407",
@@ -5928,7 +5928,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:28"
+      "updated_at": "2026-07-29 15:51"
     },
     {
       "code": "2914",
@@ -6020,11 +6020,11 @@
         "cycle_class": "非景気敏感株",
         "reason": "業種：食料品・利益比較的安定・減配1回",
         "target1_pct": 4.96,
-        "target2_pct": 5.32,
-        "target3_pct": 6.33,
+        "target2_pct": 5.37,
+        "target3_pct": 6.36,
         "buy1_price": 4879,
-        "buy2_price": 4549,
-        "buy3_price": 3823,
+        "buy2_price": 4507,
+        "buy3_price": 3805,
         "buy_status": "監視",
         "sample_daily": 732,
         "sample_annual": 10,
@@ -6047,7 +6047,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:28"
+      "updated_at": "2026-07-29 15:51"
     },
     {
       "code": "1721",
@@ -6169,7 +6169,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:28"
+      "updated_at": "2026-07-29 15:52"
     },
     {
       "code": "4182",
@@ -6288,7 +6288,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:28"
+      "updated_at": "2026-07-29 15:52"
     },
     {
       "code": "8309",
@@ -6409,7 +6409,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:29"
+      "updated_at": "2026-07-29 15:52"
     },
     {
       "code": "1417",
@@ -6531,7 +6531,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:29"
+      "updated_at": "2026-07-29 15:52"
     },
     {
       "code": "8316",
@@ -6622,10 +6622,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：銀行業・減配なし・増配基調",
-        "target1_pct": 3.54,
+        "target1_pct": 3.55,
         "target2_pct": 3.68,
         "target3_pct": 3.85,
-        "buy1_price": 2542,
+        "buy1_price": 2535,
         "buy2_price": 2446,
         "buy3_price": 2338,
         "buy_status": "監視",
@@ -6653,7 +6653,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:29"
+      "updated_at": "2026-07-29 15:54"
     },
     {
       "code": "8591",
@@ -6774,7 +6774,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:30"
+      "updated_at": "2026-07-29 15:54"
     },
     {
       "code": "8117",
@@ -6897,7 +6897,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:30"
+      "updated_at": "2026-07-29 15:54"
     },
     {
       "code": "4658",
@@ -7018,7 +7018,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:30"
+      "updated_at": "2026-07-29 15:54"
     },
     {
       "code": "2602",
@@ -7141,7 +7141,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:31"
+      "updated_at": "2026-07-29 15:54"
     },
     {
       "code": "3150",
@@ -7264,7 +7264,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:31"
+      "updated_at": "2026-07-29 15:55"
     },
     {
       "code": "9101",
@@ -7355,12 +7355,12 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：海運業・利益変動大・赤字2期・配当変動大",
-        "target1_pct": 6.33,
-        "target2_pct": 7.07,
-        "target3_pct": 13.5,
-        "buy1_price": 3160,
-        "buy2_price": 2829,
-        "buy3_price": 1481,
+        "target1_pct": 6.34,
+        "target2_pct": 7.1,
+        "target3_pct": 13.51,
+        "buy1_price": 3155,
+        "buy2_price": 2817,
+        "buy3_price": 1480,
         "buy_status": "監視",
         "sample_daily": 732,
         "sample_annual": 9,
@@ -7380,7 +7380,7 @@
           "配当性向50%以下"
         ]
       },
-      "updated_at": "2026-07-29 07:32"
+      "updated_at": "2026-07-29 15:55"
     },
     {
       "code": "4205",
@@ -7500,7 +7500,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:32"
+      "updated_at": "2026-07-29 15:55"
     },
     {
       "code": "8130",
@@ -7620,7 +7620,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:32"
+      "updated_at": "2026-07-29 15:55"
     },
     {
       "code": "8601",
@@ -7740,7 +7740,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:33"
+      "updated_at": "2026-07-29 15:57"
     },
     {
       "code": "2117",
@@ -7857,7 +7857,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:33"
+      "updated_at": "2026-07-29 15:57"
     },
     {
       "code": "9513",
@@ -7977,7 +7977,7 @@
           "無配0期"
         ]
       },
-      "updated_at": "2026-07-29 07:33"
+      "updated_at": "2026-07-29 15:57"
     },
     {
       "code": "2503",
@@ -8096,7 +8096,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:33"
+      "updated_at": "2026-07-29 15:57"
     },
     {
       "code": "5845",
@@ -8194,7 +8194,7 @@
         "buy2_price": 1084,
         "buy3_price": 1060,
         "buy_status": "監視",
-        "sample_daily": 571,
+        "sample_daily": 570,
         "sample_annual": 3,
         "error": null
       },
@@ -8210,7 +8210,7 @@
         "growth_detail": [],
         "income_detail": []
       },
-      "updated_at": "2026-07-29 07:35"
+      "updated_at": "2026-07-29 15:57"
     },
     {
       "code": "5108",
@@ -8328,7 +8328,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:35"
+      "updated_at": "2026-07-29 15:58"
     },
     {
       "code": "4208",
@@ -8447,7 +8447,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:35"
+      "updated_at": "2026-07-29 15:58"
     },
     {
       "code": "9658",
@@ -8569,7 +8569,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:35"
+      "updated_at": "2026-07-29 15:58"
     },
     {
       "code": "2918",
@@ -8690,7 +8690,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:35"
+      "updated_at": "2026-07-29 15:59"
     },
     {
       "code": "8111",
@@ -8813,7 +8813,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:36"
+      "updated_at": "2026-07-29 15:59"
     },
     {
       "code": "8771",
@@ -8934,7 +8934,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:36"
+      "updated_at": "2026-07-29 16:00"
     },
     {
       "code": "6367",
@@ -9055,7 +9055,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:36"
+      "updated_at": "2026-07-29 16:00"
     },
     {
       "code": "1967",
@@ -9073,22 +9073,22 @@
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 10.67819508241016,
+            "value": 10.287380258225738,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.0352043,
+            "value": 1.0351890948905875,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
           "ROE": {
-            "value": 7.809818056985924,
+            "value": 10.708202076770505,
             "criterion": "7%以上",
             "judge": "○"
           },
           "ROA": {
-            "value": 5.283676177836762,
+            "value": 7.429653854871613,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -9098,12 +9098,12 @@
             "judge": "○"
           },
           "自己資本比率": {
-            "value": 67.5,
+            "value": 69.19999999999999,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 442.3530496,
+            "value": 442.35307064,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -9118,11 +9118,11 @@
           },
           "今期EPSが9期前の2倍以上": {
             "judge": "○",
-            "detail": "2.19倍"
+            "detail": "2.14倍"
           },
           "BPS10期連続増加": {
             "judge": "×",
-            "detail": "減少・欠損 2回"
+            "detail": "減少・欠損 3回"
           },
           "10期で減配2回未満": {
             "judge": "○",
@@ -9136,9 +9136,9 @@
         "periods_available": 10
       },
       "step3": {
-        "eps_sum": 1082.93,
+        "eps_sum": 1190.41,
         "latest_bps": 1908.83,
-        "target_price": 2991.76
+        "target_price": 3099.24
       },
       "forecast_dividend": 77.0,
       "dividend_yield_pct": 3.896761133603239,
@@ -9160,14 +9160,15 @@
       "rating": "条件付き監視",
       "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
-        "growth_score": 1,
+        "growth_score": 2,
         "income_score": 4,
-        "total_score": 5,
-        "payout_ratio_pct": 28.4,
-        "dividend_cagr_pct": 17.55,
-        "dividend_years_to_double": 4.3,
+        "total_score": 6,
+        "payout_ratio_pct": 30.4,
+        "dividend_cagr_pct": 16.65,
+        "dividend_years_to_double": 4.5,
         "growth_detail": [
-          "EPSが9期前の2倍以上"
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
         ],
         "income_detail": [
           "配当性向50%以下",
@@ -9176,7 +9177,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:37"
+      "updated_at": "2026-07-29 16:00"
     },
     {
       "code": "2802",
@@ -9194,22 +9195,22 @@
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 36.290805630428274,
+            "value": 38.41946734305644,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 6.0268154,
+            "value": 6.026807918034417,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
           "ROE": {
-            "value": 10.95309460406105,
+            "value": 15.95155606881644,
             "criterion": "7%以上",
             "judge": "○"
           },
           "ROA": {
-            "value": 4.730191607835076,
+            "value": 7.430976204323016,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -9219,12 +9220,12 @@
             "judge": "×"
           },
           "自己資本比率": {
-            "value": 39.2,
+            "value": 42.5,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 46713.62246752,
+            "value": 46455.81834119,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -9282,9 +9283,9 @@
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 3,
-        "total_score": 5,
-        "payout_ratio_pct": 57.3,
+        "income_score": 4,
+        "total_score": 6,
+        "payout_ratio_pct": 34.699999999999996,
         "dividend_cagr_pct": 13.8,
         "dividend_years_to_double": 5.4,
         "growth_detail": [
@@ -9292,12 +9293,13 @@
           "ROE10%以上"
         ],
         "income_detail": [
+          "配当性向50%以下",
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:37"
+      "updated_at": "2026-07-29 16:01"
     },
     {
       "code": "6971",
@@ -9414,7 +9416,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:38"
+      "updated_at": "2026-07-29 16:01"
     },
     {
       "code": "6988",
@@ -9506,10 +9508,10 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：化学・減配なし・増配基調",
         "target1_pct": 2.35,
-        "target2_pct": 2.44,
+        "target2_pct": 2.45,
         "target3_pct": 2.58,
         "buy1_price": 2723,
-        "buy2_price": 2623,
+        "buy2_price": 2612,
         "buy3_price": 2481,
         "buy_status": "監視",
         "sample_daily": 732,
@@ -9537,7 +9539,975 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-07-29 07:38"
+      "updated_at": "2026-07-29 16:01"
+    },
+    {
+      "code": "8804",
+      "name": "東京建物",
+      "industry": "不動産業",
+      "sector": "不動産",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
+      "price": 3528.0,
+      "price_date": "2026-07-29 15:30",
+      "price_change": 37.0,
+      "price_change_pct": 0.010598682,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 11.625914453305214,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 1.23926445018178,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 9.762127012602443,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 2.5906842901897287,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 3.458049886621315,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 26.0,
+            "criterion": "35%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 7324.35964848,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "○",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "3.11倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 1802.54,
+        "latest_bps": 2846.84,
+        "target_price": 4649.38
+      },
+      "forecast_dividend": 122.0,
+      "dividend_yield_pct": 3.458049886621315,
+      "dividend_override_note": "決算期は12月。自己資本比率は不動産業のため構造的に低め(約26%、業種特性)。2027年12月期の会社予想配当は122円(2026-07提供資料、四半期内訳2Q61円+4Q61円)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：不動産業・配当変動大",
+        "target1_pct": 3.8,
+        "target2_pct": 3.94,
+        "target3_pct": 4.17,
+        "buy1_price": 3211,
+        "buy2_price": 3096,
+        "buy3_price": 2926,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "ROAは基準未達。 自己資本比率は基準未達。",
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 4,
+        "total_score": 6,
+        "payout_ratio_pct": 37.1,
+        "dividend_cagr_pct": 16.78,
+        "dividend_years_to_double": 4.5,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-29 16:02"
+    },
+    {
+      "code": "4732",
+      "name": "ユー・エス・エス",
+      "industry": "サービス業",
+      "sector": "サービス",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 2063.5,
+      "price_date": "2026-07-29 15:30",
+      "price_change": 43.0,
+      "price_change_pct": 0.02128186,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 24.033310039599346,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 4.616796,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 15.234238112878842,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 12.373192162411616,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 2.6653743639447542,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 79.7,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 9580.13093223,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "×",
+            "detail": "1.97倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 1回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 549.34,
+        "latest_bps": 446.0,
+        "target_price": 995.34
+      },
+      "forecast_dividend": 55.0,
+      "dividend_yield_pct": 2.6653743639447542,
+      "dividend_override_note": "2021年3月期はコロナ禍の中古車オークション市場縮小でEPSが一時的に急落(8.07円、黒字は維持)。BPSも同年に一時減少。一株配当は減配せず54.7円まで増配を継続。2027年3月期の会社予想配当は55円で前期とほぼ同額(2026-07提供資料、四半期内訳2Q27.5円+4Q27.5円)。",
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：サービス業・減配なし・増配基調",
+        "target1_pct": 2.99,
+        "target2_pct": 3.06,
+        "target3_pct": 3.19,
+        "buy1_price": 1839,
+        "buy2_price": 1797,
+        "buy3_price": 1724,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "payout_ratio_pct": 55.00000000000001,
+        "dividend_cagr_pct": 10.0,
+        "dividend_years_to_double": 7.3,
+        "growth_detail": [
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-29 16:02"
+    },
+    {
+      "code": "5602",
+      "name": "栗本鐵工所",
+      "industry": "鉄鋼",
+      "sector": "鉄鋼",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 1500.0,
+      "price_date": "2026-07-29 15:30",
+      "price_change": 6.0,
+      "price_change_pct": 0.004016064,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 13.585726,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 0.9646606,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 6.120538713123149,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 3.5625921415293895,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.0,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 57.49999999999999,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 910.38867456,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "×",
+            "detail": "1.69倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 1回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 673.28,
+        "latest_bps": 1554.95,
+        "target_price": 2228.23
+      },
+      "forecast_dividend": 60.0,
+      "dividend_yield_pct": 4.0,
+      "dividend_override_note": "鉄鋼業のためEPSの変動がやや大きい(黒字は10期内すべて維持)。株式分割等の影響とみられる配当スケール差が資料脚注に見られるが、この履歴は開示ベースの系列として一貫性を確認済み。2027年3月期の会社予想配当は60円(2026-07提供資料、四半期内訳2Q30円+4Q30円)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：鉄鋼・配当変動大",
+        "target1_pct": 5.28,
+        "target2_pct": 5.56,
+        "target3_pct": 6.24,
+        "buy1_price": 1136,
+        "buy2_price": 1079,
+        "buy3_price": 962,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 4,
+        "total_score": 4,
+        "payout_ratio_pct": 50.0,
+        "dividend_cagr_pct": 21.48,
+        "dividend_years_to_double": 3.6,
+        "growth_detail": [],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-29 16:02"
+    },
+    {
+      "code": "4503",
+      "name": "アステラス製薬",
+      "industry": "医薬品",
+      "sector": "医薬品",
+      "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 3,
+      "price": 2295.5,
+      "price_date": "2026-07-29 15:30",
+      "price_change": 62.0,
+      "price_change_pct": 0.027759124,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 13.70775110474143,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.2483740792979154,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 15.92318246267923,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 8.173018428154197,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.485079503376171,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 51.300000000000004,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 41123.70478239,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "×",
+            "detail": "1.57倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 1回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 790.87,
+        "latest_bps": 1020.96,
+        "target_price": 1811.83
+      },
+      "forecast_dividend": 80.0,
+      "dividend_yield_pct": 3.485079503376171,
+      "dividend_override_note": "2024年3月期に主力製品の特許切れ等の影響とみられる大幅減益でEPSが一時的に急落(9.5円、黒字は維持)、2026年3月期に大型一時益等で急回復。BPSも2025年3月期に一時減少。一株配当は減配せず78円まで増配を継続(利益変動時も配当は維持)。2027年3月期の会社予想配当は80円(2026-07提供資料、四半期内訳2Q40円+4Q40円)。",
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：医薬品・減配なし・増配基調",
+        "target1_pct": 4.66,
+        "target2_pct": 4.85,
+        "target3_pct": 5.33,
+        "buy1_price": 1717,
+        "buy2_price": 1649,
+        "buy3_price": 1501,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 4,
+        "total_score": 5,
+        "payout_ratio_pct": 47.9,
+        "dividend_cagr_pct": 9.67,
+        "dividend_years_to_double": 7.5,
+        "growth_detail": [
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-29 16:02"
+    },
+    {
+      "code": "4362",
+      "name": "日本精化",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 2665.0,
+      "price_date": "2026-07-29 15:30",
+      "price_change": 17.0,
+      "price_change_pct": 0.0064199395,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 11.113427856547123,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 1.124728841170562,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 8.451994655468601,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 6.768468840280644,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.902439024390244,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 78.5,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 577.90525,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "○",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "2.65倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 1326.27,
+        "latest_bps": 2369.46,
+        "target_price": 3695.73
+      },
+      "forecast_dividend": 104.0,
+      "dividend_yield_pct": 3.902439024390244,
+      "dividend_override_note": "2024年3月期はEPSが一時的に落ち込み(146.37円、黒字は維持)。一株配当は減配せず98円まで大幅増配を継続。2027年3月期の会社予想配当は104円(2026-07提供資料、四半期内訳2Q52円+4Q52円)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学・利益比較的安定・配当変動大",
+        "target1_pct": 3.46,
+        "target2_pct": 3.88,
+        "target3_pct": 4.03,
+        "buy1_price": 3006,
+        "buy2_price": 2680,
+        "buy3_price": 2581,
+        "buy_status": "第2買い（追加買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "監視継続",
+      "comment": "全項目で基準を満たしています。",
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 4,
+        "total_score": 6,
+        "payout_ratio_pct": 48.4,
+        "dividend_cagr_pct": 17.47,
+        "dividend_years_to_double": 4.3,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-29 16:03"
+    },
+    {
+      "code": "4743",
+      "name": "アイティフォー",
+      "industry": "情報･通信業",
+      "sector": "情報･通信業",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 1774.0,
+      "price_date": "2026-07-29 15:30",
+      "price_change": 40.0,
+      "price_change_pct": 0.023068048,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 15.649258997882852,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.3890003636020847,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 8.498780912574016,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 6.922827496757458,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.509582863585118,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 79.7,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 469.47448224,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "○",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "3.27倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 693.88,
+        "latest_bps": 780.48,
+        "target_price": 1474.36
+      },
+      "forecast_dividend": 80.0,
+      "dividend_yield_pct": 4.509582863585118,
+      "dividend_override_note": "2027年3月期の会社予想配当は80円で前期と同額(2026-07提供資料、四半期内訳2Q40円+4Q40円)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：情報･通信業・配当変動大",
+        "target1_pct": 4.67,
+        "target2_pct": 4.83,
+        "target3_pct": 4.99,
+        "buy1_price": 1713,
+        "buy2_price": 1656,
+        "buy3_price": 1603,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。",
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 4,
+        "total_score": 6,
+        "payout_ratio_pct": 46.300000000000004,
+        "dividend_cagr_pct": 18.78,
+        "dividend_years_to_double": 4.0,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-29 16:04"
+    },
+    {
+      "code": "1980",
+      "name": "ダイダン",
+      "industry": "建設業",
+      "sector": "建設・住宅",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 2368.0,
+      "price_date": "2026-07-29 15:30",
+      "price_change": -198.0,
+      "price_change_pct": -0.0771629,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 11.76061584305935,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 2.3481464,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 15.742032935458978,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 9.406363127998352,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.589527027027027,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 58.599999999999994,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 3063.67266816,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "○",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "5.98倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 721.16,
+        "latest_bps": 1008.46,
+        "target_price": 1729.62
+      },
+      "forecast_dividend": 85.0,
+      "dividend_yield_pct": 3.589527027027027,
+      "dividend_override_note": "建設業の好況を受け直近2〜3期でEPS・配当とも急伸。株式分割等の影響とみられる配当スケール差が資料脚注に一部見られるが、開示ベースの系列として一貫性を確認済み。一株配当は減配せず83.33円まで増配を継続。2027年3月期の会社予想配当は85円(2026-07提供資料、四半期内訳2Q42円+4Q43円)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：建設業・配当変動大",
+        "target1_pct": 3.74,
+        "target2_pct": 3.88,
+        "target3_pct": 4.28,
+        "buy1_price": 2273,
+        "buy2_price": 2191,
+        "buy3_price": 1986,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PBRは基準未達。",
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 4,
+        "total_score": 7,
+        "payout_ratio_pct": 40.1,
+        "dividend_cagr_pct": 30.35,
+        "dividend_years_to_double": 2.6,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-29 16:04"
+    },
+    {
+      "code": "2053",
+      "name": "中部飼料",
+      "industry": "食料品",
+      "sector": "食品",
+      "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 3,
+      "price": 2000.0,
+      "price_date": "2026-07-29 15:30",
+      "price_change": 31.0,
+      "price_change_pct": 0.015744032,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 8.317737575379498,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.7891850086415758,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.622487092167416,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.095699270207004,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.8,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 66.8,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 573.92546,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "×",
+            "detail": "1.69倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 1回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 1217.38,
+        "latest_bps": 2534.2,
+        "target_price": 3751.58
+      },
+      "forecast_dividend": 76.0,
+      "dividend_yield_pct": 3.8,
+      "dividend_override_note": "飼料原料価格高騰の影響で2023年3月期にEPSが一時的に急落(27.97円、黒字は維持)、以降回復基調。BPSも同年に一時減少。一株配当は減配せず65円まで増配を継続。2027年3月期の会社予想配当は76円(2026-07提供資料、四半期内訳2Q38円+4Q38円)。",
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：食料品・利益比較的安定・減配なし・増配基調",
+        "target1_pct": 3.53,
+        "target2_pct": 3.66,
+        "target3_pct": 3.79,
+        "buy1_price": 2153,
+        "buy2_price": 2077,
+        "buy3_price": 2005,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 4,
+        "total_score": 4,
+        "payout_ratio_pct": 34.1,
+        "dividend_cagr_pct": 13.99,
+        "dividend_years_to_double": 5.3,
+        "growth_detail": [],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-07-29 16:04"
     }
   ],
   "errors": []
