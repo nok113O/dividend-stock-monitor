@@ -123,6 +123,7 @@ CSS = """
   .sort-btn.active {
     border-color: var(--indigo); color: var(--indigo); background: var(--indigo-soft);
   }
+  .sort-arrow { display: inline-block; margin-left: 3px; font-size: 0.68rem; }
   .search-bar { position: relative; margin-bottom: 16px; }
   .search-input {
     width: 100%; box-sizing: border-box; font-size: 0.9rem;
@@ -687,10 +688,10 @@ def render(payload: dict) -> str:
   <div class="filter-bar" id="filter-bar">{filter_buttons}</div>
   <div class="sort-bar" id="sort-bar">
     <span class="sort-label">並び替え</span>
-    <button type="button" class="sort-btn active" data-sort="default">総合判定順</button>
-    <button type="button" class="sort-btn" data-sort="code">コード順</button>
-    <button type="button" class="sort-btn" data-sort="added">追加順</button>
-    <button type="button" class="sort-btn" data-sort="yield">利回り順</button>
+    <button type="button" class="sort-btn active" data-sort="default" data-dir="1">総合判定順<span class="sort-arrow"></span></button>
+    <button type="button" class="sort-btn" data-sort="code" data-dir="1">コード順<span class="sort-arrow"></span></button>
+    <button type="button" class="sort-btn" data-sort="added" data-dir="1">追加順<span class="sort-arrow"></span></button>
+    <button type="button" class="sort-btn" data-sort="yield" data-dir="-1">利回り順<span class="sort-arrow"></span></button>
   </div>
   <div class="search-bar">
     <input type="text" id="search" class="search-input" placeholder="銘柄コードまたは銘柄名で検索" autocomplete="off">
@@ -723,6 +724,7 @@ def render(payload: dict) -> str:
   var cardsContainer = document.getElementById('cards');
   var sortBtns = Array.prototype.slice.call(document.querySelectorAll('#sort-bar .sort-btn'));
   var activeSort = 'default';
+  // 各比較関数は昇順基準。data-dirの符号を掛けて向きを反転する（欠損値は常に末尾）。
   var sortFns = {{
     default: function(a, b) {{ return (+a.getAttribute('data-default')) - (+b.getAttribute('data-default')); }},
     code: function(a, b) {{ return a.getAttribute('data-code').localeCompare(b.getAttribute('data-code')); }},
@@ -732,15 +734,34 @@ def render(payload: dict) -> str:
       if (ay === '' && by === '') return 0;
       if (ay === '') return 1;
       if (by === '') return -1;
-      return parseFloat(by) - parseFloat(ay);
+      return parseFloat(ay) - parseFloat(by);
     }}
   }};
+  function updateArrows() {{
+    sortBtns.forEach(function(b) {{
+      var arrow = b.querySelector('.sort-arrow');
+      var isActive = b.getAttribute('data-sort') === activeSort;
+      arrow.textContent = isActive ? (b.getAttribute('data-dir') === '1' ? '▲' : '▼') : '';
+    }});
+  }}
+  function applySort() {{
+    var btn = sortBtns.filter(function(b) {{ return b.getAttribute('data-sort') === activeSort; }})[0];
+    var dir = +btn.getAttribute('data-dir');
+    var fn = sortFns[activeSort];
+    cards.sort(function(a, b) {{ return fn(a, b) * dir; }});
+    cards.forEach(function(card) {{ cardsContainer.appendChild(card); }});
+    updateArrows();
+  }}
   sortBtns.forEach(function(btn) {{
     btn.addEventListener('click', function() {{
-      activeSort = btn.getAttribute('data-sort');
-      sortBtns.forEach(function(b) {{ b.classList.toggle('active', b === btn); }});
-      cards.sort(sortFns[activeSort]);
-      cards.forEach(function(card) {{ cardsContainer.appendChild(card); }});
+      var key = btn.getAttribute('data-sort');
+      if (key === activeSort) {{
+        btn.setAttribute('data-dir', btn.getAttribute('data-dir') === '1' ? '-1' : '1');
+      }} else {{
+        activeSort = key;
+        sortBtns.forEach(function(b) {{ b.classList.toggle('active', b === btn); }});
+      }}
+      applySort();
     }});
   }});
   function normalize(s) {{
@@ -763,6 +784,7 @@ def render(payload: dict) -> str:
   }}
   input.addEventListener('input', apply);
   apply();
+  updateArrows();
 }})();
 </script>
 """
