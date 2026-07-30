@@ -110,6 +110,19 @@ CSS = """
   .filter-btn.active {
     border-color: var(--indigo); color: var(--indigo); background: var(--indigo-soft);
   }
+  .sort-bar {
+    display: flex; gap: 6px; margin-bottom: 12px; overflow-x: auto;
+    -webkit-overflow-scrolling: touch; align-items: center;
+  }
+  .sort-label { flex: none; font-size: 0.7rem; color: var(--ink-dim); }
+  .sort-btn {
+    flex: none; font-size: 0.76rem; font-weight: 600; padding: 7px 12px;
+    border-radius: 999px; border: 1.5px solid var(--rule); background: var(--paper-raised);
+    color: var(--ink-dim); cursor: pointer; white-space: nowrap;
+  }
+  .sort-btn.active {
+    border-color: var(--indigo); color: var(--indigo); background: var(--indigo-soft);
+  }
   .search-bar { position: relative; margin-bottom: 16px; }
   .search-input {
     width: 100%; box-sizing: border-box; font-size: 0.9rem;
@@ -518,7 +531,7 @@ def render_section_tabs(code: str, stock: dict, price) -> str:
     return f'<div class="section-tabs">{radios}<div class="section-tab-bar">{tab_bar}</div>{panels}</div>'
 
 
-def render_card(stock: dict) -> str:
+def render_card(stock: dict, order_idx: int, default_rank: int) -> str:
     price = stock.get("price")
     price_text = fmt_num(price, 1) if price is not None else "取得不可"
     change = stock.get("price_change")
@@ -581,8 +594,11 @@ def render_card(stock: dict) -> str:
             f'<span class="score-sub">成長余力{growth_score}/3・増配余力{income_score}/4{detail_text}</span>'
             "</div>"
         )
+    yield_attr = fmt_num(dividend_yield, 4) if dividend_yield is not None else ""
     return (
-        f'<div class="card" data-search="{esc(search_key)}" data-rating="{esc(stock["rating"])}">'
+        f'<div class="card" data-search="{esc(search_key)}" data-rating="{esc(stock["rating"])}" '
+        f'data-code="{esc(stock["code"])}" data-order="{order_idx}" data-yield="{yield_attr}" '
+        f'data-default="{default_rank}">'
         '<div class="card-top"><div>'
         f'<span class="code">{stock["code"]}</span>'
         f'<div class="name">{stock["name"]}</div>'
@@ -624,8 +640,12 @@ def sort_stocks(stocks: list[dict]) -> list[dict]:
 
 
 def render(payload: dict) -> str:
+    add_order = {s["code"]: i for i, s in enumerate(payload["stocks"])}
     sorted_stocks = sort_stocks(payload["stocks"])
-    cards = "".join(render_card(s) for s in sorted_stocks)
+    cards = "".join(
+        render_card(s, add_order[s["code"]], rank)
+        for rank, s in enumerate(sorted_stocks)
+    )
     errors_note = ""
     if payload.get("errors"):
         codes = "、".join(e["code"] for e in payload["errors"])
@@ -665,6 +685,13 @@ def render(payload: dict) -> str:
     <div class="seal">高</div>
   </header>
   <div class="filter-bar" id="filter-bar">{filter_buttons}</div>
+  <div class="sort-bar" id="sort-bar">
+    <span class="sort-label">並び替え</span>
+    <button type="button" class="sort-btn active" data-sort="default">総合判定順</button>
+    <button type="button" class="sort-btn" data-sort="code">コード順</button>
+    <button type="button" class="sort-btn" data-sort="added">追加順</button>
+    <button type="button" class="sort-btn" data-sort="yield">利回り順</button>
+  </div>
   <div class="search-bar">
     <input type="text" id="search" class="search-input" placeholder="銘柄コードまたは銘柄名で検索" autocomplete="off">
     <div id="search-count" class="search-count"></div>
@@ -691,6 +718,29 @@ def render(payload: dict) -> str:
       activeFilter = btn.getAttribute('data-filter');
       filterBtns.forEach(function(b) {{ b.classList.toggle('active', b === btn); }});
       apply();
+    }});
+  }});
+  var cardsContainer = document.getElementById('cards');
+  var sortBtns = Array.prototype.slice.call(document.querySelectorAll('#sort-bar .sort-btn'));
+  var activeSort = 'default';
+  var sortFns = {{
+    default: function(a, b) {{ return (+a.getAttribute('data-default')) - (+b.getAttribute('data-default')); }},
+    code: function(a, b) {{ return a.getAttribute('data-code').localeCompare(b.getAttribute('data-code')); }},
+    added: function(a, b) {{ return (+a.getAttribute('data-order')) - (+b.getAttribute('data-order')); }},
+    yield: function(a, b) {{
+      var ay = a.getAttribute('data-yield'), by = b.getAttribute('data-yield');
+      if (ay === '' && by === '') return 0;
+      if (ay === '') return 1;
+      if (by === '') return -1;
+      return parseFloat(by) - parseFloat(ay);
+    }}
+  }};
+  sortBtns.forEach(function(btn) {{
+    btn.addEventListener('click', function() {{
+      activeSort = btn.getAttribute('data-sort');
+      sortBtns.forEach(function(b) {{ b.classList.toggle('active', b === btn); }});
+      cards.sort(sortFns[activeSort]);
+      cards.forEach(function(card) {{ cardsContainer.appendChild(card); }});
     }});
   }});
   function normalize(s) {{
