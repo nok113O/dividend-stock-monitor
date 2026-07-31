@@ -223,6 +223,21 @@ def load_previous_stocks() -> dict[str, dict]:
     return {s["code"]: s for s in payload.get("stocks", [])}
 
 
+def diff_forecast_changes(code: str, new_forecast, previous: dict[str, dict]) -> list[dict]:
+    """前回取得時と予想配当が変わっていれば改定履歴に追記する(直近5件保持)。"""
+    prev_stock = previous.get(code) or {}
+    prev_forecast = prev_stock.get("forecast_dividend")
+    changes = list(prev_stock.get("forecast_dividend_changes") or [])
+    if new_forecast is not None and prev_forecast is not None and new_forecast != prev_forecast:
+        changes.append({
+            "date": datetime.now().strftime("%Y-%m-%d"),
+            "from": prev_forecast,
+            "to": new_forecast,
+        })
+        changes = changes[-5:]
+    return changes
+
+
 def main() -> None:
     api_key = os.environ.get("JQUANTS_API_KEY", "")
     codes = json.loads(CODES_FILE.read_text(encoding="utf-8"))
@@ -235,7 +250,11 @@ def main() -> None:
         if i > 0:
             time.sleep(2)
         try:
-            results.append(fetch_one(client, code))
+            result = fetch_one(client, code)
+            result["forecast_dividend_changes"] = diff_forecast_changes(
+                code, result.get("forecast_dividend"), previous
+            )
+            results.append(result)
         except JQuantsError as exc:
             errors.append({"code": code, "error": str(exc)})
             if code in previous:

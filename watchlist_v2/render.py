@@ -219,6 +219,16 @@ CSS = """
     background: var(--paper-sunken); border-radius: 8px; padding: 8px 10px;
   }
   .data-gap strong { color: var(--ink); }
+  .forecast-change { margin-top: 10px; font-size: 0.76rem; }
+  .forecast-change-label { color: var(--ink-dim); font-size: 0.68rem; letter-spacing: 0.03em; }
+  .forecast-change-list { margin-top: 4px; display: flex; flex-direction: column; gap: 3px; }
+  .forecast-change-item {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-variant-numeric: tabular-nums;
+  }
+  .forecast-change-item.up { color: var(--green); }
+  .forecast-change-item.down { color: var(--hanko); }
+  .forecast-change-item.flat { color: var(--ink-dim); }
+  .forecast-change-date { color: var(--ink-dim); font-family: inherit; margin-left: 4px; }
   .step3-box { margin-top: 10px; display: flex; align-items: baseline; justify-content: space-between; font-size: 0.8rem; }
   .step3-box .value {
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
@@ -532,6 +542,32 @@ def render_section_tabs(code: str, stock: dict, price) -> str:
     return f'<div class="section-tabs">{radios}<div class="section-tab-bar">{tab_bar}</div>{panels}</div>'
 
 
+def render_forecast_changes(changes: list) -> str:
+    if not changes:
+        return ""
+    items = []
+    for c in reversed(changes):
+        from_v, to_v = c.get("from"), c.get("to")
+        if from_v is None or to_v is None:
+            continue
+        if to_v > from_v:
+            arrow, cls = "▲", "up"
+        elif to_v < from_v:
+            arrow, cls = "▼", "down"
+        else:
+            arrow, cls = "―", "flat"
+        items.append(
+            f'<span class="forecast-change-item {cls}">{arrow} {fmt_num(from_v, 1)}→{fmt_num(to_v, 1)}円'
+            f'<span class="forecast-change-date">（{esc(c.get("date"))}）</span></span>'
+        )
+    if not items:
+        return ""
+    return (
+        '<div class="forecast-change"><span class="forecast-change-label">予想配当の改定履歴</span>'
+        f'<div class="forecast-change-list">{"".join(items)}</div></div>'
+    )
+
+
 def render_card(stock: dict, order_idx: int, default_rank: int) -> str:
     price = stock.get("price")
     price_text = fmt_num(price, 1) if price is not None else "取得不可"
@@ -555,6 +591,7 @@ def render_card(stock: dict, order_idx: int, default_rank: int) -> str:
         if override_note
         else ""
     )
+    forecast_change_html = render_forecast_changes(stock.get("forecast_dividend_changes") or [])
 
     sector = stock.get("sector")
     cycle = stock.get("cycle")
@@ -617,6 +654,7 @@ def render_card(stock: dict, order_idx: int, default_rank: int) -> str:
         "</div>"
         f"{score_html}"
         f"{override_html}"
+        f"{forecast_change_html}"
         f'{render_section_tabs(stock["code"], stock, price)}'
         f'<div class="comment"><span class="label">所感</span><br>{stock["comment"]}</div>'
         f'<div class="asof">株価取得：{esc(stock.get("price_date"))} JST／財務：J-Quants API</div>'
