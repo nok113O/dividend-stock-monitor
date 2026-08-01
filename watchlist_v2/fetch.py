@@ -4,9 +4,11 @@ app.py と同じロジック(analyzer.py / jquants_client.py / market_data.py / 
 再利用し、Excel/Streamlitに依存しないスタンドアロン実行用のスクリプトにしたもの。
 
 実行に必要な環境変数:
-  JQUANTS_API_KEY  J-Quants V2 の x-api-key
+  JQUANTS_API_KEY   J-Quants V2 の x-api-key
+  EDINETDB_API_KEY  EDINET DB のAPIキー(任意。無ければEDINET DB連携はスキップされる)
 
 対象銘柄コードは watchlist_v2/codes.json (JSON配列) で指定する。
+EDINETコードのマッピングは watchlist_v2/edinet_codes.json (build_edinet_codes.pyで作成)。
 
 使い方:
   python watchlist_v2/fetch.py
@@ -17,7 +19,7 @@ import json
 import os
 import sys
 import time
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -30,6 +32,7 @@ from analyzer import (  # noqa: E402
     latest_summary, make_comment, merge_new_fy,
     overall_rating, step1_metrics,
 )
+from edinetdb_client import EdinetDbClient, EdinetDbError  # noqa: E402
 from jquants_client import JQuantsClient, JQuantsError  # noqa: E402
 from market_data import current_market_data  # noqa: E402
 from sector_master import classify  # noqa: E402
@@ -40,6 +43,8 @@ from workbook_io import empty_history  # noqa: E402
 CODES_FILE = Path(__file__).resolve().parent / "codes.json"
 OUTPUT_FILE = Path(__file__).resolve().parent / "stocks.json"
 SEED_FILE = Path(__file__).resolve().parent / "history_seed.json"
+EDINET_CODES_FILE = Path(__file__).resolve().parent / "edinet_codes.json"
+EDINET_CALENDAR_LOOKBACK_DAYS = 7
 
 
 def load_seed(code: str) -> dict:
@@ -68,7 +73,59 @@ def seed_history_df(code: str, seed: dict) -> pd.DataFrame:
     ])
 
 
-def fetch_one(client: JQuantsClient, code: str) -> dict:
+def load_edinet_codes() -> dict[str, str]:
+    if not EDINET_CODES_FILE.exists():
+        return {}
+    return json.loads(EDINET_CODES_FILE.read_text(encoding="utf-8"))
+
+
+def fetch_recent_edinet_earnings(codes: list[str]) -> dict[str, dict]:
+    """直近の決算短信カレンダーを見て、開示があったウォッチリスト銘柄だけ最新開示を取得する。
+
+    データ出典: EDINET DB (https://edinetdb.jp)
+    無料プラン(100回/日)を守るため、カレンダー参照1回+該当銘柄分のみリクエストする。
+    """
+    api_key = os.environ.get("EDINETDB_API_KEY", "")
+    if not api_key:
+        return {}
+    edinet_codes = load_edinet_codes()
+    if not edinet_codes:
+        return {}
+
+    client = EdinetDbClient(api_key)
+    today = date.today()
+    date_from = (today - timedelta(days=EDINET_CALENDAR_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
+    date_to = today.strftime("%Y-%m-%d")
+    try:
+        calendar_entries = client.calendar(date_from, date_to)
+    except EdinetDbError as exc:
+        print(f"EDINET DBカレンダー取得エラー(スキップ): {exc}")
+        return {}
+
+    edinet_to_code = {v: k for k, v in edinet_codes.items()}
+    our_codes = set(codes)
+    hit_codes = {
+        edinet_to_code[entry.get("edinetCode")]
+        for entry in calendar_entries
+        if entry.get("edinetCode") in edinet_to_code and edinet_to_code[entry.get("edinetCode")] in our_codes
+    }
+
+    results: dict[str, dict] = {}
+    for code in sorted(hit_codes):
+        edinet_code = edinet_codes[code]
+        try:
+            earnings = client.earnings(edinet_code, limit=1)
+        except EdinetDbError as exc:
+            print(f"  {code}: EDINET DB決算短信取得エラー(スキップ): {exc}")
+            continue
+        if earnings:
+            results[code] = earnings[0]
+    if hit_codes:
+        print(f"EDINET DB: 直近{EDINET_CALENDAR_LOOKBACK_DAYS}日で開示があった対象銘柄 {sorted(hit_codes)}")
+    return results
+
+
+def fetch_one(client: JQuantsClient, code: str, edinet_latest: dict | None = None) -> dict:
     master = client.master(code)
     market = current_market_data(code)
     summaries = client.financial_summary(code)
@@ -105,6 +162,22 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
         metrics["予想年間配当"] = float(override_dividend)
         if price:
             metrics["配当利回り"] = metrics["予想年間配当"] / price * 100
+
+    edinet_disclosure_date = None
+    if edinet_latest and override_dividend is None:
+        edinet_forecast = edinet_latest.get("forecast_dividend_per_share")
+        if edinet_forecast is not None:
+            metrics["予想年間配当"] = float(edinet_forecast)
+            if price:
+                metrics["配当利回り"] = metrics["予想年間配当"] / price * 100
+            raw_disclosure_date = edinet_latest.get("disclosure_date")
+            if raw_disclosure_date:
+                try:
+                    edinet_disclosure_date = datetime.strptime(
+                        raw_disclosure_date, "%a, %d %b %Y %H:%M:%S %Z"
+                    ).strftime("%Y-%m-%d")
+                except ValueError:
+                    edinet_disclosure_date = raw_disclosure_date
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     history = merge_new_fy(seed_history_df(code, seed), code, summaries, now)
@@ -210,6 +283,7 @@ def fetch_one(client: JQuantsClient, code: str) -> dict:
             "income_detail": priority["income_detail"],
         },
         "updated_at": now,
+        "_edinet_disclosure_date": edinet_disclosure_date,
     }
 
 
@@ -223,14 +297,20 @@ def load_previous_stocks() -> dict[str, dict]:
     return {s["code"]: s for s in payload.get("stocks", [])}
 
 
-def diff_forecast_changes(code: str, new_forecast, previous: dict[str, dict]) -> list[dict]:
-    """前回取得時と予想配当が変わっていれば改定履歴に追記する(直近5件保持)。"""
+def diff_forecast_changes(
+    code: str, new_forecast, previous: dict[str, dict], disclosure_date: str | None = None
+) -> list[dict]:
+    """前回取得時と予想配当が変わっていれば改定履歴に追記する(直近5件保持)。
+
+    disclosure_dateが分かる場合(EDINET DB経由)はそれを変更日として使い、
+    分からない場合は実行日を変更日とする。
+    """
     prev_stock = previous.get(code) or {}
     prev_forecast = prev_stock.get("forecast_dividend")
     changes = list(prev_stock.get("forecast_dividend_changes") or [])
     if new_forecast is not None and prev_forecast is not None and new_forecast != prev_forecast:
         changes.append({
-            "date": datetime.now().strftime("%Y-%m-%d"),
+            "date": disclosure_date or datetime.now().strftime("%Y-%m-%d"),
             "from": prev_forecast,
             "to": new_forecast,
         })
@@ -243,6 +323,7 @@ def main() -> None:
     codes = json.loads(CODES_FILE.read_text(encoding="utf-8"))
     client = JQuantsClient(api_key, min_interval_seconds=1.5)
     previous = load_previous_stocks()
+    edinet_latest_by_code = fetch_recent_edinet_earnings(codes)
 
     results = []
     errors = []
@@ -250,9 +331,10 @@ def main() -> None:
         if i > 0:
             time.sleep(2)
         try:
-            result = fetch_one(client, code)
+            result = fetch_one(client, code, edinet_latest_by_code.get(code))
+            disclosure_date = result.pop("_edinet_disclosure_date", None)
             result["forecast_dividend_changes"] = diff_forecast_changes(
-                code, result.get("forecast_dividend"), previous
+                code, result.get("forecast_dividend"), previous, disclosure_date
             )
             results.append(result)
         except JQuantsError as exc:
