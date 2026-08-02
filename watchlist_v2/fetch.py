@@ -11,7 +11,8 @@ app.py と同じロジック(analyzer.py / jquants_client.py / market_data.py / 
 EDINETコードのマッピングは watchlist_v2/edinet_codes.json (build_edinet_codes.pyで作成)。
 
 使い方:
-  python watchlist_v2/fetch.py
+  python watchlist_v2/fetch.py            # codes.json全銘柄を再取得
+  python watchlist_v2/fetch.py 8014 1939  # 指定銘柄のみ再取得(他は前回値を保持)
 """
 from __future__ import annotations
 
@@ -320,14 +321,25 @@ def diff_forecast_changes(
 
 def main() -> None:
     api_key = os.environ.get("JQUANTS_API_KEY", "")
-    codes = json.loads(CODES_FILE.read_text(encoding="utf-8"))
+    all_codes = json.loads(CODES_FILE.read_text(encoding="utf-8"))
+
+    requested = sys.argv[1:]
+    if requested:
+        unknown = [c for c in requested if c not in all_codes]
+        if unknown:
+            print(f"codes.jsonに存在しないコードです: {unknown}")
+            sys.exit(1)
+        target_codes = requested
+    else:
+        target_codes = all_codes
+
     client = JQuantsClient(api_key, min_interval_seconds=1.5)
     previous = load_previous_stocks()
-    edinet_latest_by_code = fetch_recent_edinet_earnings(codes)
+    edinet_latest_by_code = fetch_recent_edinet_earnings(target_codes)
 
-    results = []
+    fresh: dict[str, dict] = {}
     errors = []
-    for i, code in enumerate(codes):
+    for i, code in enumerate(target_codes):
         if i > 0:
             time.sleep(2)
         try:
@@ -336,15 +348,14 @@ def main() -> None:
             result["forecast_dividend_changes"] = diff_forecast_changes(
                 code, result.get("forecast_dividend"), previous, disclosure_date
             )
-            results.append(result)
+            fresh[code] = result
         except JQuantsError as exc:
             errors.append({"code": code, "error": str(exc)})
-            if code in previous:
-                results.append(previous[code])
         except Exception as exc:  # noqa: BLE001
             errors.append({"code": code, "error": f"{type(exc).__name__}: {exc}"})
-            if code in previous:
-                results.append(previous[code])
+
+    # codes.jsonの並び順(=追加順)を保った状態で、更新分は新しい値、それ以外は前回値を使う。
+    results = [fresh[code] if code in fresh else previous[code] for code in all_codes if code in fresh or code in previous]
 
     payload = {
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -352,7 +363,7 @@ def main() -> None:
         "errors": errors,
     }
     OUTPUT_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"取得完了: {len(results)}件 / エラー {len(errors)}件 -> {OUTPUT_FILE}")
+    print(f"取得完了: {len(results)}件（うち今回更新 {len(fresh)}件） / エラー {len(errors)}件 -> {OUTPUT_FILE}")
     if errors:
         for e in errors:
             kept = "（前回値を保持）" if e["code"] in previous else "（データなし）"
