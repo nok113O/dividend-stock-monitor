@@ -1391,5 +1391,21 @@
     ],
     "current_dividend_forecast": 84,
     "note": "2021年10月1日に株式分割を実施。EPS・BPSはEDINET DBの分割調整値(adjusted_eps/adjusted_bps)を採用。配当はEDINET DBの分割またぎ調整に2018年3月期・2022年3月期でズレがあったため、IRBANK実測値(12.5円・30円)で補正。27/03期の会社予想配当は84円(IRBANK)。"
+  },
+  "8014": {
+    "history": [
+      {"period": "2017-03-31", "eps": 195,    "bps": 1887.37, "dividend": 40},
+      {"period": "2018-03-31", "eps": 192.74, "bps": 2079.84, "dividend": 59},
+      {"period": "2019-03-31", "eps": 229.28, "bps": 2191.45, "dividend": 60},
+      {"period": "2020-03-31", "eps": 248.46, "bps": 2328.79, "dividend": 63},
+      {"period": "2021-03-31", "eps": 50.73,  "bps": 2390.06, "dividend": 37},
+      {"period": "2022-03-31", "eps": 276.82, "bps": 2643.55, "dividend": 84},
+      {"period": "2023-03-31", "eps": 330.16, "bps": 2932.46, "dividend": 105},
+      {"period": "2024-03-31", "eps": 390.87, "bps": 3330.03, "dividend": 118},
+      {"period": "2025-03-31", "eps": 473.06, "bps": 3733.26, "dividend": 142},
+      {"period": "2026-03-31", "eps": 487.36, "bps": 4152.02, "dividend": 147}
+    ],
+    "current_dividend_forecast": 171,
+    "note": "株式分割なし(factor常に1.0)、EDINET DBの数値をそのまま採用、Web検索の独立情報とも一致確認済み。2021年3月期はコロナ影響でEPSが50.73円に急落し、唯一の減配(63円→37円)。以降は増配基調に回復。2027年3月期の会社予想配当は171円(2026-07-30開示、大幅増配)。"
   }
 }
