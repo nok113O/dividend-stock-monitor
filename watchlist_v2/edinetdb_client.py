@@ -53,6 +53,14 @@ class EdinetDbClient:
                 return company.get("edinet_code")
         return None
 
+    def company_profile(self, edinet_code: str) -> dict[str, Any]:
+        payload = self._get(f"/companies/{edinet_code}")
+        return payload.get("data", {})
+
+    def financials(self, edinet_code: str, years: int = 10) -> list[dict[str, Any]]:
+        payload = self._get(f"/companies/{edinet_code}/financials", {"years": years})
+        return payload.get("data", [])
+
     def calendar(self, date_from: str, date_to: str) -> list[dict[str, Any]]:
         payload = self._get("/calendar", {"from": date_from, "to": date_to})
         return payload.get("data", {}).get("calendar", [])
