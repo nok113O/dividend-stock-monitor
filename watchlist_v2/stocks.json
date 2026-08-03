@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03 14:01",
+  "generated_at": "2026-08-03 14:06",
   "stocks": [
     {
       "code": "8306",
@@ -10973,6 +10973,128 @@
         ]
       },
       "updated_at": "2026-08-03 14:01",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "6653",
+      "name": "正興電機製作所",
+      "industry": "電気機器",
+      "sector": "電気機器",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
+      "price": 2125.0,
+      "price_date": "2026-08-03 15:30",
+      "price_change": 50.0,
+      "price_change_pct": 0.024096385,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 12.496324610408703,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.4661068,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 5.4866337918505055,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 2.915299114653722,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 2.823529411764706,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 53.1,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 287.41574875,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "2.54倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 1回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 861.11,
+        "latest_bps": 1337.43,
+        "target_price": 2198.54
+      },
+      "forecast_dividend": 60.0,
+      "dividend_yield_pct": 2.823529411764706,
+      "dividend_override_note": "12月決算。株式分割なし、EDINET DB値をそのまま採用。10期で減配なし、15円→50円(実績)、60円(2026年12月期予想)まで一貫して増配基調(2026-07-24開示)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：電気機器・減配なし・増配基調",
+        "target1_pct": 3.21,
+        "target2_pct": 3.42,
+        "target3_pct": 3.6,
+        "buy1_price": 1869,
+        "buy2_price": 1754,
+        "buy3_price": 1667,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 4,
+        "total_score": 5,
+        "payout_ratio_pct": 33.2,
+        "dividend_cagr_pct": 14.31,
+        "dividend_years_to_double": 5.2,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-08-03 14:06",
       "forecast_dividend_changes": []
     }
   ],
