@@ -87,7 +87,7 @@ def print_step1_table(sector: str, price, market: dict, equity_ratio_official) -
 
 def print_history_and_note(rows: list[dict]) -> tuple[list[dict], bool]:
     print("\n[10期履歴(EDINET DB分割調整値)]")
-    print(f"  {'決算期':10s} {'EPS':>10s} {'BPS':>10s} {'配当':>8s} {'split factor':>12s} {'basis':>18s}")
+    print(f"  {'決算期':12s} {'EPS':>10s} {'BPS':>10s} {'配当':>8s} {'split factor':>12s} {'basis':>18s}")
     factors = set()
     history = []
     for r in rows:
@@ -97,9 +97,10 @@ def print_history_and_note(rows: list[dict]) -> tuple[list[dict], bool]:
         bps = r.get("adjusted_bps")
         div = r.get("adjusted_dividend_per_share")
         basis = r.get("adjusted_dividend_basis")
-        print(f"  {r['fiscal_year']}/03      {fmt(eps):>10s} {fmt(bps):>10s} {fmt(div):>8s} {fmt(factor):>12s} {str(basis):>18s}")
+        period_end = r.get("treasury_shares_as_of_date") or f"{r['fiscal_year']}-03-31"
+        print(f"  {period_end}  {fmt(eps):>10s} {fmt(bps):>10s} {fmt(div):>8s} {fmt(factor):>12s} {str(basis):>18s}")
         history.append({
-            "period": f"{r['fiscal_year']}-03-31",
+            "period": period_end,
             "eps": round(eps, 2) if eps is not None else None,
             "bps": round(bps, 2) if bps is not None else None,
             "dividend": round(div, 2) if div is not None else None,
