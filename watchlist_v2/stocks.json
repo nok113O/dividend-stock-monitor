@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03 14:06",
+  "generated_at": "2026-08-04 07:47",
   "stocks": [
     {
       "code": "8306",
@@ -8,21 +8,21 @@
       "sector": "銀行",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3567.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -4.0,
-      "price_change_pct": -0.0011201344,
+      "price": 3470.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -97.0,
+      "price_change_pct": -0.02719372,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 22.449493360186295,
+            "value": 21.839008118824346,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.0570424,
+            "value": 2.0011039,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -37,7 +37,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.6913372582001682,
+            "value": 2.76657060518732,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -47,7 +47,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 404319.40341498,
+            "value": 393324.4546818,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -85,7 +85,7 @@
         "target_price": 2961.52
       },
       "forecast_dividend": 96.0,
-      "dividend_yield_pct": 2.6913372582001682,
+      "dividend_yield_pct": 2.76657060518732,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想74円のまま。2026年3月期は実績86円で確定済み、2027年3月期の会社予想は96円(2026-07提供資料)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -120,7 +120,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:12",
+      "updated_at": "2026-08-04 07:16",
       "forecast_dividend_changes": []
     },
     {
@@ -130,46 +130,46 @@
       "sector": "情報･通信業",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2903.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -18.0,
-      "price_change_pct": -0.006162273,
+      "price": 2873.5,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -29.5,
+      "price_change_pct": -0.010161902,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 16.018319262815208,
+            "value": 15.651723950106215,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.1769779,
+            "value": 2.1548556430446193,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
           "ROE": {
-            "value": 10.028576076796023,
+            "value": 12.643504288633913,
             "criterion": "7%以上",
             "judge": "○"
           },
           "ROA": {
-            "value": 2.970597541836946,
+            "value": 3.7092718787722885,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
-            "value": 2.8935583878746125,
+            "value": 2.92326431181486,
             "criterion": "3%以上",
             "judge": "×"
           },
           "自己資本比率": {
-            "value": 26.8,
+            "value": 26.6,
             "criterion": "35%以上",
             "judge": "×"
           },
           "時価総額": {
-            "value": 110519.48688096,
+            "value": 109396.39834123,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -207,7 +207,7 @@
         "target_price": 2757.93
       },
       "forecast_dividend": 84.0,
-      "dividend_yield_pct": 2.8935583878746125,
+      "dividend_yield_pct": 2.92326431181486,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想80円のまま。2026年3月期は実績80円で確定済み、2027年3月期の会社予想は84円(2026-07提供資料)。なお2025年4月1日に1:2の株式分割を実施済みで、この履歴は分割調整後スケールに統一している。J-Quantsの2025年3月期分の古い開示記録(DivAnn=145円)は分割前スケールの名残であり、本データの誤りではない。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -224,12 +224,12 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 2,
         "income_score": 4,
         "total_score": 6,
-        "payout_ratio_pct": 44.800000000000004,
+        "payout_ratio_pct": 43.6,
         "dividend_cagr_pct": 7.28,
         "dividend_years_to_double": 9.9,
         "growth_detail": [
@@ -243,7 +243,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:12",
+      "updated_at": "2026-08-04 07:16",
       "forecast_dividend_changes": []
     },
     {
@@ -253,21 +253,21 @@
       "sector": "建設・住宅",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 6,
-      "price": 1305.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -17.5,
-      "price_change_pct": -0.013232515,
+      "price": 1286.5,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -18.5,
+      "price_change_pct": -0.014176245,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 17.307692307692307,
+            "value": 17.06233421750663,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.526509,
+            "value": 2.4906926,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -282,7 +282,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.486590038314176,
+            "value": 3.5367275553828215,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -292,7 +292,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 2628.022572,
+            "value": 2590.7670796,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -330,7 +330,7 @@
         "target_price": 1002.13
       },
       "forecast_dividend": 45.5,
-      "dividend_yield_pct": 3.486590038314176,
+      "dividend_yield_pct": 3.5367275553828215,
       "dividend_override_note": "決算期は6月。一株配当は株式数調整済み(資料注記)。2026年6月期の会社予想は45.5円(2026-07提供資料、四半期内訳2Q未定+4Q未定、通期成長率+3.69%から逆算)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -366,7 +366,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:12",
+      "updated_at": "2026-08-04 07:16",
       "forecast_dividend_changes": []
     },
     {
@@ -376,21 +376,21 @@
       "sector": "建設・住宅",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3114.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -50.0,
-      "price_change_pct": -0.015802782,
+      "price": 3122.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 8.0,
+      "price_change_pct": 0.002569043,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.76072614022866,
+            "value": 12.793508994795722,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.7012266,
+            "value": 1.7055972,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -405,7 +405,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.0186255619781632,
+            "value": 3.0108904548366433,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -415,7 +415,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 21406.3054848,
+            "value": 21461.29936384,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -453,7 +453,7 @@
         "target_price": 3264.18
       },
       "forecast_dividend": 94.0,
-      "dividend_yield_pct": 3.0186255619781632,
+      "dividend_yield_pct": 3.0108904548366433,
       "dividend_override_note": "2022年3月期は建設コスト高騰等でEPSが一時的に落ち込み(54.55円、黒字は維持)。2027年3月期の会社予想は94円(2026-07提供資料、四半期内訳2Q47円+4Q47円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -489,7 +489,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:12",
+      "updated_at": "2026-08-04 07:16",
       "forecast_dividend_changes": []
     },
     {
@@ -499,21 +499,21 @@
       "sector": "保険",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 4820.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -104.0,
-      "price_change_pct": -0.02112104,
+      "price": 4742.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -78.0,
+      "price_change_pct": -0.016182574,
       "step1": {
         "overall": "○",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 9.199526663358398,
+            "value": 9.05065465511318,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.0893635,
+            "value": 1.0717348,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -528,7 +528,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.5269709543568464,
+            "value": 3.5849852382960776,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -538,7 +538,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 69469.19809024,
+            "value": 68345.004032,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -576,7 +576,7 @@
         "target_price": 7430.75
       },
       "forecast_dividend": 170.0,
-      "dividend_yield_pct": 3.5269709543568464,
+      "dividend_yield_pct": 3.5849852382960776,
       "dividend_override_note": "2024年3月期にBPSが急伸(1928.84円→5235.56円)。保険会計基準変更等の影響とみられ、誤記ではない。この影響でBPSは単調増加していない。2027年3月期の会社予想は170円(2026-07提供資料、四半期内訳2Q85円+4Q85円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -612,7 +612,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:12",
+      "updated_at": "2026-08-04 07:16",
       "forecast_dividend_changes": []
     },
     {
@@ -622,21 +622,21 @@
       "sector": "建設・住宅",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3710.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -65.0,
-      "price_change_pct": -0.017218543,
+      "price": 3690.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -20.0,
+      "price_change_pct": -0.0053908355,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 16.075916457231997,
+            "value": 15.989253834821042,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.7327493,
+            "value": 1.7234085,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -651,7 +651,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.9353099730458223,
+            "value": 3.9566395663956637,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -661,7 +661,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 1523.3409024,
+            "value": 1515.12875008,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -699,7 +699,7 @@
         "target_price": 3857.46
       },
       "forecast_dividend": 146.0,
-      "dividend_yield_pct": 3.9353099730458223,
+      "dividend_yield_pct": 3.9566395663956637,
       "dividend_override_note": "2027年3月期の会社予想は146円(2026-07提供資料、四半期内訳2Q40円+4Q106円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -736,7 +736,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:13",
+      "updated_at": "2026-08-04 07:17",
       "forecast_dividend_changes": []
     },
     {
@@ -746,21 +746,21 @@
       "sector": "卸売・商社",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2570.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -41.0,
-      "price_change_pct": -0.015702795,
+      "price": 2527.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -43.0,
+      "price_change_pct": -0.016731517,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 8.687128177393186,
+            "value": 8.541779340183885,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.7041018728561879,
+            "value": 0.6923211800418626,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -775,7 +775,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 4.357976653696498,
+            "value": 4.43213296398892,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -785,7 +785,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 860.3615214,
+            "value": 845.96636754,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -823,16 +823,16 @@
         "target_price": 6138.32
       },
       "forecast_dividend": 112.0,
-      "dividend_yield_pct": 4.357976653696498,
+      "dividend_yield_pct": 4.43213296398892,
       "dividend_override_note": "2027年3月期の会社予想は112円で前期と同額(2026-07提供資料、四半期内訳2Q56円+4Q56円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：卸売業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 3.58,
-        "target2_pct": 4.1,
+        "target2_pct": 4.14,
         "target3_pct": 4.49,
         "buy1_price": 3128,
-        "buy2_price": 2732,
+        "buy2_price": 2705,
         "buy3_price": 2494,
         "buy_status": "第2買い（追加買い）",
         "sample_daily": 732,
@@ -858,7 +858,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:13",
+      "updated_at": "2026-08-04 07:17",
       "forecast_dividend_changes": []
     },
     {
@@ -868,21 +868,21 @@
       "sector": "その他金融",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2526.5,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -96.5,
-      "price_change_pct": -0.036789935,
+      "price": 2448.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -78.5,
+      "price_change_pct": -0.031070651,
       "step1": {
         "overall": "○",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 10.039338790431534,
+            "value": 9.727409997615831,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.1020527449902728,
+            "value": 1.067811248658693,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -897,7 +897,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.5622402533148625,
+            "value": 3.6764705882352944,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -907,7 +907,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 12348.56854449,
+            "value": 11964.89047968,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -945,7 +945,7 @@
         "target_price": 3535.32
       },
       "forecast_dividend": 90.0,
-      "dividend_yield_pct": 3.5622402533148625,
+      "dividend_yield_pct": 3.6764705882352944,
       "dividend_override_note": "2023年3月期にEPSが一時的に急落(9.74円、黒字は維持、大型損失計上等の影響とみられる)し、2024年3月期に急回復。実データであり誤記ではない。2027年3月期の会社予想は90円(2026-07提供資料、四半期内訳2Q45円+4Q45円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -981,7 +981,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:13",
+      "updated_at": "2026-08-04 07:17",
       "forecast_dividend_changes": []
     },
     {
@@ -991,21 +991,21 @@
       "sector": "電気機器",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 6,
-      "price": 3000.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 2.0,
-      "price_change_pct": 0.0006671114,
+      "price": 3070.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 70.0,
+      "price_change_pct": 0.023333333,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 11.54645523824186,
+            "value": 11.81587252713417,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.3758129,
+            "value": 1.4079152,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -1020,7 +1020,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.5000000000000004,
+            "value": 3.420195439739414,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -1030,7 +1030,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 430.77849088,
+            "value": 440.82999296,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -1068,7 +1068,7 @@
         "target_price": 2978.05
       },
       "forecast_dividend": 105.0,
-      "dividend_yield_pct": 3.5000000000000004,
+      "dividend_yield_pct": 3.420195439739414,
       "dividend_override_note": "決算期は6月。2019年6月期に一株配当が13円→11円へ減配(1回のみ、直近10期内)。2026年6月期の会社予想は105円(2026-07提供資料、四半期内訳2Q45円+4Q60円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -1103,7 +1103,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:13",
+      "updated_at": "2026-08-04 07:17",
       "forecast_dividend_changes": []
     },
     {
@@ -1113,46 +1113,46 @@
       "sector": "機械",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2890.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 36.0,
-      "price_change_pct": 0.012613875,
+      "price": 2933.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 43.0,
+      "price_change_pct": 0.014878893,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 17.93360223394353,
+            "value": 16.92050305757471,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.0537841,
+            "value": 1.0694543704330324,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
           "ROE": {
-            "value": 4.948232500542569,
+            "value": 6.213406767887268,
             "criterion": "7%以上",
             "judge": "×"
           },
           "ROA": {
-            "value": 4.0817186183656275,
+            "value": 5.037765641814762,
             "criterion": "3%以上",
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.2871972318339098,
+            "value": 3.2390044323218548,
             "criterion": "3%以上",
             "judge": "○"
           },
           "自己資本比率": {
-            "value": 81.8,
+            "value": 80.60000000000001,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 838.74717696,
+            "value": 856.55469851,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -1190,7 +1190,7 @@
         "target_price": 4040.81
       },
       "forecast_dividend": 95.0,
-      "dividend_yield_pct": 3.2871972318339098,
+      "dividend_yield_pct": 3.2390044323218548,
       "dividend_override_note": "J-Quants Freeは2026年4月の予想修正開示(配当欄未記載)止まり。2026年3月期は実績85円で確定済み、2027年3月期の会社予想は95円(2026-07提供資料、四半期内訳2Q47円+4Q48円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -1212,7 +1212,7 @@
         "growth_score": 2,
         "income_score": 3,
         "total_score": 5,
-        "payout_ratio_pct": 40.8,
+        "payout_ratio_pct": 49.5,
         "dividend_cagr_pct": 6.07,
         "dividend_years_to_double": 11.8,
         "growth_detail": [
@@ -1225,7 +1225,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:14",
+      "updated_at": "2026-08-04 07:18",
       "forecast_dividend_changes": []
     },
     {
@@ -1235,21 +1235,21 @@
       "sector": "不動産",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1068.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -5.0,
-      "price_change_pct": -0.0046598325,
+      "price": 1072.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 4.0,
+      "price_change_pct": 0.0037453184,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 7.053229428080836,
+            "value": 7.079646017699115,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.1807236907565255,
+            "value": 1.1851458768642278,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -1264,7 +1264,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 4.962546816479401,
+            "value": 4.9440298507462686,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -1274,7 +1274,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 1024.09594044,
+            "value": 1027.93150576,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -1312,7 +1312,7 @@
         "target_price": 1792.89
       },
       "forecast_dividend": 53.0,
-      "dividend_yield_pct": 4.962546816479401,
+      "dividend_yield_pct": 4.9440298507462686,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -1349,7 +1349,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:15",
+      "updated_at": "2026-08-04 07:19",
       "forecast_dividend_changes": []
     },
     {
@@ -1359,21 +1359,21 @@
       "sector": "資源・エネルギー",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 12,
-      "price": 3519.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -108.0,
-      "price_change_pct": -0.029776676,
+      "price": 3492.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -27.0,
+      "price_change_pct": -0.007672635,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.427163894480346,
+            "value": 12.331814810890984,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 0.8638889979967791,
+            "value": 0.857260693664323,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -1388,7 +1388,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.0690537084398977,
+            "value": 3.0927835051546393,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -1398,7 +1398,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 41010.20426781,
+            "value": 40695.54796908,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -1436,7 +1436,7 @@
         "target_price": 5649.89
       },
       "forecast_dividend": 108.0,
-      "dividend_yield_pct": 3.0690537084398977,
+      "dividend_yield_pct": 3.0927835051546393,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -1470,7 +1470,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:15",
+      "updated_at": "2026-08-04 07:19",
       "forecast_dividend_changes": []
     },
     {
@@ -1480,21 +1480,21 @@
       "sector": "機械",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1983.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -27.0,
-      "price_change_pct": -0.013432836,
+      "price": 1977.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -6.0,
+      "price_change_pct": -0.0030257187,
       "step1": {
         "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 9.38698224852071,
+            "value": 9.358579881656805,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.8848886191632157,
+            "value": 0.8822111952020563,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -1509,7 +1509,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.832576903681291,
+            "value": 3.8442083965604454,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -1519,7 +1519,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 159.6997152,
+            "value": 159.2165088,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -1557,7 +1557,7 @@
         "target_price": 3715.32
       },
       "forecast_dividend": 76.0,
-      "dividend_yield_pct": 3.832576903681291,
+      "dividend_yield_pct": 3.8442083965604454,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(75円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は76円(2026-07提供資料、四半期内訳2Q38円+4Q38円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -1592,7 +1592,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:15",
+      "updated_at": "2026-08-04 07:19",
       "forecast_dividend_changes": []
     },
     {
@@ -1603,9 +1603,9 @@
       "cycle": "景気敏感",
       "fiscal_year_end_month": 12,
       "price": 631.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -11.0,
-      "price_change_pct": -0.017133957,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 0.0,
+      "price_change_pct": 0.0,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
@@ -1714,7 +1714,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:16",
+      "updated_at": "2026-08-04 07:20",
       "forecast_dividend_changes": []
     },
     {
@@ -1724,46 +1724,46 @@
       "sector": "化学",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1951.5,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 29.5,
-      "price_change_pct": 0.015348596,
+      "price": 1948.5,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -3.0,
+      "price_change_pct": -0.001537279,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 14.61359892167141,
+            "value": 12.611650485436893,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.0386612,
+            "value": 1.0370595091730668,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
           "ROE": {
-            "value": 6.320255977116755,
+            "value": 8.797089652414817,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 4.2669904945354045,
+            "value": 6.179778098792183,
             "criterion": "3%以上",
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.3820138355111453,
+            "value": 3.387220939183987,
             "criterion": "3%以上",
             "judge": "○"
           },
           "自己資本比率": {
-            "value": 67.2,
+            "value": 70.0,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 2930.23083819,
+            "value": 2893.4207883,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -1801,7 +1801,7 @@
         "target_price": 2776.38
       },
       "forecast_dividend": 66.0,
-      "dividend_yield_pct": 3.3820138355111453,
+      "dividend_yield_pct": 3.387220939183987,
       "dividend_override_note": "2024年3月期はEPSが一時的に落ち込み(24.8円、赤字転落ではない)、2020年3月期はBPSが前期比減少(自社株買い等)。いずれも実データであり誤記ではない。2027年3月期の会社予想は66円で前期と同額(2026-07提供資料)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -1818,22 +1818,23 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 ROEは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
+      "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 0,
-        "income_score": 3,
-        "total_score": 3,
-        "payout_ratio_pct": 56.00000000000001,
+        "income_score": 4,
+        "total_score": 4,
+        "payout_ratio_pct": 40.9,
         "dividend_cagr_pct": 9.16,
         "dividend_years_to_double": 7.9,
         "growth_detail": [],
         "income_detail": [
+          "配当性向50%以下",
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:16",
+      "updated_at": "2026-08-04 07:20",
       "forecast_dividend_changes": []
     },
     {
@@ -1843,21 +1844,21 @@
       "sector": "不動産",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 12,
-      "price": 1710.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -48.5,
-      "price_change_pct": -0.027580326,
+      "price": 1715.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 5.0,
+      "price_change_pct": 0.0029239769,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 10.727056019070321,
+            "value": 10.758421679944796,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.428535625673542,
+            "value": 1.4327126304269735,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -1872,7 +1873,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 3.91812865497076,
+            "value": 3.9067055393586005,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -1882,7 +1883,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 12978.0387243,
+            "value": 13015.98620595,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -1920,7 +1921,7 @@
         "target_price": 2193.9
       },
       "forecast_dividend": 67.0,
-      "dividend_yield_pct": 3.91812865497076,
+      "dividend_yield_pct": 3.9067055393586005,
       "dividend_override_note": "決算期は12月。2026年12月期の会社予想は67円(2026-07提供資料、四半期内訳2Q33.5円+4Q33.5円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -1931,7 +1932,7 @@
         "buy1_price": 1754,
         "buy2_price": 1714,
         "buy3_price": 1688,
-        "buy_status": "第2買い（追加買い）",
+        "buy_status": "第1買い（打診買い）",
         "sample_daily": 732,
         "sample_annual": 10,
         "error": null
@@ -1956,7 +1957,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:16",
+      "updated_at": "2026-08-04 07:20",
       "forecast_dividend_changes": []
     },
     {
@@ -1966,21 +1967,21 @@
       "sector": "不動産",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 12,
-      "price": 2880.0,
-      "price_date": "2026-08-03 15:30",
+      "price": 2838.0,
+      "price_date": "2026-08-04 15:30",
       "price_change": -42.0,
-      "price_change_pct": -0.014373717,
+      "price_change_pct": -0.014583333,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 7.449174900419016,
+            "value": 7.340541099787905,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 2.1199057,
+            "value": 2.0889904,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -1995,7 +1996,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 4.513888888888888,
+            "value": 4.580690627202255,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -2005,7 +2006,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 595.5708096,
+            "value": 586.88540196,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -2043,15 +2044,15 @@
         "target_price": 4633.19
       },
       "forecast_dividend": 130.0,
-      "dividend_yield_pct": 4.513888888888888,
+      "dividend_yield_pct": 4.580690627202255,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：不動産業・減配1回",
-        "target1_pct": 4.37,
+        "target1_pct": 4.38,
         "target2_pct": 4.62,
         "target3_pct": 4.85,
-        "buy1_price": 2975,
+        "buy1_price": 2968,
         "buy2_price": 2814,
         "buy3_price": 2680,
         "buy_status": "第1買い（打診買い）",
@@ -2077,7 +2078,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:16",
+      "updated_at": "2026-08-04 07:20",
       "forecast_dividend_changes": []
     },
     {
@@ -2088,9 +2089,9 @@
       "cycle": "景気敏感",
       "fiscal_year_end_month": 12,
       "price": 4090.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -25.0,
-      "price_change_pct": -0.0060753347,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 0.0,
+      "price_change_pct": 0.0,
       "step1": {
         "overall": "○",
         "sector_adjusted": false,
@@ -2198,7 +2199,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:17",
+      "updated_at": "2026-08-04 07:22",
       "forecast_dividend_changes": []
     },
     {
@@ -2208,21 +2209,21 @@
       "sector": "医薬品",
       "cycle": "ディフェンシブ",
       "fiscal_year_end_month": 3,
-      "price": 2570.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 2.5,
-      "price_change_pct": 0.0009737098,
+      "price": 2500.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -70.0,
+      "price_change_pct": -0.027237354,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 17.987122060470327,
+            "value": 17.497200447928332,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.810094471658503,
+            "value": 2.7335549335199443,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -2237,7 +2238,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.8910505836575875,
+            "value": 4.0,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -2247,7 +2248,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 46765.088011,
+            "value": 45491.33075,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -2285,7 +2286,7 @@
         "target_price": 1618.17
       },
       "forecast_dividend": 100.0,
-      "dividend_yield_pct": 3.8910505836575875,
+      "dividend_yield_pct": 4.0,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(78円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は100円(2026-07提供資料、四半期内訳2Q50円+4Q50円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -2320,7 +2321,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:18",
+      "updated_at": "2026-08-04 07:22",
       "forecast_dividend_changes": []
     },
     {
@@ -2330,21 +2331,21 @@
       "sector": "医薬品",
       "cycle": "ディフェンシブ",
       "fiscal_year_end_month": 3,
-      "price": 3790.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -27.0,
-      "price_change_pct": -0.007073618,
+      "price": 3767.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -23.0,
+      "price_change_pct": -0.0060686017,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 11.840789802549363,
+            "value": 11.768932766808298,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.8781558,
+            "value": 0.87282664,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -2359,7 +2360,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.1688654353562,
+            "value": 4.194319086806477,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -2369,7 +2370,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 2825.2521648,
+            "value": 2808.10683504,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -2407,7 +2408,7 @@
         "target_price": 6752.13
       },
       "forecast_dividend": 158.0,
-      "dividend_yield_pct": 4.1688654353562,
+      "dividend_yield_pct": 4.194319086806477,
       "dividend_override_note": "J-Quants Freeは2026年3月期予想(144円、2026年2月時点)止まりで2027年3月期の会社予想が未反映。2026年3月期は実績147円で確定済み、2027年3月期の会社予想は158円(2026-07提供資料、四半期内訳2Q79円+4Q79円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -2443,7 +2444,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:18",
+      "updated_at": "2026-08-04 07:22",
       "forecast_dividend_changes": []
     },
     {
@@ -2453,21 +2454,21 @@
       "sector": "卸売・商社",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 4787.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 11.0,
-      "price_change_pct": 0.0023031826,
+      "price": 4738.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -49.0,
+      "price_change_pct": -0.010236056,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 15.934358564676119,
+            "value": 15.771253578323678,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.8566281275088914,
+            "value": 1.8376235780524603,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -2482,7 +2483,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.611238771673282,
+            "value": 2.6382439848037147,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -2492,7 +2493,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 175275.94138077,
+            "value": 173481.80703198,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -2530,7 +2531,7 @@
         "target_price": 4227.38
       },
       "forecast_dividend": 125.0,
-      "dividend_yield_pct": 2.611238771673282,
+      "dividend_yield_pct": 2.6382439848037147,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(110円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は125円(2026-07提供資料、四半期内訳2Q62円+4Q63円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -2564,7 +2565,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:18",
+      "updated_at": "2026-08-04 07:22",
       "forecast_dividend_changes": []
     },
     {
@@ -2574,21 +2575,21 @@
       "sector": "化学",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3649.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -38.0,
-      "price_change_pct": -0.010306482,
+      "price": 3904.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 255.0,
+      "price_change_pct": 0.06988216,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.413675795203266,
+            "value": 13.28117026705222,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.2121634909245529,
+            "value": 1.2968720933322702,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -2603,7 +2604,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.836667580158948,
+            "value": 3.5860655737704916,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -2613,7 +2614,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 2308.9288334,
+            "value": 2470.2817664,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -2651,7 +2652,7 @@
         "target_price": 5084.8
       },
       "forecast_dividend": 140.0,
-      "dividend_yield_pct": 3.836667580158948,
+      "dividend_yield_pct": 3.5860655737704916,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(138円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は140円(2026-07提供資料、四半期内訳2Q68円+4Q72円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -2662,7 +2663,7 @@
         "buy1_price": 3655,
         "buy2_price": 3571,
         "buy3_price": 3491,
-        "buy_status": "第1買い（打診買い）",
+        "buy_status": "監視",
         "sample_daily": 732,
         "sample_annual": 10,
         "error": null
@@ -2686,7 +2687,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:18",
+      "updated_at": "2026-08-04 07:22",
       "forecast_dividend_changes": []
     },
     {
@@ -2696,21 +2697,21 @@
       "sector": "自動車・輸送機器",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2963.5,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -103.5,
-      "price_change_pct": -0.033746332,
+      "price": 2918.5,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -45.0,
+      "price_change_pct": -0.015184748,
       "step1": {
         "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 11.795024875621891,
+            "value": 11.61592039800995,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.9675723679484919,
+            "value": 0.9528800255973253,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -2725,7 +2726,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.374388392103931,
+            "value": 3.42641768031523,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -2735,7 +2736,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 386244.34888699,
+            "value": 380379.32587369,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -2773,7 +2774,7 @@
         "target_price": 5196.53
       },
       "forecast_dividend": 100.0,
-      "dividend_yield_pct": 3.374388392103931,
+      "dividend_yield_pct": 3.42641768031523,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(95円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は100円(2026-07提供資料、四半期内訳2Q50円+4Q50円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -2809,7 +2810,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:19",
+      "updated_at": "2026-08-04 07:23",
       "forecast_dividend_changes": []
     },
     {
@@ -2819,21 +2820,21 @@
       "sector": "その他金融",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1430.5,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -42.5,
-      "price_change_pct": -0.028852679,
+      "price": 1409.5,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -21.0,
+      "price_change_pct": -0.014680182,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 12.836503948312993,
+            "value": 12.648061737257718,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.0721620122618458,
+            "value": 1.0564224790514307,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -2848,7 +2849,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.5651869975533033,
+            "value": 3.618304363249379,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -2858,7 +2859,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 20539.17856602,
+            "value": 20237.65969158,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -2896,7 +2897,7 @@
         "target_price": 2179.01
       },
       "forecast_dividend": 51.0,
-      "dividend_yield_pct": 3.5651869975533033,
+      "dividend_yield_pct": 3.618304363249379,
       "dividend_override_note": "J-Quants Freeは2026年3月期予想(45円、2026年2月時点)止まりで2027年3月期の会社予想が未反映。2026年3月期は実績46円で確定済み、2027年3月期の会社予想は51円(2026-07提供資料、四半期内訳2Q25円+4Q26円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -2931,7 +2932,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:19",
+      "updated_at": "2026-08-04 07:23",
       "forecast_dividend_changes": []
     },
     {
@@ -2941,21 +2942,21 @@
       "sector": "その他金融",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1134.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 8.0,
-      "price_change_pct": 0.0071047964,
+      "price": 1156.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 22.0,
+      "price_change_pct": 0.019400353,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 14.573962,
+            "value": 14.752424,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 3.1319737,
+            "value": 3.1927352,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -2970,7 +2971,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.365079365079365,
+            "value": 4.282006920415225,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -2980,7 +2981,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 253.71009024,
+            "value": 258.63215104,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -3018,15 +3019,15 @@
         "target_price": 772.3
       },
       "forecast_dividend": 49.5,
-      "dividend_yield_pct": 4.365079365079365,
+      "dividend_yield_pct": 4.282006920415225,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(38円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は49.5円(2026-07提供資料、四半期内訳2Q24.5円+4Q25円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他金融業・配当変動大",
-        "target1_pct": 2.95,
+        "target1_pct": 2.96,
         "target2_pct": 3.45,
         "target3_pct": 3.54,
-        "buy1_price": 1678,
+        "buy1_price": 1672,
         "buy2_price": 1435,
         "buy3_price": 1398,
         "buy_status": "第3買い（本格購入）",
@@ -3055,7 +3056,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:19",
+      "updated_at": "2026-08-04 07:23",
       "forecast_dividend_changes": []
     },
     {
@@ -3065,21 +3066,21 @@
       "sector": "情報･通信業",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 152.5,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 0.1000061,
-      "price_change_pct": 0.0006562081,
+      "price": 150.4,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -2.100006,
+      "price_change_pct": -0.013770532,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.603305785123966,
+            "value": 12.429752066115704,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.27647108060601,
+            "value": 1.2588934460534027,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -3094,7 +3095,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 3.5409836065573774,
+            "value": 3.590425531914894,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -3104,7 +3105,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 124171.028181425,
+            "value": 122461.132055648,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -3142,7 +3143,7 @@
         "target_price": 231.03
       },
       "forecast_dividend": 5.4,
-      "dividend_yield_pct": 3.5409836065573774,
+      "dividend_yield_pct": 3.590425531914894,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(5.3円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は5.4円(2026-07提供資料、四半期内訳2Q2.7円+4Q2.7円)。BPSはユーザー提供のスクリーンショットで再確認済み。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -3153,7 +3154,7 @@
         "buy1_price": 156,
         "buy2_price": 154,
         "buy3_price": 151,
-        "buy_status": "第2買い（追加買い）",
+        "buy_status": "第3買い（本格購入）",
         "sample_daily": 732,
         "sample_annual": 10,
         "error": null
@@ -3177,7 +3178,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:20",
+      "updated_at": "2026-08-04 07:24",
       "forecast_dividend_changes": []
     },
     {
@@ -3187,21 +3188,21 @@
       "sector": "保険",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 7885.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -229.0,
-      "price_change_pct": -0.028222825,
+      "price": 7709.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -176.0,
+      "price_change_pct": -0.022320861,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 14.749069415087634,
+            "value": 14.419857466190306,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.8618531,
+            "value": 1.820295,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -3216,7 +3217,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.1071655041217503,
+            "value": 3.1781035153716433,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -3226,7 +3227,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 150076.3880654,
+            "value": 146726.55365836,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -3264,7 +3265,7 @@
         "target_price": 7143.7
       },
       "forecast_dividend": 245.0,
-      "dividend_yield_pct": 3.1071655041217503,
+      "dividend_yield_pct": 3.1781035153716433,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想211円のまま。2026年3月期は実績218円で確定済み、2027年3月期の会社予想は245円(2026-07提供資料)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -3299,7 +3300,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:20",
+      "updated_at": "2026-08-04 07:24",
       "forecast_dividend_changes": []
     },
     {
@@ -3309,21 +3310,21 @@
       "sector": "化学",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2838.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 6.0,
-      "price_change_pct": 0.002118644,
+      "price": 2850.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 12.0,
+      "price_change_pct": 0.0042283298,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 18.50427071787181,
+            "value": 18.582512877355413,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.6663143803283307,
+            "value": 1.6733601070950468,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -3338,7 +3339,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.875968992248062,
+            "value": 3.8596491228070176,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -3348,7 +3349,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 4996.19424942,
+            "value": 5017.3198065,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -3386,7 +3387,7 @@
         "target_price": 2971.22
       },
       "forecast_dividend": 110.0,
-      "dividend_yield_pct": 3.875968992248062,
+      "dividend_yield_pct": 3.8596491228070176,
       "dividend_override_note": "2024年3月期にEPSが急伸(299.15円、大型一時益等の影響とみられる)し、以降は減少傾向(黒字は維持)。一株配当も2026年3月期に50円→110円へ大幅増配(資料に特別な注記なし)。2027年3月期の会社予想配当は110円で前期と同額(2026-07提供資料、四半期内訳2Q55円+4Q55円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -3418,7 +3419,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:21",
+      "updated_at": "2026-08-04 07:24",
       "forecast_dividend_changes": []
     },
     {
@@ -3428,21 +3429,21 @@
       "sector": "小売",
       "cycle": "ディフェンシブ",
       "fiscal_year_end_month": 3,
-      "price": 2887.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -80.5,
-      "price_change_pct": -0.027127212,
+      "price": 2835.5,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -51.5,
+      "price_change_pct": -0.017838586,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 18.625806451612902,
+            "value": 18.293548387096774,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.1776845789457804,
+            "value": 2.1388377636303293,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -3457,7 +3458,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 4.641496363006581,
+            "value": 4.72579791923823,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -3467,7 +3468,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 5195.16518987,
+            "value": 5102.490784855,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -3505,17 +3506,17 @@
         "target_price": 2404.02
       },
       "forecast_dividend": 134.0,
-      "dividend_yield_pct": 4.641496363006581,
+      "dividend_yield_pct": 4.72579791923823,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(131円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は134円(2026-07提供資料、四半期内訳2Q67円+4Q67円)。EPS/BPSはユーザー提供のスクリーンショットで再確認済み。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
         "reason": "業種：小売業・配当変動大",
         "target1_pct": 4.24,
         "target2_pct": 4.36,
-        "target3_pct": 4.54,
+        "target3_pct": 4.56,
         "buy1_price": 3160,
         "buy2_price": 3073,
-        "buy3_price": 2952,
+        "buy3_price": 2939,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 732,
         "sample_annual": 10,
@@ -3537,7 +3538,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:21",
+      "updated_at": "2026-08-04 07:25",
       "forecast_dividend_changes": []
     },
     {
@@ -3547,21 +3548,21 @@
       "sector": "その他製造",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2995.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -25.0,
-      "price_change_pct": -0.008278145,
+      "price": 2990.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -5.0,
+      "price_change_pct": -0.001669449,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.297269554506261,
+            "value": 12.276739889139806,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 0.9646074418095327,
+            "value": 0.9629970788015034,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -3576,7 +3577,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.140233722871453,
+            "value": 4.147157190635451,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -3586,7 +3587,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 1893.7723435,
+            "value": 1890.610787,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -3624,15 +3625,15 @@
         "target_price": 4474.59
       },
       "forecast_dividend": 124.0,
-      "dividend_yield_pct": 4.140233722871453,
+      "dividend_yield_pct": 4.147157190635451,
       "dividend_override_note": "J-Quants Freeは2026年3月の予想修正開示(FDivAnn未記載)止まりのため予想100円のまま。2026年3月期は実績116円で確定済み、2027年3月期の会社予想は124円(2026-07提供資料、四半期内訳2Q62円+4Q62円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他製品・利益比較的安定・配当変動大",
-        "target1_pct": 3.86,
+        "target1_pct": 3.87,
         "target2_pct": 4.01,
         "target3_pct": 4.36,
-        "buy1_price": 3212,
+        "buy1_price": 3204,
         "buy2_price": 3092,
         "buy3_price": 2844,
         "buy_status": "第2買い（追加買い）",
@@ -3659,7 +3660,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:21",
+      "updated_at": "2026-08-04 07:25",
       "forecast_dividend_changes": []
     },
     {
@@ -3669,21 +3670,21 @@
       "sector": "その他製造",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2588.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 37.0,
-      "price_change_pct": 0.014504116,
+      "price": 2623.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 35.0,
+      "price_change_pct": 0.013523957,
       "step1": {
         "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 10.799532632281757,
+            "value": 10.945585044233017,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.8723353,
+            "value": 0.88413274,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -3698,7 +3699,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.863987635239567,
+            "value": 3.812428516965307,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -3708,7 +3709,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 548.60382208,
+            "value": 556.02311168,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -3746,7 +3747,7 @@
         "target_price": 5064.69
       },
       "forecast_dividend": 100.0,
-      "dividend_yield_pct": 3.863987635239567,
+      "dividend_yield_pct": 3.812428516965307,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想90円のまま。2026年3月期は実績90円で確定済み、2027年3月期の会社予想は100円(2026-07提供資料、四半期内訳2Q50円+4Q50円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -3781,7 +3782,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:22",
+      "updated_at": "2026-08-04 07:26",
       "forecast_dividend_changes": []
     },
     {
@@ -3791,21 +3792,21 @@
       "sector": "建設・住宅",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 1,
-      "price": 3370.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -118.0,
-      "price_change_pct": -0.033830274,
+      "price": 3351.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -19.0,
+      "price_change_pct": -0.0056379824,
       "step1": {
         "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 10.020814748736248,
+            "value": 9.964317573595004,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.0210357604898548,
+            "value": 1.0152791790508913,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -3820,7 +3821,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.302670623145401,
+            "value": 4.327066547299314,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -3830,7 +3831,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 21845.6012562,
+            "value": 21722.43614526,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -3868,7 +3869,7 @@
         "target_price": 5749.87
       },
       "forecast_dividend": 145.0,
-      "dividend_yield_pct": 4.302670623145401,
+      "dividend_yield_pct": 4.327066547299314,
       "dividend_override_note": "決算期は1月。2019年1月期にBPSが前期比微減(1731.6円→1718.82円)した以外は概ね増加基調。2027年1月期の会社予想配当は145円(2026-07提供資料、四半期内訳2Q72円+4Q73円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -3904,7 +3905,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:22",
+      "updated_at": "2026-08-04 07:26",
       "forecast_dividend_changes": []
     },
     {
@@ -3914,21 +3915,21 @@
       "sector": "建設・住宅",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 4584.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -94.0,
-      "price_change_pct": -0.02009406,
+      "price": 4544.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -40.0,
+      "price_change_pct": -0.008726004,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 9.782330345710626,
+            "value": 9.696969696969697,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.9800964,
+            "value": 0.9715441,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -3943,7 +3944,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 1.9197207678883073,
+            "value": 1.936619718309859,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -3953,7 +3954,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 28390.91016552,
+            "value": 28143.17098432,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -3991,16 +3992,16 @@
         "target_price": 8693.97
       },
       "forecast_dividend": 88.0,
-      "dividend_yield_pct": 1.9197207678883073,
+      "dividend_yield_pct": 1.936619718309859,
       "dividend_override_note": "2026/10/1に株式分割(1:2)予定のため、この履歴は資料側で分割調整済みの数値。J-Quants Freeの直近開示(FDivAnn=175円)は分割前ベースのため、同一スケールに揃えて88円(分割調整後の2027年3月期会社予想)で上書き。分割実施後はJ-Quants側の値も調整後スケールになる見込み。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
-        "target1_pct": 3.48,
-        "target2_pct": 3.75,
+        "target1_pct": 3.49,
+        "target2_pct": 3.78,
         "target3_pct": 4.01,
-        "buy1_price": 2529,
-        "buy2_price": 2347,
+        "buy1_price": 2521,
+        "buy2_price": 2328,
         "buy3_price": 2195,
         "buy_status": "監視",
         "sample_daily": 732,
@@ -4026,7 +4027,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:22",
+      "updated_at": "2026-08-04 07:26",
       "forecast_dividend_changes": []
     },
     {
@@ -4036,21 +4037,21 @@
       "sector": "その他製造",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 10,
-      "price": 1755.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -26.0,
-      "price_change_pct": -0.01459854,
+      "price": 1753.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -2.0,
+      "price_change_pct": -0.0011396011,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 16.340782122905026,
+            "value": 16.32216014897579,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 0.77947754,
+            "value": 0.77858925,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -4065,7 +4066,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 4.273504273504273,
+            "value": 4.278379920136908,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -4075,7 +4076,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 246.8359413,
+            "value": 246.55464678,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -4113,7 +4114,7 @@
         "target_price": 3501.76
       },
       "forecast_dividend": 75.0,
-      "dividend_yield_pct": 4.273504273504273,
+      "dividend_yield_pct": 4.278379920136908,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -4147,7 +4148,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:23",
+      "updated_at": "2026-08-04 07:27",
       "forecast_dividend_changes": []
     },
     {
@@ -4157,21 +4158,21 @@
       "sector": "その他金融",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3066.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -64.0,
-      "price_change_pct": -0.020447282,
+      "price": 3026.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -40.0,
+      "price_change_pct": -0.013046313,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 12.457337883959044,
+            "value": 12.294815537136357,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.6616625296725451,
+            "value": 1.6399839578568562,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -4186,7 +4187,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.011741682974559,
+            "value": 4.064771976206213,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -4196,7 +4197,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 4073.5401819,
+            "value": 4020.3954959,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -4234,7 +4235,7 @@
         "target_price": 3797.01
       },
       "forecast_dividend": 123.0,
-      "dividend_yield_pct": 4.011741682974559,
+      "dividend_yield_pct": 4.064771976206213,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(120円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は123円(2026-07提供資料)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -4270,7 +4271,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:23",
+      "updated_at": "2026-08-04 07:27",
       "forecast_dividend_changes": []
     },
     {
@@ -4280,21 +4281,21 @@
       "sector": "金属製品",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2929.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -31.0,
-      "price_change_pct": -0.010472972,
+      "price": 2914.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -15.0,
+      "price_change_pct": -0.0051212017,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 14.378282853075449,
+            "value": 14.304648765401796,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 0.8738562150002536,
+            "value": 0.8693810210005937,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -4309,7 +4310,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 4.438374871969955,
+            "value": 4.461221688400824,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -4319,7 +4320,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 1155.44428038,
+            "value": 1149.52701708,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -4357,7 +4358,7 @@
         "target_price": 5789.9
       },
       "forecast_dividend": 130.0,
-      "dividend_yield_pct": 4.438374871969955,
+      "dividend_yield_pct": 4.461221688400824,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(120円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は130円(2026-07提供資料、四半期内訳2Q65円+4Q65円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -4393,7 +4394,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:23",
+      "updated_at": "2026-08-04 07:27",
       "forecast_dividend_changes": []
     },
     {
@@ -4403,46 +4404,46 @@
       "sector": "その他金融",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 4464.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -79.0,
-      "price_change_pct": -0.01738939,
+      "price": 4375.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -89.0,
+      "price_change_pct": -0.019937277,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 23.679185232336092,
+            "value": 8.22152065245988,
             "criterion": "12倍以下",
-            "judge": "×"
+            "judge": "○"
           },
           "PBR": {
-            "value": 0.787862,
+            "value": 0.784737879611344,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
           "ROE": {
-            "value": 2.487809527725498,
+            "value": 3.7945906188358793,
             "criterion": "7%以上",
             "judge": "×"
           },
           "ROA": {
-            "value": 0.3632552979847804,
+            "value": 0.5610442994751186,
             "criterion": "1%以上",
             "judge": "×"
           },
           "配当利回り": {
-            "value": 3.853046594982079,
+            "value": 3.931428571428571,
             "criterion": "3%以上",
             "judge": "○"
           },
           "自己資本比率": {
-            "value": 13.0,
+            "value": 13.100000000000001,
             "criterion": "10%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 4026.5940992,
+            "value": 3946.31479375,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -4480,7 +4481,7 @@
         "target_price": 9013.25
       },
       "forecast_dividend": 172.0,
-      "dividend_yield_pct": 3.853046594982079,
+      "dividend_yield_pct": 3.931428571428571,
       "dividend_override_note": "J-Quants Freeは2026年3月期の予想修正開示(配当欄未記載)止まり。2026年3月期は実績158円で確定済み、2027年3月期の会社予想は172円(2026-07提供資料、四半期内訳2Q86円+4Q86円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -4497,25 +4498,24 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
+      "comment": "ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 4,
-        "total_score": 5,
-        "payout_ratio_pct": 30.2,
+        "income_score": 3,
+        "total_score": 4,
+        "payout_ratio_pct": 66.10000000000001,
         "dividend_cagr_pct": 15.46,
         "dividend_years_to_double": 4.8,
         "growth_detail": [
           "BPS10期連続増加"
         ],
         "income_detail": [
-          "配当性向50%以下",
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:23",
+      "updated_at": "2026-08-04 07:27",
       "forecast_dividend_changes": []
     },
     {
@@ -4525,21 +4525,21 @@
       "sector": "金属製品",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 12,
-      "price": 1162.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -12.0,
-      "price_change_pct": -0.0102214655,
+      "price": 1169.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 7.0,
+      "price_change_pct": 0.006024096,
       "step1": {
         "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 3.6260375709917,
+            "value": 3.6478811708169507,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.82343954,
+            "value": 0.8284,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -4554,7 +4554,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 5.163511187607573,
+            "value": 5.132591958939265,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -4564,7 +4564,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 152.29446144,
+            "value": 153.21189376,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -4602,16 +4602,16 @@
         "target_price": 3076.25
       },
       "forecast_dividend": 60.0,
-      "dividend_yield_pct": 5.163511187607573,
+      "dividend_yield_pct": 5.132591958939265,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "非景気敏感株",
         "reason": "業種：金属製品・減配なし・増配基調",
         "target1_pct": 4.17,
-        "target2_pct": 4.26,
+        "target2_pct": 4.27,
         "target3_pct": 4.5,
         "buy1_price": 1439,
-        "buy2_price": 1408,
+        "buy2_price": 1405,
         "buy3_price": 1333,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 732,
@@ -4635,7 +4635,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:24",
+      "updated_at": "2026-08-04 07:29",
       "forecast_dividend_changes": []
     },
     {
@@ -4645,21 +4645,21 @@
       "sector": "不動産",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 900.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -20.0,
-      "price_change_pct": -0.02173913,
+      "price": 891.2,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -8.799988,
+      "price_change_pct": -0.009777764,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 8.939213349225268,
+            "value": 8.8518077075884,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.9594064472113252,
+            "value": 0.9500255841719256,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -4674,7 +4674,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 4.888888888888889,
+            "value": 4.937163375224416,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -4684,7 +4684,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 7687.816263,
+            "value": 7612.646503984,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -4722,17 +4722,17 @@
         "target_price": 1580.95
       },
       "forecast_dividend": 44.0,
-      "dividend_yield_pct": 4.888888888888889,
+      "dividend_yield_pct": 4.937163375224416,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：不動産業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 4.1,
         "target2_pct": 4.23,
-        "target3_pct": 4.35,
+        "target3_pct": 4.37,
         "buy1_price": 1073,
         "buy2_price": 1040,
-        "buy3_price": 1011,
+        "buy3_price": 1007,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 732,
         "sample_annual": 10,
@@ -4758,7 +4758,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:25",
+      "updated_at": "2026-08-04 07:29",
       "forecast_dividend_changes": []
     },
     {
@@ -4768,21 +4768,21 @@
       "sector": "倉庫･運輸関連業",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 5116.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -63.0,
-      "price_change_pct": -0.012164511,
+      "price": 5067.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -49.0,
+      "price_change_pct": -0.009577795,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 17.453602620087334,
+            "value": 17.28643558951965,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.2769362,
+            "value": 1.2647059,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -4797,7 +4797,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.007036747458952,
+            "value": 4.045786461417012,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -4807,7 +4807,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 5102.86947904,
+            "value": 5053.99524048,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -4845,7 +4845,7 @@
         "target_price": 5947.28
       },
       "forecast_dividend": 205.0,
-      "dividend_yield_pct": 4.007036747458952,
+      "dividend_yield_pct": 4.045786461417012,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期、予想185円)止まりで実績・来期予想が未反映。2026年3月期は実績205円で確定済み、2027年3月期の会社予想も205円(横ばい、2026-07提供資料、四半期内訳2Q100円+4Q105円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -4880,7 +4880,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:25",
+      "updated_at": "2026-08-04 07:29",
       "forecast_dividend_changes": []
     },
     {
@@ -4890,21 +4890,21 @@
       "sector": "化学",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 5725.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 7.0,
-      "price_change_pct": 0.0012242043,
+      "price": 5694.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -31.0,
+      "price_change_pct": -0.0054148473,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 11.186010160218835,
+            "value": 11.125439624853458,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.6903737,
+            "value": 0.68663543,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -4919,7 +4919,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 3.6681222707423577,
+            "value": 3.68809272918862,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -4929,7 +4929,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 3485.6537695,
+            "value": 3466.77948708,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -4967,7 +4967,7 @@
         "target_price": 11750.79
       },
       "forecast_dividend": 210.0,
-      "dividend_yield_pct": 3.6681222707423577,
+      "dividend_yield_pct": 3.68809272918862,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(160円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は210円(2026-07提供資料)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -5000,7 +5000,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:25",
+      "updated_at": "2026-08-04 07:29",
       "forecast_dividend_changes": []
     },
     {
@@ -5010,21 +5010,21 @@
       "sector": "銀行",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 8094.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -73.0,
-      "price_change_pct": -0.00893841,
+      "price": 8131.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 37.0,
+      "price_change_pct": 0.0045712874,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 17.812892009067102,
+            "value": 17.894319857391228,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.7109655,
+            "value": 1.7187868,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -5039,7 +5039,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 1.8532246108228319,
+            "value": 1.8447915385561433,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -5049,7 +5049,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 199935.74547636,
+            "value": 200849.70922514,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -5087,7 +5087,7 @@
         "target_price": 7056.41
       },
       "forecast_dividend": 150.0,
-      "dividend_yield_pct": 1.8532246108228319,
+      "dividend_yield_pct": 1.8447915385561433,
       "dividend_override_note": "2019年3月期に大型損失計上でEPSが一時急落(38.07円、黒字は維持)し、2020年3月期に急回復。BPSは有価証券評価等の影響で複数期にわたり増減を繰り返す(単調増加ではない)。2010〜2016年3月期は普通株式配当が0円(優先株配当は別途支給)だったが、直近10期(2017年3月期以降)はいずれも75円以上を維持。2027年3月期の会社予想は150円(2026-07提供資料、四半期内訳2Q75円+4Q75円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -5122,7 +5122,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:26",
+      "updated_at": "2026-08-04 07:29",
       "forecast_dividend_changes": []
     },
     {
@@ -5132,21 +5132,21 @@
       "sector": "化学",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 5845.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 45.0,
-      "price_change_pct": 0.00775862,
+      "price": 5987.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 142.0,
+      "price_change_pct": 0.024294268,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 23.13110926431596,
+            "value": 23.693062645929796,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.435020975758106,
+            "value": 2.4941780294035554,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -5161,7 +5161,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 1.8135158254918733,
+            "value": 1.7705027559712712,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -5171,7 +5171,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 108524.8383772,
+            "value": 111161.36995112,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -5209,7 +5209,7 @@
         "target_price": 4415.6
       },
       "forecast_dividend": 106.0,
-      "dividend_yield_pct": 1.8135158254918733,
+      "dividend_yield_pct": 1.7705027559712712,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -5246,7 +5246,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:26",
+      "updated_at": "2026-08-04 07:30",
       "forecast_dividend_changes": []
     },
     {
@@ -5256,21 +5256,21 @@
       "sector": "卸売・商社",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 6669.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -53.0,
-      "price_change_pct": -0.007884558,
+      "price": 6804.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 135.0,
+      "price_change_pct": 0.020242915,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 15.633644334005345,
+            "value": 15.950114867082377,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.229905273329744,
+            "value": 2.2750450561906703,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -5285,7 +5285,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 1.8743439796071377,
+            "value": 1.8371546149323927,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -5295,7 +5295,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 70409.72604861,
+            "value": 71835.02414676,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -5333,7 +5333,7 @@
         "target_price": 5085.91
       },
       "forecast_dividend": 125.0,
-      "dividend_yield_pct": 1.8743439796071377,
+      "dividend_yield_pct": 1.8371546149323927,
       "dividend_override_note": "2016年3月期はEPSが赤字(-18.27円)だったが直近10期(2017年3月期以降)には含まれない。2027年3月期の会社予想は125円(2026-07提供資料、四半期内訳2Q62円+4Q63円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -5370,7 +5370,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:26",
+      "updated_at": "2026-08-04 07:30",
       "forecast_dividend_changes": []
     },
     {
@@ -5380,21 +5380,21 @@
       "sector": "精密機器",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 12,
-      "price": 3075.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 40.0,
-      "price_change_pct": 0.013179571,
+      "price": 3095.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 20.0,
+      "price_change_pct": 0.006504065,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 22.95461331740818,
+            "value": 23.103911615407583,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.1938007,
+            "value": 2.2080693,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -5409,7 +5409,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 1.951219512195122,
+            "value": 1.938610662358643,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -5419,7 +5419,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 2553.8330624,
+            "value": 2570.44332544,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -5457,7 +5457,7 @@
         "target_price": 2361.33
       },
       "forecast_dividend": 60.0,
-      "dividend_yield_pct": 1.951219512195122,
+      "dividend_yield_pct": 1.938610662358643,
       "dividend_override_note": "決算期は12月。2025年12月期は市場環境悪化等でEPSが赤字(-28.7円)に転落(直近10期内で唯一の赤字期)。BPSもこの影響で減少。ただし一株配当は減配せず54円へ増配を維持(2019年12月期のみ31円→30円へ1回減配)。2026年12月期の会社予想はEPS黒字転換(134.78円)、配当は60円(2026-07提供資料、四半期内訳2Q30円+4Q30円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -5488,7 +5488,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:26",
+      "updated_at": "2026-08-04 07:30",
       "forecast_dividend_changes": []
     },
     {
@@ -5498,21 +5498,21 @@
       "sector": "ガラス･土石製品",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3391.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 32.0,
-      "price_change_pct": 0.009526645,
+      "price": 3474.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 83.0,
+      "price_change_pct": 0.024476556,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 20.243567548206077,
+            "value": 20.739060354605698,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.6883041723812617,
+            "value": 2.7541045988948696,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -5527,7 +5527,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 1.9168386906517252,
+            "value": 1.871042026482441,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -5537,7 +5537,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 6412.00466682,
+            "value": 6568.94845548,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -5575,7 +5575,7 @@
         "target_price": 2292.86
       },
       "forecast_dividend": 65.0,
-      "dividend_yield_pct": 1.9168386906517252,
+      "dividend_yield_pct": 1.871042026482441,
       "dividend_override_note": "3:1の株式分割によりJ-Quantsの開示(EPS/配当とも約3倍のスケール、例:2026年3月期予想DivAnn=164円)と整合しない。この履歴は資料側で分割調整済みの数値に統一しており、2027年3月期の会社予想は65円(2026-07提供資料、四半期内訳2Q35円+4Q30円)。J-Quants側が分割後スケールに切り替わるまでは同様の差異が続く見込み。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -5612,7 +5612,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:28",
+      "updated_at": "2026-08-04 07:31",
       "forecast_dividend_changes": []
     },
     {
@@ -5622,21 +5622,21 @@
       "sector": "卸売・商社",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 5132.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -69.0,
-      "price_change_pct": -0.01326668,
+      "price": 4937.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -195.0,
+      "price_change_pct": -0.03799688,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 14.469788817774269,
+            "value": 13.919981955056812,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.9270195780983637,
+            "value": 1.8537988419858966,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -5651,7 +5651,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.2408417770849574,
+            "value": 2.3293498075754506,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -5661,7 +5661,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 84082.5296778,
+            "value": 80887.65569355,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -5699,7 +5699,7 @@
         "target_price": 4498.11
       },
       "forecast_dividend": 115.0,
-      "dividend_yield_pct": 2.2408417770849574,
+      "dividend_yield_pct": 2.3293498075754506,
       "dividend_override_note": "J-Quants Freeは2026年3月期実績(107.5円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は115円(2026-07提供資料、四半期内訳2Q57.5円+4Q57.5円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -5734,7 +5734,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:28",
+      "updated_at": "2026-08-04 07:32",
       "forecast_dividend_changes": []
     },
     {
@@ -5744,21 +5744,21 @@
       "sector": "卸売・商社",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1995.5,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -18.5,
-      "price_change_pct": -0.0091857,
+      "price": 1980.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -15.5,
+      "price_change_pct": -0.0077674766,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 14.592321755027422,
+            "value": 14.478976234003657,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.116612571331594,
+            "value": 2.10017183224082,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -5773,7 +5773,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.2049611626158856,
+            "value": 2.2222222222222223,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -5783,7 +5783,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 139483.70764913,
+            "value": 138400.2711828,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -5821,7 +5821,7 @@
         "target_price": 1806.52
       },
       "forecast_dividend": 44.0,
-      "dividend_yield_pct": 2.2049611626158856,
+      "dividend_yield_pct": 2.2222222222222223,
       "dividend_override_note": "J-Quants Freeは2026年3月の予想修正開示(配当欄未記載)止まり。2026年3月期は実績42円で確定済み、2027年3月期の会社予想は44円(2026-07提供資料、四半期内訳2Q22円+4Q22円)。一株配当は株式数調整済み。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -5858,7 +5858,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:28",
+      "updated_at": "2026-08-04 07:32",
       "forecast_dividend_changes": []
     },
     {
@@ -5868,46 +5868,46 @@
       "sector": "化学",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1647.5,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -75.0,
-      "price_change_pct": -0.043541364,
+      "price": 1579.5,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -68.0,
+      "price_change_pct": -0.041274656,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 15.421698024899372,
+            "value": 13.201002925198495,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.1147800550792695,
+            "value": 1.0258758427185222,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
           "ROE": {
-            "value": 5.793285846517578,
+            "value": 7.332358412982355,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 2.8959376626769395,
+            "value": 3.8374864032684837,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
-            "value": 2.670713201820941,
+            "value": 2.7856916745805633,
             "criterion": "3%以上",
             "judge": "×"
           },
           "自己資本比率": {
-            "value": 48.1,
+            "value": 50.5,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 22347.39832615,
+            "value": 21424.980935475,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -5945,15 +5945,15 @@
         "target_price": 2278.82
       },
       "forecast_dividend": 44.0,
-      "dividend_yield_pct": 2.670713201820941,
+      "dividend_yield_pct": 2.7856916745805633,
       "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期、予想40円)止まりで実績・来期予想が未反映。2026年3月期は実績42円で確定済み、2027年3月期の会社予想も44円(2026-07提供資料、四半期内訳2Q22円+4Q22円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：化学・赤字1期・減配なし・増配基調",
-        "target1_pct": 3.75,
+        "target1_pct": 3.74,
         "target2_pct": 3.87,
         "target3_pct": 3.96,
-        "buy1_price": 1173,
+        "buy1_price": 1176,
         "buy2_price": 1137,
         "buy3_price": 1111,
         "buy_status": "監視",
@@ -5962,12 +5962,12 @@
         "error": null
       },
       "rating": "除外候補",
-      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。",
+      "comment": "PERは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 0,
         "income_score": 4,
         "total_score": 4,
-        "payout_ratio_pct": 38.800000000000004,
+        "payout_ratio_pct": 35.9,
         "dividend_cagr_pct": 6.42,
         "dividend_years_to_double": 11.1,
         "growth_detail": [],
@@ -5978,7 +5978,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:28",
+      "updated_at": "2026-08-04 07:32",
       "forecast_dividend_changes": []
     },
     {
@@ -5988,21 +5988,21 @@
       "sector": "食品",
       "cycle": "ディフェンシブ",
       "fiscal_year_end_month": 12,
-      "price": 6993.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -142.0,
-      "price_change_pct": -0.019901892,
+      "price": 6819.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -174.0,
+      "price_change_pct": -0.024882024,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 21.780975518594655,
+            "value": 21.23902074378621,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 3.038690838301496,
+            "value": 2.9630820572540975,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -6017,7 +6017,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 3.88960388960389,
+            "value": 3.9888546707728407,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -6027,7 +6027,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 124142.64963345,
+            "value": 121053.72913635,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -6065,17 +6065,17 @@
         "target_price": 4442.93
       },
       "forecast_dividend": 272.0,
-      "dividend_yield_pct": 3.88960388960389,
+      "dividend_yield_pct": 3.9888546707728407,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "非景気敏感株",
         "reason": "業種：食料品・利益比較的安定・減配1回",
         "target1_pct": 4.95,
-        "target2_pct": 5.23,
-        "target3_pct": 6.25,
+        "target2_pct": 5.22,
+        "target3_pct": 6.21,
         "buy1_price": 5495,
-        "buy2_price": 5201,
-        "buy3_price": 4352,
+        "buy2_price": 5211,
+        "buy3_price": 4380,
         "buy_status": "監視",
         "sample_daily": 732,
         "sample_annual": 10,
@@ -6096,7 +6096,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:28",
+      "updated_at": "2026-08-04 07:32",
       "forecast_dividend_changes": [
         {
           "date": "2026-07-30",
@@ -6112,46 +6112,46 @@
       "sector": "建設・住宅",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 5200.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -66.0,
-      "price_change_pct": -0.012533232,
+      "price": 5248.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 48.0,
+      "price_change_pct": 0.009230769,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 19.74258703823228,
+            "value": 16.038139478027013,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.5006379,
+            "value": 1.5184130731662153,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
           "ROE": {
-            "value": 5.785671220311558,
+            "value": 8.910764729992072,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 4.083997024529444,
+            "value": 6.417964006229352,
             "criterion": "3%以上",
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.5961538461538463,
+            "value": 2.5724085365853657,
             "criterion": "3%以上",
             "judge": "×"
           },
           "自己資本比率": {
-            "value": 69.19999999999999,
+            "value": 70.7,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 6025.922708,
+            "value": 6072.04395136,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -6189,7 +6189,7 @@
         "target_price": 5618.51
       },
       "forecast_dividend": 135.0,
-      "dividend_yield_pct": 2.5961538461538463,
+      "dividend_yield_pct": 2.5724085365853657,
       "dividend_override_note": "2023年3月期にEPSが一時的に落ち込み(158.82円、黒字は維持)。2027年3月期の会社予想は135円(2026-07提供資料、四半期内訳2Q65円+4Q70円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -6206,12 +6206,12 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 配当利回りは基準未達。",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
       "priority_score": {
         "growth_score": 2,
         "income_score": 4,
         "total_score": 6,
-        "payout_ratio_pct": 45.4,
+        "payout_ratio_pct": 41.699999999999996,
         "dividend_cagr_pct": 13.99,
         "dividend_years_to_double": 5.3,
         "growth_detail": [
@@ -6225,7 +6225,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:29",
+      "updated_at": "2026-08-04 07:33",
       "forecast_dividend_changes": []
     },
     {
@@ -6235,10 +6235,10 @@
       "sector": "化学",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 4207.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 6.0,
-      "price_change_pct": 0.0014282312,
+      "price": 4322.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 115.0,
+      "price_change_pct": 0.027335394,
       "step1": {
         "overall": "要確認",
         "sector_adjusted": false,
@@ -6249,9 +6249,9 @@
             "judge": "要確認"
           },
           "PBR": {
-            "value": 1.2674134,
+            "value": 1.3020587,
             "criterion": "1.3倍以下",
-            "judge": "○"
+            "judge": "×"
           },
           "ROE": {
             "value": -3.901856961742114,
@@ -6264,7 +6264,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.6146898027097696,
+            "value": 2.5451180009254974,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -6274,7 +6274,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 8204.60519424,
+            "value": 8428.88118272,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -6312,7 +6312,7 @@
         "target_price": 5038.02
       },
       "forecast_dividend": 110.0,
-      "dividend_yield_pct": 2.6146898027097696,
+      "dividend_yield_pct": 2.5451180009254974,
       "dividend_override_note": "2026年3月期は大型損失計上によりEPSが赤字(-207.04円)に転落(直近10期内で唯一の赤字期)。BPSもこの影響で減少。ただし一株配当は減配せず100円へ増配を維持。2027年3月期の会社予想はEPS黒字転換(236.21円)、配当は110円(2026-07提供資料、四半期内訳2Q55円+4Q55円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -6329,7 +6329,7 @@
         "error": null
       },
       "rating": "除外候補",
-      "comment": "PERは取得できず要確認。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。",
+      "comment": "PERは取得できず要確認。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
       "priority_score": {
         "growth_score": 0,
         "income_score": 4,
@@ -6345,7 +6345,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:29",
+      "updated_at": "2026-08-04 07:33",
       "forecast_dividend_changes": []
     },
     {
@@ -6355,21 +6355,21 @@
       "sector": "銀行",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1626.5,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -27.5,
-      "price_change_pct": -0.01662636,
+      "price": 1631.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 4.5,
+      "price_change_pct": 0.002766677,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 3.606430155210643,
+            "value": 3.6164079822616406,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.31860092,
+            "value": 0.3194824,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -6384,7 +6384,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.9203811865969875,
+            "value": 2.9123237277743717,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -6394,7 +6394,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 44783.29683968,
+            "value": 44907.20182272,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -6432,7 +6432,7 @@
         "target_price": 7505.88
       },
       "forecast_dividend": 47.5,
-      "dividend_yield_pct": 2.9203811865969875,
+      "dividend_yield_pct": 2.9123237277743717,
       "dividend_override_note": "2026年8月1日予定の株式分割を適用済みの数値(資料注記)。2024年3月期はEPSが一時的に落ち込み(109.16円、黒字は維持)、2025年3月期に急回復。BPSは2020年3月期に一時減少。2027年3月期の会社予想は47.5円(2026-07提供資料、四半期内訳2Q23.75円+4Q23.75円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -6467,7 +6467,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:29",
+      "updated_at": "2026-08-04 07:33",
       "forecast_dividend_changes": []
     },
     {
@@ -6477,36 +6477,36 @@
       "sector": "建設・住宅",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3437.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -115.0,
-      "price_change_pct": -0.032376125,
+      "price": 3423.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -14.0,
+      "price_change_pct": -0.00407332,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 14.518649938748785,
+            "value": 11.771381409264416,
             "criterion": "12倍以下",
-            "judge": "×"
+            "judge": "○"
           },
           "PBR": {
-            "value": 1.0905571,
+            "value": 1.0861115429891388,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
           "ROE": {
-            "value": 4.081475081346398,
+            "value": 8.071500136940235,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 2.055550411998889,
+            "value": 4.060391389500744,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
-            "value": 2.7640384055862675,
+            "value": 2.775343266140812,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -6516,7 +6516,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 3047.44749855,
+            "value": 3035.02879365,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -6554,7 +6554,7 @@
         "target_price": 5038.13
       },
       "forecast_dividend": 95.0,
-      "dividend_yield_pct": 2.7640384055862675,
+      "dividend_yield_pct": 2.775343266140812,
       "dividend_override_note": "2019年3月期は経営統合(三井情報等)に伴う一時的なEPS急伸(295.33円)。2027年3月期の会社予想は95円(2026-07提供資料、四半期内訳2Q45円+4Q50円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -6571,12 +6571,12 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
+      "comment": "配当利回りは基準未達。",
       "priority_score": {
         "growth_score": 2,
         "income_score": 4,
         "total_score": 6,
-        "payout_ratio_pct": 39.6,
+        "payout_ratio_pct": 32.5,
         "dividend_cagr_pct": 12.27,
         "dividend_years_to_double": 6.0,
         "growth_detail": [
@@ -6590,7 +6590,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:30",
+      "updated_at": "2026-08-04 07:34",
       "forecast_dividend_changes": []
     },
     {
@@ -6600,21 +6600,21 @@
       "sector": "銀行",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 6614.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -200.0,
-      "price_change_pct": -0.029351335,
+      "price": 6515.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -99.0,
+      "price_change_pct": -0.014968249,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 16.95201968423211,
+            "value": 16.69827762969038,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.5920361,
+            "value": 1.5370384,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -6629,7 +6629,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 1.3607499244027819,
+            "value": 1.3814274750575595,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -6639,7 +6639,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 253192.9600152,
+            "value": 249403.104702,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -6677,16 +6677,16 @@
         "target_price": 6273.66
       },
       "forecast_dividend": 90.0,
-      "dividend_yield_pct": 1.3607499244027819,
+      "dividend_yield_pct": 1.3814274750575595,
       "dividend_override_note": "2026年10月1日予定の株式分割を適用済みの配当系列(資料注記)。2027年3月期の会社予想はEPS445.39円、配当90円(2026-07提供資料、四半期内訳2Q45円+4Q45円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：銀行業・減配なし・増配基調",
         "target1_pct": 3.54,
-        "target2_pct": 3.68,
+        "target2_pct": 3.67,
         "target3_pct": 3.85,
         "buy1_price": 2542,
-        "buy2_price": 2446,
+        "buy2_price": 2452,
         "buy3_price": 2338,
         "buy_status": "監視",
         "sample_daily": 732,
@@ -6713,7 +6713,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:31",
+      "updated_at": "2026-08-04 07:34",
       "forecast_dividend_changes": []
     },
     {
@@ -6723,21 +6723,21 @@
       "sector": "その他金融",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 6348.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -62.0,
-      "price_change_pct": -0.009672387,
+      "price": 6328.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -20.0,
+      "price_change_pct": -0.0031505986,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 15.859294975891274,
+            "value": 15.809328703125392,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.5557908358331864,
+            "value": 1.5508891633825461,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -6752,7 +6752,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.9514807813484567,
+            "value": 2.960809102402023,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -6762,7 +6762,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 69930.95960856,
+            "value": 69710.63522416,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -6800,7 +6800,7 @@
         "target_price": 6684.5
       },
       "forecast_dividend": 187.36,
-      "dividend_yield_pct": 2.9514807813484567,
+      "dividend_yield_pct": 2.960809102402023,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -6835,7 +6835,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:31",
+      "updated_at": "2026-08-04 07:34",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-03",
@@ -6851,21 +6851,21 @@
       "sector": "卸売・商社",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2062.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 6.0,
-      "price_change_pct": 0.0029182879,
+      "price": 2070.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 8.0,
+      "price_change_pct": 0.0038797287,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.187481529641232,
+            "value": 12.234765648087949,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.88624014343475,
+            "value": 1.8935582429243125,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -6880,7 +6880,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.055286129970902,
+            "value": 3.0434782608695654,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -6890,7 +6890,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 1139.56188746,
+            "value": 1143.9830781,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -6928,7 +6928,7 @@
         "target_price": 2113.14
       },
       "forecast_dividend": 63.0,
-      "dividend_yield_pct": 3.055286129970902,
+      "dividend_yield_pct": 3.0434782608695654,
       "dividend_override_note": "2027年3月期の会社予想配当は63円で前期(64円)から微減(四半期内訳2Q30円+4Q33円、2026-07提供資料)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -6965,7 +6965,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:31",
+      "updated_at": "2026-08-04 07:35",
       "forecast_dividend_changes": []
     },
     {
@@ -6975,21 +6975,21 @@
       "sector": "サービス",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1484.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -108.0,
-      "price_change_pct": -0.0678392,
+      "price": 1502.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 18.0,
+      "price_change_pct": 0.01212938,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 14.482287498780131,
+            "value": 14.6579486679028,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.6735251,
+            "value": 1.6938239,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -7004,7 +7004,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.840970350404313,
+            "value": 3.7949400798934754,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -7014,7 +7014,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 514.35814912,
+            "value": 520.59697152,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -7052,7 +7052,7 @@
         "target_price": 1546.94
       },
       "forecast_dividend": 57.0,
-      "dividend_yield_pct": 3.840970350404313,
+      "dividend_yield_pct": 3.7949400798934754,
       "dividend_override_note": "2023年3月期に一株配当が41.5円→28円へ減配(1回のみ、直近10期内)。2011年3月期に一時的な特殊要因でEPS/BPSが極端な値になったが直近10期には含まれない。2027年3月期の会社予想は57円(2026-07提供資料、四半期内訳2Q28.5円+4Q28.5円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -7087,7 +7087,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:31",
+      "updated_at": "2026-08-04 07:35",
       "forecast_dividend_changes": []
     },
     {
@@ -7097,46 +7097,46 @@
       "sector": "食品",
       "cycle": "ディフェンシブ",
       "fiscal_year_end_month": 3,
-      "price": 1870.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -36.0,
-      "price_change_pct": -0.018887723,
+      "price": 1824.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -46.0,
+      "price_change_pct": -0.02459893,
       "step1": {
-        "overall": "○",
+        "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 2.450241748450582,
+            "value": 13.903498742282187,
             "criterion": "12倍以下",
-            "judge": "○"
+            "judge": "×"
           },
           "PBR": {
-            "value": 0.81367105,
+            "value": 0.7936507936507937,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
           "ROE": {
-            "value": 10.394080509488488,
+            "value": 10.80521071692402,
             "criterion": "7%以上",
             "judge": "○"
           },
           "ROA": {
-            "value": 5.079116663631069,
+            "value": 5.316666112570232,
             "criterion": "3%以上",
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.2085561497326207,
+            "value": 3.289473684210526,
             "criterion": "3%以上",
             "judge": "○"
           },
           "自己資本比率": {
-            "value": 46.2,
+            "value": 46.6,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 575.8073145,
+            "value": 1668.43047456,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -7174,7 +7174,7 @@
         "target_price": 3450.26
       },
       "forecast_dividend": 60.0,
-      "dividend_yield_pct": 3.2085561497326207,
+      "dividend_yield_pct": 3.289473684210526,
       "dividend_override_note": "2026年3月期はEPSが一時的に急伸(254.41円、一時的要因の可能性、2027年3月期予想は131.19円に反落見込み)。一株配当は株式数調整済み。2027年3月期の会社予想は配当60円で前期と同額(2026-07提供資料、四半期内訳2Q30円+4Q30円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -7190,13 +7190,13 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "監視継続",
-      "comment": "全項目で基準を満たしています。",
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。",
       "priority_score": {
         "growth_score": 3,
         "income_score": 4,
         "total_score": 7,
-        "payout_ratio_pct": 45.4,
+        "payout_ratio_pct": 23.599999999999998,
         "dividend_cagr_pct": 15.29,
         "dividend_years_to_double": 4.9,
         "growth_detail": [
@@ -7211,7 +7211,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:32",
+      "updated_at": "2026-08-04 07:36",
       "forecast_dividend_changes": []
     },
     {
@@ -7221,21 +7221,21 @@
       "sector": "電気･ガス業",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2544.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -30.0,
-      "price_change_pct": -0.011655011,
+      "price": 2539.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -5.0,
+      "price_change_pct": -0.001965409,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.07977207977208,
+            "value": 12.056030389363723,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 3.0080523,
+            "value": 3.0021403,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -7250,7 +7250,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.6556603773584904,
+            "value": 3.6628593934619933,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -7260,7 +7260,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 587.71505808,
+            "value": 586.55995773,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -7298,7 +7298,7 @@
         "target_price": 1819.61
       },
       "forecast_dividend": 93.0,
-      "dividend_yield_pct": 3.6556603773584904,
+      "dividend_yield_pct": 3.6628593934619933,
       "dividend_override_note": "急成長企業で配当・EPS・BPSとも大幅増加基調。一株配当は株式数調整済み(資料注記)。2027年3月期の会社予想は93円(2026-07提供資料、四半期内訳2Q28円+4Q65円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -7335,7 +7335,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:32",
+      "updated_at": "2026-08-04 07:36",
       "forecast_dividend_changes": []
     },
     {
@@ -7345,21 +7345,21 @@
       "sector": "海運",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 6042.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -68.0,
-      "price_change_pct": -0.011129295,
+      "price": 6019.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -23.0,
+      "price_change_pct": -0.0038066865,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.99606375427502,
+            "value": 12.946591813469272,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 0.7975205847956305,
+            "value": 0.7944846739299735,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -7374,7 +7374,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.3101621979476996,
+            "value": 3.3228110981890677,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -7384,7 +7384,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 24499.80319704,
+            "value": 24406.54012628,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -7422,17 +7422,17 @@
         "target_price": 13368.36
       },
       "forecast_dividend": 200.0,
-      "dividend_yield_pct": 3.3101621979476996,
+      "dividend_yield_pct": 3.3228110981890677,
       "dividend_override_note": "海運業のため業績・配当とも極めて変動が大きい(2017年3月期・2019年3月期は赤字、2017年3月期は無配)。2021〜2023年のコンテナ船運賃高騰による特別好況の反動もあり、直近10期内でStep2の複数条件(赤字なし・減配2回未満・無配なし)を満たさない。2027年3月期の会社予想配当は200円(2026-07提供資料)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：海運業・利益変動大・赤字2期・配当変動大",
-        "target1_pct": 6.33,
-        "target2_pct": 7.0,
-        "target3_pct": 13.38,
-        "buy1_price": 3160,
-        "buy2_price": 2857,
-        "buy3_price": 1495,
+        "target1_pct": 6.32,
+        "target2_pct": 6.99,
+        "target3_pct": 13.36,
+        "buy1_price": 3165,
+        "buy2_price": 2861,
+        "buy3_price": 1497,
         "buy_status": "監視",
         "sample_daily": 732,
         "sample_annual": 9,
@@ -7452,7 +7452,7 @@
           "配当性向50%以下"
         ]
       },
-      "updated_at": "2026-08-03 07:32",
+      "updated_at": "2026-08-04 07:36",
       "forecast_dividend_changes": []
     },
     {
@@ -7462,21 +7462,21 @@
       "sector": "化学",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2244.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -17.0,
-      "price_change_pct": -0.0075187967,
+      "price": 2275.5,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 31.5,
+      "price_change_pct": 0.014037433,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 13.824544110399213,
+            "value": 14.018605224248398,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.137239,
+            "value": 1.1532029,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -7491,7 +7491,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.5204991087344024,
+            "value": 3.4717644473742038,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -7501,7 +7501,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 4293.7968348,
+            "value": 4354.07072085,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -7539,7 +7539,7 @@
         "target_price": 3103.56
       },
       "forecast_dividend": 79.0,
-      "dividend_yield_pct": 3.5204991087344024,
+      "dividend_yield_pct": 3.4717644473742038,
       "dividend_override_note": "2023年3月期はEPSが一時的に落ち込み(49.94円、黒字は維持)。2027年3月期の会社予想は79円(2026-07提供資料、四半期内訳2Q39円+4Q40円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -7573,7 +7573,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:33",
+      "updated_at": "2026-08-04 07:37",
       "forecast_dividend_changes": []
     },
     {
@@ -7583,21 +7583,21 @@
       "sector": "卸売・商社",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3055.0,
-      "price_date": "2026-08-03 15:30",
+      "price": 3015.0,
+      "price_date": "2026-08-04 15:30",
       "price_change": -40.0,
-      "price_change_pct": -0.012924071,
+      "price_change_pct": -0.01309329,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 13.81103074141049,
+            "value": 13.630198915009043,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.4776157,
+            "value": 1.4582689,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -7612,7 +7612,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 5.073649754500818,
+            "value": 5.140961857379768,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -7622,7 +7622,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 1796.0864961,
+            "value": 1772.5698153,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -7660,7 +7660,7 @@
         "target_price": 3343.15
       },
       "forecast_dividend": 155.0,
-      "dividend_yield_pct": 5.073649754500818,
+      "dividend_yield_pct": 5.140961857379768,
       "dividend_override_note": "2022年3月期はEPSが一時的に急落(4.65円、黒字は僅かに維持)。2023年3月期に急回復。BPSは2019〜2022年にかけて複数期減少。一株配当は減配せず155円まで増配を継続。2027年3月期の会社予想配当は155円で前期と同額(2026-07提供資料、四半期内訳2Q77.5円+4Q77.5円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -7694,7 +7694,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:33",
+      "updated_at": "2026-08-04 07:37",
       "forecast_dividend_changes": []
     },
     {
@@ -7704,21 +7704,21 @@
       "sector": "証券･商品先物取引業",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1812.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 5.0,
-      "price_change_pct": 0.002767017,
+      "price": 1765.5,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -46.5,
+      "price_change_pct": -0.02566225,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 14.37638844811171,
+            "value": 14.007457949857187,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.4237224212709787,
+            "value": 1.387186498208561,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -7733,7 +7733,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.4282560706401766,
+            "value": 2.4922118380062304,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -7743,7 +7743,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 25107.92632176,
+            "value": 24463.60039794,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -7781,7 +7781,7 @@
         "target_price": 1978.51
       },
       "forecast_dividend": 44.0,
-      "dividend_yield_pct": 2.4282560706401766,
+      "dividend_yield_pct": 2.4922118380062304,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -7815,7 +7815,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:33",
+      "updated_at": "2026-08-04 07:37",
       "forecast_dividend_changes": []
     },
     {
@@ -7825,21 +7825,21 @@
       "sector": "食品",
       "cycle": "ディフェンシブ",
       "fiscal_year_end_month": 3,
-      "price": 2736.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -29.0,
-      "price_change_pct": -0.010488246,
+      "price": 2691.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -45.0,
+      "price_change_pct": -0.016447369,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 15.183972473500194,
+            "value": 14.934236084133415,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.1603132,
+            "value": 1.1412292,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -7854,7 +7854,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.349415204678363,
+            "value": 4.42214790040877,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -7864,7 +7864,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 895.73050368,
+            "value": 880.99809408,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -7902,7 +7902,7 @@
         "target_price": 3487.11
       },
       "forecast_dividend": 119.0,
-      "dividend_yield_pct": 4.349415204678363,
+      "dividend_yield_pct": 4.42214790040877,
       "dividend_override_note": "2020年3月期に一株配当が70円→66円へ減配(1回のみ、直近10期内)。2023年3月期はEPSが一時的に落ち込み(43.24円、黒字は維持)。BPSは2020年・2023年に一時減少。2027年3月期の会社予想配当は119円で前期と同額(2026-07提供資料、四半期内訳2Q60円+4Q59円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -7933,7 +7933,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:34",
+      "updated_at": "2026-08-04 07:37",
       "forecast_dividend_changes": []
     },
     {
@@ -7943,46 +7943,46 @@
       "sector": "電気･ガス業",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3819.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 19.0,
-      "price_change_pct": 0.005,
+      "price": 3866.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 47.0,
+      "price_change_pct": 0.012306887,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 10.40684524620541,
+            "value": 8.400512809369635,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.4693206,
+            "value": 0.48414324428570715,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
           "ROE": {
-            "value": 5.595425610244844,
+            "value": 3.814787588727357,
             "criterion": "7%以上",
             "judge": "×"
           },
           "ROA": {
-            "value": 2.2819267890532458,
+            "value": 1.5652855669477317,
             "criterion": "3%以上",
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.7494108405341713,
+            "value": 2.7159855147439216,
             "criterion": "3%以上",
             "judge": "×"
           },
           "自己資本比率": {
-            "value": 37.5,
+            "value": 37.6,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 6721.75620096,
+            "value": 6804.4806847,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -8020,7 +8020,7 @@
         "target_price": 11449.93
       },
       "forecast_dividend": 105.0,
-      "dividend_yield_pct": 2.7494108405341713,
+      "dividend_yield_pct": 2.7159855147439216,
       "dividend_override_note": "電力・エネルギー業のためEPSの変動がやや大きい(黒字は10期内すべて維持)。2027年3月期の会社予想配当は105円(2026-07提供資料、四半期内訳2Q50円+4Q55円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -8042,7 +8042,7 @@
         "growth_score": 1,
         "income_score": 3,
         "total_score": 4,
-        "payout_ratio_pct": 19.8,
+        "payout_ratio_pct": 30.7,
         "dividend_cagr_pct": 4.04,
         "dividend_years_to_double": 17.5,
         "growth_detail": [
@@ -8054,7 +8054,7 @@
           "無配0期"
         ]
       },
-      "updated_at": "2026-08-03 07:34",
+      "updated_at": "2026-08-04 07:39",
       "forecast_dividend_changes": []
     },
     {
@@ -8064,21 +8064,21 @@
       "sector": "食品",
       "cycle": "ディフェンシブ",
       "fiscal_year_end_month": 12,
-      "price": 2910.5,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -42.5,
-      "price_change_pct": -0.014392143,
+      "price": 2856.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -54.5,
+      "price_change_pct": -0.018725306,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 15.080310880829016,
+            "value": 14.797927461139896,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.832127861814565,
+            "value": 1.7978207089305611,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -8093,7 +8093,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.6112351829582545,
+            "value": 2.661064425770308,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -8103,7 +8103,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 23579.361003495,
+            "value": 23137.83027864,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -8141,7 +8141,7 @@
         "target_price": 2954.07
       },
       "forecast_dividend": 76.0,
-      "dividend_yield_pct": 2.6112351829582545,
+      "dividend_yield_pct": 2.661064425770308,
       "dividend_override_note": "決算期は12月。EPSの変動がやや大きいが直近10期は黒字を維持。BPSは2018年・2020年に一時減少。一株配当は減配せず74円まで増配を継続。2026年12月期の会社予想は76円(2026-07提供資料、四半期内訳2Q38円+4Q38円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -8174,7 +8174,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:35",
+      "updated_at": "2026-08-04 07:39",
       "forecast_dividend_changes": []
     },
     {
@@ -8184,21 +8184,21 @@
       "sector": "その他金融",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1160.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -11.0,
-      "price_change_pct": -0.009393681,
+      "price": 1179.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 19.0,
+      "price_change_pct": 0.01637931,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 17.626501,
+            "value": 18.085596,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 3.758497,
+            "value": 3.8200586,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -8213,7 +8213,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.137931034482759,
+            "value": 4.071246819338422,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -8223,7 +8223,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 304.24029184,
+            "value": 309.22354688,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -8261,7 +8261,7 @@
         "target_price": null
       },
       "forecast_dividend": 48.0,
-      "dividend_yield_pct": 4.137931034482759,
+      "dividend_yield_pct": 4.071246819338422,
       "dividend_override_note": "決算期は3月。2021年3月期はコロナ禍による家賃保証履行費用の増加で大幅赤字(EPS-288.8円)、財務状況も大きく悪化。2022年3月期以降、資本増強等により財務内容が改善。IRBANK資料上、BPS・配当の連続データは2022年3月期以降のみ確認でき、10期分の完全な履歴は取得できない(直近5期のみ投入、Step2/Step3は10期揃うまでデータ不足のまま)。2027年3月期の会社予想配当は48円(2026-07提供資料、四半期内訳2Q0円+4Q48円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -8273,7 +8273,7 @@
         "buy2_price": 1084,
         "buy3_price": 1060,
         "buy_status": "監視",
-        "sample_daily": 574,
+        "sample_daily": 575,
         "sample_annual": 3,
         "error": null
       },
@@ -8289,7 +8289,7 @@
         "growth_detail": [],
         "income_detail": []
       },
-      "updated_at": "2026-08-03 07:35",
+      "updated_at": "2026-08-04 07:39",
       "forecast_dividend_changes": []
     },
     {
@@ -8299,21 +8299,21 @@
       "sector": "素材・自動車関連",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 12,
-      "price": 3914.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -51.0,
-      "price_change_pct": -0.012862547,
+      "price": 3882.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -32.0,
+      "price_change_pct": -0.008175779,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 14.4497360357367,
+            "value": 14.331598183630524,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.3644809638520616,
+            "value": 1.3533252686953765,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -8328,7 +8328,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.1936637710781812,
+            "value": 3.2199896960329726,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -8338,7 +8338,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 49964.47017844,
+            "value": 49555.97169972,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -8376,7 +8376,7 @@
         "target_price": 4761.39
       },
       "forecast_dividend": 125.0,
-      "dividend_yield_pct": 3.1936637710781812,
+      "dividend_yield_pct": 3.2199896960329726,
       "dividend_override_note": "決算期は12月。2020年12月期はコロナ禍の需要減でEPSが赤字(-16.55円)に転落、同時に一株配当も80円→55円へ減配(直近10期内で唯一の赤字・減配)。2021年12月期に急回復。2026年12月期の会社予想配当は125円(2026-07提供資料、四半期内訳2Q60円+4Q65円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -8408,7 +8408,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:35",
+      "updated_at": "2026-08-04 07:39",
       "forecast_dividend_changes": []
     },
     {
@@ -8418,21 +8418,21 @@
       "sector": "化学",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3149.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -34.0,
-      "price_change_pct": -0.010681746,
+      "price": 3147.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -2.0,
+      "price_change_pct": -0.0006351222,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.798211745580167,
+            "value": 12.790083316399105,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 0.69968235,
+            "value": 0.69923794,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -8447,7 +8447,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 5.080978088281994,
+            "value": 5.084207181442644,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -8457,7 +8457,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 3059.10218752,
+            "value": 3057.15904512,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -8495,7 +8495,7 @@
         "target_price": 6468.63
       },
       "forecast_dividend": 160.0,
-      "dividend_yield_pct": 5.080978088281994,
+      "dividend_yield_pct": 5.084207181442644,
       "dividend_override_note": "化学業のためEPSの変動が大きく、2023年3月期・2025年3月期に赤字(直近10期内で2期)。ただし一株配当は減配せず110円を維持。2027年3月期の会社予想配当は160円(2026-07提供資料、四半期内訳2Q80円+4Q80円、大幅増配)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -8528,7 +8528,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:36",
+      "updated_at": "2026-08-04 07:39",
       "forecast_dividend_changes": []
     },
     {
@@ -8538,21 +8538,21 @@
       "sector": "情報･通信業",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1016.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -19.0,
-      "price_change_pct": -0.018357487,
+      "price": 1002.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -14.0,
+      "price_change_pct": -0.013779527,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 11.042277,
+            "value": 11.093888,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.0735861,
+            "value": 1.0587926,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -8567,7 +8567,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.625984251968504,
+            "value": 4.69061876247505,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -8577,7 +8577,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 329.75198208,
+            "value": 325.2081664,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -8615,16 +8615,16 @@
         "target_price": 1768.36
       },
       "forecast_dividend": 47.0,
-      "dividend_yield_pct": 4.625984251968504,
+      "dividend_yield_pct": 4.69061876247505,
       "dividend_override_note": "2024年3月期にEPS・BPSとも急伸(EPS408.02円、大型一時益等の影響とみられる)。一株配当は減配せず45円まで大幅増配を継続。2027年3月期の会社予想配当は47円(2026-07提供資料、四半期内訳2Q23.5円+4Q23.5円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：情報･通信業・利益変動大・配当変動大",
         "target1_pct": 4.11,
-        "target2_pct": 4.46,
+        "target2_pct": 4.47,
         "target3_pct": 4.77,
         "buy1_price": 1144,
-        "buy2_price": 1054,
+        "buy2_price": 1051,
         "buy3_price": 985,
         "buy_status": "第2買い（追加買い）",
         "sample_daily": 732,
@@ -8651,7 +8651,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:36",
+      "updated_at": "2026-08-04 07:40",
       "forecast_dividend_changes": []
     },
     {
@@ -8661,21 +8661,21 @@
       "sector": "食品",
       "cycle": "ディフェンシブ",
       "fiscal_year_end_month": 2,
-      "price": 2711.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -74.0,
-      "price_change_pct": -0.026570916,
+      "price": 2713.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 2.0,
+      "price_change_pct": 0.0007377351,
       "step1": {
         "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 9.779942279942281,
+            "value": 9.787157287157287,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.7900818642551344,
+            "value": 0.7906647354202064,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -8690,7 +8690,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.426410918480266,
+            "value": 4.423147806855879,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -8700,7 +8700,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 469.43356102,
+            "value": 469.77987866,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -8738,7 +8738,7 @@
         "target_price": 4865.16
       },
       "forecast_dividend": 120.0,
-      "dividend_yield_pct": 4.426410918480266,
+      "dividend_yield_pct": 4.423147806855879,
       "dividend_override_note": "決算期は2月。2019年2月期にEPSが一時的に落ち込み(34.76円、黒字は維持)。BPSは2019年2月期に一時減少。一株配当は減配せず120円まで増配を継続。2027年2月期の会社予想配当は120円で前期と同額(2026-07提供資料、四半期内訳2Q60円+4Q60円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -8773,7 +8773,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:36",
+      "updated_at": "2026-08-04 07:40",
       "forecast_dividend_changes": []
     },
     {
@@ -8783,21 +8783,21 @@
       "sector": "素材",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2281.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -10.5,
-      "price_change_pct": -0.0045821513,
+      "price": 2250.5,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -30.5,
+      "price_change_pct": -0.01337133,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.061762995082226,
+            "value": 11.900481201417163,
             "criterion": "12倍以下",
-            "judge": "×"
+            "judge": "○"
           },
           "PBR": {
-            "value": 2.4107718,
+            "value": 2.3785367,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -8812,7 +8812,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.0688294607628235,
+            "value": 3.1104199066874028,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -8822,7 +8822,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 3125.03229411,
+            "value": 3083.246461155,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -8860,7 +8860,7 @@
         "target_price": 2032.99
       },
       "forecast_dividend": 70.0,
-      "dividend_yield_pct": 3.0688294607628235,
+      "dividend_yield_pct": 3.1104199066874028,
       "dividend_override_note": "株式分割の影響で一部年度のIRBANK資料上の一株配当と開示ベースの四半期内訳(脚注)の額に倍率差が見られるが、この履歴は分割調整済みの数値に統一している。急成長企業でEPS・BPSとも大幅増加基調。一株配当は減配せず58円まで増配を継続。2027年3月期の会社予想配当は70円(2026-07提供資料、四半期内訳2Q35円+4Q35円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -8877,7 +8877,7 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 PBRは基準未達。",
+      "comment": "PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
         "income_score": 4,
@@ -8897,7 +8897,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:36",
+      "updated_at": "2026-08-04 07:40",
       "forecast_dividend_changes": []
     },
     {
@@ -8907,21 +8907,21 @@
       "sector": "その他金融",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1822.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -20.0,
-      "price_change_pct": -0.010857764,
+      "price": 1815.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -7.0,
+      "price_change_pct": -0.003841932,
       "step1": {
         "overall": "×",
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 24.59835290941002,
+            "value": 24.503847711624143,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 4.159342540805844,
+            "value": 4.143362629836776,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -8936,7 +8936,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.610318331503842,
+            "value": 4.628099173553719,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -8946,7 +8946,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 809.44476274,
+            "value": 806.33493105,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -8984,7 +8984,7 @@
         "target_price": 994.01
       },
       "forecast_dividend": 84.0,
-      "dividend_yield_pct": 4.610318331503842,
+      "dividend_yield_pct": 4.628099173553719,
       "dividend_override_note": "2026年3月期は配当・自社株買いなど株主還元(総還元性向167.9%)が利益を上回りBPSが前期比減少。2027年3月期の会社予想配当は84円(2026-07提供資料、四半期内訳2Q42円+4Q42円、前期40円から大幅増配)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -9019,7 +9019,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:38",
+      "updated_at": "2026-08-04 07:41",
       "forecast_dividend_changes": []
     },
     {
@@ -9029,46 +9029,46 @@
       "sector": "機械",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 23295.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 0.0,
-      "price_change_pct": 0.0,
+      "price": 23765.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 470.0,
+      "price_change_pct": 0.020176003,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 25.450949972139977,
+            "value": 25.03370833860026,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.0959976,
+            "value": 2.1414540080738176,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
           "ROE": {
-            "value": 6.069112954531899,
+            "value": 8.298683747932332,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 3.4456128147951146,
+            "value": 4.737779812849874,
             "criterion": "3%以上",
             "judge": "○"
           },
           "配当利回り": {
-            "value": 1.5453960077269802,
+            "value": 1.5148327372185988,
             "criterion": "3%以上",
             "judge": "×"
           },
           "自己資本比率": {
-            "value": 55.50000000000001,
+            "value": 55.900000000000006,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 68216.0334522,
+            "value": 69593.8090918,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -9106,7 +9106,7 @@
         "target_price": 18392.74
       },
       "forecast_dividend": 360.0,
-      "dividend_yield_pct": 1.5453960077269802,
+      "dividend_yield_pct": 1.5148327372185988,
       "dividend_override_note": "2027年3月期の会社予想配当は360円(2026-07提供資料)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -9123,12 +9123,12 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 配当利回りは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
         "income_score": 4,
         "total_score": 5,
-        "payout_ratio_pct": 36.5,
+        "payout_ratio_pct": 36.199999999999996,
         "dividend_cagr_pct": 11.27,
         "dividend_years_to_double": 6.5,
         "growth_detail": [
@@ -9141,7 +9141,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:38",
+      "updated_at": "2026-08-04 07:41",
       "forecast_dividend_changes": []
     },
     {
@@ -9151,21 +9151,21 @@
       "sector": "建設・住宅",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2055.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 50.0,
-      "price_change_pct": 0.024937656,
+      "price": 1987.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -68.0,
+      "price_change_pct": -0.033090025,
       "step1": {
         "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 10.698667221990837,
+            "value": 10.344648063306956,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.0765757034413752,
+            "value": 1.040951787220444,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -9180,7 +9180,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.7469586374695862,
+            "value": 3.8751887267237044,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -9190,7 +9190,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 460.03823895,
+            "value": 444.81556243,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -9228,16 +9228,16 @@
         "target_price": 3099.24
       },
       "forecast_dividend": 77.0,
-      "dividend_yield_pct": 3.7469586374695862,
+      "dividend_yield_pct": 3.8751887267237044,
       "dividend_override_note": "建設関連業のためEPSの変動がやや大きい(2023・2024年3月期に一時的な落ち込みも黒字は維持)。一株配当は減配せず60円まで増配を継続。2027年3月期の会社予想配当は77円(2026-07提供資料)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・配当変動大",
         "target1_pct": 2.85,
-        "target2_pct": 2.95,
+        "target2_pct": 2.96,
         "target3_pct": 3.06,
         "buy1_price": 2702,
-        "buy2_price": 2610,
+        "buy2_price": 2601,
         "buy3_price": 2516,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 732,
@@ -9264,7 +9264,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:38",
+      "updated_at": "2026-08-04 07:42",
       "forecast_dividend_changes": []
     },
     {
@@ -9274,21 +9274,21 @@
       "sector": "食品",
       "cycle": "ディフェンシブ",
       "fiscal_year_end_month": 3,
-      "price": 4896.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -69.0,
-      "price_change_pct": -0.013897281,
+      "price": 4953.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 57.0,
+      "price_change_pct": 0.011642157,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 38.807863031071655,
+            "value": 39.25967025998732,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 6.087735004476276,
+            "value": 6.158609370337213,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -9303,7 +9303,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 1.0212418300653594,
+            "value": 1.0094891984655765,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -9313,7 +9313,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 46925.45628192,
+            "value": 47471.76980481,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -9351,7 +9351,7 @@
         "target_price": 1451.24
       },
       "forecast_dividend": 50.0,
-      "dividend_yield_pct": 1.0212418300653594,
+      "dividend_yield_pct": 1.0094891984655765,
       "dividend_override_note": "2020年3月期はEPSが一時的に落ち込み(17.18円、黒字は維持)、BPSも2020・2025年3月期に一時減少。一株配当は減配せず48円まで増配を継続。2027年3月期の会社予想配当は50円(2026-07提供資料、四半期内訳2Q25円+4Q25円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -9387,7 +9387,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:38",
+      "updated_at": "2026-08-04 07:42",
       "forecast_dividend_changes": []
     },
     {
@@ -9397,21 +9397,21 @@
       "sector": "電気機器",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3544.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -147.0,
-      "price_change_pct": -0.039826605,
+      "price": 3741.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 197.0,
+      "price_change_pct": 0.05558691,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 34.498199162854085,
+            "value": 36.415847366884066,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.3981103418348226,
+            "value": 1.4758269720101782,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -9426,7 +9426,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 1.580135440180587,
+            "value": 1.4969259556268377,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -9436,7 +9436,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 46688.86835648,
+            "value": 49284.15816072,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -9474,7 +9474,7 @@
         "target_price": 3250.45
       },
       "forecast_dividend": 56.0,
-      "dividend_yield_pct": 1.580135440180587,
+      "dividend_yield_pct": 1.4969259556268377,
       "dividend_override_note": "EPSの変動が大きく2025年3月期は一時的に大幅減益(17.11円、黒字は維持)、2026年3月期に急回復。BPSは2018・2019・2025年3月期に一時減少。一株配当は2021年3月期に1回減配(40円→35円)。2027年3月期の会社予想配当は56円(2026-07提供資料、四半期内訳2Q28円+4Q28円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -9505,7 +9505,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:38",
+      "updated_at": "2026-08-04 07:42",
       "forecast_dividend_changes": []
     },
     {
@@ -9515,21 +9515,21 @@
       "sector": "化学",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3349.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 24.0,
-      "price_change_pct": 0.007218045,
+      "price": 3374.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 25.0,
+      "price_change_pct": 0.007464915,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 16.000955566172955,
+            "value": 16.120401337792643,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.9651795302111879,
+            "value": 1.9798494281673775,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -9544,7 +9544,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 1.911018214392356,
+            "value": 1.896858328393598,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -9554,7 +9554,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 22560.8650275,
+            "value": 22729.279965,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -9592,7 +9592,7 @@
         "target_price": 2945.51
       },
       "forecast_dividend": 64.0,
-      "dividend_yield_pct": 1.911018214392356,
+      "dividend_yield_pct": 1.896858328393598,
       "dividend_override_note": "2020年3月期はEPSが一時的に落ち込み(60.26円、黒字は維持)。一株配当は減配せず60円まで増配を継続。2027年3月期の会社予想配当は64円(2026-07提供資料、四半期内訳2Q32円+4Q32円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -9629,7 +9629,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:39",
+      "updated_at": "2026-08-04 07:43",
       "forecast_dividend_changes": []
     },
     {
@@ -9639,21 +9639,21 @@
       "sector": "不動産",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 12,
-      "price": 3284.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -103.0,
-      "price_change_pct": -0.030410392,
+      "price": 3245.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -39.0,
+      "price_change_pct": -0.011875762,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 10.82185461016279,
+            "value": 10.693336848349041,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.1535556843528814,
+            "value": 1.1398563324376065,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -9668,7 +9668,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 3.714981729598051,
+            "value": 3.7596302003081665,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -9678,7 +9678,7 @@
             "judge": "×"
           },
           "時価総額": {
-            "value": 6817.79962744,
+            "value": 6736.8330667,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -9716,7 +9716,7 @@
         "target_price": 4649.38
       },
       "forecast_dividend": 122.0,
-      "dividend_yield_pct": 3.714981729598051,
+      "dividend_yield_pct": 3.7596302003081665,
       "dividend_override_note": "決算期は12月。自己資本比率は不動産業のため構造的に低め(約26%、業種特性)。2027年12月期の会社予想配当は122円(2026-07提供資料、四半期内訳2Q61円+4Q61円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -9752,7 +9752,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:39",
+      "updated_at": "2026-08-04 07:43",
       "forecast_dividend_changes": []
     },
     {
@@ -9762,46 +9762,46 @@
       "sector": "サービス",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1981.5,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -36.0,
-      "price_change_pct": -0.017843867,
+      "price": 1970.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -11.5,
+      "price_change_pct": -0.005803684,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 23.078266946191473,
+            "value": 21.565407772304326,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 4.4333324,
+            "value": 4.417040358744394,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
           "ROE": {
-            "value": 15.234238112878842,
+            "value": 19.605054842960477,
             "criterion": "7%以上",
             "judge": "○"
           },
           "ROA": {
-            "value": 12.373192162411616,
+            "value": 15.311146485025729,
             "criterion": "3%以上",
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.775674993691648,
+            "value": 2.7918781725888326,
             "criterion": "3%以上",
             "judge": "×"
           },
           "自己資本比率": {
-            "value": 79.7,
+            "value": 76.7,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 9199.43273187,
+            "value": 9146.6607106,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -9839,7 +9839,7 @@
         "target_price": 995.34
       },
       "forecast_dividend": 55.0,
-      "dividend_yield_pct": 2.775674993691648,
+      "dividend_yield_pct": 2.7918781725888326,
       "dividend_override_note": "2021年3月期はコロナ禍の中古車オークション市場縮小でEPSが一時的に急落(8.07円、黒字は維持)。BPSも同年に一時減少。一株配当は減配せず54.7円まで増配を継続。2027年3月期の会社予想配当は55円で前期とほぼ同額(2026-07提供資料、四半期内訳2Q27.5円+4Q27.5円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -9861,7 +9861,7 @@
         "growth_score": 1,
         "income_score": 3,
         "total_score": 4,
-        "payout_ratio_pct": 55.00000000000001,
+        "payout_ratio_pct": 61.4,
         "dividend_cagr_pct": 10.0,
         "dividend_years_to_double": 7.3,
         "growth_detail": [
@@ -9873,7 +9873,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:39",
+      "updated_at": "2026-08-04 07:43",
       "forecast_dividend_changes": []
     },
     {
@@ -9883,21 +9883,21 @@
       "sector": "鉄鋼",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1507.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -8.0,
-      "price_change_pct": -0.005280528,
+      "price": 1524.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 17.0,
+      "price_change_pct": 0.01128069,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 13.645418,
+            "value": 13.799348,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 0.96916234,
+            "value": 0.98009515,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -9912,7 +9912,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.981420039814201,
+            "value": 3.937007874015748,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -9922,7 +9922,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 914.6372096,
+            "value": 924.95495168,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -9960,7 +9960,7 @@
         "target_price": 2228.23
       },
       "forecast_dividend": 60.0,
-      "dividend_yield_pct": 3.981420039814201,
+      "dividend_yield_pct": 3.937007874015748,
       "dividend_override_note": "鉄鋼業のためEPSの変動がやや大きい(黒字は10期内すべて維持)。株式分割等の影響とみられる配当スケール差が資料脚注に見られるが、この履歴は開示ベースの系列として一貫性を確認済み。2027年3月期の会社予想配当は60円(2026-07提供資料、四半期内訳2Q30円+4Q30円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -9993,7 +9993,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:39",
+      "updated_at": "2026-08-04 07:44",
       "forecast_dividend_changes": []
     },
     {
@@ -10003,21 +10003,21 @@
       "sector": "医薬品",
       "cycle": "ディフェンシブ",
       "fiscal_year_end_month": 3,
-      "price": 2176.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -26.0,
-      "price_change_pct": -0.011807447,
+      "price": 2168.5,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -7.5,
+      "price_change_pct": -0.0034466914,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.994147856204465,
+            "value": 12.949361041442732,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.131327378153894,
+            "value": 2.1239813508854413,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -10032,7 +10032,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.6764705882352944,
+            "value": 3.6891860733225728,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -10042,7 +10042,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 38982.87153408,
+            "value": 38848.50961473,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -10080,7 +10080,7 @@
         "target_price": 1811.83
       },
       "forecast_dividend": 80.0,
-      "dividend_yield_pct": 3.6764705882352944,
+      "dividend_yield_pct": 3.6891860733225728,
       "dividend_override_note": "2024年3月期に主力製品の特許切れ等の影響とみられる大幅減益でEPSが一時的に急落(9.5円、黒字は維持)、2026年3月期に大型一時益等で急回復。BPSも2025年3月期に一時減少。一株配当は減配せず78円まで増配を継続(利益変動時も配当は維持)。2027年3月期の会社予想配当は80円(2026-07提供資料、四半期内訳2Q40円+4Q40円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -10115,7 +10115,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:41",
+      "updated_at": "2026-08-04 07:44",
       "forecast_dividend_changes": []
     },
     {
@@ -10125,21 +10125,21 @@
       "sector": "化学",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2567.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -11.0,
-      "price_change_pct": -0.0042668735,
+      "price": 2551.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -16.0,
+      "price_change_pct": -0.0062329564,
       "step1": {
         "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 10.704753961634696,
+            "value": 10.638031693077565,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.083369206485866,
+            "value": 1.0766166130679564,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -10154,7 +10154,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.051421893260616,
+            "value": 4.076832614660917,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -10164,7 +10164,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 556.65395,
+            "value": 553.18435,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -10202,7 +10202,7 @@
         "target_price": 3695.73
       },
       "forecast_dividend": 104.0,
-      "dividend_yield_pct": 4.051421893260616,
+      "dividend_yield_pct": 4.076832614660917,
       "dividend_override_note": "2024年3月期はEPSが一時的に落ち込み(146.37円、黒字は維持)。一株配当は減配せず98円まで大幅増配を継続。2027年3月期の会社予想配当は104円(2026-07提供資料、四半期内訳2Q52円+4Q52円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -10238,7 +10238,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:41",
+      "updated_at": "2026-08-04 07:44",
       "forecast_dividend_changes": []
     },
     {
@@ -10248,21 +10248,21 @@
       "sector": "情報･通信業",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1697.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -25.0,
-      "price_change_pct": -0.014518002,
+      "price": 1655.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -42.0,
+      "price_change_pct": -0.024749558,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 14.97000705716302,
+            "value": 14.599505998588567,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.2853064357568984,
+            "value": 2.228746111477706,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -10277,7 +10277,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.714201532115498,
+            "value": 4.833836858006042,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -10287,7 +10287,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 449.09706672,
+            "value": 437.9821128,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -10325,7 +10325,7 @@
         "target_price": 1474.36
       },
       "forecast_dividend": 80.0,
-      "dividend_yield_pct": 4.714201532115498,
+      "dividend_yield_pct": 4.833836858006042,
       "dividend_override_note": "2027年3月期の会社予想配当は80円で前期と同額(2026-07提供資料、四半期内訳2Q40円+4Q40円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -10336,7 +10336,7 @@
         "buy1_price": 1713,
         "buy2_price": 1656,
         "buy3_price": 1603,
-        "buy_status": "第1買い（打診買い）",
+        "buy_status": "第2買い（追加買い）",
         "sample_daily": 732,
         "sample_annual": 10,
         "error": null
@@ -10361,7 +10361,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:41",
+      "updated_at": "2026-08-04 07:44",
       "forecast_dividend_changes": []
     },
     {
@@ -10371,21 +10371,21 @@
       "sector": "建設・住宅",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2378.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -63.0,
-      "price_change_pct": -0.025809094,
+      "price": 2417.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 39.0,
+      "price_change_pct": 0.016400337,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 11.810280605910107,
+            "value": 12.00397318102806,
             "criterion": "12倍以下",
-            "judge": "○"
+            "judge": "×"
           },
           "PBR": {
-            "value": 2.3580625,
+            "value": 2.3967357,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -10400,7 +10400,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.5744322960470982,
+            "value": 3.516756309474555,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -10410,7 +10410,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 3076.6104576,
+            "value": 3127.06793472,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -10448,7 +10448,7 @@
         "target_price": 1729.62
       },
       "forecast_dividend": 85.0,
-      "dividend_yield_pct": 3.5744322960470982,
+      "dividend_yield_pct": 3.516756309474555,
       "dividend_override_note": "建設業の好況を受け直近2〜3期でEPS・配当とも急伸。株式分割等の影響とみられる配当スケール差が資料脚注に一部見られるが、開示ベースの系列として一貫性を確認済み。一株配当は減配せず83.33円まで増配を継続。2027年3月期の会社予想配当は85円(2026-07提供資料、四半期内訳2Q42円+4Q43円)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -10465,7 +10465,7 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PBRは基準未達。",
+      "comment": "PERは基準未達。 PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
         "income_score": 4,
@@ -10485,7 +10485,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:41",
+      "updated_at": "2026-08-04 07:46",
       "forecast_dividend_changes": []
     },
     {
@@ -10495,21 +10495,21 @@
       "sector": "食品",
       "cycle": "ディフェンシブ",
       "fiscal_year_end_month": 3,
-      "price": 1913.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 22.0,
-      "price_change_pct": 0.011634056,
+      "price": 1880.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": -33.0,
+      "price_change_pct": -0.017250393,
       "step1": {
         "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 7.955915990850489,
+            "value": 7.818673320856727,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.7548554607656672,
+            "value": 0.7418339081230813,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -10524,7 +10524,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.972817564035546,
+            "value": 4.042553191489362,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -10534,7 +10534,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 548.95970249,
+            "value": 539.4899324,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -10572,7 +10572,7 @@
         "target_price": 3751.58
       },
       "forecast_dividend": 76.0,
-      "dividend_yield_pct": 3.972817564035546,
+      "dividend_yield_pct": 4.042553191489362,
       "dividend_override_note": "飼料原料価格高騰の影響で2023年3月期にEPSが一時的に急落(27.97円、黒字は維持)、以降回復基調。BPSも同年に一時減少。一株配当は減配せず65円まで増配を継続。2027年3月期の会社予想配当は76円(2026-07提供資料、四半期内訳2Q38円+4Q38円)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
@@ -10605,7 +10605,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:41",
+      "updated_at": "2026-08-04 07:46",
       "forecast_dividend_changes": []
     },
     {
@@ -10615,21 +10615,21 @@
       "sector": "建設・住宅",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 2052.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 45.0,
-      "price_change_pct": 0.022421524,
+      "price": 2074.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 22.0,
+      "price_change_pct": 0.010721248,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 14.717062325181093,
+            "value": 14.874847593774653,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.3662602952240812,
+            "value": 1.3809083100851582,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -10644,7 +10644,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.093567251461988,
+            "value": 4.050144648023143,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -10654,7 +10654,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 971.30761308,
+            "value": 981.72124246,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -10692,7 +10692,7 @@
         "target_price": 2289.37
       },
       "forecast_dividend": 84.0,
-      "dividend_yield_pct": 4.093567251461988,
+      "dividend_yield_pct": 4.050144648023143,
       "dividend_override_note": "2021年10月1日に株式分割を実施。EPS・BPSはEDINET DBの分割調整値(adjusted_eps/adjusted_bps)を採用。配当はEDINET DBの分割またぎ調整に2018年3月期・2022年3月期でズレがあったため、IRBANK実測値(12.5円・30円)で補正。27/03期の会社予想配当は84円(IRBANK)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -10729,7 +10729,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:42",
+      "updated_at": "2026-08-04 07:46",
       "forecast_dividend_changes": []
     },
     {
@@ -10739,21 +10739,21 @@
       "sector": "卸売・商社",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 3875.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": -30.0,
-      "price_change_pct": -0.007682459,
+      "price": 3905.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 30.0,
+      "price_change_pct": 0.007741935,
       "step1": {
         "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 9.095390104215566,
+            "value": 9.165806027603042,
             "criterion": "12倍以下",
             "judge": "○"
           },
           "PBR": {
-            "value": 0.9332806682048737,
+            "value": 0.9405060669264598,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -10768,7 +10768,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 4.412903225806451,
+            "value": 4.379001280409732,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -10778,7 +10778,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 955.0122725,
+            "value": 962.4059159,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -10816,7 +10816,7 @@
         "target_price": 7026.5
       },
       "forecast_dividend": 171.0,
-      "dividend_yield_pct": 4.412903225806451,
+      "dividend_yield_pct": 4.379001280409732,
       "dividend_override_note": "株式分割なし(factor常に1.0)、EDINET DBの数値をそのまま採用、Web検索の独立情報とも一致確認済み。2021年3月期はコロナ影響でEPSが50.73円に急落し、唯一の減配(63円→37円)。以降は増配基調に回復。2027年3月期の会社予想配当は171円(2026-07-30開示、大幅増配)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -10852,7 +10852,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 07:42",
+      "updated_at": "2026-08-04 07:46",
       "forecast_dividend_changes": []
     },
     {
@@ -10862,21 +10862,21 @@
       "sector": "電気機器",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 12,
-      "price": 3795.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 60.0,
-      "price_change_pct": 0.016064256,
+      "price": 3835.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 40.0,
+      "price_change_pct": 0.010540185,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 16.958620073286262,
+            "value": 17.137367056930913,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.7862641,
+            "value": 1.8050916,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -10891,7 +10891,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 4.3478260869565215,
+            "value": 4.3024771838331155,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -10901,7 +10901,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 785.7419229,
+            "value": 794.0237877,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -10939,7 +10939,7 @@
         "target_price": 3694.41
       },
       "forecast_dividend": 165.0,
-      "dividend_yield_pct": 4.3478260869565215,
+      "dividend_yield_pct": 4.3024771838331155,
       "dividend_override_note": "12月決算(変更なし、元から12月期)。株式分割なし、EDINET DB値をそのまま採用。2023年12月期に一度減配(125円→100円)、翌期には125円に回復し以降増配基調。2026年12月期の会社予想配当は実績据え置きの165円(2026-05-08開示Q1時点、純利益は前期比-32.9%予想のため据え置き)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -10972,7 +10972,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 14:01",
+      "updated_at": "2026-08-04 07:46",
       "forecast_dividend_changes": []
     },
     {
@@ -10982,21 +10982,21 @@
       "sector": "電気機器",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 12,
-      "price": 2125.0,
-      "price_date": "2026-08-03 15:30",
-      "price_change": 50.0,
-      "price_change_pct": 0.024096385,
+      "price": 2222.0,
+      "price_date": "2026-08-04 15:30",
+      "price_change": 97.0,
+      "price_change_pct": 0.04564706,
       "step1": {
         "overall": "×",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.496324610408703,
+            "value": 13.066745074977947,
             "criterion": "12倍以下",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.4661068,
+            "value": 1.5330302,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -11011,7 +11011,7 @@
             "judge": "×"
           },
           "配当利回り": {
-            "value": 2.823529411764706,
+            "value": 2.7002700270027002,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -11021,7 +11021,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 287.41574875,
+            "value": 300.53543234,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -11059,7 +11059,7 @@
         "target_price": 2198.54
       },
       "forecast_dividend": 60.0,
-      "dividend_yield_pct": 2.823529411764706,
+      "dividend_yield_pct": 2.7002700270027002,
       "dividend_override_note": "12月決算。株式分割なし、EDINET DB値をそのまま採用。10期で減配なし、15円→50円(実績)、60円(2026年12月期予想)まで一貫して増配基調(2026-07-24開示)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -11094,7 +11094,7 @@
           "配当CAGR5%以上"
         ]
       },
-      "updated_at": "2026-08-03 14:06",
+      "updated_at": "2026-08-04 07:47",
       "forecast_dividend_changes": []
     }
   ],
