@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06 14:16",
+  "generated_at": "2026-08-06 15:05",
   "stocks": [
     {
       "code": "8306",
@@ -11341,6 +11341,126 @@
         ]
       },
       "updated_at": "2026-08-06 14:16",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "4958",
+      "name": "長谷川香料",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 9,
+      "price": 3300.0,
+      "price_date": "2026-08-06 15:30",
+      "price_change": 40.0,
+      "price_change_pct": 0.012269938,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 18.269390466699885,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.0823746,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 2.834225407481327,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 2.3919964780419956,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 3.0303030303030303,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 84.2,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 1339.542996,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "×",
+            "detail": "1.98倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 1回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 1370.57,
+        "latest_bps": 3038.39,
+        "target_price": 4408.96
+      },
+      "forecast_dividend": 100.0,
+      "dividend_yield_pct": 3.0303030303030303,
+      "dividend_override_note": "9月決算。株式分割なし、EDINET DB値をそのまま採用。10期で減配なし、32円→74円(実績)。2026年9月期の会社予想配当は100円へ大幅増額(2026-08-03開示、+35%)。香料メーカーで食品・飲料向け中心のためディフェンシブ性あり。ROE6.16%・PER18.4倍でStep1は5/7クリア(参考: 一次所感時点)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学・利益比較的安定・減配なし・増配基調",
+        "target1_pct": 2.7,
+        "target2_pct": 2.77,
+        "target3_pct": 2.99,
+        "buy1_price": 3704,
+        "buy2_price": 3610,
+        "buy3_price": 3344,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 4,
+        "total_score": 4,
+        "payout_ratio_pct": 43.7,
+        "dividend_cagr_pct": 9.76,
+        "dividend_years_to_double": 7.4,
+        "growth_detail": [],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-08-06 15:05",
       "forecast_dividend_changes": []
     }
   ],
