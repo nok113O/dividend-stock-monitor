@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06 07:48",
+  "generated_at": "2026-08-06 14:16",
   "stocks": [
     {
       "code": "8306",
@@ -11218,6 +11218,129 @@
         ]
       },
       "updated_at": "2026-08-06 07:48",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "4021",
+      "name": "日産化学",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 7563.0,
+      "price_date": "2026-08-06 15:30",
+      "price_change": -180.0,
+      "price_change_pct": -0.023246802,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 23.042471513009566,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 3.973389,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 14.271518458938282,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 10.302401335904793,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 2.8031204548459603,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 71.1,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 10173.37829871,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "○",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "2.35倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 2494.34,
+        "latest_bps": 1903.42,
+        "target_price": 4397.76
+      },
+      "forecast_dividend": 212.0,
+      "dividend_yield_pct": 2.8031204548459603,
+      "dividend_override_note": "EDINET DBより自動取得、株式分割なし。10期で減配なし(1期だけ横ばい)、52円→202円(実績)、212円(2027年3月期予想、2026-05-15開示)まで一貫増配。ただしPER20倍超・PBR4倍近くと割高、配当利回りも3%未満でStep1定量条件は4/7のみクリア(参考: 一次所感時点)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学・利益比較的安定・減配なし・増配基調",
+        "target1_pct": 3.62,
+        "target2_pct": 4.05,
+        "target3_pct": 4.18,
+        "buy1_price": 5856,
+        "buy2_price": 5235,
+        "buy3_price": 5072,
+        "buy_status": "監視",
+        "sample_daily": 733,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 3,
+        "total_score": 6,
+        "payout_ratio_pct": 55.50000000000001,
+        "dividend_cagr_pct": 16.27,
+        "dividend_years_to_double": 4.6,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-08-06 14:16",
       "forecast_dividend_changes": []
     }
   ],
