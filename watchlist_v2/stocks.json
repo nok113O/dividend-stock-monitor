@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07 07:48",
+  "generated_at": "2026-08-08 14:59",
   "stocks": [
     {
       "code": "8306",
@@ -10985,6 +10985,126 @@
         ]
       },
       "updated_at": "2026-08-07 07:48",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "9716",
+      "name": "乃村工藝社",
+      "industry": "サービス業",
+      "sector": "サービス",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 2,
+      "price": 1176.0,
+      "price_date": "2026-08-07 15:30",
+      "price_change": 0.0,
+      "price_change_pct": 0.0,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 14.18747737965979,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 2.1154503426813696,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 14.723946159426129,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 9.581152381651684,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.741496598639456,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 65.10000000000001,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 1312.33119864,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "×",
+            "detail": "1.80倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 1回"
+          },
+          "10期で減配2回未満": {
+            "judge": "×",
+            "detail": "減配 2回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 487.39,
+        "latest_bps": 555.91,
+        "target_price": 1043.3
+      },
+      "forecast_dividend": 44.0,
+      "dividend_yield_pct": 3.741496598639456,
+      "dividend_override_note": "2月決算。2019年5月29日に1:2株式分割を実施(Web検索で確認済み)。EDINET DBのsplit_adjustment_factorが2019年2月期以前=2.0、2020年2月期以降=1.0と切り替わり、実際の分割時期と整合し1939のようなheuristic_straddleフラグもないため信頼度は高いが、2019年2月期の配当額(26円)そのものを独立ソースでピンポイント確認はできていない。コロナ禍で2021・2023年2月期に減配(10期で2回)、直近2期(2025・2026年2月期)は力強く回復し配当32→42円。2027年2月期の会社予想配当は44円(2026-07-09開示)。主力は博覧会・展示会・商業施設の空間デザイン施工。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：サービス業・配当変動大",
+        "target1_pct": 3.62,
+        "target2_pct": 3.76,
+        "target3_pct": 3.86,
+        "buy1_price": 1215,
+        "buy2_price": 1170,
+        "buy3_price": 1140,
+        "buy_status": "第1買い（打診買い）",
+        "sample_daily": 733,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "除外候補",
+      "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。 10期で減配2回未満は高配当株として重要な懸念。",
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 2,
+        "total_score": 3,
+        "payout_ratio_pct": 51.300000000000004,
+        "dividend_cagr_pct": 8.59,
+        "dividend_years_to_double": 8.4,
+        "growth_detail": [
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "無配0期",
+          "配当CAGR5%以上"
+        ]
+      },
+      "updated_at": "2026-08-08 14:59",
       "forecast_dividend_changes": []
     }
   ],
