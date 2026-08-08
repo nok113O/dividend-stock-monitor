@@ -14,6 +14,7 @@ from pathlib import Path
 
 STOCKS_FILE = Path(__file__).resolve().parent / "stocks.json"
 OUTPUT_FILE = Path(__file__).resolve().parent / "rendered.html"
+REMOVED_FILE = Path(__file__).resolve().parent / "removed_codes.json"
 
 UNITS = {
     "PER": "倍",
@@ -316,6 +317,19 @@ CSS = """
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
   .glossary-desc { color: var(--ink-dim); }
+  .removed-list { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--rule); }
+  .removed-list summary {
+    cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--ink-dim);
+    list-style: none;
+  }
+  .removed-list summary::-webkit-details-marker { display: none; }
+  .removed-list summary::before { content: "▸ "; }
+  .removed-list[open] summary::before { content: "▾ "; }
+  .removed-items { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
+  .removed-item { font-size: 0.76rem; line-height: 1.6; }
+  .removed-item .code { margin-right: 4px; }
+  .removed-item .removed-name { font-weight: 600; }
+  .removed-item .removed-meta { color: var(--ink-dim); display: block; }
   footer {
     margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--rule);
     font-size: 0.72rem; color: var(--ink-dim); line-height: 1.7;
@@ -713,6 +727,23 @@ def render(payload: dict) -> str:
         f'<div class="glossary-list">{glossary_items}</div></details>'
     )
 
+    removed_html = ""
+    if REMOVED_FILE.exists():
+        removed_list = json.loads(REMOVED_FILE.read_text(encoding="utf-8"))
+        if removed_list:
+            removed_items = "".join(
+                '<div class="removed-item">'
+                f'<span class="code">{esc(r.get("code"))}</span>'
+                f'<span class="removed-name">{esc(r.get("name"))}</span>'
+                f'<span class="removed-meta">{esc(r.get("removed_at"))}　{esc(r.get("reason") or "理由未記録")}</span>'
+                "</div>"
+                for r in reversed(removed_list)
+            )
+            removed_html = (
+                f'<details class="removed-list"><summary>除外した銘柄（{len(removed_list)}）</summary>'
+                f'<div class="removed-items">{removed_items}</div></details>'
+            )
+
     return f"""<title>高配当株ウォッチリスト</title>
 <style>{CSS}</style>
 <div class="sheet">
@@ -738,6 +769,7 @@ def render(payload: dict) -> str:
   <div class="cards" id="cards">{cards}</div>
   <p id="no-results" class="no-results" hidden>該当する銘柄がありません。</p>
   {glossary_html}
+  {removed_html}
   <footer>
     <strong>最終更新：{payload["generated_at"]}</strong><br>
     株価はYahoo!ファイナンス、財務データはJ-Quants APIから取得しています。第2・第3段階は10期分のデータが揃い次第、自動で判定されます。<br>
