@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09 04:14",
+  "generated_at": "2026-08-09 04:23",
   "stocks": [
     {
       "code": "8306",
@@ -1097,7 +1097,7 @@
       },
       "forecast_dividend": 105.0,
       "dividend_yield_pct": 3.338632750397456,
-      "dividend_override_note": "決算期は6月。2019年6月期に一株配当が13円→11円へ減配(1回のみ、直近10期内)。2026年6月期の会社予想は105円(2026-07提供資料、四半期内訳2Q45円+4Q60円)。",
+      "dividend_override_note": "決算期は6月。2019年6月期に一株配当が13円→11円へ減配(1回のみ、直近10期内)。2026年6月期の会社予想は105円(2026-07提供資料、四半期内訳2Q45円+4Q60円)。2026-08-09確認：2024年8月8日「株主還元方針に関するお知らせ」でDOE4.0%または配当性向50%を目安とすると開示。累進配当の明確な宣言は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：電気機器・配当変動大",
@@ -1116,8 +1116,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 3,
-        "total_score": 5,
+        "income_score": 4,
+        "total_score": 6,
         "payout_ratio_pct": 44.2,
         "dividend_cagr_pct": 25.51,
         "dividend_years_to_double": 3.1,
@@ -1128,11 +1128,14 @@
         "income_detail": [
           "配当性向50%以下",
           "無配0期",
+          "DOE宣言(4.0%以上)を達成/宣言",
           "配当CAGR5%以上"
         ],
-        "dividend_quality_badges": []
+        "dividend_quality_badges": [
+          "DOE宣言(4.0%以上)"
+        ]
       },
-      "updated_at": "2026-08-09 02:16",
+      "updated_at": "2026-08-09 04:20",
       "forecast_dividend_changes": []
     },
     {
@@ -2854,7 +2857,7 @@
       },
       "forecast_dividend": 100.0,
       "dividend_yield_pct": 3.3557046979865772,
-      "dividend_override_note": "J-Quants Freeは2026年3月期実績(95円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は100円(2026-07提供資料、四半期内訳2Q50円+4Q50円)。",
+      "dividend_override_note": "J-Quants Freeは2026年3月期実績(95円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は100円(2026-07提供資料、四半期内訳2Q50円+4Q50円)。2026-08-09確認：配当方針は「安定的・継続的に増配を行うよう努める」との努力目標に留まり、DOE数値目標・累進配当の明確な宣言は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：輸送用機器・減配なし・増配基調",
@@ -2890,7 +2893,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-09 02:22",
+      "updated_at": "2026-08-09 04:21",
       "forecast_dividend_changes": []
     },
     {
@@ -3729,7 +3732,7 @@
       },
       "forecast_dividend": 124.0,
       "dividend_yield_pct": 4.045676998368679,
-      "dividend_override_note": "J-Quants Freeは2026年3月の予想修正開示(FDivAnn未記載)止まりのため予想100円のまま。2026年3月期は実績116円で確定済み、2027年3月期の会社予想は124円(2026-07提供資料、四半期内訳2Q62円+4Q62円)。",
+      "dividend_override_note": "J-Quants Freeは2026年3月の予想修正開示(FDivAnn未記載)止まりのため予想100円のまま。2026年3月期は実績116円で確定済み、2027年3月期の会社予想は124円(2026-07提供資料、四半期内訳2Q62円+4Q62円)。2026-08-09確認：中期経営計画でROE8%・配当性向50%への引き上げを公表。DOE数値目標・累進配当の明確な宣言は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他製品・利益比較的安定・配当変動大",
@@ -3764,7 +3767,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-09 02:25",
+      "updated_at": "2026-08-09 04:22",
       "forecast_dividend_changes": []
     },
     {
@@ -3890,7 +3893,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-09 02:25",
+      "updated_at": "2026-08-09 04:22",
       "forecast_dividend_changes": []
     },
     {
@@ -4253,8 +4256,8 @@
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 3,
-        "total_score": 4,
+        "income_score": 4,
+        "total_score": 5,
         "payout_ratio_pct": 50.6,
         "dividend_cagr_pct": 8.97,
         "dividend_years_to_double": 8.1,
@@ -4264,11 +4267,14 @@
         "income_detail": [
           "減配0回",
           "無配0期",
+          "DOE宣言(3.5%以上)を達成/宣言",
           "配当CAGR5%以上"
         ],
-        "dividend_quality_badges": []
+        "dividend_quality_badges": [
+          "DOE宣言(3.5%以上)"
+        ]
       },
-      "updated_at": "2026-08-09 02:26",
+      "updated_at": "2026-08-09 04:22",
       "forecast_dividend_changes": []
     },
     {
@@ -4356,7 +4362,7 @@
       },
       "forecast_dividend": 123.0,
       "dividend_yield_pct": 3.9703034215622983,
-      "dividend_override_note": "J-Quants Freeは2026年3月期実績(120円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は123円(2026-07提供資料)。",
+      "dividend_override_note": "J-Quants Freeは2026年3月期実績(120円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は123円(2026-07提供資料)。2026-08-09確認：DOEを意識した安定配当・総還元性向50%程度を目安とする方針はあるが、DOE数値目標・累進配当の明確な宣言は確認できず(13期連続増配は実績のみ)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他金融業・利益比較的安定・減配なし・増配基調",
@@ -4395,7 +4401,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-09 02:26",
+      "updated_at": "2026-08-09 04:20",
       "forecast_dividend_changes": []
     },
     {
@@ -5617,7 +5623,7 @@
       },
       "forecast_dividend": 60.0,
       "dividend_yield_pct": 1.848998459167951,
-      "dividend_override_note": "決算期は12月。2025年12月期は市場環境悪化等でEPSが赤字(-28.7円)に転落(直近10期内で唯一の赤字期)。BPSもこの影響で減少。ただし一株配当は減配せず54円へ増配を維持(2019年12月期のみ31円→30円へ1回減配)。2026年12月期の会社予想はEPS黒字転換(134.78円)、配当は60円(2026-07提供資料、四半期内訳2Q30円+4Q30円)。",
+      "dividend_override_note": "決算期は12月。2025年12月期は市場環境悪化等でEPSが赤字(-28.7円)に転落(直近10期内で唯一の赤字期)。BPSもこの影響で減少。ただし一株配当は減配せず54円へ増配を維持(2019年12月期のみ31円→30円へ1回減配)。2026年12月期の会社予想はEPS黒字転換(134.78円)、配当は60円(2026-07提供資料、四半期内訳2Q30円+4Q30円)。2026-08-09確認：「累進配当制度を採用し、一度引き上げた配当金は原則として減額せず、可能な範囲で増額する」旨の方針を開示(総還元性向70%目安)。DOE数値目標は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：精密機器・赤字1期・減配1回",
@@ -5636,19 +5642,22 @@
       "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
       "priority_score": {
         "growth_score": 0,
-        "income_score": 2,
-        "total_score": 2,
+        "income_score": 3,
+        "total_score": 3,
         "payout_ratio_pct": 51.300000000000004,
         "dividend_cagr_pct": 11.67,
         "dividend_years_to_double": 6.3,
         "growth_detail": [],
         "income_detail": [
           "無配0期",
+          "累進配当宣言を達成/宣言",
           "配当CAGR5%以上"
         ],
-        "dividend_quality_badges": []
+        "dividend_quality_badges": [
+          "累進配当宣言"
+        ]
       },
-      "updated_at": "2026-08-09 02:30",
+      "updated_at": "2026-08-09 04:22",
       "forecast_dividend_changes": []
     },
     {
@@ -5866,7 +5875,7 @@
       },
       "forecast_dividend": 115.0,
       "dividend_yield_pct": 2.289012738853503,
-      "dividend_override_note": "J-Quants Freeは2026年3月期実績(107.5円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は115円(2026-07提供資料、四半期内訳2Q57.5円+4Q57.5円)。",
+      "dividend_override_note": "J-Quants Freeは2026年3月期実績(107.5円)止まりで2027年3月期の会社予想が未反映。2027年3月期の会社予想は115円(2026-07提供資料、四半期内訳2Q57.5円+4Q57.5円)。2026-08-09確認：中期経営戦略GC2027等で累進配当の方針を明示。DOEは指標として言及されるが具体的数値目標は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：卸売業・赤字1期・配当変動大",
@@ -5885,8 +5894,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 3,
-        "total_score": 5,
+        "income_score": 4,
+        "total_score": 6,
         "payout_ratio_pct": 32.5,
         "dividend_cagr_pct": 18.69,
         "dividend_years_to_double": 4.0,
@@ -5897,11 +5906,14 @@
         "income_detail": [
           "配当性向50%以下",
           "無配0期",
+          "累進配当宣言を達成/宣言",
           "配当CAGR5%以上"
         ],
-        "dividend_quality_badges": []
+        "dividend_quality_badges": [
+          "累進配当宣言"
+        ]
       },
-      "updated_at": "2026-08-09 02:30",
+      "updated_at": "2026-08-09 04:23",
       "forecast_dividend_changes": []
     },
     {
@@ -9363,7 +9375,7 @@
       },
       "forecast_dividend": 64.0,
       "dividend_yield_pct": 1.8197327267557577,
-      "dividend_override_note": "2020年3月期はEPSが一時的に落ち込み(60.26円、黒字は維持)。一株配当は減配せず60円まで増配を継続。2027年3月期の会社予想配当は64円(2026-07提供資料、四半期内訳2Q32円+4Q32円)。",
+      "dividend_override_note": "2020年3月期はEPSが一時的に落ち込み(60.26円、黒字は維持)。一株配当は減配せず60円まで増配を継続。2027年3月期の会社予想配当は64円(2026-07提供資料、四半期内訳2Q32円+4Q32円)。2026-08-09確認：新中期経営計画「Nitto RISE 2028」でDOE4%以上・総還元性向60%以上の方針を開示。累進配当の明確な宣言は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：化学・減配なし・増配基調",
@@ -9382,8 +9394,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
       "priority_score": {
         "growth_score": 3,
-        "income_score": 4,
-        "total_score": 7,
+        "income_score": 5,
+        "total_score": 8,
         "payout_ratio_pct": 30.4,
         "dividend_cagr_pct": 8.01,
         "dividend_years_to_double": 9.0,
@@ -9396,11 +9408,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "DOE宣言(4.0%以上)を達成/宣言",
           "配当CAGR5%以上"
         ],
-        "dividend_quality_badges": []
+        "dividend_quality_badges": [
+          "DOE宣言(4.0%以上)"
+        ]
       },
-      "updated_at": "2026-08-09 02:40",
+      "updated_at": "2026-08-09 04:20",
       "forecast_dividend_changes": []
     },
     {
@@ -10744,7 +10759,7 @@
       },
       "forecast_dividend": 165.0,
       "dividend_yield_pct": 4.382470119521913,
-      "dividend_override_note": "12月決算(変更なし、元から12月期)。株式分割なし、EDINET DB値をそのまま採用。2023年12月期に一度減配(125円→100円)、翌期には125円に回復し以降増配基調。2026年12月期の会社予想配当は実績据え置きの165円(2026-05-08開示Q1時点、純利益は前期比-32.9%予想のため据え置き)。",
+      "dividend_override_note": "12月決算(変更なし、元から12月期)。株式分割なし、EDINET DB値をそのまま採用。2023年12月期に一度減配(125円→100円)、翌期には125円に回復し以降増配基調。2026年12月期の会社予想配当は実績据え置きの165円(2026-05-08開示Q1時点、純利益は前期比-32.9%予想のため据え置き)。2026-08-09確認：「業績・配当性向・DOE・資本コストを総合的に勘案」との方針でDOEは考慮要素の一つに留まり数値目標なし。累進配当の明確な宣言も確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：電気機器・減配1回",
@@ -10777,7 +10792,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-09 02:44",
+      "updated_at": "2026-08-09 04:20",
       "forecast_dividend_changes": []
     },
     {
