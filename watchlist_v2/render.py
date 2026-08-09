@@ -655,10 +655,11 @@ def render_card(stock: dict, order_idx: int, default_rank: int) -> str:
             "</div>"
         )
     yield_attr = fmt_num(dividend_yield, 4) if dividend_yield is not None else ""
+    score_attr = total_score if total_score is not None else ""
     return (
         f'<div class="card" data-search="{esc(search_key)}" data-rating="{esc(stock["rating"])}" '
         f'data-code="{esc(stock["code"])}" data-order="{order_idx}" data-yield="{yield_attr}" '
-        f'data-default="{default_rank}">'
+        f'data-score="{score_attr}" data-default="{default_rank}">'
         '<div class="card-top"><div>'
         f'<span class="code">{stock["code"]}</span>'
         f'<div class="name">{stock["name"]}</div>'
@@ -771,6 +772,7 @@ def render(payload: dict) -> str:
     <button type="button" class="sort-btn" data-sort="code" data-dir="1">コード順<span class="sort-arrow"></span></button>
     <button type="button" class="sort-btn" data-sort="added" data-dir="1">追加順<span class="sort-arrow"></span></button>
     <button type="button" class="sort-btn" data-sort="yield" data-dir="-1">利回り順<span class="sort-arrow"></span></button>
+    <button type="button" class="sort-btn" data-sort="score" data-dir="-1">優先度スコア順<span class="sort-arrow"></span></button>
   </div>
   <div class="search-bar">
     <input type="text" id="search" class="search-input" placeholder="銘柄コードまたは銘柄名で検索" autocomplete="off">
@@ -802,18 +804,13 @@ def render(payload: dict) -> str:
   var cardsContainer = document.getElementById('cards');
   var sortBtns = Array.prototype.slice.call(document.querySelectorAll('#sort-bar .sort-btn'));
   var activeSort = 'default';
-  // 各比較関数は昇順基準。data-dirの符号を掛けて向きを反転する（欠損値は常に末尾）。
-  var sortFns = {{
-    default: function(a, b) {{ return (+a.getAttribute('data-default')) - (+b.getAttribute('data-default')); }},
-    code: function(a, b) {{ return a.getAttribute('data-code').localeCompare(b.getAttribute('data-code')); }},
-    added: function(a, b) {{ return (+a.getAttribute('data-order')) - (+b.getAttribute('data-order')); }},
-    yield: function(a, b) {{
-      var ay = a.getAttribute('data-yield'), by = b.getAttribute('data-yield');
-      if (ay === '' && by === '') return 0;
-      if (ay === '') return 1;
-      if (by === '') return -1;
-      return parseFloat(ay) - parseFloat(by);
-    }}
+  // 各関数はカードから比較用の値を取り出す（欠損はnull＝dirに関わらず常に末尾）。
+  var sortValueFns = {{
+    default: function(el) {{ return +el.getAttribute('data-default'); }},
+    code: function(el) {{ return el.getAttribute('data-code'); }},
+    added: function(el) {{ return +el.getAttribute('data-order'); }},
+    yield: function(el) {{ var v = el.getAttribute('data-yield'); return v === '' ? null : parseFloat(v); }},
+    score: function(el) {{ var v = el.getAttribute('data-score'); return v === '' ? null : parseFloat(v); }}
   }};
   function updateArrows() {{
     sortBtns.forEach(function(b) {{
@@ -825,8 +822,15 @@ def render(payload: dict) -> str:
   function applySort() {{
     var btn = sortBtns.filter(function(b) {{ return b.getAttribute('data-sort') === activeSort; }})[0];
     var dir = +btn.getAttribute('data-dir');
-    var fn = sortFns[activeSort];
-    cards.sort(function(a, b) {{ return fn(a, b) * dir; }});
+    var valFn = sortValueFns[activeSort];
+    cards.sort(function(a, b) {{
+      var av = valFn(a), bv = valFn(b);
+      if (av === null && bv === null) return 0;
+      if (av === null) return 1;
+      if (bv === null) return -1;
+      if (typeof av === 'string') {{ return av.localeCompare(bv) * dir; }}
+      return (av - bv) * dir;
+    }});
     cards.forEach(function(card) {{ cardsContainer.appendChild(card); }});
     updateArrows();
   }}
