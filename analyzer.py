@@ -346,7 +346,8 @@ def calculate_priority_score(
     if consecutive_increase:
         dividend_quality_badges.append("10期連続増配")
     if dividend_policy.get("doe"):
-        dividend_quality_badges.append("DOE宣言")
+        doe_pct = dividend_policy.get("doe_target_pct")
+        dividend_quality_badges.append(f"DOE宣言({doe_pct}%以上)" if doe_pct is not None else "DOE宣言")
     if dividend_policy.get("progressive"):
         dividend_quality_badges.append("累進配当宣言")
     if dividend_quality_badges:

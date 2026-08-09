@@ -538,7 +538,7 @@
       {"period": "2026-03-31", "eps": 165.59, "bps": 1261.39, "dividend": 54.67}
     ],
     "current_dividend_forecast": 65,
-    "dividend_policy": {"doe": true, "progressive": true},
+    "dividend_policy": {"doe": true, "doe_target_pct": 5.0, "progressive": true},
     "note": "3:1の株式分割によりJ-Quantsの開示(EPS/配当とも約3倍のスケール、例:2026年3月期予想DivAnn=164円)と整合しない。この履歴は資料側で分割調整済みの数値に統一しており、2027年3月期の会社予想は65円(2026-07提供資料、四半期内訳2Q35円+4Q30円)。J-Quants側が分割後スケールに切り替わるまでは同様の差異が続く見込み。2026-08-09確認：DOE5%以上を目標、中期経営計画期間中の累進配当継続を明言(総還元性向50%以上)。"
   },
   "3003": {
@@ -636,7 +636,7 @@
       {"period": "2026-03-31", "eps": 288.49, "bps": 2141.11, "dividend": 145}
     ],
     "current_dividend_forecast": 146,
-    "dividend_policy": {"doe": true, "progressive": true},
+    "dividend_policy": {"doe": true, "doe_target_pct": 6.0, "progressive": true},
     "note": "2027年3月期の会社予想は146円(2026-07提供資料、四半期内訳2Q40円+4Q106円)。2026-08-09確認：中期経営計画「Raito2027」で累進配当継続＋配当性向50%以上＋最終年度DOE6%以上を目標として明記。"
   },
   "8725": {
@@ -669,7 +669,7 @@
       {"period": "2026-03-31", "eps": 249.42, "bps": 1830.64, "dividend": 88}
     ],
     "current_dividend_forecast": 94,
-    "dividend_policy": {"doe": true, "progressive": false},
+    "dividend_policy": {"doe": true, "doe_target_pct": 5.0, "progressive": false},
     "note": "2022年3月期は建設コスト高騰等でEPSが一時的に落ち込み(54.55円、黒字は維持)。2027年3月期の会社予想は94円(2026-07提供資料、四半期内訳2Q47円+4Q47円)。2026-08-09確認：2024年にDOE目標を約3%から約5%へ引き上げ、長期安定配当を優先方針。累進配当の明確な宣言は確認できず。"
   },
   "8439": {
@@ -1164,7 +1164,7 @@
       {"period": "2026-03-31", "eps": 175.75, "bps": 946.17, "dividend": 58}
     ],
     "current_dividend_forecast": 70,
-    "dividend_policy": {"doe": true, "progressive": false},
+    "dividend_policy": {"doe": true, "doe_target_pct": 6.0, "progressive": false},
     "note": "株式分割の影響で一部年度のIRBANK資料上の一株配当と開示ベースの四半期内訳(脚注)の額に倍率差が見られるが、この履歴は分割調整済みの数値に統一している。急成長企業でEPS・BPSとも大幅増加基調。一株配当は減配せず58円まで増配を継続。2027年3月期の会社予想配当は70円(2026-07提供資料、四半期内訳2Q35円+4Q35円)。2026-08-09確認：中期経営計画(2029年3月期最終年度)でDOE6%以上・総還元性向40%を目標として掲げる。累進配当の明確な宣言は確認できず。"
   },
   "8771": {
@@ -1213,7 +1213,7 @@
       {"period": "2026-03-31", "eps": 197.52, "bps": 1908.83, "dividend": 60}
     ],
     "current_dividend_forecast": 77,
-    "dividend_policy": {"doe": true, "progressive": false},
+    "dividend_policy": {"doe": true, "doe_target_pct": 4.0, "progressive": false},
     "note": "建設関連業のためEPSの変動がやや大きい(2023・2024年3月期に一時的な落ち込みも黒字は維持)。一株配当は減配せず60円まで増配を継続。2027年3月期の会社予想配当は77円(2026-07提供資料)。2026-08-09確認：新中期経営計画(2026-2028)でDOE4%相当額を新規導入、連結配当性向目標を30%→45%へ引き上げ。累進配当の明確な宣言は確認できず。"
   },
   "2802": {
@@ -1406,7 +1406,7 @@
       {"period": "2026-03-31", "eps": 158.51, "bps": 1501.91, "dividend": 77}
     ],
     "current_dividend_forecast": 84,
-    "dividend_policy": {"doe": true, "progressive": false},
+    "dividend_policy": {"doe": true, "doe_target_pct": 5.0, "progressive": false},
     "note": "2021年10月1日に株式分割を実施。EPS・BPSはEDINET DBの分割調整値(adjusted_eps/adjusted_bps)を採用。配当はEDINET DBの分割またぎ調整に2018年3月期・2022年3月期でズレがあったため、IRBANK実測値(12.5円・30円)で補正。27/03期の会社予想配当は84円(IRBANK)。2026-08-09確認：配当性向60%・DOE5%を株主還元目標として明記。累進配当の明確な宣言は確認できず。"
   },
   "8014": {
