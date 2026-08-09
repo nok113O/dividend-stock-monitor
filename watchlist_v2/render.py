@@ -306,7 +306,7 @@ CSS = """
   .comment .label { display: inline-block; font-size: 0.66rem; color: var(--ink-dim); letter-spacing: 0.03em; margin-bottom: 3px; }
   .asof { margin-top: 12px; font-size: 0.68rem; color: var(--ink-dim); font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
   .glossary {
-    margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--rule);
+    margin-bottom: 20px; padding-top: 16px; border-top: 1px solid var(--rule);
   }
   .glossary summary {
     cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--indigo);
@@ -322,7 +322,7 @@ CSS = """
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
   .glossary-desc { color: var(--ink-dim); }
-  .removed-list { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--rule); }
+  .removed-list { margin-bottom: 20px; padding-top: 16px; border-top: 1px solid var(--rule); }
   .removed-list summary {
     cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--ink-dim);
     list-style: none;
@@ -762,6 +762,8 @@ def render(payload: dict) -> str:
     </div>
     <div class="seal">高</div>
   </header>
+  {glossary_html}
+  {removed_html}
   <div class="filter-bar" id="filter-bar">{filter_buttons}</div>
   <div class="sort-bar" id="sort-bar">
     <span class="sort-label">並び替え</span>
@@ -776,8 +778,6 @@ def render(payload: dict) -> str:
   </div>
   <div class="cards" id="cards">{cards}</div>
   <p id="no-results" class="no-results" hidden>該当する銘柄がありません。</p>
-  {glossary_html}
-  {removed_html}
   <footer>
     <strong>最終更新：{payload["generated_at"]}</strong><br>
     株価はYahoo!ファイナンス、財務データはJ-Quants APIから取得しています。第2・第3段階は10期分のデータが揃い次第、自動で判定されます。<br>
