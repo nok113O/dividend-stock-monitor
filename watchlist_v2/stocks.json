@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09 03:19",
+  "generated_at": "2026-08-09 03:29",
   "stocks": [
     {
       "code": "8306",
@@ -337,7 +337,7 @@
       },
       "forecast_dividend": 45.5,
       "dividend_yield_pct": 3.527131782945737,
-      "dividend_override_note": "決算期は6月。一株配当は株式数調整済み(資料注記)。2026年6月期の会社予想は45.5円(2026-07提供資料、四半期内訳2Q未定+4Q未定、通期成長率+3.69%から逆算)。",
+      "dividend_override_note": "決算期は6月。一株配当は株式数調整済み(資料注記)。2026年6月期の会社予想は45.5円(2026-07提供資料、四半期内訳2Q未定+4Q未定、通期成長率+3.69%から逆算)。2026-08-09確認：中期経営計画2027で総還元性向90%を目標としているが、DOE・累進配当の明確な宣言は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
@@ -376,7 +376,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-09 02:15",
+      "updated_at": "2026-08-09 03:26",
       "forecast_dividend_changes": []
     },
     {
@@ -464,7 +464,7 @@
       },
       "forecast_dividend": 94.0,
       "dividend_yield_pct": 3.102310231023102,
-      "dividend_override_note": "2022年3月期は建設コスト高騰等でEPSが一時的に落ち込み(54.55円、黒字は維持)。2027年3月期の会社予想は94円(2026-07提供資料、四半期内訳2Q47円+4Q47円)。",
+      "dividend_override_note": "2022年3月期は建設コスト高騰等でEPSが一時的に落ち込み(54.55円、黒字は維持)。2027年3月期の会社予想は94円(2026-07提供資料、四半期内訳2Q47円+4Q47円)。2026-08-09確認：2024年にDOE目標を約3%から約5%へ引き上げ、長期安定配当を優先方針。累進配当の明確な宣言は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・配当変動大",
@@ -483,8 +483,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 35.3,
         "dividend_cagr_pct": 13.57,
         "dividend_years_to_double": 5.4,
@@ -496,11 +496,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "DOE宣言を達成/宣言",
           "配当CAGR5%以上"
         ],
-        "dividend_quality_badges": []
+        "dividend_quality_badges": [
+          "DOE宣言"
+        ]
       },
-      "updated_at": "2026-08-09 02:15",
+      "updated_at": "2026-08-09 03:26",
       "forecast_dividend_changes": []
     },
     {
@@ -715,7 +718,7 @@
       },
       "forecast_dividend": 146.0,
       "dividend_yield_pct": 3.8070404172099086,
-      "dividend_override_note": "2027年3月期の会社予想は146円(2026-07提供資料、四半期内訳2Q40円+4Q106円)。",
+      "dividend_override_note": "2027年3月期の会社予想は146円(2026-07提供資料、四半期内訳2Q40円+4Q106円)。2026-08-09確認：中期経営計画「Raito2027」で累進配当継続＋配当性向50%以上＋最終年度DOE6%以上を目標として明記。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・配当変動大",
@@ -747,14 +750,16 @@
         "income_detail": [
           "減配0回",
           "無配0期",
-          "10期連続増配を達成/宣言",
+          "10期連続増配・DOE宣言・累進配当宣言を達成/宣言",
           "配当CAGR5%以上"
         ],
         "dividend_quality_badges": [
-          "10期連続増配"
+          "10期連続増配",
+          "DOE宣言",
+          "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-09 02:16",
+      "updated_at": "2026-08-09 03:27",
       "forecast_dividend_changes": []
     },
     {
@@ -1482,8 +1487,8 @@
       "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 3,
-        "total_score": 4,
+        "income_score": 4,
+        "total_score": 5,
         "payout_ratio_pct": 30.2,
         "dividend_cagr_pct": 20.99,
         "dividend_years_to_double": 3.6,
@@ -1493,11 +1498,14 @@
         "income_detail": [
           "配当性向50%以下",
           "無配0期",
+          "累進配当宣言を達成/宣言",
           "配当CAGR5%以上"
         ],
-        "dividend_quality_badges": []
+        "dividend_quality_badges": [
+          "累進配当宣言"
+        ]
       },
-      "updated_at": "2026-08-09 02:18",
+      "updated_at": "2026-08-09 03:26",
       "forecast_dividend_changes": []
     },
     {
@@ -3948,7 +3956,7 @@
       },
       "forecast_dividend": 145.0,
       "dividend_yield_pct": 4.231105923548293,
-      "dividend_override_note": "決算期は1月。2019年1月期にBPSが前期比微減(1731.6円→1718.82円)した以外は概ね増加基調。2027年1月期の会社予想配当は145円(2026-07提供資料、四半期内訳2Q72円+4Q73円)。",
+      "dividend_override_note": "決算期は1月。2019年1月期にBPSが前期比微減(1731.6円→1718.82円)した以外は概ね増加基調。2027年1月期の会社予想配当は145円(2026-07提供資料、四半期内訳2Q72円+4Q73円)。2026-08-09確認：累進配当を明確に採用（下限配当110円を導入、減配回避を明言）。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
@@ -3980,14 +3988,15 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
-          "10期連続増配を達成/宣言",
+          "10期連続増配・累進配当宣言を達成/宣言",
           "配当CAGR5%以上"
         ],
         "dividend_quality_badges": [
-          "10期連続増配"
+          "10期連続増配",
+          "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-09 02:25",
+      "updated_at": "2026-08-09 03:27",
       "forecast_dividend_changes": []
     },
     {
@@ -4075,7 +4084,7 @@
       },
       "forecast_dividend": 88.0,
       "dividend_yield_pct": 1.9184652278177456,
-      "dividend_override_note": "2026/10/1に株式分割(1:2)予定のため、この履歴は資料側で分割調整済みの数値。J-Quants Freeの直近開示(FDivAnn=175円)は分割前ベースのため、同一スケールに揃えて88円(分割調整後の2027年3月期会社予想)で上書き。分割実施後はJ-Quants側の値も調整後スケールになる見込み。",
+      "dividend_override_note": "2026/10/1に株式分割(1:2)予定のため、この履歴は資料側で分割調整済みの数値。J-Quants Freeの直近開示(FDivAnn=175円)は分割前ベースのため、同一スケールに揃えて88円(分割調整後の2027年3月期会社予想)で上書き。分割実施後はJ-Quants側の値も調整後スケールになる見込み。2026-08-09確認：累進配当を採用（9期連続増配の実績あり）。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
@@ -4107,14 +4116,15 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
-          "10期連続増配を達成/宣言",
+          "10期連続増配・累進配当宣言を達成/宣言",
           "配当CAGR5%以上"
         ],
         "dividend_quality_badges": [
-          "10期連続増配"
+          "10期連続増配",
+          "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-09 02:25",
+      "updated_at": "2026-08-09 03:27",
       "forecast_dividend_changes": []
     },
     {
@@ -6327,7 +6337,7 @@
       },
       "forecast_dividend": 135.0,
       "dividend_yield_pct": 2.573389248951582,
-      "dividend_override_note": "2023年3月期にEPSが一時的に落ち込み(158.82円、黒字は維持)。2027年3月期の会社予想は135円(2026-07提供資料、四半期内訳2Q65円+4Q70円)。",
+      "dividend_override_note": "2023年3月期にEPSが一時的に落ち込み(158.82円、黒字は維持)。2027年3月期の会社予想は135円(2026-07提供資料、四半期内訳2Q65円+4Q70円)。2026-08-09確認：中期経営計画で累進配当を採用、毎期5円以上の増配を目標。総還元性向70%。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
@@ -6359,14 +6369,15 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
-          "10期連続増配を達成/宣言",
+          "10期連続増配・累進配当宣言を達成/宣言",
           "配当CAGR5%以上"
         ],
         "dividend_quality_badges": [
-          "10期連続増配"
+          "10期連続増配",
+          "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-09 02:32",
+      "updated_at": "2026-08-09 03:26",
       "forecast_dividend_changes": []
     },
     {
@@ -6698,7 +6709,7 @@
       },
       "forecast_dividend": 95.0,
       "dividend_yield_pct": 2.738541366388008,
-      "dividend_override_note": "2019年3月期は経営統合(三井情報等)に伴う一時的なEPS急伸(295.33円)。2027年3月期の会社予想は95円(2026-07提供資料、四半期内訳2Q45円+4Q50円)。",
+      "dividend_override_note": "2019年3月期は経営統合(三井情報等)に伴う一時的なEPS急伸(295.33円)。2027年3月期の会社予想は95円(2026-07提供資料、四半期内訳2Q45円+4Q50円)。2026-08-09確認：総還元性向50〜70%を目標とした「安定的な配当成長」を掲げるが、DOE・累進配当という明確な宣言ではない。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
@@ -6734,7 +6745,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-09 02:33",
+      "updated_at": "2026-08-09 03:26",
       "forecast_dividend_changes": []
     },
     {
@@ -9173,7 +9184,7 @@
       },
       "forecast_dividend": 77.0,
       "dividend_yield_pct": 3.851925962981491,
-      "dividend_override_note": "建設関連業のためEPSの変動がやや大きい(2023・2024年3月期に一時的な落ち込みも黒字は維持)。一株配当は減配せず60円まで増配を継続。2027年3月期の会社予想配当は77円(2026-07提供資料)。",
+      "dividend_override_note": "建設関連業のためEPSの変動がやや大きい(2023・2024年3月期に一時的な落ち込みも黒字は維持)。一株配当は減配せず60円まで増配を継続。2027年3月期の会社予想配当は77円(2026-07提供資料)。2026-08-09確認：新中期経営計画(2026-2028)でDOE4%相当額を新規導入、連結配当性向目標を30%→45%へ引き上げ。累進配当の明確な宣言は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・配当変動大",
@@ -9192,8 +9203,8 @@
       "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 30.4,
         "dividend_cagr_pct": 16.65,
         "dividend_years_to_double": 4.5,
@@ -9205,11 +9216,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "DOE宣言を達成/宣言",
           "配当CAGR5%以上"
         ],
-        "dividend_quality_badges": []
+        "dividend_quality_badges": [
+          "DOE宣言"
+        ]
       },
-      "updated_at": "2026-08-09 02:40",
+      "updated_at": "2026-08-09 03:29",
       "forecast_dividend_changes": []
     },
     {
@@ -10417,7 +10431,7 @@
       },
       "forecast_dividend": 84.0,
       "dividend_yield_pct": 4.036520903411821,
-      "dividend_override_note": "2021年10月1日に株式分割を実施。EPS・BPSはEDINET DBの分割調整値(adjusted_eps/adjusted_bps)を採用。配当はEDINET DBの分割またぎ調整に2018年3月期・2022年3月期でズレがあったため、IRBANK実測値(12.5円・30円)で補正。27/03期の会社予想配当は84円(IRBANK)。",
+      "dividend_override_note": "2021年10月1日に株式分割を実施。EPS・BPSはEDINET DBの分割調整値(adjusted_eps/adjusted_bps)を採用。配当はEDINET DBの分割またぎ調整に2018年3月期・2022年3月期でズレがあったため、IRBANK実測値(12.5円・30円)で補正。27/03期の会社予想配当は84円(IRBANK)。2026-08-09確認：配当性向60%・DOE5%を株主還元目標として明記。累進配当の明確な宣言は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・配当変動大",
@@ -10436,8 +10450,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
-        "income_score": 4,
-        "total_score": 7,
+        "income_score": 5,
+        "total_score": 8,
         "payout_ratio_pct": 48.6,
         "dividend_cagr_pct": 24.35,
         "dividend_years_to_double": 3.2,
@@ -10450,11 +10464,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "DOE宣言を達成/宣言",
           "配当CAGR5%以上"
         ],
-        "dividend_quality_badges": []
+        "dividend_quality_badges": [
+          "DOE宣言"
+        ]
       },
-      "updated_at": "2026-08-09 02:44",
+      "updated_at": "2026-08-09 03:27",
       "forecast_dividend_changes": []
     },
     {
