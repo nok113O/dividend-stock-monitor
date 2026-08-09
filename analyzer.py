@@ -282,12 +282,18 @@ def calculate_step3(history: pd.DataFrame, code: str) -> dict:
         "target_price": round(eps_sum + latest_bps, 2),
     }
 
-def calculate_priority_score(metrics: dict, df: pd.DataFrame | None) -> dict:
-    """成長余力・増配余力のスコア(各0〜3〜4点)を10期データから算出する。"""
+def calculate_priority_score(
+    metrics: dict, df: pd.DataFrame | None, dividend_policy: dict | None = None
+) -> dict:
+    """成長余力(0〜3点)・増配余力(0〜5点)のスコアを10期データから算出する。
+
+    dividend_policyは{"doe": bool, "progressive": bool}形式。企業がDOE(自己資本配当率)や
+    累進配当を公式に宣言しているかは数値データから機械的に判定できないため、手動確認の結果を渡す。
+    """
     empty = {
         "growth_score": None, "income_score": None, "total_score": None,
         "dividend_cagr_pct": None, "dividend_years_to_double": None,
-        "growth_detail": [], "income_detail": [],
+        "growth_detail": [], "income_detail": [], "dividend_quality_badges": [],
     }
     if df is None or len(df) < 10:
         return empty
@@ -331,6 +337,22 @@ def calculate_priority_score(metrics: dict, df: pd.DataFrame | None) -> dict:
         income_score += 1
         income_detail.append("無配0期")
 
+    dividend_policy = dividend_policy or {}
+    consecutive_increase = all(
+        pd.notna(divs[i]) and pd.notna(divs[i - 1]) and divs[i] > divs[i - 1]
+        for i in range(1, 10)
+    )
+    dividend_quality_badges = []
+    if consecutive_increase:
+        dividend_quality_badges.append("10期連続増配")
+    if dividend_policy.get("doe"):
+        dividend_quality_badges.append("DOE宣言")
+    if dividend_policy.get("progressive"):
+        dividend_quality_badges.append("累進配当宣言")
+    if dividend_quality_badges:
+        income_score += 1
+        income_detail.append("・".join(dividend_quality_badges) + "を達成/宣言")
+
     dividend_cagr = None
     years_to_double = None
     first, last = divs[0], divs[-1]
@@ -350,6 +372,7 @@ def calculate_priority_score(metrics: dict, df: pd.DataFrame | None) -> dict:
         "dividend_years_to_double": round(years_to_double, 1) if years_to_double is not None else None,
         "growth_detail": growth_detail,
         "income_detail": income_detail,
+        "dividend_quality_badges": dividend_quality_badges,
     }
 
 def make_comment(step1: dict, step2: dict) -> str:

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08 14:59",
+  "generated_at": "2026-08-09 02:46",
   "stocks": [
     {
       "code": "8306",
@@ -119,9 +119,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:15",
+      "updated_at": "2026-08-09 02:15",
       "forecast_dividend_changes": []
     },
     {
@@ -228,8 +229,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 43.6,
         "dividend_cagr_pct": 7.28,
         "dividend_years_to_double": 9.9,
@@ -241,10 +242,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:15",
+      "updated_at": "2026-08-09 02:15",
       "forecast_dividend_changes": []
     },
     {
@@ -351,8 +356,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
-        "income_score": 3,
-        "total_score": 6,
+        "income_score": 4,
+        "total_score": 7,
         "payout_ratio_pct": 60.099999999999994,
         "dividend_cagr_pct": 16.76,
         "dividend_years_to_double": 4.5,
@@ -364,10 +369,14 @@
         "income_detail": [
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:15",
+      "updated_at": "2026-08-09 02:15",
       "forecast_dividend_changes": []
     },
     {
@@ -488,9 +497,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:15",
+      "updated_at": "2026-08-09 02:15",
       "forecast_dividend_changes": []
     },
     {
@@ -597,8 +607,8 @@
       "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 32.5,
         "dividend_cagr_pct": 16.65,
         "dividend_years_to_double": 4.5,
@@ -610,10 +620,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:15",
+      "updated_at": "2026-08-09 02:15",
       "forecast_dividend_changes": []
     },
     {
@@ -720,8 +734,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
-        "income_score": 3,
-        "total_score": 6,
+        "income_score": 4,
+        "total_score": 7,
         "payout_ratio_pct": 50.3,
         "dividend_cagr_pct": 21.57,
         "dividend_years_to_double": 3.5,
@@ -733,10 +747,14 @@
         "income_detail": [
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:17",
+      "updated_at": "2026-08-09 02:16",
       "forecast_dividend_changes": []
     },
     {
@@ -843,8 +861,8 @@
       "comment": "PERは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 4,
-        "total_score": 5,
+        "income_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 37.0,
         "dividend_cagr_pct": 14.74,
         "dividend_years_to_double": 5.0,
@@ -855,10 +873,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:17",
+      "updated_at": "2026-08-09 02:16",
       "forecast_dividend_changes": []
     },
     {
@@ -979,9 +1001,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:17",
+      "updated_at": "2026-08-09 02:16",
       "forecast_dividend_changes": []
     },
     {
@@ -1101,9 +1124,10 @@
           "配当性向50%以下",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:17",
+      "updated_at": "2026-08-09 02:16",
       "forecast_dividend_changes": []
     },
     {
@@ -1223,9 +1247,10 @@
           "配当性向50%以下",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:18",
+      "updated_at": "2026-08-09 02:18",
       "forecast_dividend_changes": []
     },
     {
@@ -1347,9 +1372,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:18",
+      "updated_at": "2026-08-09 02:18",
       "forecast_dividend_changes": []
     },
     {
@@ -1373,7 +1399,7 @@
             "judge": "×"
           },
           "PBR": {
-            "value": 0.83160585,
+            "value": 0.7969724,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
@@ -1468,9 +1494,10 @@
           "配当性向50%以下",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:18",
+      "updated_at": "2026-08-09 02:18",
       "forecast_dividend_changes": []
     },
     {
@@ -1577,8 +1604,8 @@
       "comment": "今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 4,
-        "total_score": 5,
+        "income_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 40.5,
         "dividend_cagr_pct": 14.03,
         "dividend_years_to_double": 5.3,
@@ -1589,10 +1616,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:19",
+      "updated_at": "2026-08-09 02:18",
       "forecast_dividend_changes": []
     },
     {
@@ -1699,8 +1730,8 @@
       "comment": "ROAは基準未達。 自己資本比率は基準未達。 時価総額は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 4,
-        "total_score": 5,
+        "income_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 28.9,
         "dividend_cagr_pct": 16.1,
         "dividend_years_to_double": 4.6,
@@ -1711,10 +1742,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:19",
+      "updated_at": "2026-08-09 02:18",
       "forecast_dividend_changes": []
     },
     {
@@ -1832,9 +1867,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:20",
+      "updated_at": "2026-08-09 02:19",
       "forecast_dividend_changes": []
     },
     {
@@ -1941,8 +1977,8 @@
       "comment": "PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 41.099999999999994,
         "dividend_cagr_pct": 15.46,
         "dividend_years_to_double": 4.8,
@@ -1954,10 +1990,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:20",
+      "updated_at": "2026-08-09 02:19",
       "forecast_dividend_changes": []
     },
     {
@@ -2076,9 +2116,10 @@
           "配当性向50%以下",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:20",
+      "updated_at": "2026-08-09 02:19",
       "forecast_dividend_changes": []
     },
     {
@@ -2197,9 +2238,10 @@
           "配当性向50%以下",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:21",
+      "updated_at": "2026-08-09 02:20",
       "forecast_dividend_changes": []
     },
     {
@@ -2319,9 +2361,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:21",
+      "updated_at": "2026-08-09 02:20",
       "forecast_dividend_changes": []
     },
     {
@@ -2442,9 +2485,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:21",
+      "updated_at": "2026-08-09 02:21",
       "forecast_dividend_changes": []
     },
     {
@@ -2551,8 +2595,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 3,
-        "total_score": 4,
+        "income_score": 4,
+        "total_score": 5,
         "payout_ratio_pct": 52.2,
         "dividend_cagr_pct": 17.05,
         "dividend_years_to_double": 4.4,
@@ -2562,10 +2606,14 @@
         "income_detail": [
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:22",
+      "updated_at": "2026-08-09 02:21",
       "forecast_dividend_changes": []
     },
     {
@@ -2672,8 +2720,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 4,
-        "total_score": 5,
+        "income_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 46.5,
         "dividend_cagr_pct": 5.53,
         "dividend_years_to_double": 12.9,
@@ -2684,10 +2732,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:22",
+      "updated_at": "2026-08-09 02:21",
       "forecast_dividend_changes": []
     },
     {
@@ -2808,9 +2860,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:22",
+      "updated_at": "2026-08-09 02:22",
       "forecast_dividend_changes": []
     },
     {
@@ -2917,8 +2970,8 @@
       "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 4,
-        "total_score": 5,
+        "income_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 40.699999999999996,
         "dividend_cagr_pct": 15.07,
         "dividend_years_to_double": 4.9,
@@ -2929,10 +2982,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:22",
+      "updated_at": "2026-08-09 02:22",
       "forecast_dividend_changes": []
     },
     {
@@ -3039,8 +3096,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
-        "income_score": 4,
-        "total_score": 7,
+        "income_score": 5,
+        "total_score": 8,
         "payout_ratio_pct": 48.699999999999996,
         "dividend_cagr_pct": 28.42,
         "dividend_years_to_double": 2.8,
@@ -3053,10 +3110,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:23",
+      "updated_at": "2026-08-09 02:23",
       "forecast_dividend_changes": []
     },
     {
@@ -3163,8 +3224,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 4,
-        "total_score": 5,
+        "income_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 42.0,
         "dividend_cagr_pct": 9.2,
         "dividend_years_to_double": 7.9,
@@ -3175,10 +3236,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:24",
+      "updated_at": "2026-08-09 02:23",
       "forecast_dividend_changes": []
     },
     {
@@ -3298,9 +3363,10 @@
           "配当性向50%以下",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:24",
+      "updated_at": "2026-08-09 02:23",
       "forecast_dividend_changes": []
     },
     {
@@ -3417,9 +3483,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:24",
+      "updated_at": "2026-08-09 02:23",
       "forecast_dividend_changes": []
     },
     {
@@ -3526,8 +3593,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 3,
-        "total_score": 4,
+        "income_score": 4,
+        "total_score": 5,
         "payout_ratio_pct": 82.69999999999999,
         "dividend_cagr_pct": 16.55,
         "dividend_years_to_double": 4.5,
@@ -3537,10 +3604,14 @@
         "income_detail": [
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:25",
+      "updated_at": "2026-08-09 02:25",
       "forecast_dividend_changes": []
     },
     {
@@ -3660,9 +3731,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:25",
+      "updated_at": "2026-08-09 02:25",
       "forecast_dividend_changes": []
     },
     {
@@ -3769,8 +3841,8 @@
       "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 4,
-        "total_score": 5,
+        "income_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 37.5,
         "dividend_cagr_pct": 15.3,
         "dividend_years_to_double": 4.9,
@@ -3781,10 +3853,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:25",
+      "updated_at": "2026-08-09 02:25",
       "forecast_dividend_changes": []
     },
     {
@@ -3891,8 +3967,8 @@
       "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 40.2,
         "dividend_cagr_pct": 9.43,
         "dividend_years_to_double": 7.7,
@@ -3904,10 +3980,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:25",
+      "updated_at": "2026-08-09 02:25",
       "forecast_dividend_changes": []
     },
     {
@@ -4014,8 +4094,8 @@
       "comment": "PERは基準未達。 配当利回りは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 30.9,
         "dividend_cagr_pct": 7.41,
         "dividend_years_to_double": 9.7,
@@ -4027,10 +4107,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:26",
+      "updated_at": "2026-08-09 02:25",
       "forecast_dividend_changes": []
     },
     {
@@ -4149,9 +4233,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:27",
+      "updated_at": "2026-08-09 02:26",
       "forecast_dividend_changes": []
     },
     {
@@ -4258,8 +4343,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 49.2,
         "dividend_cagr_pct": 16.23,
         "dividend_years_to_double": 4.6,
@@ -4271,10 +4356,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:27",
+      "updated_at": "2026-08-09 02:26",
       "forecast_dividend_changes": []
     },
     {
@@ -4381,8 +4470,8 @@
       "comment": "PERは基準未達。 ROEは基準未達。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 3,
-        "total_score": 5,
+        "income_score": 4,
+        "total_score": 6,
         "payout_ratio_pct": 55.00000000000001,
         "dividend_cagr_pct": 25.09,
         "dividend_years_to_double": 3.1,
@@ -4393,10 +4482,14 @@
         "income_detail": [
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:27",
+      "updated_at": "2026-08-09 02:26",
       "forecast_dividend_changes": []
     },
     {
@@ -4503,8 +4596,8 @@
       "comment": "ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 3,
-        "total_score": 4,
+        "income_score": 4,
+        "total_score": 5,
         "payout_ratio_pct": 66.10000000000001,
         "dividend_cagr_pct": 15.46,
         "dividend_years_to_double": 4.8,
@@ -4514,10 +4607,14 @@
         "income_detail": [
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:27",
+      "updated_at": "2026-08-09 02:27",
       "forecast_dividend_changes": []
     },
     {
@@ -4635,9 +4732,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:28",
+      "updated_at": "2026-08-09 02:27",
       "forecast_dividend_changes": []
     },
     {
@@ -4744,8 +4842,8 @@
       "comment": "ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 41.4,
         "dividend_cagr_pct": 13.3,
         "dividend_years_to_double": 5.6,
@@ -4757,10 +4855,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:28",
+      "updated_at": "2026-08-09 02:27",
       "forecast_dividend_changes": []
     },
     {
@@ -4867,8 +4969,8 @@
       "comment": "PERは基準未達。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 3,
-        "total_score": 5,
+        "income_score": 4,
+        "total_score": 6,
         "payout_ratio_pct": 65.9,
         "dividend_cagr_pct": 23.8,
         "dividend_years_to_double": 3.2,
@@ -4879,10 +4981,14 @@
         "income_detail": [
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:28",
+      "updated_at": "2026-08-09 02:28",
       "forecast_dividend_changes": []
     },
     {
@@ -5000,9 +5106,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:29",
+      "updated_at": "2026-08-09 02:28",
       "forecast_dividend_changes": []
     },
     {
@@ -5123,9 +5230,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:29",
+      "updated_at": "2026-08-09 02:29",
       "forecast_dividend_changes": []
     },
     {
@@ -5247,9 +5355,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:29",
+      "updated_at": "2026-08-09 02:29",
       "forecast_dividend_changes": []
     },
     {
@@ -5356,8 +5465,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
       "priority_score": {
         "growth_score": 3,
-        "income_score": 4,
-        "total_score": 7,
+        "income_score": 5,
+        "total_score": 8,
         "payout_ratio_pct": 34.2,
         "dividend_cagr_pct": 19.96,
         "dividend_years_to_double": 3.8,
@@ -5370,10 +5479,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:30",
+      "updated_at": "2026-08-09 02:29",
       "forecast_dividend_changes": []
     },
     {
@@ -5489,9 +5602,10 @@
         "income_detail": [
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:30",
+      "updated_at": "2026-08-09 02:30",
       "forecast_dividend_changes": []
     },
     {
@@ -5598,8 +5712,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
       "priority_score": {
         "growth_score": 3,
-        "income_score": 4,
-        "total_score": 7,
+        "income_score": 5,
+        "total_score": 8,
         "payout_ratio_pct": 33.0,
         "dividend_cagr_pct": 13.62,
         "dividend_years_to_double": 5.4,
@@ -5612,10 +5726,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:31",
+      "updated_at": "2026-08-09 02:30",
       "forecast_dividend_changes": []
     },
     {
@@ -5735,9 +5853,10 @@
           "配当性向50%以下",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:31",
+      "updated_at": "2026-08-09 02:30",
       "forecast_dividend_changes": []
     },
     {
@@ -5844,8 +5963,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
       "priority_score": {
         "growth_score": 3,
-        "income_score": 4,
-        "total_score": 7,
+        "income_score": 5,
+        "total_score": 8,
         "payout_ratio_pct": 32.800000000000004,
         "dividend_cagr_pct": 16.05,
         "dividend_years_to_double": 4.7,
@@ -5858,10 +5977,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:31",
+      "updated_at": "2026-08-09 02:30",
       "forecast_dividend_changes": []
     },
     {
@@ -5979,9 +6102,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:32",
+      "updated_at": "2026-08-09 02:32",
       "forecast_dividend_changes": []
     },
     {
@@ -6097,9 +6221,10 @@
         "income_detail": [
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:32",
+      "updated_at": "2026-08-09 02:32",
       "forecast_dividend_changes": [
         {
           "date": "2026-07-30",
@@ -6217,8 +6342,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 41.699999999999996,
         "dividend_cagr_pct": 13.99,
         "dividend_years_to_double": 5.3,
@@ -6230,10 +6355,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:32",
+      "updated_at": "2026-08-09 02:32",
       "forecast_dividend_changes": []
     },
     {
@@ -6351,9 +6480,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:32",
+      "updated_at": "2026-08-09 02:32",
       "forecast_dividend_changes": []
     },
     {
@@ -6473,9 +6603,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:34",
+      "updated_at": "2026-08-09 02:32",
       "forecast_dividend_changes": []
     },
     {
@@ -6596,9 +6727,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:34",
+      "updated_at": "2026-08-09 02:33",
       "forecast_dividend_changes": []
     },
     {
@@ -6719,9 +6851,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:34",
+      "updated_at": "2026-08-09 02:33",
       "forecast_dividend_changes": []
     },
     {
@@ -6841,9 +6974,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:34",
+      "updated_at": "2026-08-09 02:33",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-03",
@@ -6956,8 +7090,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。",
       "priority_score": {
         "growth_score": 3,
-        "income_score": 4,
-        "total_score": 7,
+        "income_score": 5,
+        "total_score": 8,
         "payout_ratio_pct": 36.7,
         "dividend_cagr_pct": 20.82,
         "dividend_years_to_double": 3.7,
@@ -6970,10 +7104,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:34",
+      "updated_at": "2026-08-09 02:34",
       "forecast_dividend_changes": []
     },
     {
@@ -7093,9 +7231,10 @@
         "income_detail": [
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:35",
+      "updated_at": "2026-08-09 02:34",
       "forecast_dividend_changes": []
     },
     {
@@ -7217,9 +7356,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:35",
+      "updated_at": "2026-08-09 02:34",
       "forecast_dividend_changes": []
     },
     {
@@ -7326,8 +7466,8 @@
       "comment": "PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
-        "income_score": 4,
-        "total_score": 7,
+        "income_score": 5,
+        "total_score": 8,
         "payout_ratio_pct": 40.1,
         "dividend_cagr_pct": 39.79,
         "dividend_years_to_double": 2.1,
@@ -7340,10 +7480,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:35",
+      "updated_at": "2026-08-09 02:35",
       "forecast_dividend_changes": []
     },
     {
@@ -7458,9 +7602,10 @@
         "growth_detail": [],
         "income_detail": [
           "配当性向50%以下"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:36",
+      "updated_at": "2026-08-09 02:35",
       "forecast_dividend_changes": []
     },
     {
@@ -7567,8 +7712,8 @@
       "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 4,
-        "total_score": 5,
+        "income_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 40.699999999999996,
         "dividend_cagr_pct": 18.9,
         "dividend_years_to_double": 4.0,
@@ -7579,10 +7724,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:36",
+      "updated_at": "2026-08-09 02:36",
       "forecast_dividend_changes": []
     },
     {
@@ -7689,8 +7838,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 3,
-        "total_score": 5,
+        "income_score": 4,
+        "total_score": 6,
         "payout_ratio_pct": 62.2,
         "dividend_cagr_pct": 12.78,
         "dividend_years_to_double": 5.8,
@@ -7701,10 +7850,14 @@
         "income_detail": [
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:37",
+      "updated_at": "2026-08-09 02:36",
       "forecast_dividend_changes": []
     },
     {
@@ -7820,9 +7973,10 @@
         "income_detail": [
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:37",
+      "updated_at": "2026-08-09 02:36",
       "forecast_dividend_changes": []
     },
     {
@@ -7941,9 +8095,10 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:38",
+      "updated_at": "2026-08-09 02:37",
       "forecast_dividend_changes": []
     },
     {
@@ -7967,7 +8122,7 @@
             "judge": "×"
           },
           "PBR": {
-            "value": 1.8603604,
+            "value": 1.7775323,
             "criterion": "1.3倍以下",
             "judge": "×"
           },
@@ -8061,9 +8216,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:38",
+      "updated_at": "2026-08-09 02:37",
       "forecast_dividend_changes": []
     },
     {
@@ -8151,7 +8307,7 @@
       },
       "forecast_dividend": 48.0,
       "dividend_yield_pct": 3.9735099337748347,
-      "dividend_override_note": "決算期は3月。2021年3月期はコロナ禍による家賃保証履行費用の増加で大幅赤字(EPS-288.8円)、財務状況も大きく悪化。2022年3月期以降、資本増強等により財務内容が改善。IRBANK資料上、BPS・配当の連続データは2022年3月期以降のみ確認でき、10期分の完全な履歴は取得できない(直近5期のみ投入、Step2/Step3は10期揃うまでデータ不足のまま)。2027年3月期の会社予想配当は48円(2026-07提供資料、四半期内訳2Q0円+4Q48円)。",
+      "dividend_override_note": "決算期は3月。2021年3月期はコロナ禍による家賃保証履行費用の増加で大幅赤字(EPS-288.8円)、財務状況も大きく悪化。2022年3月期以降、資本増強等により財務内容が改善。IRBANK資料上、BPS・配当の連続データは2022年3月期以降のみ確認でき、10期分の完全な履歴は取得できない(直近5期のみ投入、Step2/Step3は10期揃うまでデータ不足のまま)。2027年3月期の会社予想配当は48円(2026-07提供資料、四半期内訳2Q0円+4Q48円)。2026-08-08、EDINET DBでも確認したが2020年3月期以降7期分しかデータがなく、しかも2020〜2023年3月期は配当が欠損しておりIRBANK由来の現在のデータより情報が少ない。この銘柄自体が2020年3月期より前の構造化データをどのソースからも確保できないための制約であり、バグではない。10期揃うのは2031年3月期頃の見込み。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他金融業・利益比較的安定・配当変動大",
@@ -8176,9 +8332,10 @@
         "dividend_cagr_pct": null,
         "dividend_years_to_double": null,
         "growth_detail": [],
-        "income_detail": []
+        "income_detail": [],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:38",
+      "updated_at": "2026-08-09 02:37",
       "forecast_dividend_changes": []
     },
     {
@@ -8295,9 +8452,10 @@
           "配当性向50%以下",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:39",
+      "updated_at": "2026-08-09 02:37",
       "forecast_dividend_changes": []
     },
     {
@@ -8415,9 +8573,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:39",
+      "updated_at": "2026-08-09 02:39",
       "forecast_dividend_changes": []
     },
     {
@@ -8524,8 +8683,8 @@
       "comment": "全項目で基準を満たしています。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 48.9,
         "dividend_cagr_pct": 27.65,
         "dividend_years_to_double": 2.8,
@@ -8537,10 +8696,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:39",
+      "updated_at": "2026-08-09 02:39",
       "forecast_dividend_changes": []
     },
     {
@@ -8660,9 +8823,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:39",
+      "updated_at": "2026-08-09 02:39",
       "forecast_dividend_changes": []
     },
     {
@@ -8769,8 +8933,8 @@
       "comment": "PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
-        "income_score": 4,
-        "total_score": 7,
+        "income_score": 5,
+        "total_score": 8,
         "payout_ratio_pct": 33.0,
         "dividend_cagr_pct": 30.13,
         "dividend_years_to_double": 2.6,
@@ -8783,10 +8947,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:40",
+      "updated_at": "2026-08-09 02:39",
       "forecast_dividend_changes": []
     },
     {
@@ -8893,8 +9061,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 3,
-        "total_score": 5,
+        "income_score": 4,
+        "total_score": 6,
         "payout_ratio_pct": 51.4,
         "dividend_cagr_pct": 16.65,
         "dividend_years_to_double": 4.5,
@@ -8905,10 +9073,14 @@
         "income_detail": [
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:41",
+      "updated_at": "2026-08-09 02:39",
       "forecast_dividend_changes": []
     },
     {
@@ -9029,9 +9201,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:41",
+      "updated_at": "2026-08-09 02:40",
       "forecast_dividend_changes": []
     },
     {
@@ -9153,9 +9326,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:42",
+      "updated_at": "2026-08-09 02:40",
       "forecast_dividend_changes": []
     },
     {
@@ -9262,8 +9436,8 @@
       "comment": "ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 37.1,
         "dividend_cagr_pct": 16.78,
         "dividend_years_to_double": 4.5,
@@ -9275,10 +9449,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:42",
+      "updated_at": "2026-08-09 02:41",
       "forecast_dividend_changes": []
     },
     {
@@ -9385,8 +9563,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 3,
-        "total_score": 4,
+        "income_score": 4,
+        "total_score": 5,
         "payout_ratio_pct": 61.4,
         "dividend_cagr_pct": 10.0,
         "dividend_years_to_double": 7.3,
@@ -9396,10 +9574,14 @@
         "income_detail": [
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:44",
+      "updated_at": "2026-08-09 02:41",
       "forecast_dividend_changes": []
     },
     {
@@ -9516,9 +9698,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:44",
+      "updated_at": "2026-08-09 02:41",
       "forecast_dividend_changes": []
     },
     {
@@ -9625,8 +9808,8 @@
       "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 1,
-        "income_score": 4,
-        "total_score": 5,
+        "income_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 47.9,
         "dividend_cagr_pct": 9.67,
         "dividend_years_to_double": 7.5,
@@ -9637,10 +9820,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:44",
+      "updated_at": "2026-08-09 02:41",
       "forecast_dividend_changes": []
     },
     {
@@ -9747,8 +9934,8 @@
       "comment": "全項目で基準を満たしています。",
       "priority_score": {
         "growth_score": 2,
-        "income_score": 4,
-        "total_score": 6,
+        "income_score": 5,
+        "total_score": 7,
         "payout_ratio_pct": 48.4,
         "dividend_cagr_pct": 17.47,
         "dividend_years_to_double": 4.3,
@@ -9760,10 +9947,14 @@
           "配当性向50%以下",
           "減配0回",
           "無配0期",
+          "10期連続増配を達成/宣言",
           "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-07 07:44",
+      "updated_at": "2026-08-09 02:42",
       "forecast_dividend_changes": []
     },
     {
@@ -9884,9 +10075,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:44",
+      "updated_at": "2026-08-09 02:43",
       "forecast_dividend_changes": []
     },
     {
@@ -10008,9 +10200,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:45",
+      "updated_at": "2026-08-09 02:43",
       "forecast_dividend_changes": []
     },
     {
@@ -10128,9 +10321,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:45",
+      "updated_at": "2026-08-09 02:43",
       "forecast_dividend_changes": []
     },
     {
@@ -10252,9 +10446,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:45",
+      "updated_at": "2026-08-09 02:44",
       "forecast_dividend_changes": []
     },
     {
@@ -10375,9 +10570,10 @@
           "配当性向50%以下",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:46",
+      "updated_at": "2026-08-09 02:44",
       "forecast_dividend_changes": []
     },
     {
@@ -10495,9 +10691,10 @@
         "income_detail": [
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:46",
+      "updated_at": "2026-08-09 02:44",
       "forecast_dividend_changes": []
     },
     {
@@ -10617,9 +10814,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:46",
+      "updated_at": "2026-08-09 02:44",
       "forecast_dividend_changes": []
     },
     {
@@ -10739,9 +10937,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:47",
+      "updated_at": "2026-08-09 02:45",
       "forecast_dividend_changes": []
     },
     {
@@ -10862,9 +11061,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:47",
+      "updated_at": "2026-08-09 02:46",
       "forecast_dividend_changes": []
     },
     {
@@ -10982,9 +11182,10 @@
           "減配0回",
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-07 07:48",
+      "updated_at": "2026-08-09 02:46",
       "forecast_dividend_changes": []
     },
     {
@@ -11102,9 +11303,10 @@
         "income_detail": [
           "無配0期",
           "配当CAGR5%以上"
-        ]
+        ],
+        "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-08 14:59",
+      "updated_at": "2026-08-09 02:46",
       "forecast_dividend_changes": []
     }
   ],

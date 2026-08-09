@@ -40,7 +40,8 @@ GLOSSARY = [
     ("配当CAGR", "過去9年間の配当金の年平均成長率。増配ペースの目安。"),
     ("配当倍増まで約N年", "配当CAGRがこのまま続いた場合、配当額が2倍になるまでの年数（72の法則の考え方：年数＝log(2)÷log(1+増配率)）。"),
     ("成長余力スコア（0〜3点）", "EPSの10年成長・ROE水準・純資産の増加傾向から算出。業績が今後も伸びる余地を見る。"),
-    ("増配余力スコア（0〜4点）", "配当性向・減配実績・無配実績・配当CAGRから算出。今後の増配余地を見る。"),
+    ("増配余力スコア（0〜5点）", "配当性向・減配実績・無配実績・配当CAGR・増配の質（下記バッジ）から算出。今後の増配余地を見る。"),
+    ("10期連続増配／DOE宣言／累進配当宣言", "10期連続増配は毎期必ず前期より増配した実績。DOE(自己資本配当率)宣言・累進配当宣言は企業が公式に減配しない方針を掲げていること。いずれか1つでも該当すれば増配余力スコアに+1。"),
     ("目標利回り①②③", "過去の配当利回りの分布から統計的に算出した買い時の目安。①が最も届きやすく、③が最も割安な水準。"),
     ("総合判定", "監視継続＝第1・第2段階とも合格。条件付き監視＝一部条件が未達。除外候補＝赤字や減配など重大な懸念あり。"),
 ]
@@ -194,6 +195,10 @@ CSS = """
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
   .score-sub { color: var(--ink-dim); }
+  .quality-badge {
+    flex: none; font-weight: 600; color: var(--green); background: var(--green-soft);
+    padding: 2px 9px; border-radius: 999px; font-size: 0.68rem;
+  }
   .step { margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--rule); }
   .step-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
   .step-name { font-size: 0.82rem; font-weight: 600; }
@@ -640,10 +645,13 @@ def render_card(stock: dict, order_idx: int, default_rank: int) -> str:
         if years_to_double is not None:
             detail_bits.append(f"配当倍増まで約{fmt_num(years_to_double, 1)}年")
         detail_text = f"（{'・'.join(detail_bits)}）" if detail_bits else ""
+        badges = priority.get("dividend_quality_badges") or []
+        badges_html = "".join(f'<span class="quality-badge">{esc(b)}</span>' for b in badges)
         score_html = (
             '<div class="score-line">'
-            f'<span class="score-badge">優先度スコア {total_score}/7</span>'
-            f'<span class="score-sub">成長余力{growth_score}/3・増配余力{income_score}/4{detail_text}</span>'
+            f'<span class="score-badge">優先度スコア {total_score}/8</span>'
+            f'<span class="score-sub">成長余力{growth_score}/3・増配余力{income_score}/5{detail_text}</span>'
+            f"{badges_html}"
             "</div>"
         )
     yield_attr = fmt_num(dividend_yield, 4) if dividend_yield is not None else ""

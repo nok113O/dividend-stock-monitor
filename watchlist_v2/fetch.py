@@ -187,7 +187,7 @@ def fetch_one(client: JQuantsClient, code: str, edinet_latest: dict | None = Non
     step1 = analyze_step1(metrics, sector)
     step2 = analyze_step2(history, code)
     step3 = calculate_step3(history, code)
-    priority = calculate_priority_score(metrics, step2.get("history"))
+    priority = calculate_priority_score(metrics, step2.get("history"), seed.get("dividend_policy"))
     comment = make_comment(step1, step2)
     rating = overall_rating(step1, step2)
 
@@ -282,6 +282,7 @@ def fetch_one(client: JQuantsClient, code: str, edinet_latest: dict | None = Non
             "dividend_years_to_double": priority["dividend_years_to_double"],
             "growth_detail": priority["growth_detail"],
             "income_detail": priority["income_detail"],
+            "dividend_quality_badges": priority["dividend_quality_badges"],
         },
         "updated_at": now,
         "_edinet_disclosure_date": edinet_disclosure_date,
