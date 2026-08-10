@@ -13,6 +13,10 @@ EDINETコードのマッピングは watchlist_v2/edinet_codes.json (build_edine
 使い方:
   python watchlist_v2/fetch.py            # codes.json全銘柄を再取得
   python watchlist_v2/fetch.py 8014 1939  # 指定銘柄のみ再取得(他は前回値を保持)
+
+EDINET DBは無料プラン(100回/日)のため、同じ日に2回目以降fetch.pyを実行しても
+カレンダー・決算短信の問い合わせは自動的にスキップされる(株価・J-Quants分は毎回更新される)。
+その日のうちにどうしてもEDINET DB分も再実行したい場合は --force-edinet を付ける。
 """
 from __future__ import annotations
 
@@ -45,6 +49,7 @@ CODES_FILE = Path(__file__).resolve().parent / "codes.json"
 OUTPUT_FILE = Path(__file__).resolve().parent / "stocks.json"
 SEED_FILE = Path(__file__).resolve().parent / "history_seed.json"
 EDINET_CODES_FILE = Path(__file__).resolve().parent / "edinet_codes.json"
+EDINET_LAST_RUN_FILE = Path(__file__).resolve().parent / ".edinet_last_run"
 EDINET_CALENDAR_LOOKBACK_DAYS = 7
 
 
@@ -80,11 +85,13 @@ def load_edinet_codes() -> dict[str, str]:
     return json.loads(EDINET_CODES_FILE.read_text(encoding="utf-8"))
 
 
-def fetch_recent_edinet_earnings(codes: list[str]) -> dict[str, dict]:
+def fetch_recent_edinet_earnings(codes: list[str], force: bool = False) -> dict[str, dict]:
     """直近の決算短信カレンダーを見て、開示があったウォッチリスト銘柄だけ最新開示を取得する。
 
     データ出典: EDINET DB (https://edinetdb.jp)
     無料プラン(100回/日)を守るため、カレンダー参照1回+該当銘柄分のみリクエストする。
+    さらに、同じ日にfetch.pyを複数回実行しても日次上限を圧迫しないよう、
+    その日すでにEDINET DBへ問い合わせ済みなら2回目以降はスキップする(force=Trueで無視可能)。
     """
     api_key = os.environ.get("EDINETDB_API_KEY", "")
     if not api_key:
@@ -93,10 +100,22 @@ def fetch_recent_edinet_earnings(codes: list[str]) -> dict[str, dict]:
     if not edinet_codes:
         return {}
 
+    today_str = date.today().strftime("%Y-%m-%d")
+    if not force and EDINET_LAST_RUN_FILE.exists():
+        last_run = EDINET_LAST_RUN_FILE.read_text(encoding="utf-8").strip()
+        if last_run == today_str:
+            print(
+                f"EDINET DB: 本日({today_str})は実行済みのためスキップします"
+                "(--force-edinet で強制実行可)。"
+            )
+            return {}
+
     client = EdinetDbClient(api_key)
     today = date.today()
     date_from = (today - timedelta(days=EDINET_CALENDAR_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     date_to = today.strftime("%Y-%m-%d")
+    # カレンダーへの問い合わせを試みた時点で「本日実行済み」と記録する(エラー時も含む＝再試行の連打を防ぐ)。
+    EDINET_LAST_RUN_FILE.write_text(today_str, encoding="utf-8")
     try:
         calendar_entries = client.calendar(date_from, date_to)
     except EdinetDbError as exc:
@@ -325,6 +344,8 @@ def main() -> None:
     all_codes = json.loads(CODES_FILE.read_text(encoding="utf-8"))
 
     requested = sys.argv[1:]
+    force_edinet = "--force-edinet" in requested
+    requested = [c for c in requested if c != "--force-edinet"]
     if requested:
         unknown = [c for c in requested if c not in all_codes]
         if unknown:
@@ -336,7 +357,7 @@ def main() -> None:
 
     client = JQuantsClient(api_key, min_interval_seconds=1.5)
     previous = load_previous_stocks()
-    edinet_latest_by_code = fetch_recent_edinet_earnings(target_codes)
+    edinet_latest_by_code = fetch_recent_edinet_earnings(target_codes, force=force_edinet)
 
     fresh: dict[str, dict] = {}
     errors = []
