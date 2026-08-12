@@ -104,11 +104,18 @@ def select_forecast_eps(row: dict) -> float | None:
             return value
     return None
 
-def step1_metrics(price: float | None, latest: dict) -> dict[str, float | None]:
+def step1_metrics(price: float | None, latest: dict, fy_latest: dict | None = None) -> dict[str, float | None]:
     bps = num(latest.get("BPS"))
     eps_forecast = select_forecast_eps(latest)
     dividend = select_forecast_dividend(latest)
-    np_value = num(latest.get("NP"))
+    # ROE・ROAの分子(当期純利益)は、直近開示が本決算(FY)以外(1Q〜3Q)だと
+    # 期初からの累積利益(3〜9ヶ月分)がそのまま入ってしまい、通期ベースの
+    # 純資産・総資産で割ると期央・期初ほど実力より過小評価される
+    # (逆に利益が期後半に偏る業種では単純な年換算も不適切)。
+    # そのため直近の本決算(FY)実績の純利益を優先して使う。
+    np_value = num((fy_latest or {}).get("NP"))
+    if np_value is None:
+        np_value = num(latest.get("NP"))
     equity = num(latest.get("Eq"))
     assets = num(latest.get("TA"))
     eq_ratio = pct(latest.get("EqAR"))
@@ -197,9 +204,14 @@ def merge_new_fy(history: pd.DataFrame, code: str, summaries: list[dict], update
     all_history["コード"] = all_history["コード"].astype(str).str.replace(r"\.0$", "", regex=True).str.zfill(4)
     all_history["決算期"] = pd.to_datetime(all_history["決算期"], errors="coerce")
     all_history = all_history.dropna(subset=["決算期"])
+    # J-Quantsの決算期末日が実際の月末(例: 3/31)ではなく月中の日付(例: 3/20)で
+    # 返ってくることがあり、そのままだと同一決算期が別期として重複計上されて
+    # BPS等の「連続増加」判定を狂わせる。年月単位で同一期とみなして重複排除する。
+    all_history["_period_key"] = all_history["決算期"].dt.to_period("M")
     all_history = (
-        all_history.sort_values(["コード", "決算期", "更新日"])
-        .drop_duplicates(["コード", "決算期"], keep="last")
+        all_history.sort_values(["コード", "_period_key", "更新日"])
+        .drop_duplicates(["コード", "_period_key"], keep="last")
+        .drop(columns="_period_key")
     )
 
     # 各銘柄の最新10期だけ維持

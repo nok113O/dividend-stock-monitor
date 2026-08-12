@@ -7,7 +7,7 @@ import streamlit as st
 
 from analyzer import (
     analyze_step1, analyze_step2, buy_zone, calculate_step3,
-    latest_summary, make_comment, merge_new_fy,
+    latest_fy_summaries, latest_summary, make_comment, merge_new_fy,
     overall_rating, step1_metrics,
 )
 from jquants_client import JQuantsClient, JQuantsError
@@ -64,7 +64,9 @@ def update_one(code: str) -> tuple[dict, dict]:
     price = market.get("price")
     price_date = market.get("price_date")
     latest = latest_summary(summaries)
-    metrics = step1_metrics(price, latest)
+    fy_summaries = latest_fy_summaries(summaries)
+    fy_latest = fy_summaries[-1] if fy_summaries else None
+    metrics = step1_metrics(price, latest, fy_latest)
 
     # J-Quants財務で欠ける現在指標をYahoo! Financeで補完
     if metrics.get("PER") is None:

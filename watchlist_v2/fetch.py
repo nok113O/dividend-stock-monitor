@@ -34,7 +34,7 @@ import pandas as pd  # noqa: E402
 
 from analyzer import (  # noqa: E402
     analyze_step1, analyze_step2, calculate_priority_score, calculate_step3,
-    latest_summary, make_comment, merge_new_fy,
+    latest_fy_summaries, latest_summary, make_comment, merge_new_fy,
     overall_rating, step1_metrics,
 )
 from edinetdb_client import EdinetDbClient, EdinetDbError  # noqa: E402
@@ -153,7 +153,9 @@ def fetch_one(client: JQuantsClient, code: str, edinet_latest: dict | None = Non
     price = market.get("price")
     price_date = market.get("price_date")
     latest = latest_summary(summaries)
-    metrics = step1_metrics(price, latest)
+    fy_summaries = latest_fy_summaries(summaries)
+    fy_latest = fy_summaries[-1] if fy_summaries else None
+    metrics = step1_metrics(price, latest, fy_latest)
 
     if metrics.get("PER") is None:
         metrics["PER"] = market.get("trailing_pe")
