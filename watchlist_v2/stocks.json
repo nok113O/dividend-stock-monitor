@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12 07:45",
+  "generated_at": "2026-08-12 15:32",
   "stocks": [
     {
       "code": "8306",
@@ -122,7 +122,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:15",
+      "updated_at": "2026-08-12 15:00",
       "forecast_dividend_changes": []
     },
     {
@@ -214,10 +214,10 @@
       "target_yield": {
         "cycle_class": "非景気敏感株",
         "reason": "業種：情報･通信業・利益比較的安定・減配なし・増配基調",
-        "target1_pct": 3.09,
+        "target1_pct": 3.1,
         "target2_pct": 3.17,
         "target3_pct": 3.27,
-        "buy1_price": 2718,
+        "buy1_price": 2710,
         "buy2_price": 2650,
         "buy3_price": 2569,
         "buy_status": "監視",
@@ -249,7 +249,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:15",
+      "updated_at": "2026-08-12 15:00",
       "forecast_dividend_changes": []
     },
     {
@@ -278,12 +278,12 @@
             "judge": "×"
           },
           "ROE": {
-            "value": 11.247463156497165,
+            "value": 14.283140185497789,
             "criterion": "7%以上",
             "judge": "○"
           },
           "ROA": {
-            "value": 9.497117232543241,
+            "value": 12.060377962844331,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -376,7 +376,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:15",
+      "updated_at": "2026-08-12 15:00",
       "forecast_dividend_changes": []
     },
     {
@@ -503,7 +503,7 @@
           "DOE宣言(5.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:15",
+      "updated_at": "2026-08-12 15:00",
       "forecast_dividend_changes": []
     },
     {
@@ -631,7 +631,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:16",
+      "updated_at": "2026-08-12 15:00",
       "forecast_dividend_changes": []
     },
     {
@@ -760,7 +760,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:17",
+      "updated_at": "2026-08-12 15:01",
       "forecast_dividend_changes": []
     },
     {
@@ -853,10 +853,10 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：卸売業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 3.58,
-        "target2_pct": 4.25,
+        "target2_pct": 4.24,
         "target3_pct": 4.49,
         "buy1_price": 3128,
-        "buy2_price": 2635,
+        "buy2_price": 2642,
         "buy3_price": 2494,
         "buy_status": "第2買い（追加買い）",
         "sample_daily": 732,
@@ -886,7 +886,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:17",
+      "updated_at": "2026-08-12 15:01",
       "forecast_dividend_changes": []
     },
     {
@@ -1013,7 +1013,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:17",
+      "updated_at": "2026-08-12 15:01",
       "forecast_dividend_changes": []
     },
     {
@@ -1139,7 +1139,7 @@
           "DOE宣言(4.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:18",
+      "updated_at": "2026-08-12 15:02",
       "forecast_dividend_changes": []
     },
     {
@@ -1262,7 +1262,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:18",
+      "updated_at": "2026-08-12 15:02",
       "forecast_dividend_changes": []
     },
     {
@@ -1390,7 +1390,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:18",
+      "updated_at": "2026-08-12 15:03",
       "forecast_dividend_changes": []
     },
     {
@@ -1419,14 +1419,14 @@
             "judge": "○"
           },
           "ROE": {
-            "value": 2.1358520930136318,
+            "value": 7.688005601697376,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 1.3643648802548916,
+            "value": 4.911035214689761,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 2.9055690072639226,
@@ -1494,7 +1494,7 @@
         "error": null
       },
       "rating": "除外候補",
-      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。",
+      "comment": "PERは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 1,
         "income_score": 4,
@@ -1515,7 +1515,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:18",
+      "updated_at": "2026-08-12 15:03",
       "forecast_dividend_changes": []
     },
     {
@@ -1642,7 +1642,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:20",
+      "updated_at": "2026-08-12 15:03",
       "forecast_dividend_changes": []
     },
     {
@@ -1671,12 +1671,12 @@
             "judge": "○"
           },
           "ROE": {
-            "value": 8.992830317514509,
+            "value": 8.835780129737111,
             "criterion": "7%以上",
             "judge": "○"
           },
           "ROA": {
-            "value": 2.9618135204425853,
+            "value": 2.9100886070255925,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -1768,7 +1768,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:20",
+      "updated_at": "2026-08-12 15:04",
       "forecast_dividend_changes": []
     },
     {
@@ -1893,7 +1893,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:20",
+      "updated_at": "2026-08-12 15:04",
       "forecast_dividend_changes": []
     },
     {
@@ -1922,14 +1922,14 @@
             "judge": "×"
           },
           "ROE": {
-            "value": 1.9270215349250743,
+            "value": 12.145090136934208,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 0.5105918035112369,
+            "value": 3.21801462227296,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 3.8340486409155936,
@@ -1997,16 +1997,17 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。",
+      "comment": "PBRは基準未達。 自己資本比率は基準未達。",
       "priority_score": {
-        "growth_score": 2,
+        "growth_score": 3,
         "income_score": 5,
-        "total_score": 7,
+        "total_score": 8,
         "payout_ratio_pct": 41.099999999999994,
         "dividend_cagr_pct": 15.46,
         "dividend_years_to_double": 4.8,
         "growth_detail": [
           "EPSが9期前の2倍以上",
+          "ROE10%以上",
           "BPS10期連続増加"
         ],
         "income_detail": [
@@ -2021,7 +2022,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:20",
+      "updated_at": "2026-08-12 15:04",
       "forecast_dividend_changes": []
     },
     {
@@ -2050,14 +2051,14 @@
             "judge": "×"
           },
           "ROE": {
-            "value": 1.683288176629965,
+            "value": 14.159989239253665,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 0.42983949714667047,
+            "value": 3.615853030221249,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 4.4673539518900345,
@@ -2125,15 +2126,16 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
+      "comment": "PBRは基準未達。 自己資本比率は基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
-        "growth_score": 1,
+        "growth_score": 2,
         "income_score": 4,
-        "total_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 30.8,
         "dividend_cagr_pct": 8.01,
         "dividend_years_to_double": 9.0,
         "growth_detail": [
+          "ROE10%以上",
           "BPS10期連続増加"
         ],
         "income_detail": [
@@ -2146,7 +2148,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:20",
+      "updated_at": "2026-08-12 15:04",
       "forecast_dividend_changes": []
     },
     {
@@ -2161,7 +2163,7 @@
       "price_change": 35.0,
       "price_change_pct": 0.008515815,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
@@ -2175,14 +2177,14 @@
             "judge": "○"
           },
           "ROE": {
-            "value": 2.4476127511569747,
+            "value": 7.924918796171204,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 1.943309674327316,
+            "value": 6.292078417052742,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 4.583835946924005,
@@ -2250,7 +2252,7 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
+      "comment": "今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
         "income_score": 4,
@@ -2271,7 +2273,7 @@
           "DOE宣言(2.5%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:21",
+      "updated_at": "2026-08-12 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -2364,10 +2366,10 @@
         "cycle_class": "非景気敏感株",
         "reason": "業種：医薬品・配当変動大",
         "target1_pct": 1.93,
-        "target2_pct": 2.36,
+        "target2_pct": 2.35,
         "target3_pct": 2.95,
         "buy1_price": 5181,
-        "buy2_price": 4237,
+        "buy2_price": 4255,
         "buy3_price": 3390,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 732,
@@ -2397,7 +2399,7 @@
           "DOE宣言(8.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:21",
+      "updated_at": "2026-08-12 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -2489,11 +2491,11 @@
       "target_yield": {
         "cycle_class": "非景気敏感株",
         "reason": "業種：医薬品・利益比較的安定・減配なし・増配基調",
-        "target1_pct": 3.73,
-        "target2_pct": 3.85,
+        "target1_pct": 3.72,
+        "target2_pct": 3.84,
         "target3_pct": 3.97,
-        "buy1_price": 4236,
-        "buy2_price": 4104,
+        "buy1_price": 4247,
+        "buy2_price": 4115,
         "buy3_price": 3980,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 732,
@@ -2524,7 +2526,7 @@
           "DOE宣言(5.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:21",
+      "updated_at": "2026-08-12 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -2650,7 +2652,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:22",
+      "updated_at": "2026-08-12 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -2777,7 +2779,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:22",
+      "updated_at": "2026-08-12 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -2901,7 +2903,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:22",
+      "updated_at": "2026-08-12 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -3027,7 +3029,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:23",
+      "updated_at": "2026-08-12 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -3119,10 +3121,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他金融業・配当変動大",
-        "target1_pct": 3.03,
+        "target1_pct": 3.01,
         "target2_pct": 3.45,
         "target3_pct": 3.54,
-        "buy1_price": 1634,
+        "buy1_price": 1645,
         "buy2_price": 1435,
         "buy3_price": 1398,
         "buy_status": "第3買い（本格購入）",
@@ -3155,7 +3157,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:23",
+      "updated_at": "2026-08-12 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -3281,7 +3283,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:24",
+      "updated_at": "2026-08-12 15:08",
       "forecast_dividend_changes": []
     },
     {
@@ -3407,7 +3409,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:24",
+      "updated_at": "2026-08-12 15:08",
       "forecast_dividend_changes": []
     },
     {
@@ -3530,7 +3532,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:24",
+      "updated_at": "2026-08-12 15:09",
       "forecast_dividend_changes": []
     },
     {
@@ -3657,7 +3659,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:25",
+      "updated_at": "2026-08-12 15:09",
       "forecast_dividend_changes": []
     },
     {
@@ -3780,7 +3782,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:25",
+      "updated_at": "2026-08-12 15:09",
       "forecast_dividend_changes": []
     },
     {
@@ -3906,7 +3908,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:25",
+      "updated_at": "2026-08-12 15:10",
       "forecast_dividend_changes": []
     },
     {
@@ -4034,7 +4036,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:25",
+      "updated_at": "2026-08-12 15:10",
       "forecast_dividend_changes": []
     },
     {
@@ -4162,7 +4164,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:27",
+      "updated_at": "2026-08-12 15:10",
       "forecast_dividend_changes": []
     },
     {
@@ -4191,14 +4193,14 @@
             "judge": "○"
           },
           "ROE": {
-            "value": 0.7405737836880575,
+            "value": 5.776475512766848,
             "criterion": "7%以上",
             "judge": "×"
           },
           "ROA": {
-            "value": 0.5374836418022061,
+            "value": 4.192372406057207,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 4.136789851075565,
@@ -4266,7 +4268,7 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
+      "comment": "PERは基準未達。 ROEは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 1,
         "income_score": 4,
@@ -4287,7 +4289,7 @@
           "DOE宣言(3.5%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:27",
+      "updated_at": "2026-08-12 15:11",
       "forecast_dividend_changes": []
     },
     {
@@ -4414,7 +4416,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:27",
+      "updated_at": "2026-08-12 15:11",
       "forecast_dividend_changes": []
     },
     {
@@ -4542,7 +4544,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:27",
+      "updated_at": "2026-08-12 15:11",
       "forecast_dividend_changes": []
     },
     {
@@ -4667,7 +4669,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:27",
+      "updated_at": "2026-08-12 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -4788,7 +4790,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:28",
+      "updated_at": "2026-08-12 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -4916,7 +4918,7 @@
           "DOE宣言(4.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:28",
+      "updated_at": "2026-08-12 15:13",
       "forecast_dividend_changes": []
     },
     {
@@ -5009,10 +5011,10 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：倉庫･運輸関連業・利益比較的安定・配当変動大",
         "target1_pct": 3.74,
-        "target2_pct": 3.96,
+        "target2_pct": 3.95,
         "target3_pct": 4.31,
         "buy1_price": 5481,
-        "buy2_price": 5177,
+        "buy2_price": 5190,
         "buy3_price": 4756,
         "buy_status": "第2買い（追加買い）",
         "sample_daily": 732,
@@ -5042,7 +5044,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:28",
+      "updated_at": "2026-08-12 15:13",
       "forecast_dividend_changes": []
     },
     {
@@ -5167,7 +5169,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:29",
+      "updated_at": "2026-08-12 15:13",
       "forecast_dividend_changes": []
     },
     {
@@ -5294,7 +5296,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:29",
+      "updated_at": "2026-08-12 15:14",
       "forecast_dividend_changes": []
     },
     {
@@ -5422,7 +5424,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:30",
+      "updated_at": "2026-08-12 15:14",
       "forecast_dividend_changes": []
     },
     {
@@ -5551,7 +5553,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:30",
+      "updated_at": "2026-08-12 15:14",
       "forecast_dividend_changes": []
     },
     {
@@ -5644,10 +5646,10 @@
         "cycle_class": "非景気敏感株",
         "reason": "業種：ガラス･土石製品・減配なし・増配基調",
         "target1_pct": 2.37,
-        "target2_pct": 2.76,
+        "target2_pct": 2.77,
         "target3_pct": 3.09,
         "buy1_price": 2743,
-        "buy2_price": 2355,
+        "buy2_price": 2347,
         "buy3_price": 2104,
         "buy_status": "監視",
         "sample_daily": 732,
@@ -5681,7 +5683,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:30",
+      "updated_at": "2026-08-12 15:14",
       "forecast_dividend_changes": []
     },
     {
@@ -5807,7 +5809,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:31",
+      "updated_at": "2026-08-12 15:15",
       "forecast_dividend_changes": []
     },
     {
@@ -5936,7 +5938,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:31",
+      "updated_at": "2026-08-12 15:16",
       "forecast_dividend_changes": []
     },
     {
@@ -6061,7 +6063,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:31",
+      "updated_at": "2026-08-12 15:16",
       "forecast_dividend_changes": []
     },
     {
@@ -6090,14 +6092,14 @@
             "judge": "×"
           },
           "ROE": {
-            "value": 4.788488826794598,
+            "value": 12.398268823290252,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 2.35943054958503,
+            "value": 6.108994983960407,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 3.4443495587816684,
@@ -6155,32 +6157,34 @@
         "reason": "業種：食料品・利益比較的安定・減配1回",
         "target1_pct": 4.94,
         "target2_pct": 5.17,
-        "target3_pct": 6.09,
+        "target3_pct": 6.11,
         "buy1_price": 4899,
         "buy2_price": 4681,
-        "buy3_price": 3974,
+        "buy3_price": 3961,
         "buy_status": "監視",
         "sample_daily": 732,
         "sample_annual": 10,
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
+      "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
-        "growth_score": 0,
+        "growth_score": 1,
         "income_score": 2,
-        "total_score": 2,
+        "total_score": 3,
         "payout_ratio_pct": 81.39999999999999,
         "dividend_cagr_pct": 6.75,
         "dividend_years_to_double": 10.6,
-        "growth_detail": [],
+        "growth_detail": [
+          "ROE10%以上"
+        ],
         "income_detail": [
           "無配0期",
           "配当CAGR5%以上"
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:32",
+      "updated_at": "2026-08-12 15:16",
       "forecast_dividend_changes": [
         {
           "date": "2026-07-30",
@@ -6319,7 +6323,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:32",
+      "updated_at": "2026-08-12 15:17",
       "forecast_dividend_changes": []
     },
     {
@@ -6443,7 +6447,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:32",
+      "updated_at": "2026-08-12 15:17",
       "forecast_dividend_changes": []
     },
     {
@@ -6569,7 +6573,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:33",
+      "updated_at": "2026-08-12 15:17",
       "forecast_dividend_changes": []
     },
     {
@@ -6693,7 +6697,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:33",
+      "updated_at": "2026-08-12 15:17",
       "forecast_dividend_changes": []
     },
     {
@@ -6786,10 +6790,10 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：銀行業・減配なし・増配基調",
         "target1_pct": 3.53,
-        "target2_pct": 3.65,
+        "target2_pct": 3.66,
         "target3_pct": 3.85,
         "buy1_price": 2550,
-        "buy2_price": 2466,
+        "buy2_price": 2459,
         "buy3_price": 2338,
         "buy_status": "監視",
         "sample_daily": 732,
@@ -6820,7 +6824,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:34",
+      "updated_at": "2026-08-12 15:18",
       "forecast_dividend_changes": []
     },
     {
@@ -6947,7 +6951,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:34",
+      "updated_at": "2026-08-12 15:19",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-03",
@@ -7081,7 +7085,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:34",
+      "updated_at": "2026-08-12 15:19",
       "forecast_dividend_changes": []
     },
     {
@@ -7208,7 +7212,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:34",
+      "updated_at": "2026-08-12 15:19",
       "forecast_dividend_changes": []
     },
     {
@@ -7333,7 +7337,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:35",
+      "updated_at": "2026-08-12 15:19",
       "forecast_dividend_changes": []
     },
     {
@@ -7461,7 +7465,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:35",
+      "updated_at": "2026-08-12 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -7588,7 +7592,7 @@
           "DOE宣言(4.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:35",
+      "updated_at": "2026-08-12 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -7714,7 +7718,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:35",
+      "updated_at": "2026-08-12 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -7833,7 +7837,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:37",
+      "updated_at": "2026-08-12 15:21",
       "forecast_dividend_changes": []
     },
     {
@@ -7955,7 +7959,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:37",
+      "updated_at": "2026-08-12 15:21",
       "forecast_dividend_changes": []
     },
     {
@@ -7984,14 +7988,14 @@
             "judge": "×"
           },
           "ROE": {
-            "value": 1.6655051964770857,
+            "value": 9.074967416301876,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 0.7945396889857457,
+            "value": 4.329270063975732,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 2.4771838331160363,
@@ -8059,7 +8063,7 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 0,
         "income_score": 5,
@@ -8080,7 +8084,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:37",
+      "updated_at": "2026-08-12 15:22",
       "forecast_dividend_changes": []
     },
     {
@@ -8172,14 +8176,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他金融業・利益比較的安定・配当変動大",
-        "target1_pct": 4.32,
+        "target1_pct": 4.33,
         "target2_pct": 4.43,
         "target3_pct": 4.53,
-        "buy1_price": 1111,
+        "buy1_price": 1109,
         "buy2_price": 1084,
         "buy3_price": 1060,
         "buy_status": "監視",
-        "sample_daily": 580,
+        "sample_daily": 579,
         "sample_annual": 3,
         "error": null
       },
@@ -8196,7 +8200,7 @@
         "income_detail": [],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:37",
+      "updated_at": "2026-08-12 15:22",
       "forecast_dividend_changes": []
     },
     {
@@ -8225,14 +8229,14 @@
             "judge": "×"
           },
           "ROE": {
-            "value": 2.465398583744782,
+            "value": 8.75929522875035,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 1.6315024215178646,
+            "value": 5.796552115637729,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 2.955781508630882,
@@ -8300,7 +8304,7 @@
         "error": null
       },
       "rating": "除外候補",
-      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
       "priority_score": {
         "growth_score": 0,
         "income_score": 3,
@@ -8316,7 +8320,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:37",
+      "updated_at": "2026-08-12 15:22",
       "forecast_dividend_changes": []
     },
     {
@@ -8441,7 +8445,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:38",
+      "updated_at": "2026-08-12 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -8533,10 +8537,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：情報･通信業・利益変動大・配当変動大",
-        "target1_pct": 4.14,
+        "target1_pct": 4.13,
         "target2_pct": 4.47,
         "target3_pct": 4.77,
-        "buy1_price": 1135,
+        "buy1_price": 1138,
         "buy2_price": 1051,
         "buy3_price": 985,
         "buy_status": "第1買い（打診買い）",
@@ -8569,7 +8573,7 @@
           "DOE宣言(5.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:38",
+      "updated_at": "2026-08-12 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -8692,7 +8696,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:38",
+      "updated_at": "2026-08-12 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -8821,7 +8825,7 @@
           "DOE宣言(6.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:39",
+      "updated_at": "2026-08-12 15:24",
       "forecast_dividend_changes": []
     },
     {
@@ -8949,7 +8953,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:40",
+      "updated_at": "2026-08-12 15:24",
       "forecast_dividend_changes": []
     },
     {
@@ -9005,7 +9009,7 @@
         }
       },
       "step2": {
-        "overall": "×",
+        "overall": "○",
         "rows": {
           "EPS10期赤字なし": {
             "judge": "○",
@@ -9013,11 +9017,11 @@
           },
           "今期EPSが9期前の2倍以上": {
             "judge": "○",
-            "detail": "2.14倍"
+            "detail": "2.68倍"
           },
           "BPS10期連続増加": {
-            "judge": "×",
-            "detail": "減少・欠損 3回"
+            "judge": "○",
+            "detail": "減少・欠損 0回"
           },
           "10期で減配2回未満": {
             "judge": "○",
@@ -9031,9 +9035,9 @@
         "periods_available": 10
       },
       "step3": {
-        "eps_sum": 1190.41,
+        "eps_sum": 1037.86,
         "latest_bps": 1908.83,
-        "target_price": 3099.24
+        "target_price": 2946.69
       },
       "forecast_dividend": 77.0,
       "dividend_yield_pct": 3.719806763285024,
@@ -9052,18 +9056,19 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
-      "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
+      "rating": "監視継続",
+      "comment": "全項目で基準を満たしています。",
       "priority_score": {
-        "growth_score": 2,
+        "growth_score": 3,
         "income_score": 5,
-        "total_score": 7,
+        "total_score": 8,
         "payout_ratio_pct": 30.4,
-        "dividend_cagr_pct": 16.65,
-        "dividend_years_to_double": 4.5,
+        "dividend_cagr_pct": 22.03,
+        "dividend_years_to_double": 3.5,
         "growth_detail": [
           "EPSが9期前の2倍以上",
-          "ROE10%以上"
+          "ROE10%以上",
+          "BPS10期連続増加"
         ],
         "income_detail": [
           "配当性向50%以下",
@@ -9076,7 +9081,7 @@
           "DOE宣言(4.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:40",
+      "updated_at": "2026-08-12 15:24",
       "forecast_dividend_changes": []
     },
     {
@@ -9204,7 +9209,7 @@
           "DOE宣言(4.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:40",
+      "updated_at": "2026-08-12 15:25",
       "forecast_dividend_changes": []
     },
     {
@@ -9233,12 +9238,12 @@
             "judge": "○"
           },
           "ROE": {
-            "value": 0.9470970820066464,
+            "value": 9.754089398542826,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 0.23934722722286883,
+            "value": 2.4650210585368715,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -9308,7 +9313,7 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "ROEは基準未達。 ROAは基準未達。 自己資本比率は基準未達。",
+      "comment": "ROAは基準未達。 自己資本比率は基準未達。",
       "priority_score": {
         "growth_score": 2,
         "income_score": 5,
@@ -9331,7 +9336,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-12 07:40",
+      "updated_at": "2026-08-12 15:25",
       "forecast_dividend_changes": []
     },
     {
@@ -9457,7 +9462,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:41",
+      "updated_at": "2026-08-12 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -9577,7 +9582,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:41",
+      "updated_at": "2026-08-12 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -9704,7 +9709,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-12 07:41",
+      "updated_at": "2026-08-12 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -9796,10 +9801,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：化学・利益比較的安定・配当変動大",
-        "target1_pct": 3.52,
+        "target1_pct": 3.51,
         "target2_pct": 3.88,
         "target3_pct": 4.03,
-        "buy1_price": 2955,
+        "buy1_price": 2963,
         "buy2_price": 2680,
         "buy3_price": 2581,
         "buy_status": "第2買い（追加買い）",
@@ -9832,7 +9837,7 @@
           "DOE宣言(4.3%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:42",
+      "updated_at": "2026-08-12 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -9956,7 +9961,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:42",
+      "updated_at": "2026-08-12 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -10084,7 +10089,7 @@
           "DOE宣言(4.8%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:42",
+      "updated_at": "2026-08-12 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -10208,7 +10213,7 @@
           "DOE宣言(2.7%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:43",
+      "updated_at": "2026-08-12 15:29",
       "forecast_dividend_changes": []
     },
     {
@@ -10336,7 +10341,7 @@
           "DOE宣言(5.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:43",
+      "updated_at": "2026-08-12 15:29",
       "forecast_dividend_changes": []
     },
     {
@@ -10463,7 +10468,7 @@
           "DOE宣言(3.5%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:44",
+      "updated_at": "2026-08-12 15:29",
       "forecast_dividend_changes": []
     },
     {
@@ -10492,14 +10497,14 @@
             "judge": "×"
           },
           "ROE": {
-            "value": 2.8499526800309734,
+            "value": 15.064957412027876,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 2.571217884033222,
+            "value": 13.591554762089576,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 4.435483870967742,
@@ -10556,10 +10561,10 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：電気機器・減配1回",
         "target1_pct": 4.66,
-        "target2_pct": 4.85,
+        "target2_pct": 4.86,
         "target3_pct": 5.08,
         "buy1_price": 3541,
-        "buy2_price": 3402,
+        "buy2_price": 3395,
         "buy3_price": 3248,
         "buy_status": "監視",
         "sample_daily": 732,
@@ -10567,16 +10572,17 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
+      "comment": "PERは基準未達。 PBRは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
-        "growth_score": 1,
+        "growth_score": 2,
         "income_score": 2,
-        "total_score": 3,
+        "total_score": 4,
         "payout_ratio_pct": 50.8,
         "dividend_cagr_pct": 14.19,
         "dividend_years_to_double": 5.2,
         "growth_detail": [
-          "EPSが9期前の2倍以上"
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
         ],
         "income_detail": [
           "無配0期",
@@ -10584,7 +10590,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:44",
+      "updated_at": "2026-08-12 15:29",
       "forecast_dividend_changes": []
     },
     {
@@ -10613,14 +10619,14 @@
             "judge": "×"
           },
           "ROE": {
-            "value": 5.4866337918505055,
+            "value": 10.568388268881392,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 2.915299114653722,
+            "value": 5.6154673580274155,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 2.6607538802660753,
@@ -10688,16 +10694,17 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 PBRは基準未達。 ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。",
+      "comment": "PERは基準未達。 PBRは基準未達。 配当利回りは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
-        "growth_score": 1,
+        "growth_score": 2,
         "income_score": 4,
-        "total_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 33.2,
         "dividend_cagr_pct": 14.31,
         "dividend_years_to_double": 5.2,
         "growth_detail": [
-          "EPSが9期前の2倍以上"
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
         ],
         "income_detail": [
           "配当性向50%以下",
@@ -10707,7 +10714,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:44",
+      "updated_at": "2026-08-12 15:29",
       "forecast_dividend_changes": []
     },
     {
@@ -10736,14 +10743,14 @@
             "judge": "○"
           },
           "ROE": {
-            "value": 1.3981077997448312,
+            "value": 10.012758434294064,
             "criterion": "7%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "ROA": {
-            "value": 0.7192286264429044,
+            "value": 5.150863543509495,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 2.23579877810997,
@@ -10811,16 +10818,17 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "ROEは基準未達。 ROAは基準未達。 配当利回りは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
+      "comment": "配当利回りは基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
-        "growth_score": 1,
+        "growth_score": 2,
         "income_score": 4,
-        "total_score": 5,
+        "total_score": 6,
         "payout_ratio_pct": 20.0,
         "dividend_cagr_pct": 11.09,
         "dividend_years_to_double": 6.6,
         "growth_detail": [
-          "EPSが9期前の2倍以上"
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
         ],
         "income_detail": [
           "配当性向50%以下",
@@ -10830,7 +10838,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:45",
+      "updated_at": "2026-08-12 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -10954,7 +10962,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-12 07:45",
+      "updated_at": "2026-08-12 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -10983,14 +10991,14 @@
             "judge": "○"
           },
           "ROE": {
-            "value": 2.834225407481327,
+            "value": 5.232241676494602,
             "criterion": "7%以上",
             "judge": "×"
           },
           "ROA": {
-            "value": 2.3919964780419956,
+            "value": 4.415846258876674,
             "criterion": "3%以上",
-            "judge": "×"
+            "judge": "○"
           },
           "配当利回り": {
             "value": 3.003003003003003,
@@ -11058,7 +11066,7 @@
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 ROEは基準未達。 ROAは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
+      "comment": "PERは基準未達。 ROEは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
       "priority_score": {
         "growth_score": 0,
         "income_score": 5,
@@ -11078,7 +11086,7 @@
           "DOE宣言(3.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:45",
+      "updated_at": "2026-08-12 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -11202,7 +11210,129 @@
           "DOE宣言(6.0%以上)"
         ]
       },
-      "updated_at": "2026-08-12 07:45",
+      "updated_at": "2026-08-12 15:31",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "8084",
+      "name": "ＲＹＯＤＥＮ",
+      "industry": "卸売業",
+      "sector": "卸売・商社",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 4455.0,
+      "price_date": "2026-08-12 15:30",
+      "price_change": -65.0,
+      "price_change_pct": -0.014380531,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 20.42266434399927,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.0171116768073423,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 5.580061988935081,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 3.4185984718378775,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 2.861952861952862,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 61.199999999999996,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 960.3631917,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "○",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "3.82倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 1回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 1885.01,
+        "latest_bps": 4380.05,
+        "target_price": 6265.06
+      },
+      "forecast_dividend": 127.5,
+      "dividend_yield_pct": 2.861952861952862,
+      "dividend_override_note": "EDINET DBの forecast_dividend_per_share(42.5円)は2026年10月1日予定の1:2株式分割後ベースの期末配当のみを指しており、そのまま使うと年間配当を過小評価する。正しくは中間85円(分割前ベース)+期末42.5円(分割後ベース)の単純合算127.5円が市場一般の「年間予想配当」表記(Yahoo!ファイナンス等の実測値とも一致、利回り2.82%)。2018年3月期に1回減配(44円→37円)した以外は一貫増配基調。2026-08-12一次スクリーニング：Step1は3/7クリア(PER18.25倍・ROE6.23%・ROA2.58%・利回りが基準未達、PBR・自己資本比率・時価総額は合格)。配当性向56.4%。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：卸売業・利益比較的安定・減配1回",
+        "target1_pct": 4.47,
+        "target2_pct": 4.71,
+        "target3_pct": 4.86,
+        "buy1_price": 2852,
+        "buy2_price": 2707,
+        "buy3_price": 2623,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 ROEは基準未達。 配当利回りは基準未達。",
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 2,
+        "total_score": 4,
+        "payout_ratio_pct": 56.39999999999999,
+        "dividend_cagr_pct": 13.54,
+        "dividend_years_to_double": 5.5,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "無配0期",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": []
+      },
+      "updated_at": "2026-08-12 15:32",
       "forecast_dividend_changes": []
     }
   ],
