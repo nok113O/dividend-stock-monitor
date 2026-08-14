@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14 07:57",
+  "generated_at": "2026-08-14 15:36",
   "stocks": [
     {
       "code": "8306",
@@ -97,7 +97,7 @@
         "buy2_price": 2945,
         "buy3_price": 2574,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -122,7 +122,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:26",
+      "updated_at": "2026-08-14 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -221,7 +221,7 @@
         "buy2_price": 2658,
         "buy3_price": 2569,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -249,7 +249,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:26",
+      "updated_at": "2026-08-14 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -348,7 +348,7 @@
         "buy2_price": 1243,
         "buy3_price": 1191,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -376,7 +376,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:26",
+      "updated_at": "2026-08-14 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -475,7 +475,7 @@
         "buy2_price": 2030,
         "buy3_price": 1876,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -503,7 +503,7 @@
           "DOE宣言(5.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:26",
+      "updated_at": "2026-08-14 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -596,13 +596,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：保険業・配当変動大",
         "target1_pct": 4.41,
-        "target2_pct": 4.56,
+        "target2_pct": 4.57,
         "target3_pct": 4.72,
         "buy1_price": 3855,
-        "buy2_price": 3728,
+        "buy2_price": 3720,
         "buy3_price": 3602,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -631,7 +631,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:26",
+      "updated_at": "2026-08-14 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -723,14 +723,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・配当変動大",
-        "target1_pct": 3.97,
+        "target1_pct": 3.98,
         "target2_pct": 4.51,
         "target3_pct": 4.62,
-        "buy1_price": 3678,
+        "buy1_price": 3668,
         "buy2_price": 3237,
         "buy3_price": 3160,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -760,7 +760,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:27",
+      "updated_at": "2026-08-14 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -853,13 +853,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：卸売業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 3.59,
-        "target2_pct": 4.27,
+        "target2_pct": 4.26,
         "target3_pct": 4.49,
         "buy1_price": 3120,
-        "buy2_price": 2623,
+        "buy2_price": 2629,
         "buy3_price": 2494,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -886,7 +886,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:27",
+      "updated_at": "2026-08-14 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -985,7 +985,7 @@
         "buy2_price": 2296,
         "buy3_price": 2153,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1013,7 +1013,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:27",
+      "updated_at": "2026-08-14 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -1112,7 +1112,7 @@
         "buy2_price": 2083,
         "buy3_price": 1952,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1139,7 +1139,7 @@
           "DOE宣言(4.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:28",
+      "updated_at": "2026-08-14 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -1238,7 +1238,7 @@
         "buy2_price": 2323,
         "buy3_price": 2273,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1262,7 +1262,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:28",
+      "updated_at": "2026-08-14 15:08",
       "forecast_dividend_changes": []
     },
     {
@@ -1361,7 +1361,7 @@
         "buy2_price": 1079,
         "buy3_price": 1064,
         "buy_status": "監視",
-        "sample_daily": 677,
+        "sample_daily": 676,
         "sample_annual": 9,
         "error": null
       },
@@ -1390,7 +1390,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:29",
+      "updated_at": "2026-08-14 15:09",
       "forecast_dividend_changes": []
     },
     {
@@ -1429,7 +1429,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 2.9613960867266,
+            "value": 2.8556319407720783,
             "criterion": "3%以上",
             "judge": "×"
           },
@@ -1476,8 +1476,8 @@
         "latest_bps": 4073.44,
         "target_price": 5649.89
       },
-      "forecast_dividend": 112.0,
-      "dividend_yield_pct": 2.9613960867266,
+      "forecast_dividend": 108.0,
+      "dividend_yield_pct": 2.8556319407720783,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -1485,11 +1485,11 @@
         "target1_pct": 4.36,
         "target2_pct": 4.54,
         "target3_pct": 4.72,
-        "buy1_price": 2569,
-        "buy2_price": 2467,
-        "buy3_price": 2373,
+        "buy1_price": 2477,
+        "buy2_price": 2379,
+        "buy3_price": 2288,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1515,12 +1515,17 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:29",
+      "updated_at": "2026-08-14 15:09",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-07",
           "from": 108.0,
           "to": 112.0
+        },
+        {
+          "date": "2026-08-14",
+          "from": 112.0,
+          "to": 108.0
         }
       ]
     },
@@ -1620,7 +1625,7 @@
         "buy2_price": 1924,
         "buy3_price": 1886,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1648,7 +1653,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:29",
+      "updated_at": "2026-08-14 15:09",
       "forecast_dividend_changes": []
     },
     {
@@ -1747,7 +1752,7 @@
         "buy2_price": 500,
         "buy3_price": 490,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1774,7 +1779,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:30",
+      "updated_at": "2026-08-14 15:10",
       "forecast_dividend_changes": []
     },
     {
@@ -1873,7 +1878,7 @@
         "buy2_price": 1422,
         "buy3_price": 1372,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -1899,7 +1904,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:30",
+      "updated_at": "2026-08-14 15:10",
       "forecast_dividend_changes": []
     },
     {
@@ -1998,7 +2003,7 @@
         "buy2_price": 1714,
         "buy3_price": 1688,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2028,7 +2033,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:30",
+      "updated_at": "2026-08-14 15:10",
       "forecast_dividend_changes": []
     },
     {
@@ -2127,7 +2132,7 @@
         "buy2_price": 2814,
         "buy3_price": 2680,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2154,7 +2159,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:31",
+      "updated_at": "2026-08-14 15:10",
       "forecast_dividend_changes": []
     },
     {
@@ -2253,7 +2258,7 @@
         "buy2_price": 3668,
         "buy3_price": 3592,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2279,7 +2284,7 @@
           "DOE宣言(2.5%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:31",
+      "updated_at": "2026-08-14 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -2372,13 +2377,13 @@
         "cycle_class": "非景気敏感株",
         "reason": "業種：医薬品・配当変動大",
         "target1_pct": 1.94,
-        "target2_pct": 2.37,
+        "target2_pct": 2.36,
         "target3_pct": 2.95,
         "buy1_price": 5155,
-        "buy2_price": 4219,
+        "buy2_price": 4237,
         "buy3_price": 3390,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2405,7 +2410,7 @@
           "DOE宣言(8.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:31",
+      "updated_at": "2026-08-14 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -2504,7 +2509,7 @@
         "buy2_price": 4104,
         "buy3_price": 3980,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2532,7 +2537,7 @@
           "DOE宣言(5.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:31",
+      "updated_at": "2026-08-14 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -2631,7 +2636,7 @@
         "buy2_price": 3582,
         "buy3_price": 3281,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2658,7 +2663,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:32",
+      "updated_at": "2026-08-14 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -2757,7 +2762,7 @@
         "buy2_price": 3571,
         "buy3_price": 3491,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2785,7 +2790,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:33",
+      "updated_at": "2026-08-14 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -2884,7 +2889,7 @@
         "buy2_price": 2915,
         "buy3_price": 2770,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -2909,7 +2914,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:33",
+      "updated_at": "2026-08-14 15:13",
       "forecast_dividend_changes": []
     },
     {
@@ -3008,7 +3013,7 @@
         "buy2_price": 1318,
         "buy3_price": 1266,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3035,7 +3040,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:33",
+      "updated_at": "2026-08-14 15:13",
       "forecast_dividend_changes": []
     },
     {
@@ -3127,14 +3132,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他金融業・配当変動大",
-        "target1_pct": 3.06,
+        "target1_pct": 3.05,
         "target2_pct": 3.45,
         "target3_pct": 3.54,
-        "buy1_price": 1618,
+        "buy1_price": 1623,
         "buy2_price": 1435,
         "buy3_price": 1398,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3163,7 +3168,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:34",
+      "updated_at": "2026-08-14 15:13",
       "forecast_dividend_changes": []
     },
     {
@@ -3262,7 +3267,7 @@
         "buy2_price": 154,
         "buy3_price": 151,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3289,7 +3294,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:34",
+      "updated_at": "2026-08-14 15:14",
       "forecast_dividend_changes": []
     },
     {
@@ -3388,7 +3393,7 @@
         "buy2_price": 7270,
         "buy3_price": 6941,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3415,7 +3420,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:34",
+      "updated_at": "2026-08-14 15:14",
       "forecast_dividend_changes": []
     },
     {
@@ -3507,14 +3512,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：化学・配当変動大",
-        "target1_pct": 3.49,
+        "target1_pct": 3.48,
         "target2_pct": 4.21,
         "target3_pct": 4.64,
-        "buy1_price": 3152,
+        "buy1_price": 3161,
         "buy2_price": 2613,
         "buy3_price": 2371,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3538,7 +3543,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:34",
+      "updated_at": "2026-08-14 15:15",
       "forecast_dividend_changes": []
     },
     {
@@ -3631,13 +3636,13 @@
         "cycle_class": "非景気敏感株",
         "reason": "業種：小売業・配当変動大",
         "target1_pct": 4.26,
-        "target2_pct": 4.37,
+        "target2_pct": 4.36,
         "target3_pct": 4.56,
         "buy1_price": 3146,
-        "buy2_price": 3066,
+        "buy2_price": 3073,
         "buy3_price": 2939,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3665,7 +3670,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:35",
+      "updated_at": "2026-08-14 15:15",
       "forecast_dividend_changes": []
     },
     {
@@ -3764,7 +3769,7 @@
         "buy2_price": 3092,
         "buy3_price": 2851,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3788,7 +3793,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:36",
+      "updated_at": "2026-08-14 15:15",
       "forecast_dividend_changes": []
     },
     {
@@ -3887,7 +3892,7 @@
         "buy2_price": 2404,
         "buy3_price": 2315,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -3914,7 +3919,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:36",
+      "updated_at": "2026-08-14 15:16",
       "forecast_dividend_changes": []
     },
     {
@@ -4013,7 +4018,7 @@
         "buy2_price": 3341,
         "buy3_price": 3266,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4042,7 +4047,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:36",
+      "updated_at": "2026-08-14 15:16",
       "forecast_dividend_changes": []
     },
     {
@@ -4134,14 +4139,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
-        "target1_pct": 3.51,
+        "target1_pct": 3.5,
         "target2_pct": 3.81,
         "target3_pct": 4.01,
-        "buy1_price": 2507,
+        "buy1_price": 2514,
         "buy2_price": 2310,
         "buy3_price": 2195,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4170,7 +4175,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:36",
+      "updated_at": "2026-08-14 15:16",
       "forecast_dividend_changes": []
     },
     {
@@ -4269,7 +4274,7 @@
         "buy2_price": 1794,
         "buy3_price": 1720,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4295,7 +4300,7 @@
           "DOE宣言(3.5%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:37",
+      "updated_at": "2026-08-14 15:17",
       "forecast_dividend_changes": []
     },
     {
@@ -4394,7 +4399,7 @@
         "buy2_price": 2562,
         "buy3_price": 2520,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4422,7 +4427,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:37",
+      "updated_at": "2026-08-14 15:17",
       "forecast_dividend_changes": []
     },
     {
@@ -4521,7 +4526,7 @@
         "buy2_price": 3030,
         "buy3_price": 2968,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4550,7 +4555,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:37",
+      "updated_at": "2026-08-14 15:17",
       "forecast_dividend_changes": []
     },
     {
@@ -4649,7 +4654,7 @@
         "buy2_price": 4095,
         "buy3_price": 4028,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4675,7 +4680,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:38",
+      "updated_at": "2026-08-14 15:18",
       "forecast_dividend_changes": []
     },
     {
@@ -4774,7 +4779,7 @@
         "buy2_price": 1405,
         "buy3_price": 1333,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4796,7 +4801,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:38",
+      "updated_at": "2026-08-14 15:18",
       "forecast_dividend_changes": []
     },
     {
@@ -4895,7 +4900,7 @@
         "buy2_price": 1038,
         "buy3_price": 1000,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -4924,7 +4929,7 @@
           "DOE宣言(4.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:38",
+      "updated_at": "2026-08-14 15:19",
       "forecast_dividend_changes": []
     },
     {
@@ -5016,14 +5021,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：倉庫･運輸関連業・利益比較的安定・配当変動大",
-        "target1_pct": 3.75,
+        "target1_pct": 3.74,
         "target2_pct": 3.96,
         "target3_pct": 4.31,
-        "buy1_price": 5467,
+        "buy1_price": 5481,
         "buy2_price": 5177,
         "buy3_price": 4756,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5050,7 +5055,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:39",
+      "updated_at": "2026-08-14 15:19",
       "forecast_dividend_changes": []
     },
     {
@@ -5149,7 +5154,7 @@
         "buy2_price": 5966,
         "buy3_price": 5660,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5175,7 +5180,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:39",
+      "updated_at": "2026-08-14 15:19",
       "forecast_dividend_changes": []
     },
     {
@@ -5274,7 +5279,7 @@
         "buy2_price": 3876,
         "buy3_price": 3623,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5302,7 +5307,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:40",
+      "updated_at": "2026-08-14 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -5401,7 +5406,7 @@
         "buy2_price": 4417,
         "buy3_price": 4173,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5430,7 +5435,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:40",
+      "updated_at": "2026-08-14 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -5529,7 +5534,7 @@
         "buy2_price": 3173,
         "buy3_price": 2976,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5559,7 +5564,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:40",
+      "updated_at": "2026-08-14 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -5658,7 +5663,7 @@
         "buy2_price": 2355,
         "buy3_price": 2104,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5689,7 +5694,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:41",
+      "updated_at": "2026-08-14 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -5788,7 +5793,7 @@
         "buy2_price": 2972,
         "buy3_price": 2771,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5815,7 +5820,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:41",
+      "updated_at": "2026-08-14 15:22",
       "forecast_dividend_changes": []
     },
     {
@@ -5914,7 +5919,7 @@
         "buy2_price": 1577,
         "buy3_price": 1481,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -5944,7 +5949,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:41",
+      "updated_at": "2026-08-14 15:22",
       "forecast_dividend_changes": []
     },
     {
@@ -6043,7 +6048,7 @@
         "buy2_price": 1137,
         "buy3_price": 1111,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6069,7 +6074,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:41",
+      "updated_at": "2026-08-14 15:22",
       "forecast_dividend_changes": []
     },
     {
@@ -6168,7 +6173,7 @@
         "buy2_price": 4681,
         "buy3_price": 3974,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6190,7 +6195,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:43",
+      "updated_at": "2026-08-14 15:22",
       "forecast_dividend_changes": [
         {
           "date": "2026-07-30",
@@ -6300,7 +6305,7 @@
         "buy2_price": 3835,
         "buy3_price": 3678,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6329,7 +6334,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:43",
+      "updated_at": "2026-08-14 15:22",
       "forecast_dividend_changes": []
     },
     {
@@ -6428,7 +6433,7 @@
         "buy2_price": 2570,
         "buy3_price": 2477,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6453,7 +6458,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:43",
+      "updated_at": "2026-08-14 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -6552,7 +6557,7 @@
         "buy2_price": 1159,
         "buy3_price": 1049,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6579,7 +6584,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:43",
+      "updated_at": "2026-08-14 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -6678,7 +6683,7 @@
         "buy2_price": 2794,
         "buy3_price": 2699,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6703,7 +6708,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:43",
+      "updated_at": "2026-08-14 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -6802,7 +6807,7 @@
         "buy2_price": 2466,
         "buy3_price": 2338,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6830,7 +6835,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:44",
+      "updated_at": "2026-08-14 15:24",
       "forecast_dividend_changes": []
     },
     {
@@ -6922,14 +6927,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他金融業・利益比較的安定・減配なし・増配基調",
-        "target1_pct": 3.8,
+        "target1_pct": 3.81,
         "target2_pct": 4.0,
         "target3_pct": 4.22,
-        "buy1_price": 4931,
+        "buy1_price": 4918,
         "buy2_price": 4684,
         "buy3_price": 4440,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -6957,7 +6962,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:44",
+      "updated_at": "2026-08-14 15:25",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-03",
@@ -7062,7 +7067,7 @@
         "buy2_price": 1933,
         "buy3_price": 1837,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7091,7 +7096,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:45",
+      "updated_at": "2026-08-14 15:25",
       "forecast_dividend_changes": []
     },
     {
@@ -7190,7 +7195,7 @@
         "buy2_price": 1323,
         "buy3_price": 1287,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7218,7 +7223,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:45",
+      "updated_at": "2026-08-14 15:25",
       "forecast_dividend_changes": []
     },
     {
@@ -7317,7 +7322,7 @@
         "buy2_price": 1563,
         "buy3_price": 1478,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7343,7 +7348,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:45",
+      "updated_at": "2026-08-14 15:25",
       "forecast_dividend_changes": []
     },
     {
@@ -7442,7 +7447,7 @@
         "buy2_price": 2635,
         "buy3_price": 2576,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7471,7 +7476,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:46",
+      "updated_at": "2026-08-14 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -7570,7 +7575,7 @@
         "buy2_price": 1639,
         "buy3_price": 1577,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7598,7 +7603,7 @@
           "DOE宣言(4.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:46",
+      "updated_at": "2026-08-14 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -7697,7 +7702,7 @@
         "buy2_price": 2914,
         "buy3_price": 2870,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7724,7 +7729,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:47",
+      "updated_at": "2026-08-14 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -7823,7 +7828,7 @@
         "buy2_price": 2576,
         "buy3_price": 2521,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7843,7 +7848,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:47",
+      "updated_at": "2026-08-14 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -7942,7 +7947,7 @@
         "buy2_price": 2512,
         "buy3_price": 2453,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -7965,7 +7970,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:47",
+      "updated_at": "2026-08-14 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -8064,7 +8069,7 @@
         "buy2_price": 2190,
         "buy3_price": 2094,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8090,7 +8095,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:48",
+      "updated_at": "2026-08-14 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -8189,7 +8194,7 @@
         "buy2_price": 1084,
         "buy3_price": 1060,
         "buy_status": "監視",
-        "sample_daily": 582,
+        "sample_daily": 581,
         "sample_annual": 3,
         "error": null
       },
@@ -8206,7 +8211,7 @@
         "income_detail": [],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:48",
+      "updated_at": "2026-08-14 15:28",
       "forecast_dividend_changes": []
     },
     {
@@ -8305,7 +8310,7 @@
         "buy2_price": 3272,
         "buy3_price": 3189,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8326,7 +8331,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:48",
+      "updated_at": "2026-08-14 15:28",
       "forecast_dividend_changes": []
     },
     {
@@ -8425,7 +8430,7 @@
         "buy2_price": 3245,
         "buy3_price": 3019,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8451,7 +8456,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:48",
+      "updated_at": "2026-08-14 15:29",
       "forecast_dividend_changes": []
     },
     {
@@ -8550,7 +8555,7 @@
         "buy2_price": 1051,
         "buy3_price": 985,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8579,7 +8584,7 @@
           "DOE宣言(5.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:50",
+      "updated_at": "2026-08-14 15:29",
       "forecast_dividend_changes": []
     },
     {
@@ -8678,7 +8683,7 @@
         "buy2_price": 2721,
         "buy3_price": 2620,
         "buy_status": "第1買い（打診買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8702,7 +8707,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:50",
+      "updated_at": "2026-08-14 15:29",
       "forecast_dividend_changes": []
     },
     {
@@ -8801,7 +8806,7 @@
         "buy2_price": 2527,
         "buy3_price": 2422,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8831,7 +8836,7 @@
           "DOE宣言(6.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:50",
+      "updated_at": "2026-08-14 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -8930,7 +8935,7 @@
         "buy2_price": 3347,
         "buy3_price": 3231,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -8959,7 +8964,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:50",
+      "updated_at": "2026-08-14 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -9051,14 +9056,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・配当変動大",
-        "target1_pct": 2.86,
+        "target1_pct": 2.87,
         "target2_pct": 2.96,
         "target3_pct": 3.06,
-        "buy1_price": 2692,
+        "buy1_price": 2683,
         "buy2_price": 2601,
         "buy3_price": 2516,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -9087,7 +9092,7 @@
           "DOE宣言(4.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:50",
+      "updated_at": "2026-08-14 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -9186,7 +9191,7 @@
         "buy2_price": 2634,
         "buy3_price": 2481,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -9215,7 +9220,7 @@
           "DOE宣言(4.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:51",
+      "updated_at": "2026-08-14 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -9314,7 +9319,7 @@
         "buy2_price": 3096,
         "buy3_price": 2926,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -9342,7 +9347,7 @@
           "10期連続増配"
         ]
       },
-      "updated_at": "2026-08-14 07:51",
+      "updated_at": "2026-08-14 15:32",
       "forecast_dividend_changes": []
     },
     {
@@ -9441,7 +9446,7 @@
         "buy2_price": 1797,
         "buy3_price": 1724,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -9468,7 +9473,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:51",
+      "updated_at": "2026-08-14 15:32",
       "forecast_dividend_changes": []
     },
     {
@@ -9567,7 +9572,7 @@
         "buy2_price": 1079,
         "buy3_price": 962,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -9588,7 +9593,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:52",
+      "updated_at": "2026-08-14 15:32",
       "forecast_dividend_changes": []
     },
     {
@@ -9687,7 +9692,7 @@
         "buy2_price": 1649,
         "buy3_price": 1501,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -9715,7 +9720,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:52",
+      "updated_at": "2026-08-14 15:32",
       "forecast_dividend_changes": []
     },
     {
@@ -9807,14 +9812,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：化学・利益比較的安定・配当変動大",
-        "target1_pct": 3.57,
+        "target1_pct": 3.55,
         "target2_pct": 3.88,
         "target3_pct": 4.03,
-        "buy1_price": 2913,
+        "buy1_price": 2930,
         "buy2_price": 2680,
         "buy3_price": 2581,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -9843,7 +9848,7 @@
           "DOE宣言(4.3%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:53",
+      "updated_at": "2026-08-14 15:32",
       "forecast_dividend_changes": []
     },
     {
@@ -9942,7 +9947,7 @@
         "buy2_price": 1653,
         "buy3_price": 1603,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -9967,7 +9972,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:53",
+      "updated_at": "2026-08-14 15:33",
       "forecast_dividend_changes": []
     },
     {
@@ -10066,7 +10071,7 @@
         "buy2_price": 2191,
         "buy3_price": 1986,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -10095,7 +10100,7 @@
           "DOE宣言(4.8%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:53",
+      "updated_at": "2026-08-14 15:33",
       "forecast_dividend_changes": []
     },
     {
@@ -10194,7 +10199,7 @@
         "buy2_price": 2077,
         "buy3_price": 2005,
         "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -10219,7 +10224,7 @@
           "DOE宣言(2.7%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:54",
+      "updated_at": "2026-08-14 15:33",
       "forecast_dividend_changes": []
     },
     {
@@ -10318,7 +10323,7 @@
         "buy2_price": 1670,
         "buy3_price": 1631,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -10347,7 +10352,7 @@
           "DOE宣言(5.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:54",
+      "updated_at": "2026-08-14 15:33",
       "forecast_dividend_changes": []
     },
     {
@@ -10446,7 +10451,7 @@
         "buy2_price": 4254,
         "buy3_price": 3646,
         "buy_status": "第2買い（追加買い）",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -10474,7 +10479,7 @@
           "DOE宣言(3.5%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:54",
+      "updated_at": "2026-08-14 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -10573,7 +10578,7 @@
         "buy2_price": 3402,
         "buy3_price": 3248,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 9,
         "error": null
       },
@@ -10596,7 +10601,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:55",
+      "updated_at": "2026-08-14 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -10689,13 +10694,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：電気機器・減配なし・増配基調",
         "target1_pct": 3.21,
-        "target2_pct": 3.41,
+        "target2_pct": 3.42,
         "target3_pct": 3.6,
         "buy1_price": 1869,
-        "buy2_price": 1760,
+        "buy2_price": 1754,
         "buy3_price": 1667,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -10720,7 +10725,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:55",
+      "updated_at": "2026-08-14 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -10819,7 +10824,7 @@
         "buy2_price": 5791,
         "buy3_price": 5478,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -10844,7 +10849,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:55",
+      "updated_at": "2026-08-14 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -10943,7 +10948,7 @@
         "buy2_price": 5235,
         "buy3_price": 5072,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -10968,7 +10973,7 @@
         ],
         "dividend_quality_badges": []
       },
-      "updated_at": "2026-08-14 07:55",
+      "updated_at": "2026-08-14 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -11062,12 +11067,12 @@
         "reason": "業種：化学・利益比較的安定・減配なし・増配基調",
         "target1_pct": 2.7,
         "target2_pct": 2.77,
-        "target3_pct": 2.98,
+        "target3_pct": 2.99,
         "buy1_price": 3704,
         "buy2_price": 3610,
-        "buy3_price": 3356,
-        "buy_status": "第3買い（本格購入）",
-        "sample_daily": 734,
+        "buy3_price": 3344,
+        "buy_status": "第2買い（追加買い）",
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -11092,131 +11097,7 @@
           "DOE宣言(3.0%以上)"
         ]
       },
-      "updated_at": "2026-08-14 07:57",
-      "forecast_dividend_changes": []
-    },
-    {
-      "code": "9716",
-      "name": "乃村工藝社",
-      "industry": "サービス業",
-      "sector": "サービス",
-      "cycle": "景気敏感",
-      "fiscal_year_end_month": 2,
-      "price": 1221.0,
-      "price_date": "2026-08-14 15:30",
-      "price_change": 38.0,
-      "price_change_pct": 0.032121725,
-      "step1": {
-        "overall": "×",
-        "sector_adjusted": false,
-        "rows": {
-          "PER": {
-            "value": 14.730365544697792,
-            "criterion": "12倍以下",
-            "judge": "×"
-          },
-          "PBR": {
-            "value": 2.1963986976309116,
-            "criterion": "1.3倍以下",
-            "judge": "×"
-          },
-          "ROE": {
-            "value": 14.723946159426129,
-            "criterion": "7%以上",
-            "judge": "○"
-          },
-          "ROA": {
-            "value": 9.581152381651684,
-            "criterion": "3%以上",
-            "judge": "○"
-          },
-          "配当利回り": {
-            "value": 3.6036036036036037,
-            "criterion": "3%以上",
-            "judge": "○"
-          },
-          "自己資本比率": {
-            "value": 65.10000000000001,
-            "criterion": "35%以上",
-            "judge": "○"
-          },
-          "時価総額": {
-            "value": 1362.54795369,
-            "criterion": "100億円以上",
-            "judge": "○"
-          }
-        }
-      },
-      "step2": {
-        "overall": "×",
-        "rows": {
-          "EPS10期赤字なし": {
-            "judge": "○",
-            "detail": "赤字 0期"
-          },
-          "今期EPSが9期前の2倍以上": {
-            "judge": "×",
-            "detail": "1.80倍"
-          },
-          "BPS10期連続増加": {
-            "judge": "×",
-            "detail": "減少・欠損 1回"
-          },
-          "10期で減配2回未満": {
-            "judge": "×",
-            "detail": "減配 2回"
-          },
-          "10期で無配なし": {
-            "judge": "○",
-            "detail": "無配・欠損 0期"
-          }
-        },
-        "periods_available": 10
-      },
-      "step3": {
-        "eps_sum": 487.39,
-        "latest_bps": 555.91,
-        "target_price": 1043.3
-      },
-      "forecast_dividend": 44.0,
-      "dividend_yield_pct": 3.6036036036036037,
-      "dividend_override_note": "2月決算。2019年5月29日に1:2株式分割を実施(Web検索で確認済み)。EDINET DBのsplit_adjustment_factorが2019年2月期以前=2.0、2020年2月期以降=1.0と切り替わり、実際の分割時期と整合し1939のようなheuristic_straddleフラグもないため信頼度は高いが、2019年2月期の配当額(26円)そのものを独立ソースでピンポイント確認はできていない。コロナ禍で2021・2023年2月期に減配(10期で2回)、直近2期(2025・2026年2月期)は力強く回復し配当32→42円。2027年2月期の会社予想配当は44円(2026-07-09開示)。主力は博覧会・展示会・商業施設の空間デザイン施工。2026-08-09確認：有価証券報告書・決算説明資料等で「DOE(純資産配当率)6.0%以上を基本方針とする」旨を明記。累進配当の明確な宣言は確認できず(直近3期連続増配は実績のみ)。",
-      "target_yield": {
-        "cycle_class": "景気敏感株",
-        "reason": "業種：サービス業・配当変動大",
-        "target1_pct": 3.62,
-        "target2_pct": 3.76,
-        "target3_pct": 3.86,
-        "buy1_price": 1215,
-        "buy2_price": 1170,
-        "buy3_price": 1140,
-        "buy_status": "監視",
-        "sample_daily": 733,
-        "sample_annual": 10,
-        "error": null
-      },
-      "rating": "除外候補",
-      "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。 10期で減配2回未満は高配当株として重要な懸念。",
-      "priority_score": {
-        "growth_score": 1,
-        "income_score": 3,
-        "total_score": 4,
-        "payout_ratio_pct": 51.300000000000004,
-        "dividend_cagr_pct": 8.59,
-        "dividend_years_to_double": 8.4,
-        "growth_detail": [
-          "ROE10%以上"
-        ],
-        "income_detail": [
-          "無配0期",
-          "DOE宣言(6.0%以上)を達成/宣言",
-          "配当CAGR5%以上"
-        ],
-        "dividend_quality_badges": [
-          "DOE宣言(6.0%以上)"
-        ]
-      },
-      "updated_at": "2026-08-14 07:57",
+      "updated_at": "2026-08-14 15:36",
       "forecast_dividend_changes": []
     },
     {
@@ -11315,7 +11196,7 @@
         "buy2_price": 2707,
         "buy3_price": 2623,
         "buy_status": "監視",
-        "sample_daily": 734,
+        "sample_daily": 733,
         "sample_annual": 10,
         "error": null
       },
@@ -11342,7 +11223,7 @@
           "累進配当宣言"
         ]
       },
-      "updated_at": "2026-08-14 07:57",
+      "updated_at": "2026-08-14 15:36",
       "forecast_dividend_changes": []
     }
   ],
