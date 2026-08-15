@@ -77,7 +77,14 @@ def latest_summary(rows: list[dict]) -> dict:
     return latest
 
 def latest_fy_summaries(rows: list[dict]) -> list[dict]:
-    fy = [r for r in rows if str(r.get("CurPerType", "")).upper() == "FY"]
+    # CurPerType="FY"は本決算の「実績」開示だけでなく、進行中の期に対する
+    # 業績予想の修正(EarnForecastRevision)にも付くことがある。後者はNP等の
+    # 実績値が空欄のまま対象期間だけがFYを指すため、実績値(NP)が入っている
+    # 行だけを本決算実績とみなす。
+    fy = [
+        r for r in rows
+        if str(r.get("CurPerType", "")).upper() == "FY" and str(r.get("NP", "")).strip()
+    ]
     by_period: dict[str, dict] = {}
     for row in fy:
         period = row.get("CurFYEn") or row.get("CurPerEn")
