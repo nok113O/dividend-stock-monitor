@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20 07:43",
+  "generated_at": "2026-08-20 23:59",
   "stocks": [
     {
       "code": "8306",
@@ -10975,6 +10975,133 @@
         ]
       },
       "updated_at": "2026-08-20 07:43",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "7282",
+      "name": "豊田合成",
+      "industry": "輸送用機器",
+      "sector": "自動車・輸送機器",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 5339.0,
+      "price_date": "2026-08-20 15:30",
+      "price_change": 286.0,
+      "price_change_pct": 0.056600038,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 10.23542,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 1.0767395,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 10.080125365554709,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 6.245197183623441,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.277767372167072,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 57.3,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 6260.60296192,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "3.94倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 1回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 2313.62,
+        "latest_bps": 4854.11,
+        "target_price": 7167.73
+      },
+      "forecast_dividend": 175.0,
+      "dividend_yield_pct": 3.277767372167072,
+      "dividend_override_note": "分割調整なし(factor常に1.0)、EDINET DB値をそのまま採用。10期で減配なし、53円→138円まで一貫増配基調。EDINET DBのforecast_dividend_per_share(18円)は2026年10月1日予定の1:5株式分割後ベースの期末配当のみを指しており年間配当を過小評価する。正しい2027年3月期予想は中間85円(分割前ベース)+期末18円(分割後ベース、5倍換算で90円相当)=175円(分割前換算、2026-04-28開示以来修正なし。Yahoo!ファイナンス表示の103円は不整合で参考にならない)。2026-08-20確認：2027年3月期はDOE約3.5%目標、2030年中期計画ではDOE下限2.5%・配当性向30%以上を掲げる方針。累進配当の明確な宣言は確認できず。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：輸送用機器・減配なし・増配基調",
+        "target1_pct": 3.99,
+        "target2_pct": 4.14,
+        "target3_pct": 4.3,
+        "buy1_price": 4386,
+        "buy2_price": 4227,
+        "buy3_price": 4070,
+        "buy_status": "監視",
+        "sample_daily": 733,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 5,
+        "total_score": 7,
+        "payout_ratio_pct": 26.900000000000002,
+        "dividend_cagr_pct": 11.22,
+        "dividend_years_to_double": 6.5,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "DOE宣言(3.5%以上)を達成/宣言",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "DOE宣言(3.5%以上)"
+        ]
+      },
+      "updated_at": "2026-08-20 23:59",
       "forecast_dividend_changes": []
     }
   ],
