@@ -44,6 +44,14 @@ GLOSSARY = [
     ("10期連続増配／DOE宣言／累進配当宣言", "10期連続増配は毎期必ず前期より増配した実績。DOE(自己資本配当率)宣言・累進配当宣言は企業が公式に減配しない方針を掲げていること。いずれか1つでも該当すれば増配余力スコアに+1。"),
     ("目標利回り①②③", "過去の配当利回りの分布から統計的に算出した買い時の目安。①が最も届きやすく、③が最も割安な水準。"),
     ("総合判定", "監視継続＝第1・第2段階とも合格。条件付き監視＝一部条件が未達。除外候補＝赤字や減配など重大な懸念あり。"),
+    (
+        "期待IRR（年率の目安）",
+        "厳密なDCF/IRR計算ではなく、「配当利回り＋配当CAGR」（配当リターン）と「EPS成長率＋PER/PBR是正効果」"
+        "（キャピタルリターン）を単純合算した期待トータルリターンの目安。是正効果はPER12倍・PBR1.3倍を"
+        "「適正水準」とみなし、4年で収れんする前提で年率換算（割高な銘柄はマイナスになり得る）。"
+        "過去9期の実績をそのまま将来へ延長する単純なモデルなので、一時的な急拡大・急悪化があった銘柄は"
+        "数値が振れやすい点に注意。",
+    ),
 ]
 
 STEP2_LABELS = [
@@ -199,6 +207,16 @@ CSS = """
     flex: none; font-weight: 600; color: var(--green); background: var(--green-soft);
     padding: 2px 9px; border-radius: 999px; font-size: 0.68rem;
   }
+  .irr-line {
+    margin-top: 6px; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;
+    font-size: 0.72rem;
+  }
+  .irr-badge {
+    flex: none; font-weight: 700; color: var(--hanko); background: var(--hanko-soft);
+    padding: 2px 9px; border-radius: 999px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  .irr-sub { color: var(--ink-dim); }
   .step { margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--rule); }
   .step-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
   .step-name { font-size: 0.82rem; font-weight: 600; }
@@ -654,12 +672,45 @@ def render_card(stock: dict, order_idx: int, default_rank: int) -> str:
             f"{badges_html}"
             "</div>"
         )
+    irr = stock.get("expected_irr") or {}
+    expected_irr_pct = irr.get("expected_irr_pct")
+    irr_html = ""
+    if expected_irr_pct is not None:
+        div_return = irr.get("dividend_return_pct")
+        cap_return = irr.get("capital_return_pct")
+        div_yield_c = irr.get("dividend_yield_component_pct")
+        div_growth_c = irr.get("dividend_growth_component_pct")
+        eps_growth_c = irr.get("eps_growth_component_pct")
+        reversion_c = irr.get("valuation_reversion_component_pct")
+        div_bits = []
+        if div_yield_c is not None:
+            div_bits.append(f"配当利回り{fmt_num(div_yield_c, 1)}%")
+        if div_growth_c is not None:
+            div_bits.append(f"配当CAGR{fmt_num(div_growth_c, 1)}%")
+        cap_bits = []
+        if eps_growth_c is not None:
+            cap_bits.append(f"EPS成長{fmt_num(eps_growth_c, 1)}%")
+        if reversion_c is not None:
+            cap_bits.append(f"PER/PBR是正{fmt_num(reversion_c, 1)}%")
+        irr_sub_bits = ["+".join(div_bits)] if div_bits else []
+        if cap_bits:
+            irr_sub_bits.append("+".join(cap_bits))
+        irr_sub_text = "／".join(irr_sub_bits)
+        irr_html = (
+            '<div class="irr-line">'
+            f'<span class="irr-badge">期待IRR {fmt_num(expected_irr_pct, 1)}%/年</span>'
+            f'<span class="irr-sub">配当{fmt_num(div_return, 1) if div_return is not None else "―"}%'
+            f' + キャピタル{fmt_num(cap_return, 1) if cap_return is not None else "―"}%'
+            f'{f"（{irr_sub_text}）" if irr_sub_text else ""}</span>'
+            "</div>"
+        )
+    irr_attr = expected_irr_pct if expected_irr_pct is not None else ""
     yield_attr = fmt_num(dividend_yield, 4) if dividend_yield is not None else ""
     score_attr = total_score if total_score is not None else ""
     return (
         f'<div class="card" data-search="{esc(search_key)}" data-rating="{esc(stock["rating"])}" '
         f'data-code="{esc(stock["code"])}" data-order="{order_idx}" data-yield="{yield_attr}" '
-        f'data-score="{score_attr}" data-default="{default_rank}">'
+        f'data-score="{score_attr}" data-irr="{irr_attr}" data-default="{default_rank}">'
         '<div class="card-top"><div>'
         f'<span class="code">{stock["code"]}</span>'
         f'<div class="name">{stock["name"]}</div>'
@@ -676,6 +727,7 @@ def render_card(stock: dict, order_idx: int, default_rank: int) -> str:
         f'<div class="stat"><div class="label">総合判定</div><div class="value">{stock["rating"]}</div></div>'
         "</div>"
         f"{score_html}"
+        f"{irr_html}"
         f"{override_html}"
         f"{forecast_change_html}"
         f'{render_section_tabs(stock["code"], stock, price)}'
@@ -773,6 +825,7 @@ def render(payload: dict) -> str:
     <button type="button" class="sort-btn" data-sort="added" data-dir="1">追加順<span class="sort-arrow"></span></button>
     <button type="button" class="sort-btn" data-sort="yield" data-dir="-1">利回り順<span class="sort-arrow"></span></button>
     <button type="button" class="sort-btn" data-sort="score" data-dir="-1">優先度スコア順<span class="sort-arrow"></span></button>
+    <button type="button" class="sort-btn" data-sort="irr" data-dir="-1">期待IRR順<span class="sort-arrow"></span></button>
   </div>
   <div class="search-bar">
     <input type="text" id="search" class="search-input" placeholder="銘柄コードまたは銘柄名で検索" autocomplete="off">
@@ -810,7 +863,8 @@ def render(payload: dict) -> str:
     code: function(el) {{ return el.getAttribute('data-code'); }},
     added: function(el) {{ return +el.getAttribute('data-order'); }},
     yield: function(el) {{ var v = el.getAttribute('data-yield'); return v === '' ? null : parseFloat(v); }},
-    score: function(el) {{ var v = el.getAttribute('data-score'); return v === '' ? null : parseFloat(v); }}
+    score: function(el) {{ var v = el.getAttribute('data-score'); return v === '' ? null : parseFloat(v); }},
+    irr: function(el) {{ var v = el.getAttribute('data-irr'); return v === '' ? null : parseFloat(v); }}
   }};
   function updateArrows() {{
     sortBtns.forEach(function(b) {{

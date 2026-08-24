@@ -21,6 +21,12 @@ def pct(value: Any) -> float | None:
         return None
     return x * 100 if abs(x) <= 1 else x
 
+def series_cagr(first: float | None, last: float | None, periods: int) -> float | None:
+    """2値の年率換算成長率(CAGR)。両方とも正の値でなければ算出不能としてNoneを返す。"""
+    if first is None or last is None or pd.isna(first) or pd.isna(last) or first <= 0 or last <= 0:
+        return None
+    return (last / first) ** (1 / periods) - 1
+
 def judge_le(value: float | None, limit: float) -> str:
     return "○" if value is not None and value <= limit else ("×" if value is not None else "要確認")
 
@@ -373,11 +379,9 @@ def calculate_priority_score(
         income_score += 1
         income_detail.append("・".join(dividend_quality_badges) + "を達成/宣言")
 
-    dividend_cagr = None
+    dividend_cagr = series_cagr(divs[0], divs[-1], 9)
     years_to_double = None
-    first, last = divs[0], divs[-1]
-    if pd.notna(first) and pd.notna(last) and first > 0 and last > 0:
-        dividend_cagr = (last / first) ** (1 / 9) - 1
+    if dividend_cagr is not None:
         if dividend_cagr * 100 >= 5:
             income_score += 1
             income_detail.append("配当CAGR5%以上")
@@ -393,6 +397,79 @@ def calculate_priority_score(
         "growth_detail": growth_detail,
         "income_detail": income_detail,
         "dividend_quality_badges": dividend_quality_badges,
+    }
+
+# 期待IRR算出で「適正水準」とみなすPER/PBR(Step1の判定基準と同一値を流用)。
+EXPECTED_IRR_FAIR_PER = 12.0
+EXPECTED_IRR_FAIR_PBR = 1.3
+# PER/PBRが適正水準へ収れんすると仮定する年数。
+EXPECTED_IRR_REVERSION_YEARS = 4
+
+def calculate_expected_irr(metrics: dict, df: pd.DataFrame | None) -> dict:
+    """厳密なDCFではなく、複数指標を足し合わせた「期待トータルリターン」の目安(年率%)。
+
+    配当リターン = 現在の配当利回り + 配当CAGR(過去9期実績)
+    キャピタルリターン = EPS成長率(過去9期実績) + PER/PBR是正効果
+      是正効果 = (適正PER/PBR ÷ 現在値)^(1/4年) − 1 (PER/PBRの平均。割高な場合は負値になり得る)
+    期待IRR = 配当リターン + キャピタルリターン
+    """
+    empty = {
+        "expected_irr_pct": None,
+        "dividend_return_pct": None,
+        "capital_return_pct": None,
+        "dividend_yield_component_pct": None,
+        "dividend_growth_component_pct": None,
+        "eps_growth_component_pct": None,
+        "valuation_reversion_component_pct": None,
+    }
+    if df is None or len(df) < 10:
+        return empty
+
+    dividend_yield = metrics.get("配当利回り")
+    if dividend_yield is None:
+        # 株価が当日未取得だとPER/PBR/利回りが軒並み欠損し、キャピタル側だけの
+        # 断片的な数値を「期待IRR」として表示すると誤解を招くため、丸ごと算出不可とする。
+        return empty
+
+    eps = df["EPS"].tolist()
+    divs = df["1株配当"].tolist()
+
+    dividend_cagr = series_cagr(divs[0], divs[-1], 9)
+    eps_cagr = series_cagr(eps[0], eps[-1], 9)
+
+    per = metrics.get("PER")
+    pbr = metrics.get("PBR")
+    reversion_components = []
+    if per is not None and per > 0:
+        reversion_components.append((EXPECTED_IRR_FAIR_PER / per) ** (1 / EXPECTED_IRR_REVERSION_YEARS) - 1)
+    if pbr is not None and pbr > 0:
+        reversion_components.append((EXPECTED_IRR_FAIR_PBR / pbr) ** (1 / EXPECTED_IRR_REVERSION_YEARS) - 1)
+    valuation_reversion = (
+        sum(reversion_components) / len(reversion_components) if reversion_components else None
+    )
+
+    dividend_return = dividend_yield + (dividend_cagr * 100 if dividend_cagr is not None else 0)
+
+    capital_parts = [x for x in (
+        eps_cagr * 100 if eps_cagr is not None else None,
+        valuation_reversion * 100 if valuation_reversion is not None else None,
+    ) if x is not None]
+    capital_return = sum(capital_parts) if capital_parts else None
+
+    expected_irr = None
+    if dividend_return is not None or capital_return is not None:
+        expected_irr = (dividend_return or 0) + (capital_return or 0)
+
+    return {
+        "expected_irr_pct": round(expected_irr, 1) if expected_irr is not None else None,
+        "dividend_return_pct": round(dividend_return, 1) if dividend_return is not None else None,
+        "capital_return_pct": round(capital_return, 1) if capital_return is not None else None,
+        "dividend_yield_component_pct": round(dividend_yield, 2) if dividend_yield is not None else None,
+        "dividend_growth_component_pct": round(dividend_cagr * 100, 2) if dividend_cagr is not None else None,
+        "eps_growth_component_pct": round(eps_cagr * 100, 2) if eps_cagr is not None else None,
+        "valuation_reversion_component_pct": (
+            round(valuation_reversion * 100, 2) if valuation_reversion is not None else None
+        ),
     }
 
 def make_comment(step1: dict, step2: dict) -> str:

@@ -33,8 +33,8 @@ sys.path.insert(0, str(ROOT))
 import pandas as pd  # noqa: E402
 
 from analyzer import (  # noqa: E402
-    analyze_step1, analyze_step2, calculate_priority_score, calculate_step3,
-    latest_fy_summaries, latest_summary, make_comment, merge_new_fy,
+    analyze_step1, analyze_step2, calculate_expected_irr, calculate_priority_score,
+    calculate_step3, latest_fy_summaries, latest_summary, make_comment, merge_new_fy,
     overall_rating, step1_metrics,
 )
 from edinetdb_client import EdinetDbClient, EdinetDbError  # noqa: E402
@@ -209,6 +209,7 @@ def fetch_one(client: JQuantsClient, code: str, edinet_latest: dict | None = Non
     step2 = analyze_step2(history, code)
     step3 = calculate_step3(history, code)
     priority = calculate_priority_score(metrics, step2.get("history"), seed.get("dividend_policy"))
+    expected_irr = calculate_expected_irr(metrics, step2.get("history"))
     comment = make_comment(step1, step2)
     rating = overall_rating(step1, step2)
 
@@ -305,6 +306,7 @@ def fetch_one(client: JQuantsClient, code: str, edinet_latest: dict | None = Non
             "income_detail": priority["income_detail"],
             "dividend_quality_badges": priority["dividend_quality_badges"],
         },
+        "expected_irr": expected_irr,
         "updated_at": now,
         "_edinet_disclosure_date": edinet_disclosure_date,
     }
