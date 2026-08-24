@@ -29,7 +29,7 @@ SECTOR_MAP = {
     "卸売業": ("卸売・商社", "景気敏感"),
     "小売業": ("小売", "ディフェンシブ"),
     "銀行業": ("銀行", "景気敏感"),
-    "証券、商品先物取引業": ("証券", "景気敏感"),
+    "証券・商品先物取引業": ("証券", "景気敏感"),
     "保険業": ("保険", "景気敏感"),
     "その他金融業": ("その他金融", "景気敏感"),
     "不動産業": ("不動産", "景気敏感"),
@@ -38,6 +38,12 @@ SECTOR_MAP = {
 
 def classify(industry: str | None) -> tuple[str, str]:
     industry = (industry or "").strip()
+    # J-Quantsは業種名の区切りに全角中点｢・｣(U+30FB)ではなく半角カタカナ中点
+    # ｢･｣(U+FF65)を返すことがある(例:情報･通信業、証券･商品先物取引業)。
+    # 表記ゆれを吸収してから照合する。
+    normalized = industry.replace("･", "・")
+    if normalized in SECTOR_MAP:
+        return SECTOR_MAP[normalized]
     return SECTOR_MAP.get(industry, (industry or "未分類", "景気敏感"))
 
 # 業種特性により標準基準(自己資本比率35%以上・ROA3%以上)が構造的に届かない業種の上書き基準。
