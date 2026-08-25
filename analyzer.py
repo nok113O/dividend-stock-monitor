@@ -80,6 +80,19 @@ def latest_summary(rows: list[dict]) -> dict:
             )[-1]
             latest = dict(latest)
             latest["PayoutRatioAnn"] = fy_fallback.get("PayoutRatioAnn")
+    # BPSは四半期報告(1Q〜3Q)や業績予想の修正では空欄のことがある。
+    # その場合PBR算出がYahoo!ファイナンス側のフォールバック任せになり、
+    # 外部データの異常値をそのまま拾ってしまう恐れがあるため、
+    # 直近にBPSが入っている開示から独立して補う。
+    if not str(latest.get("BPS", "")).strip():
+        with_bps = [r for r in rows if str(r.get("BPS", "")).strip()]
+        if with_bps:
+            bps_fallback = sorted(
+                with_bps,
+                key=lambda r: (r.get("DiscDate", ""), r.get("DiscNo", "")),
+            )[-1]
+            latest = dict(latest)
+            latest["BPS"] = bps_fallback.get("BPS")
     return latest
 
 def latest_fy_summaries(rows: list[dict]) -> list[dict]:
