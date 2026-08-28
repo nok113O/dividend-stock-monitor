@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28 07:46",
+  "generated_at": "2026-08-28 15:37",
   "stocks": [
     {
       "code": "8306",
@@ -12030,6 +12030,137 @@
         "valuation_reversion_component_pct": 12.46
       },
       "updated_at": "2026-08-28 07:46",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "4526",
+      "name": "理研ビタミン",
+      "industry": "食料品",
+      "sector": "食品",
+      "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 3,
+      "price": 3430.0,
+      "price_date": "2026-08-28 15:30",
+      "price_change": -5.0,
+      "price_change_pct": -0.0014556041,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 13.348381070983812,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.2012790294505988,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 8.437376317777858,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 6.044489504841606,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.206997084548105,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 71.6,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 1001.1419173,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "×",
+            "detail": "赤字 2期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "2.37倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 1回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 1回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 1664.18,
+        "latest_bps": 2855.29,
+        "target_price": 4519.47
+      },
+      "forecast_dividend": 110.0,
+      "dividend_yield_pct": 3.206997084548105,
+      "dividend_override_note": "2020年4月1日付で1:2株式分割(基準日2020-03-31、決算期末とほぼ同日)を実施。分割が期またぎではなく決算期境界にきれいに乗っているため、EDINET DBのheuristic_straddleフラグは過度に慎重な判定であり、提示された数値(2017-2020年はfactor2.00で分割後ベースに調整済み、2021年以降は元から分割後ベース)は一貫した基準で信頼できることをWebSearchで確認済み。2020年3月期・2021年3月期の2期連続赤字は、コロナ影響に加え中国子会社(青島福生食品)でのエビ取引の架空計上が発覚し特別損失(2020年3月期に約120億円)を計上したことが主因。同子会社は2021年6月に売却・約53億円の債権放棄で処理済み。配当は2021年3月期に唯一の減配(42円→31.5円、不祥事の影響)、以降5期連続で回復・増配(31.5→46→59→81→94→110円)。配当性向30%以上を基本方針(現状46.2%)。DOE・累進配当の明確な宣言は確認できず。2026-08-28一次スクリーニング：Step1は6/7クリア(PERのみ未達)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：食料品・利益変動大・赤字2期・配当変動大",
+        "target1_pct": 3.8,
+        "target2_pct": 3.88,
+        "target3_pct": 3.96,
+        "buy1_price": 2895,
+        "buy2_price": 2835,
+        "buy3_price": 2778,
+        "buy_status": "監視",
+        "sample_daily": 733,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "除外候補",
+      "comment": "PERは基準未達。 EPS10期赤字なしは一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。",
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "payout_ratio_pct": 46.2,
+        "dividend_cagr_pct": 14.31,
+        "dividend_years_to_double": 5.2,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "無配0期",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": []
+      },
+      "expected_irr": {
+        "expected_irr_pct": 27.3,
+        "dividend_return_pct": 17.5,
+        "capital_return_pct": 9.8,
+        "dividend_yield_component_pct": 3.21,
+        "dividend_growth_component_pct": 14.31,
+        "eps_growth_component_pct": 10.07,
+        "valuation_reversion_component_pct": -0.32
+      },
+      "updated_at": "2026-08-28 15:37",
       "forecast_dividend_changes": []
     }
   ],
