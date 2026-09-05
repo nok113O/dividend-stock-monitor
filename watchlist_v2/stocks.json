@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04 07:43",
+  "generated_at": "2026-09-05 15:12",
   "stocks": [
     {
       "code": "8306",
@@ -131,7 +131,7 @@
         "eps_growth_component_pct": 13.48,
         "valuation_reversion_component_pct": -9.3
       },
-      "updated_at": "2026-09-04 07:12",
+      "updated_at": "2026-09-05 14:41",
       "forecast_dividend_changes": []
     },
     {
@@ -267,7 +267,7 @@
         "eps_growth_component_pct": 5.77,
         "valuation_reversion_component_pct": -9.98
       },
-      "updated_at": "2026-09-04 07:12",
+      "updated_at": "2026-09-05 14:41",
       "forecast_dividend_changes": []
     },
     {
@@ -403,7 +403,7 @@
         "eps_growth_component_pct": 10.76,
         "valuation_reversion_component_pct": 6.33
       },
-      "updated_at": "2026-09-04 07:12",
+      "updated_at": "2026-09-05 14:42",
       "forecast_dividend_changes": []
     },
     {
@@ -539,7 +539,7 @@
         "eps_growth_component_pct": 7.36,
         "valuation_reversion_component_pct": -4.02
       },
-      "updated_at": "2026-09-04 07:12",
+      "updated_at": "2026-09-05 14:42",
       "forecast_dividend_changes": []
     },
     {
@@ -676,7 +676,7 @@
         "eps_growth_component_pct": 12.7,
         "valuation_reversion_component_pct": -7.24
       },
-      "updated_at": "2026-09-04 07:12",
+      "updated_at": "2026-09-05 14:42",
       "forecast_dividend_changes": []
     },
     {
@@ -814,7 +814,7 @@
         "eps_growth_component_pct": 9.34,
         "valuation_reversion_component_pct": -5.26
       },
-      "updated_at": "2026-09-04 07:14",
+      "updated_at": "2026-09-05 14:43",
       "forecast_dividend_changes": []
     },
     {
@@ -949,7 +949,7 @@
         "eps_growth_component_pct": 6.94,
         "valuation_reversion_component_pct": 6.99
       },
-      "updated_at": "2026-09-04 07:14",
+      "updated_at": "2026-09-05 14:43",
       "forecast_dividend_changes": []
     },
     {
@@ -1085,7 +1085,7 @@
         "eps_growth_component_pct": 9.18,
         "valuation_reversion_component_pct": 2.77
       },
-      "updated_at": "2026-09-04 07:14",
+      "updated_at": "2026-09-05 14:44",
       "forecast_dividend_changes": []
     },
     {
@@ -1220,7 +1220,7 @@
         "eps_growth_component_pct": 34.48,
         "valuation_reversion_component_pct": -3.57
       },
-      "updated_at": "2026-09-04 07:14",
+      "updated_at": "2026-09-05 14:44",
       "forecast_dividend_changes": []
     },
     {
@@ -1352,7 +1352,7 @@
         "eps_growth_component_pct": 15.66,
         "valuation_reversion_component_pct": -1.17
       },
-      "updated_at": "2026-09-04 07:15",
+      "updated_at": "2026-09-05 14:44",
       "forecast_dividend_changes": []
     },
     {
@@ -1489,7 +1489,7 @@
         "eps_growth_component_pct": 11.32,
         "valuation_reversion_component_pct": 7.5
       },
-      "updated_at": "2026-09-04 07:15",
+      "updated_at": "2026-09-05 14:44",
       "forecast_dividend_changes": []
     },
     {
@@ -1623,7 +1623,7 @@
         "eps_growth_component_pct": 29.81,
         "valuation_reversion_component_pct": -8.64
       },
-      "updated_at": "2026-09-04 07:15",
+      "updated_at": "2026-09-05 14:46",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-07",
@@ -1770,7 +1770,7 @@
         "eps_growth_component_pct": 6.99,
         "valuation_reversion_component_pct": 8.46
       },
-      "updated_at": "2026-09-04 07:16",
+      "updated_at": "2026-09-05 14:46",
       "forecast_dividend_changes": []
     },
     {
@@ -1905,7 +1905,7 @@
         "eps_growth_component_pct": 4.72,
         "valuation_reversion_component_pct": 15.93
       },
-      "updated_at": "2026-09-04 07:16",
+      "updated_at": "2026-09-05 14:46",
       "forecast_dividend_changes": []
     },
     {
@@ -2039,7 +2039,7 @@
         "eps_growth_component_pct": 6.66,
         "valuation_reversion_component_pct": 0.86
       },
-      "updated_at": "2026-09-04 07:17",
+      "updated_at": "2026-09-05 14:46",
       "forecast_dividend_changes": []
     },
     {
@@ -2177,7 +2177,7 @@
         "eps_growth_component_pct": 12.3,
         "valuation_reversion_component_pct": -0.58
       },
-      "updated_at": "2026-09-04 07:17",
+      "updated_at": "2026-09-05 14:46",
       "forecast_dividend_changes": []
     },
     {
@@ -2312,7 +2312,7 @@
         "eps_growth_component_pct": -0.3,
         "valuation_reversion_component_pct": 7.7
       },
-      "updated_at": "2026-09-04 07:17",
+      "updated_at": "2026-09-05 14:47",
       "forecast_dividend_changes": []
     },
     {
@@ -2446,7 +2446,7 @@
         "eps_growth_component_pct": 5.7,
         "valuation_reversion_component_pct": 7.75
       },
-      "updated_at": "2026-09-04 07:18",
+      "updated_at": "2026-09-05 14:47",
       "forecast_dividend_changes": []
     },
     {
@@ -2581,7 +2581,7 @@
         "eps_growth_component_pct": 20.34,
         "valuation_reversion_component_pct": -15.36
       },
-      "updated_at": "2026-09-04 07:18",
+      "updated_at": "2026-09-05 14:47",
       "forecast_dividend_changes": []
     },
     {
@@ -2717,7 +2717,7 @@
         "eps_growth_component_pct": 8.58,
         "valuation_reversion_component_pct": 7.05
       },
-      "updated_at": "2026-09-04 07:18",
+      "updated_at": "2026-09-05 14:48",
       "forecast_dividend_changes": []
     },
     {
@@ -2852,7 +2852,7 @@
         "eps_growth_component_pct": 9.58,
         "valuation_reversion_component_pct": -8.23
       },
-      "updated_at": "2026-09-04 07:19",
+      "updated_at": "2026-09-05 14:48",
       "forecast_dividend_changes": []
     },
     {
@@ -2988,7 +2988,7 @@
         "eps_growth_component_pct": 6.41,
         "valuation_reversion_component_pct": -2.35
       },
-      "updated_at": "2026-09-04 07:19",
+      "updated_at": "2026-09-05 14:48",
       "forecast_dividend_changes": []
     },
     {
@@ -3121,7 +3121,7 @@
         "eps_growth_component_pct": 10.34,
         "valuation_reversion_component_pct": 3.04
       },
-      "updated_at": "2026-09-04 07:19",
+      "updated_at": "2026-09-05 14:49",
       "forecast_dividend_changes": []
     },
     {
@@ -3256,7 +3256,7 @@
         "eps_growth_component_pct": 7.33,
         "valuation_reversion_component_pct": 2.79
       },
-      "updated_at": "2026-09-04 07:19",
+      "updated_at": "2026-09-05 14:49",
       "forecast_dividend_changes": []
     },
     {
@@ -3393,7 +3393,7 @@
         "eps_growth_component_pct": 14.53,
         "valuation_reversion_component_pct": -12.05
       },
-      "updated_at": "2026-09-04 07:21",
+      "updated_at": "2026-09-05 14:50",
       "forecast_dividend_changes": []
     },
     {
@@ -3528,7 +3528,7 @@
         "eps_growth_component_pct": 5.45,
         "valuation_reversion_component_pct": -3.42
       },
-      "updated_at": "2026-09-04 07:21",
+      "updated_at": "2026-09-05 14:50",
       "forecast_dividend_changes": []
     },
     {
@@ -3663,7 +3663,7 @@
         "eps_growth_component_pct": 9.72,
         "valuation_reversion_component_pct": -13.45
       },
-      "updated_at": "2026-09-04 07:21",
+      "updated_at": "2026-09-05 14:50",
       "forecast_dividend_changes": []
     },
     {
@@ -3795,7 +3795,7 @@
         "eps_growth_component_pct": 7.57,
         "valuation_reversion_component_pct": -7.92
       },
-      "updated_at": "2026-09-04 07:21",
+      "updated_at": "2026-09-05 14:51",
       "forecast_dividend_changes": []
     },
     {
@@ -3931,7 +3931,7 @@
         "eps_growth_component_pct": 7.85,
         "valuation_reversion_component_pct": -10.61
       },
-      "updated_at": "2026-09-04 07:21",
+      "updated_at": "2026-09-05 14:51",
       "forecast_dividend_changes": []
     },
     {
@@ -4063,7 +4063,7 @@
         "eps_growth_component_pct": 7.68,
         "valuation_reversion_component_pct": 2.6
       },
-      "updated_at": "2026-09-04 07:22",
+      "updated_at": "2026-09-05 14:51",
       "forecast_dividend_changes": []
     },
     {
@@ -4198,7 +4198,7 @@
         "eps_growth_component_pct": 10.84,
         "valuation_reversion_component_pct": 9.21
       },
-      "updated_at": "2026-09-04 07:22",
+      "updated_at": "2026-09-05 14:51",
       "forecast_dividend_changes": []
     },
     {
@@ -4335,7 +4335,7 @@
         "eps_growth_component_pct": 8.25,
         "valuation_reversion_component_pct": 5.35
       },
-      "updated_at": "2026-09-04 07:22",
+      "updated_at": "2026-09-05 14:53",
       "forecast_dividend_changes": []
     },
     {
@@ -4472,7 +4472,7 @@
         "eps_growth_component_pct": 7.16,
         "valuation_reversion_component_pct": -5.31
       },
-      "updated_at": "2026-09-04 07:23",
+      "updated_at": "2026-09-05 14:53",
       "forecast_dividend_changes": []
     },
     {
@@ -4606,7 +4606,7 @@
         "eps_growth_component_pct": 0.01,
         "valuation_reversion_component_pct": 1.04
       },
-      "updated_at": "2026-09-04 07:23",
+      "updated_at": "2026-09-05 14:53",
       "forecast_dividend_changes": []
     },
     {
@@ -4742,7 +4742,7 @@
         "eps_growth_component_pct": 6.18,
         "valuation_reversion_component_pct": -4.35
       },
-      "updated_at": "2026-09-04 07:24",
+      "updated_at": "2026-09-05 14:53",
       "forecast_dividend_changes": []
     },
     {
@@ -4879,7 +4879,7 @@
         "eps_growth_component_pct": 8.71,
         "valuation_reversion_component_pct": 3.04
       },
-      "updated_at": "2026-09-04 07:24",
+      "updated_at": "2026-09-05 14:53",
       "forecast_dividend_changes": []
     },
     {
@@ -5013,7 +5013,7 @@
         "eps_growth_component_pct": 0.9,
         "valuation_reversion_component_pct": 11.17
       },
-      "updated_at": "2026-09-04 07:24",
+      "updated_at": "2026-09-05 14:54",
       "forecast_dividend_changes": []
     },
     {
@@ -5143,7 +5143,7 @@
         "eps_growth_component_pct": 5.06,
         "valuation_reversion_component_pct": 27.53
       },
-      "updated_at": "2026-09-04 07:25",
+      "updated_at": "2026-09-05 14:54",
       "forecast_dividend_changes": []
     },
     {
@@ -5280,7 +5280,7 @@
         "eps_growth_component_pct": 7.84,
         "valuation_reversion_component_pct": 7.0
       },
-      "updated_at": "2026-09-04 07:25",
+      "updated_at": "2026-09-05 14:54",
       "forecast_dividend_changes": []
     },
     {
@@ -5415,7 +5415,7 @@
         "eps_growth_component_pct": 10.09,
         "valuation_reversion_component_pct": -3.72
       },
-      "updated_at": "2026-09-04 07:26",
+      "updated_at": "2026-09-05 14:55",
       "forecast_dividend_changes": []
     },
     {
@@ -5549,7 +5549,7 @@
         "eps_growth_component_pct": 6.04,
         "valuation_reversion_component_pct": 7.91
       },
-      "updated_at": "2026-09-04 07:26",
+      "updated_at": "2026-09-05 14:55",
       "forecast_dividend_changes": []
     },
     {
@@ -5685,7 +5685,7 @@
         "eps_growth_component_pct": 8.63,
         "valuation_reversion_component_pct": -8.27
       },
-      "updated_at": "2026-09-04 07:26",
+      "updated_at": "2026-09-05 14:55",
       "forecast_dividend_changes": []
     },
     {
@@ -5822,7 +5822,7 @@
         "eps_growth_component_pct": 13.23,
         "valuation_reversion_component_pct": -14.61
       },
-      "updated_at": "2026-09-04 07:26",
+      "updated_at": "2026-09-05 14:56",
       "forecast_dividend_changes": []
     },
     {
@@ -5960,7 +5960,7 @@
         "eps_growth_component_pct": 14.69,
         "valuation_reversion_component_pct": -12.38
       },
-      "updated_at": "2026-09-04 07:27",
+      "updated_at": "2026-09-05 14:56",
       "forecast_dividend_changes": []
     },
     {
@@ -6099,7 +6099,7 @@
         "eps_growth_component_pct": 10.59,
         "valuation_reversion_component_pct": -13.89
       },
-      "updated_at": "2026-09-04 07:28",
+      "updated_at": "2026-09-05 14:57",
       "forecast_dividend_changes": []
     },
     {
@@ -6234,7 +6234,7 @@
         "eps_growth_component_pct": 15.62,
         "valuation_reversion_component_pct": -6.7
       },
-      "updated_at": "2026-09-04 07:28",
+      "updated_at": "2026-09-05 14:57",
       "forecast_dividend_changes": []
     },
     {
@@ -6372,7 +6372,7 @@
         "eps_growth_component_pct": 12.39,
         "valuation_reversion_component_pct": -10.38
       },
-      "updated_at": "2026-09-04 07:28",
+      "updated_at": "2026-09-05 14:57",
       "forecast_dividend_changes": []
     },
     {
@@ -6506,7 +6506,7 @@
         "eps_growth_component_pct": 3.98,
         "valuation_reversion_component_pct": 1.35
       },
-      "updated_at": "2026-09-04 07:28",
+      "updated_at": "2026-09-05 14:58",
       "forecast_dividend_changes": []
     },
     {
@@ -6643,7 +6643,7 @@
         "eps_growth_component_pct": 10.2,
         "valuation_reversion_component_pct": -6.08
       },
-      "updated_at": "2026-09-04 07:29",
+      "updated_at": "2026-09-05 14:58",
       "forecast_dividend_changes": []
     },
     {
@@ -6776,7 +6776,7 @@
         "eps_growth_component_pct": null,
         "valuation_reversion_component_pct": -2.23
       },
-      "updated_at": "2026-09-04 07:29",
+      "updated_at": "2026-09-05 14:58",
       "forecast_dividend_changes": []
     },
     {
@@ -6911,7 +6911,7 @@
         "eps_growth_component_pct": 12.33,
         "valuation_reversion_component_pct": 17.98
       },
-      "updated_at": "2026-09-04 07:30",
+      "updated_at": "2026-09-05 14:58",
       "forecast_dividend_changes": []
     },
     {
@@ -7044,7 +7044,7 @@
         "eps_growth_component_pct": 14.11,
         "valuation_reversion_component_pct": 1.59
       },
-      "updated_at": "2026-09-04 07:30",
+      "updated_at": "2026-09-05 15:00",
       "forecast_dividend_changes": []
     },
     {
@@ -7180,7 +7180,7 @@
         "eps_growth_component_pct": 10.19,
         "valuation_reversion_component_pct": -14.1
       },
-      "updated_at": "2026-09-04 07:30",
+      "updated_at": "2026-09-05 15:00",
       "forecast_dividend_changes": []
     },
     {
@@ -7316,7 +7316,7 @@
         "eps_growth_component_pct": 7.5,
         "valuation_reversion_component_pct": -5.16
       },
-      "updated_at": "2026-09-04 07:30",
+      "updated_at": "2026-09-05 15:00",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-03",
@@ -7459,7 +7459,7 @@
         "eps_growth_component_pct": 16.45,
         "valuation_reversion_component_pct": -5.32
       },
-      "updated_at": "2026-09-04 07:32",
+      "updated_at": "2026-09-05 15:00",
       "forecast_dividend_changes": []
     },
     {
@@ -7595,7 +7595,7 @@
         "eps_growth_component_pct": 10.71,
         "valuation_reversion_component_pct": -5.84
       },
-      "updated_at": "2026-09-04 07:32",
+      "updated_at": "2026-09-05 15:00",
       "forecast_dividend_changes": []
     },
     {
@@ -7729,7 +7729,7 @@
         "eps_growth_component_pct": 14.38,
         "valuation_reversion_component_pct": 1.48
       },
-      "updated_at": "2026-09-04 07:32",
+      "updated_at": "2026-09-05 15:01",
       "forecast_dividend_changes": []
     },
     {
@@ -7866,7 +7866,7 @@
         "eps_growth_component_pct": 28.67,
         "valuation_reversion_component_pct": -7.31
       },
-      "updated_at": "2026-09-04 07:32",
+      "updated_at": "2026-09-05 15:01",
       "forecast_dividend_changes": []
     },
     {
@@ -8002,7 +8002,7 @@
         "eps_growth_component_pct": 6.68,
         "valuation_reversion_component_pct": -0.69
       },
-      "updated_at": "2026-09-04 07:32",
+      "updated_at": "2026-09-05 15:01",
       "forecast_dividend_changes": []
     },
     {
@@ -8137,7 +8137,7 @@
         "eps_growth_component_pct": 10.98,
         "valuation_reversion_component_pct": -3.82
       },
-      "updated_at": "2026-09-04 07:33",
+      "updated_at": "2026-09-05 15:02",
       "forecast_dividend_changes": []
     },
     {
@@ -8268,7 +8268,7 @@
         "eps_growth_component_pct": 4.12,
         "valuation_reversion_component_pct": 17.14
       },
-      "updated_at": "2026-09-04 07:33",
+      "updated_at": "2026-09-05 15:02",
       "forecast_dividend_changes": []
     },
     {
@@ -8402,7 +8402,7 @@
         "eps_growth_component_pct": 1.23,
         "valuation_reversion_component_pct": -6.9
       },
-      "updated_at": "2026-09-04 07:33",
+      "updated_at": "2026-09-05 15:02",
       "forecast_dividend_changes": []
     },
     {
@@ -8527,7 +8527,7 @@
         "eps_growth_component_pct": null,
         "valuation_reversion_component_pct": null
       },
-      "updated_at": "2026-09-04 07:34",
+      "updated_at": "2026-09-05 15:03",
       "forecast_dividend_changes": []
     },
     {
@@ -8656,7 +8656,7 @@
         "eps_growth_component_pct": 4.22,
         "valuation_reversion_component_pct": -3.16
       },
-      "updated_at": "2026-09-04 07:34",
+      "updated_at": "2026-09-05 15:03",
       "forecast_dividend_changes": []
     },
     {
@@ -8793,7 +8793,7 @@
         "eps_growth_component_pct": 24.09,
         "valuation_reversion_component_pct": 0.97
       },
-      "updated_at": "2026-09-04 07:35",
+      "updated_at": "2026-09-05 15:04",
       "forecast_dividend_changes": []
     },
     {
@@ -8925,7 +8925,7 @@
         "eps_growth_component_pct": 10.03,
         "valuation_reversion_component_pct": 8.48
       },
-      "updated_at": "2026-09-04 07:35",
+      "updated_at": "2026-09-05 15:04",
       "forecast_dividend_changes": []
     },
     {
@@ -9063,7 +9063,7 @@
         "eps_growth_component_pct": 24.28,
         "valuation_reversion_component_pct": -5.59
       },
-      "updated_at": "2026-09-04 07:35",
+      "updated_at": "2026-09-05 15:04",
       "forecast_dividend_changes": []
     },
     {
@@ -9200,7 +9200,7 @@
         "eps_growth_component_pct": 10.29,
         "valuation_reversion_component_pct": -17.86
       },
-      "updated_at": "2026-09-04 07:36",
+      "updated_at": "2026-09-05 15:05",
       "forecast_dividend_changes": []
     },
     {
@@ -9337,7 +9337,7 @@
         "eps_growth_component_pct": 11.58,
         "valuation_reversion_component_pct": 3.56
       },
-      "updated_at": "2026-09-04 07:36",
+      "updated_at": "2026-09-05 15:05",
       "forecast_dividend_changes": []
     },
     {
@@ -9474,7 +9474,7 @@
         "eps_growth_component_pct": 10.83,
         "valuation_reversion_component_pct": -8.96
       },
-      "updated_at": "2026-09-04 07:36",
+      "updated_at": "2026-09-05 15:05",
       "forecast_dividend_changes": []
     },
     {
@@ -9610,7 +9610,7 @@
         "eps_growth_component_pct": 13.44,
         "valuation_reversion_component_pct": 2.12
       },
-      "updated_at": "2026-09-04 07:37",
+      "updated_at": "2026-09-05 15:05",
       "forecast_dividend_changes": []
     },
     {
@@ -9745,7 +9745,7 @@
         "eps_growth_component_pct": 7.84,
         "valuation_reversion_component_pct": -20.1
       },
-      "updated_at": "2026-09-04 07:37",
+      "updated_at": "2026-09-05 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -9874,7 +9874,7 @@
         "eps_growth_component_pct": 6.03,
         "valuation_reversion_component_pct": 0.21
       },
-      "updated_at": "2026-09-04 07:37",
+      "updated_at": "2026-09-05 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -10010,7 +10010,7 @@
         "eps_growth_component_pct": 5.14,
         "valuation_reversion_component_pct": -8.63
       },
-      "updated_at": "2026-09-04 07:37",
+      "updated_at": "2026-09-05 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -10147,7 +10147,7 @@
         "eps_growth_component_pct": 11.43,
         "valuation_reversion_component_pct": 2.54
       },
-      "updated_at": "2026-09-04 07:39",
+      "updated_at": "2026-09-05 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -10280,7 +10280,7 @@
         "eps_growth_component_pct": 14.07,
         "valuation_reversion_component_pct": -6.24
       },
-      "updated_at": "2026-09-04 07:39",
+      "updated_at": "2026-09-05 15:07",
       "forecast_dividend_changes": []
     },
     {
@@ -10417,7 +10417,7 @@
         "eps_growth_component_pct": 21.98,
         "valuation_reversion_component_pct": -9.34
       },
-      "updated_at": "2026-09-04 07:39",
+      "updated_at": "2026-09-05 15:08",
       "forecast_dividend_changes": []
     },
     {
@@ -10550,7 +10550,7 @@
         "eps_growth_component_pct": 5.99,
         "valuation_reversion_component_pct": 11.28
       },
-      "updated_at": "2026-09-04 07:39",
+      "updated_at": "2026-09-05 15:08",
       "forecast_dividend_changes": []
     },
     {
@@ -10687,7 +10687,7 @@
         "eps_growth_component_pct": 17.47,
         "valuation_reversion_component_pct": -5.75
       },
-      "updated_at": "2026-09-04 07:39",
+      "updated_at": "2026-09-05 15:08",
       "forecast_dividend_changes": []
     },
     {
@@ -10823,7 +10823,7 @@
         "eps_growth_component_pct": 10.71,
         "valuation_reversion_component_pct": 4.89
       },
-      "updated_at": "2026-09-04 07:40",
+      "updated_at": "2026-09-05 15:09",
       "forecast_dividend_changes": []
     },
     {
@@ -10956,7 +10956,7 @@
         "eps_growth_component_pct": 10.92,
         "valuation_reversion_component_pct": -2.78
       },
-      "updated_at": "2026-09-04 07:40",
+      "updated_at": "2026-09-05 15:09",
       "forecast_dividend_changes": []
     },
     {
@@ -11089,7 +11089,7 @@
         "eps_growth_component_pct": 31.11,
         "valuation_reversion_component_pct": 4.5
       },
-      "updated_at": "2026-09-04 07:40",
+      "updated_at": "2026-09-05 15:09",
       "forecast_dividend_changes": []
     },
     {
@@ -11222,7 +11222,7 @@
         "eps_growth_component_pct": 9.94,
         "valuation_reversion_component_pct": -18.82
       },
-      "updated_at": "2026-09-04 07:41",
+      "updated_at": "2026-09-05 15:10",
       "forecast_dividend_changes": []
     },
     {
@@ -11355,7 +11355,7 @@
         "eps_growth_component_pct": 7.87,
         "valuation_reversion_component_pct": -2.62
       },
-      "updated_at": "2026-09-04 07:41",
+      "updated_at": "2026-09-05 15:10",
       "forecast_dividend_changes": []
     },
     {
@@ -11490,7 +11490,7 @@
         "eps_growth_component_pct": 16.07,
         "valuation_reversion_component_pct": -4.63
       },
-      "updated_at": "2026-09-04 07:42",
+      "updated_at": "2026-09-05 15:11",
       "forecast_dividend_changes": []
     },
     {
@@ -11625,7 +11625,7 @@
         "eps_growth_component_pct": 14.62,
         "valuation_reversion_component_pct": 1.77
       },
-      "updated_at": "2026-09-04 07:42",
+      "updated_at": "2026-09-05 15:11",
       "forecast_dividend_changes": []
     },
     {
@@ -11757,7 +11757,7 @@
         "eps_growth_component_pct": -3.82,
         "valuation_reversion_component_pct": -5.72
       },
-      "updated_at": "2026-09-04 07:42",
+      "updated_at": "2026-09-05 15:11",
       "forecast_dividend_changes": []
     },
     {
@@ -11776,7 +11776,7 @@
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 10.940316,
+            "value": 11.013252,
             "criterion": "12倍以下",
             "judge": "○"
           },
@@ -11885,15 +11885,15 @@
         ]
       },
       "expected_irr": {
-        "expected_irr_pct": 34.1,
+        "expected_irr_pct": 34.0,
         "dividend_return_pct": 14.5,
-        "capital_return_pct": 19.6,
+        "capital_return_pct": 19.5,
         "dividend_yield_component_pct": 3.24,
         "dividend_growth_component_pct": 11.22,
         "eps_growth_component_pct": 16.46,
-        "valuation_reversion_component_pct": 3.15
+        "valuation_reversion_component_pct": 3.07
       },
-      "updated_at": "2026-09-04 07:43",
+      "updated_at": "2026-09-05 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -12029,7 +12029,7 @@
         "eps_growth_component_pct": 26.62,
         "valuation_reversion_component_pct": 12.77
       },
-      "updated_at": "2026-09-04 07:43",
+      "updated_at": "2026-09-05 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -12160,7 +12160,7 @@
         "eps_growth_component_pct": 10.07,
         "valuation_reversion_component_pct": 0.88
       },
-      "updated_at": "2026-09-04 07:43",
+      "updated_at": "2026-09-05 15:12",
       "forecast_dividend_changes": []
     }
   ],
