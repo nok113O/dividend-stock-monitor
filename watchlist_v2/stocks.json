@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06 07:39",
+  "generated_at": "2026-10-06 14:24",
   "stocks": [
     {
       "code": "8306",
@@ -131,7 +131,7 @@
         "eps_growth_component_pct": 13.48,
         "valuation_reversion_component_pct": -8.6
       },
-      "updated_at": "2026-10-06 07:05",
+      "updated_at": "2026-10-06 13:48",
       "forecast_dividend_changes": []
     },
     {
@@ -267,7 +267,7 @@
         "eps_growth_component_pct": 5.77,
         "valuation_reversion_component_pct": -9.22
       },
-      "updated_at": "2026-10-06 07:05",
+      "updated_at": "2026-10-06 13:49",
       "forecast_dividend_changes": []
     },
     {
@@ -403,7 +403,7 @@
         "eps_growth_component_pct": 10.76,
         "valuation_reversion_component_pct": 7.19
       },
-      "updated_at": "2026-10-06 07:05",
+      "updated_at": "2026-10-06 13:49",
       "forecast_dividend_changes": []
     },
     {
@@ -539,7 +539,7 @@
         "eps_growth_component_pct": 7.36,
         "valuation_reversion_component_pct": -3.4
       },
-      "updated_at": "2026-10-06 07:05",
+      "updated_at": "2026-10-06 13:49",
       "forecast_dividend_changes": []
     },
     {
@@ -675,7 +675,7 @@
         "eps_growth_component_pct": 12.7,
         "valuation_reversion_component_pct": -1.86
       },
-      "updated_at": "2026-10-06 07:05",
+      "updated_at": "2026-10-06 13:49",
       "forecast_dividend_changes": []
     },
     {
@@ -813,7 +813,7 @@
         "eps_growth_component_pct": 9.34,
         "valuation_reversion_component_pct": 34.13
       },
-      "updated_at": "2026-10-06 07:06",
+      "updated_at": "2026-10-06 13:50",
       "forecast_dividend_changes": []
     },
     {
@@ -948,7 +948,7 @@
         "eps_growth_component_pct": 6.94,
         "valuation_reversion_component_pct": 8.99
       },
-      "updated_at": "2026-10-06 07:07",
+      "updated_at": "2026-10-06 13:50",
       "forecast_dividend_changes": []
     },
     {
@@ -1084,7 +1084,7 @@
         "eps_growth_component_pct": 9.18,
         "valuation_reversion_component_pct": 3.23
       },
-      "updated_at": "2026-10-06 07:07",
+      "updated_at": "2026-10-06 13:50",
       "forecast_dividend_changes": []
     },
     {
@@ -1219,7 +1219,7 @@
         "eps_growth_component_pct": 34.48,
         "valuation_reversion_component_pct": -5.85
       },
-      "updated_at": "2026-10-06 07:07",
+      "updated_at": "2026-10-06 13:51",
       "forecast_dividend_changes": []
     },
     {
@@ -1351,7 +1351,7 @@
         "eps_growth_component_pct": 15.66,
         "valuation_reversion_component_pct": -0.56
       },
-      "updated_at": "2026-10-06 07:07",
+      "updated_at": "2026-10-06 13:51",
       "forecast_dividend_changes": []
     },
     {
@@ -1488,7 +1488,7 @@
         "eps_growth_component_pct": 11.32,
         "valuation_reversion_component_pct": 8.73
       },
-      "updated_at": "2026-10-06 07:08",
+      "updated_at": "2026-10-06 13:52",
       "forecast_dividend_changes": []
     },
     {
@@ -1622,7 +1622,7 @@
         "eps_growth_component_pct": 29.81,
         "valuation_reversion_component_pct": -8.14
       },
-      "updated_at": "2026-10-06 07:08",
+      "updated_at": "2026-10-06 13:52",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-07",
@@ -1769,7 +1769,7 @@
         "eps_growth_component_pct": 6.99,
         "valuation_reversion_component_pct": 9.13
       },
-      "updated_at": "2026-10-06 07:09",
+      "updated_at": "2026-10-06 13:52",
       "forecast_dividend_changes": []
     },
     {
@@ -1904,7 +1904,7 @@
         "eps_growth_component_pct": 4.72,
         "valuation_reversion_component_pct": 16.43
       },
-      "updated_at": "2026-10-06 07:09",
+      "updated_at": "2026-10-06 13:53",
       "forecast_dividend_changes": []
     },
     {
@@ -2038,7 +2038,7 @@
         "eps_growth_component_pct": 6.66,
         "valuation_reversion_component_pct": -0.03
       },
-      "updated_at": "2026-10-06 07:09",
+      "updated_at": "2026-10-06 13:53",
       "forecast_dividend_changes": []
     },
     {
@@ -2176,7 +2176,7 @@
         "eps_growth_component_pct": 12.3,
         "valuation_reversion_component_pct": 0.83
       },
-      "updated_at": "2026-10-06 07:09",
+      "updated_at": "2026-10-06 13:53",
       "forecast_dividend_changes": []
     },
     {
@@ -2311,7 +2311,7 @@
         "eps_growth_component_pct": -0.3,
         "valuation_reversion_component_pct": 9.81
       },
-      "updated_at": "2026-10-06 07:10",
+      "updated_at": "2026-10-06 13:54",
       "forecast_dividend_changes": []
     },
     {
@@ -2445,7 +2445,7 @@
         "eps_growth_component_pct": 5.7,
         "valuation_reversion_component_pct": 7.52
       },
-      "updated_at": "2026-10-06 07:11",
+      "updated_at": "2026-10-06 13:54",
       "forecast_dividend_changes": []
     },
     {
@@ -2580,7 +2580,7 @@
         "eps_growth_component_pct": 20.34,
         "valuation_reversion_component_pct": -15.04
       },
-      "updated_at": "2026-10-06 07:11",
+      "updated_at": "2026-10-06 13:54",
       "forecast_dividend_changes": []
     },
     {
@@ -2716,7 +2716,7 @@
         "eps_growth_component_pct": 8.58,
         "valuation_reversion_component_pct": 6.97
       },
-      "updated_at": "2026-10-06 07:11",
+      "updated_at": "2026-10-06 13:54",
       "forecast_dividend_changes": []
     },
     {
@@ -2851,7 +2851,7 @@
         "eps_growth_component_pct": 9.58,
         "valuation_reversion_component_pct": -7.32
       },
-      "updated_at": "2026-10-06 07:12",
+      "updated_at": "2026-10-06 13:56",
       "forecast_dividend_changes": []
     },
     {
@@ -2987,7 +2987,7 @@
         "eps_growth_component_pct": 6.41,
         "valuation_reversion_component_pct": -3.64
       },
-      "updated_at": "2026-10-06 07:12",
+      "updated_at": "2026-10-06 13:56",
       "forecast_dividend_changes": []
     },
     {
@@ -3120,7 +3120,7 @@
         "eps_growth_component_pct": 10.34,
         "valuation_reversion_component_pct": 4.34
       },
-      "updated_at": "2026-10-06 07:12",
+      "updated_at": "2026-10-06 13:56",
       "forecast_dividend_changes": []
     },
     {
@@ -3255,7 +3255,7 @@
         "eps_growth_component_pct": 7.33,
         "valuation_reversion_component_pct": 4.29
       },
-      "updated_at": "2026-10-06 07:12",
+      "updated_at": "2026-10-06 13:56",
       "forecast_dividend_changes": []
     },
     {
@@ -3392,7 +3392,7 @@
         "eps_growth_component_pct": 14.53,
         "valuation_reversion_component_pct": -11.74
       },
-      "updated_at": "2026-10-06 07:13",
+      "updated_at": "2026-10-06 13:56",
       "forecast_dividend_changes": []
     },
     {
@@ -3527,7 +3527,7 @@
         "eps_growth_component_pct": 5.45,
         "valuation_reversion_component_pct": -3.06
       },
-      "updated_at": "2026-10-06 07:14",
+      "updated_at": "2026-10-06 13:57",
       "forecast_dividend_changes": []
     },
     {
@@ -3660,7 +3660,7 @@
         "eps_growth_component_pct": 9.72,
         "valuation_reversion_component_pct": 79.34
       },
-      "updated_at": "2026-10-06 07:14",
+      "updated_at": "2026-10-06 13:57",
       "forecast_dividend_changes": []
     },
     {
@@ -3792,7 +3792,7 @@
         "eps_growth_component_pct": 7.57,
         "valuation_reversion_component_pct": -7.76
       },
-      "updated_at": "2026-10-06 07:14",
+      "updated_at": "2026-10-06 13:57",
       "forecast_dividend_changes": []
     },
     {
@@ -3928,7 +3928,7 @@
         "eps_growth_component_pct": 7.85,
         "valuation_reversion_component_pct": -9.31
       },
-      "updated_at": "2026-10-06 07:14",
+      "updated_at": "2026-10-06 13:58",
       "forecast_dividend_changes": []
     },
     {
@@ -4060,7 +4060,7 @@
         "eps_growth_component_pct": 7.68,
         "valuation_reversion_component_pct": 3.27
       },
-      "updated_at": "2026-10-06 07:15",
+      "updated_at": "2026-10-06 13:58",
       "forecast_dividend_changes": []
     },
     {
@@ -4195,7 +4195,7 @@
         "eps_growth_component_pct": 10.84,
         "valuation_reversion_component_pct": 9.79
       },
-      "updated_at": "2026-10-06 07:15",
+      "updated_at": "2026-10-06 13:59",
       "forecast_dividend_changes": []
     },
     {
@@ -4332,7 +4332,7 @@
         "eps_growth_component_pct": 8.25,
         "valuation_reversion_component_pct": 5.81
       },
-      "updated_at": "2026-10-06 07:16",
+      "updated_at": "2026-10-06 13:59",
       "forecast_dividend_changes": []
     },
     {
@@ -4469,7 +4469,7 @@
         "eps_growth_component_pct": 7.16,
         "valuation_reversion_component_pct": 15.09
       },
-      "updated_at": "2026-10-06 07:16",
+      "updated_at": "2026-10-06 13:59",
       "forecast_dividend_changes": []
     },
     {
@@ -4603,7 +4603,7 @@
         "eps_growth_component_pct": 0.01,
         "valuation_reversion_component_pct": -1.0
       },
-      "updated_at": "2026-10-06 07:16",
+      "updated_at": "2026-10-06 14:00",
       "forecast_dividend_changes": []
     },
     {
@@ -4739,7 +4739,7 @@
         "eps_growth_component_pct": 6.18,
         "valuation_reversion_component_pct": -3.1
       },
-      "updated_at": "2026-10-06 07:16",
+      "updated_at": "2026-10-06 14:00",
       "forecast_dividend_changes": []
     },
     {
@@ -4876,7 +4876,7 @@
         "eps_growth_component_pct": 8.71,
         "valuation_reversion_component_pct": 3.95
       },
-      "updated_at": "2026-10-06 07:18",
+      "updated_at": "2026-10-06 14:00",
       "forecast_dividend_changes": []
     },
     {
@@ -5010,7 +5010,7 @@
         "eps_growth_component_pct": 0.9,
         "valuation_reversion_component_pct": 12.4
       },
-      "updated_at": "2026-10-06 07:18",
+      "updated_at": "2026-10-06 14:01",
       "forecast_dividend_changes": []
     },
     {
@@ -5140,7 +5140,7 @@
         "eps_growth_component_pct": 5.06,
         "valuation_reversion_component_pct": 27.83
       },
-      "updated_at": "2026-10-06 07:18",
+      "updated_at": "2026-10-06 14:01",
       "forecast_dividend_changes": []
     },
     {
@@ -5277,7 +5277,7 @@
         "eps_growth_component_pct": 7.84,
         "valuation_reversion_component_pct": 9.45
       },
-      "updated_at": "2026-10-06 07:18",
+      "updated_at": "2026-10-06 14:01",
       "forecast_dividend_changes": []
     },
     {
@@ -5412,7 +5412,7 @@
         "eps_growth_component_pct": 10.09,
         "valuation_reversion_component_pct": -2.83
       },
-      "updated_at": "2026-10-06 07:18",
+      "updated_at": "2026-10-06 14:01",
       "forecast_dividend_changes": []
     },
     {
@@ -5546,7 +5546,7 @@
         "eps_growth_component_pct": 6.04,
         "valuation_reversion_component_pct": 8.05
       },
-      "updated_at": "2026-10-06 07:19",
+      "updated_at": "2026-10-06 14:02",
       "forecast_dividend_changes": []
     },
     {
@@ -5682,7 +5682,7 @@
         "eps_growth_component_pct": 8.63,
         "valuation_reversion_component_pct": -8.48
       },
-      "updated_at": "2026-10-06 07:19",
+      "updated_at": "2026-10-06 14:03",
       "forecast_dividend_changes": []
     },
     {
@@ -5819,7 +5819,7 @@
         "eps_growth_component_pct": 13.23,
         "valuation_reversion_component_pct": -16.48
       },
-      "updated_at": "2026-10-06 07:19",
+      "updated_at": "2026-10-06 14:03",
       "forecast_dividend_changes": []
     },
     {
@@ -5957,7 +5957,7 @@
         "eps_growth_component_pct": 14.69,
         "valuation_reversion_component_pct": -12.05
       },
-      "updated_at": "2026-10-06 07:20",
+      "updated_at": "2026-10-06 14:03",
       "forecast_dividend_changes": []
     },
     {
@@ -6096,7 +6096,7 @@
         "eps_growth_component_pct": 10.59,
         "valuation_reversion_component_pct": -16.29
       },
-      "updated_at": "2026-10-06 07:21",
+      "updated_at": "2026-10-06 14:04",
       "forecast_dividend_changes": []
     },
     {
@@ -6231,7 +6231,7 @@
         "eps_growth_component_pct": 15.62,
         "valuation_reversion_component_pct": -5.49
       },
-      "updated_at": "2026-10-06 07:21",
+      "updated_at": "2026-10-06 14:04",
       "forecast_dividend_changes": []
     },
     {
@@ -6369,7 +6369,7 @@
         "eps_growth_component_pct": 12.39,
         "valuation_reversion_component_pct": -10.16
       },
-      "updated_at": "2026-10-06 07:21",
+      "updated_at": "2026-10-06 14:04",
       "forecast_dividend_changes": []
     },
     {
@@ -6503,7 +6503,7 @@
         "eps_growth_component_pct": 3.98,
         "valuation_reversion_component_pct": 0.4
       },
-      "updated_at": "2026-10-06 07:21",
+      "updated_at": "2026-10-06 14:04",
       "forecast_dividend_changes": []
     },
     {
@@ -6640,7 +6640,7 @@
         "eps_growth_component_pct": 10.2,
         "valuation_reversion_component_pct": -6.86
       },
-      "updated_at": "2026-10-06 07:22",
+      "updated_at": "2026-10-06 14:05",
       "forecast_dividend_changes": []
     },
     {
@@ -6773,7 +6773,7 @@
         "eps_growth_component_pct": null,
         "valuation_reversion_component_pct": -3.73
       },
-      "updated_at": "2026-10-06 07:22",
+      "updated_at": "2026-10-06 14:06",
       "forecast_dividend_changes": []
     },
     {
@@ -6908,7 +6908,7 @@
         "eps_growth_component_pct": 12.33,
         "valuation_reversion_component_pct": 18.05
       },
-      "updated_at": "2026-10-06 07:22",
+      "updated_at": "2026-10-06 14:06",
       "forecast_dividend_changes": []
     },
     {
@@ -7041,7 +7041,7 @@
         "eps_growth_component_pct": 14.11,
         "valuation_reversion_component_pct": 2.28
       },
-      "updated_at": "2026-10-06 07:23",
+      "updated_at": "2026-10-06 14:06",
       "forecast_dividend_changes": []
     },
     {
@@ -7177,7 +7177,7 @@
         "eps_growth_component_pct": 10.19,
         "valuation_reversion_component_pct": 2.98
       },
-      "updated_at": "2026-10-06 07:23",
+      "updated_at": "2026-10-06 14:06",
       "forecast_dividend_changes": []
     },
     {
@@ -7313,7 +7313,7 @@
         "eps_growth_component_pct": 7.5,
         "valuation_reversion_component_pct": -3.7
       },
-      "updated_at": "2026-10-06 07:23",
+      "updated_at": "2026-10-06 14:07",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-03",
@@ -7456,7 +7456,7 @@
         "eps_growth_component_pct": 16.45,
         "valuation_reversion_component_pct": -4.92
       },
-      "updated_at": "2026-10-06 07:23",
+      "updated_at": "2026-10-06 14:07",
       "forecast_dividend_changes": []
     },
     {
@@ -7592,7 +7592,7 @@
         "eps_growth_component_pct": 10.71,
         "valuation_reversion_component_pct": -6.23
       },
-      "updated_at": "2026-10-06 07:24",
+      "updated_at": "2026-10-06 14:07",
       "forecast_dividend_changes": []
     },
     {
@@ -7726,7 +7726,7 @@
         "eps_growth_component_pct": 14.38,
         "valuation_reversion_component_pct": 2.62
       },
-      "updated_at": "2026-10-06 07:25",
+      "updated_at": "2026-10-06 14:08",
       "forecast_dividend_changes": []
     },
     {
@@ -7863,7 +7863,7 @@
         "eps_growth_component_pct": 28.67,
         "valuation_reversion_component_pct": -6.82
       },
-      "updated_at": "2026-10-06 07:25",
+      "updated_at": "2026-10-06 14:08",
       "forecast_dividend_changes": []
     },
     {
@@ -7999,7 +7999,7 @@
         "eps_growth_component_pct": 6.68,
         "valuation_reversion_component_pct": -0.85
       },
-      "updated_at": "2026-10-06 07:25",
+      "updated_at": "2026-10-06 14:09",
       "forecast_dividend_changes": []
     },
     {
@@ -8134,7 +8134,7 @@
         "eps_growth_component_pct": 10.98,
         "valuation_reversion_component_pct": -3.36
       },
-      "updated_at": "2026-10-06 07:25",
+      "updated_at": "2026-10-06 14:09",
       "forecast_dividend_changes": []
     },
     {
@@ -8265,7 +8265,7 @@
         "eps_growth_component_pct": 4.12,
         "valuation_reversion_component_pct": 17.76
       },
-      "updated_at": "2026-10-06 07:26",
+      "updated_at": "2026-10-06 14:09",
       "forecast_dividend_changes": []
     },
     {
@@ -8399,7 +8399,7 @@
         "eps_growth_component_pct": 1.23,
         "valuation_reversion_component_pct": -6.08
       },
-      "updated_at": "2026-10-06 07:26",
+      "updated_at": "2026-10-06 14:10",
       "forecast_dividend_changes": []
     },
     {
@@ -8524,7 +8524,7 @@
         "eps_growth_component_pct": null,
         "valuation_reversion_component_pct": null
       },
-      "updated_at": "2026-10-06 07:26",
+      "updated_at": "2026-10-06 14:10",
       "forecast_dividend_changes": []
     },
     {
@@ -8653,7 +8653,7 @@
         "eps_growth_component_pct": 4.22,
         "valuation_reversion_component_pct": -2.28
       },
-      "updated_at": "2026-10-06 07:26",
+      "updated_at": "2026-10-06 14:10",
       "forecast_dividend_changes": []
     },
     {
@@ -8790,7 +8790,7 @@
         "eps_growth_component_pct": 24.09,
         "valuation_reversion_component_pct": -0.22
       },
-      "updated_at": "2026-10-06 07:28",
+      "updated_at": "2026-10-06 14:11",
       "forecast_dividend_changes": []
     },
     {
@@ -8922,7 +8922,7 @@
         "eps_growth_component_pct": 10.03,
         "valuation_reversion_component_pct": 9.92
       },
-      "updated_at": "2026-10-06 07:28",
+      "updated_at": "2026-10-06 14:11",
       "forecast_dividend_changes": []
     },
     {
@@ -9060,7 +9060,7 @@
         "eps_growth_component_pct": 24.28,
         "valuation_reversion_component_pct": -5.51
       },
-      "updated_at": "2026-10-06 07:28",
+      "updated_at": "2026-10-06 14:11",
       "forecast_dividend_changes": []
     },
     {
@@ -9197,7 +9197,7 @@
         "eps_growth_component_pct": 10.29,
         "valuation_reversion_component_pct": -18.17
       },
-      "updated_at": "2026-10-06 07:28",
+      "updated_at": "2026-10-06 14:11",
       "forecast_dividend_changes": []
     },
     {
@@ -9334,7 +9334,7 @@
         "eps_growth_component_pct": 11.58,
         "valuation_reversion_component_pct": 2.71
       },
-      "updated_at": "2026-10-06 07:28",
+      "updated_at": "2026-10-06 14:13",
       "forecast_dividend_changes": []
     },
     {
@@ -9471,7 +9471,7 @@
         "eps_growth_component_pct": 10.83,
         "valuation_reversion_component_pct": -10.09
       },
-      "updated_at": "2026-10-06 07:29",
+      "updated_at": "2026-10-06 14:13",
       "forecast_dividend_changes": []
     },
     {
@@ -9607,7 +9607,7 @@
         "eps_growth_component_pct": 13.44,
         "valuation_reversion_component_pct": 3.58
       },
-      "updated_at": "2026-10-06 07:29",
+      "updated_at": "2026-10-06 14:13",
       "forecast_dividend_changes": []
     },
     {
@@ -9742,7 +9742,7 @@
         "eps_growth_component_pct": 7.84,
         "valuation_reversion_component_pct": -18.21
       },
-      "updated_at": "2026-10-06 07:29",
+      "updated_at": "2026-10-06 14:13",
       "forecast_dividend_changes": []
     },
     {
@@ -9871,7 +9871,7 @@
         "eps_growth_component_pct": 6.03,
         "valuation_reversion_component_pct": 1.34
       },
-      "updated_at": "2026-10-06 07:30",
+      "updated_at": "2026-10-06 14:13",
       "forecast_dividend_changes": []
     },
     {
@@ -10007,7 +10007,7 @@
         "eps_growth_component_pct": 5.14,
         "valuation_reversion_component_pct": -7.51
       },
-      "updated_at": "2026-10-06 07:30",
+      "updated_at": "2026-10-06 14:14",
       "forecast_dividend_changes": []
     },
     {
@@ -10144,7 +10144,7 @@
         "eps_growth_component_pct": 11.43,
         "valuation_reversion_component_pct": 2.96
       },
-      "updated_at": "2026-10-06 07:31",
+      "updated_at": "2026-10-06 14:14",
       "forecast_dividend_changes": []
     },
     {
@@ -10277,7 +10277,7 @@
         "eps_growth_component_pct": 14.07,
         "valuation_reversion_component_pct": -5.89
       },
-      "updated_at": "2026-10-06 07:31",
+      "updated_at": "2026-10-06 14:14",
       "forecast_dividend_changes": []
     },
     {
@@ -10414,7 +10414,7 @@
         "eps_growth_component_pct": 21.98,
         "valuation_reversion_component_pct": -11.69
       },
-      "updated_at": "2026-10-06 07:31",
+      "updated_at": "2026-10-06 14:15",
       "forecast_dividend_changes": []
     },
     {
@@ -10547,7 +10547,7 @@
         "eps_growth_component_pct": 5.99,
         "valuation_reversion_component_pct": 12.24
       },
-      "updated_at": "2026-10-06 07:32",
+      "updated_at": "2026-10-06 14:16",
       "forecast_dividend_changes": []
     },
     {
@@ -10684,7 +10684,7 @@
         "eps_growth_component_pct": 17.47,
         "valuation_reversion_component_pct": -4.93
       },
-      "updated_at": "2026-10-06 07:32",
+      "updated_at": "2026-10-06 14:16",
       "forecast_dividend_changes": []
     },
     {
@@ -10820,7 +10820,7 @@
         "eps_growth_component_pct": 10.71,
         "valuation_reversion_component_pct": 5.85
       },
-      "updated_at": "2026-10-06 07:32",
+      "updated_at": "2026-10-06 14:16",
       "forecast_dividend_changes": []
     },
     {
@@ -10953,7 +10953,7 @@
         "eps_growth_component_pct": 10.92,
         "valuation_reversion_component_pct": -3.05
       },
-      "updated_at": "2026-10-06 07:33",
+      "updated_at": "2026-10-06 14:16",
       "forecast_dividend_changes": []
     },
     {
@@ -11086,7 +11086,7 @@
         "eps_growth_component_pct": 31.11,
         "valuation_reversion_component_pct": 3.86
       },
-      "updated_at": "2026-10-06 07:33",
+      "updated_at": "2026-10-06 14:17",
       "forecast_dividend_changes": []
     },
     {
@@ -11219,7 +11219,7 @@
         "eps_growth_component_pct": 9.94,
         "valuation_reversion_component_pct": -21.15
       },
-      "updated_at": "2026-10-06 07:33",
+      "updated_at": "2026-10-06 14:17",
       "forecast_dividend_changes": []
     },
     {
@@ -11352,7 +11352,7 @@
         "eps_growth_component_pct": 7.87,
         "valuation_reversion_component_pct": -2.8
       },
-      "updated_at": "2026-10-06 07:33",
+      "updated_at": "2026-10-06 14:17",
       "forecast_dividend_changes": []
     },
     {
@@ -11487,7 +11487,7 @@
         "eps_growth_component_pct": 16.07,
         "valuation_reversion_component_pct": 12.32
       },
-      "updated_at": "2026-10-06 07:34",
+      "updated_at": "2026-10-06 14:18",
       "forecast_dividend_changes": []
     },
     {
@@ -11622,7 +11622,7 @@
         "eps_growth_component_pct": 14.62,
         "valuation_reversion_component_pct": 0.46
       },
-      "updated_at": "2026-10-06 07:35",
+      "updated_at": "2026-10-06 14:18",
       "forecast_dividend_changes": []
     },
     {
@@ -11754,7 +11754,7 @@
         "eps_growth_component_pct": -3.82,
         "valuation_reversion_component_pct": -6.02
       },
-      "updated_at": "2026-10-06 07:35",
+      "updated_at": "2026-10-06 14:18",
       "forecast_dividend_changes": []
     },
     {
@@ -11890,7 +11890,7 @@
         "eps_growth_component_pct": 16.46,
         "valuation_reversion_component_pct": 29.18
       },
-      "updated_at": "2026-10-06 07:35",
+      "updated_at": "2026-10-06 14:19",
       "forecast_dividend_changes": []
     },
     {
@@ -12026,7 +12026,7 @@
         "eps_growth_component_pct": 26.62,
         "valuation_reversion_component_pct": 15.01
       },
-      "updated_at": "2026-10-06 07:36",
+      "updated_at": "2026-10-06 14:19",
       "forecast_dividend_changes": []
     },
     {
@@ -12157,7 +12157,7 @@
         "eps_growth_component_pct": 10.07,
         "valuation_reversion_component_pct": 2.36
       },
-      "updated_at": "2026-10-06 07:36",
+      "updated_at": "2026-10-06 14:20",
       "forecast_dividend_changes": []
     },
     {
@@ -12292,7 +12292,7 @@
         "eps_growth_component_pct": 6.05,
         "valuation_reversion_component_pct": 0.36
       },
-      "updated_at": "2026-10-06 07:36",
+      "updated_at": "2026-10-06 14:20",
       "forecast_dividend_changes": []
     },
     {
@@ -12417,7 +12417,7 @@
         "eps_growth_component_pct": null,
         "valuation_reversion_component_pct": null
       },
-      "updated_at": "2026-10-06 07:37",
+      "updated_at": "2026-10-06 14:20",
       "forecast_dividend_changes": []
     },
     {
@@ -12555,7 +12555,7 @@
         "eps_growth_component_pct": 17.36,
         "valuation_reversion_component_pct": 9.73
       },
-      "updated_at": "2026-10-06 07:37",
+      "updated_at": "2026-10-06 14:21",
       "forecast_dividend_changes": []
     },
     {
@@ -12692,7 +12692,7 @@
         "eps_growth_component_pct": 11.89,
         "valuation_reversion_component_pct": 11.33
       },
-      "updated_at": "2026-10-06 07:38",
+      "updated_at": "2026-10-06 14:21",
       "forecast_dividend_changes": []
     },
     {
@@ -12828,7 +12828,7 @@
         "eps_growth_component_pct": 28.44,
         "valuation_reversion_component_pct": 14.23
       },
-      "updated_at": "2026-10-06 07:38",
+      "updated_at": "2026-10-06 14:21",
       "forecast_dividend_changes": []
     },
     {
@@ -12965,7 +12965,7 @@
         "eps_growth_component_pct": 8.48,
         "valuation_reversion_component_pct": -4.33
       },
-      "updated_at": "2026-10-06 07:38",
+      "updated_at": "2026-10-06 14:21",
       "forecast_dividend_changes": []
     },
     {
@@ -13099,7 +13099,7 @@
         "eps_growth_component_pct": 5.57,
         "valuation_reversion_component_pct": -6.35
       },
-      "updated_at": "2026-10-06 07:39",
+      "updated_at": "2026-10-06 14:23",
       "forecast_dividend_changes": []
     },
     {
@@ -13232,7 +13232,682 @@
         "eps_growth_component_pct": 7.99,
         "valuation_reversion_component_pct": 4.08
       },
-      "updated_at": "2026-10-06 07:39",
+      "updated_at": "2026-10-06 14:23",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "5110",
+      "name": "住友ゴム工業",
+      "industry": "ゴム製品",
+      "sector": "素材・自動車関連",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
+      "price": 2013.0,
+      "price_date": "2026-10-06 15:30",
+      "price_change": 14.0,
+      "price_change_pct": 0.0070035015,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 9.619611965975341,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.7290519789071102,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 6.742949074867226,
+            "criterion": "7%以上",
+            "judge": "×"
+          },
+          "ROA": {
+            "value": 3.3797799543807865,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.172876304023846,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 48.699999999999996,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 5290.88409036,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "×",
+            "detail": "1.01倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 2回"
+          },
+          "10期で減配2回未満": {
+            "judge": "×",
+            "detail": "減配 2回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 1158.29,
+        "latest_bps": 2724.44,
+        "target_price": 3882.73
+      },
+      "forecast_dividend": 84.0,
+      "dividend_yield_pct": 4.172876304023846,
+      "dividend_override_note": "タイヤ・ゴム製品大手。株式分割なし(factor常に1.0)、EDINET DB値をそのまま採用。原材料費・為替の影響でEPSの振れ幅が非常に大きい(35.80円〜191.62円)。10期で減配2回(2020年12月期55→35円、2022年12月期55→35円)、BPSも2回減少(2018年・2020年12月期)。9期前比でEPSはほぼ横ばい(1.01倍)。配当方針は配当性向・業績見通し等を総合判断する方針でDOE固定目標や累進配当の明確な宣言は確認できず(2026-10-06 WebSearchで確認、DOE実績は1.75%〜3.02%で変動)。2027年12月期の会社予想配当は84円(2026年時点)。2026-09-16一次スクリーニング：Step1は7/7全クリア。第2段階は5項目中2項目のみ合格(EPS成長率・BPS連続増加が未達)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：ゴム製品・配当変動大",
+        "target1_pct": 4.67,
+        "target2_pct": 5.24,
+        "target3_pct": 5.51,
+        "buy1_price": 1799,
+        "buy2_price": 1603,
+        "buy3_price": 1525,
+        "buy_status": "監視",
+        "sample_daily": 730,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "除外候補",
+      "comment": "ROEは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 BPS10期連続増加は自社株買い等の影響も確認。 10期で減配2回未満は高配当株として重要な懸念。",
+      "priority_score": {
+        "growth_score": 0,
+        "income_score": 2,
+        "total_score": 2,
+        "payout_ratio_pct": 40.2,
+        "dividend_cagr_pct": 3.81,
+        "dividend_years_to_double": 18.5,
+        "growth_detail": [],
+        "income_detail": [
+          "配当性向50%以下",
+          "無配0期"
+        ],
+        "dividend_quality_badges": []
+      },
+      "expected_irr": {
+        "expected_irr_pct": 18.7,
+        "dividend_return_pct": 8.0,
+        "capital_return_pct": 10.7,
+        "dividend_yield_component_pct": 4.17,
+        "dividend_growth_component_pct": 3.81,
+        "eps_growth_component_pct": 0.07,
+        "valuation_reversion_component_pct": 10.62
+      },
+      "updated_at": "2026-10-06 14:23",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "2153",
+      "name": "Ｅ・Ｊホールディングス",
+      "industry": "サービス業",
+      "sector": "サービス",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 5,
+      "price": 1857.0,
+      "price_date": "2026-10-06 15:30",
+      "price_change": 7.0,
+      "price_change_pct": 0.0037837839,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 9.022008453578195,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.8289771484436032,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 8.369748733737213,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.939878770792219,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.4157242864835755,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 71.0,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 333.81677124,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "×",
+            "detail": "赤字 1期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "比較不可"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 1457.47,
+        "latest_bps": 2240.11,
+        "target_price": 3697.58
+      },
+      "forecast_dividend": 82.0,
+      "dividend_yield_pct": 4.4157242864835755,
+      "dividend_override_note": "建設コンサルタント大手。株式分割なし(factor常に1.0)、EDINET DB値をそのまま採用。2017年5月期に唯一の赤字(▲20.18円)を計上したが以降8期連続で増益基調。配当は全期増配(13→15→19→25→35→43→50→55→67→69円)で「10期連続増配」に該当、減配・無配とも0回。BPSも10期連続増加。配当方針はDOE3%以上を目安とした累進配当を明示し、2025年5月期に8期連続増配を達成(2026-10-06 WebSearchで確認)。2027年5月期の会社予想配当は82円(2026-07-14開示)。2026-10-06一次スクリーニング：Step1は7/7全クリア。EPS成長率(9期前の2倍以上)は2017年の赤字が基準年のため比較不可。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：サービス業・赤字1期・配当変動大",
+        "target1_pct": 4.73,
+        "target2_pct": 4.97,
+        "target3_pct": 5.03,
+        "buy1_price": 1734,
+        "buy2_price": 1650,
+        "buy3_price": 1630,
+        "buy_status": "監視",
+        "sample_daily": 729,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "除外候補",
+      "comment": "EPS10期赤字なしは一過性か構造的か確認。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。",
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 5,
+        "total_score": 6,
+        "payout_ratio_pct": 36.4,
+        "dividend_cagr_pct": 20.38,
+        "dividend_years_to_double": 3.7,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "10期連続増配・DOE宣言(3.0%以上)・累進配当宣言を達成/宣言",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配",
+          "DOE宣言(3.0%以上)",
+          "累進配当宣言"
+        ]
+      },
+      "expected_irr": {
+        "expected_irr_pct": 34.4,
+        "dividend_return_pct": 24.8,
+        "capital_return_pct": 9.6,
+        "dividend_yield_component_pct": 4.42,
+        "dividend_growth_component_pct": 20.38,
+        "eps_growth_component_pct": null,
+        "valuation_reversion_component_pct": 9.65
+      },
+      "updated_at": "2026-10-06 14:23",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "7172",
+      "name": "ジャパンインベストメントアドバイザー",
+      "industry": "証券･商品先物取引業",
+      "sector": "証券",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 12,
+      "price": 2137.0,
+      "price_date": "2026-10-06 15:30",
+      "price_change": 18.0,
+      "price_change_pct": 0.008494573,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": true,
+        "rows": {
+          "PER": {
+            "value": 9.952496274217586,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 1.7604995633763367,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 12.539102922460243,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 4.209895770935666,
+            "criterion": "1%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 5.053813757604118,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 30.8,
+            "criterion": "10%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 1293.81414623,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "○",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "5.89倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 781.72,
+        "latest_bps": 1213.86,
+        "target_price": 1995.58
+      },
+      "forecast_dividend": 108.0,
+      "dividend_yield_pct": 5.053813757604118,
+      "dividend_override_note": "海運コンテナリース・証券業(JIA)。業種名はEDINET DBでは全角読点区切り「証券、商品先物取引業」のためsector_master未マッチだが、本番パイプラインが使うJ-Quants側は半角中点区切り「証券･商品先物取引業」で提供されており、classify()の正規化ロジックで正しく「証券」セクター(自己資本比率10%以上・ROA1%以上の緩和基準)に分類されることを確認済み(2026-10-03検証)。自己資本比率25.0%はこの緩和基準ならクリア。また2023年12月期に1:2株式分割があったが、EDINET DBはこの期のEPS・BPSフィールドに分割調整の適用を失念していたことをraw値との突き合わせで確認(同じ期の配当フィールドは正しく調整済み)。本エントリはEPS 78.12→39.06円、BPS 1,582.66→791.33円に補正済み(2026-10-03検証)。補正後はBPS10期連続増加(減少0回)、EPS10期赤字なし、9期前比5.90倍。また「2016-03-31」という最古の期間ラベルはEDINET DB側の日付フィールド誤りとみられ、同社は一貫して1月-12月の決算期であるため実際は「2016-12-31」として扱う(2026-10-03 WebSearchで確認、決算月は常に12月)。配当方針は累進的な配当(減配せず維持または増配)を意識した運営(2026-10-03 WebSearchで確認)。2026年12月期の会社予想配当は108円(2026-07-31開示)。2026-10-03一次スクリーニング：Step1はセクター補正後6/7クリア(PBR1.61倍のみ未達)。第2段階はデータ補正後5/5全クリア。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：証券･商品先物取引業・配当変動大",
+        "target1_pct": 4.32,
+        "target2_pct": 4.6,
+        "target3_pct": 4.73,
+        "buy1_price": 2500,
+        "buy2_price": 2348,
+        "buy3_price": 2283,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 730,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PBRは基準未達。",
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 5,
+        "total_score": 8,
+        "payout_ratio_pct": 50.0,
+        "dividend_cagr_pct": 48.35,
+        "dividend_years_to_double": 1.8,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "累進配当宣言を達成/宣言",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "累進配当宣言"
+        ]
+      },
+      "expected_irr": {
+        "expected_irr_pct": 73.9,
+        "dividend_return_pct": 53.4,
+        "capital_return_pct": 20.5,
+        "dividend_yield_component_pct": 5.05,
+        "dividend_growth_component_pct": 48.35,
+        "eps_growth_component_pct": 21.79,
+        "valuation_reversion_component_pct": -1.26
+      },
+      "updated_at": "2026-10-06 14:23",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "9882",
+      "name": "イエローハット",
+      "industry": "卸売業",
+      "sector": "卸売・商社",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 1629.0,
+      "price_date": "2026-10-06 15:30",
+      "price_change": 5.0,
+      "price_change_pct": 0.0030788176,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 11.422761377182525,
+            "criterion": "12倍以下",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 1.1260965442869093,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 9.659636633655374,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.786730361960758,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.174340085942296,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 59.8,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 1393.5814812,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "2.28倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 1回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 917.13,
+        "latest_bps": 1446.59,
+        "target_price": 2363.72
+      },
+      "forecast_dividend": 68.0,
+      "dividend_yield_pct": 4.174340085942296,
+      "dividend_override_note": "カー用品販売大手。2025年4月1日付で1:2株式分割(基準日2025-03-31、決算期末ちょうど)を実施。分割処理はEPS・BPSは正確だったが、2026年3月期の配当フィールドのみ「heuristic_straddle」の影響で47.5円という誤った値が出ていた。WebSearchで確認した実績配当は中間29円+期末33円=62円であり、本エントリはこの補正値(47.5→62.00)を採用(2026-10-06検証)。会社発表の「2025年3月期配当100円(分割前)→分割調整後50円を基準に2026年3月期は実質16%増配」という説明とも整合。補正後の配当は15.0→16.5→18.0→23.0→27.0→29.0→31.0→33.0→50.0→62.0円と10期連続増配に該当(減配・無配とも0回)。2025年3月期のEPS・BPSの落ち込みは同時期の大規模自社株買い・消却(約683万株)の影響とみられるが、有価証券報告書での完全な裏付けは未確認。配当方針は配当性向45%目安・2026-2028年3年累計総還元性向100%以上を掲げるが、DOEや明確な累進配当の宣言は確認できず(2026-10-06 WebSearchで確認)。2027年3月期の会社予想配当は68円(2026-07-31開示)。2026-10-06一次スクリーニング：Step1は7/7全クリア。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：卸売業・利益比較的安定・配当変動大",
+        "target1_pct": 3.76,
+        "target2_pct": 3.88,
+        "target3_pct": 4.04,
+        "buy1_price": 1809,
+        "buy2_price": 1753,
+        "buy3_price": 1683,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 730,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 5,
+        "total_score": 6,
+        "payout_ratio_pct": 45.0,
+        "dividend_cagr_pct": 17.08,
+        "dividend_years_to_double": 4.4,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "10期連続増配を達成/宣言",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
+        ]
+      },
+      "expected_irr": {
+        "expected_irr_pct": 33.3,
+        "dividend_return_pct": 21.3,
+        "capital_return_pct": 12.0,
+        "dividend_yield_component_pct": 4.17,
+        "dividend_growth_component_pct": 17.08,
+        "eps_growth_component_pct": 9.58,
+        "valuation_reversion_component_pct": 2.45
+      },
+      "updated_at": "2026-10-06 14:24",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "9989",
+      "name": "サンドラッグ",
+      "industry": "小売業",
+      "sector": "小売",
+      "cycle": "ディフェンシブ",
+      "fiscal_year_end_month": 3,
+      "price": 3540.0,
+      "price_date": "2026-10-06 15:30",
+      "price_change": -29.0,
+      "price_change_pct": -0.008125525,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 12.878815440026194,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.4479652815556219,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 10.976185397953154,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 6.601823324675871,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.728813559322034,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 60.099999999999994,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 4141.1946246,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "×",
+            "detail": "1.36倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 2237.93,
+        "latest_bps": 2444.81,
+        "target_price": 4682.74
+      },
+      "forecast_dividend": 132.0,
+      "dividend_yield_pct": 3.728813559322034,
+      "dividend_override_note": "ドラッグストア大手。2017年4月1日付で1:2株式分割(基準日2017-03-31、決算期末ちょうど)を実施。EPS・BPSは会計基準上の遡及調整により分割の影響を受けず正確だが、2018年3月期の配当フィールドのみ「heuristic_straddle」の影響で46.5円という誤った値が出ていた(factor=1.0なのに調整されている矛盾を確認)。WebSearchで確認した実績配当(調整前)は60円であり、分割は既に前期末に効力発生済みのため追加調整は不要。本エントリはこの補正値(46.5→60.00)を採用(2026-10-06検証)。補正後は配当が全期増配(50.0→60.0→66.0→68.0→70.0→71.0→100.0→114.0→130.0→131.0円)で「10期連続増配」に該当(実際には25期連続増配の一部、2026-10-06 WebSearchで確認)。BPSも10期連続増加。EPSは9期前比1.36倍とやや緩やかな成長。配当方針は新中期経営計画で累進配当・配当性向50%目安を明示、DOEは5%台で推移(2026-10-06 WebSearchで確認)。2027年3月期の会社予想配当は132円(2026-08-14開示)。2026-10-06一次スクリーニング：Step1は5/7クリア(PER・PBRが未達)。",
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：小売業・利益比較的安定・減配なし・増配基調",
+        "target1_pct": 3.15,
+        "target2_pct": 3.4,
+        "target3_pct": 3.53,
+        "buy1_price": 4190,
+        "buy2_price": 3882,
+        "buy3_price": 3739,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 730,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 5,
+        "total_score": 7,
+        "payout_ratio_pct": 48.8,
+        "dividend_cagr_pct": 11.3,
+        "dividend_years_to_double": 6.5,
+        "growth_detail": [
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "10期連続増配・DOE宣言(5.0%以上)・累進配当宣言を達成/宣言",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配",
+          "DOE宣言(5.0%以上)",
+          "累進配当宣言"
+        ]
+      },
+      "expected_irr": {
+        "expected_irr_pct": 16.3,
+        "dividend_return_pct": 15.0,
+        "capital_return_pct": 1.3,
+        "dividend_yield_component_pct": 3.73,
+        "dividend_growth_component_pct": 11.3,
+        "eps_growth_component_pct": 3.48,
+        "valuation_reversion_component_pct": -2.21
+      },
+      "updated_at": "2026-10-06 14:24",
       "forecast_dividend_changes": []
     }
   ],
