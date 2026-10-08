@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08 07:42",
+  "generated_at": "2026-10-08 13:24",
   "stocks": [
     {
       "code": "8306",
@@ -3566,7 +3566,7 @@
             "judge": "○"
           },
           "配当利回り": {
-            "value": 47.288168307276585,
+            "value": 3.1519011773788836,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -3613,19 +3613,19 @@
         "latest_bps": 5313.33,
         "target_price": 7143.7
       },
-      "forecast_dividend": 245.0,
-      "dividend_yield_pct": 47.288168307276585,
-      "dividend_override_note": "J-Quants Freeは2026年2月開示(FY2026/3 第3四半期)止まりのため予想211円のまま。2026年3月期は実績218円で確定済み、2027年3月期の会社予想は245円(2026-07提供資料)。2026-08-09確認：「配当を株主還元の基本と位置付け、利益成長に応じて持続的に高める」累進配当を基本方針として明記(14期連続増配)。DOE数値目標は確認できず。",
+      "forecast_dividend": 16.33,
+      "dividend_yield_pct": 3.1519011773788836,
+      "dividend_override_note": "2026年8月25日発表、基準日2026年9月30日・効力発生日2026年10月1日で1:15株式分割を実施(同時に株主優待制度も新設)。J-Quants側の予想配当フィールド(NxFDivAnn)がこの分割を反映しておらず分割前の245円のままだったため、配当利回りが約47%という異常値になっていた(2026-10-08発見・修正)。WebSearchで確認した分割調整後の予想配当(期末122.5円→8.17円)に基づき、本エントリのcurrent_dividend_forecastを245→16.33円(=245÷15)に補正。なお同じくJ-Quants側のEPS予想・BPSも分割未調整のままのため、PER・PBR表示も同様に分割前基準で歪んでいる可能性が高い(現時点ではEPS/BPSの上書き機構が未実装のため未補正、次回本決算開示でのJ-Quants側反映を待つか、別途対応要)。「配当を株主還元の基本と位置付け、利益成長に応じて持続的に高める」累進配当を基本方針として明記(14期連続増配)。DOE数値目標は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：保険業・配当変動大",
         "target1_pct": 3.26,
         "target2_pct": 3.38,
         "target3_pct": 3.58,
-        "buy1_price": 7515,
-        "buy2_price": 7249,
-        "buy3_price": 6844,
-        "buy_status": "第3買い（本格購入）",
+        "buy1_price": 501,
+        "buy2_price": 483,
+        "buy3_price": 456,
+        "buy_status": "監視",
         "sample_daily": 731,
         "sample_annual": 10,
         "error": null
@@ -3652,16 +3652,22 @@
         ]
       },
       "expected_irr": {
-        "expected_irr_pct": 155.4,
-        "dividend_return_pct": 66.0,
+        "expected_irr_pct": 111.3,
+        "dividend_return_pct": 21.8,
         "capital_return_pct": 89.4,
-        "dividend_yield_component_pct": 47.29,
+        "dividend_yield_component_pct": 3.15,
         "dividend_growth_component_pct": 18.68,
         "eps_growth_component_pct": 9.72,
         "valuation_reversion_component_pct": 79.7
       },
-      "updated_at": "2026-10-08 07:14",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-08 13:24",
+      "forecast_dividend_changes": [
+        {
+          "date": "2026-10-08",
+          "from": 245.0,
+          "to": 16.33
+        }
+      ]
     },
     {
       "code": "4613",
