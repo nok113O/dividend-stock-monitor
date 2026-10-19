@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19 07:41",
+  "generated_at": "2026-10-19 15:16",
   "stocks": [
     {
       "code": "8306",
@@ -14070,6 +14070,144 @@
         "valuation_reversion_component_pct": 1.98
       },
       "updated_at": "2026-10-19 07:41",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "6432",
+      "name": "竹内製作所",
+      "industry": "機械",
+      "sector": "機械",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 2,
+      "price": 7790.0,
+      "price_date": "2026-10-19 15:30",
+      "price_change": 110.0,
+      "price_change_pct": 0.014322918,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 13.893595391392747,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.9249587332338318,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 15.169320090361285,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 13.005833532691707,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.1450577663671373,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 85.7,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 3598.7766031,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "○",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "3.78倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 3324.57,
+        "latest_bps": 4046.84,
+        "target_price": 7371.41
+      },
+      "forecast_dividend": 245.0,
+      "dividend_yield_pct": 3.1450577663671373,
+      "dividend_override_note": "建設機械(小型油圧ショベル等)メーカー、北米向け輸出比率が高い。分割調整なし(factor常に1.0)。10期連続増配(26→36→45→50→53→68→98→158→200→210円)、EPSは9期前比3.78倍、BPSも10期連続増加の優良増配株。配当方針は連結配当性向40%を目安に段階的に引き上げ(2023年2月期時点は30%目安だったが2026年2月期決算時に40%へ引き上げ)。2026-10-13発表の2027年2月期第2四半期決算短信で通期配当予想を220円→245円(中間110円・確定済み+期末135円予想)に上方修正、同時に通期経常利益も13%増益・最高益に上方修正し150億円の自社株買いも発表(2026-10-19 WebSearchで確認)。EDINET DBの「直近開示の予想配当」フィールドは四半期報告の仕様上、期末配当のみ(135円)を指すため、本エントリのcurrent_dividend_forecastは中間実績+期末予想の合計245円を採用(135円のまま登録すると大きく過小評価するため注意)。2026-10-19一次スクリーニング：Step1は5/7クリア(PER・PBRのみ未達)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：機械・配当変動大",
+        "target1_pct": 3.99,
+        "target2_pct": 4.37,
+        "target3_pct": 4.49,
+        "buy1_price": 6140,
+        "buy2_price": 5606,
+        "buy3_price": 5457,
+        "buy_status": "監視",
+        "sample_daily": 731,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。",
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 5,
+        "total_score": 8,
+        "payout_ratio_pct": 34.300000000000004,
+        "dividend_cagr_pct": 26.13,
+        "dividend_years_to_double": 3.0,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "10期連続増配・累進配当宣言を達成/宣言",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配",
+          "累進配当宣言"
+        ]
+      },
+      "expected_irr": {
+        "expected_irr_pct": 38.7,
+        "dividend_return_pct": 29.3,
+        "capital_return_pct": 9.4,
+        "dividend_yield_component_pct": 3.15,
+        "dividend_growth_component_pct": 26.13,
+        "eps_growth_component_pct": 15.91,
+        "valuation_reversion_component_pct": -6.47
+      },
+      "updated_at": "2026-10-19 15:16",
       "forecast_dividend_changes": []
     }
   ],
