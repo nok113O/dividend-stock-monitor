@@ -33,9 +33,10 @@ sys.path.insert(0, str(ROOT))
 import pandas as pd  # noqa: E402
 
 from analyzer import (  # noqa: E402
-    analyze_step1, analyze_step2, calculate_expected_irr, calculate_priority_score,
-    calculate_step3, latest_fy_summaries, latest_summary, make_comment, merge_new_fy,
-    overall_rating, step1_metrics,
+    analyze_step1, analyze_step2, calculate_equity_ratio_trend, calculate_expected_irr,
+    calculate_forecast_tendency, calculate_priority_score, calculate_step3,
+    calculate_valuation_range, latest_fy_summaries, latest_summary, make_comment,
+    merge_new_fy, overall_rating, step1_metrics,
 )
 from edinetdb_client import EdinetDbClient, EdinetDbError  # noqa: E402
 from jquants_client import JQuantsClient, JQuantsError  # noqa: E402
@@ -85,20 +86,27 @@ def load_edinet_codes() -> dict[str, str]:
     return json.loads(EDINET_CODES_FILE.read_text(encoding="utf-8"))
 
 
-def fetch_recent_edinet_earnings(codes: list[str], force: bool = False) -> dict[str, dict]:
-    """直近の決算短信カレンダーを見て、開示があったウォッチリスト銘柄だけ最新開示を取得する。
+def fetch_recent_edinet_earnings(
+    codes: list[str], force: bool = False
+) -> tuple[dict[str, dict], dict[str, list[dict]]]:
+    """直近の決算短信カレンダーを見て、開示があったウォッチリスト銘柄だけ最新開示と
+    有報5期分の時系列(期末PER・自己資本比率等)を取得する。
 
     データ出典: EDINET DB (https://edinetdb.jp)
     無料プラン(100回/日)を守るため、カレンダー参照1回+該当銘柄分のみリクエストする。
     さらに、同じ日にfetch.pyを複数回実行しても日次上限を圧迫しないよう、
     その日すでにEDINET DBへ問い合わせ済みなら2回目以降はスキップする(force=Trueで無視可能)。
+
+    期末PER・自己資本比率5期推移(valuation_range/equity_ratio_trend)は、このEDINET
+    取得が走った(=決算発表があった)銘柄だけ再計算し、それ以外は前回値を保持する
+    (fetch_one呼び出し側で前回値を引き継ぐ)。
     """
     api_key = os.environ.get("EDINETDB_API_KEY", "")
     if not api_key:
-        return {}
+        return {}, {}
     edinet_codes = load_edinet_codes()
     if not edinet_codes:
-        return {}
+        return {}, {}
 
     today_str = date.today().strftime("%Y-%m-%d")
     if not force and EDINET_LAST_RUN_FILE.exists():
@@ -108,7 +116,7 @@ def fetch_recent_edinet_earnings(codes: list[str], force: bool = False) -> dict[
                 f"EDINET DB: 本日({today_str})は実行済みのためスキップします"
                 "(--force-edinet で強制実行可)。"
             )
-            return {}
+            return {}, {}
 
     client = EdinetDbClient(api_key)
     today = date.today()
@@ -120,7 +128,7 @@ def fetch_recent_edinet_earnings(codes: list[str], force: bool = False) -> dict[
         calendar_entries = client.calendar(date_from, date_to)
     except EdinetDbError as exc:
         print(f"EDINET DBカレンダー取得エラー(スキップ): {exc}")
-        return {}
+        return {}, {}
 
     edinet_to_code = {v: k for k, v in edinet_codes.items()}
     our_codes = set(codes)
@@ -130,7 +138,8 @@ def fetch_recent_edinet_earnings(codes: list[str], force: bool = False) -> dict[
         if entry.get("edinetCode") in edinet_to_code and edinet_to_code[entry.get("edinetCode")] in our_codes
     }
 
-    results: dict[str, dict] = {}
+    earnings_results: dict[str, dict] = {}
+    financials_results: dict[str, list[dict]] = {}
     for code in sorted(hit_codes):
         edinet_code = edinet_codes[code]
         try:
@@ -139,13 +148,22 @@ def fetch_recent_edinet_earnings(codes: list[str], force: bool = False) -> dict[
             print(f"  {code}: EDINET DB決算短信取得エラー(スキップ): {exc}")
             continue
         if earnings:
-            results[code] = earnings[0]
+            earnings_results[code] = earnings[0]
+        try:
+            financials_results[code] = client.financials(edinet_code, years=5)
+        except EdinetDbError as exc:
+            print(f"  {code}: EDINET DB有報時系列取得エラー(スキップ): {exc}")
     if hit_codes:
         print(f"EDINET DB: 直近{EDINET_CALENDAR_LOOKBACK_DAYS}日で開示があった対象銘柄 {sorted(hit_codes)}")
-    return results
+    return earnings_results, financials_results
 
 
-def fetch_one(client: JQuantsClient, code: str, edinet_latest: dict | None = None) -> dict:
+def fetch_one(
+    client: JQuantsClient,
+    code: str,
+    edinet_latest: dict | None = None,
+    edinet_financials: list[dict] | None = None,
+) -> dict:
     master = client.master(code)
     market = current_market_data(code)
     summaries = client.financial_summary(code)
@@ -203,6 +221,15 @@ def fetch_one(client: JQuantsClient, code: str, edinet_latest: dict | None = Non
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     history = merge_new_fy(seed_history_df(code, seed), code, summaries, now)
+
+    forecast_tendency = calculate_forecast_tendency(fy_summaries)
+    valuation_range = None
+    equity_ratio_trend = None
+    if edinet_financials is not None:
+        valuation_range = calculate_valuation_range(
+            edinet_financials, metrics.get("予想EPS"), metrics.get("予想年間配当")
+        )
+        equity_ratio_trend = calculate_equity_ratio_trend(edinet_financials)
 
     sector, cycle = classify(master.get("S33Nm"))
     step1 = analyze_step1(metrics, sector)
@@ -307,6 +334,9 @@ def fetch_one(client: JQuantsClient, code: str, edinet_latest: dict | None = Non
             "dividend_quality_badges": priority["dividend_quality_badges"],
         },
         "expected_irr": expected_irr,
+        "forecast_tendency": forecast_tendency,
+        "valuation_range": valuation_range,
+        "equity_ratio_trend": equity_ratio_trend,
         "updated_at": now,
         "_edinet_disclosure_date": edinet_disclosure_date,
     }
@@ -361,7 +391,9 @@ def main() -> None:
 
     client = JQuantsClient(api_key, min_interval_seconds=1.5)
     previous = load_previous_stocks()
-    edinet_latest_by_code = fetch_recent_edinet_earnings(target_codes, force=force_edinet)
+    edinet_latest_by_code, edinet_financials_by_code = fetch_recent_edinet_earnings(
+        target_codes, force=force_edinet
+    )
 
     fresh: dict[str, dict] = {}
     errors = []
@@ -369,11 +401,19 @@ def main() -> None:
         if i > 0:
             time.sleep(2)
         try:
-            result = fetch_one(client, code, edinet_latest_by_code.get(code))
+            result = fetch_one(
+                client, code, edinet_latest_by_code.get(code), edinet_financials_by_code.get(code)
+            )
             disclosure_date = result.pop("_edinet_disclosure_date", None)
             result["forecast_dividend_changes"] = diff_forecast_changes(
                 code, result.get("forecast_dividend"), previous, disclosure_date
             )
+            # 期末PERレンジ・自己資本比率推移は、今回EDINETの有報時系列を再取得できた
+            # 銘柄だけ新しい値が入る。再取得していない銘柄は前回値を引き継ぐ。
+            if code not in edinet_financials_by_code:
+                prev_stock = previous.get(code) or {}
+                result["valuation_range"] = prev_stock.get("valuation_range")
+                result["equity_ratio_trend"] = prev_stock.get("equity_ratio_trend")
             fresh[code] = result
         except JQuantsError as exc:
             errors.append({"code": code, "error": str(exc)})

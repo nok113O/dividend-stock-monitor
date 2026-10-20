@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20 07:43",
+  "generated_at": "2026-10-20 16:15",
   "stocks": [
     {
       "code": "8306",
@@ -131,7 +131,23 @@
         "eps_growth_component_pct": 13.48,
         "valuation_reversion_component_pct": -6.49
       },
-      "updated_at": "2026-10-20 07:07",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:39",
       "forecast_dividend_changes": []
     },
     {
@@ -267,7 +283,23 @@
         "eps_growth_component_pct": 5.77,
         "valuation_reversion_component_pct": -9.68
       },
-      "updated_at": "2026-10-20 07:07",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 95.9,
+          "latest_forecast_growth_pct": 105.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "要確認",
+          "achievement_avg_pct": 94.5,
+          "latest_forecast_growth_pct": null,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:39",
       "forecast_dividend_changes": []
     },
     {
@@ -403,7 +435,23 @@
         "eps_growth_component_pct": 10.76,
         "valuation_reversion_component_pct": 6.95
       },
-      "updated_at": "2026-10-20 07:07",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 98.6,
+          "latest_forecast_growth_pct": 104.7,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 102.5,
+          "latest_forecast_growth_pct": 101.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:39",
       "forecast_dividend_changes": []
     },
     {
@@ -539,7 +587,23 @@
         "eps_growth_component_pct": 7.36,
         "valuation_reversion_component_pct": -3.0
       },
-      "updated_at": "2026-10-20 07:07",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 101.0,
+          "latest_forecast_growth_pct": 113.9,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 173.8,
+          "latest_forecast_growth_pct": 90.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:39",
       "forecast_dividend_changes": []
     },
     {
@@ -675,7 +739,23 @@
         "eps_growth_component_pct": 12.7,
         "valuation_reversion_component_pct": -2.6
       },
-      "updated_at": "2026-10-20 07:07",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 88.2,
+          "latest_forecast_growth_pct": 83.2,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:41",
       "forecast_dividend_changes": []
     },
     {
@@ -767,12 +847,12 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・配当変動大",
-        "target1_pct": 4.15,
-        "target2_pct": 4.56,
-        "target3_pct": 4.68,
-        "buy1_price": 880,
-        "buy2_price": 800,
-        "buy3_price": 780,
+        "target1_pct": 4.13,
+        "target2_pct": 4.55,
+        "target3_pct": 4.67,
+        "buy1_price": 884,
+        "buy2_price": 802,
+        "buy3_price": 782,
         "buy_status": "監視",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -813,7 +893,23 @@
         "eps_growth_component_pct": 9.34,
         "valuation_reversion_component_pct": 34.06
       },
-      "updated_at": "2026-10-20 07:09",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 109.2,
+          "latest_forecast_growth_pct": 99.1,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 131.4,
+          "latest_forecast_growth_pct": 94.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:41",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -954,7 +1050,23 @@
         "eps_growth_component_pct": 6.94,
         "valuation_reversion_component_pct": 7.77
       },
-      "updated_at": "2026-10-20 07:09",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 100.5,
+          "latest_forecast_growth_pct": 102.5,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 86.6,
+          "latest_forecast_growth_pct": 69.1,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:41",
       "forecast_dividend_changes": []
     },
     {
@@ -1090,7 +1202,23 @@
         "eps_growth_component_pct": 9.18,
         "valuation_reversion_component_pct": 4.52
       },
-      "updated_at": "2026-10-20 07:09",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 119.7,
+          "latest_forecast_growth_pct": 110.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:41",
       "forecast_dividend_changes": []
     },
     {
@@ -1225,7 +1353,23 @@
         "eps_growth_component_pct": 34.48,
         "valuation_reversion_component_pct": -4.13
       },
-      "updated_at": "2026-10-20 07:09",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 107.9,
+          "latest_forecast_growth_pct": 104.1,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 117.2,
+          "latest_forecast_growth_pct": 100.9,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:41",
       "forecast_dividend_changes": []
     },
     {
@@ -1357,7 +1501,23 @@
         "eps_growth_component_pct": 15.66,
         "valuation_reversion_component_pct": 0.59
       },
-      "updated_at": "2026-10-20 07:09",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 96.9,
+          "latest_forecast_growth_pct": 104.8,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 106.6,
+          "latest_forecast_growth_pct": 100.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:42",
       "forecast_dividend_changes": []
     },
     {
@@ -1494,7 +1654,23 @@
         "eps_growth_component_pct": 11.32,
         "valuation_reversion_component_pct": 8.25
       },
-      "updated_at": "2026-10-20 07:10",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 103.0,
+          "latest_forecast_growth_pct": 105.8,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 106.0,
+          "latest_forecast_growth_pct": 114.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:42",
       "forecast_dividend_changes": []
     },
     {
@@ -1628,7 +1804,23 @@
         "eps_growth_component_pct": 29.81,
         "valuation_reversion_component_pct": -8.9
       },
-      "updated_at": "2026-10-20 07:10",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 94.9,
+          "latest_forecast_growth_pct": 94.1,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 119.3,
+          "latest_forecast_growth_pct": 83.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:42",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-07",
@@ -1731,12 +1923,12 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：機械・利益比較的安定・配当変動大",
-        "target1_pct": 3.85,
+        "target1_pct": 3.84,
         "target2_pct": 3.96,
-        "target3_pct": 4.17,
-        "buy1_price": 1974,
+        "target3_pct": 4.15,
+        "buy1_price": 1979,
         "buy2_price": 1919,
-        "buy3_price": 1823,
+        "buy3_price": 1831,
         "buy_status": "第2買い（追加買い）",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -1775,7 +1967,23 @@
         "eps_growth_component_pct": 6.99,
         "valuation_reversion_component_pct": 9.72
       },
-      "updated_at": "2026-10-20 07:10",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 96.4,
+          "latest_forecast_growth_pct": 105.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 87.7,
+          "latest_forecast_growth_pct": 114.0,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:43",
       "forecast_dividend_changes": []
     },
     {
@@ -1910,7 +2118,23 @@
         "eps_growth_component_pct": 4.72,
         "valuation_reversion_component_pct": 17.84
       },
-      "updated_at": "2026-10-20 07:11",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 91.0,
+          "latest_forecast_growth_pct": 109.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 120.9,
+          "latest_forecast_growth_pct": 102.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:44",
       "forecast_dividend_changes": []
     },
     {
@@ -2044,7 +2268,23 @@
         "eps_growth_component_pct": 6.66,
         "valuation_reversion_component_pct": 0.05
       },
-      "updated_at": "2026-10-20 07:11",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 103.1,
+          "latest_forecast_growth_pct": 107.8,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 141.6,
+          "latest_forecast_growth_pct": 90.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:44",
       "forecast_dividend_changes": []
     },
     {
@@ -2182,7 +2422,23 @@
         "eps_growth_component_pct": 12.3,
         "valuation_reversion_component_pct": 0.25
       },
-      "updated_at": "2026-10-20 07:12",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 105.9,
+          "latest_forecast_growth_pct": 105.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:44",
       "forecast_dividend_changes": []
     },
     {
@@ -2274,10 +2530,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：不動産業・減配1回",
-        "target1_pct": 4.53,
+        "target1_pct": 4.52,
         "target2_pct": 4.64,
         "target3_pct": 4.85,
-        "buy1_price": 2870,
+        "buy1_price": 2876,
         "buy2_price": 2802,
         "buy3_price": 2680,
         "buy_status": "第2買い（追加買い）",
@@ -2317,7 +2573,23 @@
         "eps_growth_component_pct": -0.3,
         "valuation_reversion_component_pct": 9.68
       },
-      "updated_at": "2026-10-20 07:12",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 109.0,
+          "latest_forecast_growth_pct": 131.0,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 120.8,
+          "latest_forecast_growth_pct": 108.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:44",
       "forecast_dividend_changes": []
     },
     {
@@ -2451,7 +2723,23 @@
         "eps_growth_component_pct": 5.7,
         "valuation_reversion_component_pct": 7.23
       },
-      "updated_at": "2026-10-20 07:12",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 101.2,
+          "latest_forecast_growth_pct": 105.9,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 95.1,
+          "latest_forecast_growth_pct": 101.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:45",
       "forecast_dividend_changes": []
     },
     {
@@ -2543,12 +2831,12 @@
       "target_yield": {
         "cycle_class": "非景気敏感株",
         "reason": "業種：医薬品・配当変動大",
-        "target1_pct": 2.12,
+        "target1_pct": 2.1,
         "target2_pct": 2.74,
-        "target3_pct": 3.03,
-        "buy1_price": 4717,
+        "target3_pct": 3.02,
+        "buy1_price": 4762,
         "buy2_price": 3650,
-        "buy3_price": 3300,
+        "buy3_price": 3311,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -2586,7 +2874,23 @@
         "eps_growth_component_pct": 20.34,
         "valuation_reversion_component_pct": -15.56
       },
-      "updated_at": "2026-10-20 07:13",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 106.2,
+          "latest_forecast_growth_pct": 107.4,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 86.6,
+          "latest_forecast_growth_pct": 100.0,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:45",
       "forecast_dividend_changes": []
     },
     {
@@ -2680,10 +2984,10 @@
         "reason": "業種：医薬品・利益比較的安定・減配なし・増配基調",
         "target1_pct": 3.8,
         "target2_pct": 3.9,
-        "target3_pct": 4.02,
+        "target3_pct": 4.01,
         "buy1_price": 4158,
         "buy2_price": 4051,
-        "buy3_price": 3930,
+        "buy3_price": 3940,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -2722,7 +3026,23 @@
         "eps_growth_component_pct": 8.58,
         "valuation_reversion_component_pct": 6.35
       },
-      "updated_at": "2026-10-20 07:13",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 102.5,
+          "latest_forecast_growth_pct": 110.9,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 122.2,
+          "latest_forecast_growth_pct": 93.2,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:45",
       "forecast_dividend_changes": []
     },
     {
@@ -2857,7 +3177,23 @@
         "eps_growth_component_pct": 9.58,
         "valuation_reversion_component_pct": -7.32
       },
-      "updated_at": "2026-10-20 07:13",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 114.4,
+          "latest_forecast_growth_pct": 137.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:46",
       "forecast_dividend_changes": []
     },
     {
@@ -2993,7 +3329,23 @@
         "eps_growth_component_pct": 6.41,
         "valuation_reversion_component_pct": -4.18
       },
-      "updated_at": "2026-10-20 07:14",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 95.0,
+          "latest_forecast_growth_pct": 111.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 101.3,
+          "latest_forecast_growth_pct": 100.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:46",
       "forecast_dividend_changes": []
     },
     {
@@ -3126,7 +3478,23 @@
         "eps_growth_component_pct": 10.34,
         "valuation_reversion_component_pct": 2.87
       },
-      "updated_at": "2026-10-20 07:14",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 104.5,
+          "latest_forecast_growth_pct": 100.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 124.1,
+          "latest_forecast_growth_pct": 78.0,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:46",
       "forecast_dividend_changes": []
     },
     {
@@ -3261,7 +3629,23 @@
         "eps_growth_component_pct": 7.33,
         "valuation_reversion_component_pct": 4.58
       },
-      "updated_at": "2026-10-20 07:14",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 101.4,
+          "latest_forecast_growth_pct": 98.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:47",
       "forecast_dividend_changes": []
     },
     {
@@ -3353,10 +3737,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他金融業・配当変動大",
-        "target1_pct": 3.32,
+        "target1_pct": 3.31,
         "target2_pct": 3.48,
         "target3_pct": 3.57,
-        "buy1_price": 1491,
+        "buy1_price": 1495,
         "buy2_price": 1422,
         "buy3_price": 1387,
         "buy_status": "第3買い（本格購入）",
@@ -3398,7 +3782,23 @@
         "eps_growth_component_pct": 14.53,
         "valuation_reversion_component_pct": -11.62
       },
-      "updated_at": "2026-10-20 07:14",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 102.4,
+          "latest_forecast_growth_pct": 115.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 112.5,
+          "latest_forecast_growth_pct": 105.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:47",
       "forecast_dividend_changes": []
     },
     {
@@ -3533,7 +3933,23 @@
         "eps_growth_component_pct": 5.45,
         "valuation_reversion_component_pct": -4.04
       },
-      "updated_at": "2026-10-20 07:16",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 101.5,
+          "latest_forecast_growth_pct": 104.5,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 99.7,
+          "latest_forecast_growth_pct": 94.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:48",
       "forecast_dividend_changes": []
     },
     {
@@ -3627,10 +4043,10 @@
         "reason": "業種：保険業・配当変動大",
         "target1_pct": 3.28,
         "target2_pct": 3.39,
-        "target3_pct": 3.75,
+        "target3_pct": 3.67,
         "buy1_price": 498,
         "buy2_price": 482,
-        "buy3_price": 435,
+        "buy3_price": 445,
         "buy_status": "監視",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -3666,7 +4082,23 @@
         "eps_growth_component_pct": 9.72,
         "valuation_reversion_component_pct": 77.5
       },
-      "updated_at": "2026-10-20 07:16",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 57.1,
+          "latest_forecast_growth_pct": 156.2,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:48",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -3804,7 +4236,23 @@
         "eps_growth_component_pct": 7.57,
         "valuation_reversion_component_pct": -8.56
       },
-      "updated_at": "2026-10-20 07:16",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 98.3,
+          "latest_forecast_growth_pct": 103.4,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 87.9,
+          "latest_forecast_growth_pct": 85.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:48",
       "forecast_dividend_changes": []
     },
     {
@@ -3898,10 +4346,10 @@
         "reason": "業種：小売業・配当変動大",
         "target1_pct": 4.33,
         "target2_pct": 4.41,
-        "target3_pct": 4.69,
+        "target3_pct": 4.68,
         "buy1_price": 3095,
         "buy2_price": 3039,
-        "buy3_price": 2857,
+        "buy3_price": 2863,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -3940,7 +4388,23 @@
         "eps_growth_component_pct": 7.85,
         "valuation_reversion_component_pct": -9.62
       },
-      "updated_at": "2026-10-20 07:16",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 101.6,
+          "latest_forecast_growth_pct": 106.9,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 101.7,
+          "latest_forecast_growth_pct": 103.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:49",
       "forecast_dividend_changes": []
     },
     {
@@ -4033,10 +4497,10 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：その他製品・利益比較的安定・配当変動大",
         "target1_pct": 3.91,
-        "target2_pct": 4.19,
+        "target2_pct": 4.18,
         "target3_pct": 4.36,
         "buy1_price": 3171,
-        "buy2_price": 2959,
+        "buy2_price": 2967,
         "buy3_price": 2844,
         "buy_status": "第1買い（打診買い）",
         "sample_daily": 730,
@@ -4072,7 +4536,23 @@
         "eps_growth_component_pct": 7.68,
         "valuation_reversion_component_pct": 3.52
       },
-      "updated_at": "2026-10-20 07:16",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 102.3,
+          "latest_forecast_growth_pct": 102.9,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 117.8,
+          "latest_forecast_growth_pct": 102.2,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:49",
       "forecast_dividend_changes": []
     },
     {
@@ -4207,7 +4687,23 @@
         "eps_growth_component_pct": 10.84,
         "valuation_reversion_component_pct": 8.81
       },
-      "updated_at": "2026-10-20 07:17",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 97.7,
+          "latest_forecast_growth_pct": 105.5,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 112.7,
+          "latest_forecast_growth_pct": 101.7,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:49",
       "forecast_dividend_changes": []
     },
     {
@@ -4344,7 +4840,23 @@
         "eps_growth_component_pct": 8.25,
         "valuation_reversion_component_pct": 5.01
       },
-      "updated_at": "2026-10-20 07:17",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 93.3,
+          "latest_forecast_growth_pct": 103.7,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 100.0,
+          "latest_forecast_growth_pct": 93.9,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:49",
       "forecast_dividend_changes": []
     },
     {
@@ -4438,10 +4950,10 @@
         "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 3.67,
         "target2_pct": 3.87,
-        "target3_pct": 4.18,
+        "target3_pct": 4.16,
         "buy1_price": 2398,
         "buy2_price": 2274,
-        "buy3_price": 2105,
+        "buy3_price": 2115,
         "buy_status": "第1買い（打診買い）",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -4481,7 +4993,23 @@
         "eps_growth_component_pct": 7.16,
         "valuation_reversion_component_pct": 13.44
       },
-      "updated_at": "2026-10-20 07:17",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 99.6,
+          "latest_forecast_growth_pct": 104.0,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 128.4,
+          "latest_forecast_growth_pct": 64.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:51",
       "forecast_dividend_changes": []
     },
     {
@@ -4615,7 +5143,23 @@
         "eps_growth_component_pct": 0.01,
         "valuation_reversion_component_pct": -1.01
       },
-      "updated_at": "2026-10-20 07:18",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 93.9,
+          "latest_forecast_growth_pct": 109.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 80.4,
+          "latest_forecast_growth_pct": 83.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:51",
       "forecast_dividend_changes": []
     },
     {
@@ -4751,7 +5295,23 @@
         "eps_growth_component_pct": 6.18,
         "valuation_reversion_component_pct": -3.68
       },
-      "updated_at": "2026-10-20 07:18",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 99.2,
+          "latest_forecast_growth_pct": 103.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 104.2,
+          "latest_forecast_growth_pct": 100.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:51",
       "forecast_dividend_changes": []
     },
     {
@@ -4844,10 +5404,10 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：金属製品・利益比較的安定・配当変動大",
         "target1_pct": 4.23,
-        "target2_pct": 4.32,
+        "target2_pct": 4.31,
         "target3_pct": 4.38,
         "buy1_price": 3073,
-        "buy2_price": 3009,
+        "buy2_price": 3016,
         "buy3_price": 2968,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 730,
@@ -4888,7 +5448,23 @@
         "eps_growth_component_pct": 8.71,
         "valuation_reversion_component_pct": 3.7
       },
-      "updated_at": "2026-10-20 07:19",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 88.8,
+          "latest_forecast_growth_pct": 137.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 107.2,
+          "latest_forecast_growth_pct": 94.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:51",
       "forecast_dividend_changes": []
     },
     {
@@ -5022,7 +5598,23 @@
         "eps_growth_component_pct": 0.9,
         "valuation_reversion_component_pct": 12.33
       },
-      "updated_at": "2026-10-20 07:19",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 46.9,
+          "latest_forecast_growth_pct": 222.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:51",
       "forecast_dividend_changes": []
     },
     {
@@ -5115,10 +5707,10 @@
         "cycle_class": "非景気敏感株",
         "reason": "業種：金属製品・減配なし・増配基調",
         "target1_pct": 4.19,
-        "target2_pct": 4.28,
+        "target2_pct": 4.27,
         "target3_pct": 4.5,
         "buy1_price": 1432,
-        "buy2_price": 1402,
+        "buy2_price": 1405,
         "buy3_price": 1333,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 730,
@@ -5152,7 +5744,23 @@
         "eps_growth_component_pct": 5.06,
         "valuation_reversion_component_pct": 28.56
       },
-      "updated_at": "2026-10-20 07:19",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 103.1,
+          "latest_forecast_growth_pct": 100.1,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 101.9,
+          "latest_forecast_growth_pct": 96.0,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:52",
       "forecast_dividend_changes": []
     },
     {
@@ -5246,10 +5854,10 @@
         "reason": "業種：不動産業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 4.21,
         "target2_pct": 4.35,
-        "target3_pct": 4.49,
+        "target3_pct": 4.48,
         "buy1_price": 1045,
         "buy2_price": 1011,
-        "buy3_price": 980,
+        "buy3_price": 982,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -5289,7 +5897,23 @@
         "eps_growth_component_pct": 7.84,
         "valuation_reversion_component_pct": 8.81
       },
-      "updated_at": "2026-10-20 07:20",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 100.3,
+          "latest_forecast_growth_pct": 114.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 110.5,
+          "latest_forecast_growth_pct": 103.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:52",
       "forecast_dividend_changes": []
     },
     {
@@ -5424,7 +6048,23 @@
         "eps_growth_component_pct": 10.09,
         "valuation_reversion_component_pct": -3.51
       },
-      "updated_at": "2026-10-20 07:20",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 104.5,
+          "latest_forecast_growth_pct": 103.5,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 119.3,
+          "latest_forecast_growth_pct": 87.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:52",
       "forecast_dividend_changes": []
     },
     {
@@ -5558,7 +6198,23 @@
         "eps_growth_component_pct": 6.04,
         "valuation_reversion_component_pct": 8.02
       },
-      "updated_at": "2026-10-20 07:20",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 99.0,
+          "latest_forecast_growth_pct": 101.0,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 93.9,
+          "latest_forecast_growth_pct": 101.7,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:53",
       "forecast_dividend_changes": []
     },
     {
@@ -5694,7 +6350,23 @@
         "eps_growth_component_pct": 8.63,
         "valuation_reversion_component_pct": -5.18
       },
-      "updated_at": "2026-10-20 07:21",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 132.8,
+          "latest_forecast_growth_pct": 104.1,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:53",
       "forecast_dividend_changes": []
     },
     {
@@ -5830,7 +6502,23 @@
         "eps_growth_component_pct": 13.23,
         "valuation_reversion_component_pct": -13.37
       },
-      "updated_at": "2026-10-20 07:21",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:54",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-16",
@@ -5974,7 +6662,23 @@
         "eps_growth_component_pct": 14.69,
         "valuation_reversion_component_pct": -12.06
       },
-      "updated_at": "2026-10-20 07:21",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 109.0,
+          "latest_forecast_growth_pct": 108.0,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:54",
       "forecast_dividend_changes": []
     },
     {
@@ -6066,12 +6770,12 @@
       "target_yield": {
         "cycle_class": "非景気敏感株",
         "reason": "業種：ガラス･土石製品・減配なし・増配基調",
-        "target1_pct": 2.29,
-        "target2_pct": 2.42,
-        "target3_pct": 2.92,
-        "buy1_price": 2838,
-        "buy2_price": 2686,
-        "buy3_price": 2226,
+        "target1_pct": 2.3,
+        "target2_pct": 2.43,
+        "target3_pct": 2.97,
+        "buy1_price": 2826,
+        "buy2_price": 2675,
+        "buy3_price": 2189,
         "buy_status": "監視",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -6113,7 +6817,23 @@
         "eps_growth_component_pct": 10.59,
         "valuation_reversion_component_pct": -14.64
       },
-      "updated_at": "2026-10-20 07:21",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 98.0,
+          "latest_forecast_growth_pct": 107.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 121.7,
+          "latest_forecast_growth_pct": 101.2,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:54",
       "forecast_dividend_changes": []
     },
     {
@@ -6248,7 +6968,23 @@
         "eps_growth_component_pct": 15.62,
         "valuation_reversion_component_pct": -5.79
       },
-      "updated_at": "2026-10-20 07:22",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 106.6,
+          "latest_forecast_growth_pct": 106.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:55",
       "forecast_dividend_changes": []
     },
     {
@@ -6386,7 +7122,23 @@
         "eps_growth_component_pct": 12.39,
         "valuation_reversion_component_pct": -11.31
       },
-      "updated_at": "2026-10-20 07:23",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 100.0,
+          "latest_forecast_growth_pct": 105.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:55",
       "forecast_dividend_changes": []
     },
     {
@@ -6478,11 +7230,11 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：化学・赤字1期・減配なし・増配基調",
-        "target1_pct": 3.6,
-        "target2_pct": 3.79,
+        "target1_pct": 3.61,
+        "target2_pct": 3.8,
         "target3_pct": 3.95,
-        "buy1_price": 1222,
-        "buy2_price": 1161,
+        "buy1_price": 1219,
+        "buy2_price": 1158,
         "buy3_price": 1114,
         "buy_status": "監視",
         "sample_daily": 730,
@@ -6520,7 +7272,23 @@
         "eps_growth_component_pct": 3.98,
         "valuation_reversion_component_pct": 1.78
       },
-      "updated_at": "2026-10-20 07:23",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 98.6,
+          "latest_forecast_growth_pct": 105.8,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 127.0,
+          "latest_forecast_growth_pct": 100.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:55",
       "forecast_dividend_changes": []
     },
     {
@@ -6657,7 +7425,23 @@
         "eps_growth_component_pct": 10.2,
         "valuation_reversion_component_pct": -6.58
       },
-      "updated_at": "2026-10-20 07:23",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 101.7,
+          "latest_forecast_growth_pct": 106.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 117.1,
+          "latest_forecast_growth_pct": 104.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:56",
       "forecast_dividend_changes": []
     },
     {
@@ -6749,10 +7533,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：化学・赤字1期・減配なし・増配基調",
-        "target1_pct": 3.76,
+        "target1_pct": 3.77,
         "target2_pct": 4.28,
         "target3_pct": 4.43,
-        "buy1_price": 2926,
+        "buy1_price": 2918,
         "buy2_price": 2570,
         "buy3_price": 2483,
         "buy_status": "監視",
@@ -6790,7 +7574,23 @@
         "eps_growth_component_pct": null,
         "valuation_reversion_component_pct": -0.35
       },
-      "updated_at": "2026-10-20 07:24",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 101.1,
+          "latest_forecast_growth_pct": 113.8,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "要確認",
+          "achievement_avg_pct": -112.0,
+          "latest_forecast_growth_pct": null,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:56",
       "forecast_dividend_changes": []
     },
     {
@@ -6925,7 +7725,23 @@
         "eps_growth_component_pct": 12.33,
         "valuation_reversion_component_pct": 21.29
       },
-      "updated_at": "2026-10-20 07:24",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 113.4,
+          "latest_forecast_growth_pct": 119.7,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:56",
       "forecast_dividend_changes": []
     },
     {
@@ -7058,7 +7874,23 @@
         "eps_growth_component_pct": 14.11,
         "valuation_reversion_component_pct": 3.33
       },
-      "updated_at": "2026-10-20 07:24",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 97.2,
+          "latest_forecast_growth_pct": 109.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 110.9,
+          "latest_forecast_growth_pct": 109.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:56",
       "forecast_dividend_changes": []
     },
     {
@@ -7151,10 +7983,10 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：銀行業・減配なし・増配基調",
         "target1_pct": 3.5,
-        "target2_pct": 3.69,
+        "target2_pct": 3.67,
         "target3_pct": 3.91,
         "buy1_price": 2571,
-        "buy2_price": 2439,
+        "buy2_price": 2452,
         "buy3_price": 2302,
         "buy_status": "監視",
         "sample_daily": 730,
@@ -7194,7 +8026,23 @@
         "eps_growth_component_pct": 10.19,
         "valuation_reversion_component_pct": 5.21
       },
-      "updated_at": "2026-10-20 07:24",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 121.8,
+          "latest_forecast_growth_pct": 107.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:58",
       "forecast_dividend_changes": []
     },
     {
@@ -7330,7 +8178,23 @@
         "eps_growth_component_pct": 7.5,
         "valuation_reversion_component_pct": -3.13
       },
-      "updated_at": "2026-10-20 07:25",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 117.7,
+          "latest_forecast_growth_pct": 118.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:58",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-03",
@@ -7473,7 +8337,23 @@
         "eps_growth_component_pct": 16.45,
         "valuation_reversion_component_pct": -3.58
       },
-      "updated_at": "2026-10-20 07:26",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 104.2,
+          "latest_forecast_growth_pct": 107.1,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 107.2,
+          "latest_forecast_growth_pct": 98.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:58",
       "forecast_dividend_changes": []
     },
     {
@@ -7609,7 +8489,23 @@
         "eps_growth_component_pct": 10.71,
         "valuation_reversion_component_pct": -5.23
       },
-      "updated_at": "2026-10-20 07:26",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 104.9,
+          "latest_forecast_growth_pct": 106.9,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 117.3,
+          "latest_forecast_growth_pct": 105.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:58",
       "forecast_dividend_changes": []
     },
     {
@@ -7743,7 +8639,23 @@
         "eps_growth_component_pct": 14.38,
         "valuation_reversion_component_pct": 1.66
       },
-      "updated_at": "2026-10-20 07:26",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 100.8,
+          "latest_forecast_growth_pct": 106.4,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 87.2,
+          "latest_forecast_growth_pct": 50.0,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:58",
       "forecast_dividend_changes": []
     },
     {
@@ -7880,7 +8792,23 @@
         "eps_growth_component_pct": 28.67,
         "valuation_reversion_component_pct": -6.53
       },
-      "updated_at": "2026-10-20 07:26",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 94.8,
+          "latest_forecast_growth_pct": 109.5,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 100.6,
+          "latest_forecast_growth_pct": 109.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:59",
       "forecast_dividend_changes": []
     },
     {
@@ -7909,12 +8837,12 @@
             "judge": "○"
           },
           "ROE": {
-            "value": 9.577213074881296,
+            "value": 9.15234796405355,
             "criterion": "7%以上",
             "judge": "○"
           },
           "ROA": {
-            "value": 6.607617748237105,
+            "value": 6.004442087117948,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -7924,12 +8852,12 @@
             "judge": "○"
           },
           "自己資本比率": {
-            "value": 68.89999999999999,
+            "value": 65.5,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 4408.60048128,
+            "value": 4408.5998592,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -8016,7 +8944,23 @@
         "eps_growth_component_pct": 6.68,
         "valuation_reversion_component_pct": 0.93
       },
-      "updated_at": "2026-10-20 07:27",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 100.6,
+          "latest_forecast_growth_pct": 98.3,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 144.9,
+          "latest_forecast_growth_pct": 99.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:59",
       "forecast_dividend_changes": []
     },
     {
@@ -8151,7 +9095,23 @@
         "eps_growth_component_pct": 10.98,
         "valuation_reversion_component_pct": -3.86
       },
-      "updated_at": "2026-10-20 07:27",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 98.3,
+          "latest_forecast_growth_pct": 103.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 112.6,
+          "latest_forecast_growth_pct": 92.2,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 15:59",
       "forecast_dividend_changes": []
     },
     {
@@ -8282,7 +9242,23 @@
         "eps_growth_component_pct": 4.12,
         "valuation_reversion_component_pct": 17.91
       },
-      "updated_at": "2026-10-20 07:28",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 97.5,
+          "latest_forecast_growth_pct": 116.7,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 65.8,
+          "latest_forecast_growth_pct": 138.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:00",
       "forecast_dividend_changes": []
     },
     {
@@ -8416,7 +9392,23 @@
         "eps_growth_component_pct": 1.23,
         "valuation_reversion_component_pct": -7.1
       },
-      "updated_at": "2026-10-20 07:28",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 99.7,
+          "latest_forecast_growth_pct": 101.9,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 98.4,
+          "latest_forecast_growth_pct": 105.7,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:00",
       "forecast_dividend_changes": []
     },
     {
@@ -8435,7 +9427,7 @@
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 12.098279079411157,
+            "value": 16.434305,
             "criterion": "12倍以下",
             "judge": "×"
           },
@@ -8465,7 +9457,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 306.07624371,
+            "value": 306.07624192,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -8515,7 +9507,7 @@
         "buy2_price": 1086,
         "buy3_price": 1062,
         "buy_status": "監視",
-        "sample_daily": 625,
+        "sample_daily": 624,
         "sample_annual": 3,
         "error": null
       },
@@ -8541,7 +9533,23 @@
         "eps_growth_component_pct": null,
         "valuation_reversion_component_pct": null
       },
-      "updated_at": "2026-10-20 07:28",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 100.7,
+          "latest_forecast_growth_pct": 104.7,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 94.5,
+          "latest_forecast_growth_pct": 146.1,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:01",
       "forecast_dividend_changes": []
     },
     {
@@ -8670,7 +9678,23 @@
         "eps_growth_component_pct": 4.22,
         "valuation_reversion_component_pct": -3.54
       },
-      "updated_at": "2026-10-20 07:28",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 102.3,
+          "latest_forecast_growth_pct": 101.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 129.4,
+          "latest_forecast_growth_pct": 103.9,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:01",
       "forecast_dividend_changes": []
     },
     {
@@ -8807,7 +9831,23 @@
         "eps_growth_component_pct": 24.09,
         "valuation_reversion_component_pct": -1.96
       },
-      "updated_at": "2026-10-20 07:30",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 98.8,
+          "latest_forecast_growth_pct": 103.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 116.7,
+          "latest_forecast_growth_pct": 95.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:01",
       "forecast_dividend_changes": []
     },
     {
@@ -8939,7 +9979,23 @@
         "eps_growth_component_pct": 10.03,
         "valuation_reversion_component_pct": 10.02
       },
-      "updated_at": "2026-10-20 07:30",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 101.0,
+          "latest_forecast_growth_pct": 103.1,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 136.9,
+          "latest_forecast_growth_pct": 89.9,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:02",
       "forecast_dividend_changes": []
     },
     {
@@ -9077,7 +10133,23 @@
         "eps_growth_component_pct": 24.28,
         "valuation_reversion_component_pct": -6.57
       },
-      "updated_at": "2026-10-20 07:30",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 97.9,
+          "latest_forecast_growth_pct": 105.7,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 94.9,
+          "latest_forecast_growth_pct": 106.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:02",
       "forecast_dividend_changes": []
     },
     {
@@ -9171,10 +10243,10 @@
         "reason": "業種：その他金融業・利益比較的安定・配当変動大",
         "target1_pct": 2.48,
         "target2_pct": 2.53,
-        "target3_pct": 2.73,
+        "target3_pct": 2.72,
         "buy1_price": 3387,
         "buy2_price": 3320,
-        "buy3_price": 3077,
+        "buy3_price": 3088,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -9214,7 +10286,23 @@
         "eps_growth_component_pct": 10.29,
         "valuation_reversion_component_pct": -18.62
       },
-      "updated_at": "2026-10-20 07:30",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 97.6,
+          "latest_forecast_growth_pct": 107.9,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 101.1,
+          "latest_forecast_growth_pct": 105.9,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:02",
       "forecast_dividend_changes": []
     },
     {
@@ -9351,7 +10439,23 @@
         "eps_growth_component_pct": 11.58,
         "valuation_reversion_component_pct": 3.05
       },
-      "updated_at": "2026-10-20 07:30",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "標準",
+          "achievement_avg_pct": 103.4,
+          "latest_forecast_growth_pct": 101.2,
+          "periods": 2
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 142.3,
+          "latest_forecast_growth_pct": 93.7,
+          "periods": 2
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:03",
       "forecast_dividend_changes": []
     },
     {
@@ -9445,10 +10549,10 @@
         "reason": "業種：化学・減配なし・増配基調",
         "target1_pct": 2.23,
         "target2_pct": 2.36,
-        "target3_pct": 2.49,
+        "target3_pct": 2.5,
         "buy1_price": 2870,
         "buy2_price": 2712,
-        "buy3_price": 2570,
+        "buy3_price": 2560,
         "buy_status": "監視",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -9488,7 +10592,23 @@
         "eps_growth_component_pct": 10.83,
         "valuation_reversion_component_pct": -10.0
       },
-      "updated_at": "2026-10-20 07:31",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 104.5,
+          "latest_forecast_growth_pct": 103.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 106.8,
+          "latest_forecast_growth_pct": 105.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:03",
       "forecast_dividend_changes": []
     },
     {
@@ -9624,7 +10744,23 @@
         "eps_growth_component_pct": 13.44,
         "valuation_reversion_component_pct": 3.6
       },
-      "updated_at": "2026-10-20 07:31",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": 110.4,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": 107.0,
+          "periods": 0
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:03",
       "forecast_dividend_changes": []
     },
     {
@@ -9759,7 +10895,23 @@
         "eps_growth_component_pct": 7.84,
         "valuation_reversion_component_pct": -18.19
       },
-      "updated_at": "2026-10-20 07:31",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 101.8,
+          "latest_forecast_growth_pct": 105.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 108.0,
+          "latest_forecast_growth_pct": 100.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:03",
       "forecast_dividend_changes": []
     },
     {
@@ -9888,7 +11040,23 @@
         "eps_growth_component_pct": 6.03,
         "valuation_reversion_component_pct": 1.37
       },
-      "updated_at": "2026-10-20 07:32",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 102.5,
+          "latest_forecast_growth_pct": 101.5,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 95.7,
+          "latest_forecast_growth_pct": 107.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:04",
       "forecast_dividend_changes": []
     },
     {
@@ -10024,7 +11192,23 @@
         "eps_growth_component_pct": 5.14,
         "valuation_reversion_component_pct": -9.38
       },
-      "updated_at": "2026-10-20 07:33",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 110.8,
+          "latest_forecast_growth_pct": 103.8,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 224.3,
+          "latest_forecast_growth_pct": 102.9,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:05",
       "forecast_dividend_changes": []
     },
     {
@@ -10053,12 +11237,12 @@
             "judge": "○"
           },
           "ROE": {
-            "value": 8.451994655468601,
+            "value": 8.509329899878933,
             "criterion": "7%以上",
             "judge": "○"
           },
           "ROA": {
-            "value": 6.768468840280644,
+            "value": 6.752573389248952,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -10068,12 +11252,12 @@
             "judge": "○"
           },
           "自己資本比率": {
-            "value": 78.5,
+            "value": 77.8,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 601.32505,
+            "value": 601.31420757,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -10161,7 +11345,23 @@
         "eps_growth_component_pct": 11.43,
         "valuation_reversion_component_pct": 1.8
       },
-      "updated_at": "2026-10-20 07:33",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 98.8,
+          "latest_forecast_growth_pct": 110.7,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 110.7,
+          "latest_forecast_growth_pct": 117.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:05",
       "forecast_dividend_changes": []
     },
     {
@@ -10253,12 +11453,12 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：情報･通信業・配当変動大",
-        "target1_pct": 4.77,
+        "target1_pct": 4.76,
         "target2_pct": 4.92,
-        "target3_pct": 5.13,
-        "buy1_price": 1677,
+        "target3_pct": 5.11,
+        "buy1_price": 1681,
         "buy2_price": 1626,
-        "buy3_price": 1559,
+        "buy3_price": 1566,
         "buy_status": "第1買い（打診買い）",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -10294,7 +11494,23 @@
         "eps_growth_component_pct": 14.07,
         "valuation_reversion_component_pct": -6.63
       },
-      "updated_at": "2026-10-20 07:33",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 98.7,
+          "latest_forecast_growth_pct": 121.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 91.9,
+          "latest_forecast_growth_pct": 123.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:05",
       "forecast_dividend_changes": []
     },
     {
@@ -10431,7 +11647,23 @@
         "eps_growth_component_pct": 21.98,
         "valuation_reversion_component_pct": -11.2
       },
-      "updated_at": "2026-10-20 07:33",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 98.5,
+          "latest_forecast_growth_pct": 103.4,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 152.1,
+          "latest_forecast_growth_pct": 102.0,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:06",
       "forecast_dividend_changes": []
     },
     {
@@ -10564,7 +11796,23 @@
         "eps_growth_component_pct": 5.99,
         "valuation_reversion_component_pct": 11.21
       },
-      "updated_at": "2026-10-20 07:34",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 99.9,
+          "latest_forecast_growth_pct": 104.3,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 135.4,
+          "latest_forecast_growth_pct": 124.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:06",
       "forecast_dividend_changes": []
     },
     {
@@ -10701,7 +11949,23 @@
         "eps_growth_component_pct": 17.47,
         "valuation_reversion_component_pct": -4.63
       },
-      "updated_at": "2026-10-20 07:34",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 99.4,
+          "latest_forecast_growth_pct": 108.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 150.0,
+          "latest_forecast_growth_pct": 88.0,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:06",
       "forecast_dividend_changes": []
     },
     {
@@ -10837,7 +12101,23 @@
         "eps_growth_component_pct": 10.71,
         "valuation_reversion_component_pct": 5.76
       },
-      "updated_at": "2026-10-20 07:34",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 90.7,
+          "latest_forecast_growth_pct": 106.9,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 109.2,
+          "latest_forecast_growth_pct": 87.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:06",
       "forecast_dividend_changes": []
     },
     {
@@ -10970,7 +12250,23 @@
         "eps_growth_component_pct": 10.92,
         "valuation_reversion_component_pct": 1.09
       },
-      "updated_at": "2026-10-20 07:35",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 95.1,
+          "latest_forecast_growth_pct": 114.7,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 110.1,
+          "latest_forecast_growth_pct": 113.0,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:07",
       "forecast_dividend_changes": []
     },
     {
@@ -11103,7 +12399,23 @@
         "eps_growth_component_pct": 31.11,
         "valuation_reversion_component_pct": 5.7
       },
-      "updated_at": "2026-10-20 07:35",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 101.2,
+          "latest_forecast_growth_pct": 105.3,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 129.3,
+          "latest_forecast_growth_pct": 85.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:08",
       "forecast_dividend_changes": []
     },
     {
@@ -11236,7 +12548,23 @@
         "eps_growth_component_pct": 9.94,
         "valuation_reversion_component_pct": -19.57
       },
-      "updated_at": "2026-10-20 07:35",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 106.6,
+          "latest_forecast_growth_pct": 103.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 115.3,
+          "latest_forecast_growth_pct": 103.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:08",
       "forecast_dividend_changes": []
     },
     {
@@ -11369,7 +12697,23 @@
         "eps_growth_component_pct": 7.87,
         "valuation_reversion_component_pct": -3.45
       },
-      "updated_at": "2026-10-20 07:36",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 98.9,
+          "latest_forecast_growth_pct": 104.1,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 91.3,
+          "latest_forecast_growth_pct": 105.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:08",
       "forecast_dividend_changes": []
     },
     {
@@ -11462,11 +12806,11 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：卸売業・利益比較的安定・減配1回",
         "target1_pct": 4.57,
-        "target2_pct": 4.76,
-        "target3_pct": 4.89,
+        "target2_pct": 4.75,
+        "target3_pct": 4.88,
         "buy1_price": 1860,
-        "buy2_price": 1786,
-        "buy3_price": 1738,
+        "buy2_price": 1789,
+        "buy3_price": 1742,
         "buy_status": "監視",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -11504,7 +12848,23 @@
         "eps_growth_component_pct": 16.07,
         "valuation_reversion_component_pct": 15.83
       },
-      "updated_at": "2026-10-20 07:36",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 95.9,
+          "latest_forecast_growth_pct": 111.4,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 109.9,
+          "latest_forecast_growth_pct": 89.1,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:08",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -11602,10 +12962,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・配当変動大",
-        "target1_pct": 4.05,
+        "target1_pct": 4.04,
         "target2_pct": 4.3,
         "target3_pct": 4.69,
-        "buy1_price": 2420,
+        "buy1_price": 2426,
         "buy2_price": 2279,
         "buy3_price": 2090,
         "buy_status": "監視",
@@ -11645,7 +13005,23 @@
         "eps_growth_component_pct": 14.62,
         "valuation_reversion_component_pct": 0.72
       },
-      "updated_at": "2026-10-20 07:37",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 108.8,
+          "latest_forecast_growth_pct": 102.3,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 161.2,
+          "latest_forecast_growth_pct": 104.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:09",
       "forecast_dividend_changes": []
     },
     {
@@ -11738,10 +13114,10 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：電気機器・利益比較的安定・減配1回",
         "target1_pct": 3.66,
-        "target2_pct": 3.94,
+        "target2_pct": 3.93,
         "target3_pct": 4.19,
         "buy1_price": 1913,
-        "buy2_price": 1777,
+        "buy2_price": 1781,
         "buy3_price": 1671,
         "buy_status": "第2買い（追加買い）",
         "sample_daily": 730,
@@ -11777,7 +13153,23 @@
         "eps_growth_component_pct": -3.82,
         "valuation_reversion_component_pct": -5.34
       },
-      "updated_at": "2026-10-20 07:37",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 101.2,
+          "latest_forecast_growth_pct": 106.3,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 174.0,
+          "latest_forecast_growth_pct": 81.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:09",
       "forecast_dividend_changes": []
     },
     {
@@ -11869,12 +13261,12 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：輸送用機器・減配なし・増配基調",
-        "target1_pct": 4.03,
-        "target2_pct": 4.2,
-        "target3_pct": 4.46,
-        "buy1_price": 868,
-        "buy2_price": 833,
-        "buy3_price": 785,
+        "target1_pct": 4.02,
+        "target2_pct": 4.19,
+        "target3_pct": 4.42,
+        "buy1_price": 871,
+        "buy2_price": 835,
+        "buy3_price": 792,
         "buy_status": "監視",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -11913,7 +13305,23 @@
         "eps_growth_component_pct": 16.46,
         "valuation_reversion_component_pct": 31.59
       },
-      "updated_at": "2026-10-20 07:37",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 114.7,
+          "latest_forecast_growth_pct": 104.6,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 163.2,
+          "latest_forecast_growth_pct": 91.9,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:09",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -12055,7 +13463,23 @@
         "eps_growth_component_pct": 26.62,
         "valuation_reversion_component_pct": 16.54
       },
-      "updated_at": "2026-10-20 07:38",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:10",
       "forecast_dividend_changes": []
     },
     {
@@ -12186,7 +13610,23 @@
         "eps_growth_component_pct": 10.07,
         "valuation_reversion_component_pct": 1.43
       },
-      "updated_at": "2026-10-20 07:38",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 96.3,
+          "latest_forecast_growth_pct": 103.8,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 85.8,
+          "latest_forecast_growth_pct": 106.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:10",
       "forecast_dividend_changes": []
     },
     {
@@ -12321,7 +13761,23 @@
         "eps_growth_component_pct": 6.05,
         "valuation_reversion_component_pct": -0.54
       },
-      "updated_at": "2026-10-20 07:38",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 100.8,
+          "latest_forecast_growth_pct": 104.1,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 105.8,
+          "latest_forecast_growth_pct": 102.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:10",
       "forecast_dividend_changes": []
     },
     {
@@ -12413,12 +13869,12 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業",
-        "target1_pct": 5.54,
-        "target2_pct": 5.68,
-        "target3_pct": 5.79,
-        "buy1_price": 2383,
-        "buy2_price": 2324,
-        "buy3_price": 2280,
+        "target1_pct": 5.53,
+        "target2_pct": 5.67,
+        "target3_pct": 5.78,
+        "buy1_price": 2387,
+        "buy2_price": 2328,
+        "buy3_price": 2284,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 730,
         "sample_annual": 5,
@@ -12446,7 +13902,23 @@
         "eps_growth_component_pct": null,
         "valuation_reversion_component_pct": null
       },
-      "updated_at": "2026-10-20 07:38",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 125.5,
+          "latest_forecast_growth_pct": 121.4,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 229.3,
+          "latest_forecast_growth_pct": 78.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:11",
       "forecast_dividend_changes": []
     },
     {
@@ -12538,10 +14010,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：ガラス･土石製品・配当変動大",
-        "target1_pct": 5.27,
+        "target1_pct": 5.28,
         "target2_pct": 5.82,
         "target3_pct": 6.01,
-        "buy1_price": 1328,
+        "buy1_price": 1326,
         "buy2_price": 1203,
         "buy3_price": 1165,
         "buy_status": "監視",
@@ -12584,7 +14056,23 @@
         "eps_growth_component_pct": 17.36,
         "valuation_reversion_component_pct": 9.49
       },
-      "updated_at": "2026-10-20 07:39",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 104.5,
+          "latest_forecast_growth_pct": 103.5,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 180.8,
+          "latest_forecast_growth_pct": 101.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:11",
       "forecast_dividend_changes": []
     },
     {
@@ -12721,7 +14209,23 @@
         "eps_growth_component_pct": 11.89,
         "valuation_reversion_component_pct": 12.19
       },
-      "updated_at": "2026-10-20 07:40",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 98.5,
+          "latest_forecast_growth_pct": 108.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 109.6,
+          "latest_forecast_growth_pct": 96.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:12",
       "forecast_dividend_changes": []
     },
     {
@@ -12815,10 +14319,10 @@
         "reason": "業種：建設業・配当変動大",
         "target1_pct": 3.85,
         "target2_pct": 4.04,
-        "target3_pct": 4.36,
+        "target3_pct": 4.35,
         "buy1_price": 1299,
         "buy2_price": 1238,
-        "buy3_price": 1147,
+        "buy3_price": 1149,
         "buy_status": "第2買い（追加買い）",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -12857,7 +14361,23 @@
         "eps_growth_component_pct": 28.44,
         "valuation_reversion_component_pct": 13.27
       },
-      "updated_at": "2026-10-20 07:40",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 88.7,
+          "latest_forecast_growth_pct": 114.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 86.7,
+          "latest_forecast_growth_pct": 89.1,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:12",
       "forecast_dividend_changes": []
     },
     {
@@ -12994,7 +14514,23 @@
         "eps_growth_component_pct": 8.48,
         "valuation_reversion_component_pct": -4.26
       },
-      "updated_at": "2026-10-20 07:40",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 110.9,
+          "latest_forecast_growth_pct": 95.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 103.4,
+          "latest_forecast_growth_pct": 114.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:12",
       "forecast_dividend_changes": []
     },
     {
@@ -13087,10 +14623,10 @@
         "cycle_class": "非景気敏感株",
         "reason": "業種：サービス業・利益比較的安定・減配1回",
         "target1_pct": 3.19,
-        "target2_pct": 3.4,
+        "target2_pct": 3.39,
         "target3_pct": 3.51,
         "buy1_price": 940,
-        "buy2_price": 882,
+        "buy2_price": 885,
         "buy3_price": 855,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 730,
@@ -13128,7 +14664,23 @@
         "eps_growth_component_pct": 5.57,
         "valuation_reversion_component_pct": -6.0
       },
-      "updated_at": "2026-10-20 07:40",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 99.6,
+          "latest_forecast_growth_pct": 105.9,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 111.9,
+          "latest_forecast_growth_pct": 101.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:13",
       "forecast_dividend_changes": []
     },
     {
@@ -13221,11 +14773,11 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：輸送用機器・減配なし・増配基調",
         "target1_pct": 3.48,
-        "target2_pct": 3.56,
-        "target3_pct": 3.84,
+        "target2_pct": 3.55,
+        "target3_pct": 3.79,
         "buy1_price": 2126,
-        "buy2_price": 2079,
-        "buy3_price": 1927,
+        "buy2_price": 2085,
+        "buy3_price": 1953,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -13261,7 +14813,23 @@
         "eps_growth_component_pct": 7.99,
         "valuation_reversion_component_pct": 3.81
       },
-      "updated_at": "2026-10-20 07:41",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 106.9,
+          "latest_forecast_growth_pct": 101.7,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 86.2,
+          "latest_forecast_growth_pct": 86.1,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:13",
       "forecast_dividend_changes": []
     },
     {
@@ -13389,7 +14957,23 @@
         "eps_growth_component_pct": 0.07,
         "valuation_reversion_component_pct": 10.9
       },
-      "updated_at": "2026-10-20 07:41",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 96.6,
+          "latest_forecast_growth_pct": 109.4,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 112.0,
+          "latest_forecast_growth_pct": 109.2,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:13",
       "forecast_dividend_changes": []
     },
     {
@@ -13526,7 +15110,23 @@
         "eps_growth_component_pct": null,
         "valuation_reversion_component_pct": 10.1
       },
-      "updated_at": "2026-10-20 07:41",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 99.1,
+          "latest_forecast_growth_pct": 105.2,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 100.6,
+          "latest_forecast_growth_pct": 109.8,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:13",
       "forecast_dividend_changes": []
     },
     {
@@ -13618,10 +15218,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：証券･商品先物取引業・配当変動大",
-        "target1_pct": 4.34,
+        "target1_pct": 4.33,
         "target2_pct": 4.6,
         "target3_pct": 4.73,
-        "buy1_price": 2488,
+        "buy1_price": 2494,
         "buy2_price": 2348,
         "buy3_price": 2283,
         "buy_status": "第3買い（本格購入）",
@@ -13663,7 +15263,23 @@
         "eps_growth_component_pct": 21.79,
         "valuation_reversion_component_pct": -1.16
       },
-      "updated_at": "2026-10-20 07:42",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 105.1,
+          "latest_forecast_growth_pct": 126.4,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 100.4,
+          "latest_forecast_growth_pct": 123.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:15",
       "forecast_dividend_changes": []
     },
     {
@@ -13756,11 +15372,11 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：卸売業・利益比較的安定・配当変動大",
         "target1_pct": 3.78,
-        "target2_pct": 3.9,
-        "target3_pct": 4.11,
+        "target2_pct": 3.89,
+        "target3_pct": 4.1,
         "buy1_price": 1799,
-        "buy2_price": 1744,
-        "buy3_price": 1655,
+        "buy2_price": 1748,
+        "buy3_price": 1659,
         "buy_status": "第3買い（本格購入）",
         "sample_daily": 730,
         "sample_annual": 10,
@@ -13798,7 +15414,23 @@
         "eps_growth_component_pct": 9.58,
         "valuation_reversion_component_pct": 2.62
       },
-      "updated_at": "2026-10-20 07:42",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 100.8,
+          "latest_forecast_growth_pct": 102.8,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 105.0,
+          "latest_forecast_growth_pct": 101.9,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:15",
       "forecast_dividend_changes": []
     },
     {
@@ -13936,7 +15568,23 @@
         "eps_growth_component_pct": 3.48,
         "valuation_reversion_component_pct": -3.27
       },
-      "updated_at": "2026-10-20 07:42",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 99.1,
+          "latest_forecast_growth_pct": 104.0,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 99.0,
+          "latest_forecast_growth_pct": 102.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:15",
       "forecast_dividend_changes": []
     },
     {
@@ -13951,26 +15599,26 @@
       "price_change": -148.0,
       "price_change_pct": -0.036660887,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 12.600440642820114,
+            "value": 10.761525264264764,
             "criterion": "12倍以下",
-            "judge": "×"
+            "judge": "○"
           },
           "PBR": {
-            "value": 0.9883728318190482,
+            "value": 0.9749408367093177,
             "criterion": "1.3倍以下",
             "judge": "○"
           },
           "ROE": {
-            "value": 7.456071132362471,
+            "value": 7.353817825349725,
             "criterion": "7%以上",
             "judge": "○"
           },
           "ROA": {
-            "value": 3.9834455144304592,
+            "value": 3.84206109577901,
             "criterion": "3%以上",
             "judge": "○"
           },
@@ -13980,12 +15628,12 @@
             "judge": "○"
           },
           "自己資本比率": {
-            "value": 50.8,
+            "value": 49.7,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 2797.94738907,
+            "value": 2798.15747285,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -14040,7 +15688,7 @@
         "error": null
       },
       "rating": "除外候補",
-      "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。 10期で無配なしは高配当株として重要な懸念。",
+      "comment": "今期EPSが9期前の2倍以上は一過性か構造的か確認。 10期で無配なしは高配当株として重要な懸念。",
       "priority_score": {
         "growth_score": 1,
         "income_score": 3,
@@ -14061,15 +15709,31 @@
         ]
       },
       "expected_irr": {
-        "expected_irr_pct": 2.3,
+        "expected_irr_pct": 4.5,
         "dividend_return_pct": 3.4,
-        "capital_return_pct": -1.1,
+        "capital_return_pct": 1.1,
         "dividend_yield_component_pct": 3.39,
         "dividend_growth_component_pct": null,
         "eps_growth_component_pct": -4.05,
-        "valuation_reversion_component_pct": 2.94
+        "valuation_reversion_component_pct": 5.11
       },
-      "updated_at": "2026-10-20 07:43",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": 95.9,
+          "latest_forecast_growth_pct": null,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "要確認",
+          "achievement_avg_pct": 76.6,
+          "latest_forecast_growth_pct": null,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-20 16:15",
       "forecast_dividend_changes": []
     },
     {
@@ -14161,10 +15825,10 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：機械・配当変動大",
-        "target1_pct": 4.09,
+        "target1_pct": 4.07,
         "target2_pct": 4.37,
         "target3_pct": 4.49,
-        "buy1_price": 5990,
+        "buy1_price": 6020,
         "buy2_price": 5606,
         "buy3_price": 5457,
         "buy_status": "監視",
@@ -14207,7 +15871,64 @@
         "eps_growth_component_pct": 15.91,
         "valuation_reversion_component_pct": -6.14
       },
-      "updated_at": "2026-10-20 07:43",
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 100.1,
+          "latest_forecast_growth_pct": 108.3,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 96.8,
+          "latest_forecast_growth_pct": 91.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 8.7,
+        "per_median": 9.3,
+        "per_max": 12.3,
+        "price_low": 4878.0,
+        "price_center": 5214.4,
+        "price_high": 6896.5,
+        "yield_at_low_pct": 5.02,
+        "yield_at_center_pct": 4.7,
+        "yield_at_high_pct": 3.55,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 75.9
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 76.7
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 74.5
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 76.7
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 83.0
+          }
+        ],
+        "latest_pct": 83.0,
+        "change_pt": 7.1,
+        "drop_from_max_pt": 0.0,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
+      "updated_at": "2026-10-20 16:15",
       "forecast_dividend_changes": []
     }
   ],

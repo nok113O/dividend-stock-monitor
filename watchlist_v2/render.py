@@ -545,6 +545,83 @@ def render_target_yield(code: str, current_price, ty: dict) -> str:
     )
 
 
+def render_valuation_range(vr: dict | None) -> str:
+    if not vr or vr.get("per_median") is None:
+        return (
+            '<div class="step"><div class="step-head"><div class="step-name">安い株価の目安（有報PERベース）</div>'
+            f'{chip("要確認", "lg")}</div>'
+            '<div class="data-gap"><strong>算出不可：</strong>有効な期末PERが取得できていません。</div></div>'
+        )
+    ref_note = (
+        '<div class="data-gap" style="margin-top:8px;">'
+        "<strong>参考値：</strong>有効な期末PERが3期未満のため、目安の精度は低めです。"
+        "</div>"
+        if vr.get("is_reference_only") else ""
+    )
+    return (
+        '<div class="step"><div class="step-head"><div><div class="step-name">安い株価の目安（有報PERベース）</div>'
+        f'<div class="step-sub">有効{vr.get("valid_periods")}期（除外{vr.get("excluded_periods")}期・'
+        'PER50倍超または赤字期は除外）</div></div></div>'
+        '<div class="step3-box"><span>割安目安（PER最小値）</span>'
+        f'<span class="value">{fmt_num(vr["per_min"], 1)}倍 × 予想EPS ＝ {fmt_num(vr["price_low"], 0)}円'
+        f'（利回り{fmt_num(vr.get("yield_at_low_pct"), 2)}%）</span></div>'
+        '<div class="step3-box"><span>中心目安（PER中央値）</span>'
+        f'<span class="value">{fmt_num(vr["per_median"], 1)}倍 × 予想EPS ＝ {fmt_num(vr["price_center"], 0)}円'
+        f'（利回り{fmt_num(vr.get("yield_at_center_pct"), 2)}%）</span></div>'
+        '<div class="step3-box"><span>割高目安（PER最大値）</span>'
+        f'<span class="value">{fmt_num(vr["per_max"], 1)}倍 × 予想EPS ＝ {fmt_num(vr["price_high"], 0)}円'
+        f'（利回り{fmt_num(vr.get("yield_at_high_pct"), 2)}%）</span></div>'
+        f"{ref_note}</div>"
+    )
+
+
+def render_forecast_tendency(ft: dict | None) -> str:
+    if not ft:
+        return ""
+    labels = {"sales": "売上予想", "net_income": "純利益予想"}
+    rows = []
+    for key, label in labels.items():
+        m = ft.get(key) or {}
+        tendency = m.get("tendency", "要確認")
+        growth = m.get("latest_forecast_growth_pct")
+        achievement = m.get("achievement_avg_pct")
+        periods = m.get("periods", 0)
+        detail = (
+            f'前期実績比{fmt_num(growth, 1)}%／過去{periods}期の平均達成率{fmt_num(achievement, 1)}%'
+            if growth is not None
+            else f"算出不可（期初予想データ{periods}期分）"
+        )
+        tendency_cls = {"強気": "pass", "弱気": "fail"}.get(tendency, "pending")
+        rows.append(
+            '<div class="check-row">'
+            f'<div class="check-label">{label}</div>'
+            f'<div class="check-value">{detail}</div>'
+            f'<span class="chip {tendency_cls}">{esc(tendency)}</span>'
+            "</div>"
+        )
+    return (
+        '<div class="step"><div class="step-head"><div class="step-name">会社予想の傾向</div></div>'
+        f'<div class="check-list">{"".join(rows)}</div></div>'
+    )
+
+
+def render_equity_ratio_trend(ert: dict | None) -> str:
+    series = (ert or {}).get("series") or []
+    if not series:
+        return ""
+    alert = ert.get("alert")
+    trend_text = " → ".join(f'{s["fiscal_year"]}:{fmt_num(s["equity_ratio_pct"], 1)}%' for s in series)
+    status_chip = '<span class="chip fail">要警戒</span>' if alert else '<span class="chip pass">良好</span>'
+    return (
+        '<div class="step"><div class="step-head"><div class="step-name">自己資本比率の推移（直近5期）</div>'
+        f"{status_chip}</div>"
+        f'<div class="step-sub">{esc(trend_text)}</div>'
+        f'<div class="step-sub" style="margin-top:4px;">'
+        f'直近期の最大値からの低下幅 {fmt_num(ert.get("drop_from_max_pt"), 1)}pt'
+        f'（警戒ライン：{fmt_num(ert.get("alert_threshold_pt"), 0)}pt以上の低下）</div></div>'
+    )
+
+
 def judge_class(judge: str) -> str:
     return {"○": "pass", "×": "fail"}.get(judge, "pending")
 
@@ -555,11 +632,23 @@ def render_section_tabs(code: str, stock: dict, price) -> str:
     buy_status = ty.get("buy_status", "要確認")
     ty_cls = "pass" if "買い" in buy_status and buy_status != "監視" else "pending"
 
+    vr = stock.get("valuation_range")
+    ft = stock.get("forecast_tendency")
+    ert = stock.get("equity_ratio_trend")
+    vr_cls = "pending" if not vr or vr.get("per_median") is None else (
+        "pending" if vr.get("is_reference_only") else "pass"
+    )
+    reference_panel_html = "".join(
+        html for html in (render_valuation_range(vr), render_forecast_tendency(ft), render_equity_ratio_trend(ert))
+        if html
+    )
+
     sections = [
         ("第1段階", judge_class(step1["overall"]), render_step1(step1)),
         ("第2段階", judge_class(step2["overall"]), render_step2(step2)),
         ("第3段階", "pass" if step3.get("target_price") is not None else "pending", render_step3(step3)),
         ("目標利回り", ty_cls, render_target_yield(code, price, ty)),
+        ("参考指標", vr_cls, reference_panel_html),
     ]
 
     group = f"sec-{code}"

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 import math
+import statistics
 import pandas as pd
 
 def num(value: Any) -> float | None:
@@ -483,6 +484,177 @@ def calculate_expected_irr(metrics: dict, df: pd.DataFrame | None) -> dict:
         "valuation_reversion_component_pct": (
             round(valuation_reversion * 100, 2) if valuation_reversion is not None else None
         ),
+    }
+
+PER_RANGE_OUTLIER_THRESHOLD = 50.0
+EQUITY_RATIO_ALERT_DROP_PT = 10.0
+
+def calculate_valuation_range(
+    financials_rows: list[dict] | None, eps_forecast: float | None, forecast_dividend: float | None
+) -> dict:
+    """EDINET DB(有報)の期末PER(直近5期)から「安い株価の目安」を算出する。
+
+    赤字期(EPS<=0)と異常値(PER>50倍、固定の閾値)は除外し、除外期数を返す。
+    1期だけの異常値に引っ張られないよう、平均ではなく中央値を中心値とする。
+    最高・最低株価フィールドは使わない(全銘柄で同じ基準をそろえるため)。
+    """
+    valid_pers = []
+    excluded = 0
+    for row in financials_rows or []:
+        per = row.get("per")
+        eps = row.get("eps")
+        if per is None or eps is None:
+            continue
+        if eps <= 0 or per <= 0 or per > PER_RANGE_OUTLIER_THRESHOLD:
+            excluded += 1
+            continue
+        valid_pers.append(per)
+
+    n = len(valid_pers)
+    result = {
+        "valid_periods": n,
+        "excluded_periods": excluded,
+        "per_min": None, "per_median": None, "per_max": None,
+        "price_low": None, "price_center": None, "price_high": None,
+        "yield_at_low_pct": None, "yield_at_center_pct": None, "yield_at_high_pct": None,
+        "is_reference_only": True,
+    }
+    if n == 0 or eps_forecast is None or eps_forecast <= 0:
+        return result
+
+    per_min = min(valid_pers)
+    per_max = max(valid_pers)
+    per_median = statistics.median(valid_pers)
+    price_low = per_min * eps_forecast
+    price_center = per_median * eps_forecast
+    price_high = per_max * eps_forecast
+
+    def _yield(price):
+        if forecast_dividend is None or not price:
+            return None
+        return round(forecast_dividend / price * 100, 2)
+
+    result.update({
+        "per_min": round(per_min, 2),
+        "per_median": round(per_median, 2),
+        "per_max": round(per_max, 2),
+        "price_low": round(price_low, 1),
+        "price_center": round(price_center, 1),
+        "price_high": round(price_high, 1),
+        "yield_at_low_pct": _yield(price_low),
+        "yield_at_center_pct": _yield(price_center),
+        "yield_at_high_pct": _yield(price_high),
+        "is_reference_only": n < 3,
+    })
+    return result
+
+def calculate_equity_ratio_trend(
+    financials_rows: list[dict] | None, alert_drop_pt: float = EQUITY_RATIO_ALERT_DROP_PT
+) -> dict:
+    """自己資本比率の5期推移。直近期が期間内の最大値からalert_drop_pt(ポイント、固定)
+    以上下がっていれば「要警戒」とする。"""
+    series = []
+    for row in sorted(financials_rows or [], key=lambda r: r.get("fiscal_year") or 0):
+        ratio = row.get("equity_ratio_official")
+        if ratio is None:
+            continue
+        series.append({
+            "fiscal_year": row.get("fiscal_year"),
+            "equity_ratio_pct": round(ratio * 100, 2),
+        })
+    if not series:
+        return {
+            "series": [], "latest_pct": None, "change_pt": None,
+            "drop_from_max_pt": None, "alert": False, "alert_threshold_pt": alert_drop_pt,
+        }
+    latest = series[-1]["equity_ratio_pct"]
+    max_in_window = max(s["equity_ratio_pct"] for s in series)
+    change_pt = round(latest - series[0]["equity_ratio_pct"], 2)
+    drop_from_max = round(max_in_window - latest, 2)
+    return {
+        "series": series,
+        "latest_pct": latest,
+        "change_pt": change_pt,
+        "drop_from_max_pt": drop_from_max,
+        "alert": drop_from_max >= alert_drop_pt,
+        "alert_threshold_pt": alert_drop_pt,
+    }
+
+def calculate_forecast_tendency(fy_summaries: list[dict] | None, lookback: int = 5) -> dict:
+    """会社予想の傾向。各期の『期初予想』(前期の本決算開示で示された次期予想)と
+    実績を比較し、過去の達成率平均と、直近予想の強気/標準/弱気を判定する。
+
+    本決算行の予想は「翌期」の予想として扱う(NxFSales/NxFNpを使用)。
+    """
+    def _num(row: dict, key: str) -> float | None:
+        value = row.get(key)
+        if value in (None, ""):
+            return None
+        try:
+            return float(value)
+        except (TypeError, ValueError):
+            return None
+
+    def _metric(actual_key: str, forecast_key: str) -> dict:
+        rows = fy_summaries or []
+        empty = {
+            "tendency": "要確認", "achievement_avg_pct": None,
+            "latest_forecast_growth_pct": None, "periods": 0,
+        }
+        if not rows:
+            return empty
+
+        completed = []
+        for i in range(1, len(rows)):
+            prev, curr = rows[i - 1], rows[i]
+            prev_actual = _num(prev, actual_key)
+            prev_forecast_next = _num(prev, forecast_key)
+            curr_actual = _num(curr, actual_key)
+            if prev_actual is None or prev_actual <= 0 or prev_forecast_next is None or curr_actual is None:
+                continue
+            achievement = curr_actual / prev_forecast_next if prev_forecast_next != 0 else None
+            if achievement is None:
+                continue
+            completed.append({
+                "growth_rate": prev_forecast_next / prev_actual,
+                "achievement": achievement,
+            })
+        completed = completed[-lookback:]
+
+        last = rows[-1]
+        last_actual = _num(last, actual_key)
+        last_forecast_next = _num(last, forecast_key)
+        latest_growth = None
+        if last_actual is not None and last_actual > 0 and last_forecast_next is not None:
+            latest_growth = last_forecast_next / last_actual
+
+        if not completed:
+            empty["latest_forecast_growth_pct"] = (
+                round(latest_growth * 100, 1) if latest_growth is not None else None
+            )
+            return empty
+
+        rates = [c["growth_rate"] for c in completed]
+        achievements = [c["achievement"] for c in completed]
+        range_min, range_max = min(rates), max(rates)
+        if latest_growth is None:
+            tendency = "要確認"
+        elif latest_growth > range_max:
+            tendency = "強気"
+        elif latest_growth < range_min:
+            tendency = "弱気"
+        else:
+            tendency = "標準"
+        return {
+            "tendency": tendency,
+            "achievement_avg_pct": round(sum(achievements) / len(achievements) * 100, 1),
+            "latest_forecast_growth_pct": round(latest_growth * 100, 1) if latest_growth is not None else None,
+            "periods": len(completed),
+        }
+
+    return {
+        "sales": _metric("Sales", "NxFSales"),
+        "net_income": _metric("NP", "NxFNp"),
     }
 
 def make_comment(step1: dict, step2: dict) -> str:
