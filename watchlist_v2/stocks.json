@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21 07:48",
+  "generated_at": "2026-10-21 22:59",
   "stocks": [
     {
       "code": "8306",
@@ -17605,6 +17605,158 @@
       "valuation_range": null,
       "equity_ratio_trend": null,
       "updated_at": "2026-10-21 07:48",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "8750",
+      "name": "第一ライフグループ",
+      "industry": "保険業",
+      "sector": "保険",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 1821.0,
+      "price_date": "2026-10-21 15:30",
+      "price_change": 26.0,
+      "price_change_pct": 0.014484679,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": true,
+        "rows": {
+          "PER": {
+            "value": 12.78253544854696,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.5414437597345434,
+            "criterion": "1.3倍以下",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 10.262699649194728,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 0.5887302078223823,
+            "criterion": "1%以上",
+            "judge": "×"
+          },
+          "配当利回り": {
+            "value": 3.9538714991762767,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 5.7,
+            "criterion": "10%以上",
+            "judge": "×"
+          },
+          "時価総額": {
+            "value": 65573.31798315,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "2.44倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 3回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期"
+          }
+        },
+        "periods_available": 10
+      },
+      "step3": {
+        "eps_sum": 725.28,
+        "latest_bps": 1181.36,
+        "target_price": 1906.64
+      },
+      "forecast_dividend": 72.0,
+      "dividend_yield_pct": 3.9538714991762767,
+      "dividend_override_note": "大手生命保険グループ。分割調整factorは2025年まで4.0、2026年1.0で分割またぎあり(過去の株式分割の影響、系列自体は概ね一貫)。予想配当72.0円はEDINET DBのeffective_forecast(修正通知反映済み)とも一致しており、前期実績54.5円(中間24.0+期末30.5)からの純粋な増配として確認済み(2026-10-21検証)。EPS赤字ゼロ、9期前比2.44倍。配当は10.75→12.5→14.5→15.5→15.5→20.75→21.5→28.25→34.25→54.5円と減配ゼロ・無配ゼロで一貫増配。BPSは保険会社特有の有価証券含み損益の影響で2022→2023年(1075.64→730.44、-32%)、2025年(1026.76→942.52)に複数回減少しており、「BPS10期連続増加」基準には馴染まない。自己資本比率5.70%も保険業特有の構造(総資産が巨大なため)。2026-10-21一次スクリーニング：Step1は5/7クリア(PBR・自己資本比率が保険業特有の未達)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：保険業・配当変動大",
+        "target1_pct": 3.94,
+        "target2_pct": 4.15,
+        "target3_pct": 4.53,
+        "buy1_price": 1827,
+        "buy2_price": 1735,
+        "buy3_price": 1589,
+        "buy_status": "第1買い（打診買い）",
+        "sample_daily": 730,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 PBRは基準未達。 ROAは基準未達。 自己資本比率は基準未達。 BPS10期連続増加は自社株買い等の影響も確認。",
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 5,
+        "total_score": 7,
+        "payout_ratio_pct": 45.5,
+        "dividend_cagr_pct": 19.77,
+        "dividend_years_to_double": 3.8,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "累進配当宣言を達成/宣言",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "累進配当宣言"
+        ]
+      },
+      "expected_irr": {
+        "expected_irr_pct": 31.3,
+        "dividend_return_pct": 23.7,
+        "capital_return_pct": 7.5,
+        "dividend_yield_component_pct": 3.95,
+        "dividend_growth_component_pct": 19.77,
+        "eps_growth_component_pct": 10.41,
+        "valuation_reversion_component_pct": -2.87
+      },
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 123.4,
+          "latest_forecast_growth_pct": 94.3,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 125.8,
+          "latest_forecast_growth_pct": 117.5,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-21 22:59",
       "forecast_dividend_changes": []
     }
   ],
