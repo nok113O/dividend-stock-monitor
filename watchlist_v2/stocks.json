@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21 22:59",
+  "generated_at": "2026-10-22 00:06",
   "stocks": [
     {
       "code": "8306",
@@ -9993,9 +9993,50 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
-      "updated_at": "2026-10-21 07:31",
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 9.8,
+        "per_median": 11.2,
+        "per_max": 13.4,
+        "price_low": 2713.3,
+        "price_center": 3100.9,
+        "price_high": 3710.1,
+        "yield_at_low_pct": 4.42,
+        "yield_at_center_pct": 3.87,
+        "yield_at_high_pct": 3.23,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 57.9
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 54.5
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 52.3
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 46.9
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 45.1
+          }
+        ],
+        "latest_pct": 45.1,
+        "change_pt": -12.8,
+        "drop_from_max_pt": 12.8,
+        "alert": true,
+        "alert_threshold_pt": 10.0
+      },
+      "updated_at": "2026-10-22 00:06",
       "forecast_dividend_changes": []
     },
     {
@@ -15124,9 +15165,50 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
-      "updated_at": "2026-10-21 07:43",
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 5.8,
+        "per_median": 7.8,
+        "per_max": 9.2,
+        "price_low": 1193.8,
+        "price_center": 1605.5,
+        "price_high": 1893.6,
+        "yield_at_low_pct": 6.87,
+        "yield_at_center_pct": 5.11,
+        "yield_at_high_pct": 4.33,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 70.2
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 76.2
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 78.7
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 65.5
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 71.0
+          }
+        ],
+        "latest_pct": 71.0,
+        "change_pt": 0.8,
+        "drop_from_max_pt": 7.7,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
+      "updated_at": "2026-10-22 00:06",
       "forecast_dividend_changes": []
     },
     {
@@ -15928,7 +16010,7 @@
         "alert": false,
         "alert_threshold_pt": 10.0
       },
-      "updated_at": "2026-10-21 07:45",
+      "updated_at": "2026-10-22 00:06",
       "forecast_dividend_changes": []
     },
     {
