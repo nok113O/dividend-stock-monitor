@@ -316,10 +316,12 @@ CSS = """
     display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px;
   }
   .section-tab-btn {
-    text-align: center; font-size: 0.7rem; font-weight: 600; padding: 8px 3px;
+    text-align: center; font-size: 0.64rem; font-weight: 600; padding: 8px 2px;
     border-radius: 9px; cursor: pointer; border: 1.5px solid transparent;
     background: var(--paper-sunken); color: var(--ink-dim);
     transition: border-color 0.15s ease;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    letter-spacing: -0.02em;
   }
   .section-tab-btn.pass { background: var(--green-soft); color: var(--green); }
   .section-tab-btn.fail { background: var(--hanko-soft); color: var(--hanko); }
