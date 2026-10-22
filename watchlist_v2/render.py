@@ -296,7 +296,7 @@ CSS = """
 
   .section-tabs { margin-top: 14px; }
   .section-tab-bar {
-    display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px;
   }
   .section-tab-btn {
     text-align: center; font-size: 0.7rem; font-weight: 600; padding: 8px 3px;
@@ -311,13 +311,15 @@ CSS = """
   .card .section-tabs input.tab-radio:nth-of-type(1):checked ~ .section-tab-bar label:nth-of-type(1),
   .card .section-tabs input.tab-radio:nth-of-type(2):checked ~ .section-tab-bar label:nth-of-type(2),
   .card .section-tabs input.tab-radio:nth-of-type(3):checked ~ .section-tab-bar label:nth-of-type(3),
-  .card .section-tabs input.tab-radio:nth-of-type(4):checked ~ .section-tab-bar label:nth-of-type(4) {
+  .card .section-tabs input.tab-radio:nth-of-type(4):checked ~ .section-tab-bar label:nth-of-type(4),
+  .card .section-tabs input.tab-radio:nth-of-type(5):checked ~ .section-tab-bar label:nth-of-type(5) {
     border-color: var(--indigo);
   }
   .card .section-tabs input.tab-radio:nth-of-type(1):checked ~ .sp-1,
   .card .section-tabs input.tab-radio:nth-of-type(2):checked ~ .sp-2,
   .card .section-tabs input.tab-radio:nth-of-type(3):checked ~ .sp-3,
-  .card .section-tabs input.tab-radio:nth-of-type(4):checked ~ .sp-4 {
+  .card .section-tabs input.tab-radio:nth-of-type(4):checked ~ .sp-4,
+  .card .section-tabs input.tab-radio:nth-of-type(5):checked ~ .sp-5 {
     display: block;
   }
   .comment { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--rule); font-size: 0.78rem; line-height: 1.6; }
