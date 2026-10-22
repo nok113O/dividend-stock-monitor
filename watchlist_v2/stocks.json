@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22 07:57",
+  "generated_at": "2026-10-22 15:57",
   "stocks": [
     {
       "code": "8306",
@@ -8363,48 +8363,48 @@
       "sector": "サービス",
       "cycle": "景気敏感",
       "fiscal_year_end_month": 3,
-      "price": 1561.0,
-      "price_date": "2026-10-22 15:30",
-      "price_change": 9.0,
-      "price_change_pct": 0.0057989685,
+      "price": null,
+      "price_date": null,
+      "price_change": null,
+      "price_change_pct": null,
       "step1": {
-        "overall": "×",
+        "overall": "要確認",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 13.873089228581586,
+            "value": null,
             "criterion": "12倍以下",
-            "judge": "×"
+            "judge": "要確認"
           },
           "PBR": {
-            "value": 1.7662766751906585,
+            "value": null,
             "criterion": "1.3倍以下",
-            "judge": "×"
+            "judge": "要確認"
           },
           "ROE": {
-            "value": 11.945701357466064,
+            "value": 11.627394846950011,
             "criterion": "7%以上",
             "judge": "○"
           },
           "ROA": {
-            "value": 6.954950886304617,
+            "value": 7.251466577723714,
             "criterion": "3%以上",
             "judge": "○"
           },
           "配当利回り": {
-            "value": 3.6515054452274183,
+            "value": null,
             "criterion": "3%以上",
-            "judge": "○"
+            "judge": "要確認"
           },
           "自己資本比率": {
-            "value": 57.599999999999994,
+            "value": 61.8,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 541.04653372,
+            "value": null,
             "criterion": "100億円以上",
-            "judge": "○"
+            "judge": "要確認"
           }
         }
       },
@@ -8425,14 +8425,20 @@
           },
           "10期で減配2回未満": {
             "judge": "○",
-            "detail": "減配 1回"
+            "detail": "減配 1回（普通配当ベース）"
           },
           "10期で無配なし": {
             "judge": "○",
-            "detail": "無配・欠損 0期"
+            "detail": "無配・欠損 0期（普通配当ベース）"
           }
         },
-        "periods_available": 10
+        "periods_available": 10,
+        "special_dividend_notes": [
+          {
+            "period": "2022-03-31",
+            "note": "特別配当あり(2022・投資有価証券売却益、特別配当13.5円)"
+          }
+        ]
       },
       "step3": {
         "eps_sum": 663.19,
@@ -8440,8 +8446,8 @@
         "target_price": 1546.94
       },
       "forecast_dividend": 57.0,
-      "dividend_yield_pct": 3.6515054452274183,
-      "dividend_override_note": "2023年3月期に一株配当が41.5円→28円へ減配(1回のみ、直近10期内)。2011年3月期に一時的な特殊要因でEPS/BPSが極端な値になったが直近10期には含まれない。2027年3月期の会社予想は57円(2026-07提供資料、四半期内訳2Q28.5円+4Q28.5円)。2026-08-09確認：配当性向約50%・DOE約5%を目標に累進配当を実施(下限配当40円を設定)。",
+      "dividend_yield_pct": null,
+      "dividend_override_note": "2023年3月期の41.5円→28円は減配ではなく、2022年3月期に投資有価証券売却益を背景とした特別配当13.5円(2021-09-15開示「業績予想及び配当予想の修正（特別配当）に関するお知らせ」、中間配当14円→27.5円に増額・期末14円は変更なし)の反動。普通配当は28.0円(中間14+期末14)で一貫しており、ordinary_dividend_overridesで補正済み(2026-10-22)。2011年3月期に一時的な特殊要因でEPS/BPSが極端な値になったが直近10期には含まれない。2027年3月期の会社予想は57円(2026-07提供資料、四半期内訳2Q28.5円+4Q28.5円)。2026-08-09確認：配当性向約50%・DOE約5%を目標に累進配当を実施(下限配当40円を設定)。",
       "target_yield": {
         "cycle_class": "非景気敏感株",
         "reason": "業種：サービス業・利益比較的安定・減配1回",
@@ -8451,13 +8457,13 @@
         "buy1_price": 1367,
         "buy2_price": 1323,
         "buy3_price": 1287,
-        "buy_status": "監視",
-        "sample_daily": 731,
+        "buy_status": "要確認",
+        "sample_daily": 730,
         "sample_annual": 10,
         "error": null
       },
       "rating": "条件付き監視",
-      "comment": "PERは基準未達。 PBRは基準未達。",
+      "comment": "PERは取得できず要確認。 PBRは取得できず要確認。 配当利回りは取得できず要確認。 時価総額は取得できず要確認。",
       "priority_score": {
         "growth_score": 3,
         "income_score": 3,
@@ -8481,13 +8487,13 @@
         ]
       },
       "expected_irr": {
-        "expected_irr_pct": 19.4,
-        "dividend_return_pct": 14.1,
-        "capital_return_pct": 5.2,
-        "dividend_yield_component_pct": 3.65,
-        "dividend_growth_component_pct": 10.49,
-        "eps_growth_component_pct": 10.71,
-        "valuation_reversion_component_pct": -5.47
+        "expected_irr_pct": null,
+        "dividend_return_pct": null,
+        "capital_return_pct": null,
+        "dividend_yield_component_pct": null,
+        "dividend_growth_component_pct": null,
+        "eps_growth_component_pct": null,
+        "valuation_reversion_component_pct": null
       },
       "forecast_tendency": {
         "sales": {
@@ -8505,7 +8511,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-22 07:35",
+      "updated_at": "2026-10-22 15:57",
       "forecast_dividend_changes": []
     },
     {
