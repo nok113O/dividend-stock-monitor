@@ -188,7 +188,7 @@ def analyze_step1(metrics: dict, sector: str | None = None) -> dict:
     return {"rows": rows, "overall": overall, "sector_adjusted": bool(overrides)}
 
 def normalize_history(history: pd.DataFrame, code: str) -> pd.DataFrame:
-    cols = ["コード", "決算期", "EPS", "BPS", "1株配当", "データ元", "更新日"]
+    cols = ["コード", "決算期", "EPS", "BPS", "1株配当", "普通配当", "記念配当注記", "データ元", "更新日"]
     if history is None or history.empty:
         return pd.DataFrame(columns=cols)
     df = history.copy()
@@ -198,8 +198,10 @@ def normalize_history(history: pd.DataFrame, code: str) -> pd.DataFrame:
     df["コード"] = df["コード"].astype(str).str.replace(r"\.0$", "", regex=True).str.zfill(4)
     df = df[df["コード"] == str(code).zfill(4)].copy()
     df["決算期"] = pd.to_datetime(df["決算期"], errors="coerce")
-    for col in ("EPS", "BPS", "1株配当"):
+    for col in ("EPS", "BPS", "1株配当", "普通配当"):
         df[col] = pd.to_numeric(df[col], errors="coerce")
+    # 記念・特別配当の個別補正が無い期は、普通配当＝総配当とみなす(後方互換)。
+    df["普通配当"] = df["普通配当"].where(df["普通配当"].notna(), df["1株配当"])
     return df.dropna(subset=["決算期"]).sort_values("決算期")
 
 def merge_new_fy(history: pd.DataFrame, code: str, summaries: list[dict], updated_at: str) -> pd.DataFrame:
@@ -267,7 +269,14 @@ def analyze_step2(history: pd.DataFrame, code: str) -> dict:
 
     eps = df["EPS"].tolist()
     bps = df["BPS"].tolist()
-    divs = df["1株配当"].tolist()
+    # 減配・無配の判定は記念/特別配当を除いた普通配当ベースで行う
+    # (記念配当の補正が無い期は普通配当＝総配当にフォールバック済み。normalize_history参照)。
+    divs = df["普通配当"].tolist()
+    special_notes = [
+        {"period": row["決算期"].strftime("%Y-%m-%d"), "note": row["記念配当注記"]}
+        for _, row in df.iterrows()
+        if pd.notna(row.get("記念配当注記"))
+    ]
 
     result["EPS10期赤字なし"] = {
         "judge": "○" if all(pd.notna(x) and x >= 0 for x in eps) else "×",
@@ -298,16 +307,16 @@ def analyze_step2(history: pd.DataFrame, code: str) -> dict:
     zero_count = sum(pd.isna(x) or x <= 0 for x in divs)
     result["10期で減配2回未満"] = {
         "judge": "○" if decreases < 2 else "×",
-        "detail": f"減配 {decreases}回",
+        "detail": f"減配 {decreases}回（普通配当ベース）",
     }
     result["10期で無配なし"] = {
         "judge": "○" if zero_count == 0 else "×",
-        "detail": f"無配・欠損 {zero_count}期",
+        "detail": f"無配・欠損 {zero_count}期（普通配当ベース）",
     }
 
     judges = [r["judge"] for r in result.values()]
     overall = "○" if all(j == "○" for j in judges) else ("要確認" if "要確認" in judges else "×")
-    return {"rows": result, "overall": overall, "history": df}
+    return {"rows": result, "overall": overall, "history": df, "special_dividend_notes": special_notes}
 
 def calculate_step3(history: pd.DataFrame, code: str) -> dict:
     df = normalize_history(history, code).tail(10)

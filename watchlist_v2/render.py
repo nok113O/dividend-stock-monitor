@@ -480,7 +480,17 @@ def render_step2(step2: dict) -> str:
             f'{chip(row.get("judge", "要確認"))}'
             "</div>"
         )
-    parts.append("</div></div>")
+    parts.append("</div>")
+    notes = step2.get("special_dividend_notes") or []
+    if notes:
+        note_text = "／".join(esc(n.get("note")) for n in notes if n.get("note"))
+        parts.append(
+            '<div class="data-gap" style="margin-top:8px;">'
+            f"<strong>{esc(note_text)}</strong>："
+            "記念・特別配当分を除いた普通配当ベースで減配・無配を判定しています。"
+            "</div>"
+        )
+    parts.append("</div>")
     return "".join(parts)
 
 

@@ -80,6 +80,35 @@ def seed_history_df(code: str, seed: dict) -> pd.DataFrame:
     ])
 
 
+def apply_ordinary_dividend_overrides(history: pd.DataFrame, seed: dict) -> None:
+    """記念・特別配当を含む期について、普通配当（記念・特別分を除いた額）をhistory_seed.jsonの
+    `ordinary_dividend_overrides`から適用する(in-place)。未補正の期は普通配当＝総配当のまま
+    (analyzer.normalize_historyがフォールバックする)。
+
+    history_seed.jsonでの指定例:
+      "ordinary_dividend_overrides": [
+        {"period": "2024-03-31", "ordinary_dividend": 65.0, "note": "記念あり(2024・創業50周年)"}
+      ]
+    """
+    overrides = seed.get("ordinary_dividend_overrides") or []
+    if not overrides or history.empty:
+        return
+    if "普通配当" not in history.columns:
+        history["普通配当"] = None
+    if "記念配当注記" not in history.columns:
+        history["記念配当注記"] = None
+    period_key = pd.to_datetime(history["決算期"], errors="coerce").dt.strftime("%Y-%m-%d")
+    for row in overrides:
+        period = row.get("period")
+        value = row.get("ordinary_dividend")
+        if not period or value is None:
+            continue
+        mask = period_key == period
+        if mask.any():
+            history.loc[mask, "普通配当"] = float(value)
+            history.loc[mask, "記念配当注記"] = row.get("note")
+
+
 def load_edinet_codes() -> dict[str, str]:
     if not EDINET_CODES_FILE.exists():
         return {}
@@ -221,6 +250,7 @@ def fetch_one(
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     history = merge_new_fy(seed_history_df(code, seed), code, summaries, now)
+    apply_ordinary_dividend_overrides(history, seed)
 
     forecast_tendency = calculate_forecast_tendency(fy_summaries)
     valuation_range = None
@@ -310,6 +340,7 @@ def fetch_one(
                 for name, row in step2["rows"].items()
             },
             "periods_available": int(len(step2["history"])),
+            "special_dividend_notes": step2.get("special_dividend_notes", []),
         },
         "step3": {
             "eps_sum": clean(step3["eps_sum"]),
