@@ -258,6 +258,23 @@ CSS = """
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     font-variant-numeric: tabular-nums; color: var(--ink-dim);
   }
+  .vr-row { margin-top: 10px; }
+  .vr-row:first-child { margin-top: 0; }
+  .vr-label { font-size: 0.76rem; color: var(--ink-dim); }
+  .vr-value {
+    margin-top: 2px; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-variant-numeric: tabular-nums; font-size: 0.86rem; font-weight: 600;
+  }
+  .vr-yield { margin-top: 1px; font-size: 0.72rem; color: var(--indigo); }
+  .ft-row { margin-top: 10px; }
+  .ft-row:first-child { margin-top: 0; }
+  .ft-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .ft-label { font-size: 0.8rem; font-weight: 600; }
+  .ft-detail {
+    margin-top: 3px; font-size: 0.74rem; color: var(--ink-dim);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-variant-numeric: tabular-nums;
+  }
+  .ert-row { margin-top: 8px; font-size: 0.76rem; color: var(--ink-dim); }
   .tabs { margin-top: 10px; border-top: 1px dashed var(--rule); padding-top: 10px; }
   .tab-radio { position: absolute; opacity: 0; pointer-events: none; }
   .tab-labels { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
@@ -560,19 +577,22 @@ def render_valuation_range(vr: dict | None) -> str:
         "</div>"
         if vr.get("is_reference_only") else ""
     )
+    rows = [
+        ("割安目安（PER最小値）", vr["per_min"], vr["price_low"], vr.get("yield_at_low_pct")),
+        ("中心目安（PER中央値）", vr["per_median"], vr["price_center"], vr.get("yield_at_center_pct")),
+        ("割高目安（PER最大値）", vr["per_max"], vr["price_high"], vr.get("yield_at_high_pct")),
+    ]
+    row_html = "".join(
+        '<div class="vr-row"><div class="vr-label">' + label + '</div>'
+        f'<div class="vr-value">{fmt_num(per, 1)}倍 × 予想EPS ＝ {fmt_num(price, 0)}円</div>'
+        f'<div class="vr-yield">利回り{fmt_num(yld, 2)}%</div></div>'
+        for label, per, price, yld in rows
+    )
     return (
         '<div class="step"><div class="step-head"><div><div class="step-name">安い株価の目安（有報PERベース）</div>'
         f'<div class="step-sub">有効{vr.get("valid_periods")}期（除外{vr.get("excluded_periods")}期・'
         'PER50倍超または赤字期は除外）</div></div></div>'
-        '<div class="step3-box"><span>割安目安（PER最小値）</span>'
-        f'<span class="value">{fmt_num(vr["per_min"], 1)}倍 × 予想EPS ＝ {fmt_num(vr["price_low"], 0)}円'
-        f'（利回り{fmt_num(vr.get("yield_at_low_pct"), 2)}%）</span></div>'
-        '<div class="step3-box"><span>中心目安（PER中央値）</span>'
-        f'<span class="value">{fmt_num(vr["per_median"], 1)}倍 × 予想EPS ＝ {fmt_num(vr["price_center"], 0)}円'
-        f'（利回り{fmt_num(vr.get("yield_at_center_pct"), 2)}%）</span></div>'
-        '<div class="step3-box"><span>割高目安（PER最大値）</span>'
-        f'<span class="value">{fmt_num(vr["per_max"], 1)}倍 × 予想EPS ＝ {fmt_num(vr["price_high"], 0)}円'
-        f'（利回り{fmt_num(vr.get("yield_at_high_pct"), 2)}%）</span></div>'
+        f'{row_html}'
         f"{ref_note}</div>"
     )
 
@@ -595,15 +615,16 @@ def render_forecast_tendency(ft: dict | None) -> str:
         )
         tendency_cls = {"強気": "pass", "弱気": "fail"}.get(tendency, "pending")
         rows.append(
-            '<div class="check-row">'
-            f'<div class="check-label">{label}</div>'
-            f'<div class="check-value">{detail}</div>'
+            '<div class="ft-row"><div class="ft-head">'
+            f'<span class="ft-label">{label}</span>'
             f'<span class="chip {tendency_cls}">{esc(tendency)}</span>'
+            "</div>"
+            f'<div class="ft-detail">{detail}</div>'
             "</div>"
         )
     return (
         '<div class="step"><div class="step-head"><div class="step-name">会社予想の傾向</div></div>'
-        f'<div class="check-list">{"".join(rows)}</div></div>'
+        f'{"".join(rows)}</div>'
     )
 
 
