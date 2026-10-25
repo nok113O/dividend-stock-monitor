@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23 07:49",
+  "generated_at": "2026-10-25 05:50",
   "stocks": [
     {
       "code": "8306",
@@ -17815,6 +17815,158 @@
       "valuation_range": null,
       "equity_ratio_trend": null,
       "updated_at": "2026-10-23 07:49",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "5947",
+      "name": "リンナイ",
+      "industry": "金属製品",
+      "sector": "金属製品",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 3494.0,
+      "price_date": "2026-10-23 15:30",
+      "price_change": 20.0,
+      "price_change_pct": 0.0057570525,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 13.289718915218135,
+            "criterion": "12倍以下",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.1033080294552298,
+            "criterion": "1.3倍以下",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.318001149509031,
+            "criterion": "7%以上",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.566768118552456,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.033772180881511,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 67.30000000000001,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 4824.24937648,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "×",
+            "detail": "1.82倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回（普通配当ベース）"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期（普通配当ベース）"
+          }
+        },
+        "periods_available": 10,
+        "special_dividend_notes": []
+      },
+      "step3": {
+        "eps_sum": 1719.5,
+        "latest_bps": 3166.84,
+        "target_price": 4886.34
+      },
+      "forecast_dividend": 106.0,
+      "dividend_yield_pct": 3.033772180881511,
+      "dividend_override_note": "ガス機器大手(金属製品)。2023年3月期に1:3の株式分割(splitAdjustmentFactor=3.0→1.0)、EDINET DBのadjustedEps/adjustedBps/adjustedDividendPerShareで分割調整済みの値を採用。配当は28.67→30.00→31.33→32.67→41.67→46.67→53.33→60.00→80.00→100.00円と10期で減配ゼロ・無配ゼロ・一貫増配(ただし公式のDOE/累進配当方針の声明は未確認のため、dividend_policyは両方falseのまま)。EPS赤字ゼロ、BPS10期連続増加。唯一「今期EPSが9期前の2倍以上」が1.82倍で僅かに届かず(×)。2027年3月期の会社予想配当は106円(2026-08-06開示)。2026-10-25一次スクリーニング：Step1はPERのみ僅差未達(12.87倍)、Step2は上記1項目のみ未達で、総合判定は条件付き監視(除外候補ではない)。自己資本比率はequityRatioOfficialベースで67.3%(NCI込みの単純netAssets/totalAssetsでは76.1%)。",
+      "target_yield": {
+        "cycle_class": "非景気敏感株",
+        "reason": "業種：金属製品・利益比較的安定・減配なし・増配基調",
+        "target1_pct": 2.48,
+        "target2_pct": 2.77,
+        "target3_pct": 2.9,
+        "buy1_price": 4274,
+        "buy2_price": 3827,
+        "buy3_price": 3655,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 5,
+        "total_score": 6,
+        "payout_ratio_pct": 38.5,
+        "dividend_cagr_pct": 14.89,
+        "dividend_years_to_double": 5.0,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "10期連続増配を達成/宣言",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": [
+          "10期連続増配"
+        ]
+      },
+      "expected_irr": {
+        "expected_irr_pct": 25.6,
+        "dividend_return_pct": 17.9,
+        "capital_return_pct": 7.7,
+        "dividend_yield_component_pct": 3.03,
+        "dividend_growth_component_pct": 14.89,
+        "eps_growth_component_pct": 6.86,
+        "valuation_reversion_component_pct": 0.83
+      },
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 100.1,
+          "latest_forecast_growth_pct": 106.3,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 109.6,
+          "latest_forecast_growth_pct": 100.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-25 05:50",
       "forecast_dividend_changes": []
     }
   ],
