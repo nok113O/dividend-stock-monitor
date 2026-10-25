@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25 15:40",
+  "generated_at": "2026-10-25 23:01",
   "stocks": [
     {
       "code": "8306",
@@ -17967,6 +17967,304 @@
       "valuation_range": null,
       "equity_ratio_trend": null,
       "updated_at": "2026-10-25 15:40",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "9304",
+      "name": "澁澤倉庫",
+      "industry": "倉庫･運輸関連業",
+      "sector": "物流",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 2034.0,
+      "price_date": "2026-10-23 15:30",
+      "price_change": 43.0,
+      "price_change_pct": 0.021597188,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 15.783347559556141,
+            "criterion": "12倍以下(上限18倍)",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.6937438066767145,
+            "criterion": "1.3倍以下(上限1.95倍)",
+            "judge": "×"
+          },
+          "ROE": {
+            "value": 9.253225405823995,
+            "criterion": "7%以上(下限3.5%)",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.308421555561144,
+            "criterion": "3%以上(下限1.5%)",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.424778761061947,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 57.3,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 1112.0984064,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "○",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "3.87倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 1回（普通配当ベース）"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期（普通配当ベース）"
+          }
+        },
+        "periods_available": 10,
+        "special_dividend_notes": []
+      },
+      "step3": {
+        "eps_sum": 590.03,
+        "latest_bps": 1200.89,
+        "target_price": 1790.92
+      },
+      "forecast_dividend": 90.0,
+      "dividend_yield_pct": 4.424778761061947,
+      "dividend_override_note": "倉庫・運輸関連業。2025年10月1日付で1:4の株式分割を実施済み。EDINET DBのadjustedEps/adjustedBps/adjustedDividendPerShareで分割調整済みの値を採用(2026年3月期は分割またぎのためadjustedDividendBasis=straddle_pre_split、中間24円+期末32円=56円で計算済み)。10期で減配1回のみ(2018年3月期)、無配ゼロ、EPS赤字ゼロ、BPS10期連続増加、EPS9期前比3.87倍。2027年3月期の会社予想配当は90円(2026-08-07開示、中間45+期末45)。2026-10-25一次スクリーニング：Step1はPER・PBRの2項目が僅差未達だが、いずれもキャップ内(PER18倍以下・PBR1.95倍以下)。Step2は全項目クリア。総合判定は監視継続。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：倉庫･運輸関連業・配当変動大",
+        "target1_pct": 3.87,
+        "target2_pct": 4.06,
+        "target3_pct": 4.4,
+        "buy1_price": 2326,
+        "buy2_price": 2217,
+        "buy3_price": 2045,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "監視継続",
+      "comment": "PERは基準未達。 PBRは基準未達。",
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 2,
+        "total_score": 4,
+        "payout_ratio_pct": 50.2,
+        "dividend_cagr_pct": 18.13,
+        "dividend_years_to_double": 4.2,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "無配0期",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": []
+      },
+      "expected_irr": {
+        "expected_irr_pct": 32.3,
+        "dividend_return_pct": 22.6,
+        "capital_return_pct": 9.7,
+        "dividend_yield_component_pct": 4.42,
+        "dividend_growth_component_pct": 18.13,
+        "eps_growth_component_pct": 16.23,
+        "valuation_reversion_component_pct": -6.51
+      },
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 100.9,
+          "latest_forecast_growth_pct": 104.1,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 124.2,
+          "latest_forecast_growth_pct": 102.6,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-25 23:01",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "5334",
+      "name": "日本特殊陶業",
+      "industry": "ガラス･土石製品",
+      "sector": "素材",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 3389.0,
+      "price_date": "2026-10-23 15:30",
+      "price_change": 14.0,
+      "price_change_pct": 0.004148148,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 12.669158878504673,
+            "criterion": "12倍以下(上限18倍)",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 0.866707585289755,
+            "criterion": "1.3倍以下(上限1.95倍)",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 13.277163072522674,
+            "criterion": "7%以上(下限3.5%)",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 8.497473911132253,
+            "criterion": "3%以上(下限1.5%)",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.098259073473001,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 63.7,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 6608.59805602,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "4.78倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "×",
+            "detail": "減配 2回（普通配当ベース）"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期（普通配当ベース）"
+          }
+        },
+        "periods_available": 10,
+        "special_dividend_notes": []
+      },
+      "step3": {
+        "eps_sum": 1477.23,
+        "latest_bps": 1955.1,
+        "target_price": 3432.33
+      },
+      "forecast_dividend": 105.0,
+      "dividend_yield_pct": 3.098259073473001,
+      "dividend_override_note": "ガラス・土石製品(スパークプラグ大手、IFRS採用)。2026年10月1日付で1:2の株式分割を実施済み(株価が約7,621円→約3,758円に半減したことからも確認)。EDINET DBのadjustedEps/adjustedBps/adjustedDividendPerShareで分割調整済みの値を採用(splitAdjustmentFactorは10期とも一貫して2.0)。2027年3月期の会社予想配当は105円相当(開示上は中間105円(分割前基準)+期末52.5円(分割後基準)で、分割後の年間換算は105円。get_companyのadjustedForecastDividendPerShareと整合)。2026-10-25一次スクリーニング：配当利回り2.74%で必須基準(3%以上)未達、PBR1.96倍もキャップ(1.95倍)をわずかに超過。Step2も10期で減配2回(2021年・2024年)で×。総合判定は除外候補。ROE15.7%・自己資本比率62.8%など事業の質自体は高いが、本ウォッチリストの高配当スクリーニング基準には現状合わない。ユーザー判断により除外候補のまま追加(配当利回りが将来改善する可能性等を踏まえて監視対象に残す判断)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：ガラス･土石製品・配当変動大",
+        "target1_pct": 4.14,
+        "target2_pct": 4.66,
+        "target3_pct": 4.91,
+        "buy1_price": 2536,
+        "buy2_price": 2253,
+        "buy3_price": 2138,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "除外候補",
+      "comment": "PERは基準未達。 10期で減配2回未満は高配当株として重要な懸念。",
+      "priority_score": {
+        "growth_score": 3,
+        "income_score": 3,
+        "total_score": 6,
+        "payout_ratio_pct": 35.9,
+        "dividend_cagr_pct": 19.26,
+        "dividend_years_to_double": 3.9,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "ROE10%以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "無配0期",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": []
+      },
+      "expected_irr": {
+        "expected_irr_pct": 46.0,
+        "dividend_return_pct": 22.4,
+        "capital_return_pct": 23.6,
+        "dividend_yield_component_pct": 3.1,
+        "dividend_growth_component_pct": 19.26,
+        "eps_growth_component_pct": 18.97,
+        "valuation_reversion_component_pct": 4.66
+      },
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 106.3,
+          "latest_forecast_growth_pct": 108.0,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 125.4,
+          "latest_forecast_growth_pct": 93.0,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "updated_at": "2026-10-25 23:01",
       "forecast_dividend_changes": []
     }
   ],
