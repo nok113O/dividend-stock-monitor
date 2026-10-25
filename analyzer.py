@@ -168,23 +168,54 @@ def step1_metrics(price: float | None, latest: dict, fy_latest: dict | None = No
         "最新BPS": bps,
     }
 
+# Step1必須3項目(配当利回り・自己資本比率・時価総額)は未達があれば即「監視継続」対象外。
+STEP1_MANDATORY = ("配当利回り", "自己資本比率", "時価総額")
+# PER・PBR・ROE・ROAの4項目は、元の基準は維持しつつ、このうち最大2項目までの未達を許容する。
+# ただし未達の値が下記キャップ(基準の1.5倍または0.5倍)を超えて乖離している場合は許容対象外とする。
+STEP1_FLEXIBLE = ("PER", "PBR", "ROE", "ROA")
+STEP1_FLEXIBLE_MISS_TOLERANCE = 2
+
 def analyze_step1(metrics: dict, sector: str | None = None) -> dict:
     from sector_master import step1_thresholds
     overrides = step1_thresholds(sector)
     roa_limit = overrides.get("ROA", 3)
     eq_ratio_limit = overrides.get("自己資本比率", 35)
+    per_cap, pbr_cap, roe_cap, roa_cap = 18.0, 1.95, 3.5, roa_limit * 0.5
 
     rows = {
-        "PER": {"value": metrics.get("PER"), "criterion": "12倍以下", "judge": judge_le(metrics.get("PER"), 12)},
-        "PBR": {"value": metrics.get("PBR"), "criterion": "1.3倍以下", "judge": judge_le(metrics.get("PBR"), 1.3)},
-        "ROE": {"value": metrics.get("ROE"), "criterion": "7%以上", "judge": judge_ge(metrics.get("ROE"), 7)},
-        "ROA": {"value": metrics.get("ROA"), "criterion": f"{roa_limit:g}%以上", "judge": judge_ge(metrics.get("ROA"), roa_limit)},
+        "PER": {
+            "value": metrics.get("PER"), "criterion": f"12倍以下(上限{per_cap:g}倍)",
+            "judge": judge_le(metrics.get("PER"), 12), "cap_ok": judge_le(metrics.get("PER"), per_cap) != "×",
+        },
+        "PBR": {
+            "value": metrics.get("PBR"), "criterion": f"1.3倍以下(上限{pbr_cap:g}倍)",
+            "judge": judge_le(metrics.get("PBR"), 1.3), "cap_ok": judge_le(metrics.get("PBR"), pbr_cap) != "×",
+        },
+        "ROE": {
+            "value": metrics.get("ROE"), "criterion": f"7%以上(下限{roe_cap:g}%)",
+            "judge": judge_ge(metrics.get("ROE"), 7), "cap_ok": judge_ge(metrics.get("ROE"), roe_cap) != "×",
+        },
+        "ROA": {
+            "value": metrics.get("ROA"), "criterion": f"{roa_limit:g}%以上(下限{roa_cap:g}%)",
+            "judge": judge_ge(metrics.get("ROA"), roa_limit), "cap_ok": judge_ge(metrics.get("ROA"), roa_cap) != "×",
+        },
         "配当利回り": {"value": metrics.get("配当利回り"), "criterion": "3%以上", "judge": judge_ge(metrics.get("配当利回り"), 3)},
         "自己資本比率": {"value": metrics.get("自己資本比率"), "criterion": f"{eq_ratio_limit:g}%以上", "judge": judge_ge(metrics.get("自己資本比率"), eq_ratio_limit)},
         "時価総額": {"value": metrics.get("時価総額（億円）"), "criterion": "100億円以上", "judge": judge_ge(metrics.get("時価総額（億円）"), 100)},
     }
-    judges = [r["judge"] for r in rows.values()]
-    overall = "○" if all(j == "○" for j in judges) else ("要確認" if "要確認" in judges else "×")
+
+    mandatory_judges = [rows[name]["judge"] for name in STEP1_MANDATORY]
+    flexible_judges = [rows[name]["judge"] for name in STEP1_FLEXIBLE]
+
+    if "要確認" in mandatory_judges or "要確認" in flexible_judges:
+        overall = "要確認"
+    elif any(j == "×" for j in mandatory_judges):
+        overall = "×"
+    else:
+        flexible_misses = [name for name in STEP1_FLEXIBLE if rows[name]["judge"] == "×"]
+        within_cap = all(rows[name]["cap_ok"] for name in flexible_misses)
+        overall = "○" if len(flexible_misses) <= STEP1_FLEXIBLE_MISS_TOLERANCE and within_cap else "×"
+
     return {"rows": rows, "overall": overall, "sector_adjusted": bool(overrides)}
 
 def normalize_history(history: pd.DataFrame, code: str) -> pd.DataFrame:
