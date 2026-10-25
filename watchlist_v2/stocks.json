@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25 05:50",
+  "generated_at": "2026-10-25 15:40",
   "stocks": [
     {
       "code": "8306",
@@ -18,22 +18,22 @@
         "rows": {
           "PER": {
             "value": 15.45714687807853,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.6697832575723024,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 10.222428663697908,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 0.5622079301927688,
-            "criterion": "0.3%以上",
+            "criterion": "0.3%以上(下限0.15%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -148,7 +148,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:08",
+      "updated_at": "2026-10-25 14:59",
       "forecast_dividend_changes": []
     },
     {
@@ -168,22 +168,22 @@
         "rows": {
           "PER": {
             "value": 15.60814859197124,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 2.148856392950881,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 12.643504288633913,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 3.7092718787722885,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -301,7 +301,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:08",
+      "updated_at": "2026-10-25 14:59",
       "forecast_dividend_changes": []
     },
     {
@@ -316,27 +316,27 @@
       "price_change": 2.0,
       "price_change_pct": 0.0016025641,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 16.578249336870027,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 0.6073769575759342,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 14.283140185497789,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 12.060377962844331,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -405,7 +405,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PERは基準未達。",
       "priority_score": {
         "growth_score": 3,
@@ -454,7 +454,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:08",
+      "updated_at": "2026-10-25 14:59",
       "forecast_dividend_changes": []
     },
     {
@@ -469,27 +469,27 @@
       "price_change": 10.5,
       "price_change_pct": 0.0036119712,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 12.774202022855642,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.5937049337936458,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 13.198897654781819,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.527654496700916,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -607,7 +607,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:08",
+      "updated_at": "2026-10-25 14:59",
       "forecast_dividend_changes": []
     },
     {
@@ -622,27 +622,27 @@
       "price_change": 50.0,
       "price_change_pct": 0.009606148,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": true,
         "rows": {
           "PER": {
             "value": 17.940664367894573,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.1876779821904804,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.878308453059669,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 1.7254979723847739,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -760,7 +760,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:08",
+      "updated_at": "2026-10-25 14:59",
       "forecast_dividend_changes": []
     },
     {
@@ -780,22 +780,22 @@
         "rows": {
           "PER": {
             "value": 3.3914003776139077,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.44462503444442886,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 13.739189754197568,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 9.91582625268006,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -915,7 +915,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:09",
+      "updated_at": "2026-10-25 15:01",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -936,27 +936,27 @@
       "price_change": 8.0,
       "price_change_pct": 0.00300865,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 12.74917539079306,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 0.7192711816867677,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.15869589729547,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 2.9119236518339657,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "×"
           },
           "配当利回り": {
@@ -1073,7 +1073,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:10",
+      "updated_at": "2026-10-25 15:01",
       "forecast_dividend_changes": []
     },
     {
@@ -1093,22 +1093,22 @@
         "rows": {
           "PER": {
             "value": 9.892315028212668,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.085913440986853,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
-            "value": 8.88548794380936,
-            "criterion": "7%以上",
+            "value": 8.615593978164343,
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
-            "value": 1.5426463066941472,
-            "criterion": "1%以上",
+            "value": 1.4964579476748625,
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -1117,12 +1117,12 @@
             "judge": "○"
           },
           "自己資本比率": {
-            "value": 15.5,
+            "value": 15.6,
             "criterion": "10%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 12167.72665407,
+            "value": 12171.94884607,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -1226,7 +1226,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:10",
+      "updated_at": "2026-10-25 15:01",
       "forecast_dividend_changes": []
     },
     {
@@ -1241,27 +1241,27 @@
       "price_change": -90.0,
       "price_change_pct": -0.02777778,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 12.123778000153953,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.6794267556673987,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 8.502510705153878,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.8551487122915695,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -1330,7 +1330,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PERは基準未達。 PBRは基準未達。",
       "priority_score": {
         "growth_score": 2,
@@ -1378,7 +1378,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:10",
+      "updated_at": "2026-10-25 15:01",
       "forecast_dividend_changes": []
     },
     {
@@ -1393,27 +1393,27 @@
       "price_change": 3.0,
       "price_change_pct": 0.0011115228,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 15.587862005307487,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 0.9852252672724355,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 6.213406767887268,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
             "value": 5.037765641814762,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -1482,7 +1482,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PERは基準未達。 ROEは基準未達。",
       "priority_score": {
         "growth_score": 2,
@@ -1527,7 +1527,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:10",
+      "updated_at": "2026-10-25 15:02",
       "forecast_dividend_changes": []
     },
     {
@@ -1547,22 +1547,22 @@
         "rows": {
           "PER": {
             "value": 6.980583806630564,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.2303859943195046,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 14.913450363936631,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 2.4059316447802077,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "×"
           },
           "配当利回り": {
@@ -1681,7 +1681,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:11",
+      "updated_at": "2026-10-25 15:02",
       "forecast_dividend_changes": []
     },
     {
@@ -1701,22 +1701,22 @@
         "rows": {
           "PER": {
             "value": 41.02891156462585,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 0.9476020267881692,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.688005601697376,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.911035214689761,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -1832,7 +1832,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:11",
+      "updated_at": "2026-10-25 15:02",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-07",
@@ -1863,22 +1863,22 @@
         "rows": {
           "PER": {
             "value": 8.910374899284326,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.8380959174029726,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.245769273310474,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 3.7289915966386555,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -1996,7 +1996,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:12",
+      "updated_at": "2026-10-25 15:03",
       "forecast_dividend_changes": []
     },
     {
@@ -2016,22 +2016,22 @@
         "rows": {
           "PER": {
             "value": 9.601272015655576,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.47005988023952094,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.835780129737111,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 2.9100886070255925,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "×"
           },
           "配当利回り": {
@@ -2148,7 +2148,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:12",
+      "updated_at": "2026-10-25 15:03",
       "forecast_dividend_changes": []
     },
     {
@@ -2163,27 +2163,27 @@
       "price_change": -5.0,
       "price_change_pct": -0.0024491795,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 13.181229773462784,
-            "criterion": "12倍以下",
+            "value": 12.83562334551872,
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.0838961716350786,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
-            "value": 8.797089652414817,
-            "criterion": "7%以上",
+            "value": 8.686532543210573,
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
-            "value": 6.179778098792183,
-            "criterion": "3%以上",
+            "value": 5.868525592782769,
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -2192,12 +2192,12 @@
             "judge": "○"
           },
           "自己資本比率": {
-            "value": 70.0,
+            "value": 67.30000000000001,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 3024.0961947,
+            "value": 2998.75484403,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -2275,13 +2275,13 @@
         ]
       },
       "expected_irr": {
-        "expected_irr_pct": 20.2,
+        "expected_irr_pct": 20.5,
         "dividend_return_pct": 12.4,
-        "capital_return_pct": 7.8,
+        "capital_return_pct": 8.2,
         "dividend_yield_component_pct": 3.24,
         "dividend_growth_component_pct": 9.16,
         "eps_growth_component_pct": 6.66,
-        "valuation_reversion_component_pct": 1.17
+        "valuation_reversion_component_pct": 1.49
       },
       "forecast_tendency": {
         "sales": {
@@ -2299,7 +2299,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:12",
+      "updated_at": "2026-10-25 15:04",
       "forecast_dividend_changes": []
     },
     {
@@ -2319,22 +2319,22 @@
         "rows": {
           "PER": {
             "value": 11.130287435672148,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.4216204950622033,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 11.662617076011939,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 3.182567721491504,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -2454,7 +2454,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:12",
+      "updated_at": "2026-10-25 15:04",
       "forecast_dividend_changes": []
     },
     {
@@ -2474,22 +2474,22 @@
         "rows": {
           "PER": {
             "value": 7.045677926646319,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.0853065273776938,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 14.159989239253665,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 3.615853030221249,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -2606,7 +2606,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:14",
+      "updated_at": "2026-10-25 15:04",
       "forecast_dividend_changes": []
     },
     {
@@ -2626,22 +2626,22 @@
         "rows": {
           "PER": {
             "value": 9.766039158400678,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.8917564698061371,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.924918796171204,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.292078417052742,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -2757,7 +2757,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:14",
+      "updated_at": "2026-10-25 15:05",
       "forecast_dividend_changes": []
     },
     {
@@ -2777,22 +2777,22 @@
         "rows": {
           "PER": {
             "value": 20.425547339422938,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 3.01220920287376,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 16.42838978546565,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.798514343988376,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -2909,7 +2909,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:14",
+      "updated_at": "2026-10-25 15:05",
       "forecast_dividend_changes": []
     },
     {
@@ -2929,22 +2929,22 @@
         "rows": {
           "PER": {
             "value": 10.635634211574576,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.8661037841645273,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.566408236747281,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.743355725530816,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -3062,7 +3062,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:14",
+      "updated_at": "2026-10-25 15:05",
       "forecast_dividend_changes": []
     },
     {
@@ -3082,22 +3082,22 @@
         "rows": {
           "PER": {
             "value": 15.694694094933759,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.8287030752463804,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
-            "value": 7.808928553659531,
-            "criterion": "7%以上",
+            "value": 7.722870457979937,
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
-            "value": 3.3143015428109703,
-            "criterion": "3%以上",
+            "value": 3.4135047383561794,
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -3106,12 +3106,12 @@
             "judge": "×"
           },
           "自己資本比率": {
-            "value": 39.1,
+            "value": 41.099999999999994,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 172639.66233765,
+            "value": 172696.02808805,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -3214,7 +3214,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:14",
+      "updated_at": "2026-10-25 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -3229,27 +3229,27 @@
       "price_change": -29.0,
       "price_change_pct": -0.0066225166,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 14.798435108011567,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.4450290998963564,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 8.940269563623383,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.677393661831605,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -3367,7 +3367,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:15",
+      "updated_at": "2026-10-25 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -3382,27 +3382,27 @@
       "price_change": 21.0,
       "price_change_pct": 0.0068093385,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 12.35820895522388,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.0137716222304933,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 9.381013215287698,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 3.646714362289817,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -3471,7 +3471,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PERは基準未達。",
       "priority_score": {
         "growth_score": 2,
@@ -3517,7 +3517,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:15",
+      "updated_at": "2026-10-25 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -3537,22 +3537,22 @@
         "rows": {
           "PER": {
             "value": 11.792156510813964,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.9485857842075627,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.074855422124584,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 1.2392016017043204,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -3669,7 +3669,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:15",
+      "updated_at": "2026-10-25 15:06",
       "forecast_dividend_changes": []
     },
     {
@@ -3689,22 +3689,22 @@
         "rows": {
           "PER": {
             "value": 13.594357976653697,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 3.0850740914484396,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 21.530864197530864,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 13.600561491070732,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -3823,7 +3823,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:16",
+      "updated_at": "2026-10-25 15:08",
       "forecast_dividend_changes": []
     },
     {
@@ -3843,22 +3843,22 @@
         "rows": {
           "PER": {
             "value": 14.446280991735538,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.4631288189503642,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 10.149534139013792,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 2.219614843855128,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "×"
           },
           "配当利回り": {
@@ -3975,7 +3975,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:16",
+      "updated_at": "2026-10-25 15:08",
       "forecast_dividend_changes": []
     },
     {
@@ -3995,22 +3995,22 @@
         "rows": {
           "PER": {
             "value": 1.29506823891542,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.13511152249576153,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 6.597497805304798,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
             "value": 1.6097343210398463,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -4125,7 +4125,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:17",
+      "updated_at": "2026-10-25 15:08",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -4151,22 +4151,22 @@
         "rows": {
           "PER": {
             "value": 19.22801069309513,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.7314873529204537,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 8.300301938861972,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 3.9467726423955303,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -4280,7 +4280,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:17",
+      "updated_at": "2026-10-25 15:08",
       "forecast_dividend_changes": []
     },
     {
@@ -4300,22 +4300,22 @@
         "rows": {
           "PER": {
             "value": 17.079268292682926,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 2.06105915335428,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 11.631355153356942,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 2.4951019735804483,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "×"
           },
           "配当利回り": {
@@ -4433,7 +4433,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:17",
+      "updated_at": "2026-10-25 15:08",
       "forecast_dividend_changes": []
     },
     {
@@ -4448,27 +4448,27 @@
       "price_change": -40.0,
       "price_change_pct": -0.013157895,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 13.265531726730046,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 0.9690517182902052,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.700088377581723,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.297247525865947,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -4582,7 +4582,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:18",
+      "updated_at": "2026-10-25 15:09",
       "forecast_dividend_changes": []
     },
     {
@@ -4602,22 +4602,22 @@
         "rows": {
           "PER": {
             "value": 9.611192580555665,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.8173734840671156,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.33063808159682,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.521403315194222,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -4734,7 +4734,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:18",
+      "updated_at": "2026-10-25 15:09",
       "forecast_dividend_changes": []
     },
     {
@@ -4754,22 +4754,22 @@
         "rows": {
           "PER": {
             "value": 10.419268510258696,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.0616348085330716,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 10.500710543782029,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.680933367162091,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -4888,7 +4888,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:18",
+      "updated_at": "2026-10-25 15:09",
       "forecast_dividend_changes": []
     },
     {
@@ -4908,22 +4908,22 @@
         "rows": {
           "PER": {
             "value": 12.564116555713195,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 0.49229328492716623,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 11.599473906246123,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.167267464922991,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -5042,7 +5042,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:19",
+      "updated_at": "2026-10-25 15:10",
       "forecast_dividend_changes": []
     },
     {
@@ -5062,22 +5062,22 @@
         "rows": {
           "PER": {
             "value": 18.761638733705773,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 0.9169886366222053,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 5.649504015115729,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
             "value": 4.171026016600404,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -5193,7 +5193,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:19",
+      "updated_at": "2026-10-25 15:10",
       "forecast_dividend_changes": []
     },
     {
@@ -5208,27 +5208,27 @@
       "price_change": 4.0,
       "price_change_pct": 0.0012841092,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": true,
         "rows": {
           "PER": {
             "value": 12.672679993499106,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.6903866373283327,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 13.267903470556561,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.494406296734827,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -5346,7 +5346,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:19",
+      "updated_at": "2026-10-25 15:11",
       "forecast_dividend_changes": []
     },
     {
@@ -5361,27 +5361,27 @@
       "price_change": -5.0,
       "price_change_pct": -0.0017176229,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 13.863180994179944,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 0.8664152293495923,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 6.574035512815659,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
             "value": 3.463006617286314,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -5450,7 +5450,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PERは基準未達。 ROEは基準未達。",
       "priority_score": {
         "growth_score": 2,
@@ -5500,7 +5500,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:19",
+      "updated_at": "2026-10-25 15:11",
       "forecast_dividend_changes": []
     },
     {
@@ -5515,27 +5515,27 @@
       "price_change": -16.0,
       "price_change_pct": -0.003709715,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": true,
         "rows": {
           "PER": {
             "value": 8.074942684256023,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.758562738099021,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 3.739729400706846,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
             "value": 0.5637240870558337,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "×"
           },
           "配当利回り": {
@@ -5651,7 +5651,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:20",
+      "updated_at": "2026-10-25 15:11",
       "forecast_dividend_changes": []
     },
     {
@@ -5671,22 +5671,22 @@
         "rows": {
           "PER": {
             "value": 3.5792298570804473,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.5714484998854114,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.765432098765432,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.853845994489445,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -5798,7 +5798,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:21",
+      "updated_at": "2026-10-25 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -5818,22 +5818,22 @@
         "rows": {
           "PER": {
             "value": 8.851512738853502,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.9481067712775029,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 10.330532157022095,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 2.9215070577237343,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "×"
           },
           "配当利回り": {
@@ -5952,7 +5952,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:21",
+      "updated_at": "2026-10-25 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -5967,27 +5967,27 @@
       "price_change": -50.0,
       "price_change_pct": -0.010279605,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 17.382826605040805,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.2015534833569617,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.857557576930521,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.806388104166551,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -6056,7 +6056,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PERは基準未達。",
       "priority_score": {
         "growth_score": 2,
@@ -6104,7 +6104,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:21",
+      "updated_at": "2026-10-25 15:12",
       "forecast_dividend_changes": []
     },
     {
@@ -6119,27 +6119,27 @@
       "price_change": -12.0,
       "price_change_pct": -0.0019808519,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 11.559345365555217,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.7302064650929666,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 5.938056507095495,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
             "value": 3.2296169332557647,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -6255,7 +6255,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:22",
+      "updated_at": "2026-10-25 15:13",
       "forecast_dividend_changes": []
     },
     {
@@ -6275,22 +6275,22 @@
         "rows": {
           "PER": {
             "value": 13.006885998469777,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.6119890608870682,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 10.77602477921625,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 0.41035158062467564,
-            "criterion": "0.3%以上",
+            "criterion": "0.3%以上(下限0.15%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -6408,7 +6408,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:22",
+      "updated_at": "2026-10-25 15:13",
       "forecast_dividend_changes": []
     },
     {
@@ -6428,22 +6428,22 @@
         "rows": {
           "PER": {
             "value": 20.37062937062937,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 2.3804756865420997,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 9.999593237456802,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 8.23291461859918,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -6561,7 +6561,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:22",
+      "updated_at": "2026-10-25 15:13",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-16",
@@ -6587,22 +6587,22 @@
         "rows": {
           "PER": {
             "value": 15.770421736665359,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 2.4181548862979025,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 13.574217354684295,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.408875629382953,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -6722,7 +6722,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:22",
+      "updated_at": "2026-10-25 15:13",
       "forecast_dividend_changes": []
     },
     {
@@ -6742,22 +6742,22 @@
         "rows": {
           "PER": {
             "value": 19.670467434780015,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 2.612197654967932,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 13.202176852578335,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 10.300107774409602,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -6878,7 +6878,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:24",
+      "updated_at": "2026-10-25 15:15",
       "forecast_dividend_changes": []
     },
     {
@@ -6897,23 +6897,23 @@
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 14.038401894719033,
-            "criterion": "12倍以下",
+            "value": 13.956552207428171,
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
-            "value": 1.8695694620716587,
-            "criterion": "1.3倍以下",
+            "value": 1.8154901896437934,
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
-            "value": 12.048656142787072,
-            "criterion": "7%以上",
+            "value": 11.792018057104944,
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
-            "value": 5.163921257635473,
-            "criterion": "3%以上",
+            "value": 5.150274582444338,
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -6922,12 +6922,12 @@
             "judge": "×"
           },
           "自己資本比率": {
-            "value": 41.4,
+            "value": 42.3,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 81575.78239785,
+            "value": 80997.32073394,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -7006,13 +7006,13 @@
         ]
       },
       "expected_irr": {
-        "expected_irr_pct": 30.3,
+        "expected_irr_pct": 30.8,
         "dividend_return_pct": 21.0,
-        "capital_return_pct": 9.4,
+        "capital_return_pct": 9.8,
         "dividend_yield_component_pct": 2.31,
         "dividend_growth_component_pct": 18.69,
         "eps_growth_component_pct": 15.62,
-        "valuation_reversion_component_pct": -6.26
+        "valuation_reversion_component_pct": -5.86
       },
       "forecast_tendency": {
         "sales": {
@@ -7030,7 +7030,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:24",
+      "updated_at": "2026-10-25 15:15",
       "forecast_dividend_changes": []
     },
     {
@@ -7050,22 +7050,22 @@
         "rows": {
           "PER": {
             "value": 16.82632541133455,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
-            "value": 2.4406542353465284,
-            "criterion": "1.3倍以下",
+            "value": 2.376525996157898,
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
-            "value": 12.524353949962014,
-            "criterion": "7%以上",
+            "value": 12.519191798112782,
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
-            "value": 5.380343952885394,
-            "criterion": "3%以上",
+            "value": 5.240372808662943,
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -7079,7 +7079,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 160837.89090486,
+            "value": 160910.15567367,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -7161,13 +7161,13 @@
         ]
       },
       "expected_irr": {
-        "expected_irr_pct": 19.0,
+        "expected_irr_pct": 19.3,
         "dividend_return_pct": 18.0,
-        "capital_return_pct": 1.1,
+        "capital_return_pct": 1.3,
         "dividend_yield_component_pct": 1.91,
         "dividend_growth_component_pct": 16.05,
         "eps_growth_component_pct": 12.39,
-        "valuation_reversion_component_pct": -11.34
+        "valuation_reversion_component_pct": -11.05
       },
       "forecast_tendency": {
         "sales": {
@@ -7185,7 +7185,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:24",
+      "updated_at": "2026-10-25 15:15",
       "forecast_dividend_changes": []
     },
     {
@@ -7205,22 +7205,22 @@
         "rows": {
           "PER": {
             "value": 13.167572085248642,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.0019396483195013,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.228621138913091,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 3.562944728617519,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -7336,7 +7336,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:24",
+      "updated_at": "2026-10-25 15:15",
       "forecast_dividend_changes": []
     },
     {
@@ -7356,22 +7356,22 @@
         "rows": {
           "PER": {
             "value": 17.08025181834851,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.6170752031108953,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 8.910764729992072,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.417964006229352,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -7490,7 +7490,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:24",
+      "updated_at": "2026-10-25 15:15",
       "forecast_dividend_changes": []
     },
     {
@@ -7510,22 +7510,22 @@
         "rows": {
           "PER": {
             "value": 14.983478776582224,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.065566856261448,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": -5.933043926127585,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
             "value": -3.6223316322863512,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "×"
           },
           "配当利回り": {
@@ -7640,7 +7640,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:25",
+      "updated_at": "2026-10-25 15:16",
       "forecast_dividend_changes": []
     },
     {
@@ -7660,22 +7660,22 @@
         "rows": {
           "PER": {
             "value": 11.621994624827487,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.3134759387624753,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.586201880622793,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 0.3770335709662946,
-            "criterion": "0.3%以上",
+            "criterion": "0.3%以上(下限0.15%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -7792,7 +7792,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:25",
+      "updated_at": "2026-10-25 15:16",
       "forecast_dividend_changes": []
     },
     {
@@ -7812,22 +7812,22 @@
         "rows": {
           "PER": {
             "value": 11.41373499776471,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.053112536132326,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.071500136940235,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.060391389500744,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -7942,7 +7942,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:25",
+      "updated_at": "2026-10-25 15:17",
       "forecast_dividend_changes": []
     },
     {
@@ -7962,22 +7962,22 @@
         "rows": {
           "PER": {
             "value": 13.927900527775293,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 0.7529541481390136,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 9.746949962319976,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 0.48339545987057125,
-            "criterion": "0.3%以上",
+            "criterion": "0.3%以上(下限0.15%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -8095,7 +8095,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:26",
+      "updated_at": "2026-10-25 15:17",
       "forecast_dividend_changes": []
     },
     {
@@ -8110,27 +8110,27 @@
       "price_change": -33.0,
       "price_change_pct": -0.0057241977,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": true,
         "rows": {
           "PER": {
             "value": 14.320333774702076,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.4048193243534695,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 9.780414373895162,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 2.4844224024117167,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -8248,7 +8248,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:26",
+      "updated_at": "2026-10-25 15:17",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-03",
@@ -8269,27 +8269,27 @@
       "price_change": -16.0,
       "price_change_pct": -0.007905139,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 11.681210005817336,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.762764239061732,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 15.320953727383921,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 13.537982145864916,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -8358,7 +8358,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
@@ -8408,7 +8408,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:26",
+      "updated_at": "2026-10-25 15:18",
       "forecast_dividend_changes": []
     },
     {
@@ -8423,27 +8423,27 @@
       "price_change": -16.0,
       "price_change_pct": -0.01024984,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 13.730892285815855,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.748172622145783,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 11.627394846950011,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 7.251466577723714,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -8517,7 +8517,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PERは基準未達。 PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
@@ -8566,7 +8566,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:27",
+      "updated_at": "2026-10-25 15:18",
       "forecast_dividend_changes": []
     },
     {
@@ -8586,22 +8586,22 @@
         "rows": {
           "PER": {
             "value": 15.824376857992226,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 0.9032999164578113,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 10.80521071692402,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.316666112570232,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -8717,7 +8717,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:27",
+      "updated_at": "2026-10-25 15:19",
       "forecast_dividend_changes": []
     },
     {
@@ -8737,22 +8737,22 @@
         "rows": {
           "PER": {
             "value": 10.108396421197522,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 2.7885231506751786,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 25.03323448205338,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 17.079466964348008,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -8871,7 +8871,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:28",
+      "updated_at": "2026-10-25 15:19",
       "forecast_dividend_changes": []
     },
     {
@@ -8891,22 +8891,22 @@
         "rows": {
           "PER": {
             "value": 11.886151689935852,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.1177347242921014,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 9.15234796405355,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.004442087117948,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -9024,7 +9024,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:28",
+      "updated_at": "2026-10-25 15:19",
       "forecast_dividend_changes": []
     },
     {
@@ -9039,27 +9039,27 @@
       "price_change": 10.0,
       "price_change_pct": 0.003144654,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 13.89251807333856,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.54295609104892,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 11.976214430021512,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 7.750903883921718,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -9176,7 +9176,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:28",
+      "updated_at": "2026-10-25 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -9196,22 +9196,22 @@
         "rows": {
           "PER": {
             "value": 8.680819625822995,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.5002980499020694,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 3.7525546116349258,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
             "value": 1.5253492209871085,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "×"
           },
           "配当利回り": {
@@ -9324,7 +9324,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:29",
+      "updated_at": "2026-10-25 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -9344,22 +9344,22 @@
         "rows": {
           "PER": {
             "value": 15.44300518134715,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.8761920948765887,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 9.074967416301876,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.329270063975732,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -9475,7 +9475,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:29",
+      "updated_at": "2026-10-25 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -9495,22 +9495,22 @@
         "rows": {
           "PER": {
             "value": 16.715956,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 3.8454062459504987,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 21.34387351778656,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.938644394474783,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -9617,7 +9617,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:29",
+      "updated_at": "2026-10-25 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -9632,27 +9632,27 @@
       "price_change": -9.0,
       "price_change_pct": -0.0022533801,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 14.711854395097278,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.389232662480957,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 8.75929522875035,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.796552115637729,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -9763,7 +9763,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:29",
+      "updated_at": "2026-10-25 15:21",
       "forecast_dividend_changes": []
     },
     {
@@ -9778,27 +9778,27 @@
       "price_change": -9.0,
       "price_change_pct": -0.006976744,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 14.596627164995441,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.3535502958579881,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 9.567584881486226,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.163337735226147,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -9867,7 +9867,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PERは基準未達。 PBRは基準未達。",
       "priority_score": {
         "growth_score": 2,
@@ -9917,7 +9917,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:30",
+      "updated_at": "2026-10-25 15:22",
       "forecast_dividend_changes": []
     },
     {
@@ -9937,22 +9937,22 @@
         "rows": {
           "PER": {
             "value": 9.636291400296168,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.7775501342060858,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.549923933061093,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.026395173453997,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -10107,7 +10107,7 @@
         "alert": true,
         "alert_threshold_pt": 10.0
       },
-      "updated_at": "2026-10-23 07:31",
+      "updated_at": "2026-10-25 15:22",
       "forecast_dividend_changes": []
     },
     {
@@ -10127,22 +10127,22 @@
         "rows": {
           "PER": {
             "value": 11.596337153261219,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 2.28870076201951,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 18.462976727791016,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 14.322314491728438,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -10262,7 +10262,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:31",
+      "updated_at": "2026-10-25 15:22",
       "forecast_dividend_changes": []
     },
     {
@@ -10282,22 +10282,22 @@
         "rows": {
           "PER": {
             "value": 21.22405153901217,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 3.90731385899407,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 16.00517302889761,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 12.208313490713655,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -10416,7 +10416,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:31",
+      "updated_at": "2026-10-25 15:22",
       "forecast_dividend_changes": []
     },
     {
@@ -10435,23 +10435,23 @@
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 11.068304872969595,
-            "criterion": "12倍以下",
+            "value": 11.403745,
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
-            "value": 1.1137712630249945,
-            "criterion": "1.3倍以下",
+            "value": 1.1068362496681052,
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
-            "value": 10.708202076770505,
-            "criterion": "7%以上",
+            "value": 10.639925805703687,
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
-            "value": 7.429653854871613,
-            "criterion": "3%以上",
+            "value": 7.619000182630208,
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -10460,12 +10460,12 @@
             "judge": "○"
           },
           "自己資本比率": {
-            "value": 69.19999999999999,
+            "value": 71.39999999999999,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 475.93250414,
+            "value": 475.9324672,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -10546,13 +10546,13 @@
         ]
       },
       "expected_irr": {
-        "expected_irr_pct": 40.2,
+        "expected_irr_pct": 39.9,
         "dividend_return_pct": 25.7,
-        "capital_return_pct": 14.6,
+        "capital_return_pct": 14.3,
         "dividend_yield_component_pct": 3.62,
         "dividend_growth_component_pct": 22.03,
         "eps_growth_component_pct": 11.58,
-        "valuation_reversion_component_pct": 2.99
+        "valuation_reversion_component_pct": 2.69
       },
       "forecast_tendency": {
         "sales": {
@@ -10570,7 +10570,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:31",
+      "updated_at": "2026-10-25 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -10590,22 +10590,22 @@
         "rows": {
           "PER": {
             "value": 16.770857814336075,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 2.0936878363074105,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 11.626396059332956,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 9.253960199749898,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -10724,7 +10724,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:32",
+      "updated_at": "2026-10-25 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -10744,22 +10744,22 @@
         "rows": {
           "PER": {
             "value": 10.809385710519377,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.1518067212136112,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 9.754089398542826,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 2.4650210585368715,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "×"
           },
           "配当利回り": {
@@ -10877,7 +10877,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:32",
+      "updated_at": "2026-10-25 15:24",
       "forecast_dividend_changes": []
     },
     {
@@ -10897,22 +10897,22 @@
         "rows": {
           "PER": {
             "value": 19.67706622879037,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 4.030269058295964,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 19.605054842960477,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 15.311146485025729,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -11029,7 +11029,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:33",
+      "updated_at": "2026-10-25 15:24",
       "forecast_dividend_changes": []
     },
     {
@@ -11044,27 +11044,27 @@
       "price_change": 21.0,
       "price_change_pct": 0.012859767,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 13.938985336254847,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.063692956732006,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.0213122655546005,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.306942784055121,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -11175,7 +11175,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:33",
+      "updated_at": "2026-10-25 15:24",
       "forecast_dividend_changes": []
     },
     {
@@ -11195,22 +11195,22 @@
         "rows": {
           "PER": {
             "value": 15.000597157530155,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 2.4604293997805984,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 15.92318246267923,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 8.173018428154197,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -11328,7 +11328,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:33",
+      "updated_at": "2026-10-25 15:24",
       "forecast_dividend_changes": []
     },
     {
@@ -11348,22 +11348,22 @@
         "rows": {
           "PER": {
             "value": 11.40116763969975,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.153849400285297,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.509329899878933,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.752573389248952,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -11482,7 +11482,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:33",
+      "updated_at": "2026-10-25 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -11502,22 +11502,22 @@
         "rows": {
           "PER": {
             "value": 13.037048567870487,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 2.1461152111521113,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 13.037926794665658,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 9.823273711964655,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -11632,7 +11632,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:35",
+      "updated_at": "2026-10-25 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -11652,22 +11652,22 @@
         "rows": {
           "PER": {
             "value": 13.806640809762559,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 2.8944837228673137,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 20.147653128033774,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 11.535975593991573,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -11786,7 +11786,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:35",
+      "updated_at": "2026-10-25 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -11806,22 +11806,22 @@
         "rows": {
           "PER": {
             "value": 8.459139114160948,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.8026011537884825,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.396796631399408,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.05670690047825,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -11936,7 +11936,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:35",
+      "updated_at": "2026-10-25 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -11951,27 +11951,27 @@
       "price_change": -8.0,
       "price_change_pct": -0.003603604,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 15.864591551316073,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.4727913123955496,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 10.607903595372125,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 7.728851286596111,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -12040,7 +12040,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PERは基準未達。 PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
@@ -12090,7 +12090,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:35",
+      "updated_at": "2026-10-25 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -12110,22 +12110,22 @@
         "rows": {
           "PER": {
             "value": 10.069477044408975,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.033232017186815,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 11.50005266030275,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 7.933603709526136,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -12243,7 +12243,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:35",
+      "updated_at": "2026-10-25 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -12258,27 +12258,27 @@
       "price_change": -47.0,
       "price_change_pct": -0.025026625,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 9.911763113733558,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.3690436134975288,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 10.379282218597064,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.614073788121106,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -12393,7 +12393,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:36",
+      "updated_at": "2026-10-25 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -12413,22 +12413,22 @@
         "rows": {
           "PER": {
             "value": 9.23185646705896,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.9673962818491915,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 10.012758434294064,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.150863543509495,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -12543,7 +12543,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:36",
+      "updated_at": "2026-10-25 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -12563,22 +12563,22 @@
         "rows": {
           "PER": {
             "value": 20.981116478520317,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 4.267056141051371,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 19.188113537488757,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 13.99889601721312,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -12693,7 +12693,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:36",
+      "updated_at": "2026-10-25 15:28",
       "forecast_dividend_changes": []
     },
     {
@@ -12712,23 +12712,23 @@
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 18.795327464983668,
-            "criterion": "12倍以下",
+            "value": 18.80469702005096,
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.1173680798054233,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
-            "value": 5.232241676494602,
-            "criterion": "7%以上",
+            "value": 5.126742618409161,
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
-            "value": 4.415846258876674,
-            "criterion": "3%以上",
+            "value": 4.281631239019079,
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -12737,12 +12737,12 @@
             "judge": "×"
           },
           "自己資本比率": {
-            "value": 84.2,
+            "value": 83.39999999999999,
             "criterion": "35%以上",
             "judge": "○"
           },
           "時価総額": {
-            "value": 1378.1055974,
+            "value": 1378.10393385,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -12843,7 +12843,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:37",
+      "updated_at": "2026-10-25 15:28",
       "forecast_dividend_changes": []
     },
     {
@@ -12858,27 +12858,27 @@
       "price_change": -7.0,
       "price_change_pct": -0.0028089888,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 8.9199181593022,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.5617939425726771,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 5.533352214914351,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
             "value": 3.1322554020272078,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -12947,7 +12947,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "ROEは基準未達。",
       "priority_score": {
         "growth_score": 2,
@@ -12995,7 +12995,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:37",
+      "updated_at": "2026-10-25 15:29",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -13016,27 +13016,27 @@
       "price_change": 3.0,
       "price_change_pct": 0.0011876485,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 10.311926605504587,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.4771160899936921,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 13.387483847147868,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 9.223177494022487,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -13153,7 +13153,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:38",
+      "updated_at": "2026-10-25 15:29",
       "forecast_dividend_changes": []
     },
     {
@@ -13173,22 +13173,22 @@
         "rows": {
           "PER": {
             "value": 19.177087985707903,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.2623942492153677,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.766048957560458,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.9524532855581525,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -13302,7 +13302,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:38",
+      "updated_at": "2026-10-25 15:29",
       "forecast_dividend_changes": []
     },
     {
@@ -13322,22 +13322,22 @@
         "rows": {
           "PER": {
             "value": 10.173689619732786,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.20393027764100938,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 9.871230970790174,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.076430399692695,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -13454,7 +13454,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:38",
+      "updated_at": "2026-10-25 15:30",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -13479,23 +13479,23 @@
         "sector_adjusted": true,
         "rows": {
           "PER": {
-            "value": 4.212694,
-            "criterion": "12倍以下",
+            "value": 4.1841903,
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.0532987155157203,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 17.281864343001217,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 1.091115800688966,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -13589,13 +13589,13 @@
         ]
       },
       "expected_irr": {
-        "expected_irr_pct": 63.9,
+        "expected_irr_pct": 64.0,
         "dividend_return_pct": 19.6,
-        "capital_return_pct": 44.3,
+        "capital_return_pct": 44.4,
         "dividend_yield_component_pct": 3.59,
         "dividend_growth_component_pct": 15.99,
         "eps_growth_component_pct": 26.62,
-        "valuation_reversion_component_pct": 17.66
+        "valuation_reversion_component_pct": 17.77
       },
       "forecast_tendency": {
         "sales": {
@@ -13613,7 +13613,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:39",
+      "updated_at": "2026-10-25 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -13628,27 +13628,27 @@
       "price_change": 50.0,
       "price_change_pct": 0.01545595,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 12.78409090909091,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.150496096718722,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.437376317777858,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.044489504841606,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -13761,7 +13761,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:39",
+      "updated_at": "2026-10-25 15:31",
       "forecast_dividend_changes": []
     },
     {
@@ -13776,27 +13776,27 @@
       "price_change": -15.0,
       "price_change_pct": -0.0066874716,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 12.62251430513852,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.2446510172843368,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 9.77320636766737,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 8.925844785235345,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -13913,7 +13913,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:39",
+      "updated_at": "2026-10-25 15:31",
       "forecast_dividend_changes": []
     },
     {
@@ -13933,22 +13933,22 @@
         "rows": {
           "PER": {
             "value": 9.846898717613191,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.1217001147786165,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 11.867551105807232,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 3.7849340121595567,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -14055,7 +14055,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:40",
+      "updated_at": "2026-10-25 15:31",
       "forecast_dividend_changes": []
     },
     {
@@ -14075,22 +14075,22 @@
         "rows": {
           "PER": {
             "value": 7.31598733676296,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.0792075595607282,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 13.60646629747119,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 7.181912780247848,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -14210,7 +14210,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:40",
+      "updated_at": "2026-10-25 15:31",
       "forecast_dividend_changes": []
     },
     {
@@ -14229,23 +14229,23 @@
         "sector_adjusted": false,
         "rows": {
           "PER": {
-            "value": 8.976157082748948,
-            "criterion": "12倍以下",
+            "value": 8.415312,
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.6804462278156022,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.869114126097367,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.287562372944003,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -14259,7 +14259,7 @@
             "judge": "○"
           },
           "時価総額": {
-            "value": 340.76016576,
+            "value": 340.74376192,
             "criterion": "100億円以上",
             "judge": "○"
           }
@@ -14340,13 +14340,13 @@
         ]
       },
       "expected_irr": {
-        "expected_irr_pct": 43.6,
+        "expected_irr_pct": 44.5,
         "dividend_return_pct": 19.2,
-        "capital_return_pct": 24.4,
+        "capital_return_pct": 25.3,
         "dividend_yield_component_pct": 3.53,
         "dividend_growth_component_pct": 15.64,
         "eps_growth_component_pct": 11.89,
-        "valuation_reversion_component_pct": 12.55
+        "valuation_reversion_component_pct": 13.42
       },
       "forecast_tendency": {
         "sales": {
@@ -14364,7 +14364,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:40",
+      "updated_at": "2026-10-25 15:33",
       "forecast_dividend_changes": []
     },
     {
@@ -14384,22 +14384,22 @@
         "rows": {
           "PER": {
             "value": 8.253272293506996,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.7795371498172959,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 9.041614005999714,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.082443418894228,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -14517,7 +14517,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:40",
+      "updated_at": "2026-10-25 15:33",
       "forecast_dividend_changes": []
     },
     {
@@ -14532,27 +14532,27 @@
       "price_change": -21.5,
       "price_change_pct": -0.008289956,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 14.712275483354308,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.5343956378301307,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 8.949460107978405,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.489737453592109,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -14621,7 +14621,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PERは基準未達。 PBRは基準未達。",
       "priority_score": {
         "growth_score": 2,
@@ -14671,7 +14671,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:42",
+      "updated_at": "2026-10-25 15:33",
       "forecast_dividend_changes": []
     },
     {
@@ -14691,22 +14691,22 @@
         "rows": {
           "PER": {
             "value": 12.320266384138037,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 2.1386159424097526,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 16.323305986022486,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 12.705170048720497,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -14822,7 +14822,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:42",
+      "updated_at": "2026-10-25 15:33",
       "forecast_dividend_changes": []
     },
     {
@@ -14837,27 +14837,27 @@
       "price_change": -4.5,
       "price_change_pct": -0.0024278392,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 12.32009594882729,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 0.9061859813175719,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.351799620799632,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.044935515934483,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -14972,7 +14972,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:42",
+      "updated_at": "2026-10-25 15:33",
       "forecast_dividend_changes": []
     },
     {
@@ -14992,22 +14992,22 @@
         "rows": {
           "PER": {
             "value": 8.924840888111548,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.8200490154501341,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 8.369748733737213,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.939878770792219,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -15167,7 +15167,7 @@
         "alert": false,
         "alert_threshold_pt": 10.0
       },
-      "updated_at": "2026-10-23 07:42",
+      "updated_at": "2026-10-25 15:34",
       "forecast_dividend_changes": []
     },
     {
@@ -15182,27 +15182,27 @@
       "price_change": 4.0,
       "price_change_pct": 0.0018788163,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": true,
         "rows": {
           "PER": {
             "value": 10.189165950128977,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.7572042904453562,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 11.814544598729112,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 3.925657534603655,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -15271,7 +15271,7 @@
         "sample_annual": 10,
         "error": null
       },
-      "rating": "条件付き監視",
+      "rating": "監視継続",
       "comment": "PBRは基準未達。",
       "priority_score": {
         "growth_score": 3,
@@ -15321,7 +15321,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:43",
+      "updated_at": "2026-10-25 15:34",
       "forecast_dividend_changes": []
     },
     {
@@ -15341,22 +15341,22 @@
         "rows": {
           "PER": {
             "value": 11.415749246195919,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.1132385120350108,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 9.632115636896282,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.810498514361175,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -15473,7 +15473,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:43",
+      "updated_at": "2026-10-25 15:34",
       "forecast_dividend_changes": []
     },
     {
@@ -15488,27 +15488,27 @@
       "price_change": 44.0,
       "price_change_pct": 0.012181615,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 13.300833121111799,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.4954127314597045,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 10.976185397953154,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.601823324675871,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -15628,7 +15628,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:43",
+      "updated_at": "2026-10-25 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -15648,22 +15648,22 @@
         "rows": {
           "PER": {
             "value": 10.407327466932315,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.9428522722714693,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.353817825349725,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 3.84206109577901,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -15778,7 +15778,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:44",
+      "updated_at": "2026-10-25 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -15798,22 +15798,22 @@
         "rows": {
           "PER": {
             "value": 14.250298739053665,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.9743800100819404,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 15.169320090361285,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 13.005833532691707,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -15974,7 +15974,7 @@
         "alert": false,
         "alert_threshold_pt": 10.0
       },
-      "updated_at": "2026-10-23 07:44",
+      "updated_at": "2026-10-25 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -15994,22 +15994,22 @@
         "rows": {
           "PER": {
             "value": 10.945481335952849,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.9711085933414677,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 10.22554363527803,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.966289598262812,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -16126,7 +16126,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:45",
+      "updated_at": "2026-10-25 15:36",
       "forecast_dividend_changes": []
     },
     {
@@ -16146,22 +16146,22 @@
         "rows": {
           "PER": {
             "value": 9.974424552429667,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.031009118146317,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 10.8768541746527,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 7.425540865981841,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -16280,7 +16280,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:45",
+      "updated_at": "2026-10-25 15:36",
       "forecast_dividend_changes": []
     },
     {
@@ -16295,27 +16295,27 @@
       "price_change": 0.0,
       "price_change_pct": 0.0,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 11.667737101263112,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.6904602465024523,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 5.979249024721519,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
             "value": 5.0988010657193605,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -16433,7 +16433,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:45",
+      "updated_at": "2026-10-25 15:37",
       "forecast_dividend_changes": []
     },
     {
@@ -16448,27 +16448,27 @@
       "price_change": -11.0,
       "price_change_pct": -0.0050973124,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 7.070640540095505,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.41180600043731613,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 5.61929143888107,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "×"
           },
           "ROA": {
             "value": 3.6126139429982955,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -16584,7 +16584,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:46",
+      "updated_at": "2026-10-25 15:37",
       "forecast_dividend_changes": []
     },
     {
@@ -16604,22 +16604,22 @@
         "rows": {
           "PER": {
             "value": 9.454306788348545,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 1.178863848045424,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 12.410633043026127,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 4.009027923577578,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -16739,7 +16739,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:46",
+      "updated_at": "2026-10-25 15:37",
       "forecast_dividend_changes": []
     },
     {
@@ -16759,22 +16759,22 @@
         "rows": {
           "PER": {
             "value": 9.01527815573611,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.8700839692938024,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 12.332094884252644,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 7.314334145566267,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -16893,7 +16893,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:46",
+      "updated_at": "2026-10-25 15:38",
       "forecast_dividend_changes": []
     },
     {
@@ -16913,22 +16913,22 @@
         "rows": {
           "PER": {
             "value": 5.267890595728737,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.5023904638714795,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 9.341430878326197,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.70161342161085,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -17046,7 +17046,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:47",
+      "updated_at": "2026-10-25 15:38",
       "forecast_dividend_changes": []
     },
     {
@@ -17066,22 +17066,22 @@
         "rows": {
           "PER": {
             "value": 7.399391670566214,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.8279716984219448,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 10.175559336234388,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 1.1024636562593857,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -17201,7 +17201,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:47",
+      "updated_at": "2026-10-25 15:38",
       "forecast_dividend_changes": []
     },
     {
@@ -17221,22 +17221,22 @@
         "rows": {
           "PER": {
             "value": 6.12932405876665,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.7683885347827787,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 11.95123989636687,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 8.640557967699333,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -17354,7 +17354,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:47",
+      "updated_at": "2026-10-25 15:38",
       "forecast_dividend_changes": []
     },
     {
@@ -17374,22 +17374,22 @@
         "rows": {
           "PER": {
             "value": 1.4427454184662074,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.25002832035991135,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 11.548599134424522,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 6.839204501657288,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -17507,7 +17507,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:47",
+      "updated_at": "2026-10-25 15:39",
       "forecast_dividend_changes": []
     },
     {
@@ -17527,22 +17527,22 @@
         "rows": {
           "PER": {
             "value": 10.90047393364929,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "○"
           },
           "PBR": {
             "value": 0.9310777562375463,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 10.14808176503222,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 7.21655741684875,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -17661,7 +17661,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:48",
+      "updated_at": "2026-10-25 15:40",
       "forecast_dividend_changes": []
     },
     {
@@ -17681,22 +17681,22 @@
         "rows": {
           "PER": {
             "value": 12.768496420047732,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.5397507956930996,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "×"
           },
           "ROE": {
             "value": 10.262699649194728,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 0.5887302078223823,
-            "criterion": "1%以上",
+            "criterion": "1%以上(下限0.5%)",
             "judge": "×"
           },
           "配当利回り": {
@@ -17814,7 +17814,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-23 07:49",
+      "updated_at": "2026-10-25 15:40",
       "forecast_dividend_changes": []
     },
     {
@@ -17829,27 +17829,27 @@
       "price_change": 20.0,
       "price_change_pct": 0.0057570525,
       "step1": {
-        "overall": "×",
+        "overall": "○",
         "sector_adjusted": false,
         "rows": {
           "PER": {
             "value": 13.289718915218135,
-            "criterion": "12倍以下",
+            "criterion": "12倍以下(上限18倍)",
             "judge": "×"
           },
           "PBR": {
             "value": 1.1033080294552298,
-            "criterion": "1.3倍以下",
+            "criterion": "1.3倍以下(上限1.95倍)",
             "judge": "○"
           },
           "ROE": {
             "value": 7.318001149509031,
-            "criterion": "7%以上",
+            "criterion": "7%以上(下限3.5%)",
             "judge": "○"
           },
           "ROA": {
             "value": 5.566768118552456,
-            "criterion": "3%以上",
+            "criterion": "3%以上(下限1.5%)",
             "judge": "○"
           },
           "配当利回り": {
@@ -17966,7 +17966,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-25 05:50",
+      "updated_at": "2026-10-25 15:40",
       "forecast_dividend_changes": []
     }
   ],
