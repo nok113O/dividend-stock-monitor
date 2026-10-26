@@ -297,7 +297,9 @@
         ],
         "last_disc_no": 20260731505851,
         "forecast_dividend_basis": 96.0,
-        "price_at_lock": 3567.0
+        "price_at_lock": 3567.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:46",
       "forecast_dividend_changes": []
@@ -501,7 +503,9 @@
         ],
         "last_disc_no": 20260511523545,
         "forecast_dividend_basis": 84.0,
-        "price_at_lock": 2865.5
+        "price_at_lock": 2865.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:46",
       "forecast_dividend_changes": []
@@ -785,7 +789,9 @@
         ],
         "last_disc_no": 20260511521944,
         "forecast_dividend_basis": 45.5,
-        "price_at_lock": 1309.5
+        "price_at_lock": 1309.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:46",
       "forecast_dividend_changes": []
@@ -1075,7 +1081,9 @@
         ],
         "last_disc_no": 20260512524360,
         "forecast_dividend_basis": 94.0,
-        "price_at_lock": 3699.0
+        "price_at_lock": 3699.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:46",
       "forecast_dividend_changes": []
@@ -1370,7 +1378,9 @@
         ],
         "last_disc_no": 20260626581350,
         "forecast_dividend_basis": 170.0,
-        "price_at_lock": 4420.0
+        "price_at_lock": 4420.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:46",
       "forecast_dividend_changes": []
@@ -1662,7 +1672,9 @@
         ],
         "last_disc_no": 20260514533037,
         "forecast_dividend_basis": 36.5,
-        "price_at_lock": 947.5
+        "price_at_lock": 947.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:47",
       "forecast_dividend_changes": [
@@ -1951,7 +1963,9 @@
         ],
         "last_disc_no": 20260513531541,
         "forecast_dividend_basis": 112.0,
-        "price_at_lock": 2775.0
+        "price_at_lock": 2775.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:47",
       "forecast_dividend_changes": []
@@ -2249,7 +2263,9 @@
         ],
         "last_disc_no": 20260731505912,
         "forecast_dividend_basis": 90.0,
-        "price_at_lock": 2526.5
+        "price_at_lock": 2526.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:47",
       "forecast_dividend_changes": []
@@ -2544,7 +2560,9 @@
         ],
         "last_disc_no": 20260512524365,
         "forecast_dividend_basis": 105.0,
-        "price_at_lock": 3140.0
+        "price_at_lock": 3140.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:48",
       "forecast_dividend_changes": []
@@ -2830,7 +2848,9 @@
         ],
         "last_disc_no": 20260511521369,
         "forecast_dividend_basis": 95.0,
-        "price_at_lock": 2761.0
+        "price_at_lock": 2761.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:48",
       "forecast_dividend_changes": []
@@ -3115,7 +3135,9 @@
         ],
         "last_disc_no": 20260724599425,
         "forecast_dividend_basis": 53.0,
-        "price_at_lock": 1118.0
+        "price_at_lock": 1118.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:49",
       "forecast_dividend_changes": []
@@ -3327,7 +3349,9 @@
         ],
         "last_disc_no": 20260512526353,
         "forecast_dividend_basis": 108.0,
-        "price_at_lock": 3860.0
+        "price_at_lock": 3860.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:49",
       "forecast_dividend_changes": [
@@ -3622,7 +3646,9 @@
         ],
         "last_disc_no": 20260513529065,
         "forecast_dividend_basis": 76.0,
-        "price_at_lock": 2093.0
+        "price_at_lock": 2093.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:49",
       "forecast_dividend_changes": []
@@ -3917,7 +3943,9 @@
         "order_warning": false,
         "last_disc_no": 20260515536591,
         "forecast_dividend_basis": 25.5,
-        "price_at_lock": 692.5
+        "price_at_lock": 692.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:50",
       "forecast_dividend_changes": []
@@ -4199,7 +4227,9 @@
         ],
         "last_disc_no": 20260729502368,
         "forecast_dividend_basis": 66.0,
-        "price_at_lock": 1951.5
+        "price_at_lock": 1951.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:50",
       "forecast_dividend_changes": []
@@ -4499,7 +4529,9 @@
         ],
         "last_disc_no": 20260727500129,
         "forecast_dividend_basis": 67.0,
-        "price_at_lock": 1809.0
+        "price_at_lock": 1809.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:50",
       "forecast_dividend_changes": []
@@ -4782,7 +4814,9 @@
         ],
         "last_disc_no": 20260508519270,
         "forecast_dividend_basis": 130.0,
-        "price_at_lock": 3285.0
+        "price_at_lock": 3285.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:50",
       "forecast_dividend_changes": []
@@ -5064,7 +5098,9 @@
         ],
         "last_disc_no": 20260511522535,
         "forecast_dividend_basis": 190.0,
-        "price_at_lock": 4215.0
+        "price_at_lock": 4215.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:52",
       "forecast_dividend_changes": []
@@ -5278,7 +5314,9 @@
         ],
         "last_disc_no": 20260730504176,
         "forecast_dividend_basis": 100.0,
-        "price_at_lock": 2817.5
+        "price_at_lock": 2817.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:52",
       "forecast_dividend_changes": []
@@ -5576,7 +5614,9 @@
         ],
         "last_disc_no": 20260512527287,
         "forecast_dividend_basis": 158.0,
-        "price_at_lock": 3702.0
+        "price_at_lock": 3702.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:52",
       "forecast_dividend_changes": []
@@ -5794,7 +5834,9 @@
         ],
         "last_disc_no": 20260731505791,
         "forecast_dividend_basis": 125.0,
-        "price_at_lock": 4715.0
+        "price_at_lock": 4715.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:52",
       "forecast_dividend_changes": []
@@ -6106,7 +6148,9 @@
         ],
         "last_disc_no": 20260501515855,
         "forecast_dividend_basis": 140.0,
-        "price_at_lock": 3531.0
+        "price_at_lock": 3531.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:52",
       "forecast_dividend_changes": []
@@ -6307,7 +6351,9 @@
         ],
         "last_disc_no": 20260506517369,
         "forecast_dividend_basis": 100.0,
-        "price_at_lock": 3105.0
+        "price_at_lock": 3105.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:53",
       "forecast_dividend_changes": []
@@ -6590,7 +6636,9 @@
         ],
         "last_disc_no": 20260515536577,
         "forecast_dividend_basis": 51.0,
-        "price_at_lock": 1426.0
+        "price_at_lock": 1426.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:53",
       "forecast_dividend_changes": []
@@ -6889,7 +6937,9 @@
         ],
         "last_disc_no": 20260727500285,
         "forecast_dividend_basis": 49.5,
-        "price_at_lock": 1113.0
+        "price_at_lock": 1113.0,
+        "large_increase_warning": true,
+        "large_increase_detail": "38円→49.5円(+30.3%)"
       },
       "updated_at": "2026-10-26 14:53",
       "forecast_dividend_changes": []
@@ -7097,7 +7147,9 @@
         ],
         "last_disc_no": 20260508517415,
         "forecast_dividend_basis": 5.4,
-        "price_at_lock": 174.8000030517578
+        "price_at_lock": 174.8000030517578,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:54",
       "forecast_dividend_changes": []
@@ -7383,7 +7435,9 @@
         ],
         "last_disc_no": 20260626581200,
         "forecast_dividend_basis": 16.33,
-        "price_at_lock": 521.1333618164062
+        "price_at_lock": 521.1333618164062,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:54",
       "forecast_dividend_changes": [
@@ -7669,7 +7723,9 @@
         ],
         "last_disc_no": 20260511521310,
         "forecast_dividend_basis": 110.0,
-        "price_at_lock": 2366.0
+        "price_at_lock": 2366.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:54",
       "forecast_dividend_changes": []
@@ -7967,7 +8023,9 @@
         ],
         "last_disc_no": 20260618573655,
         "forecast_dividend_basis": 134.0,
-        "price_at_lock": 2778.5
+        "price_at_lock": 2778.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:55",
       "forecast_dividend_changes": []
@@ -8247,7 +8305,9 @@
         ],
         "last_disc_no": 20260729502439,
         "forecast_dividend_basis": 124.0,
-        "price_at_lock": 3035.0
+        "price_at_lock": 3035.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:55",
       "forecast_dividend_changes": []
@@ -8534,7 +8594,9 @@
         ],
         "last_disc_no": 20260512524095,
         "forecast_dividend_basis": 100.0,
-        "price_at_lock": 2181.0
+        "price_at_lock": 2181.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:56",
       "forecast_dividend_changes": []
@@ -8819,7 +8881,9 @@
         ],
         "last_disc_no": 20260603562240,
         "forecast_dividend_basis": 145.0,
-        "price_at_lock": 3294.0
+        "price_at_lock": 3294.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:56",
       "forecast_dividend_changes": []
@@ -9104,7 +9168,9 @@
         ],
         "last_disc_no": 20260512524816,
         "forecast_dividend_basis": 88.0,
-        "price_at_lock": 2388.5
+        "price_at_lock": 2388.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:56",
       "forecast_dividend_changes": []
@@ -9392,7 +9458,9 @@
         ],
         "last_disc_no": 20260608565282,
         "forecast_dividend_basis": 75.0,
-        "price_at_lock": 1674.0
+        "price_at_lock": 1674.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:57",
       "forecast_dividend_changes": []
@@ -9688,7 +9756,9 @@
         ],
         "last_disc_no": 20260508520004,
         "forecast_dividend_basis": 123.0,
-        "price_at_lock": 3103.0
+        "price_at_lock": 3103.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:57",
       "forecast_dividend_changes": []
@@ -9985,7 +10055,9 @@
         "order_warning": false,
         "last_disc_no": 20260724599544,
         "forecast_dividend_basis": 130.0,
-        "price_at_lock": 3005.0
+        "price_at_lock": 3005.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:57",
       "forecast_dividend_changes": []
@@ -10273,7 +10345,9 @@
         ],
         "last_disc_no": 20260729502159,
         "forecast_dividend_basis": 172.0,
-        "price_at_lock": 4517.0
+        "price_at_lock": 4517.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:57",
       "forecast_dividend_changes": []
@@ -10563,7 +10637,9 @@
         ],
         "last_disc_no": 20260423508782,
         "forecast_dividend_basis": 60.0,
-        "price_at_lock": 1277.0
+        "price_at_lock": 1277.0,
+        "large_increase_warning": true,
+        "large_increase_detail": "40円→60円(+50.0%)"
       },
       "updated_at": "2026-10-26 14:59",
       "forecast_dividend_changes": []
@@ -10848,7 +10924,9 @@
         ],
         "last_disc_no": 20260730503171,
         "forecast_dividend_basis": 44.0,
-        "price_at_lock": 972.7000122070312
+        "price_at_lock": 972.7000122070312,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:59",
       "forecast_dividend_changes": []
@@ -11131,7 +11209,9 @@
         ],
         "last_disc_no": 20260514534183,
         "forecast_dividend_basis": 205.0,
-        "price_at_lock": 5147.0
+        "price_at_lock": 5147.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:59",
       "forecast_dividend_changes": []
@@ -11413,7 +11493,9 @@
         ],
         "last_disc_no": 20260513528864,
         "forecast_dividend_basis": 210.0,
-        "price_at_lock": 5241.0
+        "price_at_lock": 5241.0,
+        "large_increase_warning": true,
+        "large_increase_detail": "160円→210円(+31.2%)"
       },
       "updated_at": "2026-10-26 14:59",
       "forecast_dividend_changes": []
@@ -11697,7 +11779,9 @@
         ],
         "last_disc_no": 20260729501468,
         "forecast_dividend_basis": 150.0,
-        "price_at_lock": 7818.0
+        "price_at_lock": 7818.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 14:59",
       "forecast_dividend_changes": []
@@ -11987,7 +12071,9 @@
         ],
         "last_disc_no": 20260724598954,
         "forecast_dividend_basis": 116.0,
-        "price_at_lock": 6702.0
+        "price_at_lock": 6702.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:00",
       "forecast_dividend_changes": [
@@ -12204,7 +12290,9 @@
         ],
         "last_disc_no": 20260730502710,
         "forecast_dividend_basis": 125.0,
-        "price_at_lock": 7232.0
+        "price_at_lock": 7232.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:00",
       "forecast_dividend_changes": []
@@ -12725,7 +12813,9 @@
         ],
         "last_disc_no": 20260803506140,
         "forecast_dividend_basis": 115.0,
-        "price_at_lock": 4979.0
+        "price_at_lock": 4979.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:01",
       "forecast_dividend_changes": []
@@ -12946,7 +13036,9 @@
         ],
         "last_disc_no": 20260803506309,
         "forecast_dividend_basis": 44.0,
-        "price_at_lock": 2301.0
+        "price_at_lock": 2301.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:01",
       "forecast_dividend_changes": []
@@ -13228,7 +13320,9 @@
         ],
         "last_disc_no": 20260730503530,
         "forecast_dividend_basis": 44.0,
-        "price_at_lock": 1722.5
+        "price_at_lock": 1722.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:02",
       "forecast_dividend_changes": []
@@ -13527,7 +13621,9 @@
         ],
         "last_disc_no": 20260511523806,
         "forecast_dividend_basis": 135.0,
-        "price_at_lock": 5401.0
+        "price_at_lock": 5401.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:02",
       "forecast_dividend_changes": []
@@ -13808,7 +13904,9 @@
         ],
         "last_disc_no": 20260512525984,
         "forecast_dividend_basis": 110.0,
-        "price_at_lock": 4920.0
+        "price_at_lock": 4920.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:02",
       "forecast_dividend_changes": []
@@ -14097,7 +14195,9 @@
         ],
         "last_disc_no": 20260728501203,
         "forecast_dividend_basis": 47.5,
-        "price_at_lock": 1672.0
+        "price_at_lock": 1672.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:03",
       "forecast_dividend_changes": []
@@ -14378,7 +14478,9 @@
         ],
         "last_disc_no": 20260512524209,
         "forecast_dividend_basis": 95.0,
-        "price_at_lock": 4104.0
+        "price_at_lock": 4104.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:03",
       "forecast_dividend_changes": []
@@ -14676,7 +14778,9 @@
         ],
         "last_disc_no": 20260708589919,
         "forecast_dividend_basis": 90.0,
-        "price_at_lock": 3407.0
+        "price_at_lock": 3407.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:04",
       "forecast_dividend_changes": []
@@ -14885,7 +14989,9 @@
         ],
         "last_disc_no": 20260507518852,
         "forecast_dividend_basis": 187.36,
-        "price_at_lock": 5732.0
+        "price_at_lock": 5732.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:04",
       "forecast_dividend_changes": [
@@ -15176,7 +15282,9 @@
         ],
         "last_disc_no": 20260514532348,
         "forecast_dividend_basis": 63.0,
-        "price_at_lock": 1990.0
+        "price_at_lock": 1990.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:04",
       "forecast_dividend_changes": []
@@ -15479,7 +15587,9 @@
         ],
         "last_disc_no": 20260730503756,
         "forecast_dividend_basis": 57.0,
-        "price_at_lock": 1592.0
+        "price_at_lock": 1592.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:04",
       "forecast_dividend_changes": []
@@ -15767,7 +15877,9 @@
         ],
         "last_disc_no": 20260511523304,
         "forecast_dividend_basis": 60.0,
-        "price_at_lock": 1758.0
+        "price_at_lock": 1758.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:06",
       "forecast_dividend_changes": []
@@ -16066,7 +16178,9 @@
         ],
         "last_disc_no": 20260515536016,
         "forecast_dividend_basis": 93.0,
-        "price_at_lock": 2924.0
+        "price_at_lock": 2924.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:06",
       "forecast_dividend_changes": []
@@ -16350,7 +16464,9 @@
         ],
         "last_disc_no": 20260728501240,
         "forecast_dividend_basis": 79.0,
-        "price_at_lock": 2254.0
+        "price_at_lock": 2254.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:06",
       "forecast_dividend_changes": []
@@ -16647,7 +16763,9 @@
         ],
         "last_disc_no": 20260513528999,
         "forecast_dividend_basis": 155.0,
-        "price_at_lock": 2965.0
+        "price_at_lock": 2965.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:06",
       "forecast_dividend_changes": []
@@ -16932,7 +17050,9 @@
         ],
         "last_disc_no": 20260730503477,
         "forecast_dividend_basis": 105.0,
-        "price_at_lock": 3800.0
+        "price_at_lock": 3800.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:06",
       "forecast_dividend_changes": []
@@ -17139,7 +17259,9 @@
         ],
         "last_disc_no": 20260512525279,
         "forecast_dividend_basis": 76.0,
-        "price_at_lock": 2980.5
+        "price_at_lock": 2980.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:07",
       "forecast_dividend_changes": []
@@ -17424,7 +17546,9 @@
         ],
         "last_disc_no": 20260728501231,
         "forecast_dividend_basis": 48.0,
-        "price_at_lock": 999.0
+        "price_at_lock": 999.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:07",
       "forecast_dividend_changes": []
@@ -17626,7 +17750,9 @@
         ],
         "last_disc_no": 20260513531530,
         "forecast_dividend_basis": 125.0,
-        "price_at_lock": 3985.0
+        "price_at_lock": 3985.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:07",
       "forecast_dividend_changes": []
@@ -17859,7 +17985,9 @@
         "order_warning": false,
         "last_disc_no": 20260514534231,
         "forecast_dividend_basis": 47.0,
-        "price_at_lock": 1026.6666259765625
+        "price_at_lock": 1026.6666259765625,
+        "large_increase_warning": true,
+        "large_increase_detail": "26円→47円(+80.8%)"
       },
       "updated_at": "2026-10-26 15:08",
       "forecast_dividend_changes": []
@@ -18180,7 +18308,9 @@
         ],
         "last_disc_no": 20260706588103,
         "forecast_dividend_basis": 120.0,
-        "price_at_lock": 2689.0
+        "price_at_lock": 2689.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:08",
       "forecast_dividend_changes": []
@@ -18472,7 +18602,9 @@
         ],
         "last_disc_no": 20260512526304,
         "forecast_dividend_basis": 70.0,
-        "price_at_lock": 2306.5
+        "price_at_lock": 2306.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:08",
       "forecast_dividend_changes": []
@@ -18757,7 +18889,9 @@
         ],
         "last_disc_no": 20260514535939,
         "forecast_dividend_basis": 84.0,
-        "price_at_lock": 1667.0
+        "price_at_lock": 1667.0,
+        "large_increase_warning": true,
+        "large_increase_detail": "40円→84円(+110.0%)"
       },
       "updated_at": "2026-10-26 15:09",
       "forecast_dividend_changes": []
@@ -19046,7 +19180,9 @@
         ],
         "last_disc_no": 20260731505834,
         "forecast_dividend_basis": 77.0,
-        "price_at_lock": 2055.0
+        "price_at_lock": 2055.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:09",
       "forecast_dividend_changes": []
@@ -19256,7 +19392,9 @@
         ],
         "last_disc_no": 20260727599980,
         "forecast_dividend_basis": 64.0,
-        "price_at_lock": 3568.0
+        "price_at_lock": 3568.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:10",
       "forecast_dividend_changes": []
@@ -19560,7 +19698,9 @@
         ],
         "last_disc_no": 20260511523212,
         "forecast_dividend_basis": 122.0,
-        "price_at_lock": 3574.0
+        "price_at_lock": 3574.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:10",
       "forecast_dividend_changes": []
@@ -20142,7 +20282,9 @@
         ],
         "last_disc_no": 20260513528304,
         "forecast_dividend_basis": 60.0,
-        "price_at_lock": 1360.0
+        "price_at_lock": 1360.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:11",
       "forecast_dividend_changes": []
@@ -20352,7 +20494,9 @@
         ],
         "last_disc_no": 20260424510521,
         "forecast_dividend_basis": 80.0,
-        "price_at_lock": 2512.0
+        "price_at_lock": 2512.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:11",
       "forecast_dividend_changes": []
@@ -20637,7 +20781,9 @@
         ],
         "last_disc_no": 20260729502136,
         "forecast_dividend_basis": 104.0,
-        "price_at_lock": 2665.0
+        "price_at_lock": 2665.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:11",
       "forecast_dividend_changes": []
@@ -20918,7 +21064,9 @@
         ],
         "last_disc_no": 20260514534497,
         "forecast_dividend_basis": 80.0,
-        "price_at_lock": 1648.0
+        "price_at_lock": 1648.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:11",
       "forecast_dividend_changes": []
@@ -21215,7 +21363,9 @@
         ],
         "last_disc_no": 20260512526354,
         "forecast_dividend_basis": 85.0,
-        "price_at_lock": 2823.0
+        "price_at_lock": 2823.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:13",
       "forecast_dividend_changes": []
@@ -21502,7 +21652,9 @@
         ],
         "last_disc_no": 20260730502899,
         "forecast_dividend_basis": 76.0,
-        "price_at_lock": 1891.0
+        "price_at_lock": 1891.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:13",
       "forecast_dividend_changes": []
@@ -21799,7 +21951,9 @@
         ],
         "last_disc_no": 20260731504361,
         "forecast_dividend_basis": 84.0,
-        "price_at_lock": 2007.0
+        "price_at_lock": 2007.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:13",
       "forecast_dividend_changes": []
@@ -22083,7 +22237,9 @@
         ],
         "last_disc_no": 20260730502915,
         "forecast_dividend_basis": 171.0,
-        "price_at_lock": 3950.0
+        "price_at_lock": 3950.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:13",
       "forecast_dividend_changes": []
@@ -22364,7 +22520,9 @@
         ],
         "last_disc_no": 20260724599132,
         "forecast_dividend_basis": 60.0,
-        "price_at_lock": 2218.0
+        "price_at_lock": 2218.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:13",
       "forecast_dividend_changes": []
@@ -22570,7 +22728,9 @@
         ],
         "last_disc_no": 20260511522541,
         "forecast_dividend_basis": 172.0,
-        "price_at_lock": 6401.0
+        "price_at_lock": 6401.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:14",
       "forecast_dividend_changes": []
@@ -22851,7 +23011,9 @@
         ],
         "last_disc_no": 20260514535254,
         "forecast_dividend_basis": 212.0,
-        "price_at_lock": 7234.0
+        "price_at_lock": 7234.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:14",
       "forecast_dividend_changes": []
@@ -23160,7 +23322,9 @@
         ],
         "last_disc_no": 20260803506745,
         "forecast_dividend_basis": 100.0,
-        "price_at_lock": 3295.0
+        "price_at_lock": 3295.0,
+        "large_increase_warning": true,
+        "large_increase_detail": "74円→100円(+35.1%)"
       },
       "updated_at": "2026-10-26 15:14",
       "forecast_dividend_changes": []
@@ -23455,7 +23619,9 @@
         ],
         "last_disc_no": 20260724598936,
         "forecast_dividend_basis": 85.0,
-        "price_at_lock": 2180.0
+        "price_at_lock": 2180.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:15",
       "forecast_dividend_changes": [
@@ -23741,7 +23907,9 @@
         "order_warning": false,
         "last_disc_no": 20260513527829,
         "forecast_dividend_basis": 98.0,
-        "price_at_lock": 2253.0
+        "price_at_lock": 2253.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:15",
       "forecast_dividend_changes": []
@@ -24027,7 +24195,9 @@
         ],
         "last_disc_no": 20260422508453,
         "forecast_dividend_basis": 70.0,
-        "price_at_lock": 1528.0
+        "price_at_lock": 1528.0,
+        "large_increase_warning": true,
+        "large_increase_detail": "53円→70円(+32.1%)"
       },
       "updated_at": "2026-10-26 15:16",
       "forecast_dividend_changes": []
@@ -24247,7 +24417,9 @@
         ],
         "last_disc_no": 20260730502758,
         "forecast_dividend_basis": 35.0,
-        "price_at_lock": 989.9000244140625
+        "price_at_lock": 989.9000244140625,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:16",
       "forecast_dividend_changes": [
@@ -24503,7 +24675,9 @@
         "order_warning": false,
         "last_disc_no": 20260730503797,
         "forecast_dividend_basis": 105.0,
-        "price_at_lock": 2925.0
+        "price_at_lock": 2925.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:16",
       "forecast_dividend_changes": []
@@ -24782,7 +24956,9 @@
         ],
         "last_disc_no": 20260512527497,
         "forecast_dividend_basis": 110.0,
-        "price_at_lock": 2665.0
+        "price_at_lock": 2665.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:17",
       "forecast_dividend_changes": []
@@ -25065,7 +25241,9 @@
         ],
         "last_disc_no": 20260729502225,
         "forecast_dividend_basis": 88.0,
-        "price_at_lock": 2259.0
+        "price_at_lock": 2259.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:17",
       "forecast_dividend_changes": []
@@ -25275,7 +25453,9 @@
         ],
         "last_disc_no": 20260511522741,
         "forecast_dividend_basis": 132.0,
-        "price_at_lock": 2257.5
+        "price_at_lock": 2257.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:17",
       "forecast_dividend_changes": []
@@ -25561,7 +25741,9 @@
         ],
         "last_disc_no": 20260513528063,
         "forecast_dividend_basis": 70.0,
-        "price_at_lock": 1419.0
+        "price_at_lock": 1419.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:18",
       "forecast_dividend_changes": []
@@ -25858,7 +26040,9 @@
         ],
         "last_disc_no": 20260730503652,
         "forecast_dividend_basis": 61.0,
-        "price_at_lock": 1689.0
+        "price_at_lock": 1689.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:18",
       "forecast_dividend_changes": []
@@ -26156,7 +26340,9 @@
         ],
         "last_disc_no": 20260507517829,
         "forecast_dividend_basis": 50.0,
-        "price_at_lock": 1375.0
+        "price_at_lock": 1375.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:18",
       "forecast_dividend_changes": []
@@ -26441,7 +26627,9 @@
         ],
         "last_disc_no": 20260512527443,
         "forecast_dividend_basis": 80.0,
-        "price_at_lock": 2974.5
+        "price_at_lock": 2974.5,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:18",
       "forecast_dividend_changes": []
@@ -26723,7 +26911,9 @@
         ],
         "last_disc_no": 20260729501872,
         "forecast_dividend_basis": 30.0,
-        "price_at_lock": 848.0
+        "price_at_lock": 848.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:20",
       "forecast_dividend_changes": []
@@ -26929,7 +27119,9 @@
         ],
         "last_disc_no": 20260729501784,
         "forecast_dividend_basis": 74.0,
-        "price_at_lock": 1849.0
+        "price_at_lock": 1849.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:20",
       "forecast_dividend_changes": []
@@ -27255,7 +27447,9 @@
         ],
         "last_disc_no": 20260708589640,
         "forecast_dividend_basis": 82.0,
-        "price_at_lock": 1693.0
+        "price_at_lock": 1693.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:20",
       "forecast_dividend_changes": []
@@ -27540,7 +27734,9 @@
         ],
         "last_disc_no": 20260731504652,
         "forecast_dividend_basis": 108.0,
-        "price_at_lock": 2146.0
+        "price_at_lock": 2146.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:20",
       "forecast_dividend_changes": []
@@ -27823,7 +28019,9 @@
         ],
         "last_disc_no": 20260727500303,
         "forecast_dividend_basis": 68.0,
-        "price_at_lock": 1809.0
+        "price_at_lock": 1809.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:20",
       "forecast_dividend_changes": []
@@ -28115,7 +28313,9 @@
         ],
         "last_disc_no": 20260514535555,
         "forecast_dividend_basis": 132.0,
-        "price_at_lock": 3760.0
+        "price_at_lock": 3760.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:21",
       "forecast_dividend_changes": []
@@ -28396,7 +28596,9 @@
         ],
         "last_disc_no": 20260703587638,
         "forecast_dividend_basis": 132.0,
-        "price_at_lock": 3911.0
+        "price_at_lock": 3911.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:21",
       "forecast_dividend_changes": []
@@ -28723,7 +28925,9 @@
         ],
         "last_disc_no": 20260710591084,
         "forecast_dividend_basis": 245.0,
-        "price_at_lock": 7130.0
+        "price_at_lock": 7130.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:21",
       "forecast_dividend_changes": []
@@ -29018,7 +29222,9 @@
         ],
         "last_disc_no": 20260729501893,
         "forecast_dividend_basis": 22.0,
-        "price_at_lock": 494.0
+        "price_at_lock": 494.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:22",
       "forecast_dividend_changes": []
@@ -29317,7 +29523,9 @@
         ],
         "last_disc_no": 20260508520975,
         "forecast_dividend_basis": 105.0,
-        "price_at_lock": 2326.0
+        "price_at_lock": 2326.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:22",
       "forecast_dividend_changes": []
@@ -29601,7 +29809,9 @@
         ],
         "last_disc_no": 20260731505244,
         "forecast_dividend_basis": 170.0,
-        "price_at_lock": 4085.0
+        "price_at_lock": 4085.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:23",
       "forecast_dividend_changes": []
@@ -29874,7 +30084,9 @@
         ],
         "last_disc_no": 20260515536290,
         "forecast_dividend_basis": 98.0,
-        "price_at_lock": 1903.0
+        "price_at_lock": 1903.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:23",
       "forecast_dividend_changes": []
@@ -30180,7 +30392,9 @@
         ],
         "last_disc_no": 20260512525957,
         "forecast_dividend_basis": 130.0,
-        "price_at_lock": 2977.0
+        "price_at_lock": 2977.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:23",
       "forecast_dividend_changes": []
@@ -30479,7 +30693,9 @@
         ],
         "last_disc_no": 20260513527847,
         "forecast_dividend_basis": 100.0,
-        "price_at_lock": 2441.0
+        "price_at_lock": 2441.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:24",
       "forecast_dividend_changes": []
@@ -30763,7 +30979,9 @@
         ],
         "last_disc_no": 20260730504212,
         "forecast_dividend_basis": 90.0,
-        "price_at_lock": 2329.0
+        "price_at_lock": 2329.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:24",
       "forecast_dividend_changes": []
@@ -31077,7 +31295,9 @@
         ],
         "last_disc_no": 20260729501649,
         "forecast_dividend_basis": 52.0,
-        "price_at_lock": 1345.0
+        "price_at_lock": 1345.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:24",
       "forecast_dividend_changes": []
@@ -31373,7 +31593,9 @@
         ],
         "last_disc_no": 20260730502947,
         "forecast_dividend_basis": 80.0,
-        "price_at_lock": 1910.0
+        "price_at_lock": 1910.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:25",
       "forecast_dividend_changes": []
@@ -31663,7 +31885,9 @@
         ],
         "last_disc_no": 20260511522683,
         "forecast_dividend_basis": 49.5,
-        "price_at_lock": 1340.0
+        "price_at_lock": 1340.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:25",
       "forecast_dividend_changes": []
@@ -31954,7 +32178,9 @@
         ],
         "last_disc_no": 20260511521978,
         "forecast_dividend_basis": 80.0,
-        "price_at_lock": 1845.0
+        "price_at_lock": 1845.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:25",
       "forecast_dividend_changes": []
@@ -32238,7 +32464,9 @@
         ],
         "last_disc_no": 20260513531579,
         "forecast_dividend_basis": 72.0,
-        "price_at_lock": 1618.0
+        "price_at_lock": 1618.0,
+        "large_increase_warning": true,
+        "large_increase_detail": "54.5円→72円(+32.1%)"
       },
       "updated_at": "2026-10-26 15:25",
       "forecast_dividend_changes": []
@@ -32521,7 +32749,9 @@
         ],
         "last_disc_no": 20260508520936,
         "forecast_dividend_basis": 106.0,
-        "price_at_lock": 3431.0
+        "price_at_lock": 3431.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:27",
       "forecast_dividend_changes": []
@@ -32804,7 +33034,9 @@
         ],
         "last_disc_no": 20260727500241,
         "forecast_dividend_basis": 90.0,
-        "price_at_lock": 1394.0
+        "price_at_lock": 1394.0,
+        "large_increase_warning": true,
+        "large_increase_detail": "56円→90円(+60.7%)"
       },
       "updated_at": "2026-10-26 15:27",
       "forecast_dividend_changes": []
@@ -33016,7 +33248,9 @@
         ],
         "last_disc_no": 20260730503679,
         "forecast_dividend_basis": 105.0,
-        "price_at_lock": 3389.0
+        "price_at_lock": 3389.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null
       },
       "updated_at": "2026-10-26 15:27",
       "forecast_dividend_changes": []
