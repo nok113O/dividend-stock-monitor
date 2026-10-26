@@ -619,12 +619,31 @@ def render_target_yield(code: str, current_price, ty: dict, locked: dict | None)
         )
     deep_breach_banner = ""
     buy3_locked = locked.get("buy3")
-    if current_price is not None and buy3_locked is not None and buy3_locked > 0 and current_price < buy3_locked * 0.9:
+    price_at_lock = locked.get("price_at_lock")
+    already_cheap_at_lock = (
+        price_at_lock is not None and buy3_locked is not None and price_at_lock <= buy3_locked
+    )
+    if already_cheap_at_lock:
+        deep_breach_banner = (
+            '<div class="step-sub" style="margin-top:8px;">'
+            f"確定時点（{esc(locked.get('basis_date'))}）で株価{fmt_num(price_at_lock, 0)}円は既に買い3以下でした"
+            "（初回から割安圏）。"
+            "</div>"
+        )
+    elif current_price is not None and buy3_locked is not None and buy3_locked > 0 and current_price < buy3_locked * 0.9:
         breach_pct = (1 - current_price / buy3_locked) * 100
         deep_breach_banner = (
             '<div class="data-gap" style="margin-top:8px;">'
             f"<strong>買い増し停止・要点検：</strong>現在株価が買い3を{fmt_num(breach_pct, 1)}%下回っています"
             "（決算悪化／減配の兆し／相場全体の下げのいずれかを確認してください）"
+            "</div>"
+        )
+    large_increase_banner = ""
+    if locked.get("large_increase_warning"):
+        large_increase_banner = (
+            '<div class="data-gap" style="margin-top:8px;">'
+            f"<strong>大幅増配：</strong>予想配当が{esc(locked.get('large_increase_detail'))}と前回確定値比+30%以上"
+            "増えています。過去の利回り基準が当てはまらない可能性があります。"
             "</div>"
         )
     return (
@@ -639,6 +658,7 @@ def render_target_yield(code: str, current_price, ty: dict, locked: dict | None)
         f"{disabled_banner}"
         f"{order_warning_banner}"
         f"{deep_breach_banner}"
+        f"{large_increase_banner}"
         "</div>"
     )
 

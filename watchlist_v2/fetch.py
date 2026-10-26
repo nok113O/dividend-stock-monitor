@@ -315,7 +315,7 @@ def fetch_one(
     locked_targets = update_locked_targets(
         prev_stock or {}, code, master.get("S33Nm"), summaries, eps_hist, div_hist,
         forecast_dividend, step3, target_yield, date.today().strftime("%Y-%m-%d"),
-        override_dividend is not None, last_ordinary_dividend,
+        override_dividend is not None, last_ordinary_dividend, price,
     )
 
     def clean(value):
@@ -536,6 +536,22 @@ def _finalize_lock(old_locked: dict, new_locked: dict, trigger: str, disc_date: 
     return new_locked
 
 
+LARGE_INCREASE_RATIO = 1.3  # 予想配当(普通配当ベース)が前回確定値比+30%以上なら大幅増配として注記
+
+
+def _large_increase_fields(old_basis, forecast_dividend) -> tuple[bool, str | None]:
+    """予想配当が直前の確定値時点から+30%以上増えていたら「大幅増配」として注記する。
+    過去の利回り分布に基づく目標利回り①②③がそのまま当てはまらない可能性があるための注記で、
+    増配理由(配当方針の変更・DOE導入等)の自動判定は行わない。
+    """
+    if old_basis is None or old_basis <= 0 or forecast_dividend is None:
+        return False, None
+    if forecast_dividend < old_basis * LARGE_INCREASE_RATIO:
+        return False, None
+    pct = (forecast_dividend / old_basis - 1) * 100
+    return True, f"{old_basis:g}円→{forecast_dividend:g}円(+{pct:.1f}%)"
+
+
 def update_locked_targets(
     prev_stock: dict,
     code: str,
@@ -549,6 +565,7 @@ def update_locked_targets(
     today_str: str,
     dividend_override_active: bool,
     last_ordinary_dividend,
+    price,
 ) -> dict | None:
     """分割買いラインの確定値を、前回ロック以降の新規開示に応じて引き直す。
 
@@ -581,6 +598,9 @@ def update_locked_targets(
             "target3_pct": target_yield.get("target3_pct"),
             "buy3_source": buy3_source,
             "forecast_dividend_basis": forecast_dividend,
+            "price_at_lock": price,
+            "large_increase_warning": False,
+            "large_increase_detail": None,
             "basis_date": today_str,
             "reason": "初期設定",
             "disabled": False,
@@ -591,15 +611,17 @@ def update_locked_targets(
         }
 
     locked = dict(existing)
-    # Step1・Step2導入時点で登録済みの確定値には％・予想配当基準値が保存されていないため、
-    # 現在の参考値で一度だけ補完する(新規開示によって引き直されたわけではないのでセマン
-    # ティクスの変化はない)。
+    # Step1・Step2導入時点で登録済みの確定値には％・予想配当基準値・確定時点の株価が
+    # 保存されていないため、現在の参考値で一度だけ補完する(新規開示によって引き直された
+    # わけではないのでセマンティクスの変化はない)。
     if locked.get("target1_pct") is None:
         locked["target1_pct"] = target_yield.get("target1_pct")
         locked["target2_pct"] = target_yield.get("target2_pct")
         locked["target3_pct"] = target_yield.get("target3_pct")
     if locked.get("forecast_dividend_basis") is None:
         locked["forecast_dividend_basis"] = prev_stock.get("forecast_dividend")
+    if locked.get("price_at_lock") is None:
+        locked["price_at_lock"] = prev_stock.get("price")
 
     groups = group_new_disclosures(summaries, locked.get("last_disc_no"))
     override_note = "(普通配当ベース・手動補正あり)" if dividend_override_active else ""
@@ -647,12 +669,18 @@ def update_locked_targets(
             except Exception:  # noqa: BLE001
                 continue
             buy3, buy3_source = _compose_buy3(buy3_yield, step3.get("target_price"))
+            large_increase_warning, large_increase_detail = _large_increase_fields(
+                locked.get("forecast_dividend_basis"), forecast_dividend
+            )
             new_locked = dict(locked)
             new_locked.update({
                 "buy1": buy1, "buy2": buy2, "buy3": buy3,
                 "target1_pct": targets.target1, "target2_pct": targets.target2, "target3_pct": targets.target3,
                 "buy3_source": buy3_source,
                 "forecast_dividend_basis": forecast_dividend,
+                "price_at_lock": price,
+                "large_increase_warning": large_increase_warning,
+                "large_increase_detail": large_increase_detail,
                 "basis_date": disc_date,
                 "reason": "決算短信取り込みによる引き直し",
                 # disabled/disabled_reasonはここでは触らない(=既存の状態を維持する)。
@@ -667,11 +695,17 @@ def update_locked_targets(
             buy2 = purchase_price(forecast_dividend, t2)
             buy3_yield = purchase_price(forecast_dividend, t3)
             buy3, buy3_source = _compose_buy3(buy3_yield, step3.get("target_price"))
+            large_increase_warning, large_increase_detail = _large_increase_fields(
+                locked.get("forecast_dividend_basis"), forecast_dividend
+            )
             new_locked = dict(locked)
             new_locked.update({
                 "buy1": buy1, "buy2": buy2, "buy3": buy3,
                 "buy3_source": buy3_source,
                 "forecast_dividend_basis": forecast_dividend,
+                "price_at_lock": price,
+                "large_increase_warning": large_increase_warning,
+                "large_increase_detail": large_increase_detail,
                 "basis_date": disc_date,
                 "reason": f"配当予想の修正(予想配当{forecast_dividend}円){override_note}による買付株価の再計算",
                 # disabled/disabled_reasonはここでは触らない(決算短信と同様、既存の状態を維持)。

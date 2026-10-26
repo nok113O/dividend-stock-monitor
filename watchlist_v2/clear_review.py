@@ -22,7 +22,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from fetch import (  # noqa: E402
-    OUTPUT_FILE, _check_order, _compose_buy3, fetch_one, load_previous_stocks,
+    OUTPUT_FILE, _check_order, _compose_buy3, _large_increase_fields, fetch_one, load_previous_stocks,
 )
 from jquants_client import JQuantsClient  # noqa: E402
 
@@ -54,6 +54,9 @@ def main() -> None:
     buy1, buy2 = ty.get("buy1_price"), ty.get("buy2_price")
     today_str = date.today().strftime("%Y-%m-%d")
     old_snapshot = {"buy1": locked.get("buy1"), "buy2": locked.get("buy2"), "buy3": locked.get("buy3")}
+    large_increase_warning, large_increase_detail = _large_increase_fields(
+        locked.get("forecast_dividend_basis"), result.get("forecast_dividend")
+    )
 
     new_locked = {
         "buy1": buy1,
@@ -64,6 +67,9 @@ def main() -> None:
         "target3_pct": ty.get("target3_pct"),
         "buy3_source": buy3_source,
         "forecast_dividend_basis": result.get("forecast_dividend"),
+        "price_at_lock": result.get("price"),
+        "large_increase_warning": large_increase_warning,
+        "large_increase_detail": large_increase_detail,
         "basis_date": today_str,
         "reason": f"手動解除(再審査完了): {args.reason}",
         "disabled": False,
