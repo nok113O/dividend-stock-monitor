@@ -617,6 +617,16 @@ def render_target_yield(code: str, current_price, ty: dict, locked: dict | None)
             "<strong>順序エラー：</strong>買い1≥買い2≥買い3の順序が崩れています。確定値を確認してください。"
             "</div>"
         )
+    deep_breach_banner = ""
+    buy3_locked = locked.get("buy3")
+    if current_price is not None and buy3_locked is not None and buy3_locked > 0 and current_price < buy3_locked * 0.9:
+        breach_pct = (1 - current_price / buy3_locked) * 100
+        deep_breach_banner = (
+            '<div class="data-gap" style="margin-top:8px;">'
+            f"<strong>買い増し停止・要点検：</strong>現在株価が買い3を{fmt_num(breach_pct, 1)}%下回っています"
+            "（決算悪化／減配の兆し／相場全体の下げのいずれかを確認してください）"
+            "</div>"
+        )
     return (
         '<div class="step">'
         '<div class="step-head"><div>'
@@ -628,6 +638,7 @@ def render_target_yield(code: str, current_price, ty: dict, locked: dict | None)
         f"{basis_line}"
         f"{disabled_banner}"
         f"{order_warning_banner}"
+        f"{deep_breach_banner}"
         "</div>"
     )
 

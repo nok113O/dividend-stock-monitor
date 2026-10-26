@@ -37,7 +37,7 @@ from analyzer import (  # noqa: E402
     analyze_step1, analyze_step2, calculate_equity_ratio_trend, calculate_expected_irr,
     calculate_forecast_tendency, calculate_priority_score, calculate_step3,
     calculate_valuation_range, latest_fy_summaries, latest_summary, make_comment,
-    merge_new_fy, num, overall_rating, step1_metrics,
+    merge_new_fy, normalize_history, num, overall_rating, step1_metrics,
 )
 from edinetdb_client import EdinetDbClient, EdinetDbError  # noqa: E402
 from jquants_client import JQuantsClient, JQuantsError  # noqa: E402
@@ -309,10 +309,13 @@ def fetch_one(
             "error": str(exc),
         }
 
+    ordinary_div_series = normalize_history(history, code)["普通配当"].dropna()
+    last_ordinary_dividend = float(ordinary_div_series.iloc[-1]) if not ordinary_div_series.empty else None
+
     locked_targets = update_locked_targets(
         prev_stock or {}, code, master.get("S33Nm"), summaries, eps_hist, div_hist,
         forecast_dividend, step3, target_yield, date.today().strftime("%Y-%m-%d"),
-        override_dividend is not None,
+        override_dividend is not None, last_ordinary_dividend,
     )
 
     def clean(value):
@@ -505,6 +508,20 @@ def _check_order(buy1, buy2, buy3) -> bool:
     return False
 
 
+def _cut_baseline(row: dict, locked: dict, last_ordinary_dividend) -> tuple[float | None, str]:
+    """トリガー発生時点で減配判定に使う「直前の予想配当」基準値を決める。
+
+    本決算(FY)の決算短信は予想の対象年度が翌期に切り替わるため、直前の予想値ではなく
+    当期の年間配当実績(普通配当ベース)と比較する。それ以外(1Q/2Q/3Q決算短信・配当予想の
+    修正)は、直前の確定値を計算した時点の予想配当(forecast_dividend_basis)と比較する。
+    """
+    cur_per_type = (row.get("CurPerType") or "").upper() if row else ""
+    is_fy_result = cur_per_type == "FY" and classify_doc_type(row.get("DocType")) == "決算短信"
+    if is_fy_result and last_ordinary_dividend is not None:
+        return last_ordinary_dividend, "当期実績(普通配当ベース)"
+    return locked.get("forecast_dividend_basis"), "直前の確定値時点の予想配当"
+
+
 def _finalize_lock(old_locked: dict, new_locked: dict, trigger: str, disc_date: str) -> dict:
     new_locked["order_warning"] = _check_order(
         new_locked.get("buy1"), new_locked.get("buy2"), new_locked.get("buy3")
@@ -531,15 +548,22 @@ def update_locked_targets(
     target_yield: dict,
     today_str: str,
     dividend_override_active: bool,
+    last_ordinary_dividend,
 ) -> dict | None:
     """分割買いラインの確定値を、前回ロック以降の新規開示に応じて引き直す。
 
-    トリガー種別ごとの扱い:
+    減配の判定は開示の種類(DocType)ではなく、予想配当(普通配当ベース)の数字そのものを
+    比較して行う。決算短信・配当予想の修正のどちらでも、新しい予想配当が直前の確定値
+    時点の予想配当を下回っていれば減配として扱う(同日に決算短信が優先されるケースや、
+    本決算の中だけで翌期予想が下がるケースも取りこぼさないため)。本決算(FY)で予想の
+    対象年度が翌期に切り替わる場合は、直前の予想値ではなく当期の年間配当実績(普通配当
+    ベース)と比較する。
+
+    トリガー種別ごとの扱い(減配でない場合):
       決算短信(1Q/2Q/3Q/FY): ①②③の％・買付株価・第3段階目標株価すべて引き直す
-      配当予想の修正(増配)   : ％は据え置き、新しい予想配当(普通配当ベース)で買付株価だけ再計算
-      配当予想の修正(減配)   : ラインを無効化し、Step1・Step2からの再審査が必要なことを記録する
-      業績予想の修正         : 買いラインの計算に予想EPSを使っていないため記録のみ(ライン不変)
-      その他(訂正等)         : 記録のみ
+      配当予想の修正(増配等): ％は据え置き、新しい予想配当(普通配当ベース)で買付株価だけ再計算
+      業績予想の修正        : 買いラインの計算に予想EPSを使っていないため記録のみ(ライン不変)
+      その他(訂正等)        : 記録のみ
     """
     existing = prev_stock.get("locked_targets")
     if not existing:
@@ -556,6 +580,7 @@ def update_locked_targets(
             "target2_pct": target_yield.get("target2_pct"),
             "target3_pct": target_yield.get("target3_pct"),
             "buy3_source": buy3_source,
+            "forecast_dividend_basis": forecast_dividend,
             "basis_date": today_str,
             "reason": "初期設定",
             "disabled": False,
@@ -566,15 +591,17 @@ def update_locked_targets(
         }
 
     locked = dict(existing)
-    # Step1導入時点で登録済みの確定値には％が保存されていないため、現在の参考値で
-    # 一度だけ補完する(新規開示によって引き直されたわけではないのでセマンティクスの変化はない)。
+    # Step1・Step2導入時点で登録済みの確定値には％・予想配当基準値が保存されていないため、
+    # 現在の参考値で一度だけ補完する(新規開示によって引き直されたわけではないのでセマン
+    # ティクスの変化はない)。
     if locked.get("target1_pct") is None:
         locked["target1_pct"] = target_yield.get("target1_pct")
         locked["target2_pct"] = target_yield.get("target2_pct")
         locked["target3_pct"] = target_yield.get("target3_pct")
+    if locked.get("forecast_dividend_basis") is None:
+        locked["forecast_dividend_basis"] = prev_stock.get("forecast_dividend")
 
     groups = group_new_disclosures(summaries, locked.get("last_disc_no"))
-    prev_forecast_dividend = prev_stock.get("forecast_dividend")
     override_note = "(普通配当ベース・手動補正あり)" if dividend_override_active else ""
 
     for group in groups:
@@ -592,6 +619,25 @@ def update_locked_targets(
             locked = new_locked
             continue
 
+        if trigger in ("決算短信", "配当予想の修正"):
+            # 減配判定は開示の種類ではなく予想配当(普通配当ベース)の数字そのもので行う。
+            # 決算短信と配当予想の修正が同日に重なって決算短信が優先された場合や、
+            # 決算短信の中だけで翌期予想が下がる場合も、ここで一律に検知する。
+            baseline, baseline_label = _cut_baseline(row, locked, last_ordinary_dividend)
+            is_cut = baseline is not None and forecast_dividend is not None and forecast_dividend < baseline
+            if is_cut:
+                new_locked = dict(locked)
+                new_locked["disabled_reason"] = (
+                    f"減配を検知({baseline_label} {baseline}円→予想{forecast_dividend}円、"
+                    f"{disc_date}開示・{trigger}){override_note}によりStep1・Step2から再審査が必要"
+                )
+                new_locked["disabled"] = True
+                new_locked["reason"] = new_locked["disabled_reason"]
+                new_locked["basis_date"] = disc_date
+                new_locked["forecast_dividend_basis"] = forecast_dividend
+                locked = _finalize_lock(locked, new_locked, trigger, disc_date)
+                continue
+
         if trigger == "決算短信":
             try:
                 targets = calculate_targets(code, industry, eps_hist, div_hist)
@@ -606,45 +652,31 @@ def update_locked_targets(
                 "buy1": buy1, "buy2": buy2, "buy3": buy3,
                 "target1_pct": targets.target1, "target2_pct": targets.target2, "target3_pct": targets.target3,
                 "buy3_source": buy3_source,
+                "forecast_dividend_basis": forecast_dividend,
                 "basis_date": disc_date,
                 "reason": "決算短信取り込みによる引き直し",
-                "disabled": False, "disabled_reason": None,
+                # disabled/disabled_reasonはここでは触らない(=既存の状態を維持する)。
+                # 減配を検知して無効化された確定値は、別の開示がdisabledでないからといって
+                # 自動で再有効化してはならず、Step1・Step2の再審査後に手動で解除する想定。
             })
             locked = _finalize_lock(locked, new_locked, trigger, disc_date)
 
         elif trigger == "配当予想の修正":
-            is_cut = (
-                prev_forecast_dividend is not None and forecast_dividend is not None
-                and forecast_dividend < prev_forecast_dividend
-            )
-            if is_cut:
-                new_locked = dict(locked)
-                new_locked["disabled_reason"] = (
-                    f"配当予想の修正(減配 {prev_forecast_dividend}円→{forecast_dividend}円、"
-                    f"{disc_date}開示){override_note}によりStep1・Step2から再審査が必要"
-                )
-                new_locked["disabled"] = True
-                new_locked["reason"] = new_locked["disabled_reason"]
-                new_locked["basis_date"] = disc_date
-                locked = _finalize_lock(locked, new_locked, trigger, disc_date)
-            else:
-                t1, t2, t3 = locked.get("target1_pct"), locked.get("target2_pct"), locked.get("target3_pct")
-                buy1 = purchase_price(forecast_dividend, t1)
-                buy2 = purchase_price(forecast_dividend, t2)
-                buy3_yield = purchase_price(forecast_dividend, t3)
-                buy3, buy3_source = _compose_buy3(buy3_yield, step3.get("target_price"))
-                new_locked = dict(locked)
-                new_locked.update({
-                    "buy1": buy1, "buy2": buy2, "buy3": buy3,
-                    "buy3_source": buy3_source,
-                    "basis_date": disc_date,
-                    "reason": (
-                        f"配当予想の修正(増配 {prev_forecast_dividend}円→{forecast_dividend}円)"
-                        f"{override_note}による買付株価の再計算"
-                    ),
-                    "disabled": False, "disabled_reason": None,
-                })
-                locked = _finalize_lock(locked, new_locked, trigger, disc_date)
+            t1, t2, t3 = locked.get("target1_pct"), locked.get("target2_pct"), locked.get("target3_pct")
+            buy1 = purchase_price(forecast_dividend, t1)
+            buy2 = purchase_price(forecast_dividend, t2)
+            buy3_yield = purchase_price(forecast_dividend, t3)
+            buy3, buy3_source = _compose_buy3(buy3_yield, step3.get("target_price"))
+            new_locked = dict(locked)
+            new_locked.update({
+                "buy1": buy1, "buy2": buy2, "buy3": buy3,
+                "buy3_source": buy3_source,
+                "forecast_dividend_basis": forecast_dividend,
+                "basis_date": disc_date,
+                "reason": f"配当予想の修正(予想配当{forecast_dividend}円){override_note}による買付株価の再計算",
+                # disabled/disabled_reasonはここでは触らない(決算短信と同様、既存の状態を維持)。
+            })
+            locked = _finalize_lock(locked, new_locked, trigger, disc_date)
 
         elif trigger == "業績予想の修正":
             direction = detect_earn_revision_direction(row, summaries)
