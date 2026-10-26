@@ -36,7 +36,7 @@ from analyzer import (  # noqa: E402
     analyze_step1, analyze_step2, calculate_equity_ratio_trend, calculate_expected_irr,
     calculate_forecast_tendency, calculate_priority_score, calculate_step3,
     calculate_valuation_range, latest_fy_summaries, latest_summary, make_comment,
-    merge_new_fy, overall_rating, step1_metrics,
+    merge_new_fy, num, overall_rating, step1_metrics,
 )
 from edinetdb_client import EdinetDbClient, EdinetDbError  # noqa: E402
 from jquants_client import JQuantsClient, JQuantsError  # noqa: E402
@@ -192,6 +192,7 @@ def fetch_one(
     code: str,
     edinet_latest: dict | None = None,
     edinet_financials: list[dict] | None = None,
+    prev_stock: dict | None = None,
 ) -> dict:
     master = client.master(code)
     market = current_market_data(code)
@@ -307,6 +308,12 @@ def fetch_one(
             "error": str(exc),
         }
 
+    locked_targets = update_locked_targets(
+        prev_stock or {}, code, master.get("S33Nm"), summaries, eps_hist, div_hist,
+        forecast_dividend, step3, target_yield, date.today().strftime("%Y-%m-%d"),
+        override_dividend is not None,
+    )
+
     def clean(value):
         if value is None:
             return None
@@ -368,6 +375,7 @@ def fetch_one(
         "forecast_tendency": forecast_tendency,
         "valuation_range": valuation_range,
         "equity_ratio_trend": equity_ratio_trend,
+        "locked_targets": locked_targets,
         "updated_at": now,
         "_edinet_disclosure_date": edinet_disclosure_date,
     }
@@ -383,48 +391,268 @@ def load_previous_stocks() -> dict[str, dict]:
     return {s["code"]: s for s in payload.get("stocks", [])}
 
 
-def build_locked_targets(
-    prev_stock: dict, target_yield: dict, step3: dict, today_str: str, reason: str = "初期設定"
-) -> dict | None:
-    """分割買いラインの確定値(買い1/2/3・基準日・引き直し理由)を決める。
+# 分割買いラインの引き直しトリガー種別。同日に複数開示があった場合の優先順位にも使う。
+TRIGGER_PRIORITY = {"決算短信": 3, "配当予想の修正": 2, "業績予想の修正": 1, "その他": 0}
 
-    既に確定値がある銘柄は(Step1の時点では無条件に)そのまま引き継ぐ。引き直しトリガー
-    (決算取り込み・予想修正時のみ引き直す)はStep2で実装する。確定値が無い銘柄は
-    当日の計算値を初期設定として登録する。買い3は「目標利回り③の買付株価」と
-    「第3段階・目標株価」のうち低い方(=よりシビアな価格)を採用し、どちらを
-    採用したかをbuy3_sourceに記録する。
+FINANCIAL_STATEMENT_DOC_TYPES = {
+    "1QFinancialStatements_Consolidated_JP", "2QFinancialStatements_Consolidated_JP",
+    "3QFinancialStatements_Consolidated_JP", "FYFinancialStatements_Consolidated_JP",
+    "1QFinancialStatements_NonConsolidated_JP", "2QFinancialStatements_NonConsolidated_JP",
+    "3QFinancialStatements_NonConsolidated_JP", "FYFinancialStatements_NonConsolidated_JP",
+}
+
+
+def classify_doc_type(doc_type: str | None) -> str:
+    if doc_type in FINANCIAL_STATEMENT_DOC_TYPES:
+        return "決算短信"
+    if doc_type == "DividendForecastRevision":
+        return "配当予想の修正"
+    if doc_type == "EarnForecastRevision":
+        return "業績予想の修正"
+    return "その他"
+
+
+def group_new_disclosures(summaries: list[dict], last_disc_no) -> list[dict]:
+    """前回ロック以降の新規開示を開示日ごとにグループ化し、各日の最優先トリガーを返す(日付昇順)。
+
+    同日に複数開示があれば、決算短信＞配当予想の修正＞業績予想の修正＞その他の優先順位で1件選ぶ
+    (「同じ日に複数の開示が出た場合は1回の引き直しにまとめる」仕様に対応)。
+    """
+    try:
+        last_no = int(last_disc_no) if last_disc_no not in (None, "") else -1
+    except (TypeError, ValueError):
+        last_no = -1
+
+    new_rows = []
+    for r in summaries:
+        try:
+            disc_no = int(r.get("DiscNo") or 0)
+        except (TypeError, ValueError):
+            continue
+        if disc_no > last_no:
+            new_rows.append(r)
+    if not new_rows:
+        return []
+
+    groups: dict[str, list[dict]] = {}
+    for r in new_rows:
+        groups.setdefault(r.get("DiscDate", ""), []).append(r)
+
+    result = []
+    for disc_date in sorted(groups.keys()):
+        rows = sorted(
+            groups[disc_date],
+            key=lambda r: -TRIGGER_PRIORITY.get(classify_doc_type(r.get("DocType")), 0),
+        )
+        chosen = rows[0]
+        result.append({
+            "disc_date": disc_date,
+            "trigger": classify_doc_type(chosen.get("DocType")),
+            "row": chosen,
+        })
+    return result
+
+
+def detect_earn_revision_direction(row: dict, summaries: list[dict]) -> str:
+    """業績予想の修正開示について、同一対象期間の直前の予想と比べ上方/下方を判定する。"""
+    target_period = row.get("CurFYEn") or row.get("CurPerEn")
+    new_np = num(row.get("FNP"))
+    if new_np is None:
+        new_np = num(row.get("FNCNP"))
+    if new_np is None or not target_period:
+        return "不明"
+    this_no = int(row.get("DiscNo") or 0)
+    candidates = [
+        r for r in summaries
+        if (r.get("CurFYEn") or r.get("CurPerEn")) == target_period
+        and int(r.get("DiscNo") or 0) < this_no
+    ]
+    if not candidates:
+        return "不明"
+    prior = max(candidates, key=lambda r: int(r.get("DiscNo") or 0))
+    prior_np = num(prior.get("FNP"))
+    if prior_np is None:
+        prior_np = num(prior.get("FNCNP"))
+    if prior_np is None:
+        return "不明"
+    if new_np > prior_np:
+        return "上方修正"
+    if new_np < prior_np:
+        return "下方修正"
+    return "変更なし"
+
+
+def _compose_buy3(buy3_yield, step3_price):
+    """買い3は「目標利回り③の買付株価」と「第3段階・目標株価」のうち低い方を採用する。"""
+    if buy3_yield is None and step3_price is None:
+        return None, None
+    if buy3_yield is None:
+        return step3_price, "目標株価"
+    if step3_price is None:
+        return buy3_yield, "利回り③"
+    if step3_price <= buy3_yield:
+        return step3_price, "目標株価"
+    return buy3_yield, "利回り③"
+
+
+def _check_order(buy1, buy2, buy3) -> bool:
+    """買い1≥買い2≥買い3になっているか検証する。崩れていればTrue(警告)を返す。"""
+    if buy1 is not None and buy2 is not None and buy1 < buy2:
+        return True
+    if buy2 is not None and buy3 is not None and buy2 < buy3:
+        return True
+    return False
+
+
+def _finalize_lock(old_locked: dict, new_locked: dict, trigger: str, disc_date: str) -> dict:
+    new_locked["order_warning"] = _check_order(
+        new_locked.get("buy1"), new_locked.get("buy2"), new_locked.get("buy3")
+    )
+    entry = {
+        "date": disc_date,
+        "trigger": trigger,
+        "from": {"buy1": old_locked.get("buy1"), "buy2": old_locked.get("buy2"), "buy3": old_locked.get("buy3")},
+        "to": {"buy1": new_locked.get("buy1"), "buy2": new_locked.get("buy2"), "buy3": new_locked.get("buy3")},
+    }
+    new_locked["history"] = (list(old_locked.get("history") or []) + [entry])[-10:]
+    return new_locked
+
+
+def update_locked_targets(
+    prev_stock: dict,
+    code: str,
+    industry: str | None,
+    summaries: list[dict],
+    eps_hist: list[float],
+    div_hist: list[float],
+    forecast_dividend,
+    step3: dict,
+    target_yield: dict,
+    today_str: str,
+    dividend_override_active: bool,
+) -> dict | None:
+    """分割買いラインの確定値を、前回ロック以降の新規開示に応じて引き直す。
+
+    トリガー種別ごとの扱い:
+      決算短信(1Q/2Q/3Q/FY): ①②③の％・買付株価・第3段階目標株価すべて引き直す
+      配当予想の修正(増配)   : ％は据え置き、新しい予想配当(普通配当ベース)で買付株価だけ再計算
+      配当予想の修正(減配)   : ラインを無効化し、Step1・Step2からの再審査が必要なことを記録する
+      業績予想の修正         : 買いラインの計算に予想EPSを使っていないため記録のみ(ライン不変)
+      その他(訂正等)         : 記録のみ
     """
     existing = prev_stock.get("locked_targets")
-    if existing:
-        return existing
+    if not existing:
+        buy3, buy3_source = _compose_buy3(target_yield.get("buy3_price"), step3.get("target_price"))
+        buy1, buy2 = target_yield.get("buy1_price"), target_yield.get("buy2_price")
+        if buy1 is None and buy2 is None and buy3 is None:
+            return None
+        last_disc_no = max((int(r.get("DiscNo") or 0) for r in summaries), default=None)
+        return {
+            "buy1": buy1,
+            "buy2": buy2,
+            "buy3": buy3,
+            "target1_pct": target_yield.get("target1_pct"),
+            "target2_pct": target_yield.get("target2_pct"),
+            "target3_pct": target_yield.get("target3_pct"),
+            "buy3_source": buy3_source,
+            "basis_date": today_str,
+            "reason": "初期設定",
+            "disabled": False,
+            "disabled_reason": None,
+            "order_warning": _check_order(buy1, buy2, buy3),
+            "last_disc_no": last_disc_no,
+            "history": [],
+        }
 
-    buy1 = target_yield.get("buy1_price")
-    buy2 = target_yield.get("buy2_price")
-    buy3_yield = target_yield.get("buy3_price")
-    step3_price = step3.get("target_price")
+    locked = dict(existing)
+    # Step1導入時点で登録済みの確定値には％が保存されていないため、現在の参考値で
+    # 一度だけ補完する(新規開示によって引き直されたわけではないのでセマンティクスの変化はない)。
+    if locked.get("target1_pct") is None:
+        locked["target1_pct"] = target_yield.get("target1_pct")
+        locked["target2_pct"] = target_yield.get("target2_pct")
+        locked["target3_pct"] = target_yield.get("target3_pct")
 
-    if buy3_yield is None and step3_price is None:
-        buy3, buy3_source = None, None
-    elif buy3_yield is None:
-        buy3, buy3_source = step3_price, "目標株価"
-    elif step3_price is None:
-        buy3, buy3_source = buy3_yield, "利回り③"
-    elif step3_price <= buy3_yield:
-        buy3, buy3_source = step3_price, "目標株価"
-    else:
-        buy3, buy3_source = buy3_yield, "利回り③"
+    groups = group_new_disclosures(summaries, locked.get("last_disc_no"))
+    prev_forecast_dividend = prev_stock.get("forecast_dividend")
+    override_note = "(普通配当ベース・手動補正あり)" if dividend_override_active else ""
 
-    if buy1 is None and buy2 is None and buy3 is None:
-        return None
+    for group in groups:
+        trigger, disc_date, row = group["trigger"], group["disc_date"], group["row"]
 
-    return {
-        "buy1": buy1,
-        "buy2": buy2,
-        "buy3": buy3,
-        "buy3_source": buy3_source,
-        "basis_date": today_str,
-        "reason": reason,
-    }
+        if trigger == "決算短信":
+            try:
+                targets = calculate_targets(code, industry, eps_hist, div_hist)
+                buy1 = purchase_price(forecast_dividend, targets.target1)
+                buy2 = purchase_price(forecast_dividend, targets.target2)
+                buy3_yield = purchase_price(forecast_dividend, targets.target3)
+            except Exception:  # noqa: BLE001
+                continue
+            buy3, buy3_source = _compose_buy3(buy3_yield, step3.get("target_price"))
+            new_locked = dict(locked)
+            new_locked.update({
+                "buy1": buy1, "buy2": buy2, "buy3": buy3,
+                "target1_pct": targets.target1, "target2_pct": targets.target2, "target3_pct": targets.target3,
+                "buy3_source": buy3_source,
+                "basis_date": disc_date,
+                "reason": "決算短信取り込みによる引き直し",
+                "disabled": False, "disabled_reason": None,
+            })
+            locked = _finalize_lock(locked, new_locked, trigger, disc_date)
+
+        elif trigger == "配当予想の修正":
+            is_cut = (
+                prev_forecast_dividend is not None and forecast_dividend is not None
+                and forecast_dividend < prev_forecast_dividend
+            )
+            if is_cut:
+                new_locked = dict(locked)
+                new_locked["disabled_reason"] = (
+                    f"配当予想の修正(減配 {prev_forecast_dividend}円→{forecast_dividend}円、"
+                    f"{disc_date}開示){override_note}によりStep1・Step2から再審査が必要"
+                )
+                new_locked["disabled"] = True
+                new_locked["reason"] = new_locked["disabled_reason"]
+                new_locked["basis_date"] = disc_date
+                locked = _finalize_lock(locked, new_locked, trigger, disc_date)
+            else:
+                t1, t2, t3 = locked.get("target1_pct"), locked.get("target2_pct"), locked.get("target3_pct")
+                buy1 = purchase_price(forecast_dividend, t1)
+                buy2 = purchase_price(forecast_dividend, t2)
+                buy3_yield = purchase_price(forecast_dividend, t3)
+                buy3, buy3_source = _compose_buy3(buy3_yield, step3.get("target_price"))
+                new_locked = dict(locked)
+                new_locked.update({
+                    "buy1": buy1, "buy2": buy2, "buy3": buy3,
+                    "buy3_source": buy3_source,
+                    "basis_date": disc_date,
+                    "reason": (
+                        f"配当予想の修正(増配 {prev_forecast_dividend}円→{forecast_dividend}円)"
+                        f"{override_note}による買付株価の再計算"
+                    ),
+                    "disabled": False, "disabled_reason": None,
+                })
+                locked = _finalize_lock(locked, new_locked, trigger, disc_date)
+
+        elif trigger == "業績予想の修正":
+            direction = detect_earn_revision_direction(row, summaries)
+            new_locked = dict(locked)
+            new_locked["history"] = (list(locked.get("history") or []) + [{
+                "date": disc_date, "trigger": trigger, "direction": direction,
+                "note": "買いラインの計算には予想EPSを使用していないためライン据え置き",
+            }])[-10:]
+            locked = new_locked
+
+        else:
+            new_locked = dict(locked)
+            new_locked["history"] = (list(locked.get("history") or []) + [{
+                "date": disc_date, "trigger": trigger, "note": "未対応の開示区分のため記録のみ",
+            }])[-10:]
+            locked = new_locked
+
+    locked["last_disc_no"] = max(
+        (int(r.get("DiscNo") or 0) for r in summaries), default=locked.get("last_disc_no")
+    )
+    return locked
 
 
 def diff_forecast_changes(
@@ -464,7 +692,6 @@ def main() -> None:
     else:
         target_codes = all_codes
 
-    today_str = date.today().strftime("%Y-%m-%d")
     client = JQuantsClient(api_key, min_interval_seconds=1.5)
     previous = load_previous_stocks()
     edinet_latest_by_code, edinet_financials_by_code = fetch_recent_edinet_earnings(
@@ -477,8 +704,10 @@ def main() -> None:
         if i > 0:
             time.sleep(2)
         try:
+            prev_stock = previous.get(code) or {}
             result = fetch_one(
-                client, code, edinet_latest_by_code.get(code), edinet_financials_by_code.get(code)
+                client, code, edinet_latest_by_code.get(code), edinet_financials_by_code.get(code),
+                prev_stock,
             )
             disclosure_date = result.pop("_edinet_disclosure_date", None)
             result["forecast_dividend_changes"] = diff_forecast_changes(
@@ -487,14 +716,8 @@ def main() -> None:
             # 期末PERレンジ・自己資本比率推移は、今回EDINETの有報時系列を再取得できた
             # 銘柄だけ新しい値が入る。再取得していない銘柄は前回値を引き継ぐ。
             if code not in edinet_financials_by_code:
-                prev_stock = previous.get(code) or {}
                 result["valuation_range"] = prev_stock.get("valuation_range")
                 result["equity_ratio_trend"] = prev_stock.get("equity_ratio_trend")
-            # 分割買いラインの確定値は、既にあればそのまま引き継ぐ(毎日のtarget_yield
-            # 再計算とは独立)。無ければ当日の計算値を初期設定として登録する。
-            result["locked_targets"] = build_locked_targets(
-                previous.get(code) or {}, result["target_yield"], result["step3"], today_str,
-            )
             fresh[code] = result
         except JQuantsError as exc:
             errors.append({"code": code, "error": str(exc)})

@@ -532,9 +532,13 @@ def render_target_yield(code: str, current_price, ty: dict, locked: dict | None)
             f'<div class="data-gap"><strong>算定不可：</strong>{esc(ty.get("error")) or "データ不足"}</div>'
             "</div>"
         )
-    status = locked_buy_status(current_price, locked)
-    status_cls = "pass" if "買い" in status and status != "監視" else "pending"
     locked = locked or {}
+    if locked.get("disabled"):
+        status = "要再審査"
+        status_cls = "fail"
+    else:
+        status = locked_buy_status(current_price, locked)
+        status_cls = "pass" if "買い" in status and status != "監視" else "pending"
     tiers = [
         ("①第1買い", "85%/75%", ty["target1_pct"], ty["buy1_price"], locked.get("buy1"), None),
         ("②第2買い", "92.5%/85%", ty["target2_pct"], ty["buy2_price"], locked.get("buy2"), None),
@@ -599,6 +603,20 @@ def render_target_yield(code: str, current_price, ty: dict, locked: dict | None)
             f'<div class="step-sub" style="margin-top:4px;">'
             f'確定値の基準日：{esc(locked.get("basis_date"))}（{esc(locked.get("reason") or "")}）</div>'
         )
+    disabled_banner = ""
+    if locked.get("disabled"):
+        disabled_banner = (
+            '<div class="data-gap" style="margin-top:8px;">'
+            f"<strong>要再審査：</strong>{esc(locked.get('disabled_reason')) or '減配が検知されたため、Step1・Step2から再審査してください。'}"
+            "</div>"
+        )
+    order_warning_banner = ""
+    if locked.get("order_warning"):
+        order_warning_banner = (
+            '<div class="data-gap" style="margin-top:8px;">'
+            "<strong>順序エラー：</strong>買い1≥買い2≥買い3の順序が崩れています。確定値を確認してください。"
+            "</div>"
+        )
     return (
         '<div class="step">'
         '<div class="step-head"><div>'
@@ -608,6 +626,8 @@ def render_target_yield(code: str, current_price, ty: dict, locked: dict | None)
         f'<div class="tabs">{radios}<div class="tab-labels">{tab_labels}</div>{panels}</div>'
         f'<div class="step-sub" style="margin-top:8px;">サンプル：日次{ty.get("sample_daily", 0)}件／年次{ty.get("sample_annual", 0)}件（3年TTM＋10年年次）</div>'
         f"{basis_line}"
+        f"{disabled_banner}"
+        f"{order_warning_banner}"
         "</div>"
     )
 
@@ -701,8 +721,11 @@ def render_section_tabs(code: str, stock: dict, price) -> str:
     step1, step2, step3 = stock["step1"], stock["step2"], stock["step3"]
     ty = stock.get("target_yield", {})
     locked = stock.get("locked_targets")
-    buy_status = locked_buy_status(price, locked)
-    ty_cls = "pass" if "買い" in buy_status and buy_status != "監視" else "pending"
+    if locked and locked.get("disabled"):
+        ty_cls = "fail"
+    else:
+        buy_status = locked_buy_status(price, locked)
+        ty_cls = "pass" if "買い" in buy_status and buy_status != "監視" else "pending"
 
     vr = stock.get("valuation_range")
     ft = stock.get("forecast_tendency")
