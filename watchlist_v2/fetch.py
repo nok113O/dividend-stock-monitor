@@ -580,6 +580,18 @@ def update_locked_targets(
     for group in groups:
         trigger, disc_date, row = group["trigger"], group["disc_date"], group["row"]
 
+        # 予想配当が取得できていない日は、買付株価をnullで上書きして既存の確定値を
+        # 壊してしまわないよう、全ライン引き直し・配当予想修正の処理自体をスキップする
+        # (Yahoo!ファイナンス等の一時的な欠損を確定値に取り込まないための安全策)。
+        if trigger in ("決算短信", "配当予想の修正") and forecast_dividend is None:
+            new_locked = dict(locked)
+            new_locked["history"] = (list(locked.get("history") or []) + [{
+                "date": disc_date, "trigger": trigger,
+                "note": "予想配当が取得できなかったため、この開示の引き直しはスキップ(確定値は現状維持)",
+            }])[-10:]
+            locked = new_locked
+            continue
+
         if trigger == "決算短信":
             try:
                 targets = calculate_targets(code, industry, eps_hist, div_hist)
