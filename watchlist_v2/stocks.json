@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26 07:54",
+  "generated_at": "2026-10-26 11:48",
   "stocks": [
     {
       "code": "8306",
@@ -148,8 +148,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:11",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:06",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3019,
+        "buy2": 2945,
+        "buy3": 2581,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "9433",
@@ -301,8 +309,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:11",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:06",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2736,
+        "buy2": 2658,
+        "buy3": 2569,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1414",
@@ -454,8 +470,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:12",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:07",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1253,
+        "buy2": 1230,
+        "buy3": 1002.13,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1802",
@@ -607,8 +631,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:12",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:08",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2103,
+        "buy2": 2035,
+        "buy3": 1876,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8725",
@@ -760,8 +792,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:12",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:08",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3864,
+        "buy2": 3728,
+        "buy3": 3609,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1926",
@@ -915,14 +955,22 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:13",
+      "updated_at": "2026-10-26 11:08",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
           "from": 146.0,
           "to": 36.5
         }
-      ]
+      ],
+      "locked_targets": {
+        "buy1": 871,
+        "buy2": 800,
+        "buy3": 544,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "2733",
@@ -1073,8 +1121,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:13",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:08",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2738,
+        "buy2": 2581,
+        "buy3": 2483,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8439",
@@ -1226,8 +1282,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:13",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:09",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2381,
+        "buy2": 2296,
+        "buy3": 2148,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "6785",
@@ -1378,8 +1442,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:14",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:09",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2174,
+        "buy2": 2083,
+        "buy3": 1952,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "6282",
@@ -1527,8 +1599,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:14",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:09",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2393,
+        "buy2": 2323,
+        "buy3": 2278,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8892",
@@ -1681,8 +1761,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:14",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:09",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1097,
+        "buy2": 1079,
+        "buy3": 1064,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1605",
@@ -1832,7 +1920,7 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:14",
+      "updated_at": "2026-10-26 11:11",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-07",
@@ -1844,7 +1932,15 @@
           "from": 112.0,
           "to": 108.0
         }
-      ]
+      ],
+      "locked_targets": {
+        "buy1": 2477,
+        "buy2": 2379,
+        "buy3": 2288,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "6294",
@@ -1996,8 +2092,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:16",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:11",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1969,
+        "buy2": 1914,
+        "buy3": 1301,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "3277",
@@ -2148,8 +2252,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:16",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:11",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 520,
+        "buy2": 500,
+        "buy3": 490,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4272",
@@ -2299,8 +2411,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:16",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:11",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1493,
+        "buy2": 1422,
+        "buy3": 1372,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "3003",
@@ -2454,8 +2574,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:16",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:11",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1736,
+        "buy2": 1705,
+        "buy3": 1679,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "3252",
@@ -2606,8 +2734,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:16",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:12",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2857,
+        "buy2": 2802,
+        "buy3": 2680,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5184",
@@ -2757,8 +2893,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:17",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:12",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3733,
+        "buy2": 3668,
+        "buy3": 3592,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4568",
@@ -2909,8 +3053,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:17",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:12",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 4545,
+        "buy2": 3636,
+        "buy3": 1618.17,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4540",
@@ -3062,8 +3214,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:18",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:13",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 4147,
+        "buy2": 4041,
+        "buy3": 3911,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8058",
@@ -3214,8 +3374,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:18",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:13",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3676,
+        "buy2": 3582,
+        "buy3": 3289,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4206",
@@ -3367,8 +3535,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:18",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:13",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3655,
+        "buy2": 3571,
+        "buy3": 3491,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "7203",
@@ -3517,8 +3693,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:19",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:14",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2994,
+        "buy2": 2907,
+        "buy3": 2770,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8593",
@@ -3669,8 +3853,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:19",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:14",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1332,
+        "buy2": 1318,
+        "buy3": 1269,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "7191",
@@ -3823,8 +4015,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:20",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:15",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1486,
+        "buy2": 1414,
+        "buy3": 772.3,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "9432",
@@ -3975,8 +4175,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:20",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:15",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 156,
+        "buy2": 154,
+        "buy3": 151,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8766",
@@ -4125,14 +4333,22 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:20",
+      "updated_at": "2026-10-26 11:15",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
           "from": 245.0,
           "to": 16.33
         }
-      ]
+      ],
+      "locked_targets": {
+        "buy1": 498,
+        "buy2": 479,
+        "buy3": 73,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4613",
@@ -4280,8 +4496,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:21",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:16",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2857,
+        "buy2": 2613,
+        "buy3": 2371,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8252",
@@ -4433,8 +4657,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:21",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:16",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3095,
+        "buy2": 3032,
+        "buy3": 2404.02,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "7981",
@@ -4582,8 +4814,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:21",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:16",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3171,
+        "buy2": 2945,
+        "buy3": 2844,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "7990",
@@ -4734,8 +4974,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:21",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:16",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2500,
+        "buy2": 2404,
+        "buy3": 2320,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1928",
@@ -4888,8 +5136,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:22",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:18",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3388,
+        "buy2": 3333,
+        "buy3": 3266,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1925",
@@ -5042,8 +5298,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:23",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:18",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2391,
+        "buy2": 2256,
+        "buy3": 1517,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "7856",
@@ -5193,8 +5457,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:23",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:18",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1843,
+        "buy2": 1794,
+        "buy3": 1720,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "7164",
@@ -5346,8 +5618,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:23",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:18",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2617,
+        "buy2": 2562,
+        "buy3": 2520,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5911",
@@ -5500,8 +5780,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:23",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:18",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3073,
+        "buy2": 3009,
+        "buy3": 2968,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8424",
@@ -5651,8 +5939,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:24",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:19",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 4236,
+        "buy2": 4095,
+        "buy3": 4038,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5965",
@@ -5798,8 +6094,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:24",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:19",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1432,
+        "buy2": 1402,
+        "buy3": 1333,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "3231",
@@ -5952,8 +6256,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:25",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:20",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1043,
+        "buy2": 1009,
+        "buy3": 905,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "9364",
@@ -6104,8 +6416,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:25",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:20",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 5230,
+        "buy2": 4858,
+        "buy3": 4638,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4118",
@@ -6255,8 +6575,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:25",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:20",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 6231,
+        "buy2": 5966,
+        "buy3": 5660,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8411",
@@ -6408,8 +6736,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:25",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:21",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 4087,
+        "buy2": 3886,
+        "buy3": 3641,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4063",
@@ -6561,14 +6897,22 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:27",
+      "updated_at": "2026-10-26 11:21",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-16",
           "from": 106.0,
           "to": 116.0
         }
-      ]
+      ],
+      "locked_targets": {
+        "buy1": 5022,
+        "buy2": 4895,
+        "buy3": 4415.6,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8015",
@@ -6722,8 +7066,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:27",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:22",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3289,
+        "buy2": 3173,
+        "buy3": 2976,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5393",
@@ -6878,8 +7230,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:27",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:22",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2851,
+        "buy2": 2686,
+        "buy3": 2249,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8002",
@@ -7030,8 +7390,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:27",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:22",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3083,
+        "buy2": 2972,
+        "buy3": 2819,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8001",
@@ -7185,8 +7553,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:27",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:23",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1660,
+        "buy2": 1624,
+        "buy3": 1502,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "3407",
@@ -7336,8 +7712,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:28",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:23",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1226,
+        "buy2": 1164,
+        "buy3": 1117,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1721",
@@ -7490,8 +7874,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:28",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:23",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3902,
+        "buy2": 3835,
+        "buy3": 3689,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4182",
@@ -7640,8 +8032,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:28",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:23",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2926,
+        "buy2": 2570,
+        "buy3": 2483,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8309",
@@ -7792,8 +8192,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:29",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:24",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1196,
+        "buy2": 1159,
+        "buy3": 1051,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1417",
@@ -7942,8 +8350,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:29",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:25",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2888,
+        "buy2": 2794,
+        "buy3": 2699,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8316",
@@ -8095,8 +8511,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:30",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:25",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2571,
+        "buy2": 2419,
+        "buy3": 2278,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8591",
@@ -8248,14 +8672,22 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:30",
+      "updated_at": "2026-10-26 11:25",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-03",
           "from": 120.01,
           "to": 187.36
         }
-      ]
+      ],
+      "locked_targets": {
+        "buy1": 4931,
+        "buy2": 4696,
+        "buy3": 4450,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8117",
@@ -8408,8 +8840,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:30",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:25",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1981,
+        "buy2": 1915,
+        "buy3": 1842,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4658",
@@ -8566,8 +9006,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:31",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:26",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1367,
+        "buy2": 1323,
+        "buy3": 1287,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "2602",
@@ -8717,8 +9165,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:31",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:26",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1648,
+        "buy2": 1563,
+        "buy3": 1478,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "3150",
@@ -8871,8 +9327,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:32",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:27",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2665,
+        "buy2": 2605,
+        "buy3": 1819.61,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4205",
@@ -9024,8 +9488,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:32",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:27",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1816,
+        "buy2": 1639,
+        "buy3": 1577,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8130",
@@ -9176,8 +9648,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:32",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:27",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2969,
+        "buy2": 2914,
+        "buy3": 2870,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "9513",
@@ -9324,8 +9804,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:32",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:27",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2567,
+        "buy2": 2512,
+        "buy3": 2453,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "2503",
@@ -9475,8 +9963,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:33",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:29",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2222,
+        "buy2": 2197,
+        "buy3": 2094,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5845",
@@ -9617,8 +10113,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:34",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:29",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1114,
+        "buy2": 1086,
+        "buy3": 1062,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5108",
@@ -9763,8 +10267,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:34",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:29",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3397,
+        "buy2": 3272,
+        "buy3": 3189,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "9658",
@@ -9917,8 +10429,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:34",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:29",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1122,
+        "buy2": 1051,
+        "buy3": 985,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "2918",
@@ -10107,8 +10627,16 @@
         "alert": true,
         "alert_threshold_pt": 10.0
       },
-      "updated_at": "2026-10-26 07:34",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:29",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2791,
+        "buy2": 2697,
+        "buy3": 2614,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8111",
@@ -10262,8 +10790,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:35",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:30",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2574,
+        "buy2": 2491,
+        "buy3": 2032.99,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8771",
@@ -10416,8 +10952,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:35",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:30",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3387,
+        "buy2": 3294,
+        "buy3": 994.01,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1967",
@@ -10570,8 +11114,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:36",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:30",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2683,
+        "buy2": 2601,
+        "buy3": 2516,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "6988",
@@ -10724,8 +11276,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:36",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:31",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2870,
+        "buy2": 2723,
+        "buy3": 2602,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8804",
@@ -10877,8 +11437,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:36",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:31",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3253,
+        "buy2": 3120,
+        "buy3": 2926,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4732",
@@ -11029,8 +11597,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:36",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:32",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1833,
+        "buy2": 1780,
+        "buy3": 995.34,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5602",
@@ -11175,8 +11751,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:38",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:32",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1136,
+        "buy2": 1079,
+        "buy3": 962,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4503",
@@ -11328,8 +11912,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:38",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:32",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1717,
+        "buy2": 1649,
+        "buy3": 1501,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4362",
@@ -11482,8 +12074,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:38",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:33",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2796,
+        "buy2": 2667,
+        "buy3": 2581,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4743",
@@ -11632,8 +12232,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:38",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:33",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1674,
+        "buy2": 1619,
+        "buy3": 1474.36,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1980",
@@ -11786,8 +12394,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:38",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:33",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2285,
+        "buy2": 2196,
+        "buy3": 1729.62,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "2053",
@@ -11936,8 +12552,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:39",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:34",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2141,
+        "buy2": 2071,
+        "buy3": 2005,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1939",
@@ -12090,8 +12714,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:39",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:34",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1736,
+        "buy2": 1670,
+        "buy3": 1634,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8014",
@@ -12243,8 +12875,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:39",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:34",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 4373,
+        "buy2": 4254,
+        "buy3": 3654,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "6653",
@@ -12393,8 +13033,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:40",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:34",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1869,
+        "buy2": 1754,
+        "buy3": 1667,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5101",
@@ -12543,8 +13191,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:40",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:36",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 6035,
+        "buy2": 5791,
+        "buy3": 5478,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4021",
@@ -12693,8 +13349,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:41",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:36",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 5856,
+        "buy2": 5235,
+        "buy3": 4397.76,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4958",
@@ -12843,8 +13507,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:41",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:36",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3690,
+        "buy2": 3497,
+        "buy3": 3333,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8084",
@@ -12995,14 +13667,22 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:41",
+      "updated_at": "2026-10-26 11:36",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
           "from": 127.5,
           "to": 85.0
         }
-      ]
+      ],
+      "locked_targets": {
+        "buy1": 1856,
+        "buy2": 1786,
+        "buy3": 1742,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1736",
@@ -13153,8 +13833,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:42",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:36",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2426,
+        "buy2": 2279,
+        "buy3": 2090,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "6592",
@@ -13302,8 +13990,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:42",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:37",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1913,
+        "buy2": 1772,
+        "buy3": 1253.55,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "7282",
@@ -13454,14 +14150,22 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:43",
+      "updated_at": "2026-10-26 11:37",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
           "from": 175.0,
           "to": 35.0
         }
-      ]
+      ],
+      "locked_targets": {
+        "buy1": 868,
+        "buy2": 829,
+        "buy3": 366,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8473",
@@ -13613,8 +14317,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:43",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:37",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2278,
+        "buy2": 2197,
+        "buy3": 2134,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4526",
@@ -13761,8 +14473,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:43",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:38",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2895,
+        "buy2": 2835,
+        "buy3": 2778,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "9795",
@@ -13913,8 +14633,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:43",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:38",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2217,
+        "buy2": 2071,
+        "buy3": 2000,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5076",
@@ -14055,8 +14783,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:45",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:39",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2378,
+        "buy2": 2324,
+        "buy3": 2272,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5288",
@@ -14210,8 +14946,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:45",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:39",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1328,
+        "buy2": 1203,
+        "buy3": 1165,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "3355",
@@ -14364,8 +15108,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:45",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:39",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1147,
+        "buy2": 1087,
+        "buy3": 1059,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1911",
@@ -14517,8 +15269,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:45",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:40",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1295,
+        "buy2": 1232,
+        "buy3": 1147,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1951",
@@ -14671,8 +15431,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:45",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:40",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2128,
+        "buy2": 2073,
+        "buy3": 2015,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4345",
@@ -14822,8 +15590,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:46",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:40",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 940,
+        "buy2": 882,
+        "buy3": 777.26,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "6902",
@@ -14972,8 +15748,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:46",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:41",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2126,
+        "buy2": 2079,
+        "buy3": 1917,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "2153",
@@ -15167,8 +15951,16 @@
         "alert": false,
         "alert_threshold_pt": 10.0
       },
-      "updated_at": "2026-10-26 07:46",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:41",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1734,
+        "buy2": 1650,
+        "buy3": 1630,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "7172",
@@ -15321,8 +16113,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:47",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:41",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2483,
+        "buy2": 2348,
+        "buy3": 1995.58,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "9882",
@@ -15473,8 +16273,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:47",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:41",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1794,
+        "buy2": 1730,
+        "buy3": 1655,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "9989",
@@ -15628,8 +16436,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:47",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:42",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 4112,
+        "buy2": 3848,
+        "buy3": 3718,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4043",
@@ -15778,8 +16594,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:48",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:43",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3739,
+        "buy2": 3657,
+        "buy3": 3511,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "6432",
@@ -15974,8 +16798,16 @@
         "alert": false,
         "alert_threshold_pt": 10.0
       },
-      "updated_at": "2026-10-26 07:48",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:43",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 5990,
+        "buy2": 5606,
+        "buy3": 5457,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8572",
@@ -16126,8 +16958,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:49",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:43",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 488,
+        "buy2": 467,
+        "buy3": 443,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "7994",
@@ -16280,8 +17120,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:49",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:44",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2303,
+        "buy2": 2253,
+        "buy3": 2160,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "4547",
@@ -16433,8 +17281,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:49",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:44",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 6296,
+        "buy2": 4582,
+        "buy3": 4146,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5970",
@@ -16584,8 +17440,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:50",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:44",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2046,
+        "buy2": 1952,
+        "buy3": 1870,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "2498",
@@ -16739,8 +17603,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:50",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:45",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 3266,
+        "buy2": 3148,
+        "buy3": 3030,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1828",
@@ -16893,8 +17765,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:50",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:45",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2404,
+        "buy2": 2320,
+        "buy3": 2273,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5280",
@@ -17046,8 +17926,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:50",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:46",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2250,
+        "buy2": 2174,
+        "buy3": 1961,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8425",
@@ -17201,8 +18089,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:51",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:46",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1247,
+        "buy2": 1185,
+        "buy3": 1153,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8935",
@@ -17354,8 +18250,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:52",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:46",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1806,
+        "buy2": 1778,
+        "buy3": 1724,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "1904",
@@ -17507,8 +18411,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:52",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:47",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1010,
+        "buy2": 965,
+        "buy3": 512,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "3023",
@@ -17661,8 +18573,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:52",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:47",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1633,
+        "buy2": 1600,
+        "buy3": 1559,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "8750",
@@ -17814,8 +18734,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:52",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:47",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 1827,
+        "buy2": 1735,
+        "buy3": 1589,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5947",
@@ -17966,8 +18894,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:53",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:48",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 4240,
+        "buy2": 3827,
+        "buy3": 3643,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "9304",
@@ -18114,8 +19050,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:53",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:48",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2326,
+        "buy2": 2217,
+        "buy3": 1790.92,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     },
     {
       "code": "5334",
@@ -18264,8 +19208,16 @@
       },
       "valuation_range": null,
       "equity_ratio_trend": null,
-      "updated_at": "2026-10-26 07:54",
-      "forecast_dividend_changes": []
+      "updated_at": "2026-10-26 11:48",
+      "forecast_dividend_changes": [],
+      "locked_targets": {
+        "buy1": 2536,
+        "buy2": 2288,
+        "buy3": 2143,
+        "buy3_source": "利回り③",
+        "basis_date": "2026-10-26",
+        "reason": "初期設定"
+      }
     }
   ],
   "errors": []
