@@ -383,6 +383,50 @@ def load_previous_stocks() -> dict[str, dict]:
     return {s["code"]: s for s in payload.get("stocks", [])}
 
 
+def build_locked_targets(
+    prev_stock: dict, target_yield: dict, step3: dict, today_str: str, reason: str = "初期設定"
+) -> dict | None:
+    """分割買いラインの確定値(買い1/2/3・基準日・引き直し理由)を決める。
+
+    既に確定値がある銘柄は(Step1の時点では無条件に)そのまま引き継ぐ。引き直しトリガー
+    (決算取り込み・予想修正時のみ引き直す)はStep2で実装する。確定値が無い銘柄は
+    当日の計算値を初期設定として登録する。買い3は「目標利回り③の買付株価」と
+    「第3段階・目標株価」のうち低い方(=よりシビアな価格)を採用し、どちらを
+    採用したかをbuy3_sourceに記録する。
+    """
+    existing = prev_stock.get("locked_targets")
+    if existing:
+        return existing
+
+    buy1 = target_yield.get("buy1_price")
+    buy2 = target_yield.get("buy2_price")
+    buy3_yield = target_yield.get("buy3_price")
+    step3_price = step3.get("target_price")
+
+    if buy3_yield is None and step3_price is None:
+        buy3, buy3_source = None, None
+    elif buy3_yield is None:
+        buy3, buy3_source = step3_price, "目標株価"
+    elif step3_price is None:
+        buy3, buy3_source = buy3_yield, "利回り③"
+    elif step3_price <= buy3_yield:
+        buy3, buy3_source = step3_price, "目標株価"
+    else:
+        buy3, buy3_source = buy3_yield, "利回り③"
+
+    if buy1 is None and buy2 is None and buy3 is None:
+        return None
+
+    return {
+        "buy1": buy1,
+        "buy2": buy2,
+        "buy3": buy3,
+        "buy3_source": buy3_source,
+        "basis_date": today_str,
+        "reason": reason,
+    }
+
+
 def diff_forecast_changes(
     code: str, new_forecast, previous: dict[str, dict], disclosure_date: str | None = None
 ) -> list[dict]:
@@ -420,6 +464,7 @@ def main() -> None:
     else:
         target_codes = all_codes
 
+    today_str = date.today().strftime("%Y-%m-%d")
     client = JQuantsClient(api_key, min_interval_seconds=1.5)
     previous = load_previous_stocks()
     edinet_latest_by_code, edinet_financials_by_code = fetch_recent_edinet_earnings(
@@ -445,6 +490,11 @@ def main() -> None:
                 prev_stock = previous.get(code) or {}
                 result["valuation_range"] = prev_stock.get("valuation_range")
                 result["equity_ratio_trend"] = prev_stock.get("equity_ratio_trend")
+            # 分割買いラインの確定値は、既にあればそのまま引き継ぐ(毎日のtarget_yield
+            # 再計算とは独立)。無ければ当日の計算値を初期設定として登録する。
+            result["locked_targets"] = build_locked_targets(
+                previous.get(code) or {}, result["target_yield"], result["step3"], today_str,
+            )
             fresh[code] = result
         except JQuantsError as exc:
             errors.append({"code": code, "error": str(exc)})

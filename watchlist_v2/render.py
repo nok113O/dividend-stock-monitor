@@ -510,7 +510,20 @@ def render_step3(step3: dict) -> str:
     )
 
 
-def render_target_yield(code: str, current_price, ty: dict) -> str:
+def locked_buy_status(current_price, locked: dict | None) -> str:
+    if current_price is None or not locked:
+        return "要確認"
+    b1, b2, b3 = locked.get("buy1"), locked.get("buy2"), locked.get("buy3")
+    if b3 is not None and current_price <= b3:
+        return "第3買い（本格購入）"
+    if b2 is not None and current_price <= b2:
+        return "第2買い（追加買い）"
+    if b1 is not None and current_price <= b1:
+        return "第1買い（打診買い）"
+    return "監視"
+
+
+def render_target_yield(code: str, current_price, ty: dict, locked: dict | None) -> str:
     if ty.get("error") or ty.get("target1_pct") is None:
         return (
             '<div class="step">'
@@ -519,16 +532,17 @@ def render_target_yield(code: str, current_price, ty: dict) -> str:
             f'<div class="data-gap"><strong>算定不可：</strong>{esc(ty.get("error")) or "データ不足"}</div>'
             "</div>"
         )
-    status = ty.get("buy_status", "要確認")
+    status = locked_buy_status(current_price, locked)
     status_cls = "pass" if "買い" in status and status != "監視" else "pending"
+    locked = locked or {}
     tiers = [
-        ("①第1買い", "85%/75%", ty["target1_pct"], ty["buy1_price"]),
-        ("②第2買い", "92.5%/85%", ty["target2_pct"], ty["buy2_price"]),
-        ("③第3買い", "97.5%/95%", ty["target3_pct"], ty["buy3_price"]),
+        ("①第1買い", "85%/75%", ty["target1_pct"], ty["buy1_price"], locked.get("buy1"), None),
+        ("②第2買い", "92.5%/85%", ty["target2_pct"], ty["buy2_price"], locked.get("buy2"), None),
+        ("③第3買い", "97.5%/95%", ty["target3_pct"], ty["buy3_price"], locked.get("buy3"), locked.get("buy3_source")),
     ]
     reached = [
-        current_price is not None and buy_price is not None and current_price <= buy_price
-        for _, _, _, buy_price in tiers
+        current_price is not None and locked_price is not None and current_price <= locked_price
+        for _, _, _, _, locked_price, _ in tiers
     ]
     # デフォルトで開くタブ：到達している中で最も深い段階（未到達なら①）
     default_open = 1
@@ -546,24 +560,45 @@ def render_target_yield(code: str, current_price, ty: dict) -> str:
         f'<label for="{group}-{i}" class="tab-btn{" reached" if reached[i-1] else ""}">{tiers[i-1][0]}</label>'
         for i in range(1, 4)
     )
-    def render_panel(i: int, label: str, crit: str, pct, buy_price) -> str:
+    def render_panel(i: int, label: str, crit: str, pct, ref_price, locked_price, buy3_source) -> str:
         is_reached = reached[i - 1]
-        price_text = fmt_num(buy_price, 0) if buy_price is not None else "―"
+        locked_text = fmt_num(locked_price, 0) if locked_price is not None else "―"
+        ref_text = fmt_num(ref_price, 0) if ref_price is not None else "―"
         status_text = "到達済み" if is_reached else "未到達"
         status_cls2 = "reached" if is_reached else ""
+        source_line = (
+            f'<div class="ft-detail">採用根拠：{esc(buy3_source)}</div>' if i == 3 and buy3_source else ""
+        )
+        diverged = (
+            ref_price is not None and locked_price is not None and locked_price != 0
+            and abs(ref_price - locked_price) / abs(locked_price) >= 0.05
+        )
+        diverge_note = (
+            '<div class="ft-detail" style="color:var(--hanko);">参考値が確定値から5%以上乖離しています</div>'
+            if diverged else ""
+        )
         return (
             f'<div class="tab-panel panel-{i}">'
             f'<div class="target-crit">正規分布 {crit}</div>'
             f'<div class="target-yield">{fmt_num(pct, 2)}%</div>'
-            f"<div class=\"target-price\">買付株価 {price_text}円</div>"
+            f"<div class=\"target-price\">確定買付株価 {locked_text}円</div>"
             f'<div class="target-status {status_cls2}">{status_text}</div>'
+            f"{source_line}"
+            f'<div class="ft-detail">参考値（本日時点・未確定）：{ref_text}円</div>'
+            f"{diverge_note}"
             "</div>"
         )
 
     panels = "".join(
-        render_panel(i, label, crit, pct, buy_price)
-        for i, (label, crit, pct, buy_price) in enumerate(tiers, start=1)
+        render_panel(i, label, crit, pct, ref_price, locked_price, buy3_source)
+        for i, (label, crit, pct, ref_price, locked_price, buy3_source) in enumerate(tiers, start=1)
     )
+    basis_line = ""
+    if locked.get("basis_date"):
+        basis_line = (
+            f'<div class="step-sub" style="margin-top:4px;">'
+            f'確定値の基準日：{esc(locked.get("basis_date"))}（{esc(locked.get("reason") or "")}）</div>'
+        )
     return (
         '<div class="step">'
         '<div class="step-head"><div>'
@@ -572,6 +607,7 @@ def render_target_yield(code: str, current_price, ty: dict) -> str:
         f'</div><span class="chip {status_cls} lg">{status}</span></div>'
         f'<div class="tabs">{radios}<div class="tab-labels">{tab_labels}</div>{panels}</div>'
         f'<div class="step-sub" style="margin-top:8px;">サンプル：日次{ty.get("sample_daily", 0)}件／年次{ty.get("sample_annual", 0)}件（3年TTM＋10年年次）</div>'
+        f"{basis_line}"
         "</div>"
     )
 
@@ -664,7 +700,8 @@ def judge_class(judge: str) -> str:
 def render_section_tabs(code: str, stock: dict, price) -> str:
     step1, step2, step3 = stock["step1"], stock["step2"], stock["step3"]
     ty = stock.get("target_yield", {})
-    buy_status = ty.get("buy_status", "要確認")
+    locked = stock.get("locked_targets")
+    buy_status = locked_buy_status(price, locked)
     ty_cls = "pass" if "買い" in buy_status and buy_status != "監視" else "pending"
 
     vr = stock.get("valuation_range")
@@ -682,7 +719,7 @@ def render_section_tabs(code: str, stock: dict, price) -> str:
         ("第1段階", judge_class(step1["overall"]), render_step1(step1)),
         ("第2段階", judge_class(step2["overall"]), render_step2(step2)),
         ("第3段階", "pass" if step3.get("target_price") is not None else "pending", render_step3(step3)),
-        ("目標利回り", ty_cls, render_target_yield(code, price, ty)),
+        ("目標利回り", ty_cls, render_target_yield(code, price, ty, locked)),
         ("参考指標", vr_cls, reference_panel_html),
     ]
 
