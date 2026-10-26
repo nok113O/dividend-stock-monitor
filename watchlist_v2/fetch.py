@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import time
 from datetime import date, datetime, timedelta
@@ -394,16 +395,16 @@ def load_previous_stocks() -> dict[str, dict]:
 # 分割買いラインの引き直しトリガー種別。同日に複数開示があった場合の優先順位にも使う。
 TRIGGER_PRIORITY = {"決算短信": 3, "配当予想の修正": 2, "業績予想の修正": 1, "その他": 0}
 
-FINANCIAL_STATEMENT_DOC_TYPES = {
-    "1QFinancialStatements_Consolidated_JP", "2QFinancialStatements_Consolidated_JP",
-    "3QFinancialStatements_Consolidated_JP", "FYFinancialStatements_Consolidated_JP",
-    "1QFinancialStatements_NonConsolidated_JP", "2QFinancialStatements_NonConsolidated_JP",
-    "3QFinancialStatements_NonConsolidated_JP", "FYFinancialStatements_NonConsolidated_JP",
-}
+# "1QFinancialStatements_Consolidated_JP" のように {期}{連結/単体}{会計基準(JP/IFRS/USGAAP)}の
+# 組み合わせで何通りもの値がある(IFRS・米国会計基準の銘柄も監視対象に含まれるため)。
+# 個別に列挙せず正規表現で判定する。
+FINANCIAL_STATEMENT_DOC_TYPE_RE = re.compile(
+    r"^(?:1Q|2Q|3Q|FY)FinancialStatements_(?:Consolidated|NonConsolidated)_(?:JP|IFRS|USGAAP)$"
+)
 
 
 def classify_doc_type(doc_type: str | None) -> str:
-    if doc_type in FINANCIAL_STATEMENT_DOC_TYPES:
+    if doc_type and FINANCIAL_STATEMENT_DOC_TYPE_RE.match(doc_type):
         return "決算短信"
     if doc_type == "DividendForecastRevision":
         return "配当予想の修正"
