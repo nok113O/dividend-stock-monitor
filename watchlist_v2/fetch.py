@@ -45,6 +45,7 @@ from market_data import current_market_data  # noqa: E402
 from sector_master import classify  # noqa: E402
 from target_yield_engine import calculate_targets, purchase_price  # noqa: E402
 from target_yield_engine import status as purchase_status  # noqa: E402
+from target_yield_engine import _fetch_price_dividend_history, _normalize_close  # noqa: E402
 from workbook_io import empty_history  # noqa: E402
 
 CODES_FILE = Path(__file__).resolve().parent / "codes.json"
@@ -486,6 +487,28 @@ def detect_earn_revision_direction(row: dict, summaries: list[dict]) -> str:
     return "変更なし"
 
 
+def _historical_price_on_or_before(code: str, date_str: str | None) -> float | None:
+    """Yahoo!ファイナンスの日足終値から、指定日以前で最も近い終値を取得する。
+
+    price_at_lock未設定の既存確定値(本機能導入前のもの)を、導入日時点の株価ではなく
+    実際の基準日(basis_date)の株価で遡及補完するために使う。取得できない場合はNoneを返す。
+    """
+    if not date_str:
+        return None
+    try:
+        history, _ = _fetch_price_dividend_history(code)
+        close = _normalize_close(history)
+        if close.empty:
+            return None
+        target = pd.Timestamp(date_str)
+        close = close[close.index <= target]
+        if close.empty:
+            return None
+        return float(close.iloc[-1])
+    except Exception:  # noqa: BLE001
+        return None
+
+
 def _compose_buy3(buy3_yield, step3_price):
     """買い3は「目標利回り③の買付株価」と「第3段階・目標株価」のうち低い方を採用する。"""
     if buy3_yield is None and step3_price is None:
@@ -621,7 +644,11 @@ def update_locked_targets(
     if locked.get("forecast_dividend_basis") is None:
         locked["forecast_dividend_basis"] = prev_stock.get("forecast_dividend")
     if locked.get("price_at_lock") is None:
-        locked["price_at_lock"] = prev_stock.get("price")
+        # 前日株価ではなく、実際の確定値基準日(basis_date)時点のYahoo終値で補完する
+        # (買い3自体は本機能導入日時点の計算のため厳密には一致しないが、「前日株価」
+        # より大幅に実態に近い)。取得できない場合のみ前日株価にフォールバックする。
+        historical = _historical_price_on_or_before(code, locked.get("basis_date"))
+        locked["price_at_lock"] = historical if historical is not None else prev_stock.get("price")
 
     groups = group_new_disclosures(summaries, locked.get("last_disc_no"))
     override_note = "(普通配当ベース・手動補正あり)" if dividend_override_active else ""
