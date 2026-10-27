@@ -125,8 +125,14 @@ def select_forecast_dividend(row: dict) -> float | None:
     return None
 
 def select_forecast_eps(row: dict) -> float | None:
-    for key in ("NxFEPS", "FEPS", "EPS"):
+    for key in ("NxFEPS", "FEPS"):
         value = num(row.get(key))
+        if value is not None:
+            return value
+    # EPSは本決算(FY)実績なら通期値だが、1Q〜3Qでは期初からの累積(3〜9ヶ月分)
+    # にすぎないため、予想欄(FEPS/NxFEPS)が無い場合の代用としてしか使えない。
+    if str(row.get("CurPerType", "")).upper() == "FY":
+        value = num(row.get("EPS"))
         if value is not None:
             return value
     return None
@@ -134,6 +140,11 @@ def select_forecast_eps(row: dict) -> float | None:
 def step1_metrics(price: float | None, latest: dict, fy_latest: dict | None = None) -> dict[str, float | None]:
     bps = num(latest.get("BPS"))
     eps_forecast = select_forecast_eps(latest)
+    # 直近開示が1Q〜3Qで予想EPS欄も無い場合、期中の累積EPSを通期扱いで使うと
+    # PERが過大評価される(例: 1Q実績EPSを使うと年換算の約4倍の値になる)。
+    # 直近の本決算(FY)実績EPSを通期の代用として使う。
+    if eps_forecast is None:
+        eps_forecast = num((fy_latest or {}).get("EPS"))
     dividend = select_forecast_dividend(latest)
     # ROE・ROAの分子(当期純利益)は、直近開示が本決算(FY)以外(1Q〜3Q)だと
     # 期初からの累積利益(3〜9ヶ月分)がそのまま入ってしまい、通期ベースの
