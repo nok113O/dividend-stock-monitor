@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28 07:52",
+  "generated_at": "2026-10-28 11:19",
   "stocks": [
     {
       "code": "8306",
@@ -33350,6 +33350,175 @@
         "large_increase_detail": null
       },
       "updated_at": "2026-10-28 07:52",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "7931",
+      "name": "未来工業",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 3420.0,
+      "price_date": "2026-10-28 15:30",
+      "price_change": -75.0,
+      "price_change_pct": -0.021459227,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 12.73553288150741,
+            "criterion": "12倍以下(上限18倍)",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 0.9968055587940401,
+            "criterion": "1.3倍以下(上限1.95倍)",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 8.357805186253048,
+            "criterion": "7%以上(下限3.5%)",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 6.773891092679409,
+            "criterion": "3%以上(下限1.5%)",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.9473684210526314,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 79.80000000000001,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 553.142421,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "○",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "2.92倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 1回（普通配当ベース）"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期（普通配当ベース）"
+          }
+        },
+        "periods_available": 10,
+        "special_dividend_notes": []
+      },
+      "step3": {
+        "eps_sum": 1927.6,
+        "latest_bps": 3431.0,
+        "target_price": 5358.6
+      },
+      "forecast_dividend": 135.0,
+      "dividend_yield_pct": 3.9473684210526314,
+      "dividend_override_note": "電設資材大手(化学、プライム)。EDINET DB記載のEPS/BPS/1株配当(FY2017〜FY2026)をJ-Quantsの直近2期実績(FY2025: EPS299.64/BPS3263.69/Div150.0、FY2026: EPS290.73/BPS3430.96/Div145.0)と照合し一致を確認。株式分割・併合は確認されず、全期間調整不要。配当は32→32→40→40→40→50→50→150→150→145円と10期で減配1回(FY2026、150→145、-3.3%)・無配ゼロ。EPS赤字ゼロ、BPS10期連続増加、今期(FY2026)EPS290.7は9期前(FY2017)EPS99.7の2.92倍で2倍超。2027年3月期の会社予想配当は135円(2026-07-23開示)で、前期実績145円からさらに-6.9%の減少(配当方針の公式声明は未確認のためdividend_policyは両方false)。2026-10-28一次スクリーニング：Step1は必須3項目(配当利回り3.95%・自己資本比率79.8%・時価総額553億円)全てクリア、柔軟4項目はPERのみ僅差未達(12.74倍、キャップ18倍以内)で総合判定○。Step2は過去実績ベースでは全項目クリアだが、直近の配当予想が前期実績比で減少基調にある点は要注意。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学・配当変動大",
+        "target1_pct": 4.49,
+        "target2_pct": 4.63,
+        "target3_pct": 4.81,
+        "buy1_price": 3007,
+        "buy2_price": 2916,
+        "buy3_price": 2807,
+        "buy_status": "監視",
+        "sample_daily": 730,
+        "sample_annual": 8,
+        "error": null
+      },
+      "rating": "監視継続",
+      "comment": "PERは基準未達。",
+      "priority_score": {
+        "growth_score": 2,
+        "income_score": 3,
+        "total_score": 5,
+        "payout_ratio_pct": 49.9,
+        "dividend_cagr_pct": 18.28,
+        "dividend_years_to_double": 4.1,
+        "growth_detail": [
+          "EPSが9期前の2倍以上",
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "無配0期",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": []
+      },
+      "expected_irr": {
+        "expected_irr_pct": 37.5,
+        "dividend_return_pct": 22.2,
+        "capital_return_pct": 15.3,
+        "dividend_yield_component_pct": 3.95,
+        "dividend_growth_component_pct": 18.28,
+        "eps_growth_component_pct": 12.63,
+        "valuation_reversion_component_pct": 2.69
+      },
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": 97.4,
+          "latest_forecast_growth_pct": null,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "要確認",
+          "achievement_avg_pct": 110.7,
+          "latest_forecast_growth_pct": null,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "locked_targets": {
+        "buy1": 3007,
+        "buy2": 2916,
+        "buy3": 2807,
+        "target1_pct": 4.49,
+        "target2_pct": 4.63,
+        "target3_pct": 4.81,
+        "buy3_source": "利回り③",
+        "forecast_dividend_basis": 135.0,
+        "price_at_lock": 3420.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null,
+        "basis_date": "2026-10-28",
+        "reason": "初期設定",
+        "disabled": false,
+        "disabled_reason": null,
+        "order_warning": false,
+        "last_disc_no": 20260722597572,
+        "history": []
+      },
+      "updated_at": "2026-10-28 11:19",
       "forecast_dividend_changes": []
     }
   ],
