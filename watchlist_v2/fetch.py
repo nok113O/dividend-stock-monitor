@@ -313,11 +313,27 @@ def fetch_one(
     ordinary_div_series = normalize_history(history, code)["普通配当"].dropna()
     last_ordinary_dividend = float(ordinary_div_series.iloc[-1]) if not ordinary_div_series.empty else None
 
-    locked_targets = update_locked_targets(
+    locked_targets, tanshin_processed = update_locked_targets(
         prev_stock or {}, code, master.get("S33Nm"), summaries, eps_hist, div_hist,
         forecast_dividend, step3, target_yield, date.today().strftime("%Y-%m-%d"),
         override_dividend is not None, last_ordinary_dividend, price,
     )
+
+    # 決算短信が今回取り込まれた(=確定値が引き直された)のに、直近7日カレンダー経由の
+    # 一括取得ではEDINET有報データを取れていなかった銘柄だけ、その場で単発取得する。
+    # カレンダー経由で既に取れている場合は二重にEDINET DBへ問い合わせない。
+    if tanshin_processed and edinet_financials is None:
+        api_key = os.environ.get("EDINETDB_API_KEY", "")
+        edinet_code = load_edinet_codes().get(code)
+        if api_key and edinet_code:
+            try:
+                fresh_financials = EdinetDbClient(api_key).financials(edinet_code, years=5)
+                valuation_range = calculate_valuation_range(
+                    fresh_financials, metrics.get("予想EPS"), metrics.get("予想年間配当")
+                )
+                equity_ratio_trend = calculate_equity_ratio_trend(fresh_financials)
+            except EdinetDbError as exc:
+                print(f"  {code}: 決算短信反映時のEDINET DB単発取得エラー(スキップ): {exc}")
 
     def clean(value):
         if value is None:
@@ -589,7 +605,7 @@ def update_locked_targets(
     dividend_override_active: bool,
     last_ordinary_dividend,
     price,
-) -> dict | None:
+) -> tuple[dict | None, bool]:
     """分割買いラインの確定値を、前回ロック以降の新規開示に応じて引き直す。
 
     減配の判定は開示の種類(DocType)ではなく、予想配当(普通配当ベース)の数字そのものを
@@ -610,7 +626,7 @@ def update_locked_targets(
         buy3, buy3_source = _compose_buy3(target_yield.get("buy3_price"), step3.get("target_price"))
         buy1, buy2 = target_yield.get("buy1_price"), target_yield.get("buy2_price")
         if buy1 is None and buy2 is None and buy3 is None:
-            return None
+            return None, False
         last_disc_no = max((int(r.get("DiscNo") or 0) for r in summaries), default=None)
         return {
             "buy1": buy1,
@@ -631,7 +647,7 @@ def update_locked_targets(
             "order_warning": _check_order(buy1, buy2, buy3),
             "last_disc_no": last_disc_no,
             "history": [],
-        }
+        }, True
 
     locked = dict(existing)
     # Step1・Step2導入時点で登録済みの確定値には％・予想配当基準値・確定時点の株価が
@@ -652,6 +668,9 @@ def update_locked_targets(
 
     groups = group_new_disclosures(summaries, locked.get("last_disc_no"))
     override_note = "(普通配当ベース・手動補正あり)" if dividend_override_active else ""
+    # 決算短信が実際に取り込まれたら、安い株価の目安(valuation_range)等の
+    # EDINET有報データも同じタイミングで更新したいので、呼び出し側に知らせる。
+    tanshin_processed = False
 
     for group in groups:
         trigger, disc_date, row = group["trigger"], group["disc_date"], group["row"]
@@ -675,6 +694,8 @@ def update_locked_targets(
             baseline, baseline_label = _cut_baseline(row, locked, last_ordinary_dividend)
             is_cut = baseline is not None and forecast_dividend is not None and forecast_dividend < baseline
             if is_cut:
+                if trigger == "決算短信":
+                    tanshin_processed = True
                 new_locked = dict(locked)
                 new_locked["disabled_reason"] = (
                     f"減配を検知({baseline_label} {baseline}円→予想{forecast_dividend}円、"
@@ -695,6 +716,7 @@ def update_locked_targets(
                 buy3_yield = purchase_price(forecast_dividend, targets.target3)
             except Exception:  # noqa: BLE001
                 continue
+            tanshin_processed = True
             buy3, buy3_source = _compose_buy3(buy3_yield, step3.get("target_price"))
             large_increase_warning, large_increase_detail = _large_increase_fields(
                 locked.get("forecast_dividend_basis"), forecast_dividend
@@ -758,7 +780,7 @@ def update_locked_targets(
     locked["last_disc_no"] = max(
         (int(r.get("DiscNo") or 0) for r in summaries), default=locked.get("last_disc_no")
     )
-    return locked
+    return locked, tanshin_processed
 
 
 def diff_forecast_changes(
