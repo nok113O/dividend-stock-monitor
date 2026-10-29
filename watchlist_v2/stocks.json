@@ -452,8 +452,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 13.35,
+        "per_median": 14.58,
+        "per_max": 15.81,
+        "price_low": 2450.9,
+        "price_center": 2676.7,
+        "price_high": 2902.6,
+        "yield_at_low_pct": 3.43,
+        "yield_at_center_pct": 3.14,
+        "yield_at_high_pct": 2.89,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 45.0
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 42.7
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 36.9
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 30.1
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 26.6
+          }
+        ],
+        "latest_pct": 26.6,
+        "change_pt": -18.4,
+        "drop_from_max_pt": 18.4,
+        "alert": true,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 2736,
         "buy2": 2658,
@@ -3316,8 +3357,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 3.8,
+        "per_median": 6.5,
+        "per_max": 9.5,
+        "price_low": 1257.1,
+        "price_center": 2150.3,
+        "price_high": 3142.8,
+        "yield_at_low_pct": 8.59,
+        "yield_at_center_pct": 5.02,
+        "yield_at_high_pct": 3.44,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2021,
+            "equity_ratio_pct": 57.4
+          },
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 59.0
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 62.5
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 65.3
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 61.4
+          }
+        ],
+        "latest_pct": 61.4,
+        "change_pt": 4.0,
+        "drop_from_max_pt": 3.9,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 2477,
         "buy2": 2379,
@@ -5280,8 +5362,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 3,
+        "excluded_periods": 2,
+        "per_min": 19.7,
+        "per_median": 22.5,
+        "per_max": 45.6,
+        "price_low": 2717.4,
+        "price_center": 3103.7,
+        "price_high": 6290.1,
+        "yield_at_low_pct": 3.68,
+        "yield_at_center_pct": 3.22,
+        "yield_at_high_pct": 1.59,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 60.8
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 57.6
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 48.8
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 47.0
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 41.5
+          }
+        ],
+        "latest_pct": 41.5,
+        "change_pt": -19.3,
+        "drop_from_max_pt": 19.3,
+        "alert": true,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 4545,
         "buy2": 3636,
@@ -6860,8 +6983,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 12.8,
+        "per_median": 16.0,
+        "per_max": 22.3,
+        "price_low": 1052.7,
+        "price_center": 1315.8,
+        "price_high": 1834.0,
+        "yield_at_low_pct": 4.7,
+        "yield_at_center_pct": 3.76,
+        "yield_at_high_pct": 2.7,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 70.31
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 65.19
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 63.06
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 61.76
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 63.08
+          }
+        ],
+        "latest_pct": 63.08,
+        "change_pt": -7.23,
+        "drop_from_max_pt": 7.23,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 1592,
         "buy2": 1514,
@@ -12359,8 +12523,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 6.96,
+        "per_median": 8.01,
+        "per_max": 16.95,
+        "price_low": 3191.7,
+        "price_center": 3673.2,
+        "price_high": 7772.9,
+        "yield_at_low_pct": 3.92,
+        "yield_at_center_pct": 3.4,
+        "yield_at_high_pct": 1.61,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 28.24
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 30.02
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 34.95
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 37.18
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 37.04
+          }
+        ],
+        "latest_pct": 37.04,
+        "change_pt": 8.8,
+        "drop_from_max_pt": 0.14,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 3289,
         "buy2": 3173,
@@ -15078,8 +15283,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 8.8,
+        "per_median": 10.0,
+        "per_max": 11.5,
+        "price_low": 3522.4,
+        "price_center": 4002.7,
+        "price_high": 4603.1,
+        "yield_at_low_pct": 5.32,
+        "yield_at_center_pct": 4.68,
+        "yield_at_high_pct": 4.07,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 23.1
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 23.2
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 24.1
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 24.2
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 24.9
+          }
+        ],
+        "latest_pct": 24.9,
+        "change_pt": 1.8,
+        "drop_from_max_pt": 0.0,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 4931,
         "buy2": 4696,
@@ -17395,8 +17641,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 12.89,
+        "per_median": 14.89,
+        "per_max": 28.51,
+        "price_low": 2487.8,
+        "price_center": 2873.8,
+        "price_high": 5502.4,
+        "yield_at_low_pct": 3.05,
+        "yield_at_center_pct": 2.64,
+        "yield_at_high_pct": 1.38,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2021,
+            "equity_ratio_pct": 36.2
+          },
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 38.5
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 39.5
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 35.2
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 36.8
+          }
+        ],
+        "latest_pct": 36.8,
+        "change_pt": 0.6,
+        "drop_from_max_pt": 2.7,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 2222,
         "buy2": 2197,
@@ -17886,8 +18173,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 8.8,
+        "per_median": 12.1,
+        "per_max": 14.3,
+        "price_low": 2383.7,
+        "price_center": 3277.5,
+        "price_high": 3873.4,
+        "yield_at_low_pct": 5.24,
+        "yield_at_center_pct": 3.81,
+        "yield_at_high_pct": 3.23,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2021,
+            "equity_ratio_pct": 57.5
+          },
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 59.8
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 61.8
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 65.2
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 63.7
+          }
+        ],
+        "latest_pct": 63.7,
+        "change_pt": 6.2,
+        "drop_from_max_pt": 1.5,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 3397,
         "buy2": 3272,
@@ -19542,8 +19870,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 11.6,
+        "per_median": 14.0,
+        "per_max": 19.2,
+        "price_low": 2467.9,
+        "price_center": 2978.5,
+        "price_high": 4084.8,
+        "yield_at_low_pct": 2.59,
+        "yield_at_center_pct": 2.15,
+        "yield_at_high_pct": 1.57,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 75.0
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 78.2
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 78.7
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 79.0
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 79.6
+          }
+        ],
+        "latest_pct": 79.6,
+        "change_pt": 4.6,
+        "drop_from_max_pt": 0.0,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 2870,
         "buy2": 2723,
@@ -22907,8 +23276,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 13.3,
+        "per_median": 16.2,
+        "per_max": 18.6,
+        "price_low": 9221.7,
+        "price_center": 11232.4,
+        "price_high": 12896.5,
+        "yield_at_low_pct": 1.87,
+        "yield_at_center_pct": 1.53,
+        "yield_at_high_pct": 1.33,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2021,
+            "equity_ratio_pct": 73.1
+          },
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 73.0
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 73.9
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 74.3
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 73.9
+          }
+        ],
+        "latest_pct": 73.9,
+        "change_pt": 0.8,
+        "drop_from_max_pt": 0.4,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 6035,
         "buy2": 5791,
@@ -24584,8 +24994,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 8.1,
+        "per_median": 9.4,
+        "per_max": 18.4,
+        "price_low": 788.1,
+        "price_center": 914.6,
+        "price_high": 1790.3,
+        "yield_at_low_pct": 4.44,
+        "yield_at_center_pct": 3.83,
+        "yield_at_high_pct": 1.95,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 49.9
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 51.8
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 56.0
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 59.4
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 57.3
+          }
+        ],
+        "latest_pct": 57.3,
+        "change_pt": 7.4,
+        "drop_from_max_pt": 2.1,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 868,
         "buy2": 829,
@@ -24813,8 +25264,49 @@
           "periods": 0
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 2.07,
+        "per_median": 7.43,
+        "per_max": 19.6,
+        "price_low": 1380.3,
+        "price_center": 4954.5,
+        "price_high": 13069.7,
+        "yield_at_low_pct": 7.61,
+        "yield_at_center_pct": 2.12,
+        "yield_at_high_pct": 0.8,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 5.2
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 4.6
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 4.6
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 3.9
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 4.7
+          }
+        ],
+        "latest_pct": 4.7,
+        "change_pt": -0.5,
+        "drop_from_max_pt": 0.5,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 2278,
         "buy2": 2197,
@@ -25620,8 +26112,45 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 4,
+        "excluded_periods": 0,
+        "per_min": 7.3,
+        "per_median": 8.8,
+        "per_max": 11.1,
+        "price_low": 1673.6,
+        "price_center": 2017.5,
+        "price_high": 2544.8,
+        "yield_at_low_pct": 7.89,
+        "yield_at_center_pct": 6.54,
+        "yield_at_high_pct": 5.19,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 37.0
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 28.4
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 35.8
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 30.2
+          }
+        ],
+        "latest_pct": 30.2,
+        "change_pt": -6.8,
+        "drop_from_max_pt": 6.8,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 2378,
         "buy2": 2324,
@@ -27298,8 +27827,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 11.95,
+        "per_median": 17.89,
+        "per_max": 27.47,
+        "price_low": 1793.5,
+        "price_center": 2684.9,
+        "price_high": 4122.7,
+        "yield_at_low_pct": 4.13,
+        "yield_at_center_pct": 2.76,
+        "yield_at_high_pct": 1.79,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 57.85
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 59.08
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 60.87
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 61.27
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 62.91
+          }
+        ],
+        "latest_pct": 62.91,
+        "change_pt": 5.06,
+        "drop_from_max_pt": 0.0,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 2126,
         "buy2": 2079,
@@ -28700,8 +29270,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 4.42,
+        "per_median": 11.0,
+        "per_max": 16.17,
+        "price_low": 1597.3,
+        "price_center": 3975.2,
+        "price_high": 5843.5,
+        "yield_at_low_pct": 8.76,
+        "yield_at_center_pct": 3.52,
+        "yield_at_high_pct": 2.4,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 51.8
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 48.0
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 54.5
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 54.9
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 50.8
+          }
+        ],
+        "latest_pct": 50.8,
+        "change_pt": -1.0,
+        "drop_from_max_pt": 4.1,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 3966,
         "buy2": 3878,
@@ -33483,8 +34094,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 6.7,
+        "per_median": 9.7,
+        "per_max": 12.7,
+        "price_low": 1792.2,
+        "price_center": 2594.8,
+        "price_high": 3397.2,
+        "yield_at_low_pct": 5.86,
+        "yield_at_center_pct": 4.05,
+        "yield_at_high_pct": 3.09,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 62.5
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 62.4
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 65.4
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 68.1
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 62.8
+          }
+        ],
+        "latest_pct": 62.8,
+        "change_pt": 0.3,
+        "drop_from_max_pt": 5.3,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 2536,
         "buy2": 2288,
@@ -33696,8 +34348,49 @@
           "periods": 1
         }
       },
-      "valuation_range": null,
-      "equity_ratio_trend": null,
+      "valuation_range": {
+        "valid_periods": 5,
+        "excluded_periods": 0,
+        "per_min": 9.5,
+        "per_median": 10.9,
+        "per_max": 14.6,
+        "price_low": 2551.1,
+        "price_center": 2927.1,
+        "price_high": 3920.7,
+        "yield_at_low_pct": 5.29,
+        "yield_at_center_pct": 4.61,
+        "yield_at_high_pct": 3.44,
+        "is_reference_only": false
+      },
+      "equity_ratio_trend": {
+        "series": [
+          {
+            "fiscal_year": 2022,
+            "equity_ratio_pct": 77.5
+          },
+          {
+            "fiscal_year": 2023,
+            "equity_ratio_pct": 76.9
+          },
+          {
+            "fiscal_year": 2024,
+            "equity_ratio_pct": 78.9
+          },
+          {
+            "fiscal_year": 2025,
+            "equity_ratio_pct": 79.2
+          },
+          {
+            "fiscal_year": 2026,
+            "equity_ratio_pct": 80.7
+          }
+        ],
+        "latest_pct": 80.7,
+        "change_pt": 3.2,
+        "drop_from_max_pt": 0.0,
+        "alert": false,
+        "alert_threshold_pt": 10.0
+      },
       "locked_targets": {
         "buy1": 3007,
         "buy2": 2916,
