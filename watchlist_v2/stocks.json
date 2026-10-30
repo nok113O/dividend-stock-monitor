@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30 07:48",
+  "generated_at": "2026-10-30 15:52",
   "stocks": [
     {
       "code": "8306",
@@ -98,7 +98,7 @@
         "buy2_price": 2945,
         "buy3_price": 2581,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -301,7 +301,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:07",
+      "updated_at": "2026-10-30 15:18",
       "forecast_dividend_changes": []
     },
     {
@@ -401,7 +401,7 @@
         "buy2_price": 2658,
         "buy3_price": 2569,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -558,12 +558,12 @@
         ],
         "last_disc_no": 20260806511956,
         "forecast_dividend_basis": 84.0,
-        "price_at_lock": null,
+        "price_at_lock": 2981.0,
         "large_increase_warning": false,
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-10-30 07:07",
+      "updated_at": "2026-10-30 15:18",
       "forecast_dividend_changes": []
     },
     {
@@ -663,7 +663,7 @@
         "buy2_price": 1230,
         "buy3_price": 1191,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -849,7 +849,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:07",
+      "updated_at": "2026-10-30 15:18",
       "forecast_dividend_changes": []
     },
     {
@@ -949,7 +949,7 @@
         "buy2_price": 2035,
         "buy3_price": 1876,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -1151,11 +1151,11 @@
         ],
         "last_disc_no": 20260806512662,
         "forecast_dividend_basis": 94.0,
-        "price_at_lock": null,
+        "price_at_lock": 3030.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:07",
+      "updated_at": "2026-10-30 15:19",
       "forecast_dividend_changes": []
     },
     {
@@ -1255,7 +1255,7 @@
         "buy2_price": 3728,
         "buy3_price": 3609,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -1452,7 +1452,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:07",
+      "updated_at": "2026-10-30 15:19",
       "forecast_dividend_changes": []
     },
     {
@@ -1547,12 +1547,12 @@
         "reason": "業種：建設業・利益比較的安定・配当変動大",
         "target1_pct": 4.37,
         "target2_pct": 4.57,
-        "target3_pct": 6.9,
+        "target3_pct": 6.88,
         "buy1_price": 835,
         "buy2_price": 799,
-        "buy3_price": 529,
+        "buy3_price": 531,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -1760,7 +1760,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:09",
+      "updated_at": "2026-10-30 15:20",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -1859,14 +1859,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：卸売業・利益比較的安定・減配なし・増配基調",
-        "target1_pct": 4.11,
+        "target1_pct": 4.1,
         "target2_pct": 4.34,
         "target3_pct": 4.51,
-        "buy1_price": 2725,
+        "buy1_price": 2732,
         "buy2_price": 2581,
         "buy3_price": 2483,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -2061,11 +2061,11 @@
         ],
         "last_disc_no": 20260806511961,
         "forecast_dividend_basis": 112.0,
-        "price_at_lock": null,
+        "price_at_lock": 2583.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:09",
+      "updated_at": "2026-10-30 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -2165,7 +2165,7 @@
         "buy2_price": 2296,
         "buy3_price": 2153,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -2365,7 +2365,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:09",
+      "updated_at": "2026-10-30 15:20",
       "forecast_dividend_changes": []
     },
     {
@@ -2465,7 +2465,7 @@
         "buy2_price": 2083,
         "buy3_price": 1952,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -2662,7 +2662,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:09",
+      "updated_at": "2026-10-30 15:21",
       "forecast_dividend_changes": []
     },
     {
@@ -2762,7 +2762,7 @@
         "buy2_price": 2323,
         "buy3_price": 2278,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -2964,7 +2964,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:09",
+      "updated_at": "2026-10-30 15:21",
       "forecast_dividend_changes": []
     },
     {
@@ -3064,7 +3064,7 @@
         "buy2_price": 1079,
         "buy3_price": 1064,
         "buy_status": "要確認",
-        "sample_daily": 675,
+        "sample_daily": 674,
         "sample_annual": 9,
         "error": null
       },
@@ -3251,7 +3251,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:10",
+      "updated_at": "2026-10-30 15:21",
       "forecast_dividend_changes": []
     },
     {
@@ -3351,7 +3351,7 @@
         "buy2_price": 2467,
         "buy3_price": 2373,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -3516,12 +3516,12 @@
         ],
         "last_disc_no": 20260806512941,
         "forecast_dividend_basis": 112.0,
-        "price_at_lock": null,
+        "price_at_lock": 3499.0,
         "large_increase_warning": false,
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-10-30 07:10",
+      "updated_at": "2026-10-30 15:21",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-07",
@@ -3632,12 +3632,12 @@
         "reason": "業種：機械・利益比較的安定・配当変動大",
         "target1_pct": 3.86,
         "target2_pct": 3.98,
-        "target3_pct": 5.91,
+        "target3_pct": 5.89,
         "buy1_price": 1969,
         "buy2_price": 1910,
-        "buy3_price": 1286,
+        "buy3_price": 1290,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -3833,11 +3833,11 @@
         ],
         "last_disc_no": 20260806512742,
         "forecast_dividend_basis": 76.0,
-        "price_at_lock": null,
+        "price_at_lock": 2017.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:10",
+      "updated_at": "2026-10-30 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -3937,7 +3937,7 @@
         "buy2_price": 500,
         "buy3_price": 490,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -4134,7 +4134,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:11",
+      "updated_at": "2026-10-30 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -4234,7 +4234,7 @@
         "buy2_price": 1422,
         "buy3_price": 1372,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -4418,7 +4418,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:11",
+      "updated_at": "2026-10-30 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -4518,7 +4518,7 @@
         "buy2_price": 1705,
         "buy3_price": 1679,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -4720,7 +4720,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:12",
+      "updated_at": "2026-10-30 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -4820,7 +4820,7 @@
         "buy2_price": 2796,
         "buy3_price": 2680,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -5005,7 +5005,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:12",
+      "updated_at": "2026-10-30 15:23",
       "forecast_dividend_changes": []
     },
     {
@@ -5105,7 +5105,7 @@
         "buy2_price": 3668,
         "buy3_price": 3592,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -5299,11 +5299,11 @@
         ],
         "last_disc_no": 20260806511240,
         "forecast_dividend_basis": 190.0,
-        "price_at_lock": null,
+        "price_at_lock": 4070.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:12",
+      "updated_at": "2026-10-30 15:24",
       "forecast_dividend_changes": []
     },
     {
@@ -5396,14 +5396,14 @@
       "target_yield": {
         "cycle_class": "非景気敏感株",
         "reason": "業種：医薬品・配当変動大",
-        "target1_pct": 2.27,
+        "target1_pct": 2.26,
         "target2_pct": 2.76,
-        "target3_pct": 3.08,
-        "buy1_price": 4405,
+        "target3_pct": 3.07,
+        "buy1_price": 4425,
         "buy2_price": 3623,
-        "buy3_price": 3247,
+        "buy3_price": 3257,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -5560,7 +5560,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:13",
+      "updated_at": "2026-10-30 15:24",
       "forecast_dividend_changes": []
     },
     {
@@ -5660,7 +5660,7 @@
         "buy2_price": 4041,
         "buy3_price": 3901,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -5874,7 +5874,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:13",
+      "updated_at": "2026-10-30 15:25",
       "forecast_dividend_changes": []
     },
     {
@@ -5974,7 +5974,7 @@
         "buy2_price": 3582,
         "buy3_price": 3289,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -6104,7 +6104,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-10-30 07:13",
+      "updated_at": "2026-10-30 15:25",
       "forecast_dividend_changes": []
     },
     {
@@ -6204,7 +6204,7 @@
         "buy2_price": 3571,
         "buy3_price": 3491,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -6418,7 +6418,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:14",
+      "updated_at": "2026-10-30 15:25",
       "forecast_dividend_changes": []
     },
     {
@@ -6518,7 +6518,7 @@
         "buy2_price": 2907,
         "buy3_price": 2770,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -6637,7 +6637,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-10-30 07:14",
+      "updated_at": "2026-10-30 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -6737,7 +6737,7 @@
         "buy2_price": 1318,
         "buy3_price": 1269,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -6932,11 +6932,11 @@
         ],
         "last_disc_no": 20260806512533,
         "forecast_dividend_basis": 51.0,
-        "price_at_lock": null,
+        "price_at_lock": 1446.5,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:14",
+      "updated_at": "2026-10-30 15:26",
       "forecast_dividend_changes": []
     },
     {
@@ -7030,13 +7030,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：その他金融業・配当変動大",
         "target1_pct": 3.35,
-        "target2_pct": 3.51,
-        "target3_pct": 4.01,
+        "target2_pct": 3.5,
+        "target3_pct": 3.99,
         "buy1_price": 1478,
-        "buy2_price": 1410,
-        "buy3_price": 1234,
+        "buy2_price": 1414,
+        "buy3_price": 1241,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -7292,7 +7292,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:14",
+      "updated_at": "2026-10-30 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -7392,7 +7392,7 @@
         "buy2_price": 154,
         "buy3_price": 151,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -7517,7 +7517,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-10-30 07:15",
+      "updated_at": "2026-10-30 15:27",
       "forecast_dividend_changes": []
     },
     {
@@ -7610,14 +7610,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：保険業・配当変動大",
-        "target1_pct": 3.29,
+        "target1_pct": 3.28,
         "target2_pct": 3.41,
-        "target3_pct": 22.74,
-        "buy1_price": 496,
+        "target3_pct": 22.85,
+        "buy1_price": 498,
         "buy2_price": 479,
-        "buy3_price": 72,
+        "buy3_price": 71,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -7805,7 +7805,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:16",
+      "updated_at": "2026-10-30 15:27",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -7911,7 +7911,7 @@
         "buy2_price": 2613,
         "buy3_price": 2371,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -8103,11 +8103,11 @@
         ],
         "last_disc_no": 20260806512680,
         "forecast_dividend_basis": 110.0,
-        "price_at_lock": null,
+        "price_at_lock": 2899.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:16",
+      "updated_at": "2026-10-30 15:28",
       "forecast_dividend_changes": []
     },
     {
@@ -8207,7 +8207,7 @@
         "buy2_price": 3032,
         "buy3_price": 2821,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -8421,7 +8421,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:16",
+      "updated_at": "2026-10-30 15:28",
       "forecast_dividend_changes": []
     },
     {
@@ -8514,14 +8514,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：その他製品・利益比較的安定・配当変動大",
-        "target1_pct": 3.92,
+        "target1_pct": 3.91,
         "target2_pct": 4.22,
         "target3_pct": 4.36,
-        "buy1_price": 3163,
+        "buy1_price": 3171,
         "buy2_price": 2938,
         "buy3_price": 2844,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -8703,7 +8703,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:17",
+      "updated_at": "2026-10-30 15:28",
       "forecast_dividend_changes": []
     },
     {
@@ -8803,7 +8803,7 @@
         "buy2_price": 2404,
         "buy3_price": 2320,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -8996,11 +8996,11 @@
         ],
         "last_disc_no": 20260804508674,
         "forecast_dividend_basis": 100.0,
-        "price_at_lock": null,
+        "price_at_lock": 2715.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:17",
+      "updated_at": "2026-10-30 15:28",
       "forecast_dividend_changes": []
     },
     {
@@ -9100,7 +9100,7 @@
         "buy2_price": 3333,
         "buy3_price": 3266,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -9287,7 +9287,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:17",
+      "updated_at": "2026-10-30 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -9381,13 +9381,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 3.71,
-        "target2_pct": 3.93,
+        "target2_pct": 3.92,
         "target3_pct": 5.96,
         "buy1_price": 2372,
-        "buy2_price": 2239,
+        "buy2_price": 2245,
         "buy3_price": 1477,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -9588,7 +9588,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:17",
+      "updated_at": "2026-10-30 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -9688,7 +9688,7 @@
         "buy2_price": 1794,
         "buy3_price": 1720,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -9878,7 +9878,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:18",
+      "updated_at": "2026-10-30 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -9978,7 +9978,7 @@
         "buy2_price": 2562,
         "buy3_price": 2520,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -10176,7 +10176,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:19",
+      "updated_at": "2026-10-30 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -10269,14 +10269,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：金属製品・利益比較的安定・配当変動大",
-        "target1_pct": 4.24,
-        "target2_pct": 4.33,
-        "target3_pct": 4.41,
-        "buy1_price": 3066,
-        "buy2_price": 3002,
-        "buy3_price": 2948,
+        "target1_pct": 4.23,
+        "target2_pct": 4.32,
+        "target3_pct": 4.4,
+        "buy1_price": 3073,
+        "buy2_price": 3009,
+        "buy3_price": 2955,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -10475,7 +10475,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:19",
+      "updated_at": "2026-10-30 15:30",
       "forecast_dividend_changes": []
     },
     {
@@ -10575,7 +10575,7 @@
         "buy2_price": 4095,
         "buy3_price": 4038,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -10765,7 +10765,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:19",
+      "updated_at": "2026-10-30 15:31",
       "forecast_dividend_changes": []
     },
     {
@@ -10865,7 +10865,7 @@
         "buy2_price": 1399,
         "buy3_price": 1333,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -11053,11 +11053,11 @@
         ],
         "last_disc_no": 20260727599888,
         "forecast_dividend_basis": 60.0,
-        "price_at_lock": null,
+        "price_at_lock": 1138.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:19",
+      "updated_at": "2026-10-30 15:31",
       "forecast_dividend_changes": []
     },
     {
@@ -11152,12 +11152,12 @@
         "reason": "業種：不動産業・利益比較的安定・減配なし・増配基調",
         "target1_pct": 4.23,
         "target2_pct": 4.37,
-        "target3_pct": 5.01,
+        "target3_pct": 5.02,
         "buy1_price": 1040,
         "buy2_price": 1007,
-        "buy3_price": 878,
+        "buy3_price": 876,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -11344,7 +11344,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:20",
+      "updated_at": "2026-10-30 15:31",
       "forecast_dividend_changes": []
     },
     {
@@ -11438,13 +11438,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：倉庫･運輸関連業・利益比較的安定・配当変動大",
         "target1_pct": 3.94,
-        "target2_pct": 4.23,
+        "target2_pct": 4.22,
         "target3_pct": 4.46,
         "buy1_price": 5203,
-        "buy2_price": 4846,
+        "buy2_price": 4858,
         "buy3_price": 4596,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -11629,7 +11629,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:20",
+      "updated_at": "2026-10-30 15:32",
       "forecast_dividend_changes": []
     },
     {
@@ -11729,7 +11729,7 @@
         "buy2_price": 5966,
         "buy3_price": 5660,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -11913,7 +11913,7 @@
         "large_increase_warning": true,
         "large_increase_detail": "160円→210円(+31.2%)"
       },
-      "updated_at": "2026-10-30 07:21",
+      "updated_at": "2026-10-30 15:32",
       "forecast_dividend_changes": []
     },
     {
@@ -12013,7 +12013,7 @@
         "buy2_price": 3886,
         "buy3_price": 3641,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -12199,7 +12199,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:21",
+      "updated_at": "2026-10-30 15:33",
       "forecast_dividend_changes": []
     },
     {
@@ -12299,7 +12299,7 @@
         "buy2_price": 4895,
         "buy3_price": 4622,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -12491,7 +12491,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:21",
+      "updated_at": "2026-10-30 15:33",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-16",
@@ -12597,7 +12597,7 @@
         "buy2_price": 3173,
         "buy3_price": 2976,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -12751,7 +12751,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:21",
+      "updated_at": "2026-10-30 15:33",
       "forecast_dividend_changes": []
     },
     {
@@ -12851,7 +12851,7 @@
         "buy2_price": 2686,
         "buy3_price": 2257,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -13054,7 +13054,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:23",
+      "updated_at": "2026-10-30 15:34",
       "forecast_dividend_changes": []
     },
     {
@@ -13149,12 +13149,12 @@
         "reason": "業種：卸売業・赤字1期・配当変動大",
         "target1_pct": 3.72,
         "target2_pct": 3.87,
-        "target3_pct": 4.07,
+        "target3_pct": 4.08,
         "buy1_price": 3091,
         "buy2_price": 2972,
-        "buy3_price": 2826,
+        "buy3_price": 2819,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -13284,7 +13284,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-10-30 07:23",
+      "updated_at": "2026-10-30 15:34",
       "forecast_dividend_changes": []
     },
     {
@@ -13384,7 +13384,7 @@
         "buy2_price": 1630,
         "buy3_price": 1507,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -13517,7 +13517,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-10-30 07:23",
+      "updated_at": "2026-10-30 15:34",
       "forecast_dividend_changes": []
     },
     {
@@ -13617,7 +13617,7 @@
         "buy2_price": 1164,
         "buy3_price": 1117,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -13801,7 +13801,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:23",
+      "updated_at": "2026-10-30 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -13901,7 +13901,7 @@
         "buy2_price": 3835,
         "buy3_price": 3689,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -14112,11 +14112,11 @@
         ],
         "last_disc_no": 20260806512594,
         "forecast_dividend_basis": 135.0,
-        "price_at_lock": null,
+        "price_at_lock": 5246.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:23",
+      "updated_at": "2026-10-30 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -14216,7 +14216,7 @@
         "buy2_price": 2570,
         "buy3_price": 2483,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -14409,11 +14409,11 @@
         ],
         "last_disc_no": 20260805510660,
         "forecast_dividend_basis": 110.0,
-        "price_at_lock": null,
+        "price_at_lock": 4458.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:24",
+      "updated_at": "2026-10-30 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -14513,7 +14513,7 @@
         "buy2_price": 1159,
         "buy3_price": 1051,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -14704,7 +14704,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:24",
+      "updated_at": "2026-10-30 15:35",
       "forecast_dividend_changes": []
     },
     {
@@ -14804,7 +14804,7 @@
         "buy2_price": 2794,
         "buy3_price": 2699,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -14997,11 +14997,11 @@
         ],
         "last_disc_no": 20260806512890,
         "forecast_dividend_basis": 95.0,
-        "price_at_lock": null,
+        "price_at_lock": 3469.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:24",
+      "updated_at": "2026-10-30 15:37",
       "forecast_dividend_changes": []
     },
     {
@@ -15101,7 +15101,7 @@
         "buy2_price": 2400,
         "buy3_price": 2261,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -15301,7 +15301,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:25",
+      "updated_at": "2026-10-30 15:37",
       "forecast_dividend_changes": []
     },
     {
@@ -15401,7 +15401,7 @@
         "buy2_price": 4696,
         "buy3_price": 4450,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -15558,7 +15558,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:26",
+      "updated_at": "2026-10-30 15:37",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-03",
@@ -15657,14 +15657,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：卸売業・配当変動大",
-        "target1_pct": 3.2,
+        "target1_pct": 3.19,
         "target2_pct": 3.29,
         "target3_pct": 3.42,
-        "buy1_price": 1969,
+        "buy1_price": 1975,
         "buy2_price": 1915,
         "buy3_price": 1842,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -15865,7 +15865,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:26",
+      "updated_at": "2026-10-30 15:37",
       "forecast_dividend_changes": []
     },
     {
@@ -15970,7 +15970,7 @@
         "buy2_price": 1323,
         "buy3_price": 1287,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -16170,7 +16170,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:26",
+      "updated_at": "2026-10-30 15:37",
       "forecast_dividend_changes": []
     },
     {
@@ -16270,7 +16270,7 @@
         "buy2_price": 1563,
         "buy3_price": 1478,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -16470,11 +16470,11 @@
         ],
         "last_disc_no": 20260806513450,
         "forecast_dividend_basis": 60.0,
-        "price_at_lock": null,
+        "price_at_lock": 1924.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:26",
+      "updated_at": "2026-10-30 15:38",
       "forecast_dividend_changes": []
     },
     {
@@ -16568,13 +16568,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：電気･ガス業・配当変動大",
         "target1_pct": 3.49,
-        "target2_pct": 3.58,
-        "target3_pct": 3.71,
+        "target2_pct": 3.57,
+        "target3_pct": 3.7,
         "buy1_price": 2665,
-        "buy2_price": 2598,
-        "buy3_price": 2507,
+        "buy2_price": 2605,
+        "buy3_price": 2514,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -16789,7 +16789,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:27",
+      "updated_at": "2026-10-30 15:38",
       "forecast_dividend_changes": []
     },
     {
@@ -16889,7 +16889,7 @@
         "buy2_price": 1639,
         "buy3_price": 1577,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -17075,7 +17075,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:27",
+      "updated_at": "2026-10-30 15:38",
       "forecast_dividend_changes": []
     },
     {
@@ -17175,7 +17175,7 @@
         "buy2_price": 2914,
         "buy3_price": 2870,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -17388,7 +17388,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:27",
+      "updated_at": "2026-10-30 15:39",
       "forecast_dividend_changes": []
     },
     {
@@ -17488,7 +17488,7 @@
         "buy2_price": 2518,
         "buy3_price": 2453,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -17675,7 +17675,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:28",
+      "updated_at": "2026-10-30 15:39",
       "forecast_dividend_changes": []
     },
     {
@@ -17775,7 +17775,7 @@
         "buy2_price": 2197,
         "buy3_price": 2094,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -17935,12 +17935,12 @@
         ],
         "last_disc_no": 20260807514386,
         "forecast_dividend_basis": 76.0,
-        "price_at_lock": null,
+        "price_at_lock": 3038.0,
         "large_increase_warning": false,
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-10-30 07:28",
+      "updated_at": "2026-10-30 15:40",
       "forecast_dividend_changes": []
     },
     {
@@ -18040,7 +18040,7 @@
         "buy2_price": 1086,
         "buy3_price": 1062,
         "buy_status": "要確認",
-        "sample_daily": 633,
+        "sample_daily": 632,
         "sample_annual": 3,
         "error": null
       },
@@ -18227,7 +18227,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:28",
+      "updated_at": "2026-10-30 15:40",
       "forecast_dividend_changes": []
     },
     {
@@ -18327,7 +18327,7 @@
         "buy2_price": 3272,
         "buy3_price": 3189,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -18482,12 +18482,12 @@
         ],
         "last_disc_no": 20260709590254,
         "forecast_dividend_basis": 125.0,
-        "price_at_lock": null,
+        "price_at_lock": 4199.0,
         "large_increase_warning": false,
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-10-30 07:29",
+      "updated_at": "2026-10-30 15:40",
       "forecast_dividend_changes": []
     },
     {
@@ -18587,7 +18587,7 @@
         "buy2_price": 1051,
         "buy3_price": 985,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -18722,7 +18722,7 @@
         "large_increase_warning": true,
         "large_increase_detail": "26円→47円(+80.8%)"
       },
-      "updated_at": "2026-10-30 07:29",
+      "updated_at": "2026-10-30 15:41",
       "forecast_dividend_changes": []
     },
     {
@@ -18822,7 +18822,7 @@
         "buy2_price": 2697,
         "buy3_price": 2614,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -19045,7 +19045,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:30",
+      "updated_at": "2026-10-30 15:41",
       "forecast_dividend_changes": []
     },
     {
@@ -19140,12 +19140,12 @@
         "reason": "業種：繊維製品・配当変動大",
         "target1_pct": 2.73,
         "target2_pct": 2.83,
-        "target3_pct": 3.02,
+        "target3_pct": 3.01,
         "buy1_price": 2564,
         "buy2_price": 2473,
-        "buy3_price": 2318,
+        "buy3_price": 2326,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -19353,7 +19353,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:30",
+      "updated_at": "2026-10-30 15:41",
       "forecast_dividend_changes": []
     },
     {
@@ -19448,12 +19448,12 @@
         "reason": "業種：その他金融業・利益比較的安定・配当変動大",
         "target1_pct": 2.49,
         "target2_pct": 2.55,
-        "target3_pct": 4.6,
+        "target3_pct": 4.59,
         "buy1_price": 3373,
         "buy2_price": 3294,
-        "buy3_price": 1826,
+        "buy3_price": 1830,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -19650,11 +19650,11 @@
         ],
         "last_disc_no": 20260807514723,
         "forecast_dividend_basis": 84.0,
-        "price_at_lock": null,
+        "price_at_lock": 1860.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:30",
+      "updated_at": "2026-10-30 15:42",
       "forecast_dividend_changes": []
     },
     {
@@ -19754,7 +19754,7 @@
         "buy2_price": 2601,
         "buy3_price": 2516,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -19945,7 +19945,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:31",
+      "updated_at": "2026-10-30 15:42",
       "forecast_dividend_changes": []
     },
     {
@@ -20045,7 +20045,7 @@
         "buy2_price": 2723,
         "buy3_price": 2612,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -20198,7 +20198,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:31",
+      "updated_at": "2026-10-30 15:42",
       "forecast_dividend_changes": []
     },
     {
@@ -20298,7 +20298,7 @@
         "buy2_price": 3120,
         "buy3_price": 2926,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -20504,7 +20504,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:31",
+      "updated_at": "2026-10-30 15:42",
       "forecast_dividend_changes": []
     },
     {
@@ -20598,13 +20598,13 @@
         "cycle_class": "非景気敏感株",
         "reason": "業種：サービス業・減配なし・増配基調",
         "target1_pct": 3.0,
-        "target2_pct": 3.1,
+        "target2_pct": 3.09,
         "target3_pct": 3.21,
         "buy1_price": 1833,
-        "buy2_price": 1774,
+        "buy2_price": 1780,
         "buy3_price": 1713,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -20803,7 +20803,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:31",
+      "updated_at": "2026-10-30 15:43",
       "forecast_dividend_changes": []
     },
     {
@@ -20903,7 +20903,7 @@
         "buy2_price": 1079,
         "buy3_price": 962,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -21102,7 +21102,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:33",
+      "updated_at": "2026-10-30 15:44",
       "forecast_dividend_changes": []
     },
     {
@@ -21202,7 +21202,7 @@
         "buy2_price": 1649,
         "buy3_price": 1501,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -21329,7 +21329,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-10-30 07:33",
+      "updated_at": "2026-10-30 15:44",
       "forecast_dividend_changes": []
     },
     {
@@ -21429,7 +21429,7 @@
         "buy2_price": 2667,
         "buy3_price": 2581,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -21616,7 +21616,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:33",
+      "updated_at": "2026-10-30 15:44",
       "forecast_dividend_changes": []
     },
     {
@@ -21709,14 +21709,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：情報･通信業・配当変動大",
-        "target1_pct": 4.79,
-        "target2_pct": 4.95,
-        "target3_pct": 5.44,
-        "buy1_price": 1670,
-        "buy2_price": 1616,
-        "buy3_price": 1471,
+        "target1_pct": 4.78,
+        "target2_pct": 4.94,
+        "target3_pct": 5.43,
+        "buy1_price": 1674,
+        "buy2_price": 1619,
+        "buy3_price": 1473,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -21899,7 +21899,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:33",
+      "updated_at": "2026-10-30 15:45",
       "forecast_dividend_changes": []
     },
     {
@@ -21999,7 +21999,7 @@
         "buy2_price": 2196,
         "buy3_price": 2000,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -22198,7 +22198,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:33",
+      "updated_at": "2026-10-30 15:45",
       "forecast_dividend_changes": []
     },
     {
@@ -22292,13 +22292,13 @@
         "cycle_class": "非景気敏感株",
         "reason": "業種：食料品・利益比較的安定・減配なし・増配基調",
         "target1_pct": 3.56,
-        "target2_pct": 3.67,
+        "target2_pct": 3.68,
         "target3_pct": 3.79,
         "buy1_price": 2135,
-        "buy2_price": 2071,
+        "buy2_price": 2065,
         "buy3_price": 2005,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -22487,7 +22487,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:34",
+      "updated_at": "2026-10-30 15:45",
       "forecast_dividend_changes": []
     },
     {
@@ -22587,7 +22587,7 @@
         "buy2_price": 1670,
         "buy3_price": 1634,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -22786,7 +22786,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:34",
+      "updated_at": "2026-10-30 15:45",
       "forecast_dividend_changes": []
     },
     {
@@ -22886,7 +22886,7 @@
         "buy2_price": 4254,
         "buy3_price": 3654,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -23072,7 +23072,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:34",
+      "updated_at": "2026-10-30 15:46",
       "forecast_dividend_changes": []
     },
     {
@@ -23172,7 +23172,7 @@
         "buy2_price": 1754,
         "buy3_price": 1667,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -23355,7 +23355,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:35",
+      "updated_at": "2026-10-30 15:47",
       "forecast_dividend_changes": []
     },
     {
@@ -23455,7 +23455,7 @@
         "buy2_price": 5791,
         "buy3_price": 5478,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -23604,7 +23604,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:35",
+      "updated_at": "2026-10-30 15:47",
       "forecast_dividend_changes": []
     },
     {
@@ -23704,7 +23704,7 @@
         "buy2_price": 5235,
         "buy3_price": 5072,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -23897,11 +23897,11 @@
         ],
         "last_disc_no": 20260806513209,
         "forecast_dividend_basis": 212.0,
-        "price_at_lock": null,
+        "price_at_lock": 7495.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:35",
+      "updated_at": "2026-10-30 15:47",
       "forecast_dividend_changes": []
     },
     {
@@ -23995,13 +23995,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：化学・利益比較的安定・減配なし・増配基調",
         "target1_pct": 2.71,
-        "target2_pct": 2.87,
+        "target2_pct": 2.86,
         "target3_pct": 3.01,
         "buy1_price": 3690,
-        "buy2_price": 3484,
+        "buy2_price": 3497,
         "buy3_price": 3322,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -24212,7 +24212,7 @@
         "large_increase_warning": true,
         "large_increase_detail": "74円→100円(+35.1%)"
       },
-      "updated_at": "2026-10-30 07:36",
+      "updated_at": "2026-10-30 15:47",
       "forecast_dividend_changes": []
     },
     {
@@ -24307,12 +24307,12 @@
         "reason": "業種：卸売業・利益比較的安定・減配1回",
         "target1_pct": 4.59,
         "target2_pct": 4.76,
-        "target3_pct": 4.89,
+        "target3_pct": 4.88,
         "buy1_price": 1852,
         "buy2_price": 1786,
-        "buy3_price": 1738,
+        "buy3_price": 1742,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -24509,7 +24509,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:36",
+      "updated_at": "2026-10-30 15:48",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -24615,7 +24615,7 @@
         "buy2_price": 2279,
         "buy3_price": 2090,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -24807,11 +24807,11 @@
         "order_warning": false,
         "last_disc_no": 20260806513608,
         "forecast_dividend_basis": 98.0,
-        "price_at_lock": null,
+        "price_at_lock": 2485.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:37",
+      "updated_at": "2026-10-30 15:48",
       "forecast_dividend_changes": []
     },
     {
@@ -24905,13 +24905,13 @@
         "cycle_class": "景気敏感株",
         "reason": "業種：電気機器・利益比較的安定・減配1回",
         "target1_pct": 3.67,
-        "target2_pct": 3.96,
+        "target2_pct": 3.95,
         "target3_pct": 4.19,
         "buy1_price": 1907,
-        "buy2_price": 1768,
+        "buy2_price": 1772,
         "buy3_price": 1671,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -25099,7 +25099,7 @@
         "large_increase_warning": true,
         "large_increase_detail": "53円→70円(+32.1%)"
       },
-      "updated_at": "2026-10-30 07:37",
+      "updated_at": "2026-10-30 15:49",
       "forecast_dividend_changes": []
     },
     {
@@ -25192,14 +25192,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：輸送用機器・減配なし・増配基調",
-        "target1_pct": 4.06,
+        "target1_pct": 4.05,
         "target2_pct": 4.24,
-        "target3_pct": 9.7,
-        "buy1_price": 862,
+        "target3_pct": 9.65,
+        "buy1_price": 864,
         "buy2_price": 825,
-        "buy3_price": 361,
+        "buy3_price": 363,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -25362,7 +25362,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:37",
+      "updated_at": "2026-10-30 15:49",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -25461,14 +25461,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：証券･商品先物取引業・利益変動大・減配なし・増配基調",
-        "target1_pct": 4.6,
+        "target1_pct": 4.61,
         "target2_pct": 4.78,
         "target3_pct": 4.92,
         "buy1_price": null,
         "buy2_price": null,
         "buy3_price": null,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -25661,7 +25661,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:38",
+      "updated_at": "2026-10-30 15:49",
       "forecast_dividend_changes": []
     },
     {
@@ -25761,7 +25761,7 @@
         "buy2_price": 2835,
         "buy3_price": 2778,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -25952,11 +25952,11 @@
         ],
         "last_disc_no": 20260806512291,
         "forecast_dividend_basis": 110.0,
-        "price_at_lock": null,
+        "price_at_lock": 3155.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:38",
+      "updated_at": "2026-10-30 15:49",
       "forecast_dividend_changes": []
     },
     {
@@ -26049,14 +26049,14 @@
       "target_yield": {
         "cycle_class": "非景気敏感株",
         "reason": "業種：サービス業・利益比較的安定・減配なし・増配基調",
-        "target1_pct": 3.99,
+        "target1_pct": 3.98,
         "target2_pct": 4.25,
         "target3_pct": 4.4,
-        "buy1_price": 2206,
+        "buy1_price": 2211,
         "buy2_price": 2071,
         "buy3_price": 2000,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -26241,7 +26241,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:38",
+      "updated_at": "2026-10-30 15:51",
       "forecast_dividend_changes": []
     },
     {
@@ -26334,14 +26334,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業",
-        "target1_pct": 5.56,
+        "target1_pct": 5.55,
         "target2_pct": 5.69,
-        "target3_pct": 6.62,
-        "buy1_price": 2374,
+        "target3_pct": 6.59,
+        "buy1_price": 2378,
         "buy2_price": 2320,
-        "buy3_price": 1994,
+        "buy3_price": 2003,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 5,
         "error": null
       },
@@ -26495,12 +26495,12 @@
         ],
         "last_disc_no": 20260804509076,
         "forecast_dividend_basis": 132.0,
-        "price_at_lock": null,
+        "price_at_lock": 2613.5,
         "large_increase_warning": false,
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-10-30 07:38",
+      "updated_at": "2026-10-30 15:51",
       "forecast_dividend_changes": []
     },
     {
@@ -26600,7 +26600,7 @@
         "buy2_price": 1203,
         "buy3_price": 1165,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -26788,7 +26788,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:40",
+      "updated_at": "2026-10-30 15:51",
       "forecast_dividend_changes": []
     },
     {
@@ -26888,7 +26888,7 @@
         "buy2_price": 1087,
         "buy3_price": 1059,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -27087,7 +27087,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:40",
+      "updated_at": "2026-10-30 15:51",
       "forecast_dividend_changes": []
     },
     {
@@ -27180,14 +27180,14 @@
       "target_yield": {
         "cycle_class": "景気敏感株",
         "reason": "業種：建設業・配当変動大",
-        "target1_pct": 3.89,
+        "target1_pct": 3.88,
         "target2_pct": 4.07,
         "target3_pct": 4.36,
-        "buy1_price": 1285,
+        "buy1_price": 1289,
         "buy2_price": 1229,
         "buy3_price": 1147,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -27397,11 +27397,11 @@
         ],
         "last_disc_no": 20260806512802,
         "forecast_dividend_basis": 50.0,
-        "price_at_lock": null,
+        "price_at_lock": 1347.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:40",
+      "updated_at": "2026-10-30 15:51",
       "forecast_dividend_changes": []
     },
     {
@@ -27501,7 +27501,7 @@
         "buy2_price": 2073,
         "buy3_price": 2015,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -27698,11 +27698,11 @@
         ],
         "last_disc_no": 20260807514301,
         "forecast_dividend_basis": 80.0,
-        "price_at_lock": null,
+        "price_at_lock": 2676.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:40",
+      "updated_at": "2026-10-30 15:52",
       "forecast_dividend_changes": []
     },
     {
@@ -27797,12 +27797,12 @@
         "reason": "業種：サービス業・利益比較的安定・減配1回",
         "target1_pct": 3.2,
         "target2_pct": 3.41,
-        "target3_pct": 3.54,
+        "target3_pct": 3.53,
         "buy1_price": 938,
         "buy2_price": 880,
-        "buy3_price": 847,
+        "buy3_price": 850,
         "buy_status": "要確認",
-        "sample_daily": 732,
+        "sample_daily": 731,
         "sample_annual": 10,
         "error": null
       },
@@ -27986,7 +27986,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-10-30 07:40",
+      "updated_at": "2026-10-30 15:52",
       "forecast_dividend_changes": []
     },
     {
