@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30 23:58",
+  "generated_at": "2026-11-01 15:23",
   "stocks": [
     {
       "code": "8306",
@@ -34782,6 +34782,330 @@
         "history": []
       },
       "updated_at": "2026-10-30 07:48",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "7971",
+      "name": "東リ",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 722.0,
+      "price_date": "2026-10-30 15:30",
+      "price_change": 0.0,
+      "price_change_pct": 0.0,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 12.049399198931908,
+            "criterion": "12倍以下(上限18倍)",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 0.7907909004282538,
+            "criterion": "1.3倍以下(上限1.95倍)",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 8.49203930829588,
+            "criterion": "7%以上(下限3.5%)",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 4.545500881780279,
+            "criterion": "3%以上(下限1.5%)",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.7091412742382275,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 53.1,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 409.69740546,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2,
+        "special_dividend_notes": []
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 34.0,
+      "dividend_yield_pct": 4.7091412742382275,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学",
+        "target1_pct": 5.14,
+        "target2_pct": 5.3,
+        "target3_pct": 5.59,
+        "buy1_price": 661,
+        "buy2_price": 642,
+        "buy3_price": 608,
+        "buy_status": "監視",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。",
+      "priority_score": {
+        "growth_score": null,
+        "income_score": null,
+        "total_score": null,
+        "payout_ratio_pct": 44.2,
+        "dividend_cagr_pct": null,
+        "dividend_years_to_double": null,
+        "growth_detail": [],
+        "income_detail": [],
+        "dividend_quality_badges": []
+      },
+      "expected_irr": {
+        "expected_irr_pct": null,
+        "dividend_return_pct": null,
+        "capital_return_pct": null,
+        "dividend_yield_component_pct": null,
+        "dividend_growth_component_pct": null,
+        "eps_growth_component_pct": null,
+        "valuation_reversion_component_pct": null
+      },
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 104.0,
+          "latest_forecast_growth_pct": 99.7,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 143.8,
+          "latest_forecast_growth_pct": 76.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "locked_targets": {
+        "buy1": 661,
+        "buy2": 642,
+        "buy3": 608,
+        "target1_pct": 5.14,
+        "target2_pct": 5.3,
+        "target3_pct": 5.59,
+        "buy3_source": "利回り③",
+        "forecast_dividend_basis": 34.0,
+        "price_at_lock": 722.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null,
+        "basis_date": "2026-11-01",
+        "reason": "初期設定",
+        "disabled": false,
+        "disabled_reason": null,
+        "order_warning": false,
+        "last_disc_no": 20260723598325,
+        "history": []
+      },
+      "updated_at": "2026-11-01 15:23",
+      "forecast_dividend_changes": []
+    },
+    {
+      "code": "4992",
+      "name": "北興化学工業",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 11,
+      "price": 1828.0,
+      "price_date": "2026-10-30 15:30",
+      "price_change": 20.0,
+      "price_change_pct": 0.011061948,
+      "step1": {
+        "overall": "×",
+        "sector_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 10.566473988439306,
+            "criterion": "12倍以下(上限18倍)",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.8908642552901157,
+            "criterion": "1.3倍以下(上限1.95倍)",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.341809726413693,
+            "criterion": "7%以上(下限3.5%)",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 4.778362133734035,
+            "criterion": "3%以上(下限1.5%)",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 2.954048140043764,
+            "criterion": "3%以上",
+            "judge": "×"
+          },
+          "自己資本比率": {
+            "value": 65.10000000000001,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 471.26167212,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "要確認",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "BPS10期連続増加": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で減配2回未満": {
+            "judge": "要確認",
+            "detail": "2期分"
+          },
+          "10期で無配なし": {
+            "judge": "要確認",
+            "detail": "2期分"
+          }
+        },
+        "periods_available": 2,
+        "special_dividend_notes": []
+      },
+      "step3": {
+        "eps_sum": null,
+        "latest_bps": null,
+        "target_price": null
+      },
+      "forecast_dividend": 54.0,
+      "dividend_yield_pct": 2.954048140043764,
+      "dividend_override_note": null,
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学",
+        "target1_pct": 2.7,
+        "target2_pct": 2.84,
+        "target3_pct": 2.97,
+        "buy1_price": 2000,
+        "buy2_price": 1901,
+        "buy3_price": 1818,
+        "buy_status": "第2買い（追加買い）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "配当利回りは基準未達。 EPS10期赤字なしは初期10期データの補完が必要。 今期EPSが9期前の2倍以上は初期10期データの補完が必要。 BPS10期連続増加は初期10期データの補完が必要。 10期で減配2回未満は初期10期データの補完が必要。",
+      "priority_score": {
+        "growth_score": null,
+        "income_score": null,
+        "total_score": null,
+        "payout_ratio_pct": 27.1,
+        "dividend_cagr_pct": null,
+        "dividend_years_to_double": null,
+        "growth_detail": [],
+        "income_detail": [],
+        "dividend_quality_badges": []
+      },
+      "expected_irr": {
+        "expected_irr_pct": null,
+        "dividend_return_pct": null,
+        "capital_return_pct": null,
+        "dividend_yield_component_pct": null,
+        "dividend_growth_component_pct": null,
+        "eps_growth_component_pct": null,
+        "valuation_reversion_component_pct": null
+      },
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 103.4,
+          "latest_forecast_growth_pct": 105.9,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 115.6,
+          "latest_forecast_growth_pct": 100.2,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "locked_targets": {
+        "buy1": 2000,
+        "buy2": 1901,
+        "buy3": 1818,
+        "target1_pct": 2.7,
+        "target2_pct": 2.84,
+        "target3_pct": 2.97,
+        "buy3_source": "利回り③",
+        "forecast_dividend_basis": 54.0,
+        "price_at_lock": 1828.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null,
+        "basis_date": "2026-11-01",
+        "reason": "初期設定",
+        "disabled": false,
+        "disabled_reason": null,
+        "order_warning": false,
+        "last_disc_no": 20260708589616,
+        "history": []
+      },
+      "updated_at": "2026-11-01 15:23",
       "forecast_dividend_changes": []
     }
   ],
