@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02 08:35",
+  "generated_at": "2026-11-03 07:52",
   "stocks": [
     {
       "code": "8306",
@@ -301,7 +301,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:52",
+      "updated_at": "2026-11-03 07:09",
       "forecast_dividend_changes": []
     },
     {
@@ -563,7 +563,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 07:52",
+      "updated_at": "2026-11-03 07:09",
       "forecast_dividend_changes": []
     },
     {
@@ -858,7 +858,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:52",
+      "updated_at": "2026-11-03 07:09",
       "forecast_dividend_changes": []
     },
     {
@@ -1164,7 +1164,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:53",
+      "updated_at": "2026-11-03 07:09",
       "forecast_dividend_changes": []
     },
     {
@@ -1461,7 +1461,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:53",
+      "updated_at": "2026-11-03 07:09",
       "forecast_dividend_changes": []
     },
     {
@@ -1769,7 +1769,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:54",
+      "updated_at": "2026-11-03 07:10",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -2074,7 +2074,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:54",
+      "updated_at": "2026-11-03 07:10",
       "forecast_dividend_changes": []
     },
     {
@@ -2374,7 +2374,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:54",
+      "updated_at": "2026-11-03 07:10",
       "forecast_dividend_changes": []
     },
     {
@@ -2672,7 +2672,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:55",
+      "updated_at": "2026-11-03 07:11",
       "forecast_dividend_changes": []
     },
     {
@@ -2974,7 +2974,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:55",
+      "updated_at": "2026-11-03 07:11",
       "forecast_dividend_changes": []
     },
     {
@@ -3261,7 +3261,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:55",
+      "updated_at": "2026-11-03 07:12",
       "forecast_dividend_changes": []
     },
     {
@@ -3531,7 +3531,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 07:55",
+      "updated_at": "2026-11-03 07:12",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-07",
@@ -3847,7 +3847,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:56",
+      "updated_at": "2026-11-03 07:12",
       "forecast_dividend_changes": []
     },
     {
@@ -4152,7 +4152,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:57",
+      "updated_at": "2026-11-03 07:13",
       "forecast_dividend_changes": []
     },
     {
@@ -4436,7 +4436,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:57",
+      "updated_at": "2026-11-03 07:13",
       "forecast_dividend_changes": []
     },
     {
@@ -4738,7 +4738,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:57",
+      "updated_at": "2026-11-03 07:14",
       "forecast_dividend_changes": []
     },
     {
@@ -5023,7 +5023,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:57",
+      "updated_at": "2026-11-03 07:14",
       "forecast_dividend_changes": []
     },
     {
@@ -5321,7 +5321,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:58",
+      "updated_at": "2026-11-03 07:14",
       "forecast_dividend_changes": []
     },
     {
@@ -5578,7 +5578,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:58",
+      "updated_at": "2026-11-03 07:14",
       "forecast_dividend_changes": []
     },
     {
@@ -5892,7 +5892,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:58",
+      "updated_at": "2026-11-03 07:16",
       "forecast_dividend_changes": []
     },
     {
@@ -6122,7 +6122,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 07:59",
+      "updated_at": "2026-11-03 07:16",
       "forecast_dividend_changes": []
     },
     {
@@ -6436,7 +6436,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 07:59",
+      "updated_at": "2026-11-03 07:16",
       "forecast_dividend_changes": []
     },
     {
@@ -6655,7 +6655,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 07:59",
+      "updated_at": "2026-11-03 07:16",
       "forecast_dividend_changes": []
     },
     {
@@ -6954,7 +6954,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:00",
+      "updated_at": "2026-11-03 07:16",
       "forecast_dividend_changes": []
     },
     {
@@ -7310,7 +7310,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:00",
+      "updated_at": "2026-11-03 07:17",
       "forecast_dividend_changes": []
     },
     {
@@ -7535,7 +7535,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 08:01",
+      "updated_at": "2026-11-03 07:17",
       "forecast_dividend_changes": []
     },
     {
@@ -7823,7 +7823,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:01",
+      "updated_at": "2026-11-03 07:17",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -8125,7 +8125,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:01",
+      "updated_at": "2026-11-03 07:18",
       "forecast_dividend_changes": []
     },
     {
@@ -8439,7 +8439,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:02",
+      "updated_at": "2026-11-03 07:18",
       "forecast_dividend_changes": []
     },
     {
@@ -8721,7 +8721,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:02",
+      "updated_at": "2026-11-03 07:18",
       "forecast_dividend_changes": []
     },
     {
@@ -9018,7 +9018,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:02",
+      "updated_at": "2026-11-03 07:19",
       "forecast_dividend_changes": []
     },
     {
@@ -9305,7 +9305,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:02",
+      "updated_at": "2026-11-03 07:19",
       "forecast_dividend_changes": []
     },
     {
@@ -9606,7 +9606,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:04",
+      "updated_at": "2026-11-03 07:20",
       "forecast_dividend_changes": []
     },
     {
@@ -9896,7 +9896,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:04",
+      "updated_at": "2026-11-03 07:20",
       "forecast_dividend_changes": []
     },
     {
@@ -10194,7 +10194,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:04",
+      "updated_at": "2026-11-03 07:20",
       "forecast_dividend_changes": []
     },
     {
@@ -10493,7 +10493,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:04",
+      "updated_at": "2026-11-03 07:21",
       "forecast_dividend_changes": []
     },
     {
@@ -10783,7 +10783,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:04",
+      "updated_at": "2026-11-03 07:21",
       "forecast_dividend_changes": []
     },
     {
@@ -11075,7 +11075,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:05",
+      "updated_at": "2026-11-03 07:21",
       "forecast_dividend_changes": []
     },
     {
@@ -11362,7 +11362,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:05",
+      "updated_at": "2026-11-03 07:21",
       "forecast_dividend_changes": []
     },
     {
@@ -11647,7 +11647,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:06",
+      "updated_at": "2026-11-03 07:22",
       "forecast_dividend_changes": []
     },
     {
@@ -11931,7 +11931,7 @@
         "large_increase_warning": true,
         "large_increase_detail": "160円→210円(+31.2%)"
       },
-      "updated_at": "2026-11-02 08:06",
+      "updated_at": "2026-11-03 07:23",
       "forecast_dividend_changes": []
     },
     {
@@ -12217,7 +12217,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:06",
+      "updated_at": "2026-11-03 07:23",
       "forecast_dividend_changes": []
     },
     {
@@ -12509,7 +12509,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:06",
+      "updated_at": "2026-11-03 07:23",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-16",
@@ -12769,7 +12769,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:07",
+      "updated_at": "2026-11-03 07:23",
       "forecast_dividend_changes": []
     },
     {
@@ -13072,7 +13072,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:08",
+      "updated_at": "2026-11-03 07:24",
       "forecast_dividend_changes": []
     },
     {
@@ -13302,7 +13302,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 08:08",
+      "updated_at": "2026-11-03 07:24",
       "forecast_dividend_changes": []
     },
     {
@@ -13535,7 +13535,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 08:08",
+      "updated_at": "2026-11-03 07:25",
       "forecast_dividend_changes": []
     },
     {
@@ -13819,7 +13819,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:09",
+      "updated_at": "2026-11-03 07:25",
       "forecast_dividend_changes": []
     },
     {
@@ -14134,7 +14134,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:09",
+      "updated_at": "2026-11-03 07:25",
       "forecast_dividend_changes": []
     },
     {
@@ -14431,7 +14431,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:09",
+      "updated_at": "2026-11-03 07:25",
       "forecast_dividend_changes": []
     },
     {
@@ -14722,7 +14722,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:09",
+      "updated_at": "2026-11-03 07:27",
       "forecast_dividend_changes": []
     },
     {
@@ -15019,7 +15019,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:10",
+      "updated_at": "2026-11-03 07:27",
       "forecast_dividend_changes": []
     },
     {
@@ -15319,7 +15319,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:11",
+      "updated_at": "2026-11-03 07:27",
       "forecast_dividend_changes": []
     },
     {
@@ -15576,7 +15576,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:11",
+      "updated_at": "2026-11-03 07:27",
       "forecast_dividend_changes": [
         {
           "date": "2026-08-03",
@@ -15883,7 +15883,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:11",
+      "updated_at": "2026-11-03 07:27",
       "forecast_dividend_changes": []
     },
     {
@@ -16188,7 +16188,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:11",
+      "updated_at": "2026-11-03 07:28",
       "forecast_dividend_changes": []
     },
     {
@@ -16492,7 +16492,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:12",
+      "updated_at": "2026-11-03 07:28",
       "forecast_dividend_changes": []
     },
     {
@@ -16807,7 +16807,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:12",
+      "updated_at": "2026-11-03 07:28",
       "forecast_dividend_changes": []
     },
     {
@@ -17093,7 +17093,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:13",
+      "updated_at": "2026-11-03 07:29",
       "forecast_dividend_changes": []
     },
     {
@@ -17406,7 +17406,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:13",
+      "updated_at": "2026-11-03 07:29",
       "forecast_dividend_changes": []
     },
     {
@@ -17693,7 +17693,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:13",
+      "updated_at": "2026-11-03 07:30",
       "forecast_dividend_changes": []
     },
     {
@@ -17958,7 +17958,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 08:13",
+      "updated_at": "2026-11-03 07:30",
       "forecast_dividend_changes": []
     },
     {
@@ -18245,7 +18245,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:15",
+      "updated_at": "2026-11-03 07:30",
       "forecast_dividend_changes": []
     },
     {
@@ -18505,7 +18505,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 08:15",
+      "updated_at": "2026-11-03 07:31",
       "forecast_dividend_changes": []
     },
     {
@@ -18740,7 +18740,7 @@
         "large_increase_warning": true,
         "large_increase_detail": "26円→47円(+80.8%)"
       },
-      "updated_at": "2026-11-02 08:15",
+      "updated_at": "2026-11-03 07:31",
       "forecast_dividend_changes": []
     },
     {
@@ -19063,7 +19063,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:15",
+      "updated_at": "2026-11-03 07:31",
       "forecast_dividend_changes": []
     },
     {
@@ -19371,7 +19371,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:15",
+      "updated_at": "2026-11-03 07:32",
       "forecast_dividend_changes": []
     },
     {
@@ -19672,7 +19672,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:16",
+      "updated_at": "2026-11-03 07:32",
       "forecast_dividend_changes": []
     },
     {
@@ -19963,7 +19963,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:16",
+      "updated_at": "2026-11-03 07:32",
       "forecast_dividend_changes": []
     },
     {
@@ -20216,7 +20216,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:17",
+      "updated_at": "2026-11-03 07:33",
       "forecast_dividend_changes": []
     },
     {
@@ -20522,7 +20522,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:17",
+      "updated_at": "2026-11-03 07:33",
       "forecast_dividend_changes": []
     },
     {
@@ -20821,7 +20821,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:17",
+      "updated_at": "2026-11-03 07:34",
       "forecast_dividend_changes": []
     },
     {
@@ -21120,7 +21120,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:18",
+      "updated_at": "2026-11-03 07:34",
       "forecast_dividend_changes": []
     },
     {
@@ -21347,7 +21347,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 08:18",
+      "updated_at": "2026-11-03 07:34",
       "forecast_dividend_changes": []
     },
     {
@@ -21634,7 +21634,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:19",
+      "updated_at": "2026-11-03 07:35",
       "forecast_dividend_changes": []
     },
     {
@@ -21917,7 +21917,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:19",
+      "updated_at": "2026-11-03 07:35",
       "forecast_dividend_changes": []
     },
     {
@@ -22216,7 +22216,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:19",
+      "updated_at": "2026-11-03 07:35",
       "forecast_dividend_changes": []
     },
     {
@@ -22505,7 +22505,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:20",
+      "updated_at": "2026-11-03 07:35",
       "forecast_dividend_changes": []
     },
     {
@@ -22804,7 +22804,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:20",
+      "updated_at": "2026-11-03 07:36",
       "forecast_dividend_changes": []
     },
     {
@@ -23090,7 +23090,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:20",
+      "updated_at": "2026-11-03 07:37",
       "forecast_dividend_changes": []
     },
     {
@@ -23373,7 +23373,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:20",
+      "updated_at": "2026-11-03 07:37",
       "forecast_dividend_changes": []
     },
     {
@@ -23636,7 +23636,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 08:21",
+      "updated_at": "2026-11-03 07:37",
       "forecast_dividend_changes": []
     },
     {
@@ -23933,7 +23933,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:22",
+      "updated_at": "2026-11-03 07:37",
       "forecast_dividend_changes": []
     },
     {
@@ -24244,7 +24244,7 @@
         "large_increase_warning": true,
         "large_increase_detail": "74円→100円(+35.1%)"
       },
-      "updated_at": "2026-11-02 08:22",
+      "updated_at": "2026-11-03 07:38",
       "forecast_dividend_changes": []
     },
     {
@@ -24541,7 +24541,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:22",
+      "updated_at": "2026-11-03 07:38",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -24843,7 +24843,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:22",
+      "updated_at": "2026-11-03 07:39",
       "forecast_dividend_changes": []
     },
     {
@@ -25131,7 +25131,7 @@
         "large_increase_warning": true,
         "large_increase_detail": "53円→70円(+32.1%)"
       },
-      "updated_at": "2026-11-02 08:23",
+      "updated_at": "2026-11-03 07:39",
       "forecast_dividend_changes": []
     },
     {
@@ -25394,7 +25394,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:23",
+      "updated_at": "2026-11-03 07:39",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-08",
@@ -25693,7 +25693,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:24",
+      "updated_at": "2026-11-03 07:39",
       "forecast_dividend_changes": []
     },
     {
@@ -25988,7 +25988,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:24",
+      "updated_at": "2026-11-03 07:41",
       "forecast_dividend_changes": []
     },
     {
@@ -26273,7 +26273,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:24",
+      "updated_at": "2026-11-03 07:41",
       "forecast_dividend_changes": []
     },
     {
@@ -26532,7 +26532,7 @@
         "large_increase_detail": null,
         "order_warning": false
       },
-      "updated_at": "2026-11-02 08:24",
+      "updated_at": "2026-11-03 07:41",
       "forecast_dividend_changes": []
     },
     {
@@ -26820,7 +26820,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:26",
+      "updated_at": "2026-11-03 07:41",
       "forecast_dividend_changes": []
     },
     {
@@ -27119,7 +27119,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:26",
+      "updated_at": "2026-11-03 07:41",
       "forecast_dividend_changes": []
     },
     {
@@ -27433,7 +27433,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:26",
+      "updated_at": "2026-11-03 07:42",
       "forecast_dividend_changes": []
     },
     {
@@ -27734,7 +27734,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:26",
+      "updated_at": "2026-11-03 07:42",
       "forecast_dividend_changes": []
     },
     {
@@ -28018,7 +28018,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:26",
+      "updated_at": "2026-11-03 07:42",
       "forecast_dividend_changes": []
     },
     {
@@ -28267,7 +28267,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:27",
+      "updated_at": "2026-11-03 07:43",
       "forecast_dividend_changes": []
     },
     {
@@ -28595,7 +28595,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:27",
+      "updated_at": "2026-11-03 07:43",
       "forecast_dividend_changes": []
     },
     {
@@ -28882,7 +28882,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:27",
+      "updated_at": "2026-11-03 07:44",
       "forecast_dividend_changes": []
     },
     {
@@ -29167,7 +29167,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:28",
+      "updated_at": "2026-11-03 07:44",
       "forecast_dividend_changes": []
     },
     {
@@ -29461,7 +29461,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:28",
+      "updated_at": "2026-11-03 07:44",
       "forecast_dividend_changes": []
     },
     {
@@ -29799,7 +29799,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:29",
+      "updated_at": "2026-11-03 07:45",
       "forecast_dividend_changes": [
         {
           "date": "2026-10-29",
@@ -30134,7 +30134,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:29",
+      "updated_at": "2026-11-03 07:45",
       "forecast_dividend_changes": []
     },
     {
@@ -30431,7 +30431,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:29",
+      "updated_at": "2026-11-03 07:46",
       "forecast_dividend_changes": []
     },
     {
@@ -30746,7 +30746,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:30",
+      "updated_at": "2026-11-03 07:46",
       "forecast_dividend_changes": []
     },
     {
@@ -31032,7 +31032,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:30",
+      "updated_at": "2026-11-03 07:46",
       "forecast_dividend_changes": []
     },
     {
@@ -31321,7 +31321,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:30",
+      "updated_at": "2026-11-03 07:46",
       "forecast_dividend_changes": []
     },
     {
@@ -31629,7 +31629,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:31",
+      "updated_at": "2026-11-03 07:48",
       "forecast_dividend_changes": []
     },
     {
@@ -31944,7 +31944,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:31",
+      "updated_at": "2026-11-03 07:48",
       "forecast_dividend_changes": []
     },
     {
@@ -32230,7 +32230,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:31",
+      "updated_at": "2026-11-03 07:48",
       "forecast_dividend_changes": []
     },
     {
@@ -32546,7 +32546,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:31",
+      "updated_at": "2026-11-03 07:48",
       "forecast_dividend_changes": []
     },
     {
@@ -32844,7 +32844,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:33",
+      "updated_at": "2026-11-03 07:48",
       "forecast_dividend_changes": []
     },
     {
@@ -33150,7 +33150,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:33",
+      "updated_at": "2026-11-03 07:49",
       "forecast_dividend_changes": []
     },
     {
@@ -33457,7 +33457,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:33",
+      "updated_at": "2026-11-03 07:49",
       "forecast_dividend_changes": []
     },
     {
@@ -33756,7 +33756,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:33",
+      "updated_at": "2026-11-03 07:49",
       "forecast_dividend_changes": []
     },
     {
@@ -34055,7 +34055,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:33",
+      "updated_at": "2026-11-03 07:50",
       "forecast_dividend_changes": []
     },
     {
@@ -34348,7 +34348,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:34",
+      "updated_at": "2026-11-03 07:50",
       "forecast_dividend_changes": []
     },
     {
@@ -34603,7 +34603,7 @@
         "large_increase_warning": false,
         "large_increase_detail": null
       },
-      "updated_at": "2026-11-02 08:34",
+      "updated_at": "2026-11-03 07:50",
       "forecast_dividend_changes": []
     },
     {
@@ -34813,7 +34813,7 @@
         "last_disc_no": 20260722597572,
         "history": []
       },
-      "updated_at": "2026-11-02 08:35",
+      "updated_at": "2026-11-03 07:51",
       "forecast_dividend_changes": []
     },
     {
@@ -34981,7 +34981,7 @@
         "last_disc_no": 20260723598325,
         "history": []
       },
-      "updated_at": "2026-11-02 08:35",
+      "updated_at": "2026-11-03 07:51",
       "forecast_dividend_changes": []
     },
     {
@@ -35154,7 +35154,7 @@
         "last_disc_no": 20260708589616,
         "history": []
       },
-      "updated_at": "2026-11-02 08:35",
+      "updated_at": "2026-11-03 07:52",
       "forecast_dividend_changes": []
     }
   ],
