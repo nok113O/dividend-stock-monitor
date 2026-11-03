@@ -34435,8 +34435,8 @@
         "latest_bps": 1955.1,
         "target_price": 3432.33
       },
-      "forecast_dividend": 105.0,
-      "dividend_yield_pct": 2.8478437754271764,
+      "forecast_dividend": 119.0,
+      "dividend_yield_pct": 3.2275562788174663,
       "dividend_override_note": "ガラス・土石製品(スパークプラグ大手、IFRS採用)。2026年10月1日付で1:2の株式分割を実施済み(株価が約7,621円→約3,758円に半減したことからも確認)。EDINET DBのadjustedEps/adjustedBps/adjustedDividendPerShareで分割調整済みの値を採用(splitAdjustmentFactorは10期とも一貫して2.0)。2027年3月期の会社予想配当は105円相当(開示上は中間105円(分割前基準)+期末52.5円(分割後基準)で、分割後の年間換算は105円。get_companyのadjustedForecastDividendPerShareと整合)。2026-10-25一次スクリーニング：配当利回り2.74%で必須基準(3%以上)未達、PBR1.96倍もキャップ(1.95倍)をわずかに超過。Step2も10期で減配2回(2021年・2024年)で×。総合判定は除外候補。ROE15.7%・自己資本比率62.8%など事業の質自体は高いが、本ウォッチリストの高配当スクリーニング基準には現状合わない。ユーザー判断により除外候補のまま追加(配当利回りが将来改善する可能性等を踏まえて監視対象に残す判断)。【既知の未解決の表示不整合・2026-10-25】fetch.py実行後、画面のPBRが0.87倍と表示されるが誤り(正しくは約1.73倍)。原因はJ-QuantsのBPS最新値(3910.2円)が2026年6月末(Q1、分割前)時点のままで、10月1日の1:2分割後の現在株価(3389円)と組み合わせているため分母が実質2倍のまま計算されている(EDINET DB分割調整値ベースのBPS=1955.1円で計算するとPBR約1.73倍が正しい)。総合判定(除外候補)には影響しない(PER12.67倍・PBR1.73倍いずれもキャップ内のため)が、画面表示の数値自体は修正が必要。BPS手動補正の仕組みは1904大成温調のケース同様、まだfetch.pyに実装していない(2026-10-25時点でユーザーに対応方針を確認中)。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -34540,12 +34540,12 @@
         "alert_threshold_pt": 10.0
       },
       "locked_targets": {
-        "buy1": 2536,
-        "buy2": 2288,
-        "buy3": 2143,
+        "buy1": 2874,
+        "buy2": 2593,
+        "buy3": 2429,
         "buy3_source": "利回り③",
-        "basis_date": "2026-10-26",
-        "reason": "初期設定",
+        "basis_date": "2026-10-30",
+        "reason": "配当予想の修正(予想配当119.0円、配当方針をDOE6%目標へ変更)による買付株価の再計算(手動反映: J-Quants未反映のためEDINET DB・日経新聞・TDnet開示で確認)",
         "target1_pct": 4.14,
         "target2_pct": 4.59,
         "target3_pct": 4.9,
@@ -34595,13 +34595,28 @@
             "date": "2026-07-31",
             "trigger": "その他",
             "note": "未対応の開示区分のため記録のみ"
+          },
+          {
+            "date": "2026-10-30",
+            "trigger": "配当予想の修正",
+            "from": {
+              "buy1": 2536,
+              "buy2": 2288,
+              "buy3": 2143
+            },
+            "to": {
+              "buy1": 2874,
+              "buy2": 2593,
+              "buy3": 2429
+            }
           }
         ],
         "last_disc_no": 20260730503679,
-        "forecast_dividend_basis": 105.0,
-        "price_at_lock": 3389.0,
+        "forecast_dividend_basis": 119.0,
+        "price_at_lock": 3687.0,
         "large_increase_warning": false,
-        "large_increase_detail": null
+        "large_increase_detail": null,
+        "order_warning": false
       },
       "updated_at": "2026-11-03 07:50",
       "forecast_dividend_changes": []
