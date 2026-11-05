@@ -19824,8 +19824,8 @@
         "latest_bps": 1908.83,
         "target_price": 2946.69
       },
-      "forecast_dividend": 77.0,
-      "dividend_yield_pct": 3.493647912885663,
+      "forecast_dividend": 91.0,
+      "dividend_yield_pct": 4.128856624319419,
       "dividend_override_note": "建設関連業のためEPSの変動がやや大きい(2023・2024年3月期に一時的な落ち込みも黒字は維持)。一株配当は減配せず60円まで増配を継続。2027年3月期の会社予想配当は77円(2026-07提供資料)。2026-08-09確認：新中期経営計画(2026-2028)でDOE4%相当額を新規導入、連結配当性向目標を30%→45%へ引き上げ。累進配当の明確な宣言は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -19892,12 +19892,12 @@
       "valuation_range": null,
       "equity_ratio_trend": null,
       "locked_targets": {
-        "buy1": 2683,
-        "buy2": 2601,
-        "buy3": 2516,
-        "buy3_source": "利回り③",
-        "basis_date": "2026-08-03",
-        "reason": "決算短信取り込みによる引き直し",
+        "buy1": 3171,
+        "buy2": 3074,
+        "buy3": 2946.69,
+        "buy3_source": "目標株価",
+        "basis_date": "2026-11-04",
+        "reason": "配当予想の修正(予想配当91.0円)による買付株価の再計算(手動反映: J-Quants未反映のためEDINET DBで確認)",
         "target1_pct": 2.87,
         "target2_pct": 2.96,
         "target3_pct": 3.06,
@@ -19905,12 +19905,6 @@
         "disabled_reason": null,
         "order_warning": false,
         "history": [
-          {
-            "date": "2025-01-31",
-            "trigger": "業績予想の修正",
-            "direction": "上方修正",
-            "note": "買いラインの計算には予想EPSを使用していないためライン据え置き"
-          },
           {
             "date": "2025-02-03",
             "trigger": "決算短信",
@@ -20020,11 +20014,25 @@
               "buy2": 2601,
               "buy3": 2516
             }
+          },
+          {
+            "date": "2026-11-04",
+            "trigger": "配当予想の修正",
+            "from": {
+              "buy1": 2683,
+              "buy2": 2601,
+              "buy3": 2516
+            },
+            "to": {
+              "buy1": 3171,
+              "buy2": 3074,
+              "buy3": 2946.69
+            }
           }
         ],
         "last_disc_no": 20260731505834,
-        "forecast_dividend_basis": 77.0,
-        "price_at_lock": 2055.0,
+        "forecast_dividend_basis": 91.0,
+        "price_at_lock": 2204.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
