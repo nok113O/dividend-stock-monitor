@@ -9300,5 +9300,76 @@
       }
     ],
     "note": "EDINET DB(adjustedEps/adjustedBps/adjustedDividendPerShare、split factor常に1.0)より2016-2023年11月期を補完。J-Quants Freeは2024-2025年11月期のみ保持。"
+  },
+  "6516": {
+    "history": [
+      {
+        "period": "2017-03-31",
+        "eps": 109.75,
+        "bps": 1555.12,
+        "dividend": 30.0
+      },
+      {
+        "period": "2018-03-31",
+        "eps": 175.63,
+        "bps": 1710.73,
+        "dividend": 21.67
+      },
+      {
+        "period": "2019-03-31",
+        "eps": 137.22,
+        "bps": 1785.07,
+        "dividend": 36.67
+      },
+      {
+        "period": "2020-03-31",
+        "eps": 11.74,
+        "bps": 1722.13,
+        "dividend": 30.0
+      },
+      {
+        "period": "2021-03-31",
+        "eps": 108.57,
+        "bps": 1938.32,
+        "dividend": 30.0
+      },
+      {
+        "period": "2022-03-31",
+        "eps": 248.31,
+        "bps": 2221.27,
+        "dividend": 38.33
+      },
+      {
+        "period": "2023-03-31",
+        "eps": 314.3,
+        "bps": 2565.09,
+        "dividend": 45.0
+      },
+      {
+        "period": "2024-03-31",
+        "eps": 289.17,
+        "bps": 3086.19,
+        "dividend": 48.33
+      },
+      {
+        "period": "2025-03-31",
+        "eps": 157.6,
+        "bps": 3168.2,
+        "dividend": 55.0
+      },
+      {
+        "period": "2026-03-31",
+        "eps": 243.89,
+        "bps": 3602.66,
+        "dividend": 170.0
+      }
+    ],
+    "current_dividend_forecast": 200.0,
+    "dividend_policy": {
+      "doe": false,
+      "doe_target_pct": null,
+      "progressive": false
+    },
+    "note": "サーボモータ・電源等メーカー。2025年10月1日付で1株を3株とする株式分割を実施済み。EDINET DBのadjustedEps/adjustedBps(splitAdjustmentFactorで現在の株式数ベースに統一済み)を2017-2025年3月期に採用。2026年3月期はJ-Quantsの開示時点で既に分割後株式数(38,916,521株)だったため生値をそのまま採用(EPS 243.89円・BPS 3602.66円・配当170円＝中間100円+期末70円)。なお2026年3月期のEDINET DB「adjustedDividendPerShare」は103.33円でadjustedDividendBasis=basis_unknownと注記されており信頼性が低いため不採用、get_earnings(決算短信)の中間・期末実績の合計170円を直接採用した。2027年3月期の予想配当は2026-10-28開示「業績予想の修正、剰余金の配当（中間配当）および配当予想の修正に関するお知らせ」により170円→200円(中間90円・期末110円予想)へ上方修正。この情報はJ-Quants Freeには未反映(2026-11-05時点)。10期実績では2020年3月期(コロナ影響)にBPSが一度減少(1785.07→1722.13)、配当は2018年3月期・2020年3月期の2回減配(普通配当ベース)あり。"
   }
 }
