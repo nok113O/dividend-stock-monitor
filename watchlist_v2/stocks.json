@@ -9420,8 +9420,8 @@
         "latest_bps": 4677.09,
         "target_price": 8693.97
       },
-      "forecast_dividend": 88.0,
-      "dividend_yield_pct": 3.67816091954023,
+      "forecast_dividend": 90.0,
+      "dividend_yield_pct": 3.761755485893417,
       "dividend_override_note": "2026/10/1に株式分割(1:2)予定のため、この履歴は資料側で分割調整済みの数値。J-Quants Freeの直近開示(FDivAnn=175円)は分割前ベースのため、同一スケールに揃えて88円(分割調整後の2027年3月期会社予想)で上書き。分割実施後はJ-Quants側の値も調整後スケールになる見込み。2026-08-09確認：累進配当を採用（9期連続増配の実績あり）。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -9488,12 +9488,12 @@
       "valuation_range": null,
       "equity_ratio_trend": null,
       "locked_targets": {
-        "buy1": 2385,
-        "buy2": 2251,
-        "buy3": 1481,
+        "buy1": 2439,
+        "buy2": 2302,
+        "buy3": 1515,
         "buy3_source": "利回り③",
-        "basis_date": "2026-08-06",
-        "reason": "決算短信取り込みによる引き直し",
+        "basis_date": "2026-11-11",
+        "reason": "配当予想の修正(分割調整後の予想配当90.0円)による買付株価の再計算(手動反映: J-Quants未反映のためEDINET DBで確認)",
         "target1_pct": 3.69,
         "target2_pct": 3.91,
         "target3_pct": 5.94,
@@ -9626,11 +9626,25 @@
               "buy2": 2251,
               "buy3": 1481
             }
+          },
+          {
+            "date": "2026-11-11",
+            "trigger": "配当予想の修正",
+            "from": {
+              "buy1": 2385,
+              "buy2": 2251,
+              "buy3": 1481
+            },
+            "to": {
+              "buy1": 2439,
+              "buy2": 2302,
+              "buy3": 1515
+            }
           }
         ],
         "last_disc_no": 20260805509275,
-        "forecast_dividend_basis": 88.0,
-        "price_at_lock": 2243.5,
+        "forecast_dividend_basis": 90.0,
+        "price_at_lock": 2392.5,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
