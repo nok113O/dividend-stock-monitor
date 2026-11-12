@@ -448,6 +448,12 @@ def render_step1(step1: dict) -> str:
             "銀行・保険等は業態上、自己資本比率とROAが構造的に低くなるため、"
             "自己資本比率・ROAの基準を業種別に緩和して判定しています。</div>"
         )
+    if step1.get("stock_type_adjusted"):
+        parts.append(
+            '<div class="data-gap"><strong>ストック型ビジネス基準を適用：</strong>'
+            "契約・会員等が積み上がり収益が安定しやすい業態のため、"
+            "ROE・ROAの下限を緩和して判定しています。</div>"
+        )
     parts.append("</div>")
     return "".join(parts)
 

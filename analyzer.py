@@ -186,12 +186,20 @@ STEP1_MANDATORY = ("配当利回り", "自己資本比率", "時価総額")
 STEP1_FLEXIBLE = ("PER", "PBR", "ROE", "ROA")
 STEP1_FLEXIBLE_MISS_TOLERANCE = 2
 
-def analyze_step1(metrics: dict, sector: str | None = None) -> dict:
-    from sector_master import step1_thresholds
+def analyze_step1(metrics: dict, sector: str | None = None, code: str | None = None) -> dict:
+    from sector_master import step1_thresholds, is_stock_type
     overrides = step1_thresholds(sector)
     roa_limit = overrides.get("ROA", 3)
     eq_ratio_limit = overrides.get("自己資本比率", 35)
-    per_cap, pbr_cap, roe_cap, roa_cap = 18.0, 1.95, 3.5, roa_limit * 0.5
+    roe_limit = 7
+    stock_type = is_stock_type(code)
+    if stock_type:
+        # 契約・会員等が積み上がるストック型ビジネスはROE・ROAが構造的に低めでも
+        # 収益の安定性でカバーできるため、下限を緩和する。
+        roe_limit = 5
+        roa_limit = min(roa_limit, 1.5)
+    per_cap, pbr_cap = 18.0, 1.95
+    roe_cap, roa_cap = roe_limit * 0.5, roa_limit * 0.5
 
     rows = {
         "PER": {
@@ -203,8 +211,8 @@ def analyze_step1(metrics: dict, sector: str | None = None) -> dict:
             "judge": judge_le(metrics.get("PBR"), 1.3), "cap_ok": judge_le(metrics.get("PBR"), pbr_cap) != "×",
         },
         "ROE": {
-            "value": metrics.get("ROE"), "criterion": f"7%以上(下限{roe_cap:g}%)",
-            "judge": judge_ge(metrics.get("ROE"), 7), "cap_ok": judge_ge(metrics.get("ROE"), roe_cap) != "×",
+            "value": metrics.get("ROE"), "criterion": f"{roe_limit:g}%以上(下限{roe_cap:g}%)",
+            "judge": judge_ge(metrics.get("ROE"), roe_limit), "cap_ok": judge_ge(metrics.get("ROE"), roe_cap) != "×",
         },
         "ROA": {
             "value": metrics.get("ROA"), "criterion": f"{roa_limit:g}%以上(下限{roa_cap:g}%)",
@@ -227,7 +235,12 @@ def analyze_step1(metrics: dict, sector: str | None = None) -> dict:
         within_cap = all(rows[name]["cap_ok"] for name in flexible_misses)
         overall = "○" if len(flexible_misses) <= STEP1_FLEXIBLE_MISS_TOLERANCE and within_cap else "×"
 
-    return {"rows": rows, "overall": overall, "sector_adjusted": bool(overrides)}
+    return {
+        "rows": rows,
+        "overall": overall,
+        "sector_adjusted": bool(overrides),
+        "stock_type_adjusted": stock_type,
+    }
 
 def normalize_history(history: pd.DataFrame, code: str) -> pd.DataFrame:
     cols = ["コード", "決算期", "EPS", "BPS", "1株配当", "普通配当", "記念配当注記", "データ元", "更新日"]

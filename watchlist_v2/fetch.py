@@ -265,7 +265,7 @@ def fetch_one(
         equity_ratio_trend = calculate_equity_ratio_trend(edinet_financials)
 
     sector, cycle = classify(master.get("S33Nm"))
-    step1 = analyze_step1(metrics, sector)
+    step1 = analyze_step1(metrics, sector, code)
     step2 = analyze_step2(history, code)
     step3 = calculate_step3(history, code)
     priority = calculate_priority_score(metrics, step2.get("history"), seed.get("dividend_policy"))
@@ -356,6 +356,7 @@ def fetch_one(
         "step1": {
             "overall": step1["overall"],
             "sector_adjusted": step1["sector_adjusted"],
+            "stock_type_adjusted": step1["stock_type_adjusted"],
             "rows": {
                 name: {"value": clean(row["value"]), "criterion": row["criterion"], "judge": row["judge"]}
                 for name, row in step1["rows"].items()

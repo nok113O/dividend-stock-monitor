@@ -59,3 +59,23 @@ STEP1_THRESHOLD_OVERRIDES: dict[str, dict[str, float]] = {
 def step1_thresholds(sector: str | None) -> dict[str, float]:
     """指定セクターのStep1しきい値(自己資本比率・ROA)。標準基準は呼び出し側のデフォルトを使う。"""
     return STEP1_THRESHOLD_OVERRIDES.get(sector or "", {})
+
+# ストック型ビジネス(契約・会員等が積み上がり収益が安定しやすい業態)の銘柄コード。
+# 業種(セクター)を横断するため、業種別しきい値とは別に個別コードで管理する。
+# 保証(賃貸・ローン・債権保証): イントラスト・全国保証・全保連・イー・ギャランティ
+# 保険: MS&ADインシュアランスグループHD・東京海上HD・第一生命HD
+# リース: 東京センチュリー・三菱HCキャピタル・芙蓉総合リース・みずほリース・オリックス
+# 通信: NTT・KDDI
+# IT保守・システム運用: ビジネスブレイン太田昭和・アイティフォー
+# 電力(定額サービス): グリムス
+STOCK_TYPE_CODES: frozenset[str] = frozenset({
+    "7191", "7164", "5845", "8771",
+    "8725", "8766", "8750",
+    "8439", "8593", "8424", "8425", "8591",
+    "9432", "9433",
+    "9658", "4743",
+    "3150",
+})
+
+def is_stock_type(code: str | None) -> bool:
+    return (code or "") in STOCK_TYPE_CODES
