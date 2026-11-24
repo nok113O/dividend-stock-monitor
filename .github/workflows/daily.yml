@@ -1,0 +1,54 @@
+# 配置先: .github/workflows/daily.yml (コード用 public リポジトリ)
+# データは別の private リポジトリ(例: dividend-data)に置き、PAT で読み書きする。
+name: daily-price-update
+
+on:
+  schedule:
+    - cron: "17 8 * * 1-5"   # UTC 08:17 = 日本時間 17:17(大引け後)。平日のみ
+  workflow_dispatch:          # スマホから手動実行できる
+    inputs:
+      baseline:
+        description: "初回は true(通知なしで基準を揃える)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-price-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: nok113O/dividend-data      # ← 作成した private リポジトリ名に合わせる
+          token: ${{ secrets.DATA_REPO_PAT }}
+          path: data-repo
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install "pandas>=2.2,<3" "numpy>=1.26,<3" "yfinance>=0.2.65,<1" "requests>=2.32,<3"
+
+      - name: Update prices
+        env:
+          BARK_KEY: ${{ secrets.BARK_KEY }}      # 任意。未設定なら通知なし
+        run: python daily_update.py --csv data-repo/watchlist.csv --out data-repo ${{ inputs.baseline && '--baseline' || '' }}
+
+      - name: Commit data
+        working-directory: data-repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "daily update $(date -u +%F)"
+          git push
