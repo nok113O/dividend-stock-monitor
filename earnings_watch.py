@@ -39,12 +39,36 @@ def fetch_calendar(api_key, d_from, d_to, get=requests.get):
     )
     r.raise_for_status()
     js = r.json()
-    if isinstance(js, list):
-        return js
-    for k in ("calendar", "data", "results", "items"):
-        if isinstance(js.get(k), list):
-            return js[k]
-    raise ValueError(f"unexpected response keys: {list(js)[:5]}")
+    found = _find_list(js)
+    if found is None:
+        raise ValueError(f"unexpected response: {_shape(js)}")
+    return found
+
+
+def _find_list(x, depth=0):
+    """応答のどこにあっても、辞書のリスト(カレンダー本体)を探す。"""
+    if isinstance(x, list):
+        return x if (not x or isinstance(x[0], dict)) else None
+    if isinstance(x, dict) and depth < 3:
+        for k in ("calendar", "data", "results", "items"):
+            if k in x:
+                r = _find_list(x[k], depth + 1)
+                if r is not None:
+                    return r
+        for v in x.values():
+            r = _find_list(v, depth + 1)
+            if r is not None:
+                return r
+    return None
+
+
+def _shape(x, depth=0):
+    """エラー表示用。値は出さず、キーと型だけ。"""
+    if isinstance(x, dict) and depth < 2:
+        return {k: _shape(v, depth + 1) for k, v in list(x.items())[:6]}
+    if isinstance(x, list):
+        return f"list[{len(x)}]"
+    return type(x).__name__
 
 
 def entry_date(e):
