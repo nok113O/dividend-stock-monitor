@@ -11,6 +11,10 @@ on:
         description: "初回は true(通知なしで基準を揃える)"
         type: boolean
         default: false
+      test_push:
+        description: "true にすると、通知のテストだけ送る(株価更新もする)"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -43,6 +47,22 @@ jobs:
         env:
           BARK_KEY: ${{ secrets.BARK_KEY }}      # 任意。未設定なら通知なし
         run: python daily_update.py --csv data-repo/watchlist.csv --out data-repo ${{ inputs.baseline && '--baseline' || '' }}
+
+      - name: Test push
+        if: ${{ inputs.test_push }}
+        env:
+          BARK_KEY: ${{ secrets.BARK_KEY }}
+        run: |
+          python - <<'PY'
+          import os, requests
+          k = os.environ.get("BARK_KEY", "").strip()
+          if not k:
+              raise SystemExit("BARK_KEY が未設定です")
+          r = requests.post("https://api.day.app/push", timeout=20, json={
+              "device_key": k, "title": "テスト通知", "body": "GitHub Actions から届きました"})
+          print("status", r.status_code)
+          r.raise_for_status()
+          PY
 
       - name: Detect earnings
         continue-on-error: true                  # 失敗しても株価更新は止めない
