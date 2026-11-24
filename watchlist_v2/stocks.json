@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24 07:49",
+  "generated_at": "2026-11-24 15:32",
   "stocks": [
     {
       "code": "8306",
@@ -35680,12 +35680,176 @@
       },
       "updated_at": "2026-11-24 07:49",
       "forecast_dividend_changes": []
+    },
+    {
+      "code": "5331",
+      "name": "ノリタケ",
+      "industry": "ガラス･土石製品",
+      "sector": "素材",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 2786.0,
+      "price_date": "2026-11-24 15:30",
+      "price_change": 89.0,
+      "price_change_pct": 0.03299963,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": false,
+        "stock_type_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 9.015889453415747,
+            "criterion": "12倍以下(上限18倍)",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.8530886955030651,
+            "criterion": "1.3倍以下(上限1.95倍)",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.835746656350172,
+            "criterion": "7%以上(下限3.5%)",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 5.626436074590558,
+            "criterion": "3%以上(下限1.5%)",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 4.3072505384063176,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 71.3,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 1532.70045964,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "○",
+            "detail": "3.56倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "×",
+            "detail": "減少・欠損 1回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 1回（普通配当ベース）"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期（普通配当ベース）"
+          }
+        },
+        "periods_available": 10,
+        "special_dividend_notes": []
+      },
+      "step3": {
+        "eps_sum": 1591.02,
+        "latest_bps": 3031.96,
+        "target_price": 4622.98
+      },
+      "forecast_dividend": 120.0,
+      "dividend_yield_pct": 4.3072505384063176,
+      "dividend_override_note": "セラミックス・研削砥石・工業炉等メーカー(ノリタケカンパニーリミテド)。EDINET DB get_financials の adjustedEps/adjustedBps(splitAdjustmentFactorで現在の株式数ベースに統一済み)を2017-2026年3月期の全期間に採用し、2026年3月期とそれ以前の分割基準の不整合(2024-2025年3月期はfactor2.0、2017-2023年3月期はfactor4.0)を避けた。配当は各期のadjustedAnnualDividendPerShare(2026年3月期のみ有報値180円から分割後基準の90円へ補正)を採用。2027年3月期の会社予想配当は120円(2026-11-05開示のQ2決算短信、前期比大幅増配)。10期実績では2020年3月期(コロナ影響)にBPSが一度減少(1804.96→1746.58)、配当は2021年3月期に1回減配(普通配当ベース、コロナ影響とみられる)あり。DOE・累進配当の公式宣言は未確認(2026-11-16時点)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：ガラス･土石製品・配当変動大",
+        "target1_pct": 3.58,
+        "target2_pct": 3.72,
+        "target3_pct": 3.87,
+        "buy1_price": 3352,
+        "buy2_price": 3226,
+        "buy3_price": 3101,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 732,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "BPS10期連続増加は自社株買い等の影響も確認。",
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 3,
+        "total_score": 4,
+        "payout_ratio_pct": 35.6,
+        "dividend_cagr_pct": 22.03,
+        "dividend_years_to_double": 3.5,
+        "growth_detail": [
+          "EPSが9期前の2倍以上"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "無配0期",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": []
+      },
+      "expected_irr": {
+        "expected_irr_pct": 50.7,
+        "dividend_return_pct": 26.3,
+        "capital_return_pct": 24.4,
+        "dividend_yield_component_pct": 4.31,
+        "dividend_growth_component_pct": 22.03,
+        "eps_growth_component_pct": 15.15,
+        "valuation_reversion_component_pct": 9.26
+      },
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 103.6,
+          "latest_forecast_growth_pct": 105.0,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 135.0,
+          "latest_forecast_growth_pct": 102.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "locked_targets": {
+        "buy1": 3352,
+        "buy2": 3226,
+        "buy3": 3101,
+        "target1_pct": 3.58,
+        "target2_pct": 3.72,
+        "target3_pct": 3.87,
+        "buy3_source": "利回り③",
+        "forecast_dividend_basis": 120.0,
+        "price_at_lock": 2786.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null,
+        "basis_date": "2026-11-24",
+        "reason": "初期設定",
+        "disabled": false,
+        "disabled_reason": null,
+        "order_warning": false,
+        "last_disc_no": 20260710591649,
+        "history": []
+      },
+      "updated_at": "2026-11-24 15:32",
+      "forecast_dividend_changes": []
     }
   ],
-  "errors": [
-    {
-      "code": "1417",
-      "error": "ProxyError: HTTPSConnectionPool(host='api.jquants.com', port=443): Max retries exceeded with url: /v2/equities/master?code=1417 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
-    }
-  ]
+  "errors": []
 }
