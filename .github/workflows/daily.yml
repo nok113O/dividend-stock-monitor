@@ -44,6 +44,13 @@ jobs:
           BARK_KEY: ${{ secrets.BARK_KEY }}      # 任意。未設定なら通知なし
         run: python daily_update.py --csv data-repo/watchlist.csv --out data-repo ${{ inputs.baseline && '--baseline' || '' }}
 
+      - name: Detect earnings
+        continue-on-error: true                  # 失敗しても株価更新は止めない
+        env:
+          EDINET_DB_API_KEY: ${{ secrets.EDINET_DB_API_KEY }}   # 未設定ならスキップ
+          BARK_KEY: ${{ secrets.BARK_KEY }}
+        run: python earnings_watch.py --csv data-repo/watchlist.csv --out data-repo
+
       - name: Commit data
         working-directory: data-repo
         run: |
