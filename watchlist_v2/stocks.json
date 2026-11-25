@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25 23:28",
+  "generated_at": "2026-11-25 23:30",
   "stocks": [
     {
       "code": "8306",
@@ -36040,6 +36040,176 @@
           "to": 140.0
         }
       ]
+    },
+    {
+      "code": "8253",
+      "name": "クレディセゾン",
+      "industry": "その他金融業",
+      "sector": "その他金融",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 4677.0,
+      "price_date": "2026-11-25 15:30",
+      "price_change": 115.0,
+      "price_change_pct": 0.025208242,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": true,
+        "stock_type_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 8.89704763354132,
+            "criterion": "12倍以下(上限18倍)",
+            "judge": "○"
+          },
+          "PBR": {
+            "value": 0.883117667829177,
+            "criterion": "1.3倍以下(上限1.95倍)",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.850099321662296,
+            "criterion": "7%以上(下限3.5%)",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 1.2299119168837132,
+            "criterion": "1%以上(下限0.5%)",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.7417147744280523,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 15.4,
+            "criterion": "10%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 6721.29392301,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "×",
+            "detail": "1.64倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回（普通配当ベース）"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期（普通配当ベース）"
+          }
+        },
+        "periods_available": 10,
+        "special_dividend_notes": []
+      },
+      "step3": {
+        "eps_sum": 2861.38,
+        "latest_bps": 5296.01,
+        "target_price": 8157.39
+      },
+      "forecast_dividend": 175.0,
+      "dividend_yield_pct": 3.7417147744280523,
+      "dividend_override_note": "クレジットカード・信販(その他金融業)。EDINET DB get_financials の2017-2026年3月期は全期間splitAdjustmentFactor=1.0(無分割)のためadjusted値=実績値そのまま。10期実績で配当は一度も減配なく連続増加(35→35→45→45→45→55→70→105→120→130円)。2027年3月期の会社予想配当は175円(2026-11-13開示のQ2決算短信)。業種はその他金融業のためsector_master.pyのSTEP1_THRESHOLD_OVERRIDESが適用される(自己資本比率・ROA基準が緩和)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：その他金融業・配当変動大",
+        "target1_pct": 3.21,
+        "target2_pct": 3.49,
+        "target3_pct": 3.71,
+        "buy1_price": 5452,
+        "buy2_price": 5014,
+        "buy3_price": 4717,
+        "buy_status": "第3買い（本格購入）",
+        "sample_daily": 730,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "今期EPSが9期前の2倍以上は一過性か構造的か確認。",
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 4,
+        "total_score": 5,
+        "payout_ratio_pct": 30.599999999999998,
+        "dividend_cagr_pct": 15.7,
+        "dividend_years_to_double": 4.8,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": []
+      },
+      "expected_irr": {
+        "expected_irr_pct": 34.1,
+        "dividend_return_pct": 19.4,
+        "capital_return_pct": 14.6,
+        "dividend_yield_component_pct": 3.74,
+        "dividend_growth_component_pct": 15.7,
+        "eps_growth_component_pct": 5.67,
+        "valuation_reversion_component_pct": 8.96
+      },
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "要確認",
+          "achievement_avg_pct": null,
+          "latest_forecast_growth_pct": null,
+          "periods": 0
+        },
+        "net_income": {
+          "tendency": "強気",
+          "achievement_avg_pct": 91.4,
+          "latest_forecast_growth_pct": 122.3,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "locked_targets": {
+        "buy1": 5452,
+        "buy2": 5014,
+        "buy3": 4717,
+        "target1_pct": 3.21,
+        "target2_pct": 3.49,
+        "target3_pct": 3.71,
+        "buy3_source": "利回り③",
+        "forecast_dividend_basis": 175.0,
+        "price_at_lock": 4677.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null,
+        "basis_date": "2026-11-25",
+        "reason": "初期設定",
+        "disabled": false,
+        "disabled_reason": null,
+        "order_warning": false,
+        "last_disc_no": 20260812517795,
+        "history": []
+      },
+      "updated_at": "2026-11-25 23:30",
+      "forecast_dividend_changes": []
     }
   ],
   "errors": []

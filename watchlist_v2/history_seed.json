@@ -9463,5 +9463,26 @@
       "progressive": false
     },
     "note": "化学メーカー(ADEKA)。EDINET DB get_financials の2017-2026年3月期は全期間splitAdjustmentFactor=1.0(無分割)のためadjusted値=実績値そのまま。10期実績でBPS連続増加・減配なし。2027年3月期の会社予想配当は140円(2026-11-11開示のQ2決算短信で132円から上方修正)。J-Quantsは2026-08-07開示(Q1)時点の132円のままで、2026-11-11のQ2上方修正が未反映(追加時点で判明)。"
+  },
+  "8253": {
+    "history": [
+      {"period": "2017-03-31", "eps": 258.7, "bps": 2724.88, "dividend": 35.0},
+      {"period": "2018-03-31", "eps": 234.67, "bps": 2933.46, "dividend": 35.0},
+      {"period": "2019-03-31", "eps": 186.84, "bps": 3006.14, "dividend": 45.0},
+      {"period": "2020-03-31", "eps": 143.43, "bps": 3102.26, "dividend": 45.0},
+      {"period": "2021-03-31", "eps": 231.24, "bps": 3397.92, "dividend": 45.0},
+      {"period": "2022-03-31", "eps": 226.35, "bps": 3598.22, "dividend": 55.0},
+      {"period": "2023-03-31", "eps": 278.92, "bps": 3827.22, "dividend": 70.0},
+      {"period": "2024-03-31", "eps": 453.08, "bps": 4323.36, "dividend": 105.0},
+      {"period": "2025-03-31", "eps": 423.02, "bps": 4740.04, "dividend": 120.0},
+      {"period": "2026-03-31", "eps": 425.13, "bps": 5296.01, "dividend": 130.0}
+    ],
+    "current_dividend_forecast": 175.0,
+    "dividend_policy": {
+      "doe": false,
+      "doe_target_pct": null,
+      "progressive": false
+    },
+    "note": "クレジットカード・信販(その他金融業)。EDINET DB get_financials の2017-2026年3月期は全期間splitAdjustmentFactor=1.0(無分割)のためadjusted値=実績値そのまま。10期実績で配当は一度も減配なく連続増加(35→35→45→45→45→55→70→105→120→130円)。2027年3月期の会社予想配当は175円(2026-11-13開示のQ2決算短信)。業種はその他金融業のためsector_master.pyのSTEP1_THRESHOLD_OVERRIDESが適用される(自己資本比率・ROA基準が緩和)。"
   }
 }
