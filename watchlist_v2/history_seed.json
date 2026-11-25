@@ -9442,5 +9442,26 @@
       "progressive": false
     },
     "note": "セラミックス・研削砥石・工業炉等メーカー(ノリタケカンパニーリミテド)。EDINET DB get_financials の adjustedEps/adjustedBps(splitAdjustmentFactorで現在の株式数ベースに統一済み)を2017-2026年3月期の全期間に採用し、2026年3月期とそれ以前の分割基準の不整合(2024-2025年3月期はfactor2.0、2017-2023年3月期はfactor4.0)を避けた。配当は各期のadjustedAnnualDividendPerShare(2026年3月期のみ有報値180円から分割後基準の90円へ補正)を採用。2027年3月期の会社予想配当は120円(2026-11-05開示のQ2決算短信、前期比大幅増配)。10期実績では2020年3月期(コロナ影響)にBPSが一度減少(1804.96→1746.58)、配当は2021年3月期に1回減配(普通配当ベース、コロナ影響とみられる)あり。DOE・累進配当の公式宣言は未確認(2026-11-16時点)。"
+  },
+  "4401": {
+    "history": [
+      {"period": "2017-03-31", "eps": 149.03, "bps": 1751.2, "dividend": 35.0},
+      {"period": "2018-03-31", "eps": 149.18, "bps": 1910.23, "dividend": 39.0},
+      {"period": "2019-03-31", "eps": 165.78, "bps": 1986.53, "dividend": 45.0},
+      {"period": "2020-03-31", "eps": 147.69, "bps": 2036.98, "dividend": 48.0},
+      {"period": "2021-03-31", "eps": 159.01, "bps": 2208.4, "dividend": 48.0},
+      {"period": "2022-03-31", "eps": 229.65, "bps": 2426.7, "dividend": 70.0},
+      {"period": "2023-03-31", "eps": 163.3, "bps": 2544.28, "dividend": 70.0},
+      {"period": "2024-03-31", "eps": 224.87, "bps": 2791.92, "dividend": 90.0},
+      {"period": "2025-03-31", "eps": 245.55, "bps": 2916.3, "dividend": 100.0},
+      {"period": "2026-03-31", "eps": 277.95, "bps": 3202.99, "dividend": 112.0}
+    ],
+    "current_dividend_forecast": 140.0,
+    "dividend_policy": {
+      "doe": false,
+      "doe_target_pct": null,
+      "progressive": false
+    },
+    "note": "化学メーカー(ADEKA)。EDINET DB get_financials の2017-2026年3月期は全期間splitAdjustmentFactor=1.0(無分割)のためadjusted値=実績値そのまま。10期実績でBPS連続増加・減配なし。2027年3月期の会社予想配当は140円(2026-11-11開示のQ2決算短信で132円から上方修正)。J-Quantsは2026-08-07開示(Q1)時点の132円のままで、2026-11-11のQ2上方修正が未反映(追加時点で判明)。"
   }
 }

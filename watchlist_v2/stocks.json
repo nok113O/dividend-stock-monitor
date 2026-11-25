@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24 15:32",
+  "generated_at": "2026-11-25 23:28",
   "stocks": [
     {
       "code": "8306",
@@ -35849,6 +35849,197 @@
       },
       "updated_at": "2026-11-24 15:32",
       "forecast_dividend_changes": []
+    },
+    {
+      "code": "4401",
+      "name": "ＡＤＥＫＡ",
+      "industry": "化学",
+      "sector": "化学",
+      "cycle": "景気敏感",
+      "fiscal_year_end_month": 3,
+      "price": 3971.0,
+      "price_date": "2026-11-25 15:30",
+      "price_change": -85.0,
+      "price_change_pct": -0.020956608,
+      "step1": {
+        "overall": "○",
+        "sector_adjusted": false,
+        "stock_type_adjusted": false,
+        "rows": {
+          "PER": {
+            "value": 12.034062670464875,
+            "criterion": "12倍以下(上限18倍)",
+            "judge": "×"
+          },
+          "PBR": {
+            "value": 1.2397790814207976,
+            "criterion": "1.3倍以下(上限1.95倍)",
+            "judge": "○"
+          },
+          "ROE": {
+            "value": 7.323040536101439,
+            "criterion": "7%以上(下限3.5%)",
+            "judge": "○"
+          },
+          "ROA": {
+            "value": 4.837099823117608,
+            "criterion": "3%以上(下限1.5%)",
+            "judge": "○"
+          },
+          "配当利回り": {
+            "value": 3.525560312263913,
+            "criterion": "3%以上",
+            "judge": "○"
+          },
+          "自己資本比率": {
+            "value": 55.800000000000004,
+            "criterion": "35%以上",
+            "judge": "○"
+          },
+          "時価総額": {
+            "value": 3850.91958086,
+            "criterion": "100億円以上",
+            "judge": "○"
+          }
+        }
+      },
+      "step2": {
+        "overall": "×",
+        "rows": {
+          "EPS10期赤字なし": {
+            "judge": "○",
+            "detail": "赤字 0期"
+          },
+          "今期EPSが9期前の2倍以上": {
+            "judge": "×",
+            "detail": "1.87倍"
+          },
+          "BPS10期連続増加": {
+            "judge": "○",
+            "detail": "減少・欠損 0回"
+          },
+          "10期で減配2回未満": {
+            "judge": "○",
+            "detail": "減配 0回（普通配当ベース）"
+          },
+          "10期で無配なし": {
+            "judge": "○",
+            "detail": "無配・欠損 0期（普通配当ベース）"
+          }
+        },
+        "periods_available": 10,
+        "special_dividend_notes": []
+      },
+      "step3": {
+        "eps_sum": 1912.01,
+        "latest_bps": 3202.99,
+        "target_price": 5115.0
+      },
+      "forecast_dividend": 140.0,
+      "dividend_yield_pct": 3.525560312263913,
+      "dividend_override_note": "化学メーカー(ADEKA)。EDINET DB get_financials の2017-2026年3月期は全期間splitAdjustmentFactor=1.0(無分割)のためadjusted値=実績値そのまま。10期実績でBPS連続増加・減配なし。2027年3月期の会社予想配当は140円(2026-11-11開示のQ2決算短信で132円から上方修正)。J-Quantsは2026-08-07開示(Q1)時点の132円のままで、2026-11-11のQ2上方修正が未反映(追加時点で判明)。",
+      "target_yield": {
+        "cycle_class": "景気敏感株",
+        "reason": "業種：化学・利益比較的安定・減配なし・増配基調",
+        "target1_pct": 3.52,
+        "target2_pct": 3.7,
+        "target3_pct": 3.92,
+        "buy1_price": 3977,
+        "buy2_price": 3784,
+        "buy3_price": 3571,
+        "buy_status": "第1買い（打診買い）",
+        "sample_daily": 730,
+        "sample_annual": 10,
+        "error": null
+      },
+      "rating": "条件付き監視",
+      "comment": "PERは基準未達。 今期EPSが9期前の2倍以上は一過性か構造的か確認。",
+      "priority_score": {
+        "growth_score": 1,
+        "income_score": 4,
+        "total_score": 5,
+        "payout_ratio_pct": 40.300000000000004,
+        "dividend_cagr_pct": 13.8,
+        "dividend_years_to_double": 5.4,
+        "growth_detail": [
+          "BPS10期連続増加"
+        ],
+        "income_detail": [
+          "配当性向50%以下",
+          "減配0回",
+          "無配0期",
+          "配当CAGR5%以上"
+        ],
+        "dividend_quality_badges": []
+      },
+      "expected_irr": {
+        "expected_irr_pct": 25.1,
+        "dividend_return_pct": 17.3,
+        "capital_return_pct": 7.7,
+        "dividend_yield_component_pct": 3.53,
+        "dividend_growth_component_pct": 13.8,
+        "eps_growth_component_pct": 7.17,
+        "valuation_reversion_component_pct": 0.56
+      },
+      "forecast_tendency": {
+        "sales": {
+          "tendency": "強気",
+          "achievement_avg_pct": 94.5,
+          "latest_forecast_growth_pct": 108.7,
+          "periods": 1
+        },
+        "net_income": {
+          "tendency": "弱気",
+          "achievement_avg_pct": 105.6,
+          "latest_forecast_growth_pct": 103.4,
+          "periods": 1
+        }
+      },
+      "valuation_range": null,
+      "equity_ratio_trend": null,
+      "locked_targets": {
+        "buy1": 3977,
+        "buy2": 3784,
+        "buy3": 3571,
+        "target1_pct": 3.52,
+        "target2_pct": 3.7,
+        "target3_pct": 3.92,
+        "buy3_source": "利回り③",
+        "forecast_dividend_basis": 140.0,
+        "price_at_lock": 4408.0,
+        "large_increase_warning": false,
+        "large_increase_detail": null,
+        "basis_date": "2026-11-11",
+        "reason": "初期設定（EDINET DB確認済みの最新予想配当140円を採用、J-Quants未反映分を補正）",
+        "disabled": false,
+        "disabled_reason": null,
+        "order_warning": false,
+        "last_disc_no": 20260807513929,
+        "history": [
+          {
+            "date": "2026-11-11",
+            "trigger": "初期設定",
+            "from": {
+              "buy1": 3750,
+              "buy2": 3568,
+              "buy3": 3367
+            },
+            "to": {
+              "buy1": 3977,
+              "buy2": 3784,
+              "buy3": 3571
+            }
+          }
+        ]
+      },
+      "updated_at": "2026-11-25 23:28",
+      "forecast_dividend_changes": [
+        {
+          "date": "2026-11-25",
+          "from": 132.0,
+          "to": 140.0
+        }
+      ]
     }
   ],
   "errors": []
