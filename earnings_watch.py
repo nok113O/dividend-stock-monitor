@@ -113,6 +113,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--csv", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--since", default="", help="過去の取りこぼし回収: この日付(YYYY-MM-DD)以降の確定済み発表を分析待ちに入れる")
     a = ap.parse_args()
 
     key = os.environ.get("EDINET_DB_API_KEY", "").strip()
@@ -133,7 +134,13 @@ def main():
         with open(path, encoding="utf-8") as f:
             state = json.load(f)
 
-    entries = fetch_calendar(key, today, to)
+    backfill = bool(a.since.strip())
+    d_from = a.since.strip() if backfill else today
+    entries = fetch_calendar(key, d_from, to)
+    if backfill:
+        # 過去日付は「確定済み(confirmed)」の発表だけを対象にする(推定日は未発表の可能性)
+        entries = [e for e in entries
+                   if not (entry_date(e) and entry_date(e) < today and e.get("dateStatus") != "confirmed")]
     new = update_state(state, entries, codes, today)
 
     with open(path, "w", encoding="utf-8") as f:
@@ -143,7 +150,7 @@ def main():
           f"pending={len(state['pending'])} new={len(new)}")
 
     bark = os.environ.get("BARK_KEY", "").strip()
-    if bark and new:
+    if bark and new and not backfill:
         names = "、".join(f"{x['name']}({x['code']})" for x in new[:5])
         try:
             requests.post("https://api.day.app/push", timeout=20, json={
