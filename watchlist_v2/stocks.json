@@ -4545,8 +4545,8 @@
         "latest_bps": 1202.76,
         "target_price": 2193.9
       },
-      "forecast_dividend": 67.0,
-      "dividend_yield_pct": 3.401015228426396,
+      "forecast_dividend": 70.0,
+      "dividend_yield_pct": 3.5532994923857872,
       "dividend_override_note": "決算期は12月。2026年12月期の会社予想は67円(2026-07提供資料、四半期内訳2Q33.5円+4Q33.5円)。2026-08-09確認：上場以来17期連続増配、中長期経営計画(2026-2036)で2029年にかけて配当性向を段階的に45%へ引き上げる方針(複数ソースで「累進配当」と言及)。DOEの具体的数値目標は確認できず。",
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -4614,12 +4614,12 @@
       "valuation_range": null,
       "equity_ratio_trend": null,
       "locked_targets": {
-        "buy1": 1736,
-        "buy2": 1705,
-        "buy3": 1679,
+        "buy1": 1813,
+        "buy2": 1781,
+        "buy3": 1754,
         "buy3_source": "利回り③",
-        "basis_date": "2026-07-28",
-        "reason": "決算短信取り込みによる引き直し",
+        "basis_date": "2026-10-28",
+        "reason": "配当予想の修正(予想配当70円)による買付株価の再計算(手動反映: J-Quants未反映のためEDINET DBで確認)",
         "target1_pct": 3.86,
         "target2_pct": 3.93,
         "target3_pct": 3.99,
@@ -4752,11 +4752,25 @@
               "buy2": 1705,
               "buy3": 1679
             }
+          },
+          {
+            "date": "2026-10-28",
+            "trigger": "配当予想の修正",
+            "from": {
+              "buy1": 1736,
+              "buy2": 1705,
+              "buy3": 1679
+            },
+            "to": {
+              "buy1": 1813,
+              "buy2": 1781,
+              "buy3": 1754
+            }
           }
         ],
         "last_disc_no": 20260727500129,
-        "forecast_dividend_basis": 67.0,
-        "price_at_lock": 1809.0,
+        "forecast_dividend_basis": 70.0,
+        "price_at_lock": 1970.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
@@ -12449,8 +12463,8 @@
         "latest_bps": 2400.39,
         "target_price": 4415.6
       },
-      "forecast_dividend": 116.0,
-      "dividend_yield_pct": 2.056737588652482,
+      "forecast_dividend": 136.0,
+      "dividend_yield_pct": 2.4113475177304964,
       "dividend_override_note": null,
       "target_yield": {
         "cycle_class": "景気敏感株",
@@ -12516,12 +12530,12 @@
       "valuation_range": null,
       "equity_ratio_trend": null,
       "locked_targets": {
-        "buy1": 5022,
-        "buy2": 4895,
+        "buy1": 5887,
+        "buy2": 5738,
         "buy3": 4415.6,
         "buy3_source": "目標株価",
-        "basis_date": "2026-07-24",
-        "reason": "決算短信取り込みによる引き直し",
+        "basis_date": "2026-09-15",
+        "reason": "配当予想の修正(予想配当136円)による買付株価の再計算(手動反映: J-Quants未反映のためEDINET DBで確認)",
         "target1_pct": 2.31,
         "target2_pct": 2.37,
         "target3_pct": 2.51,
@@ -12646,11 +12660,25 @@
               "buy2": 4895,
               "buy3": 4415.6
             }
+          },
+          {
+            "date": "2026-09-15",
+            "trigger": "配当予想の修正",
+            "from": {
+              "buy1": 5022,
+              "buy2": 4895,
+              "buy3": 4415.6
+            },
+            "to": {
+              "buy1": 5887,
+              "buy2": 5738,
+              "buy3": 4415.6
+            }
           }
         ],
         "last_disc_no": 20260724598954,
-        "forecast_dividend_basis": 116.0,
-        "price_at_lock": 6702.0,
+        "forecast_dividend_basis": 136.0,
+        "price_at_lock": 5640.0,
         "large_increase_warning": false,
         "large_increase_detail": null
       },
