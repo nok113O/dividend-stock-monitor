@@ -90,9 +90,14 @@ def update_state(state, entries, codes, today):
         if code not in codes or not d:
             continue
         k = entry_key(e)
-        if k in state["done"] or k in state["pending"]:
+        if k in state["done"]:
+            continue
+        if k in state["pending"]:
+            if e.get("edinetCode") and not state["pending"][k].get("edinet_code"):
+                state["pending"][k]["edinet_code"] = e["edinetCode"]
             continue
         state["upcoming"][k] = {
+            "edinet_code": e.get("edinetCode"),
             "code": code,
             "name": e.get("companyName"),
             "period": e.get("periodTypeEn"),
