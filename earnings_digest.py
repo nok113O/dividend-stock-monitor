@@ -8,6 +8,7 @@
 import argparse
 import json
 import os
+import re
 import sys
 import time
 
@@ -26,7 +27,15 @@ def fetch_latest(api_key, edinet_code, get=requests.get):
     rows = _find_list(r.json())
     if not rows:
         raise ValueError(f"no rows: {_shape(r.json())}")
-    return sorted(rows, key=lambda x: x.get("disclosureDate") or "", reverse=True)[0]
+    return sorted(rows, key=lambda x: g(x, "disclosureDate") or "", reverse=True)[0]
+
+
+def g(row, camel, default=None):
+    """camelCase でも snake_case でも拾える取得関数(APIの表記ゆれ対策)。"""
+    if camel in row and row[camel] is not None:
+        return row[camel]
+    snake = re.sub(r"(?<!^)(?=[A-Z])", "_", camel).lower()
+    return row.get(snake, default)
 
 
 def _num(v):
@@ -38,16 +47,19 @@ def _num(v):
 
 
 def build_record(entry, row, csv_div):
-    div_new = _num(row.get("effectiveForecastDividendPerShare"))
+    div_new = _num(g(row, "effectiveForecastDividendPerShare"))
     if div_new is None:
-        div_new = _num(row.get("forecastDividendPerShare"))
+        div_new = _num(g(row, "forecastDividendPerShare"))
     flags = []
-    if (row.get("disclosureDate") or "") < entry["date"]:
+    disc = g(row, "disclosureDate")
+    if not disc:
+        flags.append("取得形式不明")
+    elif disc < entry["date"]:
         flags.append("データ未反映")
     chg = None
-    if div_new is None:
+    if div_new is None and disc:
         flags.append("配当予想なし")
-    elif csv_div:
+    elif div_new is not None and csv_div:
         chg = round((div_new / csv_div - 1) * 100, 1)
         if chg <= -0.05:
             flags.append("減配方向")
@@ -58,14 +70,15 @@ def build_record(entry, row, csv_div):
     return {
         "code": entry["code"], "name": entry["name"], "period": entry["period"],
         "fiscal_year_end": entry["fiscal_year_end"], "announce_date": entry["date"],
-        "disclosure_date": row.get("disclosureDate"), "quarter": row.get("quarter"),
+        "disclosure_date": disc, "quarter": g(row, "quarter"),
         "div_forecast_new": div_new, "div_csv": csv_div, "div_change_pct": chg,
-        "net_income": row.get("netIncome"), "net_income_yoy": row.get("netIncomeChange"),
-        "op_income_yoy": row.get("operatingIncomeChange"),
-        "forecast_net_income": row.get("effectiveForecastNetIncome", row.get("forecastNetIncome")),
-        "forecast_net_income_change": row.get("effectiveForecastNetIncomeChange",
-                                              row.get("forecastNetIncomeChange")),
-        "equity_ratio": row.get("equityRatio"), "pdf": row.get("pdfUrl"), "flags": flags,
+        "net_income": g(row, "netIncome"), "net_income_yoy": g(row, "netIncomeChange"),
+        "op_income_yoy": g(row, "operatingIncomeChange"),
+        "forecast_net_income": g(row, "effectiveForecastNetIncome") or g(row, "forecastNetIncome"),
+        "forecast_net_income_change": g(row, "effectiveForecastNetIncomeChange")
+        or g(row, "forecastNetIncomeChange"),
+        "equity_ratio": g(row, "equityRatio"), "pdf": g(row, "pdfUrl"), "flags": flags,
+        "row_keys": sorted(row)[:40] if not disc else None,
     }
 
 
@@ -90,7 +103,7 @@ def main():
     div_map = {norm_code(r["コード"]): _num(r.get("予想配当")) for _, r in df.iterrows()}
 
     todo = [(k, v) for k, v in state.get("pending", {}).items()
-            if k not in digest or "データ未反映" in digest[k].get("flags", [])]
+            if k not in digest or {"データ未反映", "取得形式不明"} & set(digest[k].get("flags", []))]
     ok = fail = skip = 0
     for k, v in todo[: a.max]:
         if not v.get("edinet_code"):
