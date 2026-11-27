@@ -11,6 +11,10 @@ on:
         description: "初回は true(通知なしで基準を揃える)"
         type: boolean
         default: false
+      since:
+        description: "取りこぼし回収: この日以降の決算を分析待ちに入れる(例 2026-10-27)。普段は空欄"
+        type: string
+        default: ""
       test_push:
         description: "true にすると、通知のテストだけ送る(株価更新もする)"
         type: boolean
@@ -69,7 +73,7 @@ jobs:
         env:
           EDINET_DB_API_KEY: ${{ secrets.EDINET_DB_API_KEY }}   # 未設定ならスキップ
           BARK_KEY: ${{ secrets.BARK_KEY }}
-        run: python earnings_watch.py --csv data-repo/watchlist.csv --out data-repo
+        run: python earnings_watch.py --csv data-repo/watchlist.csv --out data-repo ${{ inputs.since && format('--since {0}', inputs.since) || '' }}
 
       - name: Commit data
         working-directory: data-repo
