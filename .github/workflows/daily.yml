@@ -75,6 +75,12 @@ jobs:
           BARK_KEY: ${{ secrets.BARK_KEY }}
         run: python earnings_watch.py --csv data-repo/watchlist.csv --out data-repo ${{ inputs.since && format('--since {0}', inputs.since) || '' }}
 
+      - name: Digest earnings
+        continue-on-error: true                  # 分析待ちの数字を機械的に集める(1回45銘柄まで)
+        env:
+          EDINET_DB_API_KEY: ${{ secrets.EDINET_DB_API_KEY }}
+        run: python earnings_digest.py --csv data-repo/watchlist.csv --out data-repo --max 45
+
       - name: Commit data
         working-directory: data-repo
         run: |
