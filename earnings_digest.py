@@ -115,7 +115,11 @@ def main():
             ok += 1
         except Exception as e:  # noqa: BLE001
             fail += 1
-            print(f"digest: error {type(e).__name__}")
+            code = getattr(getattr(e, "response", None), "status_code", None)
+            print(f"digest: error {type(e).__name__} status={code}")
+            if code == 429:  # 1日の上限。これ以上呼ばずに止める(翌日の実行で続きをやる)
+                print("digest: rate limit reached, stopping")
+                break
         time.sleep(0.3)
     json.dump(digest, open(dp, "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
     left = max(0, len(todo) - a.max)
