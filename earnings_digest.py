@@ -133,7 +133,7 @@ def main():
             return True
         if (r.get("disclosure_date") or "") < r.get("announce_date", ""):
             return True  # 古い行を拾っていた可能性
-        return r.get("v") != 2 and "減配方向" in fl  # 分割調整の再確認
+        return r.get("v") != 2  # 旧形式の記録は、分割調整つきで一度だけ取り直す
 
     todo = [(k, v) for k, v in state.get("pending", {}).items() if needs(k)]
     ok = fail = skip = 0
