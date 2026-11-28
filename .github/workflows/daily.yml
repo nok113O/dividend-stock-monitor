@@ -81,6 +81,10 @@ jobs:
           EDINET_DB_API_KEY: ${{ secrets.EDINET_DB_API_KEY }}
         run: python earnings_digest.py --csv data-repo/watchlist.csv --out data-repo --max 45
 
+      - name: Apply dividends
+        continue-on-error: true                  # 増配・変化なしの予想配当だけCSVへ反映(減配は人が確認)
+        run: python apply_dividends.py --csv data-repo/watchlist.csv --out data-repo
+
       - name: Commit data
         working-directory: data-repo
         run: |
