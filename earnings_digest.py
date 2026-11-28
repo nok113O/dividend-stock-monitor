@@ -11,6 +11,7 @@ import os
 import re
 import sys
 import time
+from email.utils import parsedate_to_datetime
 
 import pandas as pd
 import requests
@@ -27,7 +28,20 @@ def fetch_latest(api_key, edinet_code, get=requests.get):
     rows = _find_list(r.json())
     if not rows:
         raise ValueError(f"no rows: {_shape(r.json())}")
-    return sorted(rows, key=lambda x: g(x, "disclosureDate") or "", reverse=True)[0]
+    return sorted(rows, key=lambda x: iso(g(x, "disclosureDate")) or "", reverse=True)[0]
+
+
+def iso(v):
+    """'Wed, 11 Nov 2026 00:00:00 GMT' でも '2026-11-11' でも、'YYYY-MM-DD' にそろえる。"""
+    if not v:
+        return None
+    t = str(v).strip()
+    if re.match(r"^\d{4}-\d{2}-\d{2}", t):
+        return t[:10]
+    try:
+        return parsedate_to_datetime(t).strftime("%Y-%m-%d")
+    except Exception:  # noqa: BLE001
+        return t
 
 
 def g(row, camel, default=None):
@@ -51,7 +65,12 @@ def build_record(entry, row, csv_div):
     if div_new is None:
         div_new = _num(g(row, "forecastDividendPerShare"))
     flags = []
-    disc = g(row, "disclosureDate")
+    # 株式分割などで「調整後の予想配当」が付いている場合は、そちらでExcelと比べる
+    adj = _num(g(row, "adjustedForecastDividendPerShare"))
+    if adj is not None and div_new is not None and abs(adj - div_new) > 1e-9:
+        flags.append("分割調整あり")
+        div_new = adj
+    disc = iso(g(row, "disclosureDate"))
     if not disc:
         flags.append("取得形式不明")
     elif disc < entry["date"]:
@@ -78,7 +97,7 @@ def build_record(entry, row, csv_div):
         "forecast_net_income_change": g(row, "effectiveForecastNetIncomeChange")
         or g(row, "forecastNetIncomeChange"),
         "equity_ratio": g(row, "equityRatio"), "pdf": g(row, "pdfUrl"), "flags": flags,
-        "row_keys": sorted(row)[:40] if not disc else None,
+        "row_keys": sorted(row)[:40] if not disc else None, "v": 2,
     }
 
 
@@ -102,8 +121,21 @@ def main():
     df = pd.read_csv(a.csv, dtype=str, encoding="utf-8-sig")
     div_map = {norm_code(r["コード"]): _num(r.get("予想配当")) for _, r in df.iterrows()}
 
-    todo = [(k, v) for k, v in state.get("pending", {}).items()
-            if k not in digest or {"データ未反映", "取得形式不明"} & set(digest[k].get("flags", []))]
+    for rec in digest.values():  # 古い形式の日付をそろえる
+        rec["disclosure_date"] = iso(rec.get("disclosure_date"))
+
+    def needs(k):
+        r = digest.get(k)
+        if r is None:
+            return True
+        fl = set(r.get("flags", []))
+        if {"データ未反映", "取得形式不明"} & fl:
+            return True
+        if (r.get("disclosure_date") or "") < r.get("announce_date", ""):
+            return True  # 古い行を拾っていた可能性
+        return r.get("v") != 2 and "減配方向" in fl  # 分割調整の再確認
+
+    todo = [(k, v) for k, v in state.get("pending", {}).items() if needs(k)]
     ok = fail = skip = 0
     for k, v in todo[: a.max]:
         if not v.get("edinet_code"):
